@@ -182,7 +182,9 @@ def ex_custom(soup, raw):
     for t in soup(["script", "style", "noscript", "header", "footer", "nav", "form[role=search]"]):
         t.decompose()
     main = soup.select_one("main, #main, .product, .product-details, .product-page, #content, .content") or soup.body
-    r["description"] = text_of(main)[:6000]
+    d = text_of(main)
+    m = END_MARKERS.search(d, min(len(r["page_title"]) + 5, len(d)))
+    r["description"] = (d[: m.start()] if m else d)[:6000]
     r["attributes"] = {}
     opts = {}
     for sel in (main.select("select") if main else []):
@@ -218,7 +220,7 @@ def main_text(raw, title):
         # last heading-like occurrence before the bulk of the product text
         if positions:
             txt = txt[positions[0]:]
-    m = END_MARKERS.search(txt, 200)
+    m = END_MARKERS.search(txt, min(len(title or "") + 5, len(txt)))
     if m:
         txt = txt[: m.start()]
     return txt[:8000]
