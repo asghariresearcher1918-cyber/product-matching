@@ -1,0 +1,9 @@
+id,supplier,url,error,when
+N00630,Refine Pharma,https://refinepharma.com/product/pabrinex/,RemoteProtocolError: Server disconnected without sending a response.,Tue Nov 10 09:35:23 2026
+N00756,Refine Pharma,https://refinepharma.com/product/teosyal-rha-3-1ml/,RemoteProtocolError: Server disconnected without sending a response.,Tue Nov 10 09:35:55 2026
+N00814,Refine Pharma,https://refinepharma.com/product/juvederm-ultra-3-2x1ml/,RemoteProtocolError: Server disconnected without sending a response.,Tue Nov 10 09:36:27 2026
+N00942,Refine Pharma,https://refinepharma.com/product/profhilo-hl-2ml/,RemoteProtocolError: Server disconnected without sending a response.,Tue Nov 10 09:36:59 2026
+R05695,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/995,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Tue Nov 10 09:39:18 2026
+R05706,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/982,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Tue Nov 10 09:39:18 2026
+R05841,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/331,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Tue Nov 10 09:39:18 2026
+R05924,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/6,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Tue Nov 10 09:39:18 2026

@@ -1,0 +1,69 @@
+2026-11-10 09:33:28 OK R05695 httpx 32334B Aesthetic Pharma
+2026-11-10 09:33:29 OK R05706 httpx 32334B Aesthetic Pharma
+2026-11-10 09:33:29 OK R05729 httpx 29419B Aesthetic Pharma
+2026-11-10 09:33:31 OK R05841 httpx 32334B Aesthetic Pharma
+2026-11-10 09:33:32 OK R05924 httpx 32334B Aesthetic Pharma
+2026-11-10 09:33:33 OK R10112 httpx 349828B Ask Pharmacy
+2026-11-10 09:33:34 OK R10156 httpx 346340B Ask Pharmacy
+2026-11-10 09:33:35 OK R10281 httpx 343371B Ask Pharmacy
+2026-11-10 09:33:36 OK R10321 httpx 336885B Ask Pharmacy
+2026-11-10 09:33:37 OK R10386 httpx 332068B Ask Pharmacy
+2026-11-10 09:33:38 OK R10427 httpx 330329B Ask Pharmacy
+2026-11-10 09:33:39 OK R10470 httpx 332809B Ask Pharmacy
+2026-11-10 09:33:40 OK R10511 httpx 332716B Ask Pharmacy
+2026-11-10 09:33:42 OK R00653 httpx 81411B Church Pharmacy
+2026-11-10 09:33:43 OK R00666 httpx 87865B Church Pharmacy
+2026-11-10 09:33:45 OK R01416 httpx 82528B Church Pharmacy
+2026-11-10 09:33:46 OK R01417 httpx 77204B Church Pharmacy
+2026-11-10 09:33:46 OK R01860 httpx 81583B Church Pharmacy
+2026-11-10 09:33:47 OK R01861 httpx 79766B Church Pharmacy
+2026-11-10 09:33:49 OK R02579 httpx 82356B Church Pharmacy
+2026-11-10 09:33:49 OK R02596 httpx 82759B Church Pharmacy
+2026-11-10 09:33:50 OK R02718 httpx 79615B Church Pharmacy
+2026-11-10 09:33:52 OK R02721 httpx 79604B Church Pharmacy
+2026-11-10 09:33:55 OK R03015 httpx 230645B Fox Pharma
+2026-11-10 09:33:57 OK R03026 httpx 228987B Fox Pharma
+2026-11-10 09:34:00 OK R03027 httpx 229043B Fox Pharma
+2026-11-10 09:34:03 OK R03087 httpx 237554B Fox Pharma
+2026-11-10 09:34:05 OK R03093 httpx 232393B Fox Pharma
+2026-11-10 09:34:07 OK R03112 httpx 230656B Fox Pharma
+2026-11-10 09:34:09 OK R03165 httpx 230335B Fox Pharma
+2026-11-10 09:34:12 OK R03166 httpx 230025B Fox Pharma
+2026-11-10 09:34:14 OK R03203 httpx 230594B Fox Pharma
+2026-11-10 09:34:16 OK R03210 httpx 230458B Fox Pharma
+2026-11-10 09:34:18 OK R03238 httpx 232661B Fox Pharma
+2026-11-10 09:34:20 OK R03239 httpx 231535B Fox Pharma
+2026-11-10 09:34:21 OK R03245 httpx 233861B Fox Pharma
+2026-11-10 09:34:24 OK R03254 httpx 239263B Fox Pharma
+2026-11-10 09:34:25 OK R03302 httpx 229371B Fox Pharma
+2026-11-10 09:34:28 OK R03344 httpx 234476B Fox Pharma
+2026-11-10 09:34:29 OK R04484 httpx 36358B John Bannon Pharmacy
+2026-11-10 09:34:30 OK R04510 httpx 36300B John Bannon Pharmacy
+2026-11-10 09:34:31 OK R04537 httpx 36443B John Bannon Pharmacy
+2026-11-10 09:34:32 OK R04891 httpx 36648B John Bannon Pharmacy
+2026-11-10 09:34:33 OK R05159 httpx 36547B John Bannon Pharmacy
+2026-11-10 09:34:34 OK R05164 httpx 36063B John Bannon Pharmacy
+2026-11-10 09:34:35 OK R05319 httpx 36616B John Bannon Pharmacy
+2026-11-10 09:34:36 OK R05379 httpx 39597B John Bannon Pharmacy
+2026-11-10 09:34:37 OK R05425 httpx 36539B John Bannon Pharmacy
+2026-11-10 09:34:38 OK R05438 httpx 36328B John Bannon Pharmacy
+2026-11-10 09:34:40 OK R00032 httpx 202394B MedFX
+2026-11-10 09:34:41 OK R00048 httpx 195407B MedFX
+2026-11-10 09:34:42 OK R00183 httpx 187800B MedFX
+2026-11-10 09:34:43 OK R00186 httpx 192802B MedFX
+2026-11-10 09:34:44 OK R05521 httpx 70143B Moda Pharmacy
+2026-11-10 09:34:45 OK R05559 httpx 67765B Moda Pharmacy
+2026-11-10 09:34:46 OK R05599 httpx 66407B Moda Pharmacy
+2026-11-10 09:34:47 OK R05600 httpx 66526B Moda Pharmacy
+2026-11-10 09:34:48 OK R05672 httpx 67546B Moda Pharmacy
+2026-11-10 09:34:49 OK R07603 httpx 217595B MyPharmacyspace
+2026-11-10 09:34:50 robots.txt unreachable for refinepharma.com: Server disconnected without sending a response.
+2026-11-10 09:35:23 FAIL N00630 RemoteProtocolError: Server disconnected without sending a response. https://refinepharma.com/product/pabrinex/
+2026-11-10 09:35:55 FAIL N00756 RemoteProtocolError: Server disconnected without sending a response. https://refinepharma.com/product/teosyal-rha-3-1ml/
+2026-11-10 09:36:27 FAIL N00814 RemoteProtocolError: Server disconnected without sending a response. https://refinepharma.com/product/juvederm-ultra-3-2x1ml/
+2026-11-10 09:36:59 FAIL N00942 RemoteProtocolError: Server disconnected without sending a response. https://refinepharma.com/product/profhilo-hl-2ml/
+2026-11-10 09:37:01 OK R06864 httpx 347723B Skin On You
+2026-11-10 09:37:02 OK R06940 httpx 347947B Skin On You
+2026-11-10 09:37:04 OK R06961 httpx 344410B Skin On You
+2026-11-10 09:37:05 OK R06981 httpx 347245B Skin On You
+2026-11-10 09:37:05 scrape finished: new=63 skipped(cached)=0 failed=4
