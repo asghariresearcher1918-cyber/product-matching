@@ -46,17 +46,22 @@ def main():
     pdfmetrics.registerFont(TTFont("DV", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"))
     pdfmetrics.registerFont(TTFont("DVB", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"))
     cell = ParagraphStyle("c", fontName="DV", fontSize=7.5, leading=9)
+    link = ParagraphStyle("l", fontName="DV", fontSize=6.3, leading=7.6, textColor=colors.HexColor("#1a56a8"), splitLongWords=1)
     head = ParagraphStyle("h", fontName="DVB", fontSize=8, leading=10, textColor=colors.white)
     h1 = ParagraphStyle("t", fontName="DVB", fontSize=15, leading=19)
     note = ParagraphStyle("n", fontName="DV", fontSize=8.5, leading=11, textColor=colors.HexColor("#444444"))
     esc = lambda s: s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
-    data = [[Paragraph(h, head) for h in ("#", "ID", "Supplier", "Title", "Matched keyword")]]
+    data = [[Paragraph(h, head) for h in ("#", "ID", "Supplier", "Title (click to open)", "Product link", "Match")]]
     for i, (x, kw) in enumerate(sel, 1):
+        u = esc(x["url"])
         data.append([Paragraph(str(i), cell), Paragraph(x["id"], cell), Paragraph(esc(x["supplier"]), cell),
-                     Paragraph(esc(x["title"]), cell), Paragraph(esc(kw), cell)])
+                     Paragraph(f'<a href="{u}" color="#1a56a8">{esc(x["title"])}</a>', cell),
+                     Paragraph(f'<a href="{u}">{u}</a>', link), Paragraph(esc(kw), cell)])
     pw = landscape(A4)[0] - 24 * mm
-    t = Table(data, colWidths=[12 * mm, 18 * mm, 42 * mm, pw - 12 * mm - 18 * mm - 42 * mm - 30 * mm, 30 * mm], repeatRows=1)
+    fixed = [10 * mm, 15 * mm, 33 * mm, 0, 92 * mm, 17 * mm]
+    fixed[3] = pw - sum(fixed)
+    t = Table(data, colWidths=fixed, repeatRows=1)
     t.setStyle(TableStyle([
         ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#2f4f6f")),
         ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f2f5f8")]),
