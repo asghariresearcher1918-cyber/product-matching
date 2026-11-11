@@ -4,3 +4,5 @@ __pycache__/
 cache/
 !cache/**/
 logs/scrape_*.log
+logs/images.log
+logs/render_acre.log
