@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+# raw HTML cache is too large for git (~800 MB); pilot pages committed earlier stay tracked
+cache/
+!cache/**/
+logs/scrape_*.log

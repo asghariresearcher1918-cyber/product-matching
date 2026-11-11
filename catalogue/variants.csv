@@ -1,0 +1,34 @@
+variant_id,family_id,label,attributes,reference_status
+F-botox/50-allergan-units,F-botox,50 Allergan Units,"{""strength"": ""50 Allergan Units"", ""form"": ""powder for solution for injection"", ""route"": ""IM""}",official
+F-botox/100-allergan-units,F-botox,100 Allergan Units,"{""strength"": ""100 Allergan Units"", ""form"": ""powder for solution for injection"", ""route"": ""IM""}",official
+F-botox/200-allergan-units,F-botox,200 Allergan Units,"{""strength"": ""200 Allergan Units"", ""form"": ""powder for solution for injection"", ""route"": ""IM""}",official
+F-bocouture/50-units,F-bocouture,50 units,"{""strength"": ""50 units"", ""form"": ""powder for solution for injection"", ""route"": ""IM""}",official
+F-bocouture/100-units,F-bocouture,100 units,"{""strength"": ""100 units"", ""form"": ""powder for solution for injection"", ""route"": ""IM""}",official
+F-azzalure/125-speywood-units,F-azzalure,125 Speywood units,"{""strength"": ""125 Speywood units"", ""form"": ""powder for solution for injection"", ""route"": ""IM""}",official
+F-alluzience/125-speywood-units-200-su-ml-0-625-ml,F-alluzience,"125 Speywood units (200 SU/ml, 0.625 ml)","{""strength"": ""125 Speywood units (200 SU/ml, 0.625 ml)"", ""form"": ""solution for injection"", ""route"": ""IM""}",official
+F-dysport/300-units,F-dysport,300 units,"{""strength"": ""300 units"", ""form"": ""powder for solution for injection"", ""route"": ""IM""}",official
+F-dysport/500-units,F-dysport,500 units,"{""strength"": ""500 units"", ""form"": ""powder for solution for injection"", ""route"": ""IM""}",official
+F-letybo/50-units,F-letybo,50 units,"{""strength"": ""50 units"", ""form"": ""powder for solution for injection"", ""route"": ""IM""}",official
+F-nuceiva/50-units,F-nuceiva,50 units,"{""strength"": ""50 units"", ""form"": ""powder for solution for injection"", ""route"": ""IM""}",official
+F-relfydess/150-units-100-u-ml-1-5-ml,F-relfydess,"150 units (100 U/ml, 1.5 ml)","{""strength"": ""150 units (100 U/ml, 1.5 ml)"", ""form"": ""solution for injection"", ""route"": ""IM""}",official
+F-teosyal-rha-1/lidocaine-0-3,F-teosyal-rha-1,lidocaine 0.3%,"{""lidocaine"": true, ""market"": ""EU/UK (CE)""}",official
+F-teosyal-rha-2/lidocaine-0-3,F-teosyal-rha-2,lidocaine 0.3%,"{""lidocaine"": true, ""market"": ""EU/UK (CE)""}",official
+F-teosyal-rha-3/lidocaine-0-3,F-teosyal-rha-3,lidocaine 0.3%,"{""lidocaine"": true, ""market"": ""EU/UK (CE)""}",official
+F-teosyal-rha-4/lidocaine-0-3,F-teosyal-rha-4,lidocaine 0.3%,"{""lidocaine"": true, ""market"": ""EU/UK (CE)""}",official
+F-teosyal-rha-kiss/lidocaine-0-3,F-teosyal-rha-kiss,lidocaine 0.3%,"{""lidocaine"": true, ""market"": ""EU/UK (CE)""}",official
+F-teosyal-rha-kiss-volume/lidocaine-0-3,F-teosyal-rha-kiss-volume,lidocaine 0.3%,"{""lidocaine"": true, ""market"": ""EU/UK (CE)""}",official
+F-teosyal-puresense-redensity-1/lidocaine-0-3,F-teosyal-puresense-redensity-1,lidocaine 0.3%,"{""lidocaine"": true, ""market"": ""EU/UK (CE)""}",official
+F-teosyal-puresense-redensity-2/lidocaine-0-3,F-teosyal-puresense-redensity-2,lidocaine 0.3%,"{""lidocaine"": true, ""market"": ""EU/UK (CE)""}",official
+F-teosyal-puresense-ultra-deep/lidocaine-0-3,F-teosyal-puresense-ultra-deep,lidocaine 0.3%,"{""lidocaine"": true, ""market"": ""EU/UK (CE)""}",official
+F-teosyal-puresense-kiss/lidocaine-0-3,F-teosyal-puresense-kiss,lidocaine 0.3%,"{""lidocaine"": true, ""market"": ""EU/UK (CE)""}",official
+F-teosyal-puresense-deep-lines/lidocaine-per-supplier-pages,F-teosyal-puresense-deep-lines,lidocaine (per supplier pages),"{""lidocaine"": true}",supplier_consensus
+F-teosyal-puresense-global-action/lidocaine-per-supplier-pages,F-teosyal-puresense-global-action,lidocaine (per supplier pages),"{""lidocaine"": true}",supplier_consensus
+F-teosyal-puresense-ultimate/lidocaine-per-supplier-pages,F-teosyal-puresense-ultimate,lidocaine (per supplier pages),"{""lidocaine"": true}",supplier_consensus
+F-teosyal-puresense-first-lines/lidocaine-per-supplier-pages,F-teosyal-puresense-first-lines,lidocaine (per supplier pages),"{""lidocaine"": true}",supplier_consensus
+F-teosyal-puresense-touch-up/lidocaine-per-supplier-pages,F-teosyal-puresense-touch-up,lidocaine (per supplier pages),"{""lidocaine"": true}",supplier_consensus
+F-revolax-fine/uk-ce-version,F-revolax-fine,UK/CE version,"{""market"": ""UK/CE""}",supplier_consensus
+F-revolax-fine/non-uk-korean-version,F-revolax-fine,non-UK (Korean) version,"{""market"": ""KR""}",supplier_consensus
+F-revolax-deep/uk-ce-version,F-revolax-deep,UK/CE version,"{""market"": ""UK/CE""}",supplier_consensus
+F-revolax-deep/non-uk-korean-version,F-revolax-deep,non-UK (Korean) version,"{""market"": ""KR""}",supplier_consensus
+F-revolax-sub-q/uk-ce-version,F-revolax-sub-q,UK/CE version,"{""market"": ""UK/CE""}",supplier_consensus
+F-revolax-sub-q/non-uk-korean-version,F-revolax-sub-q,non-UK (Korean) version,"{""market"": ""KR""}",supplier_consensus

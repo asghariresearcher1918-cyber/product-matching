@@ -1,0 +1,174 @@
+family_id,brand,line,manufacturer,category,aliases,reference_status
+F-botox,Botox,,AbbVie Ltd,toxin,\bbotox\b|vistabel,official
+F-bocouture,Bocouture,,Merz Pharmaceuticals GmbH,toxin,bocouture,official
+F-azzalure,Azzalure,,Ipsen Ltd,toxin,azzalure,official
+F-alluzience,Alluzience,,Ipsen Biopharm Ltd,toxin,alluzience,official
+F-dysport,Dysport,,Ipsen Ltd,toxin,dysport,official
+F-letybo,Letybo,,Croma-Pharma GmbH,toxin,letybo,official
+F-nuceiva,Nuceiva,,Evolus Pharma B.V.,toxin,nuceiva,official
+F-relfydess,Relfydess,,Ipsen Biopharm Ltd,toxin,relfydess,official
+F-teosyal-rha-1,Teosyal,RHA 1,Teoxane SA,filler,rha\s?1\b,official
+F-teosyal-rha-2,Teosyal,RHA 2,Teoxane SA,filler,rha\s?2\b,official
+F-teosyal-rha-3,Teosyal,RHA 3,Teoxane SA,filler,rha\s?3\b,official
+F-teosyal-rha-4,Teosyal,RHA 4,Teoxane SA,filler,rha\s?4\b,official
+F-teosyal-rha-kiss,Teosyal,RHA Kiss,Teoxane SA,filler,rha\s?kiss(?!\s?volume),official
+F-teosyal-rha-kiss-volume,Teosyal,RHA Kiss Volume,Teoxane SA,filler,rha\s?kiss\s?volume,official
+F-teosyal-puresense-redensity-1,Teosyal,PureSense Redensity 1,Teoxane SA,filler,redensity\s?(?:1|i)\b(?!i),official
+F-teosyal-puresense-redensity-2,Teosyal,PureSense Redensity 2,Teoxane SA,filler,redensity\s?(?:2|ii)\b,official
+F-teosyal-puresense-ultra-deep,Teosyal,PureSense Ultra Deep,Teoxane SA,filler,ultra\s?deep,official
+F-teosyal-puresense-kiss,Teosyal,PureSense Kiss,Teoxane SA,filler,puresense\s?kiss|teosyal\s?(?:27g\s?)?kiss,official
+F-teosyal-puresense-deep-lines,Teosyal,PureSense Deep Lines,Teoxane SA,filler,deep\s?lines,not_found
+F-teosyal-puresense-global-action,Teosyal,PureSense Global Action,Teoxane SA,filler,global\s?action,not_found
+F-teosyal-puresense-ultimate,Teosyal,PureSense Ultimate,Teoxane SA,filler,ultimate,not_found
+F-teosyal-puresense-first-lines,Teosyal,PureSense First Lines,Teoxane SA,filler,first\s?lines,not_found
+F-teosyal-puresense-touch-up,Teosyal,PureSense Touch Up,Teoxane SA,filler,touch\s?up,not_found
+F-juvederm-ultra-2,Juvederm,Ultra 2,Allergan Aesthetics (AbbVie),filler,ultra\s?2\b,supplier_consensus
+F-juvederm-ultra-3,Juvederm,Ultra 3,Allergan Aesthetics (AbbVie),filler,ultra\s?3\b,supplier_consensus
+F-juvederm-ultra-4,Juvederm,Ultra 4,Allergan Aesthetics (AbbVie),filler,ultra\s?4\b,supplier_consensus
+F-juvederm-ultra-smile,Juvederm,Ultra Smile,Allergan Aesthetics (AbbVie),filler,(ultra\s?)?smile,supplier_consensus
+F-juvederm-volift,Juvederm,Volift,Allergan Aesthetics (AbbVie),filler,volift(?!\s?re-?\s?touch),supplier_consensus
+F-juvederm-volift-retouch,Juvederm,Volift Retouch,Allergan Aesthetics (AbbVie),filler,volift\s?re-?\s?touch,supplier_consensus
+F-juvederm-volbella,Juvederm,Volbella,Allergan Aesthetics (AbbVie),filler,volbella,supplier_consensus
+F-juvederm-volite,Juvederm,Volite,Allergan Aesthetics (AbbVie),filler,volite,supplier_consensus
+F-juvederm-voluma,Juvederm,Voluma,Allergan Aesthetics (AbbVie),filler,voluma\b,supplier_consensus
+F-juvederm-volux,Juvederm,Volux,Allergan Aesthetics (AbbVie),filler,volux,supplier_consensus
+F-juvederm-skinvive,Juvederm,Skinvive,Allergan Aesthetics (AbbVie),filler,skinvive,supplier_consensus
+F-restylane-restylane-classic,Restylane,Restylane (Classic),Galderma,filler,restylane\s?(classic|classyc)?\s*(?:lido|$|\(|\d),supplier_consensus
+F-restylane-lyft,Restylane,Lyft,Galderma,filler,lyft,supplier_consensus
+F-restylane-kysse,Restylane,Kysse,Galderma,filler,kysse,supplier_consensus
+F-restylane-refyne,Restylane,Refyne,Galderma,filler,refyne,supplier_consensus
+F-restylane-defyne,Restylane,Defyne,Galderma,filler,defyne,supplier_consensus
+F-restylane-volyme,Restylane,Volyme,Galderma,filler,volyme,supplier_consensus
+F-restylane-eyelight,Restylane,Eyelight,Galderma,filler,eyelight,supplier_consensus
+F-restylane-fynesse,Restylane,Fynesse,Galderma,filler,fynesse,supplier_consensus
+F-restylane-skinboosters-vital,Restylane,Skinboosters Vital,Galderma,filler,vital(?!\s?light),supplier_consensus
+F-restylane-skinboosters-vital-light,Restylane,Skinboosters Vital Light,Galderma,filler,vital\s?light,supplier_consensus
+F-belotero-soft,Belotero,Soft,Merz Aesthetics,filler,\bsoft\b,supplier_consensus
+F-belotero-balance,Belotero,Balance,Merz Aesthetics,filler,balance,supplier_consensus
+F-belotero-intense,Belotero,Intense,Merz Aesthetics,filler,intense,supplier_consensus
+F-belotero-volume,Belotero,Volume,Merz Aesthetics,filler,volume,supplier_consensus
+F-belotero-lips-shape,Belotero,Lips Shape,Merz Aesthetics,filler,lips?\s?shape|shape\s?lips,supplier_consensus
+F-belotero-lips-contour,Belotero,Lips Contour,Merz Aesthetics,filler,lips?\s?cont|contour\s?lips,supplier_consensus
+F-belotero-revive,Belotero,Revive,Merz Aesthetics,filler,revive,supplier_consensus
+F-stylage-s,Stylage,S,Laboratoires Vivacy,filler,stylage\s?(?:bi-?\s?(?:soft|flex)\s?)?s\b,supplier_consensus
+F-stylage-m,Stylage,M,Laboratoires Vivacy,filler,stylage\s?(?:bi-?\s?(?:soft|flex)\s?)?m\b,supplier_consensus
+F-stylage-l,Stylage,L,Laboratoires Vivacy,filler,stylage\s?(?:bi-?\s?(?:soft|flex)\s?)?l\b,supplier_consensus
+F-stylage-xl,Stylage,XL,Laboratoires Vivacy,filler,\bxl\b,supplier_consensus
+F-stylage-xxl,Stylage,XXL,Laboratoires Vivacy,filler,\bxxl\b,supplier_consensus
+F-stylage-special-lips,Stylage,Special Lips,Laboratoires Vivacy,filler,special\s?lips,supplier_consensus
+F-stylage-lips-plus,Stylage,Lips Plus,Laboratoires Vivacy,filler,lips\s?plus,supplier_consensus
+F-stylage-hydro,Stylage,Hydro,Laboratoires Vivacy,filler,hydro(?!\s?max),supplier_consensus
+F-stylage-hydromax,Stylage,HydroMax,Laboratoires Vivacy,filler,hydro\s?max,supplier_consensus
+F-revolax-fine,Revolax,Fine,Across Co. (Korea),filler,fine,supplier_consensus
+F-revolax-deep,Revolax,Deep,Across Co. (Korea),filler,deep,supplier_consensus
+F-revolax-sub-q,Revolax,Sub-Q,Across Co. (Korea),filler,sub[\s-]?q,supplier_consensus
+F-profhilo-h-l,Profhilo,H+L,IBSA,skin booster,profhilo(?!.*(structura|body|haenk|figura|pura|cream)),supplier_consensus
+F-profhilo-structura,Profhilo,Structura,IBSA,skin booster,structura,supplier_consensus
+F-profhilo-body,Profhilo,Body,IBSA,skin booster,profhilo\s?body,supplier_consensus
+F-plinest-newest-plinest,Plinest / Newest,Plinest,Mastelli,polynucleotide,plinest(?!\s?(eye|hair|fast|one)),supplier_consensus
+F-plinest-newest-plinest-eye,Plinest / Newest,Plinest Eye,Mastelli,polynucleotide,plinest\s?eye,supplier_consensus
+F-plinest-newest-plinest-hair,Plinest / Newest,Plinest Hair,Mastelli,polynucleotide,plinest\s?hair,supplier_consensus
+F-plinest-newest-plinest-fast,Plinest / Newest,Plinest Fast,Mastelli,polynucleotide,plinest\s?fast,supplier_consensus
+F-plinest-newest-plinest-one,Plinest / Newest,Plinest One,Mastelli,polynucleotide,plinest\s?one,supplier_consensus
+F-plinest-newest-newest,Plinest / Newest,Newest,Mastelli,polynucleotide,newest(?!\s?one),supplier_consensus
+F-plinest-newest-newest-one,Plinest / Newest,Newest One,Mastelli,polynucleotide,newest\s?one,supplier_consensus
+F-jalupro-classic,Jalupro,Classic,Professional Derma,skin booster,jalupro\s?(classic|amino|2 ?x ?30)|jalupro$,supplier_consensus
+F-jalupro-hmw,Jalupro,HMW,Professional Derma,skin booster,hmw,supplier_consensus
+F-jalupro-super-hydro,Jalupro,Super Hydro,Professional Derma,skin booster,super\s?hydro,supplier_consensus
+F-jalupro-young-eye,Jalupro,Young Eye,Professional Derma,skin booster,young\s?eye,supplier_consensus
+F-seventy-hyal-2000,Seventy Hyal,2000,Seventy (Korea),skin booster,seventy\s?hyal,supplier_consensus
+F-sunekos-200,Sunekos,200,Professional Derma,skin booster,sunekos\s?200\b,supplier_consensus
+F-sunekos-1200,Sunekos,1200,Professional Derma,skin booster,1200,supplier_consensus
+F-sunekos-performa,Sunekos,Performa,Professional Derma,skin booster,performa,supplier_consensus
+F-sunekos-cell-15,Sunekos,Cell 15,Professional Derma,skin booster,cell\s?15,supplier_consensus
+F-sunekos-body,Sunekos,Body,Professional Derma,skin booster,sunekos\s?body,supplier_consensus
+F-sculptra-sculptra,Sculptra,Sculptra,Galderma,biostimulator,sculptra,supplier_consensus
+F-radiesse-radiesse,Radiesse,Radiesse,Merz Aesthetics,biostimulator,radiesse(?!\s?\(?\+|\s?plus),supplier_consensus
+F-radiesse-radiesse,Radiesse,Radiesse (+),Merz Aesthetics,biostimulator,radiesse\s?\(?\+|radiesse\s?plus,supplier_consensus
+F-nucleofill-soft-plus-eyes,Nucleofill,Soft Plus (Eyes),Promoitalia,polynucleotide,soft\s?plus|nucleofill\s?(soft\s?)?eyes,supplier_consensus
+F-nucleofill-medium,Nucleofill,Medium,Promoitalia,polynucleotide,medium(?!\s?plus)|nucleofill\s?20\b,supplier_consensus
+F-nucleofill-medium-plus-hair,Nucleofill,Medium Plus (Hair),Promoitalia,polynucleotide,medium\s?plus|nucleofill\s?hair,supplier_consensus
+F-nucleofill-strong,Nucleofill,Strong,Promoitalia,polynucleotide,strong(?!\s?plus)|nucleofill\s?25\b,supplier_consensus
+F-nucleofill-strong-plus-age,Nucleofill,Strong Plus (Age),Promoitalia,polynucleotide,strong\s?plus|nucleofill\s?age,supplier_consensus
+F-lumi-lumi-pro-skin-booster,Lumi,Lumi-Pro Skin Booster,Lumi,skin booster,lumi[\s-]?pro(?!\s?(lip|eye)),supplier_consensus
+F-lumi-lumi-pro-lips,Lumi,Lumi-Pro Lips,Lumi,skin booster,lumi[\s-]?pro\s?lip,supplier_consensus
+F-lumi-lumi-pro-eyes,Lumi,Lumi-Pro Eyes,Lumi,skin booster,lumi[\s-]?pro\s?eye|lumi\s?eyes\s?pro,supplier_consensus
+F-lumi-lumi-eyes,Lumi,Lumi Eyes,Lumi,skin booster,lumi[\s-]?eyes(?!\s?pro),supplier_consensus
+F-lumi-lumi-pn-face,Lumi,Lumi-PN Face,Lumi,skin booster,lumi[\s-]?pn\s?face,supplier_consensus
+F-lumi-lumi-pn-eyes,Lumi,Lumi-PN Eyes,Lumi,skin booster,lumi[\s-]?pn\s?eye,supplier_consensus
+F-ellanse-line-to-be-defined,Ellanse,(line to be defined),Sinclair,biostimulator,ellans[eé],not_found
+F-aliaxin-line-to-be-defined,Aliaxin,(line to be defined),IBSA,filler,aliaxin,not_found
+F-viscoderm-line-to-be-defined,Viscoderm,(line to be defined),IBSA,skin booster,viscoderm,not_found
+F-rejuran-line-to-be-defined,Rejuran,(line to be defined),PharmaResearch (KR),polynucleotide,rejuran,not_found
+F-fillmed-filorga-line-to-be-defined,Fillmed / Filorga,(line to be defined),Fillmed (Filorga),skin booster,fillmed|filorga|nctf,not_found
+F-regenovue-line-to-be-defined,Regenovue,(line to be defined),Daewoong Bio (KR),filler,regenovue,not_found
+F-illuma-line-to-be-defined,Illuma,(line to be defined),,filler,illuma,not_found
+F-harmonyca-line-to-be-defined,Harmonyca,(line to be defined),Allergan Aesthetics,biostimulator,harmonyca,not_found
+F-aessoa-line-to-be-defined,Aessoa,(line to be defined),,filler,aessoa,not_found
+F-aesplla-line-to-be-defined,Aesplla,(line to be defined),,biostimulator,aesplla,not_found
+F-ejal40-line-to-be-defined,Ejal40,(line to be defined),,skin booster,ejal\s?40|\bejal\b,not_found
+F-kairax-line-to-be-defined,Kairax,(line to be defined),,filler,kairax,not_found
+F-saypha-line-to-be-defined,Saypha,(line to be defined),Croma,filler,saypha,not_found
+F-skinfill-line-to-be-defined,Skinfill,(line to be defined),,filler,skinfill,not_found
+F-revitrane-line-to-be-defined,Revitrane,(line to be defined),,skin booster,revitrane,not_found
+F-nexfill-line-to-be-defined,Nexfill,(line to be defined),,filler,nexfill,not_found
+F-dermaheal-line-to-be-defined,Dermaheal,(line to be defined),Caregen (KR),skin booster,dermaheal,not_found
+F-juvelook-line-to-be-defined,Juvelook,(line to be defined),Vaim (KR),biostimulator,juvelook|lenisna,not_found
+F-karisma-line-to-be-defined,Karisma,(line to be defined),,skin booster,karisma,not_found
+F-eptq-line-to-be-defined,EPTQ,(line to be defined),Jetema (KR),filler,eptq|e\.?p\.?t\.?q|epitique,not_found
+F-monalisa-line-to-be-defined,MonaLisa,(line to be defined),,filler,mona\s?lisa,not_found
+F-longevha-line-to-be-defined,LongevHA,(line to be defined),,skin booster,longevha,not_found
+F-hyaron-line-to-be-defined,Hyaron,(line to be defined),Dongkook (KR),skin booster,hyaron,not_found
+F-perfectha-line-to-be-defined,Perfectha,(line to be defined),Sinclair,filler,perfectha,not_found
+F-polyphil-line-to-be-defined,Polyphil,(line to be defined),,polynucleotide,polyphil|philart,not_found
+F-rrs-line-to-be-defined,RRS,(line to be defined),Skin Tech,skin booster,\brrs\b,not_found
+F-volifil-line-to-be-defined,Volifil,(line to be defined),,filler,volifil,not_found
+F-hyacorp-line-to-be-defined,HYAcorp,(line to be defined),BioScience,filler,hyacorp,not_found
+F-puri-purihilo-line-to-be-defined,Puri / Purihilo,(line to be defined),,filler,\bpuri\b|purihilo,not_found
+F-pluryal-line-to-be-defined,Pluryal,(line to be defined),MD Skin Solutions,skin booster,pluryal,not_found
+F-revanesse-line-to-be-defined,Revanesse,(line to be defined),Prollenium,filler,revanesse,not_found
+F-starfill-line-to-be-defined,Starfill,(line to be defined),,filler,starfill,not_found
+F-teofil-line-to-be-defined,Teofil,(line to be defined),,filler,teofil,not_found
+F-dermaren-line-to-be-defined,Dermaren,(line to be defined),,skin booster,dermaren,not_found
+F-neofound-line-to-be-defined,Neofound,(line to be defined),,skin booster,neofound,not_found
+F-linerase-line-to-be-defined,Linerase,(line to be defined),,biostimulator,linerase,not_found
+F-flawless-line-to-be-defined,Flawless,(line to be defined),,filler,\bflawless\b,not_found
+F-intraline-line-to-be-defined,Intraline,(line to be defined),,filler,intraline,not_found
+F-neuramis-line-to-be-defined,Neuramis,(line to be defined),Medytox (KR),filler,neuramis,not_found
+F-luxfill-line-to-be-defined,LuxFill,(line to be defined),,filler,luxfill,not_found
+F-pllacell-line-to-be-defined,PLLACELL,(line to be defined),,biostimulator,pllacell,not_found
+F-aesthefill-line-to-be-defined,AestheFill,(line to be defined),Regen Biotech (KR),biostimulator,aesthefill,not_found
+F-hyalace-line-to-be-defined,Hyalace,(line to be defined),,skin booster,hyalace,not_found
+F-hyalmass-line-to-be-defined,Hyalmass,(line to be defined),,filler,hyalmass,not_found
+F-aquashine-line-to-be-defined,Aquashine,(line to be defined),Caregen (KR),skin booster,aquashine,not_found
+F-sosum-line-to-be-defined,Sosum,(line to be defined),,skin booster,sosum,not_found
+F-ouye-line-to-be-defined,Ouye,(line to be defined),,filler,\bouye\b,not_found
+F-aurora-rh-collagen-line-to-be-defined,Aurora RH Collagen,(line to be defined),,skin booster,aurora rh,not_found
+F-medisco-line-to-be-defined,Medisco,(line to be defined),,skin booster,medisco,not_found
+F-colena-line-to-be-defined,Colena,(line to be defined),,biostimulator,colena,not_found
+F-xela-rederm-line-to-be-defined,Xela Rederm,(line to be defined),,skin booster,xela,not_found
+F-genefill-line-to-be-defined,Genefill,(line to be defined),,filler,genefill,not_found
+F-desirial-line-to-be-defined,Desirial,(line to be defined),Vivacy,filler,desirial,not_found
+F-revofil-line-to-be-defined,Revofil,(line to be defined),,filler,revofil,not_found
+F-repadern-line-to-be-defined,Repadern,(line to be defined),,polynucleotide,repadern,not_found
+F-elaxen-line-to-be-defined,Elaxen,(line to be defined),,polynucleotide,elaxen,not_found
+F-lapiena-line-to-be-defined,Lapiena,(line to be defined),,filler,lapiena,not_found
+F-richesse-line-to-be-defined,Richesse,(line to be defined),,skin booster,richesse,not_found
+F-ulti-pro-line-to-be-defined,Ulti Pro,(line to be defined),,polynucleotide,ulti\s?pro,not_found
+F-prostrolane-line-to-be-defined,Prostrolane,(line to be defined),Caregen (KR),skin booster,prostrolane,not_found
+F-kysense-line-to-be-defined,Kysense,(line to be defined),,filler,kysense,not_found
+F-gouri-line-to-be-defined,Gouri,(line to be defined),Dexlevo (KR),biostimulator,gouri,not_found
+F-lanluma-line-to-be-defined,Lanluma,(line to be defined),Sinclair,biostimulator,lanluma,not_found
+F-plenhyage-line-to-be-defined,Plenhyage,(line to be defined),,skin booster,plenhyage,not_found
+F-maili-line-to-be-defined,Maili,(line to be defined),Sinclair,filler,maili,not_found
+F-vitaran-line-to-be-defined,Vitaran,(line to be defined),Hans Biomed (KR),polynucleotide,vitaran,not_found
+F-dr-cyj-line-to-be-defined,Dr CYJ,(line to be defined),,skin booster,dr\.?\s?cyj,not_found
+F-ami-eyes-line-to-be-defined,AMI Eyes,(line to be defined),,skin booster,ami eyes,not_found
+F-stayve-line-to-be-defined,Stayve,(line to be defined),,skin booster,stayve,not_found
+F-bellast-line-to-be-defined,Bellast,(line to be defined),,filler,bellast,not_found
+F-cytocare-line-to-be-defined,Cytocare,(line to be defined),Revitacare,skin booster,cytocare,not_found
+F-ecolla-line-to-be-defined,Ecolla,(line to be defined),,biostimulator,ecolla,not_found
+F-julaine-line-to-be-defined,Julaine,(line to be defined),Nordberg,biostimulator,julaine,not_found
+F-ameela-line-to-be-defined,Ameela,(line to be defined),,skin booster,ameela,not_found
+F-reversha-line-to-be-defined,ReversHA,(line to be defined),,skin booster,reversha,not_found
+F-neofill-misc-ha-filler-line-to-be-defined,NeoFill / misc HA filler,(line to be defined),,filler,dermal filler|skin booster|polynucleotide|\bplla\b|biostimulat|\bcaha\b,not_found

@@ -1,0 +1,102 @@
+brand,category,manufacturer,regex
+Botox,toxin,AbbVie/Allergan,\bbotox\b|vistabel
+Bocouture,toxin,Merz,bocouture|xeomin
+Azzalure,toxin,Ipsen/Galderma,azzalure
+Dysport,toxin,Ipsen,dysport
+Alluzience,toxin,Ipsen/Galderma,alluzience
+Letybo,toxin,Hugel/Croma,letybo
+Relfydess,toxin,Galderma,relfydess
+Nuceiva,toxin,Evolus,nuceiva
+Botulinum toxin (unbranded),toxin,,botulinum
+Juvederm,filler,Allergan Aesthetics,juv[eé]derm|\bjuv\b|volift|voluma|volbella|volux|volite|skinvive
+Teosyal,filler,Teoxane,teosyal|teoxane|redensity|\brha\s?(?:\d|kiss)
+Restylane,filler,Galderma,restylane
+Belotero,filler,Merz,belotero
+Stylage,filler,Vivacy,stylage
+Revolax,filler,Across (KR),revolax
+Radiesse,biostimulator,Merz,radiesse
+Sculptra,biostimulator,Galderma,sculptra
+Ellanse,biostimulator,Sinclair,ellans[eé]
+Profhilo,skin booster,IBSA,profhilo
+Aliaxin,filler,IBSA,aliaxin
+Viscoderm,skin booster,IBSA,viscoderm
+Jalupro,skin booster,Professional Derma,jalupro
+Sunekos,skin booster,Professional Derma,sunekos
+Plinest/Newest (Mastelli),polynucleotide,Mastelli,plinest|\bnewest\b|mastelli
+Nucleofill,polynucleotide,Promoitalia,nucleofill
+Rejuran,polynucleotide,PharmaResearch (KR),rejuran
+Lumi (PN/Pro/Eyes),skin booster,Lumi,\blumi[\s-]?(?:pn|pro|eyes|meso)\b|\blumi eyes
+Seventy Hyal,skin booster,Seventy,seventy\s?hyal|\bseventy\b
+Fillmed / Filorga,skin booster,Fillmed (Filorga),fillmed|filorga|nctf
+Regenovue,filler,Daewoong Bio (KR),regenovue
+Illuma,filler,,illuma
+Harmonyca,biostimulator,Allergan Aesthetics,harmonyca
+Aessoa,filler,,aessoa
+Aesplla,biostimulator,,aesplla
+Ejal40,skin booster,,ejal\s?40|\bejal\b
+Kairax,filler,,kairax
+Saypha,filler,Croma,saypha
+Skinfill,filler,,skinfill
+Revitrane,skin booster,,revitrane
+Nexfill,filler,,nexfill
+Dermaheal,skin booster,Caregen (KR),dermaheal
+Juvelook,biostimulator,Vaim (KR),juvelook|lenisna
+Karisma,skin booster,,karisma
+EPTQ,filler,Jetema (KR),eptq|e\.?p\.?t\.?q|epitique
+MonaLisa,filler,,mona\s?lisa
+LongevHA,skin booster,,longevha
+Hyaron,skin booster,Dongkook (KR),hyaron
+Perfectha,filler,Sinclair,perfectha
+Polyphil,polynucleotide,,polyphil|philart
+RRS,skin booster,Skin Tech,\brrs\b
+Volifil,filler,,volifil
+HYAcorp,filler,BioScience,hyacorp
+Puri / Purihilo,filler,,\bpuri\b|purihilo
+Pluryal,skin booster,MD Skin Solutions,pluryal
+Revanesse,filler,Prollenium,revanesse
+Starfill,filler,,starfill
+Teofil,filler,,teofil
+Dermaren,skin booster,,dermaren
+Neofound,skin booster,,neofound
+Linerase,biostimulator,,linerase
+Flawless,filler,,\bflawless\b
+Intraline,filler,,intraline
+Neuramis,filler,Medytox (KR),neuramis
+LuxFill,filler,,luxfill
+PLLACELL,biostimulator,,pllacell
+AestheFill,biostimulator,Regen Biotech (KR),aesthefill
+Hyalace,skin booster,,hyalace
+Hyalmass,filler,,hyalmass
+Aquashine,skin booster,Caregen (KR),aquashine
+Sosum,skin booster,,sosum
+Ouye,filler,,\bouye\b
+Aurora RH Collagen,skin booster,,aurora rh
+Medisco,skin booster,,medisco
+Colena,biostimulator,,colena
+Xela Rederm,skin booster,,xela
+Genefill,filler,,genefill
+Desirial,filler,Vivacy,desirial
+Revofil,filler,,revofil
+Repadern,polynucleotide,,repadern
+Elaxen,polynucleotide,,elaxen
+Lapiena,filler,,lapiena
+Richesse,skin booster,,richesse
+Ulti Pro,polynucleotide,,ulti\s?pro
+Prostrolane,skin booster,Caregen (KR),prostrolane
+Kysense,filler,,kysense
+Gouri,biostimulator,Dexlevo (KR),gouri
+Lanluma,biostimulator,Sinclair,lanluma
+Plenhyage,skin booster,,plenhyage
+Lumifil,filler,,lumifil
+Maili,filler,Sinclair,maili
+Vitaran,polynucleotide,Hans Biomed (KR),vitaran
+Dr CYJ,skin booster,,dr\.?\s?cyj
+AMI Eyes,skin booster,,ami eyes
+Stayve,skin booster,,stayve
+Bellast,filler,,bellast
+Cytocare,skin booster,Revitacare,cytocare
+Ecolla,biostimulator,,ecolla
+Julaine,biostimulator,Nordberg,julaine
+Ameela,skin booster,,ameela
+ReversHA,skin booster,,reversha
+NeoFill / misc HA filler,filler,,dermal filler|skin booster|polynucleotide|\bplla\b|biostimulat|\bcaha\b

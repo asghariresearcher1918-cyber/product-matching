@@ -1,0 +1,25 @@
+presentation_id,variant_id,unit,unit_volume_ml,units_per_pack,pack_sizes,needles,reference_status
+F-botox/50-allergan-units/1xvial,F-botox/50-allergan-units,vial,,1,"1, 2, 3 or 6 cartons of 1 vial",,official
+F-botox/100-allergan-units/1xvial,F-botox/100-allergan-units,vial,,1,"1, 2, 3 or 6 cartons of 1 vial",,official
+F-botox/200-allergan-units/1xvial,F-botox/200-allergan-units,vial,,1,"1, 2, 3 or 6 cartons of 1 vial",,official
+F-bocouture/50-units/1xvial,F-bocouture/50-units,vial,,1,"1, 2, 3 or 6 vials",,official
+F-bocouture/100-units/1xvial,F-bocouture/100-units,vial,,1,"1, 2, 3 or 6 vials",,official
+F-azzalure/125-speywood-units/1xvial,F-azzalure/125-speywood-units,vial,,1,1 or 2 vials,,official
+F-alluzience/125-speywood-units-200-su-ml-0-625-ml/1xvial,F-alluzience/125-speywood-units-200-su-ml-0-625-ml,vial,,1,1 or 2 vials; multipack 6 x 2 vials,,official
+F-dysport/300-units/1xvial,F-dysport/300-units,vial,,1,1 or 2 vials,,official
+F-dysport/500-units/1xvial,F-dysport/500-units,vial,,1,1 or 2 vials,,official
+F-letybo/50-units/1xvial,F-letybo/50-units,vial,,1,1 or 2 vials; multipacks 2 (2x1) and 6 (6x1),,official
+F-nuceiva/50-units/1xvial,F-nuceiva/50-units,vial,,1,1 vial,,official
+F-relfydess/150-units-100-u-ml-1-5-ml/1xvial,F-relfydess/150-units-100-u-ml-1-5-ml,vial,,1,1 or 10 vials,,official
+F-teosyal-rha-1/lidocaine-0-3/2x1pre-filled-syringe,F-teosyal-rha-1/lidocaine-0-3,pre-filled syringe,1,2,box of 2,"2 x 30G1/2"" per syringe",official
+F-teosyal-rha-2/lidocaine-0-3/2x1pre-filled-syringe,F-teosyal-rha-2/lidocaine-0-3,pre-filled syringe,1,2,box of 2,"2 x 30G1/2"" per syringe",official
+F-teosyal-rha-3/lidocaine-0-3/2x1pre-filled-syringe,F-teosyal-rha-3/lidocaine-0-3,pre-filled syringe,1,2,box of 2,"2 x 27G1/2"" per syringe",official
+F-teosyal-rha-3/lidocaine-0-3/2x1-2pre-filled-syringe,F-teosyal-rha-3/lidocaine-0-3,pre-filled syringe,1.2,2,box of 2,"2 x 27G1/2"" per syringe",official
+F-teosyal-rha-4/lidocaine-0-3/2x1-2pre-filled-syringe,F-teosyal-rha-4/lidocaine-0-3,pre-filled syringe,1.2,2,box of 2,"2 x 27G1/2"" per syringe",official
+F-teosyal-rha-kiss/lidocaine-0-3/2x0-7pre-filled-syringe,F-teosyal-rha-kiss/lidocaine-0-3,pre-filled syringe,0.7,2,box of 2,"2 x 30G1/2"" per syringe",official
+F-teosyal-rha-kiss-volume/lidocaine-0-3/2x1pre-filled-syringe,F-teosyal-rha-kiss-volume/lidocaine-0-3,pre-filled syringe,1,2,box of 2,"2 x 30G1/2"" per syringe",official
+F-teosyal-puresense-redensity-1/lidocaine-0-3/1-or-2x1pre-filled-syringe,F-teosyal-puresense-redensity-1/lidocaine-0-3,pre-filled syringe,1,1 or 2,box of 1 or 2,"2 x 30G1/2"" per syringe",official
+F-teosyal-puresense-redensity-1/lidocaine-0-3/1-or-2x3pre-filled-syringe,F-teosyal-puresense-redensity-1/lidocaine-0-3,pre-filled syringe,3,1 or 2,box of 1 or 2,"2 x 30G1/2"" per syringe",official
+F-teosyal-puresense-redensity-2/lidocaine-0-3/2x1pre-filled-syringe,F-teosyal-puresense-redensity-2/lidocaine-0-3,pre-filled syringe,1,2,box of 2,"2 x 30G1/2"" per syringe",official
+F-teosyal-puresense-ultra-deep/lidocaine-0-3/2x1-2pre-filled-syringe,F-teosyal-puresense-ultra-deep/lidocaine-0-3,pre-filled syringe,1.2,2,box of 2,"2 x 25G1"" per syringe",official
+F-teosyal-puresense-kiss/lidocaine-0-3/2x1pre-filled-syringe,F-teosyal-puresense-kiss/lidocaine-0-3,pre-filled syringe,1,2,box of 2,"2 x 27G1/2"" per syringe",official
