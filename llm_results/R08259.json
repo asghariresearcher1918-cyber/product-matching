@@ -1,0 +1,41 @@
+{
+ "id": "R08259",
+ "result": {
+  "kind": "product",
+  "variant_id": "",
+  "presentation_id": "",
+  "proposed_line": "",
+  "lidocaine": "yes",
+  "lidocaine_source": "page_text",
+  "market": "not_stated",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "1",
+  "unit_volume_ml": "1",
+  "pack_source": "page_text",
+  "status_words": [
+   "16 in stock"
+  ],
+  "options_seen": [],
+  "image_reads": "single Volift with Lidocaine syringe blister with 'SINGLE SYRINGE' badge",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "The pack contains: 1 x 1ml syringe."
+   },
+   {
+    "source": "page_text",
+    "quote": "containing hyaluronic acid (HA) and lidocaine"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "likely",
+  "needs_human_review": false,
+  "review_reason": "split pack: single syringe (manufacturer box holds 2)",
+  "family_id": "F-juvederm-volift"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

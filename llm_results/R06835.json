@@ -1,0 +1,41 @@
+{
+ "id": "R06835",
+ "result": {
+  "kind": "product",
+  "variant_id": "",
+  "presentation_id": "",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "not_stated",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "1",
+  "unit_volume_ml": "2",
+  "pack_source": "page_title",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "Profhilo Structura carton plus a separate Profhilo Structura cannula box",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_title",
+    "quote": "PROFHILO STRUCTURA WITH CANNULA (1 × 2mL)"
+   },
+   {
+    "source": "page_text",
+    "quote": "Profhilo Structura with cannula 2x1ml"
+   }
+  ],
+  "conflicts": [
+   "page title says 1 x 2 mL but description says 'with cannula 2x1ml'"
+  ],
+  "confidence": "uncertain",
+  "needs_human_review": true,
+  "review_reason": "volume conflict on the page; also check whether 'with cannula' is the standard UK pack (Moda lists the cannula box as included) or a bundle",
+  "family_id": "F-profhilo-structura"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

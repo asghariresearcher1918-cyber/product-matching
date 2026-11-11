@@ -1,0 +1,41 @@
+{
+ "id": "R05521",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-botox/100-allergan-units",
+  "presentation_id": "F-botox/100-allergan-units/1xvial",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "UK/CE",
+  "strength": "100 Allergan Units",
+  "unit_type": "vial",
+  "unit_count": "1",
+  "unit_volume_ml": "",
+  "pack_source": "page_title",
+  "status_words": [],
+  "options_seen": [
+   "dose-instruction selector (not a product option)"
+  ],
+  "image_reads": "BOTOX 100 Allergan Units, AbbVie",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_title",
+    "quote": "BOTOX 100iu (1 x vial)"
+   },
+   {
+    "source": "page_text",
+    "quote": "This BOTOX 100IU vial contains clostridium botulinum"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "confirmed",
+  "needs_human_review": false,
+  "review_reason": "",
+  "family_id": "F-botox"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

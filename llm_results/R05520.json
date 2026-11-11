@@ -1,0 +1,39 @@
+{
+ "id": "R05520",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-bocouture/50-units",
+  "presentation_id": "F-bocouture/50-units/1xvial",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "UK/CE",
+  "strength": "50 units",
+  "unit_type": "vial",
+  "unit_count": "2",
+  "unit_volume_ml": "",
+  "pack_source": "image",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "two Bocouture 50 units cartons",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_title",
+    "quote": "Bocouture 50unit Vials x2"
+   },
+   {
+    "source": "page_text",
+    "quote": "Box contains one Bocouture vial"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "likely",
+  "needs_human_review": false,
+  "review_reason": "sold as 2 single-vial cartons (page: 'Box contains one Bocouture vial'; image shows 2 cartons), not an official 2-vial pack",
+  "family_id": "F-bocouture"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

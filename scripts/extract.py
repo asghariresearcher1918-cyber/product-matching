@@ -197,6 +197,9 @@ def ex_custom(soup, raw):
     r["stock_text"] = st.group(1) if st else ""
     r["breadcrumb"] = ""
     img = soup.select_one("img.js-main-image, .product-image img, .product-gallery img")
+    if img is None:  # Salesforce B2B (ACRE): product media served from /sfsites/c/cms/delivery/media
+        img = next((i for i in soup.find_all("img") if "cms/delivery/media" in (i.get("src") or "") and "default-product-image" not in i.get("src", "")
+                    and "logo" not in (i.get("alt") or "").lower()), None)
     src = (img.get("data-src") or img.get("src") or "") if img else ""
     r["image_url"] = "" if re.search(r"image-soon|placeholder|no-image", src, re.I) else src
     return r
@@ -286,7 +289,12 @@ def main():
             f = CACHE / slug(row["supplier"]) / f"{row['id']}.html"
             if not f.exists():
                 continue
-            raw = f.read_text(encoding="utf-8", errors="replace")
+            rf = f.with_suffix(".rendered.html")  # JS-only sites (e.g. ACRE/Salesforce): browser-rendered copy
+            if rf.exists():
+                raw = rf.read_text(encoding="utf-8", errors="replace")
+                raw = re.sub(r"^<!-- ref-url: (\S+) \| final-url: (\S+) \| rendered", r"<!-- scraped-url: \1 | final-url: \2 | method: playwright", raw, count=1)
+            else:
+                raw = f.read_text(encoding="utf-8", errors="replace")
             m = re.match(r"<!-- scraped-url: (\S+) \| final-url: (\S+) \| method: (\S+)", raw)
             final = m.group(2) if m else row["url"]
             if m and final.rstrip("/") != row["url"].rstrip("/") and re.search(r"/(all-products|shop|products|search|login|account)/?$|[?&]s=", final):

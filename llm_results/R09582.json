@@ -1,0 +1,41 @@
+{
+ "id": "R09582",
+ "result": {
+  "kind": "product",
+  "variant_id": "",
+  "presentation_id": "",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "not_stated",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "1",
+  "unit_volume_ml": "2",
+  "pack_source": "page_title",
+  "status_words": [
+   "Sold out"
+  ],
+  "options_seen": [],
+  "image_reads": "Profhilo Structura carton with HA hologram sticker",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_title",
+    "quote": "Profhilo Structura – 1x2ml"
+   },
+   {
+    "source": "page_text",
+    "quote": "PROFHILO® STRUCTURA is indicated for facial treatment and for restoring adipose tissue."
+   }
+  ],
+  "conflicts": [],
+  "confidence": "likely",
+  "needs_human_review": false,
+  "review_reason": "",
+  "family_id": "F-profhilo-structura"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

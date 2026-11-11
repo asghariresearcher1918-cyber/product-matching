@@ -3,10 +3,6 @@ N00630,Refine Pharma,https://refinepharma.com/product/pabrinex/,RemoteProtocolEr
 N00756,Refine Pharma,https://refinepharma.com/product/teosyal-rha-3-1ml/,RemoteProtocolError: Server disconnected without sending a response.,Tue Nov 10 09:35:55 2026
 N00814,Refine Pharma,https://refinepharma.com/product/juvederm-ultra-3-2x1ml/,RemoteProtocolError: Server disconnected without sending a response.,Tue Nov 10 09:36:27 2026
 N00942,Refine Pharma,https://refinepharma.com/product/profhilo-hl-2ml/,RemoteProtocolError: Server disconnected without sending a response.,Tue Nov 10 09:36:59 2026
-R05695,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/995,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Tue Nov 10 09:55:41 2026
-R05706,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/982,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Tue Nov 10 09:55:41 2026
-R05841,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/331,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Tue Nov 10 09:55:41 2026
-R05924,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/6,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Tue Nov 10 09:55:41 2026
 N00617,Refine Pharma,https://refinepharma.com/product/jalupro-revitalizing-face-cream/,skipped: site refuses automated connections (pilot),Wed Nov 11 17:10:25 2026
 N00619,Refine Pharma,https://refinepharma.com/product/stylage-bi-soft-m-2x1ml/,skipped: site refuses automated connections (pilot),Wed Nov 11 17:10:25 2026
 N00622,Refine Pharma,https://refinepharma.com/product/juvederm-volux-single/,skipped: site refuses automated connections (pilot),Wed Nov 11 17:10:25 2026
@@ -127,50 +123,43 @@ N00964,Refine Pharma,https://refinepharma.com/product/seventy-hyal-2000/,skipped
 N00971,Refine Pharma,https://refinepharma.com/product/merz-bocouture/,skipped: site refuses automated connections (pilot),Wed Nov 11 17:10:25 2026
 N00972,Refine Pharma,https://refinepharma.com/product/allergan-botox-50-iu/,skipped: site refuses automated connections (pilot),Wed Nov 11 17:10:25 2026
 R08476,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/monalisa-hard-type-dermal-filler-1x1ml,HTTP 404,Wed Nov 11 17:10:55 2026
-R08476,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/monalisa-hard-type-dermal-filler-1x1ml,HTTP 404,Wed Nov 11 17:10:55 2026
-R08477,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/monalisa-mild-type-dermal-filler-1x1ml,HTTP 404,Wed Nov 11 17:10:56 2026
 R08477,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/monalisa-mild-type-dermal-filler-1x1ml,HTTP 404,Wed Nov 11 17:10:56 2026
 R08478,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/monalisa-soft-type-dermal-filler-1x1ml,HTTP 404,Wed Nov 11 17:10:57 2026
-R08478,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/monalisa-soft-type-dermal-filler-1x1ml,HTTP 404,Wed Nov 11 17:10:57 2026
-R08479,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/monalisa-ultra-dermal-filler-1x1ml,HTTP 404,Wed Nov 11 17:10:58 2026
 R08479,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/monalisa-ultra-dermal-filler-1x1ml,HTTP 404,Wed Nov 11 17:10:58 2026
 R09676,Kiss Aesthetics Wholesale,https://kissaestheticswholesale.com/product/colena-medium-deep-with-lidocaine/,HTTP 404,Wed Nov 11 17:11:00 2026
-R09676,Kiss Aesthetics Wholesale,https://kissaestheticswholesale.com/product/colena-medium-deep-with-lidocaine/,HTTP 404,Wed Nov 11 17:11:01 2026
 R09677,Kiss Aesthetics Wholesale,https://kissaestheticswholesale.com/product/colena-macro-subq-with-lidocaine/,HTTP 404,Wed Nov 11 17:11:01 2026
-R09677,Kiss Aesthetics Wholesale,https://kissaestheticswholesale.com/product/colena-macro-subq-with-lidocaine/,HTTP 404,Wed Nov 11 17:11:02 2026
 R09678,Kiss Aesthetics Wholesale,https://kissaestheticswholesale.com/product/colena-small-fine-with-lidocaine/,HTTP 404,Wed Nov 11 17:11:02 2026
-R09678,Kiss Aesthetics Wholesale,https://kissaestheticswholesale.com/product/colena-small-fine-with-lidocaine/,HTTP 404,Wed Nov 11 17:11:03 2026
 N00977,DermaFocus,https://dermafocus.co.uk/product/newest/,RemoteProtocolError: Server disconnected without sending a response.,Wed Nov 11 17:11:04 2026
 R06815,Skin On You,https://skinonyou.com/shop/rrs-ha-cellutrix/,HTTP 410,Wed Nov 11 17:11:12 2026
-R06815,Skin On You,https://skinonyou.com/shop/rrs-ha-cellutrix/,HTTP 410,Wed Nov 11 17:11:12 2026
-N00977,DermaFocus,https://dermafocus.co.uk/product/newest/,RemoteProtocolError: Server disconnected without sending a response.,Wed Nov 11 17:11:22 2026
 N00984,DermaFocus,https://dermafocus.co.uk/product/plinest/,RemoteProtocolError: Server disconnected without sending a response.,Wed Nov 11 17:11:36 2026
-N00984,DermaFocus,https://dermafocus.co.uk/product/plinest/,RemoteProtocolError: Server disconnected without sending a response.,Wed Nov 11 17:11:55 2026
 N00985,DermaFocus,https://dermafocus.co.uk/product/plinest-eyes/,RemoteProtocolError: Server disconnected without sending a response.,Wed Nov 11 17:12:08 2026
-N00985,DermaFocus,https://dermafocus.co.uk/product/plinest-eyes/,RemoteProtocolError: Server disconnected without sending a response.,Wed Nov 11 17:12:26 2026
 N00986,DermaFocus,https://dermafocus.co.uk/product/plinest-hair/,RemoteProtocolError: Server disconnected without sending a response.,Wed Nov 11 17:12:41 2026
 R08961,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/revitrane-classic-1x1ml,HTTP 404,Wed Nov 11 17:12:44 2026
-R08961,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/revitrane-classic-1x1ml,HTTP 404,Wed Nov 11 17:12:44 2026
-R08962,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/revitrane-volume-1x1ml,HTTP 404,Wed Nov 11 17:12:45 2026
 R08962,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/revitrane-volume-1x1ml,HTTP 404,Wed Nov 11 17:12:45 2026
 R08963,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/revitrane-ha-10-premium-1x1ml,HTTP 404,Wed Nov 11 17:12:46 2026
-R08963,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/revitrane-ha-10-premium-1x1ml,HTTP 404,Wed Nov 11 17:12:46 2026
-R08990,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/puri-lips-hydro-lip-booster-with-b12-1-1-1ml,HTTP 404,Wed Nov 11 17:12:47 2026
 R08990,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/puri-lips-hydro-lip-booster-with-b12-1-1-1ml,HTTP 404,Wed Nov 11 17:12:47 2026
 R08991,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/kairax-enhance-45-1-x-2ml,HTTP 404,Wed Nov 11 17:12:48 2026
-R08991,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/kairax-enhance-45-1-x-2ml,HTTP 404,Wed Nov 11 17:12:48 2026
-N00986,DermaFocus,https://dermafocus.co.uk/product/plinest-hair/,RemoteProtocolError: Server disconnected without sending a response.,Wed Nov 11 17:12:59 2026
 R06958,Skin On You,https://skinonyou.com/shop/rrs-ha-skin-relax-bonta-568/,HTTP 410,Wed Nov 11 17:13:02 2026
 R09186,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/lumi-naju-dermaren,HTTP 404,Wed Nov 11 17:13:03 2026
-R06958,Skin On You,https://skinonyou.com/shop/rrs-ha-skin-relax-bonta-568/,HTTP 410,Wed Nov 11 17:13:03 2026
-R09186,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/lumi-naju-dermaren,HTTP 404,Wed Nov 11 17:13:03 2026
-R07015,Skin On You,https://skinonyou.com/shop/revofil-fine/,HTTP 410,Wed Nov 11 17:13:38 2026
 R07015,Skin On You,https://skinonyou.com/shop/revofil-fine/,HTTP 410,Wed Nov 11 17:13:38 2026
 R07016,Skin On You,https://skinonyou.com/shop/revofil-plus/,HTTP 410,Wed Nov 11 17:13:39 2026
-R07016,Skin On You,https://skinonyou.com/shop/revofil-plus/,HTTP 410,Wed Nov 11 17:13:39 2026
-R07017,Skin On You,https://skinonyou.com/shop/revofil-ultra/,HTTP 410,Wed Nov 11 17:13:40 2026
 R07017,Skin On You,https://skinonyou.com/shop/revofil-ultra/,HTTP 410,Wed Nov 11 17:13:40 2026
 R06207,Smile Pharma,https://smilepharma.co.uk/product/vitaran-eu-2x1ml/,HTTP 404,Wed Nov 11 17:17:49 2026
-R06207,Smile Pharma,https://smilepharma.co.uk/product/vitaran-eu-2x1ml/,HTTP 404,Wed Nov 11 17:17:52 2026
 R06242,Smile Pharma,https://smilepharma.co.uk/product/sosum-soft-skin-booster-1x3ml-ce/,HTTP 404,Wed Nov 11 17:19:07 2026
-R06242,Smile Pharma,https://smilepharma.co.uk/product/sosum-soft-skin-booster-1x3ml-ce/,HTTP 404,Wed Nov 11 17:19:09 2026
+R05695,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/995,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:56 2026
+R05704,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/986,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:56 2026
+R05706,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/982,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:56 2026
+R05725,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/915,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:57 2026
+R05726,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/911,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:57 2026
+R05749,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/834,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:57 2026
+R05754,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/820,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:57 2026
+R05761,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/794,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:57 2026
+R05772,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/773,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:57 2026
+R05785,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/651,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:57 2026
+R05841,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/331,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:57 2026
+R05847,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/315,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:57 2026
+R05867,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/246,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:57 2026
+R05924,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/6,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:59 2026
+R05925,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/5,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:59 2026
+R05926,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/4,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:59 2026
+R05927,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/3,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 17:25:59 2026

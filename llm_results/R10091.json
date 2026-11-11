@@ -1,0 +1,37 @@
+{
+ "id": "R10091",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-bocouture/100-units",
+  "presentation_id": "F-bocouture/100-units/1xvial",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "not_stated",
+  "strength": "100 units",
+  "unit_type": "vial",
+  "unit_count": "2",
+  "unit_volume_ml": "",
+  "pack_source": "page_title",
+  "status_words": [
+   "Prescription required"
+  ],
+  "options_seen": [],
+  "image_reads": "",
+  "image_matches_text": "no_image",
+  "evidence": [
+   {
+    "source": "page_title",
+    "quote": "Bocouture 100u Dual Vial"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "likely",
+  "needs_human_review": false,
+  "review_reason": "no description and no image; strength and count only from page title",
+  "family_id": "F-bocouture"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

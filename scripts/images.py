@@ -14,7 +14,7 @@ def main():
     for p in pages:
         u = p.get("image_url") or ""
         if not u: continue
-        u = urllib.parse.urljoin(p["final_url"], u)
+        u = urllib.parse.urljoin(p["final_url"], u).replace("http://", "https://", 1)
         d = ROOT / "cache" / slug(p["supplier"])
         if list(d.glob(p["id"] + ".img.*")): continue
         host = urllib.parse.urlparse(u).netloc
@@ -29,6 +29,8 @@ def main():
         ext = {"image/png": "png", "image/webp": "webp", "image/gif": "gif"}.get(r.headers.get("content-type", "").split(";")[0], "jpg")
         (d / f"{p['id']}.img.{ext}").write_bytes(r.content)
         print("ok", p["id"], len(r.content))
+    if "--no-sheets" in sys.argv:
+        return
     from PIL import Image, ImageDraw
     files = sorted((ROOT / "cache").glob("*/*.img.*"))
     tiles = []

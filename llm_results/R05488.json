@@ -1,0 +1,39 @@
+{
+ "id": "R05488",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-alluzience/125-speywood-units-200-su-ml-0-625-ml",
+  "presentation_id": "F-alluzience/125-speywood-units-200-su-ml-0-625-ml/1xvial",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "UK/CE",
+  "strength": "125 Speywood units (200 SU/ml)",
+  "unit_type": "vial",
+  "unit_count": "2",
+  "unit_volume_ml": "",
+  "pack_source": "image",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "Alluzience 200 Speywood units/ml, 2 vials, Intramuscular use",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_title",
+    "quote": "Alluzience 2 x 125 Units"
+   },
+   {
+    "source": "page_text",
+    "quote": "the first ready-to-use liquid neurotoxin in the UK"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "confirmed",
+  "needs_human_review": false,
+  "review_reason": "",
+  "family_id": "F-alluzience"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

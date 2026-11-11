@@ -1,0 +1,39 @@
+{
+ "id": "R04482",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-azzalure/125-speywood-units",
+  "presentation_id": "F-azzalure/125-speywood-units/1xvial",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "UK/CE",
+  "strength": "125 Speywood units",
+  "unit_type": "vial",
+  "unit_count": "1",
+  "unit_volume_ml": "",
+  "pack_source": "page_text",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "single Azzalure 125 Speywood units vial",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "Azzalure 1 x 125 Speywood units vials Botulinum Toxin Type A"
+   },
+   {
+    "source": "page_text",
+    "quote": "Size and Care Info 1 x 125U"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "confirmed",
+  "needs_human_review": false,
+  "review_reason": "",
+  "family_id": "F-azzalure"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

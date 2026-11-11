@@ -87,7 +87,13 @@ def main():
                                          {"yes": "lidocaine", "no": "no lidocaine"}.get(d["lidocaine"], "lidocaine not stated"),
                                          d["market"] if d["market"] != "not_stated" else ""] if x)
         plabel = f"{d['unit_count'] or '?'} x {d['unit_volume_ml'] + ' ml ' if d['unit_volume_ml'] else ''}{d['unit_type']}"
-        vkey = vid if vid not in ("", "NONE") else f"{fid}/{vlabel}"
+        # variant key: catalogue variant if chosen; otherwise line + strength + lidocaine (rule 11). Market only splits
+        # variants where the catalogue defines market variants (e.g. Revolax UK vs Korean); elsewhere it is a note.
+        has_market = any(json.loads(v["attributes"]).get("market") for v in var.values() if v["family_id"] == fid)
+        key_parts = [fr.get("line") or d["proposed_line"], d["strength"], {"yes": "lidocaine", "no": "no lidocaine"}.get(d["lidocaine"], "lidocaine not stated")]
+        if has_market:
+            key_parts.append(d["market"])
+        vkey = vid if vid not in ("", "NONE") else f"{fid}/" + " / ".join(x for x in key_parts if x)
         conf = d["confidence"]
         hard = [x for x in reasons if not x.startswith("model: ") or d["needs_human_review"]]
         if any(x.startswith(("C1", "C2", "C3")) for x in reasons) or d["image_matches_text"] == "no":

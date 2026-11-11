@@ -1,0 +1,39 @@
+{
+ "id": "R07563",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-teosyal-rha-3/lidocaine-0-3",
+  "presentation_id": "F-teosyal-rha-3/lidocaine-0-3/2x1pre-filled-syringe",
+  "proposed_line": "",
+  "lidocaine": "yes",
+  "lidocaine_source": "page_text",
+  "market": "UK/CE",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "2",
+  "unit_volume_ml": "1",
+  "pack_source": "page_text",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "Teosyal RHA 3 carton, hyaluronic acid lidocaine",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "2 x 1ml syringes"
+   },
+   {
+    "source": "page_text",
+    "quote": "contains lidocaine"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "confirmed",
+  "needs_human_review": false,
+  "review_reason": "",
+  "family_id": "F-teosyal-rha-3"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

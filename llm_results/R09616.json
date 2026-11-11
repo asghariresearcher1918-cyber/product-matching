@@ -1,0 +1,39 @@
+{
+ "id": "R09616",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-revolax-deep/uk-ce-version",
+  "presentation_id": "",
+  "proposed_line": "",
+  "lidocaine": "yes",
+  "lidocaine_source": "page_text",
+  "market": "UK/CE",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "1",
+  "unit_volume_ml": "1.1",
+  "pack_source": "page_text",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "Revolax Deep carton 'FOX GROUP exclusive UK & IE licence holder'",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "HA concentration 24mg/ml Lidocaine HCl 0.3% Volume 1.1ml CE Marked on the box and the inner pack."
+   },
+   {
+    "source": "page_title",
+    "quote": "Revolax Deep UK Official Box"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "likely",
+  "needs_human_review": false,
+  "review_reason": "",
+  "family_id": "F-revolax-deep"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

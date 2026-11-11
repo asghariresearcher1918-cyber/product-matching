@@ -1,0 +1,37 @@
+{
+ "id": "R09273",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-revolax-deep/non-uk-korean-version",
+  "presentation_id": "",
+  "proposed_line": "",
+  "lidocaine": "yes",
+  "lidocaine_source": "page_text",
+  "market": "other_non_UK",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "1",
+  "unit_volume_ml": "1.1",
+  "pack_source": "page_text",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "white carton with grey lattice pattern, 'REVOLAX DEEP with Lidocaine', 1.1mL - a different carton design from the FOX GROUP UK box",
+  "image_matches_text": "unclear",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "The pack consists of: 1 x 1.1ml syringe 2 x 27G needles 24 mg/ml cross-linked hyaluronic acid 3mg/ml lidocaine"
+   }
+  ],
+  "conflicts": [
+   "carton design differs from the 'FOX GROUP - exclusive UK & IE licence holder' box shown by other suppliers"
+  ],
+  "confidence": "uncertain",
+  "needs_human_review": true,
+  "review_reason": "pack design suggests a non-UK (or older) version; confirm market",
+  "family_id": "F-revolax-deep"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

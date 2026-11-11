@@ -1,0 +1,35 @@
+{
+ "id": "R10245",
+ "result": {
+  "kind": "marketing_or_accessory",
+  "variant_id": "",
+  "presentation_id": "",
+  "proposed_line": "Azzalure bottle opener (accessory)",
+  "lidocaine": "not_stated",
+  "lidocaine_source": "none",
+  "market": "not_stated",
+  "strength": "",
+  "unit_type": "not_stated",
+  "unit_count": "",
+  "unit_volume_ml": "",
+  "pack_source": "none",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "",
+  "image_matches_text": "no_image",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "This opener easily opens azzalure bottles, and most other aesthetic bottles"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "confirmed",
+  "needs_human_review": false,
+  "review_reason": "accessory sold under the brand name, not the medicine",
+  "family_id": "F-azzalure"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

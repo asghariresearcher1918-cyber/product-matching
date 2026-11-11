@@ -1,0 +1,38 @@
+{
+ "id": "R10281",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-teosyal-rha-3/lidocaine-0-3",
+  "presentation_id": "",
+  "proposed_line": "",
+  "lidocaine": "yes",
+  "lidocaine_source": "image",
+  "market": "UK/CE",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "1",
+  "unit_volume_ml": "1",
+  "pack_source": "page_title",
+  "status_words": [],
+  "options_seen": [
+   "Non-Prescription",
+   "Prescription"
+  ],
+  "image_reads": "full Teosyal RHA 3 carton (official box holds 2 syringes)",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_title",
+    "quote": "Teosyal RHA 3 (1 x 1ml) SINGLE SYRINGE"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "likely",
+  "needs_human_review": false,
+  "review_reason": "split pack: single syringe from a 2-syringe box (official IFU: 'Each box contains two pre-filled syringes')",
+  "family_id": "F-teosyal-rha-3"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

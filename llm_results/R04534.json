@@ -1,0 +1,39 @@
+{
+ "id": "R04534",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-bocouture/100-units",
+  "presentation_id": "F-bocouture/100-units/1xvial",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "UK/CE",
+  "strength": "100 units",
+  "unit_type": "vial",
+  "unit_count": "1",
+  "unit_volume_ml": "",
+  "pack_source": "page_text",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "Bocouture 100 units carton and vial",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "Size and Care Info 1 x 100u"
+   },
+   {
+    "source": "page_text",
+    "quote": "manufactured by Merz"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "confirmed",
+  "needs_human_review": false,
+  "review_reason": "",
+  "family_id": "F-bocouture"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

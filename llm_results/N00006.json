@@ -1,0 +1,37 @@
+{
+ "id": "N00006",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-alluzience/125-speywood-units-200-su-ml-0-625-ml",
+  "presentation_id": "F-alluzience/125-speywood-units-200-su-ml-0-625-ml/1xvial",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "UK/CE",
+  "strength": "125 Speywood units (200 SU/ml)",
+  "unit_type": "vial",
+  "unit_count": "1",
+  "unit_volume_ml": "",
+  "pack_source": "page_title",
+  "status_words": [
+   "POM"
+  ],
+  "options_seen": [],
+  "image_reads": "2-vial Alluzience carton with a 'SINGLE VIAL' badge",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_title",
+    "quote": "Alluzience SINGLE VIAL 200 Speywood units/ml (Split Pack May Not Include Original Box)"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "likely",
+  "needs_human_review": false,
+  "review_reason": "split pack: one vial taken from a 2-vial carton, may come without original box - not a manufacturer pack",
+  "family_id": "F-alluzience"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

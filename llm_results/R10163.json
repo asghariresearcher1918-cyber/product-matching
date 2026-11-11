@@ -1,0 +1,46 @@
+{
+ "id": "R10163",
+ "result": {
+  "kind": "product",
+  "variant_id": "",
+  "presentation_id": "",
+  "proposed_line": "",
+  "lidocaine": "yes",
+  "lidocaine_source": "page_text",
+  "market": "not_stated",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "1",
+  "unit_volume_ml": "1",
+  "pack_source": "page_title",
+  "status_words": [
+   "clone"
+  ],
+  "options_seen": [
+   "Prescription",
+   "Non-Prescription"
+  ],
+  "image_reads": "full Volift 2 x 1 mL carton",
+  "image_matches_text": "no",
+  "evidence": [
+   {
+    "source": "page_title",
+    "quote": "Juvederm Volift with lidocaine SINGLE SYRINGE (1x1ml)"
+   },
+   {
+    "source": "page_text",
+    "quote": "What is in the box? 2 x 1ml syringes"
+   }
+  ],
+  "conflicts": [
+   "page title says SINGLE SYRINGE (1x1ml) but description says 'What is in the box? 2 x 1ml syringes' and image shows the 2-syringe carton"
+  ],
+  "confidence": "uncertain",
+  "needs_human_review": true,
+  "review_reason": "single vs box conflict on the page (listing title also says 'clone')",
+  "family_id": "F-juvederm-volift"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "R05609",
+ "result": {
+  "kind": "product",
+  "variant_id": "",
+  "presentation_id": "",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "not_stated",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "1",
+  "unit_volume_ml": "2",
+  "pack_source": "page_text",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "Profhilo Structura carton with HA hologram sticker",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "Composition 45mg high HA and 45g low HA per 2ml – total 90mg HA"
+   },
+   {
+    "source": "page_text",
+    "quote": "Box contents 1 x 2ml pre-filled syringe Supplied in a separate box 1 x Steriglide 0.50 x 38mm cannula & needle"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "likely",
+  "needs_human_review": false,
+  "review_reason": "",
+  "family_id": "F-profhilo-structura"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

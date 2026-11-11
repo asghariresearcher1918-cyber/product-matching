@@ -1,0 +1,39 @@
+{
+ "id": "R03166",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-botox/100-allergan-units",
+  "presentation_id": "F-botox/100-allergan-units/1xvial",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "UK/CE",
+  "strength": "100 Allergan Units",
+  "unit_type": "vial",
+  "unit_count": "1",
+  "unit_volume_ml": "",
+  "pack_source": "image",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "BOTOX 100 Allergan Units, one vial, AbbVie",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "EMC: https://www.medicines.org.uk/emc/product/859/smpc"
+   },
+   {
+    "source": "image",
+    "quote": "One vial contains 100 Allergan Units"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "confirmed",
+  "needs_human_review": false,
+  "review_reason": "page links the official emc SmPC 859 (BOTOX 100)",
+  "family_id": "F-botox"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

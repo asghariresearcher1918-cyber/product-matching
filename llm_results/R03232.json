@@ -1,0 +1,39 @@
+{
+ "id": "R03232",
+ "result": {
+  "kind": "product",
+  "variant_id": "",
+  "presentation_id": "",
+  "proposed_line": "",
+  "lidocaine": "yes",
+  "lidocaine_source": "page_text",
+  "market": "UK/CE",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "2",
+  "unit_volume_ml": "1",
+  "pack_source": "page_text",
+  "status_words": [],
+  "options_seen": [],
+  "image_reads": "Juvederm Volift with Lidocaine 2 x 1 mL carton, 'Supplied for UK' sticker",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "Box Contents: 2 x 1 ml syringes 4 x single use 30G 1/2\" sterile needles"
+   },
+   {
+    "source": "page_text",
+    "quote": "17.5 mg/ml hyaluronic acid 3 mg/ml lidocaine hydrochloride"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "likely",
+  "needs_human_review": false,
+  "review_reason": "",
+  "family_id": "F-juvederm-volift"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

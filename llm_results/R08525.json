@@ -1,0 +1,41 @@
+{
+ "id": "R08525",
+ "result": {
+  "kind": "product",
+  "variant_id": "",
+  "presentation_id": "",
+  "proposed_line": "",
+  "lidocaine": "yes",
+  "lidocaine_source": "image",
+  "market": "not_stated",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "1",
+  "unit_volume_ml": "1.1",
+  "pack_source": "page_text",
+  "status_words": [
+   "backordered"
+  ],
+  "options_seen": [],
+  "image_reads": "Revolax Deep with Lidocaine carton; lower part (licence holder text) not visible",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "Revolax Deep Dermal Filler – 1 x 1.1ml"
+   },
+   {
+    "source": "page_text",
+    "quote": "monophasic cross-linked HA gel with lidocaine"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "uncertain",
+  "needs_human_review": true,
+  "review_reason": "UK/CE vs Korean version not stated and not visible on the image (variant identity)",
+  "family_id": "F-revolax-deep"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

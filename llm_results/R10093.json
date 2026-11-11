@@ -1,0 +1,41 @@
+{
+ "id": "R10093",
+ "result": {
+  "kind": "product",
+  "variant_id": "F-botox/100-allergan-units",
+  "presentation_id": "F-botox/100-allergan-units/1xvial",
+  "proposed_line": "",
+  "lidocaine": "no",
+  "lidocaine_source": "none",
+  "market": "UK/CE",
+  "strength": "100 Allergan Units",
+  "unit_type": "vial",
+  "unit_count": "1",
+  "unit_volume_ml": "",
+  "pack_source": "image",
+  "status_words": [
+   "Prescription required"
+  ],
+  "options_seen": [],
+  "image_reads": "BOTOX 100 Allergan Units, one vial, AbbVie carton",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_title",
+    "quote": "Botox 100u"
+   },
+   {
+    "source": "image",
+    "quote": "BOTOX 100 Allergan Units One vial contains 100 Allergan Units"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "confirmed",
+  "needs_human_review": false,
+  "review_reason": "page has no description; strength from page title, carton (1 vial) from image",
+  "family_id": "F-botox"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "N00157",
+ "result": {
+  "kind": "product",
+  "variant_id": "",
+  "presentation_id": "",
+  "proposed_line": "",
+  "lidocaine": "yes",
+  "lidocaine_source": "page_text",
+  "market": "not_stated",
+  "strength": "",
+  "unit_type": "syringe",
+  "unit_count": "2",
+  "unit_volume_ml": "1",
+  "pack_source": "page_text",
+  "status_words": [
+   "OutOfStock"
+  ],
+  "options_seen": [],
+  "image_reads": "Juvederm Volift with Lidocaine 2 x 1 mL carton",
+  "image_matches_text": "yes",
+  "evidence": [
+   {
+    "source": "page_text",
+    "quote": "Each box contains two 1mL Juvéderm® VOLIFT® with Lidocaine syringes, 4 singleuse 30G1/2” sterile needles"
+   }
+  ],
+  "conflicts": [],
+  "confidence": "likely",
+  "needs_human_review": false,
+  "review_reason": "",
+  "family_id": "F-juvederm-volift"
+ },
+ "usage": {
+  "decided_by": "claude-session (no API key; same rules and schema as classify_llm.py)"
+ }
+}

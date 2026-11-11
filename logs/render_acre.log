@@ -1,0 +1,40 @@
+ok cache/acre_pharmacy/R03354.rendered.html
+ok cache/acre_pharmacy/R03355.rendered.html
+ok cache/acre_pharmacy/R03402.rendered.html
+ok cache/acre_pharmacy/R03403.rendered.html
+ok cache/acre_pharmacy/R03404.rendered.html
+ok cache/acre_pharmacy/R03405.rendered.html
+ok cache/acre_pharmacy/R03406.rendered.html
+ok cache/acre_pharmacy/R03407.rendered.html
+ok cache/acre_pharmacy/R03408.rendered.html
+ok cache/acre_pharmacy/R03409.rendered.html
+ok cache/acre_pharmacy/R03410.rendered.html
+FAIL https://www.acrepharmacy.co.uk/product/pluryal-classic-1-x-1ml-stock-item-vat-payable/01tTw00000H81WbIAJ page.waitForTimeout: Target page, context or browser has been closed
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+page.waitForTimeout: Target page, context or browser has been closed
+    at /home/user/product-matching/scripts/render.js:23:14 {
+  log: []
+}
+
+Node.js v22.23.4
+cached cache/acre_pharmacy/R03354.rendered.html
+cached cache/acre_pharmacy/R03355.rendered.html
+cached cache/acre_pharmacy/R03402.rendered.html
+cached cache/acre_pharmacy/R03403.rendered.html
+cached cache/acre_pharmacy/R03404.rendered.html
+cached cache/acre_pharmacy/R03405.rendered.html
+cached cache/acre_pharmacy/R03406.rendered.html
+cached cache/acre_pharmacy/R03407.rendered.html
+cached cache/acre_pharmacy/R03408.rendered.html
+cached cache/acre_pharmacy/R03409.rendered.html
+cached cache/acre_pharmacy/R03410.rendered.html
+ok cache/acre_pharmacy/R03411.rendered.html
+ok cache/acre_pharmacy/R03412.rendered.html
+ok cache/acre_pharmacy/R03413.rendered.html
+ok cache/acre_pharmacy/R03414.rendered.html
+ok cache/acre_pharmacy/R03415.rendered.html
+ok cache/acre_pharmacy/R03416.rendered.html
+ok cache/acre_pharmacy/R03417.rendered.html
