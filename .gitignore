@@ -6,3 +6,4 @@ cache/
 logs/scrape_*.log
 logs/images.log
 logs/render_acre.log
+logs/scrape.log

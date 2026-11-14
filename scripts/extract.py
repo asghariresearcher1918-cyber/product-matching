@@ -8,6 +8,7 @@ written to scrape_errors.csv instead of being guessed.
 Usage: python -I scripts/extract.py [--ids pilot_ids.txt]
 """
 import argparse
+import multiprocessing
 import csv
 import html as htmllib
 import json
@@ -229,7 +230,38 @@ def main_text(raw, title):
     return txt[:8000]
 
 
-def extract(raw):
+def supplier_category(raw, r, soup):
+    """The supplier's own classification of the product, from every place a platform exposes it."""
+    out = []
+    # WooCommerce: product_cat-* classes on the main product element (any tag)
+    m = re.search(r'class="([^"]*\bproduct_cat-[^"]*)"', raw[:800000])
+    if m:
+        out += [c[12:].replace("-", " ") for c in m.group(1).split() if c.startswith("product_cat-") and "black-friday" not in c and "sale" not in c]
+    # Shopify: product type / vendor in the product JSON (skip platform noise)
+    for k in ("product_type", "type", "vendor"):
+        m = re.search(r'"' + k + r'"\s*:\s*"([^"]{2,60})"', raw[:800000])
+        if m and m.group(1).lower() not in ("product", "default", "website", "article", "app", "simple", "variable", "vendor", "variant"):
+            out.append(f"{k}: {m.group(1)}")
+    # any breadcrumb element the extractor did not already capture
+    if not r.get("breadcrumb"):
+        bc = soup.select_one('[class*="breadcrumb__links"], [class*="theme-breadcrumb"], ol.breadcrumb, ul.breadcrumb, nav[aria-label*="readcrumb"], .breadcrumb')
+        if bc:
+            out.append(clean(bc.get_text(" > ", strip=True))[:200])
+    # category path in the product URL (e.g. MedFX /anaesthetics--pharmaceuticals/needles/...)
+    path = [seg for seg in (r.get("_url_path") or "").split("/") if seg and not re.search(r"\d{3,}|product|products|view|\.html", seg)]
+    if len(path) >= 2:
+        out.append("url: " + " / ".join(x.replace("--", " & ").replace("-", " ") for x in path[:-1]))
+    # JSON-LD category, breadcrumb, Woo 'posted_in', attribute 'Category'
+    for v in ((r.get("jsonld") or {}).get("category"), r.get("breadcrumb"), r.get("categories"), (r.get("attributes") or {}).get("Category")):
+        if v:
+            out.append(str(v))
+    # legal category / medicine type fields shown on the page (Church, Ask)
+    for m in re.finditer(r"(Legal Category:\s*\w+|Medicine Type\s+[A-Z][a-z]+(?: Sale)?|Toxin:\s*Yes|Filler:\s*Yes|POM:\s*Yes|Fridge-line:\s*Yes)", r.get("main_text", "") or r.get("description", "")):
+        out.append(m.group(1))
+    return " | ".join(dict.fromkeys(x.strip() for x in out if x and x.strip()))[:400]
+
+
+def extract(raw, url=""):
     soup = BeautifulSoup(raw, "lxml")
     plat = detect_platform(raw)
     prods = jsonld_products(soup)
@@ -265,14 +297,43 @@ def extract(raw):
     if not r.get("page_title"):
         r["page_title"] = og_title or title_tag
     r["main_text"] = main_text(raw, r["page_title"])
+    r["_url_path"] = re.sub(r"^https?://[^/]+", "", url).split("?")[0]
+    r["supplier_category"] = supplier_category(raw, r, soup)
+    r.pop("_url_path", None)
     r["og_title"] = og_title
     r["html_title"] = title_tag
     return r
 
 
+def process_row(row):
+    """Extract one cached page -> ("rec", record) | ("err", error row) | ("skip", None). Runs in a worker process."""
+    f = CACHE / slug(row["supplier"]) / f"{row['id']}.html"
+    rf = f.with_suffix(".rendered.html")  # JS-only sites (e.g. ACRE/Salesforce): browser-rendered copy
+    if rf.exists():
+        raw = rf.read_text(encoding="utf-8", errors="replace")
+        raw = re.sub(r"^<!-- ref-url: (\S+) \| final-url: (\S+) \| rendered", r"<!-- scraped-url: \1 | final-url: \2 | method: playwright", raw, count=1)
+    elif f.exists():
+        raw = f.read_text(encoding="utf-8", errors="replace")
+    else:
+        return "skip", None
+    m = re.match(r"<!-- scraped-url: (\S+) \| final-url: (\S+) \| method: (\S+)", raw)
+    final = m.group(2) if m else row["url"]
+    if m and final.rstrip("/") != row["url"].rstrip("/") and re.search(r"/(all-products|shop|products|search|login|account)/?$|[?&]s=", final):
+        return "err", {"id": row["id"], "supplier": row["supplier"], "url": row["url"],
+                       "error": f"extract: redirected to listing page {final} (product removed or login-only)", "when": time.ctime()}
+    rec = {"id": row["id"], "supplier": row["supplier"], "input_title": row["title"], "url": row["url"],
+           "final_url": final, "fetch_method": m.group(3) if m else ""}
+    try:
+        rec.update(extract(raw, row["url"]))
+    except Exception as e:  # a malformed page must not stop the run
+        return "err", {"id": row["id"], "supplier": row["supplier"], "url": row["url"], "error": f"extract: parse error {type(e).__name__}: {e}", "when": time.ctime()}
+    return "rec", rec
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ids")
+    ap.add_argument("--workers", type=int, default=max(1, multiprocessing.cpu_count()))
     a = ap.parse_args()
     rows = list(csv.DictReader(open(ROOT / "products_input.csv", encoding="utf-8-sig")))
     if a.ids:
@@ -284,28 +345,13 @@ def main():
     if ep.exists():
         errs = [e for e in csv.DictReader(open(ep, encoding="utf-8")) if not e["error"].startswith("extract:")]
     n = 0
-    with open(ROOT / "pages.jsonl", "w", encoding="utf-8") as out:
-        for row in rows:
-            f = CACHE / slug(row["supplier"]) / f"{row['id']}.html"
-            if not f.exists():
-                continue
-            rf = f.with_suffix(".rendered.html")  # JS-only sites (e.g. ACRE/Salesforce): browser-rendered copy
-            if rf.exists():
-                raw = rf.read_text(encoding="utf-8", errors="replace")
-                raw = re.sub(r"^<!-- ref-url: (\S+) \| final-url: (\S+) \| rendered", r"<!-- scraped-url: \1 | final-url: \2 | method: playwright", raw, count=1)
-            else:
-                raw = f.read_text(encoding="utf-8", errors="replace")
-            m = re.match(r"<!-- scraped-url: (\S+) \| final-url: (\S+) \| method: (\S+)", raw)
-            final = m.group(2) if m else row["url"]
-            if m and final.rstrip("/") != row["url"].rstrip("/") and re.search(r"/(all-products|shop|products|search|login|account)/?$|[?&]s=", final):
-                errs.append({"id": row["id"], "supplier": row["supplier"], "url": row["url"],
-                             "error": f"extract: redirected to listing page {final} (product removed or login-only)", "when": time.ctime()})
-                continue
-            rec = {"id": row["id"], "supplier": row["supplier"], "input_title": row["title"], "url": row["url"],
-                   "final_url": final, "fetch_method": m.group(3) if m else ""}
-            rec.update(extract(raw))
-            out.write(json.dumps(rec, ensure_ascii=False) + "\n")
-            n += 1
+    with open(ROOT / "pages.jsonl", "w", encoding="utf-8") as out, multiprocessing.Pool(a.workers) as pool:
+        for kind, val in pool.imap(process_row, rows, chunksize=16):
+            if kind == "rec":
+                out.write(json.dumps(val, ensure_ascii=False) + "\n")
+                n += 1
+            elif kind == "err":
+                errs.append(val)
     # dedupe errors: keep only ids not successfully extracted
     ok = {json.loads(l)["id"] for l in open(ROOT / "pages.jsonl", encoding="utf-8")}
     seen, final_errs = set(), []
