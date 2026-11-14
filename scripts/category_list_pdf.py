@@ -1,6 +1,7 @@
 """PDF list of rows in one rough keyword category (first-match order, same rules as the
 category estimate shown in chat). Usage: python -I scripts/category_list_pdf.py"""
 import csv
+import sys
 import re
 from pathlib import Path
 
@@ -22,9 +23,13 @@ CAT = [
     ("skincare/cosmetic/supplement", r"serum|cream|cleanser|spf|sunscreen|peel|mask|moistur|toner|gel\b|lotion|neostrata|heliocare|mesoestetic|supplement|collagen|vitamin|biorepeel|prx"),
 ]
 TARGET = "skincare/cosmetic/supplement"
+OTHER = "other/unknown"  # rows that matched no keyword rule
+TITLES = {"skincare/cosmetic/supplement": "Skincare / cosmetics / supplements", OTHER: "Other / unknown (no keyword matched)"}
+FILES = {"skincare/cosmetic/supplement": "category_skincare_cosmetics_supplements", OTHER: "category_other_unknown"}
 
 
 def main():
+    target = sys.argv[1] if len(sys.argv) > 1 else TARGET
     rows = list(csv.DictReader(open(ROOT / "products_input.csv", encoding="utf-8-sig")))
     sel = []
     for x in rows:
@@ -32,11 +37,14 @@ def main():
         for k, p in CAT:
             m = re.search(p, t)
             if m:
-                if k == TARGET:
+                if k == target:
                     sel.append((x, m.group(0)))
                 break
+        else:
+            if target == OTHER:
+                sel.append((x, "none"))
     sel.sort(key=lambda s: (s[0]["title"].lower(), s[0]["supplier"]))
-    out_csv = ROOT / "output" / "category_skincare_cosmetics_supplements.csv"
+    out_csv = ROOT / "output" / f"{FILES[target]}.csv"
     with open(out_csv, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["no", "id", "supplier", "title", "matched_keyword", "url"])
@@ -73,10 +81,12 @@ def main():
     for x, _ in sel:
         sup[x["supplier"]] = sup.get(x["supplier"], 0) + 1
     story = [
-        Paragraph(f"Skincare / cosmetics / supplements - {len(sel)} rows", h1), Spacer(1, 4),
-        Paragraph("Rough keyword categorisation of products_input.csv (first matching rule wins; rows matching an earlier "
-                  "category such as filler, needle or medicine are not in this list). Not yet checked against product pages - "
-                  "some rows here belong elsewhere and some cosmetics are in other categories. Sorted by title so near-duplicates sit together.", note),
+        Paragraph(f"{TITLES[target]} - {len(sel)} rows", h1), Spacer(1, 4),
+        Paragraph(("Rough keyword categorisation of products_input.csv (first matching rule wins; rows matching an earlier "
+                  "category such as filler, needle or medicine are not in this list). " if target != OTHER else
+                  "These rows matched none of the six keyword lists used for the quick category estimate (title words only). "
+                  "They were never classified from their product pages: the page-based method has so far been run only on toxins and "
+                  "fillers/skin boosters/biostimulators. ") + "Not yet checked against product pages. Sorted by title so near-duplicates sit together.", note),
         Spacer(1, 3),
         Paragraph("Rows per supplier: " + esc(", ".join(f"{k} {v}" for k, v in sorted(sup.items(), key=lambda kv: -kv[1]))), note),
         Spacer(1, 6), t,
@@ -87,9 +97,9 @@ def main():
         c.setFillColor(colors.grey)
         c.drawRightString(landscape(A4)[0] - 12 * mm, 8 * mm, f"page {d.page}")
 
-    out = ROOT / "output" / "category_skincare_cosmetics_supplements.pdf"
+    out = ROOT / "output" / f"{FILES[target]}.pdf"
     SimpleDocTemplate(str(out), pagesize=landscape(A4), leftMargin=12 * mm, rightMargin=12 * mm, topMargin=12 * mm,
-                      bottomMargin=14 * mm, title="Skincare / cosmetics / supplements").build(story, onFirstPage=footer, onLaterPages=footer)
+                      bottomMargin=14 * mm, title=TITLES[target]).build(story, onFirstPage=footer, onLaterPages=footer)
     print(out, len(sel))
 
 
