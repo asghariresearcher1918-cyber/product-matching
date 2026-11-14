@@ -146,20 +146,343 @@ R07016,Skin On You,https://skinonyou.com/shop/revofil-plus/,HTTP 410,Wed Nov 11 
 R07017,Skin On You,https://skinonyou.com/shop/revofil-ultra/,HTTP 410,Wed Nov 11 17:13:40 2026
 R06207,Smile Pharma,https://smilepharma.co.uk/product/vitaran-eu-2x1ml/,HTTP 404,Wed Nov 11 17:17:49 2026
 R06242,Smile Pharma,https://smilepharma.co.uk/product/sosum-soft-skin-booster-1x3ml-ce/,HTTP 404,Wed Nov 11 17:19:07 2026
-R05695,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/995,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:07 2026
-R05704,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/986,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:07 2026
-R05706,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/982,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:07 2026
-R05725,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/915,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:08 2026
-R05726,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/911,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:08 2026
-R05749,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/834,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:08 2026
-R05754,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/820,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:08 2026
-R05761,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/794,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:08 2026
-R05772,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/773,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:08 2026
-R05785,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/651,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:08 2026
-R05841,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/331,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:08 2026
-R05847,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/315,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:08 2026
-R05867,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/246,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:09 2026
-R05924,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/6,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:10 2026
-R05925,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/5,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:10 2026
-R05926,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/4,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:10 2026
-R05927,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/3,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Wed Nov 11 18:24:10 2026
+N00600,Refine Pharma,https://refinepharma.com/product/avoca-caustic-applicators-75w-w/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00601,Refine Pharma,https://refinepharma.com/product/ondansetron-8mg-4ml-solution-for-injection/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00602,Refine Pharma,https://refinepharma.com/product/flucloxacillin-500mg-vial-pack-of-10/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00603,Refine Pharma,https://refinepharma.com/product/heparin-preservative-free-5000iu-ml-pack-of-10/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00604,Refine Pharma,https://refinepharma.com/product/clinell-universal-wipes/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00605,Refine Pharma,https://refinepharma.com/product/iv3000-cannula-plasters-5x6cm-pack-of-100/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00606,Refine Pharma,https://refinepharma.com/product/celluerase/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00607,Refine Pharma,https://refinepharma.com/product/ferinject-500mg-10ml-box-of-10/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00608,Refine Pharma,https://refinepharma.com/product/flucloxacillin-1g-vial-pack-of-10/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00609,Refine Pharma,https://refinepharma.com/product/finasteride-1mg-film-coated-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00610,Refine Pharma,https://refinepharma.com/product/lidocaine-2-with-adrenaline/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00611,Refine Pharma,https://refinepharma.com/product/testosterone-enan-im-1ml-250mg-pack-of-3/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00612,Refine Pharma,https://refinepharma.com/product/doxycycline-100mg-capsules-8/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00613,Refine Pharma,https://refinepharma.com/product/fucidin-cream-30g/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00614,Refine Pharma,https://refinepharma.com/product/ciprofloxacin-500mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00615,Refine Pharma,https://refinepharma.com/product/celluform-2/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00616,Refine Pharma,https://refinepharma.com/product/celluform/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00618,Refine Pharma,https://refinepharma.com/product/hydrocortisone-100mg-1ml-solution-for-injection-pack-of-5/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00620,Refine Pharma,https://refinepharma.com/product/azithromycin-250mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00621,Refine Pharma,https://refinepharma.com/product/orlistat/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00624,Refine Pharma,https://refinepharma.com/product/ozempic-0-25/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00625,Refine Pharma,https://refinepharma.com/product/ozempic-0-5/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00626,Refine Pharma,https://refinepharma.com/product/ozempic-1/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00627,Refine Pharma,https://refinepharma.com/product/rybelsus-14mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00628,Refine Pharma,https://refinepharma.com/product/amoxicillin-15-250mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00629,Refine Pharma,https://refinepharma.com/product/flucloxacillin-28-250mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00631,Refine Pharma,https://refinepharma.com/product/nitrile-medium/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00632,Refine Pharma,https://refinepharma.com/product/nitrile-large/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00633,Refine Pharma,https://refinepharma.com/product/gauze-swabs/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00634,Refine Pharma,https://refinepharma.com/product/erythromycin-250mg-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00636,Refine Pharma,https://refinepharma.com/product/alidya-5x10ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00637,Refine Pharma,https://refinepharma.com/product/cefalexin-cephalexin-500mg-x-21-capsules/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00638,Refine Pharma,https://refinepharma.com/product/cefalexin-cephalexin-250mg-x-21-capsules/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00639,Refine Pharma,https://refinepharma.com/product/clarithromycin-500mg-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00640,Refine Pharma,https://refinepharma.com/product/jbp-nanoneedle-27g-x-13mm/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00641,Refine Pharma,https://refinepharma.com/product/azithromycin-500mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00642,Refine Pharma,https://refinepharma.com/product/fms-1ml-pack-of-100/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00643,Refine Pharma,https://refinepharma.com/product/testosterone-enanthate-250mg-ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00644,Refine Pharma,https://refinepharma.com/product/gedarel-30-150mg-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00645,Refine Pharma,https://refinepharma.com/product/ciprofloxacin-500mg-20-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00647,Refine Pharma,https://refinepharma.com/product/bd-plastipak-30-ml-hypodermic-syringe-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00648,Refine Pharma,https://refinepharma.com/product/bd-plastipak-30-ml-hypodermic-syringe-luer-lok/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00651,Refine Pharma,https://refinepharma.com/product/ekit-1/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00652,Refine Pharma,https://refinepharma.com/product/lidocaine-2-single-40mg-2ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00654,Refine Pharma,https://refinepharma.com/product/glyceryl-trinitrate-spray/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00655,Refine Pharma,https://refinepharma.com/product/omeprazole-20mg-capsules-28-pack/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00656,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-27-g-grey-13-mm-%c2%bd/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00657,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-23-g-blue-30-mm-1%c2%bc/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00658,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-21-g-green-16-mm-5-8/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00659,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-19-g-cream-50-mm-2/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00660,Refine Pharma,https://refinepharma.com/product/biotine-im-0-5-single-ampoule/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00661,Refine Pharma,https://refinepharma.com/product/prednisolone-5mg-x-28-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00662,Refine Pharma,https://refinepharma.com/product/spectricept-care-hand-dispenser-1000ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00663,Refine Pharma,https://refinepharma.com/product/spectricept-care-hand-refill-pouch-1000ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00665,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-22-g-black-30-mm-1%c2%bc/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00666,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-20-g-yellow-25-mm-1/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00667,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-18-g-pink-40-mm-1%c2%bd/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00668,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-25-g-orange-25-mm-1/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00669,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-22-g-black-25-mm-1/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00670,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-27-g-grey-19-mm-%c2%be/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00671,Refine Pharma,https://refinepharma.com/product/fibrovein-1-x-5-x-2ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00672,Refine Pharma,https://refinepharma.com/product/fmc-30g-25/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00673,Refine Pharma,https://refinepharma.com/product/ondansetron-8mg-x-10-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00676,Refine Pharma,https://refinepharma.com/product/sharpsguard-sharps-bin-5-litre-eco-yellow/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00677,Refine Pharma,https://refinepharma.com/product/tsk-steriglide-cannula-27g-x-38mm-1%c2%bd%e2%80%b3/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00678,Refine Pharma,https://refinepharma.com/product/bimatoprost-generic-0-01/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00680,Refine Pharma,https://refinepharma.com/product/rybelsus-3mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00681,Refine Pharma,https://refinepharma.com/product/fmc-27g-x-25mm/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00682,Refine Pharma,https://refinepharma.com/product/bd-plastipak-20-ml-hypodermic-syringe-luer-lok/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00683,Refine Pharma,https://refinepharma.com/product/lipoinject-24g-intralipotherapy-needles-20-needles-x-100mm/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00684,Refine Pharma,https://refinepharma.com/product/fmc-27g-50/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00685,Refine Pharma,https://refinepharma.com/product/adrenaline-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00686,Refine Pharma,https://refinepharma.com/product/nitrile-small/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00687,Refine Pharma,https://refinepharma.com/product/lidocaine-2-20ml-x10-amps/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00688,Refine Pharma,https://refinepharma.com/product/jbp-nanoneedle-30g-x-13mm/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00689,Refine Pharma,https://refinepharma.com/product/bimatoprost-generic-0-03/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00690,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-20-g-yellow-40-mm-1%c2%bd/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00691,Refine Pharma,https://refinepharma.com/product/tsk-steriglide-cannula-27g-x-50mm-2/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00692,Refine Pharma,https://refinepharma.com/product/amoxicillin-21-250mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00693,Refine Pharma,https://refinepharma.com/product/fmc-25g-40mm/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00695,Refine Pharma,https://refinepharma.com/product/ascorbic-acid-1000mg-5ml-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00696,Refine Pharma,https://refinepharma.com/product/bd-plastipak-5-ml-hypodermic-syringe-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00697,Refine Pharma,https://refinepharma.com/product/rybelsus-7mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00698,Refine Pharma,https://refinepharma.com/product/v-tech-serum-3x5ml-vial/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00699,Refine Pharma,https://refinepharma.com/product/aciclovir-25/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00700,Refine Pharma,https://refinepharma.com/product/fms-0-5/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00702,Refine Pharma,https://refinepharma.com/product/emerald-2ml-hypodermic-syringe-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00703,Refine Pharma,https://refinepharma.com/product/emerald-5ml-hypodermic-syringe/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00704,Refine Pharma,https://refinepharma.com/product/emerald-10ml-hypodermic-syringe-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00705,Refine Pharma,https://refinepharma.com/product/bd-plastipak-5-ml-hypodermic-syringe/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00706,Refine Pharma,https://refinepharma.com/product/bd-plastipak-20-ml-hypodermic-syringe-luer-lok-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00707,Refine Pharma,https://refinepharma.com/product/bimatoprost-lumigan-0-01/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00708,Refine Pharma,https://refinepharma.com/product/tsk-steriglide-cannula-27g-x-25mm-1%e2%80%b3/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00709,Refine Pharma,https://refinepharma.com/product/emerald-5ml-hypodermic-syringe-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00711,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-24-g-violet-25-mm-1/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00712,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-22-g-black-40-mm-1%c2%bd/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00713,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-21-g-green-50-mm-2/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00714,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-26-g-brown-16-mm-5-8/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00715,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-19-g-cream-40-mm-1%c2%bd/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00716,Refine Pharma,https://refinepharma.com/product/lidocaine-hydrochloride-1-50mg-5ml-x1-amp/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00717,Refine Pharma,https://refinepharma.com/product/water-for-injection-single-vial-5ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00718,Refine Pharma,https://refinepharma.com/product/magnesium-sulfate-50-vials-for-infusions-10-x-2ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00720,Refine Pharma,https://refinepharma.com/product/emerald-10ml-hypodermic-syringe/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00721,Refine Pharma,https://refinepharma.com/product/spectriskin-facial-mist-all-in-1-clean-tone-repair-120ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00727,Refine Pharma,https://refinepharma.com/product/spectricept-care-repair-cleansing-antimicrobial-gel-100mle/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00728,Refine Pharma,https://refinepharma.com/product/y-ported-iv-giving-set/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00729,Refine Pharma,https://refinepharma.com/product/spectricept-surface-750ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00730,Refine Pharma,https://refinepharma.com/product/tsk-steriglide-cannula-22g-x-70mm-2%c2%be%e2%80%b3/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00732,Refine Pharma,https://refinepharma.com/product/tsk-steriglide-cannula-25g-x-38mm-1%c2%bd%e2%80%b3/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00733,Refine Pharma,https://refinepharma.com/product/fibrovein-0-5-5-x-2ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00734,Refine Pharma,https://refinepharma.com/product/emerald-2ml-hypodermic-syringe/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00735,Refine Pharma,https://refinepharma.com/product/depo-medrone-40mg-ml-box-of-10/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00738,Refine Pharma,https://refinepharma.com/product/ascorbic-acid-1000mg-5ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00739,Refine Pharma,https://refinepharma.com/product/co-amoxiclav-500mg-125mg-21-tabs/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00740,Refine Pharma,https://refinepharma.com/product/aciclovir-35/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00742,Refine Pharma,https://refinepharma.com/product/bd-venflon-iv-cannulas/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00743,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-26-g-brown-13-mm-%c2%bd/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00744,Refine Pharma,https://refinepharma.com/product/fmc-27g/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00745,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-18-g-pink-50-mm-2/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00746,Refine Pharma,https://refinepharma.com/product/exovair/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00748,Refine Pharma,https://refinepharma.com/product/wegovy-4mg-semaglutide-tablets-pack-of-30/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00749,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-25-g-orange-16-mm-5-8/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00751,Refine Pharma,https://refinepharma.com/product/spectriskin-facial-mist-all-in-1-clean-tone-repair-50ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00752,Refine Pharma,https://refinepharma.com/product/fms-0-3/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00754,Refine Pharma,https://refinepharma.com/product/tretinoin-1-x-20g/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00758,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-16-g-white-40-mm-1%c2%bd/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00761,Refine Pharma,https://refinepharma.com/product/sharpsguard-sharps-bin-1-litre-yellow/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00764,Refine Pharma,https://refinepharma.com/product/fmc-22g/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00765,Refine Pharma,https://refinepharma.com/product/fmc-22g-50/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00766,Refine Pharma,https://refinepharma.com/product/softfil-precision-micro-cannulas-16g-70mm-box-of-20-kits/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00767,Refine Pharma,https://refinepharma.com/product/foundayo-17-2mg-30-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00768,Refine Pharma,https://refinepharma.com/product/foundayo-5-5mg-30-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00769,Refine Pharma,https://refinepharma.com/product/foundayo-9mg-30-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00770,Refine Pharma,https://refinepharma.com/product/foundayo-14-5mg-30-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00771,Refine Pharma,https://refinepharma.com/product/foundayo-2-5mg-30-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00774,Refine Pharma,https://refinepharma.com/product/wegovy-semaglutide-injection-7-2mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00775,Refine Pharma,https://refinepharma.com/product/bd-plastipak-10-ml-hypodermic-syringe/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00776,Refine Pharma,https://refinepharma.com/product/saline-pods-box-of-25/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00782,Refine Pharma,https://refinepharma.com/product/lidocaine-2-box-100mg-5ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00783,Refine Pharma,https://refinepharma.com/product/tsk-steriglide-cannula-22g-x-50mm-2/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00784,Refine Pharma,https://refinepharma.com/product/vinyl-gloves-medium/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00785,Refine Pharma,https://refinepharma.com/product/vinyl-gloves-large/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00786,Refine Pharma,https://refinepharma.com/product/vinyl-gloves-small/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00787,Refine Pharma,https://refinepharma.com/product/generic-pre-injection-swabs/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00788,Refine Pharma,https://refinepharma.com/product/bd-micro-fine-1ml-29g-12-7mm/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00789,Refine Pharma,https://refinepharma.com/product/lmx4-5g/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00790,Refine Pharma,https://refinepharma.com/product/prep-post-pack/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00792,Refine Pharma,https://refinepharma.com/product/biorepeel-fnd/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00793,Refine Pharma,https://refinepharma.com/product/bio-repeel-body/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00794,Refine Pharma,https://refinepharma.com/product/glutathione-600mg-4ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00795,Refine Pharma,https://refinepharma.com/product/vitamins-bc-intravenous-infusion/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00796,Refine Pharma,https://refinepharma.com/product/bimatoprost-lumigan-0-03/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00798,Refine Pharma,https://refinepharma.com/product/bd-micro-fine-1ml-29g-12-7mm-pack-of-100/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00799,Refine Pharma,https://refinepharma.com/product/bd-micro-fine-29g-x-12-7-mm-fixed-needle-syringes-pack-of-100/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00800,Refine Pharma,https://refinepharma.com/product/fmc-25g-50mm/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00803,Refine Pharma,https://refinepharma.com/product/sodium-chloride-saline-0-9-x250ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00805,Refine Pharma,https://refinepharma.com/product/ekit-2/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00808,Refine Pharma,https://refinepharma.com/product/adrenaline-epipen/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00811,Refine Pharma,https://refinepharma.com/product/aqualyx-8ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00812,Refine Pharma,https://refinepharma.com/product/adrenaline-epipen-300mcg-dual-pack/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00816,Refine Pharma,https://refinepharma.com/product/b12-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00817,Refine Pharma,https://refinepharma.com/product/sodium-chloride-10ml-box/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00818,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-23-g-blue-25-mm-1-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00819,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-27-g-grey-19-mm-%c2%be-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00820,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-20-g-yellow-25-mm-1%e2%80%b3-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00821,Refine Pharma,https://refinepharma.com/product/timolol-eye-drops/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00822,Refine Pharma,https://refinepharma.com/product/aspirin-75mg-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00823,Refine Pharma,https://refinepharma.com/product/bd-plastipak-3-ml-hypodermic-syringe-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00824,Refine Pharma,https://refinepharma.com/product/bd-plastipak-1-ml-hypodermic-syringe-luer-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00825,Refine Pharma,https://refinepharma.com/product/chlorphenamine-maleate/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00826,Refine Pharma,https://refinepharma.com/product/bd-plastipak-10-ml-hypodermic-syringe-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00827,Refine Pharma,https://refinepharma.com/product/sodium-chloride-2ml-box/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00830,Refine Pharma,https://refinepharma.com/product/promoitalia-rich-pl-topic-1-x-10ml-short-dated-31-10-2026/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00831,Refine Pharma,https://refinepharma.com/product/promoitalia-rich-pl-topic-1-x-10ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00832,Refine Pharma,https://refinepharma.com/product/levair/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00833,Refine Pharma,https://refinepharma.com/product/nad-1000mg-30ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00835,Refine Pharma,https://refinepharma.com/product/emla-5g/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00836,Refine Pharma,https://refinepharma.com/product/water-for-injection-single-vial-5ml-2/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00837,Refine Pharma,https://refinepharma.com/product/bd-micro-fine-demi-0-3ml-syringe-0-3mm-30g-x-8mm-pack-of-100/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00838,Refine Pharma,https://refinepharma.com/product/aciclovir-28/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00839,Refine Pharma,https://refinepharma.com/product/wegovy-semaglutide-injection-0-25mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00840,Refine Pharma,https://refinepharma.com/product/colecalciferol-300000iu-ml-2-vials/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00841,Refine Pharma,https://refinepharma.com/product/wegovy-9mg-semaglutide-tablets-pack-of-30/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00842,Refine Pharma,https://refinepharma.com/product/sharpsguard-sharps-bin-1-8-litre-yellow/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00845,Refine Pharma,https://refinepharma.com/product/clarithromycin-250mg-tablets-x-14/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00846,Refine Pharma,https://refinepharma.com/product/exovair-4-sets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00851,Refine Pharma,https://refinepharma.com/product/nad-1000mg-10ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00857,Refine Pharma,https://refinepharma.com/product/arnica-cream-30g/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00859,Refine Pharma,https://refinepharma.com/product/saline-1000ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00860,Refine Pharma,https://refinepharma.com/product/iopidine/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00861,Refine Pharma,https://refinepharma.com/product/biotine-im-0-5-in-1ml-ampoule/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00862,Refine Pharma,https://refinepharma.com/product/bd-micro-fine-insulin-syringe-1ml-with-30g-x-8mm-needle-pack-of-100/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00865,Refine Pharma,https://refinepharma.com/product/wegovy-1-5mg-semaglutide-tablets-pack-of-30/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00866,Refine Pharma,https://refinepharma.com/product/bd-micro-fine-29g-x-12-7-mm-fixed-needle-syringes-pack-of-10/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00867,Refine Pharma,https://refinepharma.com/product/sterile-saline-pods-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00869,Refine Pharma,https://refinepharma.com/product/wegovy-semaglutide-injection-1-7mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00870,Refine Pharma,https://refinepharma.com/product/bd-micro-fine-demi-0-3ml-syringe-0-3mm-30g-x-8mm-pack-of-10/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00871,Refine Pharma,https://refinepharma.com/product/bac-stat-bacteriostatic-saline-0-9-5ml-x-1-amp/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00872,Refine Pharma,https://refinepharma.com/product/adrenaline-box/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00875,Refine Pharma,https://refinepharma.com/product/mounjaro-12-5mg-kwikpen/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00876,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-23-g-blue-25-mm-1/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00877,Refine Pharma,https://refinepharma.com/product/mounjaro-wegovy-pen-needles-6mm-31g-x10-singles/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00878,Refine Pharma,https://refinepharma.com/product/nad-pen/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00879,Refine Pharma,https://refinepharma.com/product/nad-injection-pen-1000mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00880,Refine Pharma,https://refinepharma.com/product/sharpsguard-sharps-bin-1-litre-yellow-nad-bundle-only/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00881,Refine Pharma,https://refinepharma.com/product/sodium-chloride-0-9-2ml-x1-amp/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00883,Refine Pharma,https://refinepharma.com/product/kenalog-single-injection/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00885,Refine Pharma,https://refinepharma.com/product/lmx-cream-30g/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00888,Refine Pharma,https://refinepharma.com/product/depo-medrone-40mg-1ml-pack-of-1/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00889,Refine Pharma,https://refinepharma.com/product/adrenaline-auto-injector-jext/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00890,Refine Pharma,https://refinepharma.com/product/flucloxacillin-28-500mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00894,Refine Pharma,https://refinepharma.com/product/amoxicillin-21-500mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00895,Refine Pharma,https://refinepharma.com/product/amoxicillin-15-500mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00897,Refine Pharma,https://refinepharma.com/product/mounjaro-wegovy-ozempic-pen-needles-6mm-31g-box-of-100/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00906,Refine Pharma,https://refinepharma.com/product/saline-500ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00910,Refine Pharma,https://refinepharma.com/product/levair-radical-brightening-triple-booster/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00911,Refine Pharma,https://refinepharma.com/product/levair-the-eye-revive-pn-booster/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00915,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-21-g-green-40-mm-1%c2%bd/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00916,Refine Pharma,https://refinepharma.com/product/bac-stat-bacteriostatic-saline-0-9-5ml-x-10-amps/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00917,Refine Pharma,https://refinepharma.com/product/gauze-swabs-5x5cm/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00919,Refine Pharma,https://refinepharma.com/product/emla-30g/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00922,Refine Pharma,https://refinepharma.com/product/mounjaro-15mg-kwikpen/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00924,Refine Pharma,https://refinepharma.com/product/spectricept-care-aesthetic-post-treatment-150ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00925,Refine Pharma,https://refinepharma.com/product/eloquence-deep/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00926,Refine Pharma,https://refinepharma.com/product/eloquence-fine/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00927,Refine Pharma,https://refinepharma.com/product/eloquence-sub-q/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00928,Refine Pharma,https://refinepharma.com/product/wegovy-semaglutide-injection-2-4mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00929,Refine Pharma,https://refinepharma.com/product/wegovy-semaglutide-injection-1mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00931,Refine Pharma,https://refinepharma.com/product/sildenafil-accord-100mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00932,Refine Pharma,https://refinepharma.com/product/lidocaine-2-box-40mg-2ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00933,Refine Pharma,https://refinepharma.com/product/depo-medrone-with-lidocaine/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00938,Refine Pharma,https://refinepharma.com/product/bd-micro-fine-0-5ml-insulin-syringe-with-30g-x-8mm-needle-pack-of-10/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00945,Refine Pharma,https://refinepharma.com/product/wegovy-semaglutide-injection-0-5mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00946,Refine Pharma,https://refinepharma.com/product/mounjaro-kwikp-en-2-5mg/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00948,Refine Pharma,https://refinepharma.com/product/b12-box/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00949,Refine Pharma,https://refinepharma.com/product/bd-micro-fine-insulin-syringe-1ml-with-30g-x-8mm-needle-pack-of-10/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00950,Refine Pharma,https://refinepharma.com/product/hyaluronidase-box/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00951,Refine Pharma,https://refinepharma.com/product/bac-stat-30ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00952,Refine Pharma,https://refinepharma.com/product/sildenafil-accord-100mg-4-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00953,Refine Pharma,https://refinepharma.com/product/mounjaro-kwikpen-10mg-tirzepatide/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00956,Refine Pharma,https://refinepharma.com/product/bd-micro-fine-0-5ml-insulin-syringe-with-30g-x-8mm-needle-pack-of-100/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00957,Refine Pharma,https://refinepharma.com/product/spectricept-care-aesthetic-pre-treatment-500ml/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00958,Refine Pharma,https://refinepharma.com/product/bd-microlance-hypodermic-needle-30-g-yellow-13-mm%c2%bd/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00959,Refine Pharma,https://refinepharma.com/product/lidocaine-hydrochloride-1-50mg-5ml-10amps/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00965,Refine Pharma,https://refinepharma.com/product/tsk-steriglide-cannula-25g-x-50mm-2/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00966,Refine Pharma,https://refinepharma.com/product/foundayo-0-8mg-30-tablets/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00967,Refine Pharma,https://refinepharma.com/product/mounjaro-kwikpen-7-5mg-tirzepatide/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00968,Refine Pharma,https://refinepharma.com/product/mounjaro-wegovy-pen-needles-6mm-31g-x4-singles/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00969,Refine Pharma,https://refinepharma.com/product/mounjaro-kwikpen-5mg-pen-tirzepatide/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+N00970,Refine Pharma,https://refinepharma.com/product/hyaluronidase-single/,skipped: site refuses automated connections (pilot),Sat Nov 14 12:35:40 2026
+R08387,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/24k-gold-vibrating-beauty-bar,HTTP 404,Sat Nov 14 12:35:44 2026
+R08388,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/3-in-1-diamond-microdermabrasion-machine,HTTP 404,Sat Nov 14 12:35:45 2026
+R08390,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/800-1-electric-centrifuge-machine,HTTP 404,Sat Nov 14 12:35:47 2026
+N00973,DermaFocus,https://dermafocus.co.uk/product/celora-vita/,RemoteProtocolError: Server disconnected without sending a response.,Sat Nov 14 12:36:16 2026
+R10221,Ask Pharmacy,https://ask-pharmacy.co.uk/product/prp-kit/,HTTP 404,Sat Nov 14 12:36:38 2026
+R08472,Two Face Aesthetics,https://www.twofaceaesthetics.com/products/microblade-spmu-10m-pre-inked-mapping-string,HTTP 404,Sat Nov 14 12:36:46 2026
+N00081,Healthxchange,https://www.healthxchange.com/products/epicutis-back-bar-lipid-recovery-mask-for-eyes-single,HTTP 404,Sat Nov 14 12:36:47 2026
+R07103,AestheticSource,https://www.aestheticsource.com/products/hydrating-serum-30ml,HTTP 404,Sat Nov 14 12:36:48 2026
+N00974,DermaFocus,https://dermafocus.co.uk/product/microneedling-pen-cartridges/,RemoteProtocolError: Server disconnected without sending a response.,Sat Nov 14 12:36:48 2026
+N00097,Healthxchange,https://www.healthxchange.com/products/epicutis-lipid-recovery-mask-for-neck-and-decolette-single,HTTP 404,Sat Nov 14 12:37:05 2026
+N00975,DermaFocus,https://dermafocus.co.uk/product/gf20-exosomes-boost-skin-serum/,RemoteProtocolError: Server disconnected without sending a response.,Sat Nov 14 12:37:20 2026
+N00976,DermaFocus,https://dermafocus.co.uk/product/h8-brightening-overnight-serum/,RemoteProtocolError: Server disconnected without sending a response.,Sat Nov 14 12:37:52 2026
+R05695,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/995,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:14 2026
+R05696,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/994,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:14 2026
+R05697,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/993,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:14 2026
+R05698,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/992,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:14 2026
+R05704,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/986,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:14 2026
+R05705,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/983,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:14 2026
+R05706,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/982,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:14 2026
+R05707,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/981,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:14 2026
+R05709,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/979,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:14 2026
+R05713,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/938,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05715,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/936,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05716,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/935,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05717,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/934,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05721,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/930,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05722,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/929,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05723,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/928,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05724,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/917,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05725,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/915,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05726,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/911,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05728,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/905,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05733,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/885,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05734,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/884,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05735,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/883,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05736,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/882,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05737,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/878,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05740,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/864,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05748,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/844,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05749,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/834,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05750,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/833,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05751,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/832,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:15 2026
+R05754,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/820,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:16 2026
+R05758,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/808,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:16 2026
+R05761,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/794,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:16 2026
+R05764,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/790,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:16 2026
+R05765,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/787,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:16 2026
+R05766,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/784,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:16 2026
+R05769,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/779,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:16 2026
+R05770,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/778,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:16 2026
+R05771,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/775,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:16 2026
+R05772,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/773,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:16 2026
+R05773,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/772,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:16 2026
+R05785,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/651,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:17 2026
+R05786,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/647,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:17 2026
+R05788,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/644,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:17 2026
+R05791,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/620,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:17 2026
+R05806,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/520,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:18 2026
+R05811,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/479,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:18 2026
+R05817,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/449,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:18 2026
+R05819,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/433,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:18 2026
+R05821,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/416,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:18 2026
+R05822,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/414,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:18 2026
+R05823,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/403,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:18 2026
+R05833,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/370,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05834,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/357,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05837,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/345,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05839,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/334,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05840,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/332,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05841,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/331,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05844,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/321,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05845,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/320,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05847,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/315,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05849,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/307,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05852,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/292,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05854,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/289,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05857,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/276,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:19 2026
+R05867,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/246,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:20 2026
+R05869,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/244,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:20 2026
+R05870,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/236,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:20 2026
+R05880,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/206,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:20 2026
+R05881,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/205,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:20 2026
+R05882,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/204,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:20 2026
+R05883,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/203,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:20 2026
+R05885,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/196,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:20 2026
+R05924,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/6,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:23 2026
+R05925,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/5,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:23 2026
+R05926,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/4,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:23 2026
+R05927,Aesthetic Pharma,https://www.aestheticpharma.co.uk/product/3,extract: redirected to listing page https://www.aestheticpharma.co.uk/all-products (product removed or login-only),Sat Nov 14 12:42:23 2026
+R01712,Church Pharmacy,https://store.churchpharmacy.co.uk/product/neocytamen-vitamin-b12-hydroxocobalamin--105510,HTTP 404,Sat Nov 14 13:05:04 2026
