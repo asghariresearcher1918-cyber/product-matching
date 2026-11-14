@@ -318,9 +318,10 @@ def process_row(row):
         return "skip", None
     m = re.match(r"<!-- scraped-url: (\S+) \| final-url: (\S+) \| method: (\S+)", raw)
     final = m.group(2) if m else row["url"]
-    if m and final.rstrip("/") != row["url"].rstrip("/") and re.search(r"/(all-products|shop|products|search|login|account)/?$|[?&]s=", final):
+    if m and final.rstrip("/") != row["url"].rstrip("/") and (re.search(r"/(all-products|shop|products|search|login|account)/?$|[?&]s=", final)
+                                                          or re.sub(r"^https?://[^/]+", "", final) in ("", "/")):
         return "err", {"id": row["id"], "supplier": row["supplier"], "url": row["url"],
-                       "error": f"extract: redirected to listing page {final} (product removed or login-only)", "when": time.ctime()}
+                       "error": f"extract: redirected to listing/home page {final} (product removed or login-only)", "when": time.ctime()}
     rec = {"id": row["id"], "supplier": row["supplier"], "input_title": row["title"], "url": row["url"],
            "final_url": final, "fetch_method": m.group(3) if m else ""}
     try:
