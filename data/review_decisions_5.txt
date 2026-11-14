@@ -1,0 +1,17 @@
+R01880 TR display stand (marketing)
+R01970 TR patient brochures
+R01974 TR patient brochures
+R01975 TR patient brochures
+R01997 TR poster
+R01999 TR consultation forms / guidelines
+R02323 TH Silhouette Soft threads ('training certificate required' is a status note)
+R02324 TH Silhouette Soft threads
+R02325 TH Silhouette Soft threads
+R02909 TR masterclass
+R02910 TR masterclass
+R02937 TH Silhouette Soft threads
+R03091 SK microneedling serum
+R07147 TR brochure
+R07169 TR leaflet
+R10060 SB peptide skin booster vials
+R10615 DE infusion device tips

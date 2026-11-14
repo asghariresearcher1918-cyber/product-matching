@@ -31,20 +31,20 @@ CATS = [
 # keyword rules: (category, regex). Order matters only for ties. Applied to names and to supplier categories.
 R = [
     ("Not a product", r"^\s*\d+\s*$|\bdelivery\b(?!.*(system|device|pen))|postage|shipping charge|gift ?card|voucher|deposit\b|test product"),
-    ("Training, services & marketing", r"\bcourse\b|training (course|day|package|bundle)|masterclass|webinar|demo day|\bpull[- ]?up banner|poster|leaflet|brochure|consultation form|aftercare (advice|card)|post treatment guide|marketing|merchandise|display stand|certificate\b|\bacademy\b|clinic sign"),
-    ("Vaccine", r"vaccin|\bmmr\b|influenza|\bflu\b(?!id)|hepatitis [ab]|engerix|twinrix|gardasil|priorix|typhim|havrix|rabies|shingrix|bexsero|menquadfi|nimenrix|\bpfs\b.*vacc"),
+    ("Training, services & marketing", r"\bcourse\b|training (course|day|package|bundle|kit)|masterclass|webinar|demo day|\bpull[- ]?up banner|poster|leaflet|brochure|consultation form|aftercare (advice|card)|post treatment guide|marketing|merchandise|display stand|certificate\b|\bacademy\b|clinic sign"),
+    ("Vaccine", r"vaccin|\bmmr\b|influenza vacc|flu vacc|\baqiv\b|\bqivc\b|hepatitis [ab] vacc|engerix|twinrix|gardasil|priorix|typhim|havrix|rabies|shingrix|bexsero|menquadfi|nimenrix|\bpfs\b.*vacc"),
     ("Toxin", r"botulinum|\bbotox\b|bocouture|azzalure|dysport|alluzience|letybo|relfydess|nuceiva|xeomin|\btoxins?\b"),
     ("Weight-loss medicine", r"trulicity|dulaglutide|victoza|byetta|wegovy|mounjaro|saxenda|ozempic|rybelsus|tirzepatide|semaglutide|liraglutide|orlistat|mysimba|foundayo|weight[- ]?loss"),
     ("PDO threads", r"\bpdo\b|\bthreads?\b|\bcogs?\b(?!nac)|silhouette soft|definisse|aptos|\bmint\b.*(lift|thread)|fishbone"),
     ("Fat dissolving", r"fat[- ]?dissolv|lipolys|lipolytic|aqualyx|lemon ?bottle|lipo ?lab|\bppc\b|deoxychol|desoface|desobody|alidya|celluerase|skinny bottle|pine bottle|kabelline|\blipo\b|body contour(ing)? (solution|injection)|aqualyx|cellulite injection|\bbelkyra|kybella"),
     ("Biostimulator", r"sculptra|radiesse|ellans[eé]|\bplla\b|poly[- ]?l[- ]?lactic|pdlla|calcium hydroxylapatite|\bcaha\b|harmonyca|aesplla|juvelook|lenisna|gouri|pllacell|aesthefill|lanluma|julaine|ecolla|linerase|collagen stimulat|biostimul"),
     ("Dermal filler", r"dermal fillers?|\bfillers?\b(?!.*(needle|cannula|pen\b|syringe filler|kit bag))|juv[eé]derm|teosyal|redensity|\brha\s?\d|restylane|belotero|stylage|revolax|saypha|perfectha|revanesse|neuramis|regenovue|\beptq\b|e\.?p\.?t\.?q|monalisa|kairax|hyacorp|nexfill|volifil|teofil|starfill|intraline|luxfill|bellast|lumifil|illuma|aessoa|hyalmass|genefill|desirial|revofil|lapiena|kysense|maili|skinfill|ouye|puri ?lips|aliaxin|croma|hyaluronic acid (gel|filler)"),
-    ("Skin booster / polynucleotide / mesotherapy", r"skin ?boosters?|polynucleotide|\bpn[- ]?hpt|\bpdrn\b|profhilo|jalupro|sunekos|plinest|newest|nucleofill|rejuran|viscoderm|seventy ?hyal|ejal|lumi[- ]?(pro|pn|eyes)|vitaran|polyphil|dermaheal|plenhyage|karisma|hyaron|aquashine|sosum|stayve|cytocare|ameela|longevha|reversha|neofound|dermaren|pluryal|medisco|prostrolane|richesse|elaxen|repadern|ulti ?pro|purasomes|exosome|mesotherap|meso\b|\bnctf|biorevital|hydro ?booster|\bprp\b|prf\b|platelet"),
-    ("Vitamin & IV therapy", r"pabrinex|vitamins? b\s?\+\s?c|vitamin b ?12|hydroxocobalamin|cyanocobalamin|neocytamen|glutathione|\bnad\+?|vitamin c (inj|ampoule|im|iv)|ascorbic acid (inj|amp)|\biv (drip|therapy|bag|infusion|vitamin)|biotin.*(inj|im|amp)|vitamin d3? (inj|ampoule)|colecalciferol inj|ergocalciferol inj|magnesium sulph?ate inj|thiamine inj|\binfusion\b(?! pump)"),
+    ("Skin booster / polynucleotide / mesotherapy", r"\bbcn\b(?!.*(peel|cream|serum))|inno-?tds|exoblanc cos|skin ?boosters?|polynucleotide|\bpn[- ]?hpt|\bpdrn\b|profhilo|jalupro|sunekos|plinest|newest|nucleofill|rejuran|viscoderm|seventy ?hyal|ejal|lumi[- ]?(pro|pn|eyes)|vitaran|polyphil|dermaheal|plenhyage|karisma|hyaron|aquashine|sosum|stayve|cytocare|ameela|longevha|reversha|neofound|dermaren|pluryal|medisco|prostrolane|richesse|elaxen|repadern|ulti ?pro|purasomes|exosome|mesotherap|meso\b|\bnctf|biorevital|hydro ?booster|\bprp\b|prf\b|platelet"),
+    ("Vitamin & IV therapy", r"pabrinex|vitamins? b\s?\+\s?c|vitamin b ?12|hydroxocobalamin|cyanocobalamin|neocytamen|glutathione|\bnad\+?|vitamin c (inj|ampoule|im|iv)|ascorbic acid (inj|amp)|\biv (drip|therapy|bag|infusion|vitamin)|biotin.*(inj|im|amp)|vitamin d3? (inj|ampoule)|colecalciferol inj|ergocalciferol inj|magnesium sulph?ate inj|thiamine inj|\binfusion\b(?! pump)(?!.*microneedl)"),
     ("Needles, cannulas & syringes", r"needles?\b|cannula|cannulae|syringes?\b|microlance|steriglide|\b\d{2}\s?g\b\s*x|\bluer\b|butterfly|venflon|pen needles|insulin syring|blunt tip|tsk\b|sterican|agani|unisharp|novofine|mekon|nanoneedle|nanocannula|micro ?cannula"),
-    ("Clinic consumables & PPE", r"lateral flow|test kit|\btests?\b|antigen|pregnancy test|drug test|skin marker|drape|gloves?\b|swabs?\b|gauze|sharps|clinical waste|apron|gown|face ?mask(?!.*(sheet|hydrat|collagen|gold|led|cooling|calming|lift|serum))|face shield|couch roll|bed roll|tissue|dressing|plaster|tape\b|micropore|transpore|tegaderm|wipes?\b|disinfect|sanitis|sanitiz|antisept|alcohol (swab|wipe|gel)|chlorhex|hibi|clinell|clinisept|spatula|gallipot|kidney dish|tray\b|container|tourniquet|cotton (wool|pad|bud)|ice pack|cold pack|hot ?cold|first aid|spill kit|body fluid|bin\b|thermometer|ultrasound gel|hair net|mob cap|overshoe|sterile water|\bpads?\b(?!.*(peel|cleans))|lip wand|applicator"),
-    ("Devices & equipment", r"thermage|\btips?\b(?!.*(applicator|cotton))|coupling fluid|shaker|vortex|device|\blaser\b|hifu|\bled\b|radiofrequency|\brf\b|microneedling (pen|device|system)|dermapen|skinpen|\bpen\b(?!.*(needle|kwik|flextouch|epi|auto|insulin|inj|prefilled|pre-filled))|cartridges?|handpiece|hand piece|centrifuge|hydrafacial|cryo|lamp|magnifier|loupe|chair|couch\b|trolley|stool|fridge|refrigerator|steriliser|autoclave|scales?\b|tablet stand|spacer device|nebuli[sz]er|oximeter|blood pressure|glucose meter|dermaroller|derma roller|roller\b|microdermabrasion|ultrasonic|electroporation|plasma pen|jet ?peel|mesogun|meso gun|injector gun|vibrating|massager"),
-    ("Beauty (nails, brows, lashes, PMU, makeup)", r"\bnail|polish|gel ?polish|builder gel|cuticle|manicure|pedicure|\bbrow|lash|lamination|tint\b|henna|microblad|\bpmu\b|permanent make|tattoo|pigment|eyeliner|lipstick|lip gloss|mascara|foundation\b(?!.*kit)|concealer|makeup|make-up|glitter|nail art|\bwax\b|waxing|tanning|spray tan|eyebrow|eyelash|lip liner|brush\b"),
+    ("Clinic consumables & PPE", r"corset|compression garment|shapewear|vacutainer|blood collection|lateral flow|test kit|\btests?\b|antigen|pregnancy test|drug test|skin marker|drape|gloves?\b|swabs?\b|gauze|sharps|clinical waste|apron|gown|face ?mask(?!.*(sheet|hydrat|collagen|gold|led|cooling|calming|lift|serum))|face shield|couch roll|bed roll|tissue|dressing|plaster|tape\b|micropore|transpore|tegaderm|wipes?\b|disinfect|sanitis|sanitiz|antisept|alcohol (swab|wipe|gel)|chlorhex|hibi|clinell|clinisept|spatula|gallipot|kidney dish|tray\b|container|tourniquet|cotton (wool|pad|bud)|ice pack|cold pack|hot ?cold|first aid|spill kit|body fluid|bin\b|thermometer|ultrasound gel|hair net|mob cap|overshoe|sterile water|\bpads?\b(?!.*(peel|cleans))|lip wand|applicator"),
+    ("Devices & equipment", r"thermage|(?<!nail )(?<!square )\btips?\b(?!.*(applicator|cotton))|coupling fluid|shaker|vortex|device|\blaser\b|hifu|\bled\b|radiofrequency|\brf\b|microneedling (pen|device|system)|dermapen|skinpen|\bpen\b(?!.*(needle|kwik|flextouch|epi|auto|insulin|inj|prefilled|pre-filled))|cartridges?|handpiece|hand piece|centrifuge|hydrafacial|cryo|lamp|magnifier|loupe|chair|couch\b|trolley|stool|fridge|refrigerator|steriliser|autoclave|scales?\b|tablet stand|spacer device|nebuli[sz]er|oximeter|blood pressure|glucose meter|dermaroller|derma roller|roller\b|microdermabrasion|ultrasonic|electroporation|plasma pen|jet ?peel|mesogun|meso gun|injector gun|vibrating|massager"),
+    ("Beauty (nails, brows, lashes, PMU, makeup)", r"chrome powder|shimmer|core powder|acrylic|nail tips|square tips|coffin tips|almond tips|\bnail|polish|gel ?polish|builder gel|cuticle|manicure|pedicure|\bbrow|lash|lamination|tint\b|henna|microblad|\bpmu\b|permanent make|tattoo|pigment|eyeliner|lipstick|lip gloss|mascara|foundation\b(?!.*kit)|concealer|makeup|make-up|glitter|nail art|\bwax\b|waxing|tanning|spray tan|eyebrow|eyelash|lip liner|brush\b"),
     ("Supplements", r"supplement|capsules?\b(?=.*(daily|vitamin|collagen|biotin|omega|probiotic|hair|skin|nails))|gummies|collagen (drink|shot|powder|sachet|liquid)|liposomal|multivitamin|vitamin (d|c)\s?\d*\s?(iu|mg)?\s*(tablet|capsule|spray|drops|gummies)|omega|probiotic|nutrition|heliocare (oral|360 oral|capsule)|drink\b|sachets?\b(?!.*(serum|cream))|\bpowder\b(?=.*(drink|collagen|protein))"),
     ("Skincare, haircare & peels", r"\bpeels?\b|peeling|\btca\b|\bserum|cream\b|moisturi[sz]|cleanser|cleansing|toner\b|\bspf\b|sunscreen|sun cream|\bmask\b|masque|exfoliat|retinol|retinal|vitamin c (serum|cream)|hyaluronic (serum|cream)|eye cream|eye (gel|contour)|lotion|balm\b|micellar|essence\b|ampoules? (skin|face)|skincare|skin care|shampoo|conditioner|hair (loss|growth|care|serum|tonic)|scalp|body (wash|oil|cream)|face (wash|oil)|lip (care|balm|treatment|booster)|neostrata|heliocare|mesoestetic|obagi|zo skin|skinceuticals|is clinical|alastin|medik8|dermaceutic|\bpca skin|environ|murad|cosmedix|exuviance|dermalogica|image skincare|bioderma|la roche|avene|cerave|cetaphil|eucerin|biorepeel|prx|bienpeel|enerpeel|aftermed|pre ?procedure|post ?procedure (cream|balm|gel|kit)|recovery (cream|balm)"),
     ("Medicine - oral", r"\d+\s?mg\s*x\s*\d+\s*$|tablets?\b|\btabs?\b|capsules?\b|\bcaps\b|caplets?|oral (solution|suspension|spray)|\bsyrup\b|lozenge|dispersible|orodispersible|effervescent|soluble tablets?|\bmg\b.*\bx\s?\d+\s*$"),
@@ -60,28 +60,28 @@ SUP = [
     ("Biostimulator", r"biostimul|collagen stimul|plla|sculptra|radiesse"),
     ("Fat dissolving", r"fat dissolv|lipolys|fat dissolvers|body contour"),
     ("PDO threads", r"thread"),
-    ("Vitamin & IV therapy", r"vitamin inj|iv therap|iv drip|vitamins? & iv|vitamin shots|\biv\b"),
+    ("Vitamin & IV therapy", r"vitamin inj|iv therap|iv drip|vitamins? & iv|vitamin shots|\biv\b|infusions?"),
     ("Weight-loss medicine", r"weight[- ]?(loss|management)"),
     ("Vaccine", r"vaccin|travel health"),
     ("Needles, cannulas & syringes", r"needle|cannula|syringe"),
-    ("Clinic consumables & PPE", r"lateral flow|test kit|\btests?\b|antigen|pregnancy test|drug test|skin marker|drape|consumable|clinic supplies|clinical supplies|\bppe\b|gloves|infection control|disinfect|sharps|first aid|dressings|wound care|surgical"),
+    ("Clinic consumables & PPE", r"corset|compression garment|shapewear|vacutainer|blood collection|lateral flow|test kit|\btests?\b|antigen|pregnancy test|drug test|skin marker|drape|consumable|clinic supplies|clinical supplies|\bppe\b|gloves|infection control|disinfect|sharps|first aid|dressings|wound care|surgical"),
     ("Devices & equipment", r"equipment|device|machine|microneedling|furniture|laser|electrical"),
     ("Beauty (nails, brows, lashes, PMU, makeup)", r"\bnails?\b|brows?\b|lash|pmu|permanent make|tattoo|make ?up|beauty salon"),
-    ("Supplements", r"supplement|nutrition|nutraceutical|wellbeing|wellness"),
+    ("Supplements", r"(?<!pharmaceuticals & )supplements?(?! >)|nutrition|nutraceutical|wellbeing|wellness"),
     ("Skincare, haircare & peels", r"skin ?care|skincare|peels?|cosmeceutical|hair ?care|haircare|sun ?care|cleans|serum|moistur|masks?\b|aftercare|post[- ]treatment care|retail"),
     ("Medicine - injectable / anaesthetic / emergency", r"synvisc|monovisc|orthovisc|ostenil|durolane|hyalgan|fibrovein|aethoxysklerol|sclerotherapy|anaesthetic|anesthetic|emergency|hyaluronidase|diluent|injectable medic|\bampoules?\b|solutions"),
     ("Medicine - oral", r"\d+\s?mg\s*x\s*\d+\s*$|tablets|capsules|oral"),
     ("Medicine - topical / eye / other", r"\boint\b|\bdrops\b|\binhaler|fostair|clenil|seretide|\bpump spray\b|cutaneous solution|topical solution|\bshampoo\b(?=.*%)|topical|eye care|dermatolog|skin conditions|creams & ointments"),
-    ("Medicine - unspecified", r"pharmaceutical|pharmacy|medicines?\b|prescription|\bpom\b|antibiotic|general pharmacy|pharmacy products|skin complaints|^\\s*general\\s*$"),
+    ("Medicine - unspecified", r"general pharmaceuticals & supplements|pharmaceutical|pharmacy|medicines?\b|prescription|\bpom\b|antibiotic|general pharmacy|pharmacy products|skin complaints|^\\s*general\\s*$"),
     ("Training, services & marketing", r"training|course|marketing|merchandise|academy"),
 ]
 # brand / vendor names -> category (for everything outside the injectables brand dictionary)
 VENDOR = [
-    ("Skincare, haircare & peels", r"is clinical|neostrata|exuviance|epicutis|skinbetter|dr\.? ?levy|amais[eé]|kaeso|allskin|aq skin|skinceuticals|obagi|zo skin|medik8|alastin|dermaceutic|mesoestetic|heliocare|pca skin|environ|murad|cosmedix|dermalogica|image skincare|teoxane (cosmeceutical|skincare|rha serum|advanced perfecting|deep repair|r\[ii\]|pre post)|fillmed (cream|serum|mask|peel|micellar|cleans|b3|5hp|6hp|time|bright|light)|wiqo|hyalual|bioreepeel|biorepeel|prx-?t|enerpeel|bienpeel|oveo|exoblanc|skin ?tech|cosmetics?|beauty of joseon|innoaesthetics|inno-?(exfo|tds|derma)|sesderma|uriage|bioderma|la roche|avene|cerave|cetaphil|eucerin|elemis|aromatherapy|nimue|jan marini|skin ?medica|revision skincare|tebiskin|celluvisc|alyria|purasomes (skin|hair)|ellis brooklyn|dr\.? ?hauschka"),
+    ("Skincare, haircare & peels", r"is clinical|neostrata|exuviance|epicutis|skinbetter|dr\.? ?levy|amais[eé]|kaeso|allskin|aq skin|skinceuticals|obagi|zo skin|medik8|alastin|dermaceutic|mesoestetic|heliocare|pca skin|environ|murad|cosmedix|dermalogica|image skincare|teoxane (cosmeceutical|skincare|rha serum|advanced perfecting|deep repair|r\[ii\]|pre post)|fillmed (cream|serum|mask|peel|micellar|cleans|b3|5hp|6hp|time|bright|light)|wiqo|bioreepeel|biorepeel|prx-?t|enerpeel|bienpeel|oveo|exoblanc (white bloom|mask|cream|serum)|skin ?tech|cosmetics?|beauty of joseon|inno-?(exfo|derma)|sesderma|uriage|bioderma|la roche|avene|cerave|cetaphil|eucerin|elemis|aromatherapy|nimue|jan marini|skin ?medica|revision skincare|tebiskin|celluvisc|alyria|purasomes (skin|hair)|ellis brooklyn|dr\.? ?hauschka"),
     ("Beauty (nails, brows, lashes, PMU, makeup)", r"glitterbels|jane iredale|bio sculpture|gelish|opi\b|cnd\b|elleebana|lvl lash|hd brows|nouveau lashes|lash ?lift|refectocil|tina davies|phibrows|microblading|perma ?blend|kwadron|cheyenne|biotouch|li pigments|evenflo"),
     ("Devices & equipment", r"potenza|d[ée]esse|geske|observ|dermapen|skinpen|hydrafacial|morpheus|exion|lumenis|cutera|silex|vivace|inmode|dermaroller|plasma ?pen|led mask|ultherapy|venus|hydra ?facial|microneedling pen|oxygeneo"),
     ("Supplements", r"zooki|altrient|lumity|skinade|advanced nutrition programme|imedeen|perfectil|vitabiotics|solgar|wild nutrition|heliocare 360 oral|nature'?s bounty|bettery?ou|healthaid|valupak|kinetic|holland ?& ?barrett|absolute collagen|collagen ?shot"),
-    ("Clinic consumables & PPE", r"lateral flow|test kit|\btests?\b|antigen|pregnancy test|drug test|skin marker|drape|timesco|instrapac|medisave|premier|unigloves|clinell|clinisept|hibi|tork|sharpsafe|sharpsguard|frontier|medipal|robinson healthcare|vernacare|kimtech"),
+    ("Clinic consumables & PPE", r"corset|compression garment|shapewear|vacutainer|blood collection|lateral flow|test kit|\btests?\b|antigen|pregnancy test|drug test|skin marker|drape|timesco|instrapac|medisave|premier|unigloves|clinell|clinisept|hibi|tork|sharpsafe|sharpsguard|frontier|medipal|robinson healthcare|vernacare|kimtech"),
 ]
 NOISE = r"type: (pending|boolean|comm__namedpage|simple|variable)|vendor: (two face aesthetics|mypharmacyspace|harpar grace international|igo aesthetics|healthxchange|vendor|acre)"
 MED_FORMS = ("Medicine - oral", "Medicine - topical / eye / other", "Medicine - injectable / anaesthetic / emergency")
@@ -98,7 +98,10 @@ def votes(text, rules):
 
 def classify(row, page, brand_cat, override):
     if override:
-        return override["category"], "high", f"manual: {override.get('note', '')}", []
+        conf = "medium" if ("title only" in override.get("note", "") or "listing title" in override.get("note", "")) else "high"
+        if override["category"] == "Unclassified":
+            conf = "low"
+        return override["category"], conf, f"manual: {override.get('note', '')}", []
     if "medicines.org.uk" in row["url"]:
         return "Not a product", "high", "url is an emc medicine page, not a supplier product page", []
     score = collections.Counter()
@@ -112,7 +115,9 @@ def classify(row, page, brand_cat, override):
             ev.append(f"{src}:{cat.split(' ')[0]}('{kw}')")
 
     pt = (page or {}).get("page_title") or ""
-    if re.search(r"pharmacy$|^shop$|^john bannon$", pt.strip(), re.I):
+    if re.search(r"partner with us", pt.strip(), re.I):
+        pt = ""
+    elif re.search(r"pharmacy$|^shop$|^john bannon$", pt.strip(), re.I):
         # site name instead of product name (e.g. Dr. Adams): take the last breadcrumb item
         bcs = [x.strip() for x in ((page or {}).get("supplier_category") or "").split(">") if x.strip()]
         pt = bcs[-1].split("|")[0].strip() if len(bcs) >= 2 else ""
@@ -146,9 +151,11 @@ def classify(row, page, brand_cat, override):
     nm = pt or row["title"]
     injectable = re.search(r"syringe|\binj\b|injection|ampoule|\bamps?\b|\bvials?\b|\d\s?x\s?[\d.,]+\s?ml|lidocaine|\blido\b|needle|cannula", nm, re.I)
     ftype = None
-    if re.search(r"capsules?|gummies|pearls\b|tablets?\b(?=.*(collagen|hair|skin|vitamin|beauty))|sachets?|drink\b|powder\b", nm, re.I) and not injectable:
+    if re.search(r"capsules?|gummies|pearls\b|tablets?\b(?=.*(collagen|hair|skin|vitamin|beauty))|sachets?|drink\b|powder\b(?=.*(drink|collagen|protein|nutrition))", nm, re.I) and not injectable and not re.search(r"glitterbels|chrome|shimmer|acrylic|nail", nm + " " + sc, re.I):
         ftype = ("Supplements", "oral form in name")
-    elif re.search(r"\bcream\b|serum|cleanser|cleansing|micellar|\bmask\b|masque|lotion|balm\b|shampoo|conditioner|toner|\bspf\b|sunscreen|moisturi|exfoliat|\bpeel\b(?!.*(vial|ampoule))|scrub|body oil|face oil|eye contour|haenkenium|figura|\bpura\b|hydrobooster cream", nm, re.I) and not injectable:
+    elif re.search(r"\d\s?%|aciclovir|hydrocortisone|clotrimazole|fusidic|fucidin|anthisan|antihistamine|miconazole|terbinafine|ketoconazole|\bpom\b", nm, re.I) or re.search(r"pharmaceutical", sc, re.I):
+        pass  # medicated product in a cream/gel: leave it to the medicine rules
+    elif re.search(r"\bcream\b|serum|cleanser|cleansing|micellar|\bmask\b|masque|lotion|balm\b|shampoo|conditioner|toner|\bspf\s?\d*|sunscreen|uva shield|post[- ]?procedure|moisturi|exfoliat|\bpeel\b(?!.*(vial|ampoule))|scrub|body oil|face oil|eye contour|haenkenium|figura|\bpura\b|hydrobooster cream", nm, re.I) and not injectable:
         ftype = ("Skincare, haircare & peels", "skincare form in name")
     if ftype:
         score[ftype[0]] += 4
@@ -163,6 +170,8 @@ def classify(row, page, brand_cat, override):
     # S2 page title: first matching rule (rules are ordered from most to least specific)
     s2 = votes(pt, R)
     add("page_title", 3, s2)
+    if s2 and s2[0][0] in ("Training, services & marketing", "Not a product"):
+        score[s2[0][0]] += 4  # a poster/course/fee named as such is never the product it advertises
     # S3 brand
     if brand_cat:
         score[brand_cat] += 2
@@ -176,7 +185,7 @@ def classify(row, page, brand_cat, override):
     if "Toxin: Yes" in sc:
         score["Toxin"] += 3
     # S5 description
-    add("description", 1, votes(desc, R))
+    add("description", 1, [v for v in votes(desc, R) if v[0] not in ("Not a product", "Training, services & marketing")])
     # S6 listing title (weak unless nothing else)
     s6 = votes(row["title"], R)
     add("listing_title", 2 if not (s1 or s2) else 1, s6)

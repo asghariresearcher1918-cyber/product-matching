@@ -1,0 +1,152 @@
+R00389 MT Acnecide gel
+R00390 MT Actikerall solution
+R00418 MT Aknemycin solution
+R00421 MT Aldara cream
+R00450 MO amantadine oral solution
+R00458 MO amoxicillin suspension
+R00460 MO amoxicillin suspension
+R00499 MO Arimidex tablets
+R00507 MO aspirin tablets
+R00516 MO Augmentin suspension
+R00531 CC IV gravity giving set
+R00542 MT Balneum cream
+R00543 MT bath oil emollient
+R00607 MT Beconase nasal spray
+R00618 MO Benadryl oral solution
+R00627 MO betahistine tablets
+R00629 MT Betnesol-N eye/ear drops
+R00631 MT Betnovate cream
+R00639 SK Bio-Oil
+R00682 MO Calpol suspension
+R00695 MO Carbomix granules
+R00697 MT menthol inhalation
+R00698 MO linctus
+R00710 MO cefalexin suspension
+R00718 MO Cellcept tablets
+R00738 MI Cetrotide injection
+R00782 MO co-amoxiclav suspension
+R00800 MT Compeed cold sore patches
+R00804 DE copper IUD (intrauterine device)
+R00825 MO Crestor tablets
+R00826 MT Crinone vaginal gel
+R00884 MT Dalacin-T solution
+R00909 MT Deponit patches
+R00910 MT Deponit patches
+R00932 MT emollient wash
+R00934 MT emollient wash
+R00946 MO Dianette tablets
+R00948 MT diazepam rectal tubes
+R00949 MO diclofenac tablets
+R00952 MO diclofenac tablets
+R00956 MT Differin gel
+R00958 MT Difflam rinse
+R00961 MO Dioctyl capsules
+R00977 MT bath additive emollient
+R00986 MO doxycycline capsules
+R00992 MT Driclor solution
+R00993 MT Driclor solution
+R00998 MO duloxetine capsules
+R01015 MT Efudix cream
+R01020 MO Elleste Solo tablets
+R01021 MT Elocon cream
+R01032 MT emollient
+R01057 MO erythromycin suspension
+R01059 MT Estraderm patches
+R01060 MT Estradot patches
+R01064 MT eucalyptus oil (inhalation)
+R01069 MT Evorel patches
+R01070 MT Evorel patches
+R01071 MT Evorel patches
+R01146 MT inhaler
+R01147 MO flecainide tablets
+R01174 CC foam swabsticks
+R01184 MT head lice solution
+R01189 MI Fyremadel injection
+R01201 MO Gaviscon liquid
+R01203 IV Gelofusine IV bag
+R01222 MT Germolene New Skin
+R01234 MT wart treatment
+R01235 MT glycerin
+R01345 MT hydrocortisone cream
+R01346 CC hydrogen peroxide solution
+R01359 MO ibuprofen suspension
+R01365 MI Inhixa (enoxaparin) injection
+R01370 MI Innohep injection
+R01385 CC Intrasite wound gel
+R01389 MT ipratropium nebules (inhaled)
+R01399 MO ivermectin tablets
+R01406 DE Jaydess IUD
+R01437 CC Kaltostat dressing
+R01438 MO Keflex capsules
+R01446 CC Kerraped boot
+R01453 CC cooling gel sheets
+R01455 DE Kyleena IUD
+R01462 MO lactulose solution
+R01511 DE Load 375 IUD
+R01563 MT magnesium sulphate paste
+R01617 MT Micralax enema
+R01638 DE Mirena IUD
+R01640 MT Mirvaso gel
+R01642 MI Modecate injection
+R01655 MO moxifloxacin tablets
+R01775 DE Nexplanon implant
+R01778 MO Night Nurse liquid
+R01781 MT Niquitin patches
+R01801 DE IUD
+R01802 DE IUD
+R01803 DE IUD
+R01805 MO Nurofen suspension
+R01806 MO Nurofen suspension
+R01807 MO Nurofen meltlets
+R01816 MT wart treatment
+R01820 MT Olbas oil
+R01821 MT Olbas oil
+R01850 MT Otomize ear spray
+R01854 MI Ovitrelle injection
+R01869 MO paracetamol suspension
+R01873 MO paracetamol suspension
+R01874 MO paracetamol suspension
+R01875 MO paracetamol suspension
+R01876 MT emollient
+R02034 MI Pegasys injection
+R02049 MO Phenergan elixir
+R02052 MT Phorpain gel
+R02147 MT Progynova patches
+R02149 MO Propecia tablets
+R02153 MI Prostap injection
+R02160 MT hypertonic inhalation solution
+R02169 CC purified water
+R02192 MT Regaine solution
+R02220 MI Rekovelle injection
+R02267 WL Rybelsus tablets
+R02269 MT wart paint
+R02271 MT salbutamol inhaler
+R02294 CC flight socks
+R02295 MT wart freeze spray
+R02296 MT Scopoderm patches
+R02341 MT silver nitrate pencil
+R02427 MT Solaraze gel
+R02694 MT Trelegy inhaler
+R02742 CC Uro-Tainer catheter solution
+R02791 MT Vicks nasal spray
+R02827 MT Warticon solution
+R02828 MT wart remover
+R02843 MO gripe water
+R02882 MI Zoladex implant injection
+R02933 DF Yvoire filler + Inno-TDS bundle (bundle)
+R06450 SB Innoaesthetics Hair Vital meso vials
+R06451 SB Innoaesthetics TDS meso vials
+R07318 BE RevitaLash (listing title)
+R07319 BE RevitaLash (listing title)
+R07323 BE RevitaLash (listing title)
+R07327 BE RevitaLash (listing title)
+R07329 BE RevitaLash (listing title)
+R07330 BE RevitaLash (listing title)
+R07340 BE RevitaLash (listing title)
+R08142 SK Exoblanc aftercare bundle (bundle)
+R09021 BE nail chrome powder
+R09023 BE nail chrome powder
+R09970 SK skincare oil
+R09971 SK skincare oil
+R09972 SK skincare oil
+N00613 MT Fucidin cream (title only)
