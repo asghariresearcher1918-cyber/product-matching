@@ -112,7 +112,7 @@ NEEDS = [
  ("Equipment & furniture", "Mirror (hand / wall)", "Regular", "Public", "Browse", r"mirror(?!.*powder)", ""),
  ("Equipment & furniture", "Centrifuge (PRP)", "Optional", "Public", "Quote", r"centrifuge", ""),
  ("Equipment & furniture", "Observations (BP, pulse oximeter, scales, glucose meter)", "Required", "Public", "Browse", r"blood pressure|bp monitor|sphygmo|pulse ?ox|oximeter|weighing scale|body scale|glucometer|glucose meter|bmi", ""),
- ("Equipment & furniture", "Reception & waiting-room furniture", "Optional", "Public", "Quote", r"reception (desk|counter)|waiting room|\bsofa\b|armchair|office chair|\bdesk\b", ""),
+ ("Equipment & furniture", "Reception & waiting-room furniture", "Optional", "Public", "Quote", r"reception (desk|counter)|waiting room|\bsofa\b|armchair|office chair|\bdesk\b(?! towel)", ""),
  # --- Admin, marketing & services
  ("Admin & services", "Consent forms / record cards / aftercare leaflets", "Required", "Public", "Browse", r"consent|record card|leaflet|aftercare card|client card", ""),
  ("Admin & services", "Appointment cards, vouchers, stationery", "Optional", "Public", "Browse", r"appointment card|business card|stationery|gift voucher|loyalty card", ""),
