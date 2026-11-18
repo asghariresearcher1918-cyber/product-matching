@@ -103,13 +103,18 @@ def main():
         canon, mol, cls, rt0, lic, emc, strs, bnote = info
         rt = route_of(canon, tl)
         st = strength(canon, rt, tl)
+        from_page = False
+        if not st:  # dose not in the title (generic listing) - read the page's Strength/Size field
+            pg = norm(page_text(r["id"]))
+            m = re.search(r"strength:?\s*([\d.]+\s*mg)|size[^|]*?-\s*([\d.]+\s*mg)|tablets?\s*-\s*([\d.]+\s*mg)", pg)
+            if m: st = strength(canon, rt, next(x for x in m.groups() if x)); from_page = bool(st)
         pk, how = pack(title, r["id"])
         grp = f"{mol} ({cls})"
         rc = {"oral": "ORAL", "pen (SC)": "PEN"}.get(rt, "")
         # code = brand + strength + route (one presentation per strength); pack kept as an attribute, not in the code
         parts = [re.sub(r"[^A-Z0-9]+", "", canon.upper())] + ([f"{st}MG"] if st else []) + ([rc] if rc else [])
         c = "-".join(parts)
-        conf = "high" if st else "partial - strength not found"
+        conf = ("high" if not from_page else "high (dose from page)") if st else "partial - strength not found"
         if not st and canon in ("Saxenda", "Victoza", "Mysimba", "Alli", "Orlistat", "Xenical"): conf = "high"  # single-strength brands
         maps.append(dict(r, code=c, brand=canon, group=grp, decision=f"{mol}; {st or 'single strength'}mg; {rt}; {how}", confidence=conf))
         src = EMC + canon.lower() if not emc else f"https://www.medicines.org.uk/emc/product/{emc}"

@@ -116,5 +116,5 @@ Redensifying Cream / Eye Contour / Neutralizing Buffer / Rinnova Peel -> Skincar
 Code = BRAND-STRENGTH-ROUTE (one presentation per strength). Strength snapped to each brand's licensed strengths,
 fixing slug-dropped decimals ("125mg"->12.5, "2 4mg"->2.4). Wegovy snapped per route (pen vs oral strengths differ).
 POM - price shown only to verified prescribers; diabetes-licensed brands (Ozempic, Victoza, Trulicity) flagged as off-label for weight.
-16 generic Church listings have no dose in the title (chosen on the page) -> partial. 1 MedFX blog article -> review.
+Generic Church listings carry the dose in a Strength/Size field on the page, not the title - now read from the page (24 doses) so every listing maps to its exact code; no partials left. 1 MedFX blog article -> review.
 Note: one Church "Wegovy 7.2mg pen" is not a standard strength - flagged for the supplier.
