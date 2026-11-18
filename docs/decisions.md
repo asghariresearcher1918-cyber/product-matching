@@ -16,3 +16,12 @@
    - *Browse & choose*: many brands of a generic item (e.g. sterile gloves); the buyer picks,
      no price comparison needed. Compare only where brand + size are identical.
    Final per-category list: output/scope_review.xlsx (owner reviewing).
+
+## Backlog - phase 2 (agreed 2026-11-18, not started)
+Services and fit-out items from output/clinic_needs_master.xlsx ("Service / fit-out"), to add after the
+current product list is finalised. Mode: request a quote; revenue: referral commission (often recurring);
+feature: renewal reminders (insurance, BLS training, servicing).
+Start with: insurance, clinical waste collection contract, training. Then clinic software, prescriber service.
+Also later: hand-wash basin (fit-out), Hep B vaccination, LPA / laser safety, fire & H&S assessments / PAT.
+Also phase 2+: the missing / weak product items in the needs master list (medical-wholesaler recruitment),
+dental clinics.
