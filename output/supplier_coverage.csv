@@ -1,0 +1,25 @@
+supplier,host,our_listings,sitemap_products,in_sitemap_not_ours,ours_not_in_sitemap,note
+ACRE Pharmacy,www.acrepharmacy.co.uk,1089,4,0,1085,6 sitemap files read
+AesthetiCare,aestheticare.co.uk,54,60,6,0,6 sitemap files read
+Aesthetic Pharma,www.aestheticpharma.co.uk,233,0,,,no product sitemap found
+AestheticSource,www.aestheticsource.com,220,225,6,1,robots.txt: HTTPStatusError; 6 sitemap files read
+Ask Pharmacy,ask-pharmacy.co.uk,631,637,7,1,5 sitemap files read
+Church Pharmacy,store.churchpharmacy.co.uk,2565,3378,1107,294,2 sitemap files read
+DermaFocus,dermafocus.co.uk,14,0,,,robots.txt: RemoteProtocolError; no product sitemap found
+Dr. Adams Pharmacy,www.dradamspharmacy.co.uk,476,0,,,no product sitemap found
+Fox Pharma,foxpharma.co.uk,407,342,0,65,13 sitemap files read
+Harpar Grace,harpargrace.com,145,0,,,no product sitemap found
+Healthxchange,www.healthxchange.com,599,593,0,6,6 sitemap files read
+Herts & Essex Supplies,www.hesupplies.co.uk,272,261,11,22,8 sitemap files read
+IGO Aesthetics,igoaesthetics.com,77,77,0,0,6 sitemap files read
+John Bannon Pharmacy,www.johnbannonpharmacy.co.uk,1048,0,,,no product sitemap found
+Kiss Aesthetics Wholesale,kissaestheticswholesale.com,207,207,3,3,6 sitemap files read
+LPG Clinics Wholesale,www.lpgclinicswholesale.com,643,676,42,9,6 sitemap files read
+MedFX,www.medfx.co.uk,374,0,,,no product sitemap found
+Moda Pharmacy,www.modapharmacy.co.uk,211,216,5,0,2 sitemap files read
+MyPharmacyspace,mypharmacyspace.co.uk,340,386,46,0,6 sitemap files read
+Refine Pharma,refinepharma.com,373,,,,skipped - needs owner permission
+Skin On You,skinonyou.com,268,0,,,no product sitemap found
+Smile Pharma,smilepharma.co.uk,366,378,15,3,9 sitemap files read
+Two Face Aesthetics,www.twofaceaesthetics.com,832,802,6,36,6 sitemap files read
+Wimpole Fillers,wimpolefillers.co.uk,311,327,17,1,7 sitemap files read
