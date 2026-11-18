@@ -1,0 +1,46 @@
+code,brand,molecule,drug_class,equivalence_group,route,strength_mg,licence,vials_or_pens_per_pack,suppliers,listings,note,source
+TRULICITY-0.75MG-PEN,Trulicity,dulaglutide,GLP-1,dulaglutide (GLP-1),pen (SC),0.75,type 2 diabetes,4,1,1,diabetes licence,https://www.medicines.org.uk/emc/product/3844
+TRULICITY-1.5MG-PEN,Trulicity,dulaglutide,GLP-1,dulaglutide (GLP-1),pen (SC),1.5,type 2 diabetes,1,1,1,diabetes licence,https://www.medicines.org.uk/emc/product/3844
+TRULICITY-3MG-PEN,Trulicity,dulaglutide,GLP-1,dulaglutide (GLP-1),pen (SC),3,type 2 diabetes,1,1,1,diabetes licence,https://www.medicines.org.uk/emc/product/3844
+TRULICITY-4.5MG-PEN,Trulicity,dulaglutide,GLP-1,dulaglutide (GLP-1),pen (SC),4.5,type 2 diabetes,1,1,1,diabetes licence,https://www.medicines.org.uk/emc/product/3844
+SAXENDA-PEN,Saxenda,liraglutide,GLP-1,liraglutide (GLP-1),pen (SC),,weight management,1,1,2,,https://www.medicines.org.uk/emc/product/9494
+VICTOZA-PEN,Victoza,liraglutide,GLP-1,liraglutide (GLP-1),pen (SC),,type 2 diabetes,1,1,2,diabetes licence,https://www.medicines.org.uk/emc/product/21986
+MYSIMBA-ORAL,Mysimba,naltrexone + bupropion,combination,naltrexone + bupropion (combination),oral,,weight management,1,1,1,,https://www.medicines.org.uk/emc/product/4248
+FOUNDAYO-0.8MG-ORAL,Foundayo,orforglipron,GLP-1 (oral),orforglipron (GLP-1 (oral)),oral,0.8,verify UK licence,30,3,3,newer oral GLP-1 - confirm UK regulatory status,https://www.medicines.org.uk/emc/search?q=foundayo
+FOUNDAYO-14.5MG-ORAL,Foundayo,orforglipron,GLP-1 (oral),orforglipron (GLP-1 (oral)),oral,14.5,verify UK licence,30,3,3,newer oral GLP-1 - confirm UK regulatory status,https://www.medicines.org.uk/emc/search?q=foundayo
+FOUNDAYO-17.2MG-ORAL,Foundayo,orforglipron,GLP-1 (oral),orforglipron (GLP-1 (oral)),oral,17.2,verify UK licence,30,3,3,newer oral GLP-1 - confirm UK regulatory status,https://www.medicines.org.uk/emc/search?q=foundayo
+FOUNDAYO-2.5MG-ORAL,Foundayo,orforglipron,GLP-1 (oral),orforglipron (GLP-1 (oral)),oral,2.5,verify UK licence,30,3,3,newer oral GLP-1 - confirm UK regulatory status,https://www.medicines.org.uk/emc/search?q=foundayo
+FOUNDAYO-5.5MG-ORAL,Foundayo,orforglipron,GLP-1 (oral),orforglipron (GLP-1 (oral)),oral,5.5,verify UK licence,30,3,3,newer oral GLP-1 - confirm UK regulatory status,https://www.medicines.org.uk/emc/search?q=foundayo
+FOUNDAYO-9MG-ORAL,Foundayo,orforglipron,GLP-1 (oral),orforglipron (GLP-1 (oral)),oral,9,verify UK licence,30,3,3,newer oral GLP-1 - confirm UK regulatory status,https://www.medicines.org.uk/emc/search?q=foundayo
+FOUNDAYO-ORAL,Foundayo,orforglipron,GLP-1 (oral),orforglipron (GLP-1 (oral)),oral,,verify UK licence,30,1,6,newer oral GLP-1 - confirm UK regulatory status,https://www.medicines.org.uk/emc/search?q=foundayo
+ALLI-ORAL,Alli,orlistat,lipase inhibitor,orlistat (lipase inhibitor),oral,,OTC weight loss,84,1,1,pharmacy / OTC,https://www.medicines.org.uk/emc/search?q=alli
+ORLISTAT-ORAL,Orlistat,orlistat,lipase inhibitor,orlistat (lipase inhibitor),oral,,obesity,84,1,1,,https://www.medicines.org.uk/emc/search?q=orlistat
+XENICAL-ORAL,Xenical,orlistat,lipase inhibitor,orlistat (lipase inhibitor),oral,,obesity,84,1,1,,https://www.medicines.org.uk/emc/product/1204
+OZEMPIC-0.25MG-PEN,Ozempic,semaglutide,GLP-1,semaglutide (GLP-1),pen (SC),0.25,type 2 diabetes (weight use off-label),1,4,4,diabetes licence,https://www.medicines.org.uk/emc/product/9748
+OZEMPIC-0.5MG-PEN,Ozempic,semaglutide,GLP-1,semaglutide (GLP-1),pen (SC),0.5,type 2 diabetes (weight use off-label),1,4,4,diabetes licence,https://www.medicines.org.uk/emc/product/9748
+OZEMPIC-1MG-PEN,Ozempic,semaglutide,GLP-1,semaglutide (GLP-1),pen (SC),1,type 2 diabetes (weight use off-label),1,6,7,diabetes licence,https://www.medicines.org.uk/emc/product/9748
+OZEMPIC-2MG-PEN,Ozempic,semaglutide,GLP-1,semaglutide (GLP-1),pen (SC),2,type 2 diabetes (weight use off-label),1,1,1,diabetes licence,https://www.medicines.org.uk/emc/product/9748
+RYBELSUS-1.5MG-ORAL,Rybelsus,semaglutide,GLP-1,semaglutide (GLP-1),oral,1.5,type 2 diabetes,30,1,1,oral semaglutide,https://www.medicines.org.uk/emc/product/11507
+RYBELSUS-14MG-ORAL,Rybelsus,semaglutide,GLP-1,semaglutide (GLP-1),oral,14,type 2 diabetes,1,1,1,oral semaglutide,https://www.medicines.org.uk/emc/product/11507
+RYBELSUS-3MG-ORAL,Rybelsus,semaglutide,GLP-1,semaglutide (GLP-1),oral,3,type 2 diabetes,30,3,3,oral semaglutide,https://www.medicines.org.uk/emc/product/11507
+RYBELSUS-4MG-ORAL,Rybelsus,semaglutide,GLP-1,semaglutide (GLP-1),oral,4,type 2 diabetes,30,1,1,oral semaglutide,https://www.medicines.org.uk/emc/product/11507
+RYBELSUS-7MG-ORAL,Rybelsus,semaglutide,GLP-1,semaglutide (GLP-1),oral,7,type 2 diabetes,1,1,1,oral semaglutide,https://www.medicines.org.uk/emc/product/11507
+RYBELSUS-9MG-ORAL,Rybelsus,semaglutide,GLP-1,semaglutide (GLP-1),oral,9,type 2 diabetes,30,1,1,oral semaglutide,https://www.medicines.org.uk/emc/product/11507
+RYBELSUS-ORAL,Rybelsus,semaglutide,GLP-1,semaglutide (GLP-1),oral,,type 2 diabetes,1,1,5,oral semaglutide,https://www.medicines.org.uk/emc/product/11507
+WEGOVY-0.25MG-PEN,Wegovy,semaglutide,GLP-1,semaglutide (GLP-1),pen (SC),0.25,weight management,1,12,12,,https://www.medicines.org.uk/emc/product/13825
+WEGOVY-0.5MG-PEN,Wegovy,semaglutide,GLP-1,semaglutide (GLP-1),pen (SC),0.5,weight management,1,12,12,,https://www.medicines.org.uk/emc/product/13825
+WEGOVY-1.5MG-ORAL,Wegovy,semaglutide,GLP-1,semaglutide (GLP-1),oral,1.5,weight management,30,8,8,,https://www.medicines.org.uk/emc/product/13825
+WEGOVY-1.7MG-PEN,Wegovy,semaglutide,GLP-1,semaglutide (GLP-1),pen (SC),1.7,weight management,1,12,12,,https://www.medicines.org.uk/emc/product/13825
+WEGOVY-1MG-PEN,Wegovy,semaglutide,GLP-1,semaglutide (GLP-1),pen (SC),1,weight management,1,12,12,,https://www.medicines.org.uk/emc/product/13825
+WEGOVY-2.4MG-PEN,Wegovy,semaglutide,GLP-1,semaglutide (GLP-1),pen (SC),2.4,weight management,1,12,12,,https://www.medicines.org.uk/emc/product/13825
+WEGOVY-25MG-ORAL,Wegovy,semaglutide,GLP-1,semaglutide (GLP-1),oral,25,weight management,1,5,5,,https://www.medicines.org.uk/emc/product/13825
+WEGOVY-4MG-ORAL,Wegovy,semaglutide,GLP-1,semaglutide (GLP-1),oral,4,weight management,30,8,8,,https://www.medicines.org.uk/emc/product/13825
+WEGOVY-7.2MG-PEN,Wegovy,semaglutide,GLP-1,semaglutide (GLP-1),pen (SC),7.2,weight management,1,1,1,,https://www.medicines.org.uk/emc/product/13825
+WEGOVY-9MG-ORAL,Wegovy,semaglutide,GLP-1,semaglutide (GLP-1),oral,9,weight management,30,7,7,,https://www.medicines.org.uk/emc/product/13825
+WEGOVY-ORAL,Wegovy,semaglutide,GLP-1,semaglutide (GLP-1),oral,,weight management,1,2,5,,https://www.medicines.org.uk/emc/product/13825
+MOUNJARO-10MG-PEN,Mounjaro,tirzepatide,GLP-1/GIP,tirzepatide (GLP-1/GIP),pen (SC),10,weight management / diabetes,1,11,11,dual GLP-1/GIP,https://www.medicines.org.uk/emc/product/13595
+MOUNJARO-12.5MG-PEN,Mounjaro,tirzepatide,GLP-1/GIP,tirzepatide (GLP-1/GIP),pen (SC),12.5,weight management / diabetes,1,9,9,dual GLP-1/GIP,https://www.medicines.org.uk/emc/product/13595
+MOUNJARO-15MG-PEN,Mounjaro,tirzepatide,GLP-1/GIP,tirzepatide (GLP-1/GIP),pen (SC),15,weight management / diabetes,1,11,11,dual GLP-1/GIP,https://www.medicines.org.uk/emc/product/13595
+MOUNJARO-2.5MG-PEN,Mounjaro,tirzepatide,GLP-1/GIP,tirzepatide (GLP-1/GIP),pen (SC),2.5,weight management / diabetes,1,11,11,dual GLP-1/GIP,https://www.medicines.org.uk/emc/product/13595
+MOUNJARO-5MG-PEN,Mounjaro,tirzepatide,GLP-1/GIP,tirzepatide (GLP-1/GIP),pen (SC),5,weight management / diabetes,1,11,13,dual GLP-1/GIP,https://www.medicines.org.uk/emc/product/13595
+MOUNJARO-7.5MG-PEN,Mounjaro,tirzepatide,GLP-1/GIP,tirzepatide (GLP-1/GIP),pen (SC),7.5,weight management / diabetes,1,11,11,dual GLP-1/GIP,https://www.medicines.org.uk/emc/product/13595

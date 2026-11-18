@@ -106,3 +106,15 @@ Only 7 codes have 2+ suppliers (price-comparable); the rest are single-supplier 
 Definisse/Silhouette are specified by length (cm) / cones, not gauge; slug-dropped decimals restored (316cm -> 31.6cm).
 Recategorised out of threads: Definisse Core/Touch/Restore Filler -> Dermal filler, HydroBooster -> Skin booster,
 Redensifying Cream / Eye Contour / Neutralizing Buffer / Rinnova Peel -> Skincare.
+
+## Category 5 - Weight-loss medicines (built 2026-11-19)
+45 codes, 226 listings. Licensed POMs (emc). Equivalence group = molecule:
+- semaglutide (GLP-1): Wegovy (pen SC + oral tablets), Ozempic (pen, diabetes licence), Rybelsus (oral)
+- tirzepatide (GLP-1/GIP): Mounjaro (KwikPen 2.5-15mg)
+- dulaglutide: Trulicity | liraglutide: Saxenda, Victoza | orforglipron (oral GLP-1): Foundayo (confirm UK licence)
+- orlistat (lipase inhibitor): Xenical, Orlistat, Alli | naltrexone+bupropion: Mysimba
+Code = BRAND-STRENGTH-ROUTE (one presentation per strength). Strength snapped to each brand's licensed strengths,
+fixing slug-dropped decimals ("125mg"->12.5, "2 4mg"->2.4). Wegovy snapped per route (pen vs oral strengths differ).
+POM - price shown only to verified prescribers; diabetes-licensed brands (Ozempic, Victoza, Trulicity) flagged as off-label for weight.
+16 generic Church listings have no dose in the title (chosen on the page) -> partial. 1 MedFX blog article -> review.
+Note: one Church "Wegovy 7.2mg pen" is not a standard strength - flagged for the supplier.
