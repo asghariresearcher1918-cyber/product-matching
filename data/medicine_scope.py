@@ -81,3 +81,15 @@ SUPPLEMENTS = [  # agreed 2026-11-18: keep beauty / skin / hair supplements; rem
     ("Beauty / skin / hair supplements", "keep", r"collagen|lumi-?glow|lumifil|tonic x|harley street|jalupro|viscoderm|heliocare|purasomes|beauty peak|hair, nails|skin radiance|ibsa vitamin|mediceutics|glutathione|liposomal"),
 ]
 RULES["Supplements"] = SUPPLEMENTS
+
+BEAUTY = [  # agreed 2026-11-18: salon items kept aside for a later nail / facial salon phase
+    ("Misfiled: skincare / pigment / peel accessories", "move:Skincare, haircare & peels", r"allskin|dr levy|medik8|mesoestetic|nano skin|sent[eé]|prosystem|radara|aftercare healing|neauvia.*remover"),
+    ("Misfiled: consumables", "move:Clinic consumables & PPE", r"procedure mask|skin marking"),
+    ("Nail medicines (antifungal lacquer)", "remove", r"curanail|loceryl"),
+    ("Lash & brow growth (RevitaLash etc.)", "keep", r"revitalash|revitabrow|nu-cil|lash & brow enhancement|rush o lash|eyelash curler|precision tweezers|volume enhancing foam|lash brow masque|length define"),
+    ("Clinic mineral make-up (post-procedure)", "keep", r"jane iredale|clinical lip gloss|noon brush"),
+    ("PMU / microblading (DHSC green list)", "keep", r"pigment|microblad|microblade|spmu|tattoo machine|dragonhawk|shading solution|perma blend|brow collection|luxe color chart|mapping string|practice skin|pro silk pencil|eyebrow measuring"),
+    ("Waxing", "salon", r"wax"),
+]
+BEAUTY_DEFAULT = ("Nails & other salon items", "salon")
+RULES["Beauty (nails, brows, lashes, PMU, makeup)"] = BEAUTY

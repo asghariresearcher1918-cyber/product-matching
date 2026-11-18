@@ -92,7 +92,7 @@ for cat, ks in sorted(by.items(), key=lambda kv: -len(kv[1])):
 sg.auto_filter.ref = f"A1:E{sg.max_row}"
 # scope (scripts/apply_scope.py)
 sc = wb.create_sheet("Scope by category", 1)
-scopes = ["Phase 1", "Phase 1 - owner to decide", "Phase 2 - later", "Phase 2 - services", "Removed - general pharmacy", "Removed - not a product", "Check by hand"]
+scopes = ["Phase 1", "Phase 2 - later", "Phase 2 - services", "Later phase - nail & facial salons", "Removed - general pharmacy", "Removed - not a product", "Check by hand"]
 head(sc, ["Category", "All"] + scopes, [40, 8] + [13] * len(scopes))
 for cat, ks in sorted(by.items(), key=lambda kv: -len(kv[1])):
     c = collections.Counter(rows[k].get("scope", "") for k in ks)

@@ -35,3 +35,7 @@ Misfiled items moved to their right category. Rules: data/medicine_scope.py, app
 - Vaccines (2026-11-18): only adult Engerix B kept (staff hepatitis B); the other 24 (flu, travel, childhood) removed from phase 1.
 - Supplements (2026-11-18): keep beauty / skin / hair supplements (44); misfiled items moved to their category;
   general vitamins & minerals and clinical nutrition removed from phase 1; Testogel to phase 2.
+- Beauty (2026-11-18): keep PMU / microblading (DHSC green list), clinic mineral make-up, lash & brow growth;
+  nails, waxing and other salon items set aside as "Later phase - nail & facial salons" (for a future salon phase).
+Phase-1 scope is now set for every category (scripts/apply_scope.py). 2 rows still to check by hand
+(Life Enhance Pro - page removed; Extra H 10 ml - page gives no product type).
