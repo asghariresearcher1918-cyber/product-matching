@@ -30,3 +30,5 @@ dental clinics.
 General-pharmacy medicines with no use in aesthetic / skin clinics are out of phase 1 (scope = "Removed - general pharmacy";
 rows kept in the data). Men's & women's health, joint (MSK) injections and iron infusions = phase 2.
 Misfiled items moved to their right category. Rules: data/medicine_scope.py, applied by scripts/apply_scope.py.
+- Kept in phase 1 (owner, 2026-11-18): bimatoprost / Lumigan (lash growth, off-label) and Disolvidase
+  (show with a note: per JCCP, MHRA does not regard it as an authorised hyaluronidase alternative).
