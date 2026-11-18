@@ -93,3 +93,11 @@ BEAUTY = [  # agreed 2026-11-18: salon items kept aside for a later nail / facia
 ]
 BEAUTY_DEFAULT = ("Nails & other salon items", "salon")
 RULES["Beauty (nails, brows, lashes, PMU, makeup)"] = BEAUTY
+
+TOXIN = [  # accessories listed under toxins (2026-11-18)
+    ("Openers", "move:Clinic consumables & PPE", r"opener"),
+    ("Speywood-unit syringes", "move:Needles, cannulas & syringes", r"syringe x ?10|syringe 100x"),
+    ("Diluent (bacteriostatic saline)", "move:Medicine - injectable / anaesthetic / emergency", r"bacteriostatic|saline"),
+]
+RULES["Toxin"] = TOXIN
+CATEGORY_DEFAULTS = {"Toxin": ("Botulinum toxin", "keep"), "Beauty (nails, brows, lashes, PMU, makeup)": BEAUTY_DEFAULT}

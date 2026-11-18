@@ -6,7 +6,7 @@ import collections, csv, re, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "data"))
-from medicine_scope import RULES, DEFAULT, BEAUTY_DEFAULT
+from medicine_scope import RULES, DEFAULT, CATEGORY_DEFAULTS
 
 CATEGORY_SCOPE = {
     "Training, services & marketing": "Phase 2 - services",
@@ -24,7 +24,7 @@ def main():
         cat = r["category_auto"]; r["category"] = cat
         name = ((r.get("page_title") or "") + " | " + r["title"]).lower()
         if cat in RULES:
-            group, action = next(((g, a) for g, a, rx in RULES[cat] if re.search(rx, name)), BEAUTY_DEFAULT if cat.startswith("Beauty") else DEFAULT)
+            group, action = next(((g, a) for g, a, rx in RULES[cat] if re.search(rx, name)), CATEGORY_DEFAULTS.get(cat, DEFAULT))
             if action.startswith("move:"):
                 r["category"] = action[5:]; action = "keep"
                 group = f"moved from {cat}"

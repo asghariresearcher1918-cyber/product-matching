@@ -40,3 +40,10 @@ Misfiled items moved to their right category. Rules: data/medicine_scope.py, app
 Phase-1 scope is now set for every category (scripts/apply_scope.py). 2 rows still to check by hand
 (Life Enhance Pro - page removed; Extra H 10 ml - page gives no product type).
 - The 2 unidentifiable rows removed (2026-11-18).
+
+## Category 1 - Toxins (built 2026-11-18, awaiting owner check)
+Catalogue from the official UK SmPCs (emc): 9 brands, 23 codes; code = BRAND-UNITS PER VIAL-VIALS PER PACK (+ -ROI for Ireland packs).
+Corrections vs the draft: Alluzience vial = 125 Speywood units in 0.625 mL (200 units/mL is the concentration);
+Relfydess vial = 150 units in 1.5 mL. Xeomin added (therapeutic licence; 1 listing).
+Pack not stated on the page -> 1 vial assumed (smallest official pack), confidence medium.
+Equivalence groups by molecule: abobotulinumtoxinA (Azzalure, Alluzience, Dysport), incobotulinumtoxinA (Bocouture, Xeomin).
