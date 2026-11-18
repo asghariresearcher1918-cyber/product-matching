@@ -39,3 +39,4 @@ Misfiled items moved to their right category. Rules: data/medicine_scope.py, app
   nails, waxing and other salon items set aside as "Later phase - nail & facial salons" (for a future salon phase).
 Phase-1 scope is now set for every category (scripts/apply_scope.py). 2 rows still to check by hand
 (Life Enhance Pro - page removed; Extra H 10 ml - page gives no product type).
+- The 2 unidentifiable rows removed (2026-11-18).

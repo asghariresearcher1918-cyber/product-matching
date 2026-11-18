@@ -16,7 +16,7 @@ COV = {"Good": "C6EFCE", "Weak": "FFF2CC", "Missing": "F8CBAD", "Service / fit-o
 LEV = {"Required": "F4B084", "Recommended": "FFE699", "If offered": "E2EFDA", "Standard practice": "EDEDED", "Optional": "FFFFFF"}
 WS = {"Williams Medical": "wms", "Medisave": "medisave", "Henry Schein": "hs", "Physique": "physique", "Ellisons": "ellisons", "Salons Direct": "salonsdirect"}
 wcats = {k: [l.strip().lower() for l in open(ROOT / f"data/wholesaler_categories/{v}.txt", encoding="utf-8") if l.strip()] for k, v in WS.items()}
-rows = [r for r in csv.DictReader(open(ROOT / "output/all_products_categorised.csv", encoding="utf-8")) if r["category"] != "Not a product"]
+rows = [r for r in csv.DictReader(open(ROOT / "output/all_products_categorised.csv", encoding="utf-8")) if r.get("scope", "Phase 1") == "Phase 1"]
 texts = [(r["page_title"] + " | " + r["title"]).lower() for r in rows]
 
 out = []
@@ -54,7 +54,7 @@ txt = [
  ("  Required / Recommended = named in official guidance (CQC, Resuscitation Council UK, JCCP premises standards, ACE Group, HTM 07-01 waste, Sharps Regulations 2013, MHRA laser guidance, HSE).", False),
  ("  If offered = the treatment is on the DHSC licensing lists (green / amber / red) - the clinic needs it only if it offers that treatment.", False),
  ("  Standard practice = not named by guidance, but stocked by virtually every clinic (seen across wholesaler catalogues).", False),
- (f"Our coverage (11,755 listings, 24 suppliers): Good {cnt['Good']} (3+ suppliers, 5+ listings) | Weak {cnt['Weak']} | Missing {cnt['Missing']} | Service or fit-out (not a product) {cnt['Service / fit-out']}.", False),
+ (f"Our coverage (phase-1 listings only, 24 suppliers): Good {cnt['Good']} (3+ suppliers, 5+ listings) | Weak {cnt['Weak']} | Missing {cnt['Missing']} | Service or fit-out (not a product) {cnt['Service / fit-out']}.", False),
  ("  Coverage is found by keyword matching on product names - approximate. Check the Examples column and the 'Matches' sheet.", False),
  ("'Wholesaler categories' = which of Williams Medical, Medisave, Henry Schein, Physique, Ellisons, Salons Direct has a matching category in its menu (where to recruit suppliers).", False),
  ("Access (proposal): Public = anyone sees price | Professional = verified healthcare professional | POM = verified professional + prescription.", False),
@@ -79,7 +79,23 @@ for o in out:
     ml.cell(row=n, column=5).fill = PatternFill("solid", fgColor=LEV[o["level"]])
 ml.auto_filter.ref = f"A1:Q{ml.max_row}"; last = ml.max_row
 
-sm = wb.create_sheet("By section", 1)
+cs = wb.create_sheet("Complete or not", 1)
+head(cs, ["Section (clinic need)", "Products needed", "Good", "Weak", "Missing", "% covered well", "Required items not well covered",
+          "Status", "Where to find the missing items (wholesaler categories)", "Services (phase 2)"], [30, 9, 7, 7, 8, 9, 46, 13, 46, 9])
+STAT = {"Complete": "C6EFCE", "Partial": "FFF2CC", "Incomplete": "F8CBAD"}
+for sec in dict.fromkeys(o["sec"] for o in out):
+    its = [o for o in out if o["sec"] == sec]; prod = [o for o in its if o["cov"] != "Service / fit-out"]
+    g = sum(o["cov"] == "Good" for o in prod); w = sum(o["cov"] == "Weak" for o in prod); m = sum(o["cov"] == "Missing" for o in prod)
+    req = [o["item"] for o in prod if o["level"] == "Required" and o["cov"] != "Good"]
+    pct = g / len(prod) if prod else 0
+    st = "Complete" if prod and pct >= 0.8 and not req else ("Incomplete" if pct < 0.5 else "Partial")
+    whs = collections.Counter(x.strip() for o in prod if o["cov"] != "Good" for x in o["wh"].split(",") if x.strip())
+    cs.append([sec, len(prod), g, w, m, pct, "; ".join(req), st if prod else "Services only",
+               ", ".join(f"{k} ({v})" for k, v in whs.most_common()), len(its) - len(prod)]); fmt(cs)
+    cs.cell(row=cs.max_row, column=6).number_format = "0%"
+    if prod: cs.cell(row=cs.max_row, column=8).fill = PatternFill("solid", fgColor=STAT[st])
+cs.freeze_panes = "B2"
+sm = wb.create_sheet("By section", 2)
 lvls = ["Required", "Recommended", "If offered", "Standard practice", "Optional"]; covs = ["Good", "Weak", "Missing", "Service / fit-out"]
 head(sm, ["Section", "Items"] + lvls + covs, [36, 8] + [11] * 9)
 rng = lambda c: f"'Master list'!${c}$2:${c}${last}"
@@ -95,7 +111,7 @@ for k in range(2, 12):
     L = get_column_letter(k); sm.cell(row=t, column=k, value=f"=SUM({L}2:{L}{t-1})")
 for c in sm[t]: c.font = Font(name=F, bold=True)
 
-gp = wb.create_sheet("Gaps to fill", 2)
+gp = wb.create_sheet("Gaps to fill", 3)
 head(gp, ["Section", "Item", "Requirement", "Official source", "Our coverage", "Our suppliers", "Wholesaler categories", "Mode"], [24, 46, 13, 20, 12, 9, 34, 9])
 order = {"Required": 0, "Recommended": 1, "If offered": 2, "Standard practice": 3, "Optional": 4}
 for o in sorted([o for o in out if o["cov"] in ("Missing", "Weak")], key=lambda o: (order[o["level"]], o["cov"] != "Missing", o["sec"])):

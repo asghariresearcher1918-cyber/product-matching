@@ -11,7 +11,7 @@ from medicine_scope import RULES, DEFAULT, BEAUTY_DEFAULT
 CATEGORY_SCOPE = {
     "Training, services & marketing": "Phase 2 - services",
     "Not a product": "Removed - not a product",
-    "Unclassified": "Check by hand",
+    "Unclassified": "Removed - not identifiable",
 }
 ACTION = {"keep": "Phase 1", "phase2": "Phase 2 - later", "remove": "Removed - general pharmacy", "salon": "Later phase - nail & facial salons"}
 REMOVED_LABEL = {"Not a product": "Removed - not a product"}
