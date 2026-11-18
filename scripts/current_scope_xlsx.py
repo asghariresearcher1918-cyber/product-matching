@@ -90,6 +90,24 @@ for cat, ks in sorted(by.items(), key=lambda kv: -len(kv[1])):
         ex = " | ".join(list(dict.fromkeys(r["page_title"] or r["title"] for r in rs))[:5])
         sg.append([cat, name, len(rs), len({r["supplier"] for r in rs}), ex]); fmt(sg)
 sg.auto_filter.ref = f"A1:E{sg.max_row}"
+# scope (scripts/apply_scope.py)
+sc = wb.create_sheet("Scope by category", 1)
+scopes = ["Phase 1", "Phase 1 - owner to decide", "Phase 2 - later", "Phase 2 - services", "Removed - general pharmacy", "Removed - not a product", "Check by hand"]
+head(sc, ["Category", "All"] + scopes, [40, 8] + [13] * len(scopes))
+for cat, ks in sorted(by.items(), key=lambda kv: -len(kv[1])):
+    c = collections.Counter(rows[k].get("scope", "") for k in ks)
+    sc.append([cat, len(ks)] + [c.get(x, 0) or "" for x in scopes]); fmt(sc)
+n = sc.max_row
+sc.append(["Total"] + [f"=SUM({get_column_letter(j)}2:{get_column_letter(j)}{n})" for j in range(2, 3 + len(scopes))]); fmt(sc)
+for c in sc[sc.max_row]: c.font = Font(name=F, size=9, bold=True)
+md = wb.create_sheet("Medicines - review")
+head(md, ["Original category", "Scope", "Group", "Now in category", "Supplier", "Product (link)"], [34, 24, 44, 34, 18, 60])
+FILL = {"Phase 1": "C6EFCE", "Phase 2 - later": "FFF2CC", "Removed - general pharmacy": "F8CBAD"}
+for r in sorted((r for r in rows if r.get("category_auto", "").startswith("Medicine")), key=lambda r: (r["category_auto"], r["scope"], r["scope_group"], (r["page_title"] or r["title"]).lower())):
+    md.append([r["category_auto"], r["scope"], r["scope_group"], r["category"], r["supplier"], r["page_title"] or r["title"]]); fmt(md)
+    md.cell(row=md.max_row, column=2).fill = PatternFill("solid", fgColor=FILL.get(r["scope"], "FFFFFF"))
+    c = md.cell(row=md.max_row, column=6); c.hyperlink = r["url"]; c.font = Font(name=F, size=9, color="0563C1", underline="single")
+md.auto_filter.ref = f"A1:F{md.max_row}"
 p = ROOT / "output/current_list_scope.xlsx"; wb.save(p); print(p)
 for cat, ks in sorted(by.items(), key=lambda kv: -len(kv[1])):
     g = collections.Counter(("B:" + brand(rows[k])) if cat in BRAND_CATS else (sub[k] or "(other)") for k in ks)

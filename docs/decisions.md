@@ -25,3 +25,8 @@ Start with: insurance, clinical waste collection contract, training. Then clinic
 Also later: hand-wash basin (fit-out), Hep B vaccination, LPA / laser safety, fire & H&S assessments / PAT.
 Also phase 2+: the missing / weak product items in the needs master list (medical-wholesaler recruitment),
 dental clinics.
+
+## Medicines scope (agreed 2026-11-18)
+General-pharmacy medicines with no use in aesthetic / skin clinics are out of phase 1 (scope = "Removed - general pharmacy";
+rows kept in the data). Men's & women's health, joint (MSK) injections and iron infusions = phase 2.
+Misfiled items moved to their right category. Rules: data/medicine_scope.py, applied by scripts/apply_scope.py.
