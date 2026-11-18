@@ -118,3 +118,12 @@ fixing slug-dropped decimals ("125mg"->12.5, "2 4mg"->2.4). Wegovy snapped per r
 POM - price shown only to verified prescribers; diabetes-licensed brands (Ozempic, Victoza, Trulicity) flagged as off-label for weight.
 Generic Church listings carry the dose in a Strength/Size field on the page, not the title - now read from the page (24 doses) so every listing maps to its exact code; no partials left. 1 MedFX blog article -> review.
 Note: one Church "Wegovy 7.2mg pen" is not a standard strength - flagged for the supplier.
+
+## Category 6 - Dermal fillers (HA) (built 2026-11-19)
+~990 codes, 1,929 listings. Reference covers the ~45 major brands (Teosyal, Juvederm, Restylane, Belotero, Stylage,
+Revolax, Aliaxin, Saypha, Neauvia, Revanesse, Maili, Perfectha, etc.) with manufacturer + official source (Teoxane IFU,
+Juvederm, Galderma, emc). Long-tail / niche brands get a generic brand from the first word(s) so every filler is listed.
+Line parsed from the listing then snapped to the brand's real line set (fixing "RHA1"->"RHA 1", roman I/II, "Ultradeep",
+"Volux" etc. that the detection regex had swallowed). Code = BRAND-LINE-VOLUME-[LIDO]-PACK[-MARKET]. Slug-dropped volume
+decimals fixed (1.1ml). ~159 codes have 3+ suppliers (good price comparison); the long tail is single-supplier list-only.
+Recategorised out of filler: Teoxane skincare/creams/gift kits -> Skincare. Lidocaine and market (UK/ROI/hologram) share the group.
