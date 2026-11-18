@@ -1,14 +1,14 @@
 code,brand,variant,active_agent,equivalence_group,manufacturer,strength,volume_ml,vials_per_pack,lidocaine,agent_verified,suppliers,listings,note
-NOVUMA-1.5ML-1X,Novuma,,CaHA,CaHA - calcium hydroxylapatite,not stated,1.5ML,1.5,1,no,NO - confirm,1,1,described as CaHA biostimulator
-NOVUMA-1X,Novuma,,CaHA,CaHA - calcium hydroxylapatite,not stated,,,1,no,NO - confirm,1,1,described as CaHA biostimulator
+NOVUMA-1.5ML-1X,Novuma,,CaHA,CaHA - calcium hydroxylapatite,"Burgeon (Korea), Vivacy UK",1.5ML,1.5,1,no,yes,1,1,CaHA microspheres 55-60% in CMC gel (verified: CaHA)
+NOVUMA-1X,Novuma,,CaHA,CaHA - calcium hydroxylapatite,"Burgeon (Korea), Vivacy UK",,,1,no,yes,1,1,CaHA microspheres 55-60% in CMC gel (verified: CaHA)
 RADIESSE-1.5ML-1X,Radiesse,,CaHA,CaHA - calcium hydroxylapatite,Merz,1.5ML,1.5,1,no,yes,9,9,CaHA 30% in gel carrier; 0.8 / 1.5 / 3.0 ml; ± lidocaine (Radiesse+)
 RADIESSE-1.5ML-LIDO-1X,Radiesse,,CaHA,CaHA - calcium hydroxylapatite,Merz,1.5ML,5,1,yes,yes,10,14,CaHA 30% in gel carrier; 0.8 / 1.5 / 3.0 ml; ± lidocaine (Radiesse+)
 RADIESSE-1.5ML-LIDO-2X,Radiesse,,CaHA,CaHA - calcium hydroxylapatite,Merz,1.5ML,5,2,yes,yes,2,2,CaHA 30% in gel carrier; 0.8 / 1.5 / 3.0 ml; ± lidocaine (Radiesse+)
 RADIESSE-3ML-1X,Radiesse,,CaHA,CaHA - calcium hydroxylapatite,Merz,3ML,3,1,no,yes,2,2,CaHA 30% in gel carrier; 0.8 / 1.5 / 3.0 ml; ± lidocaine (Radiesse+)
 HARMONYCA-1.25ML-LIDO-2X,HArmonyCa,,CaHA+HA,CaHA + HA hybrid,Allergan / AbbVie,1.25ML,1.25,2,yes,yes,9,9,"CaHA microspheres in HA gel, with lidocaine; 2 x 1.25 ml"
-NEAUVIASTIMULATE-1ML-1X,Neauvia Stimulate,,CaHA+HA,CaHA + HA hybrid,Neauvia / Matex Lab,1ML,1,1,no,NO - confirm,1,1,CaHA + HA per supplier page; 1 ml
-NEAUVIASTIMULATE-1ML-2X,Neauvia Stimulate,,CaHA+HA,CaHA + HA hybrid,Neauvia / Matex Lab,1ML,1,2,no,NO - confirm,1,2,CaHA + HA per supplier page; 1 ml
-LINERASEHYDRO-5ML-5X,Linerase Hydro,,HA booster,HA skin booster (not a biostimulator),Mastelli,5ML,5,5,no,NO - confirm,2,3,"HA booster, 5 x 5 ml - not a collagen stimulator (grouped separately)"
+NEAUVIASTIMULATE-1ML-1X,Neauvia Stimulate,,CaHA+HA,CaHA + HA hybrid,Matex Lab / Neauvia,1ML,1,1,no,yes,1,1,PEG-crosslinked HA ~26 mg/ml + 1% CaHA + glycine + L-proline (verified: CaHA + HA)
+NEAUVIASTIMULATE-1ML-2X,Neauvia Stimulate,,CaHA+HA,CaHA + HA hybrid,Matex Lab / Neauvia,1ML,1,2,no,yes,1,2,PEG-crosslinked HA ~26 mg/ml + 1% CaHA + glycine + L-proline (verified: CaHA + HA)
+LINERASEHYDRO-5ML-5X,Linerase Hydro,,HA booster,HA skin booster (not a biostimulator),Mastelli,5ML,5,5,no,yes,2,3,"HA booster, 5 x 5 ml - not a collagen stimulator (grouped separately)"
 ELLANSE-M-1ML-2X,Ellanse,M,PCL,PCL - polycaprolactone,Sinclair,1ML,1,2,no,yes,7,7,PCL microspheres; S/M/L/E by longevity; 1 ml vials
 ELLANSE-S-1ML-2X,Ellanse,S,PCL,PCL - polycaprolactone,Sinclair,1ML,1,2,no,yes,8,9,PCL microspheres; S/M/L/E by longevity; 1 ml vials
 GOURI-1X,Gouri,,PCL,PCL - polycaprolactone,APAD / Gran Aesthetics,,,1,no,yes,8,8,liquid PCL; 1 x 1 ml
@@ -18,19 +18,19 @@ JUVELOOK-50MG-2X,Juvelook,,PDLLA,"PDLLA - poly-D,L-lactic acid (± HA)",VAIM / M
 JUVELOOK-VOLUME-200MG-1X,Juvelook,VOLUME,PDLLA,"PDLLA - poly-D,L-lactic acid (± HA)",VAIM / Medit,200MG,,1,no,yes,1,1,PDLLA + HA; 50 mg (Juvelook) / 200 mg (Juvelook Volume)
 LENISNA-200MG-1X,Lenisna,,PDLLA,"PDLLA - poly-D,L-lactic acid (± HA)",Medit / Fillmed,200MG,,1,no,yes,4,5,PDLLA + HA 200 mg
 LENISNA-200MG-2X,Lenisna,,PDLLA,"PDLLA - poly-D,L-lactic acid (± HA)",Medit / Fillmed,200MG,,2,no,yes,1,1,PDLLA + HA 200 mg
-ECOLLA-365MG-1X,Ecolla,,PLLA,PLLA - poly-L-lactic acid,not stated,365MG,,1,no,NO - confirm,4,4,PLLA 365 mg per supplier page
-JULAINE-150MG-1X,Julaine,,PLLA,PLLA - poly-L-lactic acid,Julaine of Sweden,150MG,,1,no,NO - confirm,5,5,PLLA 150 mg per supplier page
+ECOLLA-365MG-1X,Ecolla,,PLLA,PLLA - poly-L-lactic acid,Korea (not named),365MG,,1,no,yes,4,4,"PLLA powder, 365 mg vial (verified: PLLA)"
+JULAINE-150MG-1X,Julaine,,PLLA,PLLA - poly-L-lactic acid,Nordberg Medical (Sweden),150MG,,1,no,yes,5,5,PLLA 150 mg + CMC (verified: PLLA)
 LANLUMA-V-210MG-1X,Lanluma,V,PLLA,PLLA - poly-L-lactic acid,Sinclair,210MG,5,1,no,yes,3,3,"PLLA; V = 210 mg / 15 ml (face), X = 630 mg / 40 ml (body)"
 LANLUMA-X-630MG-1X,Lanluma,X,PLLA,PLLA - poly-L-lactic acid,Sinclair,630MG,0,1,no,yes,6,12,"PLLA; V = 210 mg / 15 ml (face), X = 630 mg / 40 ml (body)"
-OLIDIA-1X,Olidia,,PLLA,PLLA - poly-L-lactic acid,not stated,,,1,no,NO - confirm,1,1,PLLA per supplier page
-PLLACELL-100MG-1X,PLLACELL,,PLLA,PLLA - poly-L-lactic acid,not stated,100MG,,1,no,NO - confirm,3,3,PLLA 100 mg per supplier page
-PINKLLA-100MG-1X,PiNkLLA,,PLLA,PLLA - poly-L-lactic acid,not stated,100MG,,1,no,NO - confirm,1,1,PLLA + polynucleotide per supplier page
+OLIDIA-1X,Olidia,,PLLA,PLLA - poly-L-lactic acid,Korea (PRP Science),,,1,no,yes,1,1,"PLLA powder, 365 mg vial (verified: PLLA)"
+PLLACELL-100MG-1X,PLLACELL,,PLLA,PLLA - poly-L-lactic acid,Korea (not named),100MG,,1,no,yes,3,3,"PLLA + polynucleotide hybrid cocktail (PLLA ~35mg + PN + glutathione + vit C + HA), 100 mg total (verified: PLLA-based)"
+PINKLLA-100MG-1X,PiNkLLA,,PLLA,PLLA - poly-L-lactic acid,Daesung (Korea),100MG,,1,no,yes,1,1,"PLLA + polynucleotide, 100 mg (verified: PLLA-based)"
 SCULPTRA-367.5MG-1X,Sculptra,,PLLA,PLLA - poly-L-lactic acid,Galderma,367.5MG,,1,no,yes,7,7,PLLA 367.5 mg per vial; single or 2-vial pack
 SCULPTRA-367.5MG-2X,Sculptra,,PLLA,PLLA - poly-L-lactic acid,Galderma,367.5MG,5.0,2,no,yes,13,15,PLLA 367.5 mg per vial; single or 2-vial pack
-STICOL-365MG-1X,StiCol,,PLLA,PLLA - poly-L-lactic acid,not stated,365MG,,1,no,NO - confirm,1,1,PLLA 365 mg per supplier page
-AESPLLA-365MG-1X,aesPLLA,,PLLA,PLLA - poly-L-lactic acid,not stated,365MG,,1,no,NO - confirm,9,11,PLLA 365 mg per supplier page
-ILLUMAPLLA-200MG-1X,iLLUMA PLLA,,PLLA,PLLA - poly-L-lactic acid,not stated,200MG,,1,no,NO - confirm,4,4,PLLA; 200 / 500 (mg) per supplier page
-ILLUMAPLLA-500MG-1X,iLLUMA PLLA,,PLLA,PLLA - poly-L-lactic acid,not stated,500MG,,1,no,NO - confirm,3,3,PLLA; 200 / 500 (mg) per supplier page
-LINERASE-100MG-1X,Linerase,,collagen,Injectable collagen stimulator,Mastelli,100MG,,1,no,NO - confirm,4,4,heat-denatured collagen powder 100 mg
+STICOL-365MG-1X,StiCol,,PLLA,PLLA - poly-L-lactic acid,not named,365MG,,1,no,yes,1,1,PLLA (+ HA); StiCol Soft / Volume (verified: PLLA)
+AESPLLA-365MG-1X,aesPLLA,,PLLA,PLLA - poly-L-lactic acid,Oreon Life Science (Korea),365MG,,1,no,yes,9,11,"PLLA 150 mg + CMC + mannitol, 365 mg powder (verified: PLLA)"
+ILLUMAPLLA-200MG-1X,iLLUMA PLLA,,PLLA,PLLA - poly-L-lactic acid,not named,200MG,,1,no,yes,4,4,PLLA + CMC; 200 / 500 mg (verified: PLLA)
+ILLUMAPLLA-500MG-1X,iLLUMA PLLA,,PLLA,PLLA - poly-L-lactic acid,not named,500MG,,1,no,yes,3,3,PLLA + CMC; 200 / 500 mg (verified: PLLA)
+LINERASE-100MG-1X,Linerase,,collagen,Injectable collagen stimulator,Mastelli,100MG,,1,no,yes,4,4,"heterologous Type I collagen of EQUINE origin, 100 mg powder (verified: collagen, equine - not porcine)"
 DOUBLYXEVO-2ML-1X,Doublyx Evo,,unknown,Unconfirmed - ask the supplier,not stated,2ML,2,1,no,NO - confirm,1,1,agent not stated on the page - confirm with supplier
 ELYSIHA-1X,Elysiha,,unknown,Unconfirmed - ask the supplier,not stated,,,1,no,NO - confirm,1,2,agent not stated on the page - confirm with supplier

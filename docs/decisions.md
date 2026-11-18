@@ -71,7 +71,7 @@ them via a product feed or an authorised login. No circumvention of their anti-b
 AestheFill) verified; niche brands (aesPLLA, Ecolla, PLLACELL, Julaine, StiCol, Olidia, iLLUMA, PiNkLLA,
 Linerase, Novuma, Neauvia Stimulate) marked 'agent to confirm'. Doublyx Evo and Elysiha (Dr Adams only):
 agent not stated anywhere reachable -> 'Unconfirmed - ask the supplier'.
-Equivalence groups by active agent: PLLA, PDLLA(+HA), CaHA, CaHA+HA hybrid, PCL, collagen.
+All niche-brand agents verified against multiple sources (2026-11-19): aesPLLA/Ecolla/Julaine/Olidia/iLLUMA/StiCol = PLLA; PLLACELL/PiNkLLA = PLLA+PN; Linerase = equine Type I collagen (corrected from porcine); Novuma = CaHA; Neauvia Stimulate = CaHA+HA. Only Doublyx Evo and Elysiha remain unconfirmed (Dr Adams only, no public source).
 Code = BRAND-[VARIANT]-STRENGTH-[LIDO]-PACK. Fixed strength per brand used where the brand has one standard
 presentation (Sculptra 367.5mg, Ecolla/aesPLLA/StiCol 365mg, PLLACELL/PiNkLLA/Linerase 100mg, Julaine 150mg,
 AestheFill/Lenisna 200mg). HArmonyCa normalised to its only UK pack (2 x 1.25ml + lidocaine).
