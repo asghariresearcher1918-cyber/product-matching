@@ -6,7 +6,7 @@ action: "keep"            -> phase 1
         "move:<category>" -> right product, wrong category
 """
 
-DEFAULT = ("General pharmacy (not clinic use)", "remove")
+DEFAULT = ("General pharmacy (not clinic use)", "remove")  # vaccines too: travel, flu, childhood
 
 ORAL = [
     ("Weight loss", "move:Weight-loss medicine", r"foundayo|wegovy|rybelsus|xenical|\balli\b|orlistat"),
@@ -61,3 +61,8 @@ RULES = {
     "Medicine - topical / eye / other": TOPICAL,
     "Medicine - injectable / anaesthetic / emergency": INJECTABLE,
 }
+
+VACCINE = [  # agreed 2026-11-18: only adult hepatitis B (staff immunisation, JCCP standard 7)
+    ("Hepatitis B - staff immunisation (adult)", "keep", r"engerix ?b(?!.*paed)"),
+]
+RULES["Vaccine"] = VACCINE

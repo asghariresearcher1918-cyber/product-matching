@@ -14,7 +14,6 @@ CATEGORY_SCOPE = {
     "Unclassified": "Check by hand",
     "Beauty (nails, brows, lashes, PMU, makeup)": "Phase 1 - owner to decide",
     "Supplements": "Phase 1 - owner to decide",
-    "Vaccine": "Phase 1 - owner to decide",
 }
 ACTION = {"keep": "Phase 1", "phase2": "Phase 2 - later", "remove": "Removed - general pharmacy"}
 

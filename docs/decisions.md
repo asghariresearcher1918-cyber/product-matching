@@ -32,3 +32,4 @@ rows kept in the data). Men's & women's health, joint (MSK) injections and iron 
 Misfiled items moved to their right category. Rules: data/medicine_scope.py, applied by scripts/apply_scope.py.
 - Kept in phase 1 (owner, 2026-11-18): bimatoprost / Lumigan (lash growth, off-label) and Disolvidase
   (show with a note: per JCCP, MHRA does not regard it as an authorised hyaluronidase alternative).
+- Vaccines (2026-11-18): only adult Engerix B kept (staff hepatitis B); the other 24 (flu, travel, childhood) removed from phase 1.
