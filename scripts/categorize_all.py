@@ -12,12 +12,15 @@ Rows with low confidence go to the manual review list; manual decisions live in 
 Outputs: output/all_products_categorised.csv, output/category_review.csv
 Usage: python -I scripts/categorize_all.py
 """
+import sys
 import collections
 import csv
 import json
 import re
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from inputs import load_rows  # owner input + products found later
 ROOT = Path(__file__).resolve().parent.parent
 
 CATS = [
@@ -218,7 +221,7 @@ def classify(row, page, brand_cat, override):
 
 
 def main():
-    rows = list(csv.DictReader(open(ROOT / "products_input.csv", encoding="utf-8-sig")))
+    rows = load_rows()
     pages = {}
     for l in open(ROOT / "pages.jsonl", encoding="utf-8"):
         p = json.loads(l)

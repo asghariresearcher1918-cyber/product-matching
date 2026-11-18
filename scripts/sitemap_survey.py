@@ -1,6 +1,6 @@
 """Public completeness check: for each supplier, read robots.txt -> sitemaps -> product URLs, and compare with our input list.
 Polite: honest user agent, robots.txt respected, 1 request/second per host, no login. Skips hosts in SKIP.
-Usage: python -I scripts/sitemap_survey.py  -> output/supplier_coverage.csv + data/sitemaps/<supplier>.txt"""
+Usage: python -I scripts/sitemap_survey.py [--only host1,host2]  -> output/supplier_coverage.csv + data/sitemaps/<supplier>.txt"""
 import collections, csv, gzip, re, sys, time, urllib.parse, urllib.robotparser
 from pathlib import Path
 import httpx
@@ -28,10 +28,15 @@ def main():
     rows = list(csv.DictReader(open(ROOT / "products_input.csv", encoding="utf-8-sig")))
     by = collections.defaultdict(list)
     for r in rows: by[r["supplier"]].append(r)
+    only = set(sys.argv[sys.argv.index("--only") + 1].split(",")) if "--only" in sys.argv else None
+    prev = {r["supplier"]: r for r in csv.DictReader(open(ROOT / "output/supplier_coverage.csv", encoding="utf-8"))} if only and (ROOT / "output/supplier_coverage.csv").exists() else {}
     out = []; (ROOT / "data/sitemaps").mkdir(parents=True, exist_ok=True)
     for sup, rs in sorted(by.items()):
         host = collections.Counter(urllib.parse.urlparse(r["url"]).netloc for r in rs).most_common(1)[0][0]
         base = f"https://{host}"
+        if only and host not in only:
+            if sup in prev: out.append(prev[sup])
+            continue
         rec = dict(supplier=sup, host=host, our_listings=len(rs), sitemap_products="", in_sitemap_not_ours="", ours_not_in_sitemap="", note="")
         if host in SKIP:
             rec["note"] = "skipped - needs owner permission"; out.append(rec); print(sup, rec["note"]); continue

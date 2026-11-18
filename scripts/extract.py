@@ -7,6 +7,7 @@ written to scrape_errors.csv instead of being guessed.
 
 Usage: python -I scripts/extract.py [--ids pilot_ids.txt]
 """
+import sys
 import argparse
 import multiprocessing
 import csv
@@ -18,6 +19,8 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from inputs import load_rows  # owner input + products found later
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "cache"
 
@@ -336,7 +339,7 @@ def main():
     ap.add_argument("--ids")
     ap.add_argument("--workers", type=int, default=max(1, multiprocessing.cpu_count()))
     a = ap.parse_args()
-    rows = list(csv.DictReader(open(ROOT / "products_input.csv", encoding="utf-8-sig")))
+    rows = load_rows()
     if a.ids:
         want = {l.strip() for l in open(ROOT / a.ids) if l.strip()}
         rows = [r for r in rows if r["id"] in want]

@@ -19,6 +19,8 @@ from pathlib import Path
 
 import httpx
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from inputs import load_rows  # owner input + products found later
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "cache"
 ERRORS = ROOT / "scrape_errors.csv"
@@ -114,7 +116,7 @@ def main():
     ap.add_argument("--ids")
     ap.add_argument("--supplier")
     a = ap.parse_args()
-    rows = list(csv.DictReader(open(ROOT / "products_input.csv", encoding="utf-8-sig")))
+    rows = load_rows()
     if a.ids:
         want = {l.strip() for l in open(ROOT / a.ids) if l.strip()}
         rows = [r for r in rows if r["id"] in want]
