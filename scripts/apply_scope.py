@@ -13,9 +13,9 @@ CATEGORY_SCOPE = {
     "Not a product": "Removed - not a product",
     "Unclassified": "Check by hand",
     "Beauty (nails, brows, lashes, PMU, makeup)": "Phase 1 - owner to decide",
-    "Supplements": "Phase 1 - owner to decide",
 }
 ACTION = {"keep": "Phase 1", "phase2": "Phase 2 - later", "remove": "Removed - general pharmacy"}
+REMOVED_LABEL = {"Not a product": "Removed - not a product"}
 
 def main():
     p = ROOT / "output/all_products_categorised.csv"
@@ -29,7 +29,7 @@ def main():
             if action.startswith("move:"):
                 r["category"] = action[5:]; action = "keep"
                 group = f"moved from {cat}"
-            r["scope"], r["scope_group"] = ACTION[action], group
+            r["scope"], r["scope_group"] = REMOVED_LABEL.get(group, ACTION[action]), group
         else:
             r["scope"], r["scope_group"] = CATEGORY_SCOPE.get(cat, "Phase 1"), ""
     cols = [c for c in rows[0].keys() if c not in ("category_auto", "scope", "scope_group")] + ["category_auto", "scope", "scope_group"]

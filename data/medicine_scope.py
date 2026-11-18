@@ -66,3 +66,18 @@ VACCINE = [  # agreed 2026-11-18: only adult hepatitis B (staff immunisation, JC
     ("Hepatitis B - staff immunisation (adult)", "keep", r"engerix ?b(?!.*paed)"),
 ]
 RULES["Vaccine"] = VACCINE
+
+SUPPLEMENTS = [  # agreed 2026-11-18: keep beauty / skin / hair supplements; remove general vitamins and clinical nutrition
+    ("Not a product", "remove", r"partner with us"),
+    ("Antibiotics", "move:Medicine - oral", r"amoxicillin|cefalexin|doxycycline|flucloxacillin"),
+    ("Aldara", "move:Medicine - topical / eye / other", r"aldara"),
+    ("Glucose (emergency)", "move:Medicine - oral", r"^\s*glucose|\|\s*glucose"),
+    ("Men's & women's health", "phase2", r"testogel"),
+    ("General medicines", "remove", r"omeprazole|fybogel|movicol|monuril|lemsip|teetha"),
+    ("Skincare sachets", "move:Skincare, haircare & peels", r"skin tech|wiqo|neostrata"),
+    ("Consumables", "move:Clinic consumables & PPE", r"normasol|unisept"),
+    ("Biotin injectable", "move:Vitamin & IV therapy", r"biotin 0\.5%"),
+    ("Clinical nutrition (hospital / elderly)", "remove", r"altraplen|actagain|calogen|ensure|fortisip|paediasure|thickenup"),
+    ("Beauty / skin / hair supplements", "keep", r"collagen|lumi-?glow|lumifil|tonic x|harley street|jalupro|viscoderm|heliocare|purasomes|beauty peak|hair, nails|skin radiance|ibsa vitamin|mediceutics|glutathione|liposomal"),
+]
+RULES["Supplements"] = SUPPLEMENTS

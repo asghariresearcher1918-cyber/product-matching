@@ -33,3 +33,5 @@ Misfiled items moved to their right category. Rules: data/medicine_scope.py, app
 - Kept in phase 1 (owner, 2026-11-18): bimatoprost / Lumigan (lash growth, off-label) and Disolvidase
   (show with a note: per JCCP, MHRA does not regard it as an authorised hyaluronidase alternative).
 - Vaccines (2026-11-18): only adult Engerix B kept (staff hepatitis B); the other 24 (flu, travel, childhood) removed from phase 1.
+- Supplements (2026-11-18): keep beauty / skin / hair supplements (44); misfiled items moved to their category;
+  general vitamins & minerals and clinical nutrition removed from phase 1; Testogel to phase 2.
