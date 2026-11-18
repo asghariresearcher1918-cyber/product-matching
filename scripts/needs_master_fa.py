@@ -74,5 +74,5 @@ for k, (name, url) in SOURCES.items():
     so.append([k, name, url]); fmt(so)
     if url.startswith("http") and " " not in url:
         c = so.cell(row=so.max_row, column=3); c.hyperlink = url; c.font = Font(name=F, size=10, color="0563C1", underline="single")
-wb.move_sheet("وضعیت دسته‌ها", offset=-1)
+wb._sheets = [wb[n] for n in ["راهنما", "وضعیت دسته‌ها", "کمبودها", "لیست کامل", "منابع"]]
 p = ROOT / "output/clinic_needs_fa.xlsx"; wb.save(p); print(p, len(gaps), "gaps")
