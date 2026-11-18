@@ -1,0 +1,172 @@
+code,brand,material,thread_type,equivalence_group,manufacturer,gauge,length,delivery,pcs_per_pack,brand_verified,suppliers,listings
+GENERICPCL-COG-29G-60MM-10PCS,Generic PCL,PCL,cog/barbed,PCL cog/barbed,varies,29G,60MM,,10,NO - confirm,1,1
+GENERICPCL-MONO-30G-25MM-10PCS,Generic PCL,PCL,mono,PCL mono,varies,30G,25MM,,10,NO - confirm,1,1
+CROMACONTOUREL-COG-18G-100MM-16PCS,Croma Contourel,PDO,cog/barbed,PDO cog/barbed,Croma,18G,100MM,,16,yes,1,3
+CROMACONTOUREL-COG-19G-100MM-16PCS,Croma Contourel,PDO,cog/barbed,PDO cog/barbed,Croma,19G,100MM,,16,yes,1,1
+CROMACONTOUREL-COG-19G-90MM-16PCS,Croma Contourel,PDO,cog/barbed,PDO cog/barbed,Croma,19G,90MM,,16,yes,1,1
+CROMAPRINCESS-COG-18G-100MM-12PCS,Croma Princess,PDO,cog/barbed,PDO cog/barbed,Croma,18G,100MM,,12,yes,1,1
+CROMAPRINCESS-COG-19G-100MM-0PCS,Croma Princess,PDO,cog/barbed,PDO cog/barbed,Croma,19G,100MM,,0,yes,1,1
+CROMAPRINCESS-COG-19G-100MM-12PCS,Croma Princess,PDO,cog/barbed,PDO cog/barbed,Croma,19G,100MM,,12,yes,1,2
+CROMAPRINCESS-COG-20G-60MM-12PCS,Croma Princess,PDO,cog/barbed,PDO cog/barbed,Croma,20G,60MM,,12,yes,1,1
+CROMAPRINCESS-COG-20G-90MM-12PCS,Croma Princess,PDO,cog/barbed,PDO cog/barbed,Croma,20G,90MM,,12,yes,1,1
+CROMAPRINCESS-COG-23G-60MM-12PCS,Croma Princess,PDO,cog/barbed,PDO cog/barbed,Croma,23G,60MM,,12,yes,1,1
+CROMAPRINCESS-COG-23G-90MM-12PCS,Croma Princess,PDO,cog/barbed,PDO cog/barbed,Croma,23G,90MM,,12,yes,1,1
+CROQUIS-COG-18G-150MM-CAN-6PCS,Croquis,PDO,cog/barbed,PDO cog/barbed,not named,18G,150MM,cannula,6,NO - confirm,1,1
+CROQUIS-COG-18G-185MM-CAN-6PCS,Croquis,PDO,cog/barbed,PDO cog/barbed,not named,18G,185MM,cannula,6,NO - confirm,1,1
+CROQUIS-COG-19G-105MM-CAN-6PCS,Croquis,PDO,cog/barbed,PDO cog/barbed,not named,19G,105MM,cannula,6,NO - confirm,1,1
+CROQUIS-COG-19G-140MM-CAN-6PCS,Croquis,PDO,cog/barbed,PDO cog/barbed,not named,19G,140MM,cannula,6,NO - confirm,1,1
+CROQUIS-COG-19G-185MM-CAN-6PCS,Croquis,PDO,cog/barbed,PDO cog/barbed,not named,19G,185MM,cannula,6,NO - confirm,1,1
+CROQUIS-COG-20G-105MM-CAN-6PCS,Croquis,PDO,cog/barbed,PDO cog/barbed,not named,20G,105MM,cannula,6,NO - confirm,1,1
+CROQUIS-COG-20G-140MM-CAN-6PCS,Croquis,PDO,cog/barbed,PDO cog/barbed,not named,20G,140MM,cannula,6,NO - confirm,1,1
+CROQUIS-COG-21G-110MM-NEE-6PCS,Croquis,PDO,cog/barbed,PDO cog/barbed,not named,21G,110MM,needle,6,NO - confirm,1,3
+CROQUIS-COG-21G-150MM-NEE-6PCS,Croquis,PDO,cog/barbed,PDO cog/barbed,not named,21G,150MM,needle,6,NO - confirm,1,2
+CROQUIS-COG-23G-110MM-NEE-6PCS,Croquis,PDO,cog/barbed,PDO cog/barbed,not named,23G,110MM,needle,6,NO - confirm,1,1
+DEFINISSE-COG-12.6CM-10PCS,Definisse,PDO,cog/barbed,PDO cog/barbed,Relife,,12.6CM,,10,yes,1,2
+DEFINISSE-COG-31.6CM-10PCS,Definisse,PDO,cog/barbed,PDO cog/barbed,Relife,,31.6CM,,10,yes,1,1
+DEFINISSE-COG-5CM-10PCS,Definisse,PDO,cog/barbed,PDO cog/barbed,Relife,,5CM,,10,yes,1,2
+DEFINISSE-COG-5CM-50PCS,Definisse,PDO,cog/barbed,PDO cog/barbed,Relife,,5CM,,50,yes,1,1
+DEFINISSE-COG-9.4CM-3PCS,Definisse,PDO,cog/barbed,PDO cog/barbed,Relife,,9.4CM,,3,yes,2,3
+DEFINISSE-COG-9CM-10PCS,Definisse,PDO,cog/barbed,PDO cog/barbed,Relife,,9CM,,10,yes,1,2
+DEFINISSE-COG-9CM-50PCS,Definisse,PDO,cog/barbed,PDO cog/barbed,Relife,,9CM,,50,yes,1,1
+GENERICPDO-COG-17G-100MM-5PCS,Generic PDO,PDO,cog/barbed,PDO cog/barbed,own brand,17G,100MM,,5,NO - confirm,1,1
+GENERICPDO-COG-18G-100MM-4PCS,Generic PDO,PDO,cog/barbed,PDO cog/barbed,own brand,18G,100MM,,4,NO - confirm,1,1
+GENERICPDO-COG-18G-100MM-5PCS,Generic PDO,PDO,cog/barbed,PDO cog/barbed,own brand,18G,100MM,,5,NO - confirm,1,2
+GENERICPDO-COG-19G-100MM-4PCS,Generic PDO,PDO,cog/barbed,PDO cog/barbed,own brand,19G,100MM,,4,NO - confirm,1,3
+GENERICPDO-COG-19G-100MM-5PCS,Generic PDO,PDO,cog/barbed,PDO cog/barbed,own brand,19G,100MM,,5,NO - confirm,1,2
+GENERICPDO-COG-19G-38MM-5PCS,Generic PDO,PDO,cog/barbed,PDO cog/barbed,own brand,19G,38MM,,5,NO - confirm,1,1
+GENERICPDO-COG-19G-60MM-5PCS,Generic PDO,PDO,cog/barbed,PDO cog/barbed,own brand,19G,60MM,,5,NO - confirm,1,1
+GENERICPDO-COG-21G-100MM-4PCS,Generic PDO,PDO,cog/barbed,PDO cog/barbed,own brand,21G,100MM,,4,NO - confirm,1,2
+GENERICPDO-COG-21G-60MM-4PCS,Generic PDO,PDO,cog/barbed,PDO cog/barbed,own brand,21G,60MM,,4,NO - confirm,1,1
+GENERICPDO-COG-21G-60MM-5PCS,Generic PDO,PDO,cog/barbed,PDO cog/barbed,own brand,21G,60MM,,5,NO - confirm,1,1
+LIFSKIN-COG-18G-100MM-10PCS,LIFSkin,PDO,cog/barbed,PDO cog/barbed,not named,18G,100MM,,10,NO - confirm,1,1
+LIFSKIN-COG-19G-100MM-10PCS,LIFSkin,PDO,cog/barbed,PDO cog/barbed,not named,19G,100MM,,10,NO - confirm,1,1
+LIFSKIN-COG-19G-100MM-CAN-10PCS,LIFSkin,PDO,cog/barbed,PDO cog/barbed,not named,19G,100MM,cannula,10,NO - confirm,1,1
+LIFSKIN-COG-19G-100MM-NEE-10PCS,LIFSkin,PDO,cog/barbed,PDO cog/barbed,not named,19G,100MM,needle,10,NO - confirm,1,1
+LIFSKIN-COG-19G-38MM-10PCS,LIFSkin,PDO,cog/barbed,PDO cog/barbed,not named,19G,38MM,,10,NO - confirm,1,1
+LIFSKIN-COG-19G-50MM-1PCS,LIFSkin,PDO,cog/barbed,PDO cog/barbed,not named,19G,50MM,,1,NO - confirm,1,1
+LIFSKIN-COG-19G-70MM-10PCS,LIFSkin,PDO,cog/barbed,PDO cog/barbed,not named,19G,70MM,,10,NO - confirm,1,1
+LIFSKIN-COG-21G-60MM-10PCS,LIFSkin,PDO,cog/barbed,PDO cog/barbed,not named,21G,60MM,,10,NO - confirm,1,1
+LIFSKIN-COG-21G-90MM-CAN-10PCS,LIFSkin,PDO,cog/barbed,PDO cog/barbed,not named,21G,90MM,cannula,10,NO - confirm,1,1
+LIFSKIN-COG-23G-60MM-CAN-10PCS,LIFSkin,PDO,cog/barbed,PDO cog/barbed,not named,23G,60MM,cannula,10,NO - confirm,1,1
+MDTHREADS-COG-19G-1PCS,MD Threads,PDO,cog/barbed,PDO cog/barbed,not named,19G,,,1,NO - confirm,1,1
+NEOTHREAD-COG-18G-140MM-CAN-20PCS,NEO Thread,PDO,cog/barbed,PDO cog/barbed,not named,18G,140MM,cannula,20,NO - confirm,1,1
+NEOTHREAD-COG-19G-140MM-CAN-20PCS,NEO Thread,PDO,cog/barbed,PDO cog/barbed,not named,19G,140MM,cannula,20,NO - confirm,1,1
+REJUVA-COG-19G-100MM-20PCS,Rejuva,PDO,cog/barbed,PDO cog/barbed,not named,19G,100MM,,20,NO - confirm,1,1
+REJUVA-COG-21G-90MM-20PCS,Rejuva,PDO,cog/barbed,PDO cog/barbed,not named,21G,90MM,,20,NO - confirm,1,1
+REJUVA-COG-23G-90MM-20PCS,Rejuva,PDO,cog/barbed,PDO cog/barbed,not named,23G,90MM,,20,NO - confirm,1,1
+REJUVA-COG-27G-38MM-20PCS,Rejuva,PDO,cog/barbed,PDO cog/barbed,not named,27G,38MM,,20,NO - confirm,1,1
+REJUVA-COG-27G-50MM-20PCS,Rejuva,PDO,cog/barbed,PDO cog/barbed,not named,27G,50MM,,20,NO - confirm,1,1
+REJUVA-COG-27G-60MM-20PCS,Rejuva,PDO,cog/barbed,PDO cog/barbed,not named,27G,60MM,,20,NO - confirm,1,1
+REJUVA-COG-29G-38MM-20PCS,Rejuva,PDO,cog/barbed,PDO cog/barbed,not named,29G,38MM,,20,NO - confirm,1,1
+REJUVA-COG-29G-50MM-20PCS,Rejuva,PDO,cog/barbed,PDO cog/barbed,not named,29G,50MM,,20,NO - confirm,1,1
+REJUVA-COG-30G-38MM-20PCS,Rejuva,PDO,cog/barbed,PDO cog/barbed,not named,30G,38MM,,20,NO - confirm,1,1
+ULTRAV-COG-18G-160MM-CAN-4PCS,Ultra V,PDO,cog/barbed,PDO cog/barbed,Ultra V Line (Korea),18G,160MM,cannula,4,yes,1,1
+ULTRAV-COG-18G-180MM-CAN-4PCS,Ultra V,PDO,cog/barbed,PDO cog/barbed,Ultra V Line (Korea),18G,180MM,cannula,4,yes,1,1
+ULTRAV-COG-21G-80MM-CAN-4PCS,Ultra V,PDO,cog/barbed,PDO cog/barbed,Ultra V Line (Korea),21G,80MM,cannula,4,yes,1,1
+ULTRAV-COG-25G-150MM-10PCS,Ultra V,PDO,cog/barbed,PDO cog/barbed,Ultra V Line (Korea),25G,150MM,,10,yes,1,1
+ULTRAV-COG-25G-80MM-10PCS,Ultra V,PDO,cog/barbed,PDO cog/barbed,Ultra V Line (Korea),25G,80MM,,10,yes,1,2
+ULTRAV-COG-26G-90MM-10PCS,Ultra V,PDO,cog/barbed,PDO cog/barbed,Ultra V Line (Korea),26G,90MM,,10,yes,1,1
+ULTRAV-COG-27G-50MM-10PCS,Ultra V,PDO,cog/barbed,PDO cog/barbed,Ultra V Line (Korea),27G,50MM,,10,yes,1,1
+ULTRAV-COG-29G-30MM-10PCS,Ultra V,PDO,cog/barbed,PDO cog/barbed,Ultra V Line (Korea),29G,30MM,,10,yes,1,1
+ULTRAV-COG-29G-40MM-10PCS,Ultra V,PDO,cog/barbed,PDO cog/barbed,Ultra V Line (Korea),29G,40MM,,10,yes,1,1
+ULTRAV-COG-29G-50MM-10PCS,Ultra V,PDO,cog/barbed,PDO cog/barbed,Ultra V Line (Korea),29G,50MM,,10,yes,1,2
+DEFINISSE-DOUBLE-NEEDLE-12CM-NEE-6PCS,Definisse,PDO,double-needle,PDO double-needle,Relife,,12CM,needle,6,yes,2,3
+DEFINISSE-DOUBLE-NEEDLE-23CM-NEE-6PCS,Definisse,PDO,double-needle,PDO double-needle,Relife,,23CM,needle,6,yes,2,3
+CROMAPRINCESS-MONO-19G-40MM-12PCS,Croma Princess,PDO,mono,PDO mono,Croma,19G,40MM,,12,yes,1,1
+CROMAPRINCESS-MONO-19G-50MM-0PCS,Croma Princess,PDO,mono,PDO mono,Croma,19G,50MM,,0,yes,1,1
+CROMAPRINCESS-MONO-19G-60MM-12PCS,Croma Princess,PDO,mono,PDO mono,Croma,19G,60MM,,12,yes,1,1
+CROMAPRINCESS-MONO-27G-60MM-50PCS,Croma Princess,PDO,mono,PDO mono,Croma,27G,60MM,,50,yes,1,1
+CROMAPRINCESS-MONO-29G-40MM-100PCS,Croma Princess,PDO,mono,PDO mono,Croma,29G,40MM,,100,yes,1,1
+CROMAPRINCESS-MONO-29G-40MM-50PCS,Croma Princess,PDO,mono,PDO mono,Croma,29G,40MM,,50,yes,1,1
+CROMAPRINCESS-MONO-29G-50MM-50PCS,Croma Princess,PDO,mono,PDO mono,Croma,29G,50MM,,50,yes,1,1
+CROMAPRINCESS-MONO-31G-30MM-50PCS,Croma Princess,PDO,mono,PDO mono,Croma,31G,30MM,,50,yes,1,1
+CROQUIS-MONO-27G-90MM-10PCS,Croquis,PDO,mono,PDO mono,not named,27G,90MM,,10,NO - confirm,1,1
+CROQUIS-MONO-29G-50MM-10PCS,Croquis,PDO,mono,PDO mono,not named,29G,50MM,,10,NO - confirm,1,1
+CROQUIS-MONO-30G-30MM-10PCS,Croquis,PDO,mono,PDO mono,not named,30G,30MM,,10,NO - confirm,1,1
+CROQUIS-MONO-30G-50MM-10PCS,Croquis,PDO,mono,PDO mono,not named,30G,50MM,,10,NO - confirm,1,1
+DEFINISSE-MONO-12CM-6PCS,Definisse,PDO,mono,PDO mono,Relife,,12CM,,6,yes,2,3
+DEFINISSE-MONO-23.2CM-6PCS,Definisse,PDO,mono,PDO mono,Relife,,23.2CM,,6,yes,2,3
+DEFINISSE-MONO-5CM-10PCS,Definisse,PDO,mono,PDO mono,Relife,,5CM,,10,yes,1,2
+DEFINISSE-MONO-5CM-50PCS,Definisse,PDO,mono,PDO mono,Relife,,5CM,,50,yes,1,1
+DEFINISSE-MONO-7CM-10PCS,Definisse,PDO,mono,PDO mono,Relife,,7CM,,10,yes,1,2
+DEFINISSE-MONO-7CM-50PCS,Definisse,PDO,mono,PDO mono,Relife,,7CM,,50,yes,1,1
+GENERICPDO-MONO-25G-60MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,25G,60MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-26G-50MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,26G,50MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-26G-60MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,26G,60MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-26G-70MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,26G,70MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-26G-90MM-1PCS,Generic PDO,PDO,mono,PDO mono,own brand,26G,90MM,,1,NO - confirm,1,1
+GENERICPDO-MONO-27G-38MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,27G,38MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-27G-50MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,27G,50MM,,10,NO - confirm,2,2
+GENERICPDO-MONO-27G-50MM-50PCS,Generic PDO,PDO,mono,PDO mono,own brand,27G,50MM,,50,NO - confirm,1,1
+GENERICPDO-MONO-27G-60MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,27G,60MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-27G-70MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,27G,70MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-29G-25MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,29G,25MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-29G-38MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,29G,38MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-29G-38MM-NEE-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,29G,38MM,needle,10,NO - confirm,1,1
+GENERICPDO-MONO-29G-50MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,29G,50MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-29G-60MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,29G,60MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-30G-13MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,30G,13MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-30G-25MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,30G,25MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-30G-38MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,30G,38MM,,10,NO - confirm,1,1
+GENERICPDO-MONO-50MM-10PCS,Generic PDO,PDO,mono,PDO mono,own brand,,50MM,,10,NO - confirm,1,1
+INTRALINE-MONO-26G-70MM-20PCS,Intraline,PDO,mono,PDO mono,Intraline,26G,70MM,,20,yes,1,1
+LIFSKIN-MONO-25G-60MM-20PCS,LIFSkin,PDO,mono,PDO mono,not named,25G,60MM,,20,NO - confirm,1,1
+LIFSKIN-MONO-26G-38MM-20PCS,LIFSkin,PDO,mono,PDO mono,not named,26G,38MM,,20,NO - confirm,1,1
+LIFSKIN-MONO-27G-38MM-20PCS,LIFSkin,PDO,mono,PDO mono,not named,27G,38MM,,20,NO - confirm,1,1
+LIFSKIN-MONO-27G-50MM-20PCS,LIFSkin,PDO,mono,PDO mono,not named,27G,50MM,,20,NO - confirm,1,1
+LIFSKIN-MONO-29G-25MM-20PCS,LIFSkin,PDO,mono,PDO mono,not named,29G,25MM,,20,NO - confirm,1,1
+LIFSKIN-MONO-29G-38MM-20PCS,LIFSkin,PDO,mono,PDO mono,not named,29G,38MM,,20,NO - confirm,1,1
+LIFSKIN-MONO-29G-38MM-CAN-20PCS,LIFSkin,PDO,mono,PDO mono,not named,29G,38MM,cannula,20,NO - confirm,1,1
+LIFSKIN-MONO-29G-50MM-20PCS,LIFSkin,PDO,mono,PDO mono,not named,29G,50MM,,20,NO - confirm,1,1
+LIFSKIN-MONO-30G-25MM-20PCS,LIFSkin,PDO,mono,PDO mono,not named,30G,25MM,,20,NO - confirm,1,1
+LIFSKIN-MONO-30G-38MM-20PCS,LIFSkin,PDO,mono,PDO mono,not named,30G,38MM,,20,NO - confirm,1,1
+MINT-MONO-18G-15CM-4PCS,MINT,PDO,mono,PDO mono,HansBiomed,18G,15CM,,4,yes,1,2
+MINT-MONO-19G-13CM-2PCS,MINT,PDO,mono,PDO mono,HansBiomed,19G,13CM,,2,yes,1,1
+MINT-MONO-19G-14CM-4PCS,MINT,PDO,mono,PDO mono,HansBiomed,19G,14CM,,4,yes,1,1
+MINT-MONO-19G-4CM-4PCS,MINT,PDO,mono,PDO mono,HansBiomed,19G,4CM,,4,yes,1,1
+MINT-MONO-19G-6CM-4PCS,MINT,PDO,mono,PDO mono,HansBiomed,19G,6CM,,4,yes,1,1
+MINT-MONO-19G-9.5CM-4PCS,MINT,PDO,mono,PDO mono,HansBiomed,19G,9.5CM,,4,yes,1,1
+NEOTHREAD-MONO-29G-25PCS,NEO Thread,PDO,mono,PDO mono,not named,29G,,,25,NO - confirm,1,1
+NEOTHREAD-MONO-29G-38MM-1PCS,NEO Thread,PDO,mono,PDO mono,not named,29G,38MM,,1,NO - confirm,1,1
+NEOTHREAD-MONO-30G-25PCS,NEO Thread,PDO,mono,PDO mono,not named,30G,,,25,NO - confirm,1,1
+NEOTHREAD-MONO-30G-38MM-38PCS,NEO Thread,PDO,mono,PDO mono,not named,30G,38MM,,38,NO - confirm,1,1
+REJUVA-MONO-19G-100MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,19G,100MM,,20,NO - confirm,1,1
+REJUVA-MONO-19G-50MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,19G,50MM,,20,NO - confirm,1,1
+REJUVA-MONO-21G-60MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,21G,60MM,,20,NO - confirm,1,1
+REJUVA-MONO-21G-90MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,21G,90MM,,20,NO - confirm,1,1
+REJUVA-MONO-23G-60MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,23G,60MM,,20,NO - confirm,1,1
+REJUVA-MONO-23G-90MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,23G,90MM,,20,NO - confirm,1,1
+REJUVA-MONO-26G-90MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,26G,90MM,,20,NO - confirm,1,1
+REJUVA-MONO-27G-60MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,27G,60MM,,20,NO - confirm,1,1
+REJUVA-MONO-29G-38MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,29G,38MM,,20,NO - confirm,1,1
+REJUVA-MONO-29G-50MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,29G,50MM,,20,NO - confirm,1,1
+REJUVA-MONO-29G-60MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,29G,60MM,,20,NO - confirm,1,1
+REJUVA-MONO-30G-25MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,30G,25MM,,20,NO - confirm,1,1
+REJUVA-MONO-30G-25MM-CAN-20PCS,Rejuva,PDO,mono,PDO mono,not named,30G,25MM,cannula,20,NO - confirm,1,1
+REJUVA-MONO-30G-38MM-20PCS,Rejuva,PDO,mono,PDO mono,not named,30G,38MM,,20,NO - confirm,1,1
+GENERICPDO-MULTI-23G-38MM-5PCS,Generic PDO,PDO,multi,PDO multi,own brand,23G,38MM,,5,NO - confirm,1,1
+LIFSKIN-MULTI-23G-38MM-10PCS,LIFSkin,PDO,multi,PDO multi,not named,23G,38MM,,10,NO - confirm,1,1
+LIFSKIN-MULTI-23G-60MM-10PCS,LIFSkin,PDO,multi,PDO multi,not named,23G,60MM,,10,NO - confirm,1,1
+CROMAPRINCESS-SCREW-26G-60MM-25PCS,Croma Princess,PDO,screw/twist,PDO screw/twist,Croma,26G,60MM,,25,yes,1,1
+CROMAPRINCESS-SCREW-29G-40MM-25PCS,Croma Princess,PDO,screw/twist,PDO screw/twist,Croma,29G,40MM,,25,yes,1,1
+CROQUIS-SCREW-26G-130MM-10PCS,Croquis,PDO,screw/twist,PDO screw/twist,not named,26G,130MM,,10,NO - confirm,1,1
+CROQUIS-SCREW-27G-70MM-10PCS,Croquis,PDO,screw/twist,PDO screw/twist,not named,27G,70MM,,10,NO - confirm,1,1
+CROQUIS-SCREW-29G-70MM-10PCS,Croquis,PDO,screw/twist,PDO screw/twist,not named,29G,70MM,,10,NO - confirm,1,1
+GENERICPDO-SCREW-25G-50MM-10PCS,Generic PDO,PDO,screw/twist,PDO screw/twist,own brand,25G,50MM,,10,NO - confirm,1,1
+GENERICPDO-SCREW-26G-38MM-10PCS,Generic PDO,PDO,screw/twist,PDO screw/twist,own brand,26G,38MM,,10,NO - confirm,1,1
+GENERICPDO-SCREW-26G-50MM-10PCS,Generic PDO,PDO,screw/twist,PDO screw/twist,own brand,26G,50MM,,10,NO - confirm,1,1
+GENERICPDO-SCREW-26G-60MM-10PCS,Generic PDO,PDO,screw/twist,PDO screw/twist,own brand,26G,60MM,,10,NO - confirm,1,1
+GENERICPDO-SCREW-26G-70MM-10PCS,Generic PDO,PDO,screw/twist,PDO screw/twist,own brand,26G,70MM,,10,NO - confirm,1,1
+GENERICPDO-SCREW-27G-38MM-NEE-10PCS,Generic PDO,PDO,screw/twist,PDO screw/twist,own brand,27G,38MM,needle,10,NO - confirm,1,1
+GENERICPDO-SCREW-27G-50MM-10PCS,Generic PDO,PDO,screw/twist,PDO screw/twist,own brand,27G,50MM,,10,NO - confirm,1,2
+GENERICPDO-SCREW-27G-60MM-10PCS,Generic PDO,PDO,screw/twist,PDO screw/twist,own brand,27G,60MM,,10,NO - confirm,1,1
+GENERICPDO-SCREW-29G-38MM-10PCS,Generic PDO,PDO,screw/twist,PDO screw/twist,own brand,29G,38MM,,10,NO - confirm,1,1
+GENERICPDO-SCREW-30G-25MM-10PCS,Generic PDO,PDO,screw/twist,PDO screw/twist,own brand,30G,25MM,,10,NO - confirm,1,1
+LIFSKIN-SCREW-27G-38MM-20PCS,LIFSkin,PDO,screw/twist,PDO screw/twist,not named,27G,38MM,,20,NO - confirm,1,1
+LIFSKIN-SCREW-29G-25MM-20PCS,LIFSkin,PDO,screw/twist,PDO screw/twist,not named,29G,25MM,,20,NO - confirm,1,1
+LIFSKIN-SCREW-29G-38MM-20PCS,LIFSkin,PDO,screw/twist,PDO screw/twist,not named,29G,38MM,,20,NO - confirm,1,1
+LIFSKIN-SCREW-29G-50MM-20PCS,LIFSkin,PDO,screw/twist,PDO screw/twist,not named,29G,50MM,,20,NO - confirm,1,1
+LIFSKIN-SCREW-30G-25MM-20PCS,LIFSkin,PDO,screw/twist,PDO screw/twist,not named,30G,25MM,,20,NO - confirm,1,1
+SPRINGTHREAD-COG-NEE-6PCS,SpringThread,PLLA,cog/barbed,PLLA cog/barbed,Promoitalia,,,needle,6,yes,1,1
+SPRINGTHREAD-COG-NO--6PCS,SpringThread,PLLA,cog/barbed,PLLA cog/barbed,Promoitalia,,,no-needle,6,yes,1,1
+SILHOUETTESOFT-CONE-2PCS,Silhouette Soft,PLLA/PLGA,cone,PLLA/PLGA cone,Sinclair,,,,2,yes,3,8

@@ -96,3 +96,13 @@ if details are missing, ask that supplier, but list the product straight away.
 Recategorised out of fat dissolving: Macom CRYSTALSMOOTH (compression garments -> consumables),
 CelluErase (subcision blades -> devices), Lemon Bottle Skin Booster (-> skin booster), Master Cream (-> skincare).
 Per-vial volume fixed per brand (Aqualyx 8ml, Deso/Lemon Bottle/Lipo Lab 10ml, Inno-TDS 5ml, MesoSculpt 1ml).
+
+## Category 4 - PDO / lifting threads (built 2026-11-19)
+171 codes, 209 listings. Threads match on brand + material (PDO / PLLA / PCL / PLGA) + thread type
+(mono = skin quality, screw/twist = volume, cog/barbed = lifting, cone = suspension) + gauge + length +
+needle/cannula + pack. Equivalence group = material + type. Code = BRAND-TYPE-GAUGE-LENGTH-[NEE/CAN]-PCS.
+Material is stated in the listing name, so it is certain even where the manufacturer is not independently verified.
+Only 7 codes have 2+ suppliers (price-comparable); the rest are single-supplier -> list only (per the list-everything principle).
+Definisse/Silhouette are specified by length (cm) / cones, not gauge; slug-dropped decimals restored (316cm -> 31.6cm).
+Recategorised out of threads: Definisse Core/Touch/Restore Filler -> Dermal filler, HydroBooster -> Skin booster,
+Redensifying Cream / Eye Contour / Neutralizing Buffer / Rinnova Peel -> Skincare.
