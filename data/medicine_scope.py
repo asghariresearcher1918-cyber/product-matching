@@ -101,3 +101,7 @@ TOXIN = [  # accessories listed under toxins (2026-11-18)
 ]
 RULES["Toxin"] = TOXIN
 CATEGORY_DEFAULTS = {"Toxin": ("Botulinum toxin", "keep"), "Beauty (nails, brows, lashes, PMU, makeup)": BEAUTY_DEFAULT}
+
+# Church lists many general medicines without a "Form:" field -> same rules as the three medicine categories (2026-11-18)
+RULES["Medicine (form not stated)"] = [x for x in ORAL + TOPICAL + INJECTABLE if not x[1].startswith("move:")]
+TOXIN.append(("Juvapen injector device", "move:Devices & equipment", r"juvapen"))

@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 RELATED = re.compile(r"you may also like|you might also like|related products|customers also (bought|viewed)|frequently bought|recently viewed|"
-                     r"similar products|view all toxins|bestseller|people also bought|complete the look", re.I)
+                     r"similar products|bestseller|people also bought|complete the look", re.I)
 LABELS = r"size and care info|box contents|pack contents|contents|pack size|size|product options?|quantity|qty|presentation|sku|product code|quickfind code"
 
 
@@ -30,7 +30,7 @@ def page_text(pid):
     for x in s(["script", "style", "noscript", "svg"]): x.decompose()  # not header/nav/footer: some sites wrap the product in them
     t = " ".join(s.get_text(" ", strip=True).split())
     start = 0
-    m = re.search(r"\bdescription\b", t, re.I)  # the product block starts around the first 'Description' tab
+    m = re.search(r"\b(description|product overview|product details)\b", t, re.I)  # the product block starts around the first Description / Overview tab
     if m: start = max(0, m.start() - 1500)
     r = RELATED.search(t, m.end() if m else 0)
     return t[start: r.start() if r else len(t)]

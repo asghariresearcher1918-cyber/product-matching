@@ -1,12 +1,12 @@
 # Are our 24 supplier lists complete? (checked 2026-11-18, public pages only, no login)
 
 Method: each supplier's public sitemap (robots.txt respected, honest user agent, 1 request/second), or the public
-shop listing when there is no sitemap, compared with our input list. New products -> data/products_added.csv (ids N.....).
+shop listing when there is no sitemap, compared with our input list. New products -> data/products_added.csv (ids A.....; the owner file uses R and N).
 
 | Supplier | Our list | Public catalogue | Added | Status |
 |---|---|---|---|---|
 | Church Pharmacy | 2,565 | 3,378 (sitemap) | 1,107 | completed from sitemap |
-| John Bannon | 1,048 | 1,331 (sitemap) | 307 | completed from sitemap |
+| John Bannon | 1,048 | 1,093 products (+262 blog posts in sitemap, ignored) | 45 | completed from sitemap |
 | MedFX | 374 | 732 (sitemap) | 360 | completed from sitemap |
 | MyPharmacyspace | 340 | 386 (sitemap) | 46 | list complete; product details need login |
 | LPG Clinics | 643 | 676 | 42 | completed |
@@ -26,4 +26,4 @@ shop listing when there is no sitemap, compared with our input list. New product
 | DermaFocus | 14 | - | 0 | site drops automated connections - retry later |
 | Refine Pharma | 373 | - | 0 | **owner permission needed** (session permission rule) - robots.txt allows product pages |
 
-Total added: 1,962 products.
+Total added: 1,700 products (262 John Bannon blog posts removed).

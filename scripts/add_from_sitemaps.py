@@ -1,12 +1,12 @@
 """Add products that suppliers list in their public sitemaps but our input list lacks -> data/products_added.csv
-New ids N00001...; title = readable slug until the page is scraped (extract/categorise use the page title). Idempotent.
+New ids A00001... (the owner file already uses R and N); title = readable slug until the page is scraped (extract/categorise use the page title). Idempotent.
 Usage: python -I scripts/add_from_sitemaps.py"""
 import csv, re, urllib.parse, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from inputs import load_rows
-SKIP = re.compile(r"/test-product|/sample|/gift-?card", re.I)
+SKIP = re.compile(r"/test-product|/sample|/gift-?card|/blog[/-]|/news/|/article", re.I)
 norm = lambda u: urllib.parse.urlparse(u).path.rstrip("/").lower()
 
 def main():
@@ -24,7 +24,7 @@ def main():
             if (sup, norm(u)) in have or SKIP.search(u): continue
             have.add((sup, norm(u))); n += 1
             slug = urllib.parse.unquote(urllib.parse.urlparse(u).path.rstrip("/").split("/")[-1]).replace(".html", "")
-            new.append(dict(id=f"N{n:05d}", supplier=sup, title=re.sub(r"[-_]+", " ", slug), url=u, source="supplier public catalogue (sitemap / shop listing)"))
+            new.append(dict(id=f"A{n:05d}", supplier=sup, title=re.sub(r"[-_]+", " ", slug), url=u, source="supplier public catalogue (sitemap / shop listing)"))
     with open(p, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=["id", "supplier", "title", "url", "source"]); w.writeheader(); w.writerows(old + new)
     import collections

@@ -36,7 +36,7 @@ def code(brand, units, n, mkt=""):
     return f"{brand.upper()}-{units}U-{n}X" + (f"-{mkt}" if mkt else "")
 
 
-PACKS = [(r"\b10\s*x\s*1\.5|\bx\s*10\b|10 vials", 10), (r"\b6\s*x\b|\bx\s*6\b|6 vials", 6), (r"\b3\s*x\b|\bx\s*3\b|3 vials", 3),
+PACKS = [(r"\b10\s*x\s*1\.5|\bx\s*10\b|10 vials|pack of 10", 10), (r"\b6\s*x\b|\bx\s*6\b|6 vials", 6), (r"\b3\s*x\b|\bx\s*3\b|3 vials", 3),
          (r"\b2\s*x\b|\bx\s*2\b|\bdual\b|\btwin\b|\bdouble\b|2 vials|\(2 x|vials x2|box of 2|\bx2\b", 2),
          (r"\bsingle\b|\b1\s*x\b|\bx\s*1\b|1 vial", 1)]
 

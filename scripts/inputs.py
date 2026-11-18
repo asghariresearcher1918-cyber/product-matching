@@ -9,4 +9,6 @@ def load_rows():
     add = ROOT / "data" / "products_added.csv"
     if add.exists():
         rows += [{k: r[k] for k in ("id", "supplier", "title", "url")} for r in csv.DictReader(open(add, encoding="utf-8"))]
+    ids = [r["id"] for r in rows]
+    assert len(ids) == len(set(ids)), "duplicate listing ids: " + ", ".join(sorted({i for i in ids if ids.count(i) > 1})[:10])
     return rows
