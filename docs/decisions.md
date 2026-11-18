@@ -47,3 +47,13 @@ Corrections vs the draft: Alluzience vial = 125 Speywood units in 0.625 mL (200 
 Relfydess vial = 150 units in 1.5 mL. Xeomin added (therapeutic licence; 1 listing).
 Pack not stated on the page -> 1 vial assumed (smallest official pack), confidence medium.
 Equivalence groups by molecule: abobotulinumtoxinA (Azzalure, Alluzience, Dysport), incobotulinumtoxinA (Bocouture, Xeomin).
+
+## How a product page is read (owner rules, 2026-11-18 - all categories)
+1. Read every tab of the page, not only the description: Additional information, Size and Care Info (John Bannon),
+   Box contents / Contents (Dr Adams, Smile), Size (Church), Product options (ACRE), Product details / SKU (Ask).
+2. If still not found, read the text on the product images (OCR; e.g. Moda box photos say "1 vial").
+3. Only when nothing is found anywhere, use the category default (toxins: 1 vial).
+Related-product blocks ("You may also like", "Bestseller") are cut off so other products' text never counts.
+Implemented in scripts/page_facts.py. Known gaps: Aesthetic Pharma product links redirect to the shop listing,
+MyPharmacyspace needs a login to show the product, Refine Pharma refuses automated access.
+Supplier text errors are flagged, e.g. Smile Pharma's Botox 100 and 200 pages say "Box contains 1 x BOTOX 50IU vial".

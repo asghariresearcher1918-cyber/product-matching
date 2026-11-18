@@ -2,9 +2,11 @@
 Deterministic rules (no AI): brand -> fixed content per vial from the SmPC; pack count from the title/page; pack not stated -> 1 vial (flagged).
 Outputs: catalogue/final/toxin_products.csv, catalogue/final/toxin_listing_map.csv, output/category_01_toxin.xlsx
 Usage: python -I scripts/toxin_catalogue.py"""
-import collections, csv, json, re
+import collections, csv, json, re, sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from openpyxl import Workbook
+from page_facts import page_text, labelled_fields, image_text
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
@@ -39,11 +41,39 @@ PACKS = [(r"\b10\s*x\s*1\.5|\bx\s*10\b|10 vials", 10), (r"\b6\s*x\b|\bx\s*6\b|6 
          (r"\bsingle\b|\b1\s*x\b|\bx\s*1\b|1 vial", 1)]
 
 
-def pack_count(title, page):
-    for src, txt in (("title", title), ("product page", page)):
-        for rx, n in PACKS:
-            if re.search(rx, txt): return n, f"pack from {src}"
-    return 1, "pack not stated - assumed 1 vial (smallest official pack)"
+WORD = {"one": 1, "single": 1, "two": 2, "twin": 2, "dual": 2, "double": 2}
+PAGE_PACK = [  # explicit statements only - SmPC text copied onto pages ("pack size of 1 or 2 vials") must not count
+    r"box contains (\d{1,2})\s*x", r"\b(\d{1,2})\s*x\s*\d{2,3}\s*(?:u|iu|units?)\b", r"\b(\d{1,2})\s*vials?\s*x\s*\d", r"\b(\d{1,2})\s*x\s*1\.5\s*ml",
+    r"\b(single|one|twin|dual|double)[- ](?:vial|pack)(?!\s+contains)", r"\(\s*(single) vial\s*\)", r"contents:?\s*(\d{1,2})\s*vials?\b"]
+
+
+def _n(g):
+    return WORD.get(g.lower(), None) if not g.isdigit() else int(g)
+
+
+def pack_count(title, pid, brand=None, units=None):
+    """Owner rule: title -> every tab of the page -> text on the product image -> default 1 vial."""
+    for rx, n in PACKS:
+        if re.search(rx, title): return n, "pack from title", "title"
+    txt = page_text(pid).lower()
+    f = labelled_fields(txt)
+    for k in ("size and care info", "box contents", "pack contents", "contents", "pack size", "size", "product options", "product option"):
+        v = f.get(k, "")
+        m = re.match(r"(\d{1,2})\s*(?:x|vials?)\b", v) or re.match(r"(single|one|twin|dual)\b", v)
+        if m: return _n(m.group(1)), f"pack from page tab '{k}': {v[:30]}", "page"
+    others = [rx for b, rx in BRAND_RX if b != brand]
+    for rx in PAGE_PACK:
+        for m in re.finditer(rx, txt):
+            win = txt[max(0, m.start() - 40): m.end() + 20]
+            if not _n(m.group(1)) or any(o.search(win) for o in others): continue  # another product's text (related items)
+            note = ""
+            if units and re.search(r"(\d{2,3})\s*(?:iu|u\b|units?)", win) and str(units) not in win:
+                note = f" - WARNING: page text says '{re.search(r'(\d{2,3})\s*(?:iu|u\b|units?)', win).group(0)}', title says {units}"
+            return _n(m.group(1)), f"pack from page text: '{txt[max(0, m.start() - 15): m.end() + 10]}'{note}", "page"
+    o = image_text(pid).lower()
+    m = re.search(r"\b(\d{1,2})\s*vials?\b", o) or re.search(r"\b(\d{1,2})\s*x\s*\d{2,3}\s*(?:u|iu|units?)\b", o)
+    if m: return int(m.group(1)), f"pack from product image: '{o[max(0, m.start() - 10): m.end() + 5]}'", "image"
+    return 1, "nothing on title, page tabs or image - 1 vial (owner rule)", "default"
 
 
 def market(t):
@@ -76,13 +106,13 @@ def main():
         if np_ or not b:
             maps.append(dict(r, code="", brand=b or "", decision=np_ or "no brand found - review", confidence="review")); continue
         u, why_u = strength(b, t)
-        n, why_n = pack_count(title, page)
+        n, why_n, how = pack_count(title, r["id"], b, u)
         mk = market(title)
         if "split pack" in title: why_n += " (split pack: single vial from a multi-vial box)"
         if mk: why_n += f"; market variant {mk} (Ireland pack)"
         if u is None:
             maps.append(dict(r, code="", brand=b, decision=why_u + " - review", confidence="review")); continue
-        conf = "medium" if ("assumed" in why_n or "product page" in why_n) else "high"
+        conf = "medium" if how == "default" else "high"
         maps.append(dict(r, code=code(b, u, n, mk), brand=b, decision=f"{why_u}; {why_n}", confidence=conf))
 
     # products: every official strength (1-vial pack at least) + every pack seen in the market

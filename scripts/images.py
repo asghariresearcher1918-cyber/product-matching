@@ -1,18 +1,35 @@
 """Download each page's main product image (polite, cached, never overwritten) and build
 labelled contact sheets for visual checking (rule 10).
-Usage: python -I scripts/images.py [--sheet-ids FILE]"""
+Usage: python -I scripts/images.py [--ids FILE] [--no-sheets]"""
 import json, re, sys, time, urllib.parse
 from pathlib import Path
 import httpx
 ROOT = Path(__file__).resolve().parent.parent
 UA = "Mozilla/5.0 (compatible; product-catalogue-research/1.0)"
 def slug(s): return re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
+def html_image(p):
+    """Fallback when the extractor found no image: og:image, then a product image in the cached page."""
+    d = ROOT / "cache" / slug(p["supplier"])
+    for f in (d / f"{p['id']}.rendered.html", d / f"{p['id']}.html"):
+        if not f.exists(): continue
+        h = f.read_text(errors="ignore")
+        m = re.search(r'property="og:image"\s+content="([^"]+)"|content="([^"]+)"\s+property="og:image"', h)
+        if m: return m.group(1) or m.group(2)
+        for src in re.findall(r'<img[^>]+src="([^"]+)"', h):
+            if re.search(r"product-images/main|/products/product-image/|/uploads/.*\.(jpe?g|png|webp)|/products/.*\.(jpe?g|png|webp)", src, re.I) and not re.search(r"logo|icon|badge|payment", src, re.I):
+                return src.replace("&amp;", "&")
+    return ""
+
+
 def main():
     c = httpx.Client(headers={"User-Agent": UA}, follow_redirects=True, timeout=30)
     last = {}
     pages = [json.loads(l) for l in open(ROOT / "pages.jsonl", encoding="utf-8")]
+    if "--ids" in sys.argv:
+        want = set(open(sys.argv[sys.argv.index("--ids") + 1]).read().split())
+        pages = [p for p in pages if p["id"] in want]
     for p in pages:
-        u = p.get("image_url") or ""
+        u = p.get("image_url") or html_image(p)
         if not u: continue
         u = urllib.parse.urljoin(p["final_url"], u).replace("http://", "https://", 1)
         d = ROOT / "cache" / slug(p["supplier"])
