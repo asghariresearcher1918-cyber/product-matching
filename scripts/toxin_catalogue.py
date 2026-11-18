@@ -112,7 +112,13 @@ def main():
         if mk: why_n += f"; market variant {mk} (Ireland pack)"
         if u is None:
             maps.append(dict(r, code="", brand=b, decision=why_u + " - review", confidence="review")); continue
-        conf = "medium" if how == "default" else "high"
+        if how != "default": conf = "high"
+        else:
+            txt = page_text(r["id"]).lower()
+            readable = r["page_status"] == "read" and len(txt) > 300 and "can only be viewed once your account" not in txt
+            conf = "rule" if readable else "supplier to confirm"
+            why_n = ("page fully read, pack not stated anywhere - 1 vial (owner rule, confirmed 2026-11-18)" if readable
+                     else "no readable product page (link redirects / login / site refuses access) - 1 vial assumed, ask the supplier")
         maps.append(dict(r, code=code(b, u, n, mk), brand=b, decision=f"{why_u}; {why_n}", confidence=conf))
 
     # products: every official strength (1-vial pack at least) + every pack seen in the market
@@ -163,7 +169,8 @@ def main():
     cnt = collections.Counter(m["confidence"] for m in maps)
     for t, b in [("Category 1 - Botulinum toxins: final catalogue", True),
                  (f"{len(prods)} product codes from the official UK SmPCs (emc) for 9 brands. {len(maps)} supplier listings: "
-                  f"high {cnt['high']}, medium {cnt['medium']} (pack not stated, 1 vial assumed), review {cnt['review']}.", False),
+                  f"high {cnt['high']} (pack found on title, page tabs or image) | rule {cnt['rule']} (page fully read, nothing stated - 1 vial, owner rule) | "
+                  f"supplier to confirm {cnt['supplier to confirm']} (no readable page) | review {cnt['review']}.", False),
                  ("Code = BRAND-UNITS PER VIAL-VIALS PER PACK, e.g. AZZALURE-125U-2X. Units are not interchangeable between brands (Allergan vs Speywood units),", False),
                  ("so price per unit is compared only within the same brand; brands with the same molecule share an equivalence group (shown together in search).", False),
                  ("Sheets: Products (the catalogue) | Listings (each supplier listing -> code) | Review (listings without a code) | Not stocked (official packs no supplier lists).", False),
@@ -181,7 +188,7 @@ def main():
     head(ls, ["Code", "Supplier", "Listing (link)", "Confidence", "How decided", "OK?"], [24, 20, 60, 11, 46, 8])
     for m in sorted([m for m in maps if m["code"]], key=lambda m: (m["code"], m["supplier"])):
         ls.append([m["code"], m["supplier"], m["title"], m["confidence"], m["decision"], ""]); fmt(ls); link(ls, 3, m["url"])
-        ls.cell(row=ls.max_row, column=4).fill = PatternFill("solid", fgColor={"high": "C6EFCE", "medium": "FFF2CC"}[m["confidence"]])
+        ls.cell(row=ls.max_row, column=4).fill = PatternFill("solid", fgColor={"high": "C6EFCE", "rule": "DDEBF7", "supplier to confirm": "FFF2CC"}[m["confidence"]])
     ls.auto_filter.ref = f"A1:F{ls.max_row}"
     rv = wb.create_sheet("Review")
     head(rv, ["Supplier", "Listing (link)", "Brand", "Why no code"], [20, 60, 12, 50])
