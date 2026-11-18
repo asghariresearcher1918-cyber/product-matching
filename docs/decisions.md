@@ -76,3 +76,12 @@ Code = BRAND-[VARIANT]-STRENGTH-[LIDO]-PACK. Fixed strength per brand used where
 presentation (Sculptra 367.5mg, Ecolla/aesPLLA/StiCol 365mg, PLLACELL/PiNkLLA/Linerase 100mg, Julaine 150mg,
 AestheFill/Lenisna 200mg). HArmonyCa normalised to its only UK pack (2 x 1.25ml + lidocaine).
 Linerase Hydro separated out (HA booster, not a collagen stimulator). 9 multi-buy bundles left uncoded.
+
+## Principle: list everything, compare where possible (agreed 2026-11-19)
+Goal is a one-stop shop - the buyer should find every clinic need on our site and not go elsewhere.
+- Product from several suppliers  -> Compare mode (one code, each supplier's price side by side, per unit).
+- Product from a single supplier   -> List / Browse mode (no price comparison; findable and buyable).
+- Product with incomplete data (e.g. Doublyx Evo, Elysiha - Dr Adams only) -> still listed; ask the supplier
+  for the missing details later, but missing data never blocks listing.
+Future suppliers / after login: when we find a product in a category that is not yet on our list, add it;
+if details are missing, ask that supplier, but list the product straight away.
