@@ -57,3 +57,9 @@ Related-product blocks ("You may also like", "Bestseller") are cut off so other 
 Implemented in scripts/page_facts.py. Known gaps: Aesthetic Pharma product links redirect to the shop listing,
 MyPharmacyspace needs a login to show the product, Refine Pharma refuses automated access.
 Supplier text errors are flagged, e.g. Smile Pharma's Botox 100 and 200 pages say "Box contains 1 x BOTOX 50IU vial".
+
+## Suppliers on hold (2026-11-18)
+Refine Pharma (369 phase-1 listings) and DermaFocus (14) refuse connections from this cloud environment
+(their sites load in a normal browser but drop our server). Both tested repeatedly. Kept in the data with
+scope "On hold - supplier not connected"; excluded from phase 1 and from price comparison until we connect to
+them via a product feed or an authorised login. No circumvention of their anti-bot protection was attempted.

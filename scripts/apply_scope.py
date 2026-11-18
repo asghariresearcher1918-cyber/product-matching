@@ -15,6 +15,10 @@ CATEGORY_SCOPE = {
 }
 ACTION = {"keep": "Phase 1", "phase2": "Phase 2 - later", "remove": "Removed - general pharmacy", "salon": "Later phase - nail & facial salons"}
 REMOVED_LABEL = {"Not a product": "Removed - not a product"}
+# Suppliers whose site refuses connections from this environment (loads in a browser, not from our server).
+# Kept in the data but out of phase 1 until we connect to them (their feed, or a login) - decided 2026-11-18.
+ON_HOLD = {"Refine Pharma": "site blocks our server - reconnect later via feed/login",
+           "DermaFocus": "site blocks our server - reconnect later via feed/login"}
 
 def main():
     p = ROOT / "output/all_products_categorised.csv"
@@ -33,6 +37,8 @@ def main():
                 r["scope"] = CATEGORY_SCOPE[r["category"]]
         else:
             r["scope"], r["scope_group"] = CATEGORY_SCOPE.get(cat, "Phase 1"), ""
+        if r["supplier"] in ON_HOLD and not r["scope"].startswith("Removed"):
+            r["scope"], r["scope_group"] = "On hold - supplier not connected", ON_HOLD[r["supplier"]]
     cols = [c for c in rows[0].keys() if c not in ("category_auto", "scope", "scope_group")] + ["category_auto", "scope", "scope_group"]
     with open(p, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(rows)
