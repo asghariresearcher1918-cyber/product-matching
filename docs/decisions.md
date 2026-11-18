@@ -85,3 +85,14 @@ Goal is a one-stop shop - the buyer should find every clinic need on our site an
   for the missing details later, but missing data never blocks listing.
 Future suppliers / after login: when we find a product in a category that is not yet on our list, add it;
 if details are missing, ask that supplier, but list the product straight away.
+
+## Category 3 - Fat dissolving / lipolytics (built 2026-11-19)
+33 codes. No central UK register. Active agent verified against sources and used as the equivalence group:
+- Deoxycholic acid: Aqualyx (Marllor), DesoFace 0.5% / DesoBody 1.25% (Love Cosmedical), Kabelline, Cincelar
+- PPC (phosphatidylcholine + deoxycholate): Lipo Lab (V-Line = face), Dr. Lipo, Inno-TDS Draining PPC, BCN Adipo Forte, Myfiller
+- Lecithin/riboflavin 'bottle' type: Lemon Bottle (riboflavin+lecithin+bromelain, no MHRA/CE), The Skinny Bottle, Pine Bottle
+- Mesotherapy lipolytic: Mesoestetic C.Prof 221, MesoSculpt C71
+- Anti-cellulite / lipodystrophy (NOT a fat dissolver, own group): Alidya (Marllor)
+Recategorised out of fat dissolving: Macom CRYSTALSMOOTH (compression garments -> consumables),
+CelluErase (subcision blades -> devices), Lemon Bottle Skin Booster (-> skin booster), Master Cream (-> skincare).
+Per-vial volume fixed per brand (Aqualyx 8ml, Deso/Lemon Bottle/Lipo Lab 10ml, Inno-TDS 5ml, MesoSculpt 1ml).

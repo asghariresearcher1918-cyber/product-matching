@@ -1,0 +1,34 @@
+code,brand,variant,active_agent,equivalence_group,manufacturer,volume_ml,vials_per_pack,agent_verified,suppliers,listings,note
+AQUALYX-8ML-10X,Aqualyx,,DCA,Deoxycholic acid (sodium deoxycholate),Marllor Biomedical (Italy),8,10,yes,12,12,modified deoxycholic acid sodium salt; 8 ml vials (verified: DCA)
+AQUALYX-8ML-1X,Aqualyx,,DCA,Deoxycholic acid (sodium deoxycholate),Marllor Biomedical (Italy),8,1,yes,7,7,modified deoxycholic acid sodium salt; 8 ml vials (verified: DCA)
+AQUALYX-8ML-5X,Aqualyx,,DCA,Deoxycholic acid (sodium deoxycholate),Marllor Biomedical (Italy),8,5,yes,1,1,modified deoxycholic acid sodium salt; 8 ml vials (verified: DCA)
+AQUALYX-8ML-8X,Aqualyx,,DCA,Deoxycholic acid (sodium deoxycholate),Marllor Biomedical (Italy),8,8,yes,1,1,modified deoxycholic acid sodium salt; 8 ml vials (verified: DCA)
+CINCELAR-8ML-5X,Cincelar,,DCA,Deoxycholic acid (sodium deoxycholate),not named,8,5,NO - confirm,1,1,deoxycholate + carnitine per page
+DESOBODY-10ML-1X,DesoBody,,DCA,Deoxycholic acid (sodium deoxycholate),Love Cosmedical (Italy),10,1,yes,2,2,sodium deoxycholate 1.25% - body (verified)
+DESOBODY-10ML-5X,DesoBody,,DCA,Deoxycholic acid (sodium deoxycholate),Love Cosmedical (Italy),10,5,yes,6,6,sodium deoxycholate 1.25% - body (verified)
+DESOFACE-10ML-1X,DesoFace,,DCA,Deoxycholic acid (sodium deoxycholate),Love Cosmedical (Italy),10,1,yes,3,4,sodium deoxycholate 0.5% - face (verified)
+DESOFACE-10ML-5X,DesoFace,,DCA,Deoxycholic acid (sodium deoxycholate),Love Cosmedical (Italy),10,5,yes,6,6,sodium deoxycholate 0.5% - face (verified)
+KABELLINE-8ML-5X,Kabelline,,DCA,Deoxycholic acid (sodium deoxycholate),Korea,8,5,yes,1,1,deoxycholate + L-carnitine (verified: DCA-based)
+BCNADIPOFORTE-10ML-5X,BCN Adipo Forte,,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),Institute BCN (Spain),10,5,yes,1,1,PPC mesotherapy lipolytic (verified: PPC-based)
+DRLIPO-BODY-10ML-10X,Dr. Lipo,BODY,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),not named,10,10,NO - confirm,1,1,PPC + carnitine cocktail per page; Body / V-Line (face)
+DRLIPO-BODY-10ML-1X,Dr. Lipo,BODY,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),not named,10,1,NO - confirm,3,4,PPC + carnitine cocktail per page; Body / V-Line (face)
+DRLIPO-VFACE-5ML-10X,Dr. Lipo,VFACE,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),not named,5,10,NO - confirm,2,2,PPC + carnitine cocktail per page; Body / V-Line (face)
+DRLIPO-VFACE-5ML-1X,Dr. Lipo,VFACE,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),not named,5,1,NO - confirm,3,3,PPC + carnitine cocktail per page; Body / V-Line (face)
+INNOTDSDRAININGPPC-5ML-1X,Inno-TDS Draining PPC,,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),Innoaesthetics,5,1,yes,1,1,phosphatidylcholine draining solution (verified: PPC)
+INNOTDSDRAININGPPC-5ML-4X,Inno-TDS Draining PPC,,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),Innoaesthetics,5,4,yes,1,1,phosphatidylcholine draining solution (verified: PPC)
+LIPOLAB-10ML-10X,Lipo Lab,,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),CSBIO (Korea),10,10,yes,5,5,phosphatidylcholine + sodium deoxycholate; V-Line = face (verified: PPC+DCA)
+LIPOLAB-10ML-1X,Lipo Lab,,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),CSBIO (Korea),10,1,yes,2,3,phosphatidylcholine + sodium deoxycholate; V-Line = face (verified: PPC+DCA)
+LIPOLAB-10ML-5X,Lipo Lab,,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),CSBIO (Korea),10,5,yes,2,2,phosphatidylcholine + sodium deoxycholate; V-Line = face (verified: PPC+DCA)
+LIPOLAB-VLINE-10ML-1X,Lipo Lab,VLINE,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),CSBIO (Korea),10,1,yes,1,1,phosphatidylcholine + sodium deoxycholate; V-Line = face (verified: PPC+DCA)
+LIPOLAB-VLINE-10ML-5X,Lipo Lab,VLINE,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),CSBIO (Korea),10,5,yes,2,2,phosphatidylcholine + sodium deoxycholate; V-Line = face (verified: PPC+DCA)
+MYFILLERREVITALIZESLIM-10ML-1X,Myfiller Revitalize Slim,,PPC+DCA,Phosphatidylcholine + deoxycholate (PPC),not named,10,1,NO - confirm,1,1,PPC + deoxycholate + carnitine per page
+ALIDYA-10ML-5X,Alidya,,anticellulite,Anti-cellulite / lipodystrophy (not a fat dissolver),Marllor Biomedical (Italy),10,5,yes,6,6,buffered amino-acid solution for lipodystrophy / cellulite - NOT a fat dissolver (verified)
+LEMONBOTTLE-10ML-10X,Lemon Bottle,,lecithin,Lecithin / riboflavin cocktail ('bottle' type),SID/SIF Medicos (Korea),10,10,yes,1,1,riboflavin + lecithin + bromelain; no MHRA/CE (verified: lecithin/riboflavin)
+LEMONBOTTLE-10ML-1X,Lemon Bottle,,lecithin,Lecithin / riboflavin cocktail ('bottle' type),SID/SIF Medicos (Korea),10,1,yes,8,10,riboflavin + lecithin + bromelain; no MHRA/CE (verified: lecithin/riboflavin)
+LEMONBOTTLE-10ML-5X,Lemon Bottle,,lecithin,Lecithin / riboflavin cocktail ('bottle' type),SID/SIF Medicos (Korea),10,5,yes,7,7,riboflavin + lecithin + bromelain; no MHRA/CE (verified: lecithin/riboflavin)
+LEMONBOTTLE-10ML-6X,Lemon Bottle,,lecithin,Lecithin / riboflavin cocktail ('bottle' type),SID/SIF Medicos (Korea),10,6,yes,1,1,riboflavin + lecithin + bromelain; no MHRA/CE (verified: lecithin/riboflavin)
+PINEBOTTLE-10ML-5X,Pine Bottle,,lecithin,Lecithin / riboflavin cocktail ('bottle' type),not named,10,5,NO - confirm,2,2,riboflavin/lecithin type per page
+THESKINNYBOTTLE-10ML-1X,The Skinny Bottle,,lecithin,Lecithin / riboflavin cocktail ('bottle' type),not named,10,1,NO - confirm,2,2,riboflavin/lecithin type per page
+THESKINNYBOTTLE-10ML-5X,The Skinny Bottle,,lecithin,Lecithin / riboflavin cocktail ('bottle' type),not named,10,5,NO - confirm,3,3,riboflavin/lecithin type per page
+MESOSCULPTC71-1ML-1X,MesoSculpt C71,,meso,Mesotherapy lipolytic cocktail,MCCM,1,1,NO - confirm,1,1,"mesotherapy lipolytic, 1 ml per page"
+MESOESTETICCPROF221-10ML-5X,Mesoestetic C.Prof 221,,meso,Mesotherapy lipolytic cocktail,mesoestetic (Spain),10,5,yes,1,1,lipolytic mesotherapy solution (verified brand)
