@@ -63,3 +63,16 @@ Refine Pharma (369 phase-1 listings) and DermaFocus (14) refuse connections from
 (their sites load in a normal browser but drop our server). Both tested repeatedly. Kept in the data with
 scope "On hold - supplier not connected"; excluded from phase 1 and from price comparison until we connect to
 them via a product feed or an authorised login. No circumvention of their anti-bot protection was attempted.
+
+## Category 2 - Biostimulators (built 2026-11-18, awaiting owner check)
+35 product codes. Biostimulators are CE-marked devices - no central UK register like emc, so the reference
+(scripts/biostim_catalogue.py) gives each brand's active agent, manufacturer and standard pack, with a
+'verified' flag: major brands (Radiesse, Sculptra, Lanluma, Ellanse, HArmonyCa, Gouri, Juvelook, Lenisna,
+AestheFill) verified; niche brands (aesPLLA, Ecolla, PLLACELL, Julaine, StiCol, Olidia, iLLUMA, PiNkLLA,
+Linerase, Novuma, Neauvia Stimulate) marked 'agent to confirm'. Doublyx Evo and Elysiha (Dr Adams only):
+agent not stated anywhere reachable -> 'Unconfirmed - ask the supplier'.
+Equivalence groups by active agent: PLLA, PDLLA(+HA), CaHA, CaHA+HA hybrid, PCL, collagen.
+Code = BRAND-[VARIANT]-STRENGTH-[LIDO]-PACK. Fixed strength per brand used where the brand has one standard
+presentation (Sculptra 367.5mg, Ecolla/aesPLLA/StiCol 365mg, PLLACELL/PiNkLLA/Linerase 100mg, Julaine 150mg,
+AestheFill/Lenisna 200mg). HArmonyCa normalised to its only UK pack (2 x 1.25ml + lidocaine).
+Linerase Hydro separated out (HA booster, not a collagen stimulator). 9 multi-buy bundles left uncoded.
