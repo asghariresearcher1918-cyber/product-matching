@@ -1,0 +1,57 @@
+brand,product_name,pack,lidocaine,default,aliases,source
+Teosyal,Teosyal RHA 1,2 x 1ml,no,,rha 1|rha1|rha one,https://www.teoxane.com
+Teosyal,Teosyal RHA 2,2 x 1ml,no,,rha 2|rha2|rha two,https://www.teoxane.com
+Teosyal,Teosyal RHA 3,2 x 1ml,no,,rha 3|rha3|rha three,https://www.teoxane.com
+Teosyal,Teosyal RHA 4,2 x 1ml,no,,rha 4|rha4|rha four,https://www.teoxane.com
+Teosyal,Teosyal RHA Kiss,2 x 0.7ml,no,,rha kiss,https://www.teoxane.com
+Teosyal,Teosyal PureSense Redensity I,2 x 1ml,yes,,redensity 1|redensity i |redensity i(|redensity1|redensity one|redensity mesotherapy,https://www.teoxane.com
+Teosyal,Teosyal PureSense Redensity II,2 x 1ml,yes,,redensity 2|redensity ii|redensity2|redensity two,https://www.teoxane.com
+Teosyal,Teosyal PureSense Ultra Deep,2 x 1.2ml,yes,,ultra deep|ultradeep|ultra-deep,https://www.teoxane.com
+Teosyal,Teosyal PureSense Deep Lines,2 x 1ml,yes,,deep lines|deeplines,https://www.teoxane.com
+Teosyal,Teosyal PureSense Global Action,2 x 1ml,yes,,global action,https://www.teoxane.com
+Teosyal,Teosyal PureSense Kiss,2 x 1ml,yes,,puresense kiss|pure sense kiss| kiss,https://www.teoxane.com
+Teosyal,Teosyal First Lines / Touch Up,2 x 1ml,yes,,first lines|touch up|touchup,https://www.teoxane.com
+Teosyal,Teosyal (unspecified),2 x 1ml,detect,yes,,https://www.teoxane.com
+Juvederm,Juvederm Ultra 2,2 x 0.55ml,yes,,ultra 2|ultra2|ultra smile,https://www.juvederm.co.uk
+Juvederm,Juvederm Ultra 3,2 x 1ml,yes,,ultra 3|ultra3,https://www.juvederm.co.uk
+Juvederm,Juvederm Ultra 4,2 x 1ml,yes,,ultra 4|ultra4,https://www.juvederm.co.uk
+Juvederm,Juvederm Volbella,2 x 1ml,yes,,volbella,https://www.juvederm.co.uk
+Juvederm,Juvederm Volift Retouch,2 x 0.55ml,yes,,volift retouch|retouch,https://www.juvederm.co.uk
+Juvederm,Juvederm Volift,2 x 1ml,yes,,volift,https://www.juvederm.co.uk
+Juvederm,Juvederm Voluma,2 x 1ml,yes,,voluma,https://www.juvederm.co.uk
+Juvederm,Juvederm Volux,2 x 1ml,yes,,volux,https://www.juvederm.co.uk
+Juvederm,Juvederm Volite,2 x 1ml,yes,,volite,https://www.juvederm.co.uk
+Juvederm,Juvederm Skinvive,2 x 1ml,yes,,skinvive,https://www.juvederm.co.uk
+Juvederm,Juvederm (unspecified),2 x 1ml,yes,yes,,https://www.juvederm.co.uk
+Stylage,Stylage HydroMax,1 x 1ml,detect,,hydromax|hydro max,https://www.vivacy.com
+Stylage,Stylage Hydro,1 x 1ml,detect,,stylage hydro|hydro ,https://www.vivacy.com
+Stylage,Stylage Special Lips,1 x 1ml,yes,,special lips|lips plus|bi-soft lips|bi soft lips,https://www.vivacy.com
+Stylage,Stylage XXL,2 x 1ml,yes,,xxl,https://www.vivacy.com
+Stylage,Stylage XL,2 x 1ml,yes,,xl,https://www.vivacy.com
+Stylage,Stylage L,2 x 1ml,yes,,stylage l|bi-soft l|bi soft l|bi-flex l| l (| l(,https://www.vivacy.com
+Stylage,Stylage M,2 x 1ml,yes,,stylage m|bi-soft m|bi soft m|bi-flex m| m (| m(,https://www.vivacy.com
+Stylage,Stylage S,2 x 0.8ml,yes,,stylage s|bi-soft s|bi soft s|bi-flex s| s (| s(,https://www.vivacy.com
+Stylage,Stylage (unspecified),2 x 1ml,detect,detect,,https://www.vivacy.com
+Restylane,Restylane Kysse,1 x 1ml,yes,,kysse,https://www.restylane.co.uk
+Restylane,Restylane Lyft,1 x 1ml,detect,,lyft|perlane,https://www.restylane.co.uk
+Restylane,Restylane Defyne,1 x 1ml,yes,,defyne,https://www.restylane.co.uk
+Restylane,Restylane Refyne,1 x 1ml,yes,,refyne,https://www.restylane.co.uk
+Restylane,Restylane Volyme,1 x 1ml,yes,,volyme,https://www.restylane.co.uk
+Restylane,Restylane Eyelight,1 x 0.5ml,yes,,eyelight,https://www.restylane.co.uk
+Restylane,Restylane Skinboosters Vital Light,1 x 1ml,detect,,vital light,https://www.restylane.co.uk
+Restylane,Restylane Skinboosters Vital,1 x 1ml,detect,,vital,https://www.restylane.co.uk
+Restylane,Restylane Lip Volume,1 x 1ml,yes,,lip volume,https://www.restylane.co.uk
+Restylane,Restylane (original),1 x 1ml,detect,detect,,https://www.restylane.co.uk
+Belotero,Belotero Volume,2 x 1ml,detect,,volume,https://merz-aesthetics.co.uk/belotero/
+Belotero,Belotero Intense,1 x 1ml,detect,,intense,https://merz-aesthetics.co.uk/belotero/
+Belotero,Belotero Balance,1 x 1ml,detect,,balance,https://merz-aesthetics.co.uk/belotero/
+Belotero,Belotero Soft,1 x 1ml,detect,,soft,https://merz-aesthetics.co.uk/belotero/
+Belotero,Belotero Lips Shape,1 x 0.6ml,yes,,lips shape|lip shape,https://merz-aesthetics.co.uk/belotero/
+Belotero,Belotero Lips Contour,1 x 0.6ml,yes,,lips contour|lip contour,https://merz-aesthetics.co.uk/belotero/
+Belotero,Belotero Revive,1 x 1ml,detect,,revive,https://merz-aesthetics.co.uk/belotero/
+Belotero,Belotero Hydro,1 x 1ml,no,,hydro,https://merz-aesthetics.co.uk/belotero/
+Belotero,Belotero (unspecified),1 x 1ml,detect,detect,,https://merz-aesthetics.co.uk/belotero/
+Revolax,Revolax Sub-Q,1 x 1.1ml,detect,,sub-q|sub q|subq,https://www.revolax.co.uk
+Revolax,Revolax Deep,1 x 1.1ml,detect,,deep,https://www.revolax.co.uk
+Revolax,Revolax Fine,1 x 1.1ml,detect,,fine,https://www.revolax.co.uk
+Revolax,Revolax (unspecified),1 x 1.1ml,detect,detect,,https://www.revolax.co.uk

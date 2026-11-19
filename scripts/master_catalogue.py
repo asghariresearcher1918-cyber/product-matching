@@ -103,13 +103,19 @@ def main():
                            "brand": u["brand"], "product": (u["product"] or r["code"]).strip(), "key_spec": u["spec"].strip(),
                            "manufacturer": u["man"], "pack": u["pack"], "market": u["market"], "verified": u["verified"],
                            "suppliers": int(sup or 0), "listings": int(g(r, "listings") or 0), "source": u["source"]})
-    # real display names from the actual supplier listing titles (if computed)
+    # display name priority: authoritative brand reference > real supplier listing title > parsed
     cnpath = FINAL / "canonical_names.csv"
     if cnpath.exists():
         cn = {r["uid"]: r["name"] for r in csv.DictReader(open(cnpath, encoding="utf-8")) if r["name"]}
         for m in master:
             if m["uid"] in cn:
                 m["product"] = cn[m["uid"]]
+    rnpath = FINAL / "reference_names.csv"
+    if rnpath.exists():
+        rn = {r["uid"]: r["name"] for r in csv.DictReader(open(rnpath, encoding="utf-8")) if r["name"]}
+        for m in master:
+            if m["uid"] in rn:
+                m["product"] = rn[m["uid"]]; m["verified"] = "reference-matched"
     master.sort(key=lambda m: (m["category"], m["equivalence_group"], m["brand"], m["product"]))
     with open(FINAL / "master_catalogue.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=COLS); w.writeheader(); w.writerows(master)
