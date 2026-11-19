@@ -1,0 +1,294 @@
+code,subtype,kind,brand,name,supplier_n,listings
+2X-COUCH-HYGIENE-ROLL-20-WHITE,Clinic furniture,machine / device,2x,couch hygiene roll 20 white,1,1
+COUCH-HYGIENE-ROLL-PLY-WHITE,Clinic furniture,machine / device,Couch,Hygiene Roll ply White,1,1
+PURE-TONE-SUPRAMAX-PELVIC-FLOOR-CHAIR,Clinic furniture,machine / device,Pure,Tone Supramax Pelvic Floor Chair,1,1
+COUCH-HYGIENE-ROLL-20-WHITE,Clinic furniture,machine / device,couch,hygiene roll 20 white,1,1
+FILLMED-SKIN-PERFUSION-HYDRA-CRYO,Cryotherapy / cryolipolysis,machine / device,Fillmed,Skin Perfusion Hydra Cryo,1,1
+FILLMED-SKIN-PERFUSION-LIFT-CRYO,Cryotherapy / cryolipolysis,machine / device,Fillmed,Skin Perfusion Lift Cryo,1,1
+FILLMED-SKIN-PERFUSION-TIME-CRYO,Cryotherapy / cryolipolysis,machine / device,Fillmed,Skin Perfusion Time Cryo,1,1
+DR-LEVY-3MM-MICROSKIN-ROLLER,Derma roller / stamp,machine / device,Dr,Levy 3mm Microskin Roller,1,1
+PHARMA-HERMETIC-DERMA-ROLLER-5MM,Derma roller / stamp,machine / device,Pharma,Hermetic Derma Roller 5mm,1,1
+THE-ZGTS-DERMA-ROLLER,Derma roller / stamp,machine / device,The,ZGTS Derma Roller,1,1
+BOSTON-DERMAL-ROLLER-SR-03MM-HOME,Derma roller / stamp,machine / device,boston,dermal roller sr 03mm home,1,1
+BOSTON-DERMAL-ROLLER-SR-05-MM,Derma roller / stamp,machine / device,boston,dermal roller sr 05 mm,1,1
+BOSTON-DERMAL-ROLLER-SR-10-MM,Derma roller / stamp,machine / device,boston,dermal roller sr 10 mm,1,1
+BOSTON-DERMAL-ROLLER-SR-15-MM,Derma roller / stamp,machine / device,boston,dermal roller sr 15 mm,1,1
+BOSTON-DERMAL-ROLLER-SR-20MM,Derma roller / stamp,machine / device,boston,dermal roller sr 20mm,1,1
+BOSTON-DERMAL-ROLLER-SR-25MM,Derma roller / stamp,machine / device,boston,dermal roller sr 25mm,1,1
+BOSTON-DERMAL-ROLLER-SR-30MM,Derma roller / stamp,machine / device,boston,dermal roller sr 30mm,1,1
+DERMAROLLER-HA,Derma roller / stamp,machine / device,dermaroller,ha,1,1
+DERMAROLLER-RECOVERY-MASK-SACHETS-10,Derma roller / stamp,machine / device,dermaroller,recovery mask sachets 10,1,1
+ELECTRIC-PUMICE-FOOT-SMOOTHING-ROLLER-IN,Derma roller / stamp,machine / device,electric,pumice foot smoothing roller in,1,1
+HOME-ROLLER-CLEANER,Derma roller / stamp,machine / device,home,roller cleaner,1,1
+MICRO-DERMA-ROLLER-025MM,Derma roller / stamp,machine / device,micro,derma roller 025mm,1,1
+MICRO-DERMA-ROLLER-1MM-PAY,Derma roller / stamp,machine / device,micro,derma roller 1mm pay,1,1
+ROSE-QUARTZ-ROLLER-IN,Derma roller / stamp,machine / device,rose,quartz roller in,1,1
+DISPOSA-SHIELD-NO-CAVITRON-INSERTS-LONG-HANDPIECE-PART,Device accessory / part,accessory / part,Disposa-Shield,No Cavitron inserts long handpieces,1,1
+EXILIS-ELECTRODE-PART,Device accessory / part,accessory / part,EXILIS,Electrode,1,1
+GLITTERBELS-CLEAR-ALMOND-TIPS-TIP,Device accessory / part,consumable (tip/cartridge),Glitterbels,Clear Almond Tips,1,1
+OVEO-FRACTIONAL-TIPS-TIP,Device accessory / part,consumable (tip/cartridge),OVEO,Fractional Tips,1,1
+OVEO-ORIGINAL-TIPS-TIP,Device accessory / part,consumable (tip/cartridge),OVEO,Original Tips,1,1
+OVEO-PLASMA-TIPS-TIP,Device accessory / part,consumable (tip/cartridge),OVEO,Plasma Tips,1,1
+OVEO-THERMAL-TIP-TIP,Device accessory / part,consumable (tip/cartridge),OVEO,Thermal Tip,1,1
+OBAGI-SKINTRINSIQ-MEDIUM-TIPS-TIP,Device accessory / part,consumable (tip/cartridge),Obagi,Skintrinsiq Medium Tips,1,1
+OBAGI-SKINTRINSIQ-SMALL-TIPS-TIP,Device accessory / part,consumable (tip/cartridge),Obagi,Skintrinsiq Small Tips,1,1
+ONE-CUT-TIP-CUTTER-TIP,Device accessory / part,consumable (tip/cartridge),One,Cut Tip Cutter,1,1
+PRO-FACIAL-CLEANER-SOLUTION-PART,Device accessory / part,accessory / part,Pro,Facial Cleaner Solution,1,1
+PRO-FACIAL-SOLUTION-PART,Device accessory / part,accessory / part,Pro,Facial Solution,1,2
+ULTRALUX-RF-HANDPIECE-TIP,Device accessory / part,consumable (tip/cartridge),UltraLUX,RF Handpiece,1,1
+ULTRALUX-SHR-HANDPIECE-PART,Device accessory / part,accessory / part,UltraLUX,SHR Handpiece,1,1
+ULTRALUX-ULTRASOUND-1MHZ-HANDPIECE-PART,Device accessory / part,accessory / part,UltraLUX,Ultrasound 1Mhz Handpiece,1,2
+ULTRALUX-ULTRASOUND-40KHZ-HANDPIECE-PART,Device accessory / part,accessory / part,UltraLUX,Ultrasound 40Khz Handpiece,1,1
+AQUA-STREAM-SOLUTION-PART,Device accessory / part,accessory / part,aqua,stream solution,1,1
+GENTLO-PLASMA-WHITE-TIPS-TIP-COVERS-TIP,Device accessory / part,consumable (tip/cartridge),gentlo,plasma white tips tip covers,1,1
+IPLLGF-SPECTACLES-SHADE-LIGHT-GREEN-PART,Device accessory / part,accessory / part,ipllgf,spectacles shade light green,1,1
+NSTRIDE-AUTOLOGOUS-PROTEIN-SOLUTION-APS-KI-PART,Device accessory / part,accessory / part,nstride,autologous protein solution aps kit,1,2
+PLADUO-ARGON-TIPS-BOXES-TIP,Device accessory / part,consumable (tip/cartridge),pladuo,argon tips boxes,1,1
+PLADUO-HANDPIECE-SPACERS-10MM-PART,Device accessory / part,accessory / part,pladuo,handpiece spacers 10mm,1,1
+PLADUO-HANDPIECE-SPACERS-15MM-PART,Device accessory / part,accessory / part,pladuo,handpiece spacers 15mm,1,1
+PLADUO-HANDPIECE-SPACERS-5MM-PART,Device accessory / part,accessory / part,pladuo,handpiece spacers 5mm,1,1
+PLADUO-NITROGEN-TIPS-BOXES-TIP,Device accessory / part,consumable (tip/cartridge),pladuo,nitrogen tips boxes,1,1
+PLASONIC-PLASMA-ROSE-GOLD-TIPS-TIP-TIP,Device accessory / part,consumable (tip/cartridge),plasonic,plasma rose gold tips tip,1,1
+PRO-FACIAL-SOLUTION-SINGLE-PART,Device accessory / part,accessory / part,pro,facial solution single,1,1
+SPARE-CABLE-BLACK-PART,Device accessory / part,accessory / part,spare,cable black,1,1
+SPARE-CABLES-BNC-WHITE-PART,Device accessory / part,accessory / part,spare,cables bnc white,1,1
+STEREX-ELECTROLYSIS-TWEEZERS-STUDENT,Electrosurgery / electrolysis / plasma,machine / device,sterex,electrolysis tweezers student,1,1
+STEREX-FOOTSWITCH-PART,Electrosurgery / electrolysis / plasma,accessory / part,sterex,footswitch,1,1
+STEREX-INDIFFERENT-ELECTRODE-BAR-PART,Electrosurgery / electrolysis / plasma,accessory / part,sterex,indifferent electrode bar,1,1
+STEREX-INDIFFERENT-ELECTRODE-RED-CABLE-PART,Electrosurgery / electrolysis / plasma,accessory / part,sterex,indifferent electrode red cable,1,1
+STEREX-NEEDLEHOLDER-NON-SWITCH-BNC-PART,Electrosurgery / electrolysis / plasma,accessory / part,sterex,needleholder non switch bnc,1,1
+STEREX-NEEDLEHOLDER-NON-SWITCHED-PART,Electrosurgery / electrolysis / plasma,accessory / part,sterex,needleholder non switched,1,1
+STEREX-NEEDLEHOLDER-SWITCHED-BNC-PART,Electrosurgery / electrolysis / plasma,accessory / part,sterex,needleholder switched bnc,1,1
+STEREX-NEEDLEHOLDER-SWITCHED-PART,Electrosurgery / electrolysis / plasma,accessory / part,sterex,needleholder switched,1,1
+24K-GOLD-VIBRATING-BEAUTY-BAR,Equipment (other),machine / device,24k,Gold Vibrating Beauty Bar,1,1
+800-1-ELECTRIC-CENTRIFUGE-MACHINE,Equipment (other),machine / device,800-1,Electric Centrifuge machine,1,1
+ACCURATE-TOXIN-INJECTIONS-JUVAPEN-DEVICE-ST,Equipment (other),machine / device,Accurate,Toxin Injections JuvaPen Device Starter,1,1
+AFTER-BITE-CLASSIC-PEN,Equipment (other),machine / device,After,Bite Classic Pen,1,1
+AQUAFIRME-XS,Equipment (other),machine / device,AquaFirme,XS,1,1
+BODYSTIM,Equipment (other),machine / device,BodySTIM,,1,1
+CELLUERASE,Equipment (other),machine / device,Celluerase,,1,1
+CONCERTO-BACTERIAL-FILTER-CARBOXY,Equipment (other),machine / device,Concerto,bacterial filter Carboxy,1,1
+CONCERTO-CO2-CARTRIDGES-10-TIP,Equipment (other),consumable (tip/cartridge),Concerto,CO2 Cartridges 10,1,1
+CONCERTO-LONG-EXTENSION-TUBE-CARBOXY-20,Equipment (other),machine / device,Concerto,long extension tube Carboxy 20,1,1
+COSMO-PLASMA-DEVICE,Equipment (other),machine / device,Cosmo,Plasma Device,1,1
+COSMOPRO-DERMA-DEVICE-PACKAGE,Equipment (other),machine / device,Cosmopro,Derma Device Package,1,1
+D-ESSE-STAND,Equipment (other),machine / device,D,esse Stand,1,1
+DERMA-FNS-PEN-NIBS,Equipment (other),machine / device,Derma,FNS Pen Nibs,1,1
+DERMALOGICA-PEN-14-PIN-CARTRIDGES-TIP,Equipment (other),consumable (tip/cartridge),Dermalogica,Pen 14 Pin Cartridges,1,1
+DERMALOGICA-PEN-24-PIN-CARTRIDGES-TIP,Equipment (other),consumable (tip/cartridge),Dermalogica,Pen 24 Pin Cartridges,1,1
+DERMALOGICA-PEN-KIT,Equipment (other),machine / device,Dermalogica,Pen Kit,1,1
+DERMAQUAL-FORZA-MMS007-DEVICE,Equipment (other),machine / device,Dermaqual,Forza MMS007 Device,1,1
+DR-LEVY-SKIN-TIME-MACHINE,Equipment (other),machine / device,Dr,LEVY Skin Time Machine,1,1
+DR-PEN-A11,Equipment (other),machine / device,Dr,Pen A11,1,1
+DR-PEN-ULTIMA-A6,Equipment (other),machine / device,Dr,Pen Ultima A6,1,1
+ELIS-SMART-BODY-SCALE,Equipment (other),machine / device,Elis,Smart Body Scale,1,1
+ENLIGHTEN-PIGMENT-CONTROLLER,Equipment (other),machine / device,Enlighten,Pigment Controller,1,1
+EPILME,Equipment (other),machine / device,EpilMe,,1,1
+FACESTIM-BY-JOVENA,Equipment (other),machine / device,FaceSTIM,by Jovena,1,1
+GEL-MAKER,Equipment (other),machine / device,Gel,Maker,1,1
+INSHAPE-DEVICE,Equipment (other),machine / device,Inshape,Device,1,1
+JUVAPEN-BATTERIES,Equipment (other),machine / device,Juvapen,Batteries,1,1
+LASERME,Equipment (other),machine / device,LaserMe,,1,1
+MEDILUX-PHOTODYNAMIC-THERAPY-EQUIPMENT,Equipment (other),machine / device,MediLUX,Photodynamic Therapy Equipment,1,1
+MESOESTETIC-PEN,Equipment (other),machine / device,Mesoestetic,pen,1,1
+NEAUVIA-PLASMA-IQ-KIT,Equipment (other),machine / device,Neauvia,Plasma IQ Kit,1,1
+NEAUVIA-RADIOFREQUENCY-FACE-GEL-SECTUM-20,Equipment (other),machine / device,Neauvia,Radiofrequency Face Gel Sectum 20,1,1
+NOUVEAU-VISAGE-NEWDERM-AGE-CONTROL,Equipment (other),machine / device,Nouveau,VisAge Newderm Age Control,1,1
+NOUVEAU-VISAGE-NEWDERM-BRIGHT,Equipment (other),machine / device,Nouveau,VisAge Newderm Bright,1,1
+NOUVEAU-VISAGE-NEWDERM-EYE,Equipment (other),machine / device,Nouveau,VisAge Newderm Eye,1,1
+NOUVEAU-VISAGE-NEWDERM-HAIR,Equipment (other),machine / device,Nouveau,VisAge Newderm Hair,1,1
+NOUVEAU-VISAGE-NEWDERM-LIFT,Equipment (other),machine / device,Nouveau,VisAge Newderm Lift,1,1
+PEAK-FLOW-METER-RANGE,Equipment (other),machine / device,Peak,Flow Meter Range,1,1
+PHARMA-HERMETIC-HAIR-RECOVERY-PROGRAM-SP5,Equipment (other),machine / device,Pharma,Hermetic Hair Recovery Program SP55,1,1
+PLASMAIQ,Equipment (other),machine / device,PlasmaIQ,,1,1
+PRO-INFUSION-DERM-LUER-LOCK-ORANGE,Equipment (other),machine / device,Pro,Infusion Derm Luer Lock Orange,1,1
+PROINFUSION-DERM-BACIO,Equipment (other),machine / device,ProInfusion,Derm Bacio,1,1
+PROMOPEN-STARTER-KIT,Equipment (other),machine / device,PromoPen,Starter Kit,1,1
+PROTECTIVE-SLEEVES-DERMALOGICA-PEN,Equipment (other),machine / device,Protective,Sleeves Dermalogica Pen,1,1
+REPATHA-SURECLICK-140MG-PRE-FILLED-PEN,Equipment (other),machine / device,Repatha,SureClick 140mg Pre Filled Pen,1,1
+REVITACARE-STRETCHCARE-LINE,Equipment (other),machine / device,Revitacare,STRETCHCARE Line,1,1
+SECTUM-RF,Equipment (other),machine / device,Sectum,RF,1,1
+SURGICAL-SKIN-MARKING-PEN-SINGLE,Equipment (other),machine / device,Surgical,Skin Marking Pen Single,1,1
+ULTIBRO-BREEZHALER-85MCG-43MCG-CAPS-DEVICE,Equipment (other),machine / device,Ultibro,Breezhaler 85mcg 43mcg Caps Device,1,1
+ULTRALUX-INTENSE-PULSED-LIGHT-SYSTEM,Equipment (other),machine / device,UltraLUX,Intense Pulsed Light System,1,1
+VORTEX-SHAKER,Equipment (other),machine / device,VORTEX,shaker,1,1
+VORTEX,Equipment (other),machine / device,Vortex,,1,1
+WOW-FUSION-NEEDLE-DEVICE-1MM,Equipment (other),machine / device,WOW,Fusion Needle Device 1mm,1,1
+WOW-FUSION-NEEDLE-DEVICE-6MM,Equipment (other),machine / device,WOW,Fusion Needle Device 6mm,1,1
+ZAFFIRO,Equipment (other),machine / device,Zaffiro,,1,1
+ANTI-AGING-SKIN-RENEWER-IN,Equipment (other),machine / device,anti,aging skin renewer in,1,1
+BODY-BRUSH-IN,Equipment (other),machine / device,body,brush in,1,1
+CELLUERASE-BLADES,Equipment (other),machine / device,celluerase,blades,1,1
+CELLUERASE-X4-EXP-30092026,Equipment (other),machine / device,celluerase,x4 exp 30092026,1,2
+CENTRIFUGE,Equipment (other),machine / device,centrifuge,,2,2
+CLEARISTA-REFINING-PEN-TWIST-BOTTOM,Equipment (other),machine / device,clearista,refining pen twist bottom,1,1
+COOL-WARM-DUO-EYE-MASSAGER-IN,Equipment (other),machine / device,cool,warm duo eye massager in,1,1
+COOL-WARM-FACE-BODY-MASSAGER-IN,Equipment (other),machine / device,cool,warm face body massager in,1,1
+DEESSE-DISPLAY-STAND,Equipment (other),machine / device,deesse,display stand,1,1
+DUAL-FOOT-SMOOTHENER-IN,Equipment (other),machine / device,dual,foot smoothener in,1,1
+FACIAL-HYDRATION-REFRESHER-IN,Equipment (other),machine / device,facial,hydration refresher in,1,1
+GENTLO-RF-VAGINAL-MONOPOLAR-CASE,Equipment (other),machine / device,gentlo,rf vaginal monopolar case,1,1
+HYDRATING-MICROCURRENT-GEL,Equipment (other),machine / device,hydrating,microcurrent gel,1,1
+JUVAPEN-DEVICE-REFILL-KIT-ALSO-KNOWN,Equipment (other),machine / device,juvapen,device refill kit also known,1,1
+LIP-VOLUMIZER-BOOSTER-IN,Equipment (other),machine / device,lip,volumizer booster in,1,1
+LOAD-375,Equipment (other),machine / device,load,375,1,1
+MICOOL-TIP,Equipment (other),consumable (tip/cartridge),micool,,1,1
+MICROCURRENT-FACE-LIFT-PEN-IN,Equipment (other),machine / device,microcurrent,face lift pen in,1,1
+NEAUVIA-RADIOFREQUENCY-BODY-GEL,Equipment (other),machine / device,neauvia,radiofrequency body gel,1,1
+NEAUVIA-RADIOFREQUENCY-FACE-GEL,Equipment (other),machine / device,neauvia,radiofrequency face gel,1,1
+PRO-INFUSION-DERM-LUER-LOCK-AQUA,Equipment (other),machine / device,pro,infusion derm luer lock aqua,1,1
+PRO-INFUSION-DERM-LUER-LOCK-BLACK,Equipment (other),machine / device,pro,infusion derm luer lock black,1,1
+PRP-KIT,Equipment (other),machine / device,prp,kit,1,1
+ROSE-QUARTZ-DEPUFFING-SPHERE-IN,Equipment (other),machine / device,rose,quartz depuffing sphere in,1,1
+SCULPTA-BY-DEESSE,Equipment (other),machine / device,sculpta,by deesse,1,1
+SONIC-COOL-WARM-FACE-BODY-MASSAGER,Equipment (other),machine / device,sonic,cool warm face body massager,1,1
+SONIC-FACIAL-BRUSH-IN,Equipment (other),machine / device,sonic,facial brush in,1,1
+SONIC-THERMO-FACIAL-BRUSH-IN,Equipment (other),machine / device,sonic,thermo facial brush in,1,1
+WARM-COOL-EYE-ENERGIZER-IN,Equipment (other),machine / device,warm,cool eye energizer in,1,1
+WOW-FUSION-DEVICE-1MM,Equipment (other),machine / device,wow,fusion device 1mm,1,1
+3-IN-DIAMOND-MICRODERMABRASION-MACHI,Facial machine & accessory,machine / device,3,in Diamond Microdermabrasion Machine,1,1
+CORRECT-GLYCOLIC-MICRODERMABRASION-POLISH,Facial machine & accessory,machine / device,Correct,Glycolic Microdermabrasion Polish,1,1
+MICRODERMABRASIO,Facial machine & accessory,machine / device,Microdermabrasion,,1,1
+TRIPLE-MICRODERMABRASION-FACE-POLISH,Facial machine & accessory,machine / device,Triple,Microdermabrasion Face Polish,2,2
+HYDRO-AQUA-HAND-PIECE-PART,Facial machine & accessory,accessory / part,hydro,aqua hand piece,1,1
+HYDRO-DRAIN-BOTTLE-PART,Facial machine & accessory,accessory / part,hydro,drain bottle,1,1
+HYDRO-GREEN-TIPS-TIP,Facial machine & accessory,consumable (tip/cartridge),hydro,green tips,1,1
+HYDRO-GREY-CABLE-PART,Facial machine & accessory,accessory / part,hydro,grey cable,1,1
+HYDRO-HAND-PIECE-BLOCK-PART,Facial machine & accessory,accessory / part,hydro,hand piece block,1,1
+HYDRO-ION-HAND-PIECE-PART,Facial machine & accessory,accessory / part,hydro,ion hand piece,1,1
+HYDRO-RF-HAND-PIECE-PART,Facial machine & accessory,accessory / part,hydro,rf hand piece,1,1
+HYDRO-SOLUTION-CLEANING-PART,Facial machine & accessory,accessory / part,hydro,solution cleaning,1,1
+HYDRO-SOLUTION-HOLDER-PART,Facial machine & accessory,accessory / part,hydro,solution holder,1,1
+HYDRO-SOLUTION-HYDRATING-PART,Facial machine & accessory,accessory / part,hydro,solution hydrating,1,1
+HYDRO-SONO-HAND-PIECE-PART,Facial machine & accessory,accessory / part,hydro,sono hand piece,1,1
+PROFACIAL-AQUA-HANDPIECE-PART,Facial machine & accessory,accessory / part,profacial,aqua handpiece,1,1
+PROFACIAL-DRAIN-BOTTLE-PART,Facial machine & accessory,accessory / part,profacial,drain bottle,1,1
+PROFACIAL-GREY-CABLE-PART,Facial machine & accessory,accessory / part,profacial,grey cable,1,1
+PROFACIAL-HAND-PIECE-BLOCK-PART,Facial machine & accessory,accessory / part,profacial,hand piece block,1,1
+PROFACIAL-ION-HAND-PIECE-PART,Facial machine & accessory,accessory / part,profacial,ion hand piece,1,1
+PROFACIAL-RF-HAND-PIECE-PART,Facial machine & accessory,accessory / part,profacial,rf hand piece,1,1
+PROFACIAL-SOLUTION-HOLDERS-PART,Facial machine & accessory,accessory / part,profacial,solution holders,1,1
+PROFACIAL-SONO-HAND-PIECE-PART,Facial machine & accessory,accessory / part,profacial,sono hand piece,1,1
+PROFACIAL-TIPS-MIXED-TIP,Facial machine & accessory,consumable (tip/cartridge),profacial,tips mixed,1,1
+DERMAZE-ULTRA-WAVE-HIFU-FACE,HIFU / focused ultrasound,machine / device,Dermaze,Ultra Wave HIFU Face,1,1
+DERMAZE-ULTRA-WAVE-HIFU-FACE-BODY,HIFU / focused ultrasound,machine / device,Dermaze,Ultra Wave HIFU Face Body,1,1
+PURE-TONE-INOFUS-HIGH-INTENSITY-FOCUSED,HIFU / focused ultrasound,machine / device,Pure,Tone Inofus High Intensity Focused,1,1
+PURE-TONE-INOFUS-HIGH-INTENSITY-FOCUSED-TIP,HIFU / focused ultrasound,consumable (tip/cartridge),Pure,Tone Inofus High Intensity Focused,1,7
+PURE-TONE-STORMING-HIGH-INTENSITY-FOCUS,HIFU / focused ultrasound,machine / device,Pure,Tone Storming High Intensity Focused,1,1
+PURE-TONE-STORMING-HIGH-INTENSITY-FOCUS-TIP,HIFU / focused ultrasound,consumable (tip/cartridge),Pure,Tone Storming High Intensity Focused,1,5
+DOUBLO-D4-CARTRIDGE-TIP,HIFU / focused ultrasound,consumable (tip/cartridge),doublo,d4 cartridge,1,1
+DOUBLO-L4-CARTRIDGE-TIP,HIFU / focused ultrasound,consumable (tip/cartridge),doublo,l4 cartridge,1,1
+DOUBLO-M7-CARTRIDGE-TIP,HIFU / focused ultrasound,consumable (tip/cartridge),doublo,m7 cartridge,1,1
+DOUBLO-S7-CARTRIDGE-TIP,HIFU / focused ultrasound,consumable (tip/cartridge),doublo,s7 cartridge,1,1
+BLACK-DIAMOND-LED-LIGHT-THERAPY-FACIAL,LED / light therapy,machine / device,Black,Diamond LED light therapy facial,1,1
+PURE-TONE-BEAUTY-ROCK-INFRARED-LED,LED / light therapy,machine / device,Pure,Tone Beauty Rock Infrared LED,1,1
+DEESSE-LED-MASK,LED / light therapy,machine / device,deesse,led mask,1,1
+SONIC-LED-FULL-BODY-BRUSH-INTENSIVE,LED / light therapy,machine / device,sonic,led full body brush intensive,1,1
+DREAMCURE-LAMP-BY-GLITTERBELS,Lamp / magnifier / loupe,machine / device,DreamCure,Lamp by Glitterbels,1,1
+ALPHA-LASER-SYSTEM,Laser / IPL,machine / device,Alpha,Laser System,1,1
+DERMAZE-LASER-TRIM-COLD-LEVEL-FAT,Laser / IPL,machine / device,Dermaze,Laser Trim Cold Level Fat,1,1
+PURE-TONE-ULTRA-SILK-IPL-MACHINE,Laser / IPL,machine / device,Pure,Tone Ultra Silk IPL Machine,1,1
+ULTRALUX-DUAL-MODE-IPL-HANDPIECE-PART,Laser / IPL,accessory / part,UltraLUX,Dual Mode IPL Handpiece,1,1
+ULTRALUX-IPL-HANDPIECE-PART,Laser / IPL,accessory / part,UltraLUX,IPL Handpiece,1,2
+ULTRALUX-ND-YAG-SWITCHED-LASER-HANDPIECE-PART,Laser / IPL,accessory / part,UltraLUX,Nd YAG Switched Laser Handpiece,1,1
+1NEED-PROTECTIVE-SLEEVES,Microneedling pen & cartridge,machine / device,1NEED,Protective Sleeves,1,1
+1NEED-MICRONEEDLING-CARTRIDGES-NF-9MN-01-TIP,Microneedling pen & cartridge,consumable (tip/cartridge),1need,microneedling cartridges nf 9mn 018,1,1
+1NEED-MICRONEEDLING-DEMO-DAY-LONDON,Microneedling pen & cartridge,machine / device,1need,microneedling demo day london,1,1
+1NEED-MICRONEEDLING-DEMO-DAY-PLYMOUTH,Microneedling pen & cartridge,machine / device,1need,microneedling demo day plymouth,1,1
+1NEED-MICRONEEDLING-DEVICE-PACKAGE-KIT,Microneedling pen & cartridge,machine / device,1need,microneedling device package kit,1,1
+1NEED-MICROPRICKING-CARTRIDGES-NF-9MP-01-TIP,Microneedling pen & cartridge,consumable (tip/cartridge),1need,micropricking cartridges nf 9mp 018,1,1
+1NEED-NANOPEEL-CARTRIDGES-NF-130AN-TIP,Microneedling pen & cartridge,consumable (tip/cartridge),1need,nanopeel cartridges nf 130an,1,1
+DERMAPEN-BY-MDERMA,Microneedling pen & cartridge,machine / device,Dermapen,by Mderma,1,1
+DERMAPEN-CARTRIDGES-TIP,Microneedling pen & cartridge,consumable (tip/cartridge),Dermapen,Cartridges,1,1
+DERMAQUAL-FORZA-MMS007-NEEDLE-CARTRIDGES-12P-TIP,Microneedling pen & cartridge,consumable (tip/cartridge),Dermaqual,Forza MMS007 Needle Cartridges 12Pin,1,1
+EXOBLANC-DERMA-PEN,Microneedling pen & cartridge,machine / device,Exoblanc,Derma Pen,2,2
+KIARA-REJU-MICRONEEDLING,Microneedling pen & cartridge,machine / device,Kiara,Reju Microneedling,1,1
+MICRONEEDLING-TRAINING-LONDON-MONDAY-16TH-NOVEMB,Microneedling pen & cartridge,machine / device,Microneedling,Training London Monday 16th November,1,1
+MICRONEEDLING-TRAINING-LONDON-THURSDAY-18TH-MARC,Microneedling pen & cartridge,machine / device,Microneedling,Training London Thursday 18th March,1,1
+MICRONEEDLING-TRAINING-LONDON-THURSDAY-27TH-MAY,Microneedling pen & cartridge,machine / device,Microneedling,Training London Thursday 27th May,1,1
+MICRONEEDLING-TRAINING-LONDON-THURSDAY-4TH-NOVEM,Microneedling pen & cartridge,machine / device,Microneedling,Training London Thursday 4th November,1,1
+MICRONEEDLING-TRAINING-LONDON-TUESDAY-27TH-JULY,Microneedling pen & cartridge,machine / device,Microneedling,Training London Tuesday 27th July,1,1
+MICRONEEDLING-TRAINING-LONDON-TUESDAY13TH-APRIL,Microneedling pen & cartridge,machine / device,Microneedling,Training London Tuesday13th April 2027,1,1
+MICRONEEDLING-TRAINING-LONDON-WEDNESDAY-10TH-FEB,Microneedling pen & cartridge,machine / device,Microneedling,Training London Wednesday 10th February,1,1
+MICRONEEDLING-TRAINING-LONDON-WEDNESDAY-15TH-SEP,Microneedling pen & cartridge,machine / device,Microneedling,Training London Wednesday 15th September,1,1
+MICRONEEDLING-TRAINING-LONDON-WEDNESDAY-6TH-OCTO,Microneedling pen & cartridge,machine / device,Microneedling,Training London Wednesday 6th October,1,1
+MICRONEEDLING-TRAINING-LOUGHBOROUGH-THURSDAY-19T,Microneedling pen & cartridge,machine / device,Microneedling,Training Loughborough Thursday 19th November,1,1
+WOW-FUSION-DEVICE-6MM-MICRONEEDLING,Microneedling pen & cartridge,machine / device,WOW,fusion Device 6mm MicroNeedling,1,1
+COPY-DERMAPEN-CARTRIDGES-10-TIP,Microneedling pen & cartridge,consumable (tip/cartridge),copy,dermapen cartridges 10,1,1
+DR-PEN-A11-ULTIMA-MICRONEEDLING,Microneedling pen & cartridge,machine / device,dr,pen a11 ultima microneedling,1,1
+DR-PEN-M8S-MICRONEEDLING,Microneedling pen & cartridge,machine / device,dr,pen m8s microneedling,1,1
+MICRONEEDLE-FACE-BODY-ROLLER-IN,Microneedling pen & cartridge,machine / device,microneedle,face body roller in,1,1
+MICRONEEDLING-PEN-TIP-TIP,Microneedling pen & cartridge,consumable (tip/cartridge),microneedling,pen tip,1,1
+POTENZA-AC-HAND-PIECE-PART,RF microneedling,accessory / part,Potenza,AC Hand Piece,1,1
+POTENZA-BACK-COVER,RF microneedling,machine / device,Potenza,Back Cover,1,1
+POTENZA-BASE-COVER,RF microneedling,machine / device,Potenza,Base Cover,1,1
+POTENZA-CP-INVASIVE-PUMPING-MODE-TIP-TIP,RF microneedling,consumable (tip/cartridge),Potenza,CP Invasive Pumping Mode Tip,1,4
+POTENZA-CP-INVASIVE-PUMPTING-MODE-TIP-TIP,RF microneedling,consumable (tip/cartridge),Potenza,CP Invasive Pumpting Mode Tip,1,2
+POTENZA-DC-FAN-ASSEMBLY,RF microneedling,machine / device,Potenza,DC Fan Assembly,1,1
+POTENZA-DDR-NON-INVASIVE-TIP-TIP,RF microneedling,consumable (tip/cartridge),Potenza,DDR Non Invasive Tip,1,1
+POTENZA-FERRITE-CORE,RF microneedling,machine / device,Potenza,Ferrite Core,1,1
+POTENZA-FOOT-SWITCH,RF microneedling,machine / device,Potenza,Foot Switch,1,1
+POTENZA-FRACTIONAL-RADIOFREQUENCY-MICRONEE-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Fractional Radiofrequency Microneedling Device Starter,1,1
+POTENZA-HAND-PIECE-STAND-PART,RF microneedling,accessory / part,Potenza,Hand Piece Stand,1,1
+POTENZA-HARNESS-SPEAKER-HP1,RF microneedling,machine / device,Potenza,Harness Speaker HP1,1,1
+POTENZA-HARNESS-SPEAKER-HP2,RF microneedling,machine / device,Potenza,Harness Speaker HP2,1,1
+POTENZA-HP-CONNECTOR-HOUSING,RF microneedling,machine / device,Potenza,HP Connector Housing,1,1
+POTENZA-HP-FRONT-CASE,RF microneedling,machine / device,Potenza,HP Front Case,1,1
+POTENZA-HP-LEFT-CASE,RF microneedling,machine / device,Potenza,HP Left Case,1,1
+POTENZA-HP-MASTER-JIG,RF microneedling,machine / device,Potenza,HP Master Jig,1,1
+POTENZA-HP-RIGHT-CASE,RF microneedling,machine / device,Potenza,HP Right Case,1,1
+POTENZA-HP-WIRE-BOARD-PCB-PHOTOINTERRUPTER,RF microneedling,machine / device,Potenza,HP Wire Board PCB Photointerrupter,1,1
+POTENZA-INSULATED-INVASIVE-TIP-16-CYN-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Insulated Invasive Tip 16 CYN,1,1
+POTENZA-INSULATED-INVASIVE-TIP-16-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Insulated Invasive Tip 16,1,1
+POTENZA-INSULATED-INVASIVE-TIP-25-CYN-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Insulated Invasive Tip 25 CYN,1,1
+POTENZA-INSULATED-INVASIVE-TIP-25-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Insulated Invasive Tip 25,1,1
+POTENZA-INSULATED-INVASIVE-TIP-49-CYN-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Insulated Invasive Tip 49 CYN,1,1
+POTENZA-INSULATED-INVASIVE-TIP-49-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Insulated Invasive Tip 49,1,1
+POTENZA-LED-BAR,RF microneedling,machine / device,Potenza,LED Bar,1,1
+POTENZA-LOAD-IMPEDANCE-JIG,RF microneedling,machine / device,Potenza,Load Impedance Jig,1,1
+POTENZA-MAIN-BOARD,RF microneedling,machine / device,Potenza,Main Board,1,1
+POTENZA-MAIN-POWER-SUPPLY-5V-12V,RF microneedling,machine / device,Potenza,Main Power Supply 5V 12V,1,1
+POTENZA-MOTOR,RF microneedling,machine / device,Potenza,Motor,1,1
+POTENZA-MOTOR-HAND-PIECE-PART,RF microneedling,accessory / part,Potenza,Motor Hand Piece,1,1
+POTENZA-MOTOR-HP-MASTER-TIP-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Motor HP Master Tip,1,1
+POTENZA-OFF-SWITCH,RF microneedling,machine / device,Potenza,OFF Switch,1,1
+POTENZA-POST-CARE-COOLING-GEL,RF microneedling,machine / device,Potenza,Post Care Cooling Gel,1,1
+POTENZA-POWER-CORD,RF microneedling,machine / device,Potenza,Power Cord,1,1
+POTENZA-POWER-ENTRY-MODULE,RF microneedling,machine / device,Potenza,Power Entry Module,1,1
+POTENZA-POWER-SUPPLY-RF-GENERATOR,RF microneedling,machine / device,Potenza,Power Supply RF Generator,1,1
+POTENZA-RF-GENERATOR,RF microneedling,machine / device,Potenza,RF Generator,1,1
+POTENZA-SD-MEMORY-CARD,RF microneedling,machine / device,Potenza,SD Memory Card,1,1
+POTENZA-SEMI-INSULATED-INVASIVE-TIP-16-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Semi Insulated Invasive Tip 16,1,2
+POTENZA-SEMI-INSULATED-INVASIVE-TIP-25-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Semi Insulated Invasive Tip 25,1,2
+POTENZA-SEMI-INSULATED-INVASIVE-TIP-49-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Semi Insulated Invasive Tip 49,1,2
+POTENZA-SUPERFICIAL-FRACTIONAL-ABLATIVE-NO-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Superficial Fractional Ablative Non invasive,1,1
+POTENZA-TIP-PCB-CONNECTOR-TIP,RF microneedling,consumable (tip/cartridge),Potenza,Tip PCB Connector,1,1
+POTENZA-UI-BOARD,RF microneedling,machine / device,Potenza,UI Board,1,1
+POTENZA-USB-CABLE-PART,RF microneedling,accessory / part,Potenza,USB Cable,1,1
+POTENZAPOWER-SUPPLY-UI-BOARD,RF microneedling,machine / device,PotenzaPower,Supply UI Board,1,1
+PURE-TONE-INTHERA-BIPOLAR-RF-MICRONEEDL,RF microneedling,machine / device,Pure,Tone Inthera Bipolar RF Microneedling,1,1
+PURE-TONE-RF-MICRONEEDLING-INTHERA-INSU-TIP,RF microneedling,consumable (tip/cartridge),Pure,Tone RF Microneedling Inthera Insulated,1,3
+PURE-TONE-RF-MICRONEEDLING-INTHERA-NON-TIP,RF microneedling,consumable (tip/cartridge),Pure,Tone RF Microneedling Inthera Non,1,3
+THERMAGE-COUPLING-FLUID,RF microneedling,machine / device,Thermage,Coupling Fluid,1,1
+THERMAGE-EYE-TIP-25CM2-TIP,RF microneedling,consumable (tip/cartridge),Thermage,Eye Tip 25cm2,1,1
+THERMAGE-FLX-EYE-TIP-25CM2-TIP,RF microneedling,consumable (tip/cartridge),Thermage,FLX Eye Tip 25cm2,1,1
+THERMAGE-FLX-MARKING-PAPER-0CM,RF microneedling,machine / device,Thermage,FLX Marking paper 0cm,1,1
+THERMAGE-FLX-TOTAL-TIP-0CM2-TIP,RF microneedling,consumable (tip/cartridge),Thermage,FLX Total Tip 0cm2,1,3
+THERMAGE-TOTAL-TIP-0CM2-1200-REP-TIP,RF microneedling,consumable (tip/cartridge),Thermage,Total Tip 0cm2 1200 REP,1,1
+OBSERV-320,Skin analysis / imaging,machine / device,Observ,320,1,1
+OBSERV-320-ANGLE-EXTENSION-KIT,Skin analysis / imaging,machine / device,Observ,320 Angle Extension Kit,1,1
+OBSERV-360-LIGHT-EXTENSION,Skin analysis / imaging,machine / device,Observ,360 Light Extension,1,1
+OBSERV-520X-360-LIGHTMODE-BUNDLE,Skin analysis / imaging,machine / device,Observ,520x 360 Lightmode Bundle,1,1
+OBSERV-AIS-CHINREST,Skin analysis / imaging,machine / device,Observ,AIS Chinrest,1,1
+OBSERV-EXTENDED-LIGHTSHADE-PART,Skin analysis / imaging,accessory / part,Observ,Extended Lightshade,1,1
+OBSERV-HANDS-EXTENSION-KIT,Skin analysis / imaging,machine / device,Observ,Hands Extension Kit,1,1
+OBSERV-HANDS-NECK-DECOLLETE-COMBINED-KIT,Skin analysis / imaging,machine / device,Observ,Hands Neck Decollete Combined Kit,1,1
+OBSERV-HARDCASE-TROLLEY,Skin analysis / imaging,machine / device,Observ,Hardcase Trolley,1,1
+OBSERV-MOBILE-STAND,Skin analysis / imaging,machine / device,Observ,Mobile Stand,1,1
+OBSERV-NECK-DECOLLETTE-EXTENSION-KIT,Skin analysis / imaging,machine / device,Observ,Neck Decollette Extension Kit,1,1
+OBSERV-POWER-ADAPTER,Skin analysis / imaging,machine / device,Observ,Power Adapter,1,1
+OBSERV-UNIVERSAL-VISOR-PART,Skin analysis / imaging,accessory / part,Observ,Universal Visor,1,1
+OBSERV-VISOR-POLARISATION,Skin analysis / imaging,machine / device,Observ,Visor Polarisation,1,1
+PURE-TONE-DERMA-VU-PHOTOGRAPHIC-SKIN,Skin analysis / imaging,machine / device,Pure,Tone Derma Vu Photographic Skin,1,1
+MOISTSENSE-CAPACITIVE-MOISTURE-SENSOR,Skin analysis / imaging,machine / device,moistsense,capacitive moisture sensor,1,1
+AUTOCLAVE-STERILISATION-POUCHES-200PCS,Steriliser / autoclave,machine / device,Autoclave,Sterilisation Pouches 200pcs,1,1
