@@ -150,13 +150,10 @@ MYFILLER-BOOSTER-REVITALIZE-WHITE,HA bio-remodelling,MyFiller Booster,revitalize
 NEAUVIA-HYDRO-DELUXE-2.5ML-X2,HA bio-remodelling,Neauvia Hydro Deluxe,,2.5ml,2,,Matex Lab,3,4
 NEAUVIA-HYDRO-DELUXE-HYDRATE-STIMULATE,HA bio-remodelling,Neauvia Hydro Deluxe,Hydrate Stimulate,,1,,Matex Lab,1,1
 NEAUVIA-HYDRO-DELUXE-ORGANIC-2.5ML-X2,HA bio-remodelling,Neauvia Hydro Deluxe,Organic,2.5ml,2,,Matex Lab,2,2
-PROFHILO-2ML,HA bio-remodelling,Profhilo,,2ml,1,,IBSA,19,23
-PROFHILO-2ML-HG,HA bio-remodelling,Profhilo,,2ml,1,HG,IBSA,6,6
-PROFHILO-BODY-3ML,HA bio-remodelling,Profhilo,body,3ml,1,,IBSA,13,14
-PROFHILO-BODY-3ML-X2,HA bio-remodelling,Profhilo,Body,3ml,2,,IBSA,1,1
-PROFHILO-FACE-103-2ML,HA bio-remodelling,Profhilo,Face 103,2ml,1,,IBSA,1,1
-PROFHILO-HAENKENIUM-50ML,HA bio-remodelling,Profhilo,Haenkenium,50ml,1,,IBSA,2,2
-PROFHILO-STRUCTURA-2ML,HA bio-remodelling,Profhilo,structura,2ml,1,,IBSA,19,20
+BST-PROFHILO-BODY,HA bio-remodelling,Profhilo,Body,3ml,1,,IBSA,13,14
+BST-PROFHILO-BODY-2X,HA bio-remodelling,Profhilo,Body,3ml,2,,IBSA,1,1
+BST-PROFHILO-HL,HA bio-remodelling,Profhilo,H+L,2ml,1,,IBSA,19,28
+BST-PROFHILO-STRUCTURA,HA bio-remodelling,Profhilo,Structura,2ml,1,,IBSA,19,20
 REVITRANE-HA-10-1ML,HA bio-remodelling,Revitrane,HA 10,1ml,1,,Revitrane,3,5
 REVITRANE-HA10-CLASSIC,HA bio-remodelling,Revitrane,HA10 Classic,,1,,Revitrane,2,2
 REVITRANE-HA10-VOLUME,HA bio-remodelling,Revitrane,HA10 Volume,,1,,Revitrane,1,1
@@ -883,3 +880,4 @@ VELORA-CHP-2ML,Skin booster / mesotherapy (other),Velora,chp,2ml,1,,,1,1
 XL-HAIR-5ML-X6,Skin booster / mesotherapy (other),Xl,hair,5ml,6,,,1,1
 XOMAGE-FACE-100MG,Skin booster / mesotherapy (other),Xomage,Face,100mg,1,,,1,1
 XOMAGE-HAIR,Skin booster / mesotherapy (other),Xomage,Hair,,1,,,1,1
+BST-PROFHILO-HAENKENIUMCREAM,Skincare (topical),Profhilo,Haenkenium Cream,50ml,1,,IBSA,2,2

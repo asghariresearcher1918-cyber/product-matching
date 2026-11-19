@@ -1512,7 +1512,6 @@ FIL:REVOFIL-PLUSSYR-1ML-1X,Dermal filler,Revofil Plus Syr,Revofil,Revofil Plus (
 FIL:REVOFIL-ULTRA-1X,Dermal filler,Revofil Ultra,Revofil,Revofil Ultra,x1,Dexlevo (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
 FIL:REVOFIL-ULTRASYR-1ML-1X,Dermal filler,Revofil Ultra Syr,Revofil,Revofil Ultra (2 x 1ml syr.),1ml x1,Dexlevo (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
 FIL:FILLER-REVOLAX-UNSPECIFIED,Dermal filler,Revolax,Revolax,Revolax (unspecified),1.1ml x1,Across (Korea),1,UK/std,reference-matched,2,2,https://www.revolax.co.uk
-FIL:FILLER-REVOLAX-UNSPECIFIED-LIDO,Dermal filler,Revolax,Revolax,Revolax (unspecified) with lidocaine,1.1ml +lido x1,Across (Korea),1,UK/std,reference-matched,1,1,https://www.revolax.co.uk
 FIL:FILLER-REVOLAX-DEEP,Dermal filler,Revolax,Revolax,Revolax Deep,1.1ml x1,Across (Korea),1,UK/std,reference-matched,6,6,https://www.revolax.co.uk
 FIL:FILLER-REVOLAX-DEEP-LIDO,Dermal filler,Revolax,Revolax,Revolax Deep with lidocaine,1.1ml +lido x1,Across (Korea),1,UK/std,reference-matched,11,13,https://www.revolax.co.uk
 FIL:FILLER-REVOLAX-FINE,Dermal filler,Revolax,Revolax,Revolax Fine,1.1ml x1,Across (Korea),1,UK/std,reference-matched,6,6,https://www.revolax.co.uk
@@ -1557,7 +1556,6 @@ FIL:STARFILL-DEEPPLUS1-11ML-1X,Dermal filler,Starfill Deep Plus 1,Starfill,Starf
 FIL:STARFILL-IMPLANTPLUS-11ML-LIDO-1X,Dermal filler,Starfill Implant Plus,Starfill,Starfill Implant Plus 1.1ml with Lidocaine,1.1ml +lido x1,not named,1,UK/std,brand page only,3,3,supplier page
 FIL:STARFILL-IMPLANTPLUS1-11ML-1X,Dermal filler,Starfill Implant Plus 1,Starfill,Starfill implant plus (1×1.1ml),1.1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:STARFILL-PLUS-11ML-LIDO-1X,Dermal filler,Starfill Plus,Starfill,Starfill Plus Lidocaine 1 x 1.1ml,1.1ml +lido x1,not named,1,UK/std,brand page only,4,4,supplier page
-FIL:FILLER-STYLAGE-UNSPECIFIED-2X,Dermal filler,Stylage,Stylage,Stylage (unspecified),1ml x2,Vivacy,2,UK/std,reference-matched,1,1,https://www.vivacy.com
 FIL:FILLER-STYLAGE-UNSPECIFIED-LIDO,Dermal filler,Stylage,Stylage,Stylage (unspecified) with lidocaine,1ml +lido x1,Vivacy,1,UK/std,reference-matched,1,3,https://www.vivacy.com
 FIL:FILLER-STYLAGE-UNSPECIFIED-LIDO-2X,Dermal filler,Stylage,Stylage,Stylage (unspecified) with lidocaine,1ml +lido x2,Vivacy,2,UK/std,reference-matched,3,12,https://www.vivacy.com
 FIL:FILLER-STYLAGE-HYDRO,Dermal filler,Stylage,Stylage,Stylage Hydro,1ml x1,Vivacy,1,UK/std,reference-matched,13,17,https://www.vivacy.com
@@ -1568,8 +1566,8 @@ FIL:FILLER-STYLAGE-L-LIDO,Dermal filler,Stylage,Stylage,Stylage L,1ml +lido x1,V
 FIL:FILLER-STYLAGE-L-LIDO-2X,Dermal filler,Stylage,Stylage,Stylage L,1ml +lido x2,Vivacy,2,UK/std,reference-matched,14,22,https://www.vivacy.com
 FIL:FILLER-STYLAGE-M-LIDO,Dermal filler,Stylage,Stylage,Stylage M,1ml +lido x1,Vivacy,1,UK/std,reference-matched,1,1,https://www.vivacy.com
 FIL:FILLER-STYLAGE-M-LIDO-2X,Dermal filler,Stylage,Stylage,Stylage M,1ml +lido x2,Vivacy,2,UK/std,reference-matched,14,18,https://www.vivacy.com
-FIL:FILLER-STYLAGE-S-LIDO,Dermal filler,Stylage,Stylage,Stylage S,0.8ml +lido x1,Vivacy,1,UK/std,reference-matched,2,2,https://www.vivacy.com
-FIL:FILLER-STYLAGE-S-LIDO-2X,Dermal filler,Stylage,Stylage,Stylage S,0.8ml +lido x2,Vivacy,2,UK/std,reference-matched,12,17,https://www.vivacy.com
+FIL:FILLER-STYLAGE-S-LIDO,Dermal filler,Stylage,Stylage,Stylage S,0.8ml +lido x1,Vivacy,1,UK/std,reference-matched,1,1,https://www.vivacy.com
+FIL:FILLER-STYLAGE-S-LIDO-2X,Dermal filler,Stylage,Stylage,Stylage S,0.8ml +lido x2,Vivacy,2,UK/std,reference-matched,13,17,https://www.vivacy.com
 FIL:FILLER-STYLAGE-SPECIALLIPS-LIDO,Dermal filler,Stylage,Stylage,Stylage Special Lips,1ml +lido x1,Vivacy,1,UK/std,reference-matched,15,32,https://www.vivacy.com
 FIL:FILLER-STYLAGE-XL-LIDO,Dermal filler,Stylage,Stylage,Stylage XL,1ml +lido x1,Vivacy,1,UK/std,reference-matched,2,2,https://www.vivacy.com
 FIL:FILLER-STYLAGE-XL-LIDO-2X,Dermal filler,Stylage,Stylage,Stylage XL,1ml +lido x2,Vivacy,2,UK/std,reference-matched,12,19,https://www.vivacy.com
@@ -3334,13 +3332,10 @@ BST:MYFILLER-BOOSTER-REVITALIZE-WHITE,Skin booster / PN / mesotherapy,HA bio-rem
 BST:NEAUVIA-HYDRO-DELUXE-HYDRATE-STIMULATE,Skin booster / PN / mesotherapy,HA bio-remodelling,Neauvia Hydro Deluxe,"Neauvia Hydrate, Stimulate & Recover Bundle",,Matex Lab,1,,,1,1,
 BST:NEAUVIA-HYDRO-DELUXE-2.5ML-X2,Skin booster / PN / mesotherapy,HA bio-remodelling,Neauvia Hydro Deluxe,Neauvia Hydro Deluxe 2 x 2.5ml,2.5ml x2,Matex Lab,2,,,3,4,
 BST:NEAUVIA-HYDRO-DELUXE-ORGANIC-2.5ML-X2,Skin booster / PN / mesotherapy,HA bio-remodelling,Neauvia Hydro Deluxe,Neauvia Organic Hydro Deluxe 2 x 2.5ml,2.5ml x2,Matex Lab,2,,,2,2,
-BST:PROFHILO-FACE-103-2ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,3x Profhilo H+L (1 x 2ml) inj. – Get 1x Exom-Rejuvenation Face 103 (1x5ml) Free,2ml,IBSA,1,,,1,1,
-BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,PROFHILO BODY Kit,3ml,IBSA,1,,,13,14,
-BST:PROFHILO-2ML-HG,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo - UK & ROI Pack - Hologram Box,2ml,IBSA,1,HG,,6,6,
-BST:PROFHILO-2ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo 1x2ml,2ml,IBSA,1,,,19,23,
-BST:PROFHILO-BODY-3ML-X2,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Body Kit 2 X 3ml,3ml x2,IBSA,2,,,1,1,
-BST:PROFHILO-HAENKENIUM-50ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Haenkenium Cream (1 x 50ml),50ml,IBSA,1,,,2,2,
-BST:PROFHILO-STRUCTURA-2ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Structura (1 x 2ml),2ml,IBSA,1,,,19,20,
+BST:BST-PROFHILO-BODY,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Body,3ml,IBSA,1,,reference-matched,13,14,
+BST:BST-PROFHILO-BODY-2X,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Body,3ml x2,IBSA,2,,reference-matched,1,1,
+BST:BST-PROFHILO-HL,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo H+L,2ml,IBSA,1,,reference-matched,19,28,
+BST:BST-PROFHILO-STRUCTURA,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Structura,2ml,IBSA,1,,reference-matched,19,20,
 BST:REVITRANE-HA-10-1ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Revitrane,Revitrane HA 10 Premium (1x1ml),1ml,Revitrane,1,,,3,5,
 BST:REVITRANE-HA10-CLASSIC,Skin booster / PN / mesotherapy,HA bio-remodelling,Revitrane,Revitrane HA10 Classic,,Revitrane,1,,,2,2,
 BST:REVITRANE-HA10-VOLUME,Skin booster / PN / mesotherapy,HA bio-remodelling,Revitrane,Revitrane HA10 Volume,,Revitrane,1,,,1,1,
@@ -4067,6 +4062,7 @@ BST:VELORA-CHP-2ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (o
 BST:XL-HAIR-5ML-X6,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Xl,XL Hair 6 X 5ml,5ml x6,,6,,,1,1,
 BST:XOMAGE-FACE-100MG,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Xomage,Xomage Face 100mg/Vial,100mg,,1,,,1,1,
 BST:XOMAGE-HAIR,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Xomage,Xomage Hair,,,1,,,1,1,
+BST:BST-PROFHILO-HAENKENIUMCREAM,Skin booster / PN / mesotherapy,Skincare (topical),Profhilo,Profhilo Haenkenium Cream,50ml,IBSA,1,,reference-matched,2,2,
 SKN:ALASTIN-TRANSFORM-BODY-COMPLEX-170G,"Skincare, haircare & peels",Body / hand,Alastin,Alastin Transform Body Complex 170g,170g,,,,,2,3,
 SKN:BODY-COMPLEX-180G,"Skincare, haircare & peels",Body / hand,Body,Body Complex 180g,180g,,,,,1,1,
 SKN:BODY-SMOOTHING-CREME-GBL-53OZ,"Skincare, haircare & peels",Body / hand,Body,Body Smoothing Creme 53 Oz Gbl,53oz,,,,,1,2,
