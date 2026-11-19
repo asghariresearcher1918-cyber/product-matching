@@ -16,6 +16,7 @@ MANUF = {"Teosyal": "Teoxane", "Juvederm": "Allergan / AbbVie", "Stylage": "Viva
 CATS = [
  dict(kind="filler", ref="fillers.csv", lmap="filler_listing_map.csv", prod="filler_products.csv", tag="FIL", prefix="FILLER"),
  dict(kind="booster", ref="boosters.csv", lmap="booster_listing_map.csv", prod="booster_products.csv", tag="BST", prefix="BST"),
+ dict(kind="skincare", ref="skincare.csv", lmap="skincare_listing_map.csv", prod="skincare_products.csv", tag="SKN", prefix="SKIN"),
 ]
 BUNDLE = re.compile(r"\bfree\b|get 1|get one|\+ ?1 ?x|buy 1 get|bundle|worth £|multibuy", re.I)
 
@@ -83,10 +84,13 @@ def run(cfg, refnames):
             p = prods.setdefault(code, dict(code=code, brand=rb, line=line, equivalence_group=rb, manufacturer=MANUF.get(rb, ""),
                                             ha="yes", volume_ml=vol, lidocaine="yes" if lido else "no", syringes_per_pack=packn,
                                             market="UK/std", brand_verified="yes (reference)", source=best["source"], suppliers=set(), listings=0))
-        else:
+        elif cfg["kind"] == "booster":
             p = prods.setdefault(code, dict(code=code, active_class=best.get("active_class", ""), brand=rb, line=line,
                                             volume=(vol + "ml") if vol else "", pack=packn, market="", manufacturer=MANUF.get(rb, ""),
                                             brand_verified="yes (reference)", suppliers=set(), listings=0))
+        else:  # skincare
+            p = prods.setdefault(code, dict(code=code, function=best.get("active_class", ""), brand=rb, name=name,
+                                            size=best["pack"], brand_verified="yes (reference)", suppliers=set(), listings=0))
         p["suppliers"].add(m["supplier"]); p["listings"] += 1
 
     for p in prods.values():
@@ -99,9 +103,12 @@ def run(cfg, refnames):
         pc = ["code", "brand", "line", "equivalence_group", "manufacturer", "ha", "volume_ml", "lidocaine",
               "syringes_per_pack", "market", "brand_verified", "suppliers", "listings", "source"]
         skey = lambda p: (p["brand"], p["line"], p["code"])
-    else:
+    elif cfg["kind"] == "booster":
         pc = ["code", "active_class", "brand", "line", "volume", "pack", "market", "manufacturer", "suppliers", "listings"]
         skey = lambda p: (p.get("active_class", ""), p["brand"], p["code"])
+    else:  # skincare
+        pc = ["code", "function", "brand", "name", "size", "suppliers", "listings"]
+        skey = lambda p: (p.get("function", ""), p["brand"], p["code"])
     with open(FINAL / cfg["prod"], "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=pc, extrasaction="ignore"); w.writeheader()
         w.writerows(sorted(prods.values(), key=skey))

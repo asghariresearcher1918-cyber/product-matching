@@ -20,9 +20,8 @@ IBSA = "https://ibsaderma.com/products/profhilo/"
 add("Profhilo", "Profhilo Body Kit", HA, "2 x 3ml", ["body kit"], IBSA)   # supplier titles say "Body Kit" = 2 x 3ml
 add("Profhilo", "Profhilo Body", HA, "1 x 3ml", ["body"], IBSA)
 add("Profhilo", "Profhilo Structura", HA, "1 x 2ml", ["structura"], IBSA)
-add("Profhilo", "Profhilo Haenkenium Cream", SK, "50ml", ["haenkenium"], IBSA)
-add("Profhilo", "Profhilo Figura", SK, "", ["figura"], IBSA)
 add("Profhilo", "Profhilo H+L", HA, "1 x 2ml", ["h+l", "h l", "hl ", "hl("], IBSA, default="yes")
+# Haenkenium / Figura / Pura are TOPICAL (skincare) - handled in data/reference/skincare.csv, not here
 
 # ---- Sunekos (Professional Derma) ----
 SUN = "https://sunekos.com"

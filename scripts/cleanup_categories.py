@@ -58,6 +58,13 @@ for m in dev:
 # ---- skincare rows that are really licensed POM topicals (exclude cosmeceutical azelaic brands) ----
 POM = re.compile(r"\bemla\b|\bfucidin\b|\bdaktacort\b|hydrocortisone|\bbetnovate\b|\bdifferin\b|\brozex\b|\bskinoren\b|"
                  r"\befudix\b|aciclovir|\bzovirax\b|virasorb|\bdermovate\b|\beumovate\b|\belocon\b|\bfinacea\b", re.I)
+SKINCARE = "Skincare, haircare & peels"
+# Profhilo topical products (Haenkenium / Figura / Pura) are skincare, not injectable boosters
+PROFHILO_TOPICAL = re.compile(r"profhilo.*(haenkenium|figura|pura|micellar)|(haenkenium|figura).*profhilo", re.I)
+for m in master:
+    if PROFHILO_TOPICAL.search(title_of(m)) and m["id"] not in recats:
+        recats[m["id"]] = (SKINCARE, "re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster")
+
 COSMECEUTICAL = re.compile(r"\bnoon\b|azelaicbr|azelaics\b", re.I)  # Noon Aesthetics azelaic = cosmeceutical, keep in skincare
 SKIN_CATS = {"Skincare, haircare & peels", MED_TOP}  # match current or already-re-filed rows (idempotent)
 for m in master:

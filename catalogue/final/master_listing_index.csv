@@ -2737,7 +2737,6 @@ BST:POLYPHIL-HAIR-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,PolyPhi
 BST:POLYPHIL-NEXT-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,PolyPhil Next,https://www.dradamspharmacy.co.uk/products/view/92,rule
 BST:BST-PROFHILO-HL,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Profhilo,https://www.dradamspharmacy.co.uk/products/view/148,rule
 BST:BST-PROFHILO-BODYKIT-2X,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Profhilo Body Kit (1kit),https://www.dradamspharmacy.co.uk/products/view/150,rule
-BST:BST-PROFHILO-HAENKENIUMCREAM,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Profhilo Haenkenium Cream (1 x 50ml),https://www.dradamspharmacy.co.uk/products/view/306,high
 BST:BST-PROFHILO-STRUCTURA,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Profhilo Structura (1 x 2ml),https://www.dradamspharmacy.co.uk/products/view/151,high
 BST:PROSTROLANE-BLANC-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Prostrolane Blanc-B 2ml,https://www.dradamspharmacy.co.uk/products/view/557,high
 BST:PROSTROLANE-INNER-2ML-X2,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Prostrolane Inner-B (2 x 2ml),https://www.dradamspharmacy.co.uk/products/view/580,high
@@ -3188,7 +3187,6 @@ BST:PLURYAL-MESOLINE-SHINE-5ML-X5,Skin booster / PN / mesotherapy,Wimpole Filler
 BST:PLURYAL-MESOLINE-TIGHT-5ML-X5,Skin booster / PN / mesotherapy,Wimpole Fillers,Pluryal Mesoline Tight (5 vials x 5ml) Vial,https://wimpolefillers.co.uk/product/pluryal-mesoline-tight-5-vials-x-5ml/,high
 BST:CYTOCARE-640-LINE-4ML-X5,Skin booster / PN / mesotherapy,Wimpole Fillers,CytoCare 640 C Line (5 x 4ml) Vial,https://wimpolefillers.co.uk/product/cytocare-640-c-line-5-x-4ml/,high
 BST:CYTOCARE-715-LINE-5ML-X5,Skin booster / PN / mesotherapy,Wimpole Fillers,Cytocare 715 C Line (5 x 5ml) Vial,https://wimpolefillers.co.uk/product/cytocare-715-c-line-5-x-5ml/,high
-BST:BST-PROFHILO-HAENKENIUMCREAM,Skin booster / PN / mesotherapy,Wimpole Fillers,Profhilo Haenkenium (1 x 50ml),https://wimpolefillers.co.uk/product/profhilo-haenkenium-1-x-50ml/,high
 BST:BST-JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,Wimpole Fillers,Jalupro Enhancer Gel for Eyelashes and Eyebrows (1 x 6ml),https://wimpolefillers.co.uk/product/jalupro-enhancer-gel-for-eyelashes-and-eyebrows-1-x-9ml/,high
 BST:BST-PROFHILO-BODYKIT-2X,Skin booster / PN / mesotherapy,Wimpole Fillers,Profhilo Body Kit inj.,https://wimpolefillers.co.uk/product/profhilo-body-kit/,rule
 BST:BST-NUCLEOFILL-SOFTPLUSEYES,Skin booster / PN / mesotherapy,Wimpole Fillers,Nucleofill Soft plus (1 X 2ML) Inj.,https://wimpolefillers.co.uk/product/nucleofill-soft-plus-1-x-2ml-inj/,high
@@ -6204,9 +6202,9 @@ SKN:PCA-SKIN-WEIGHTLESS-PROTECTION-BROAD-SPECTRUM-SPF-7.1G,"Skincare, haircare &
 SKN:POCKET-CHAMBER-ADULT-MASK,"Skincare, haircare & peels",Church Pharmacy,pocket chamber adult mask,https://store.churchpharmacy.co.uk/product/pocket-chamber-adult-mask-103501,high
 SKN:POLYTAR-SHAMPOO-150ML,"Skincare, haircare & peels",Church Pharmacy,polytar shampoo,https://store.churchpharmacy.co.uk/product/polytar-shampoo-118097,high
 SKN:POST-PROCEDURE-HYDROGEL-BELOTERO-HEATCOOL,"Skincare, haircare & peels",Church Pharmacy,post procedure hydrogel belotero heatcool pack,https://store.churchpharmacy.co.uk/product/post-procedure-hydrogel-belotero-heatcool-pack-117613,high
-SKN:PROFHILO-TOPICAL-FIGURA-BODY-CREAM-150ML,"Skincare, haircare & peels",Church Pharmacy,profhilo figura body cream,https://store.churchpharmacy.co.uk/product/profhilo-figura-body-cream-120811,high
-SKN:PROFHILO-TOPICAL-HAENKENIUM-50ML,"Skincare, haircare & peels",Church Pharmacy,profhilo haenkenium,https://store.churchpharmacy.co.uk/product/profhilo-haenkenium-117053,high
-SKN:PROFHILO-TOPICAL-PURA-MICELLAR-WATER-400ML,"Skincare, haircare & peels",Church Pharmacy,profhilo pura micellar water,https://store.churchpharmacy.co.uk/product/profhilo-pura-micellar-water-119029,high
+SKN:SKIN-PROFHILO-FIGURABODYCREAM,"Skincare, haircare & peels",Church Pharmacy,profhilo figura body cream,https://store.churchpharmacy.co.uk/product/profhilo-figura-body-cream-120811,high
+SKN:SKIN-PROFHILO-HAENKENIUMCREAM,"Skincare, haircare & peels",Church Pharmacy,profhilo haenkenium,https://store.churchpharmacy.co.uk/product/profhilo-haenkenium-117053,high
+SKN:SKIN-PROFHILO-PURAMICELLARWATER,"Skincare, haircare & peels",Church Pharmacy,profhilo pura micellar water,https://store.churchpharmacy.co.uk/product/profhilo-pura-micellar-water-119029,high
 SKN:PRXT33-VIALS-4ML,"Skincare, haircare & peels",Church Pharmacy,prxt33 5 vials x 4 ml,https://store.churchpharmacy.co.uk/product/prxt33-5-vials-x-4-ml-122899,high
 SKN:QUINODERM-FACE-WASH-150ML,"Skincare, haircare & peels",Church Pharmacy,quinoderm face wash,https://store.churchpharmacy.co.uk/product/quinoderm-face-wash-9299,high
 SKN:RADARA-UNDER-EYE-LINES-CROWS-FEET,"Skincare, haircare & peels",Church Pharmacy,radara under eye lines and crows feet,https://store.churchpharmacy.co.uk/product/radara-under-eye-lines-and-crows-feet-116932,high
@@ -6578,11 +6576,11 @@ SKN:SOOTHING-HYDRO-MIST-GBL-100ML,"Skincare, haircare & peels",ACRE Pharmacy,soo
 SKN:SMART-TONE-BROADSPECTRUM-SPF50-INTL-45ML,"Skincare, haircare & peels",ACRE Pharmacy,smart tone broadspectrum spf50 45ml intl stock item vat payable,https://www.acrepharmacy.co.uk/product/smart-tone-broadspectrum-spf50-45ml-intl-stock-item-vat-payable/01tTw00000GQm3XIAT,high
 SKN:SMART-TONE-BROADSPECTRUM-SPF50-INTL-45ML,"Skincare, haircare & peels",ACRE Pharmacy,smart tone broadspectrum spf50 45ml intl prescription item zero vat,https://www.acrepharmacy.co.uk/product/smart-tone-broadspectrum-spf50-45ml-intl-prescription-item-zero-vat/01tTw00000GQm3WIAT,high
 SKN:SKIN-BRIGHTENING-SHEET-MASQUE-50PK-GBL,"Skincare, haircare & peels",ACRE Pharmacy,skin brightening sheet masque 50pk gbl stock item vat payable,https://www.acrepharmacy.co.uk/product/skin-brightening-sheet-masque-50pk-gbl-stock-item-vat-payable/01tTw00000GQm3OIAT,high
-SKN:PROFHILO-TOPICAL-PURA-400ML,"Skincare, haircare & peels",ACRE Pharmacy,profhilo pura 400ml stock item vat payable,https://www.acrepharmacy.co.uk/product/profhilo-pura-400ml-stock-item-vat-payable/01tTw00000GQlTVIA1,high
-SKN:PROFHILO-TOPICAL-PURA-400ML,"Skincare, haircare & peels",ACRE Pharmacy,profhilo pura 400ml prescription item zero vat,https://www.acrepharmacy.co.uk/product/profhilo-pura-400ml-prescription-item-zero-vat/01tTw00000GQlN3IAL,high
+SKN:SKIN-PROFHILO-PURAMICELLARWATER,"Skincare, haircare & peels",ACRE Pharmacy,profhilo pura 400ml stock item vat payable,https://www.acrepharmacy.co.uk/product/profhilo-pura-400ml-stock-item-vat-payable/01tTw00000GQlTVIA1,high
+SKN:SKIN-PROFHILO-PURAMICELLARWATER,"Skincare, haircare & peels",ACRE Pharmacy,profhilo pura 400ml prescription item zero vat,https://www.acrepharmacy.co.uk/product/profhilo-pura-400ml-prescription-item-zero-vat/01tTw00000GQlN3IAL,high
 SKN:NOON-AESTHETICS-DE-FLAME-150ML,"Skincare, haircare & peels",ACRE Pharmacy,noon de flame 150ml new stock item pay vat,https://www.acrepharmacy.co.uk/product/noon-de-flame-150ml-new-stock-item-pay-vat/01tTw00000GQhL3IAL,high
-SKN:PROFHILO-TOPICAL-FIGURA-BODY-CREAM-150ML,"Skincare, haircare & peels",ACRE Pharmacy,profhilo figura body cream 150ml stock item vat payable,https://www.acrepharmacy.co.uk/product/profhilo-figura-body-cream-150ml-stock-item-vat-payable/01tTw00000GQfntIAD,high
-SKN:PROFHILO-TOPICAL-FIGURA-BODY-CREAM-150ML,"Skincare, haircare & peels",ACRE Pharmacy,profhilo figura body cream 150ml prescription item zero vat,https://www.acrepharmacy.co.uk/product/profhilo-figura-body-cream-150ml-prescription-item-zero-vat/01tTw00000GQfhRIAT,high
+SKN:SKIN-PROFHILO-FIGURABODYCREAM,"Skincare, haircare & peels",ACRE Pharmacy,profhilo figura body cream 150ml stock item vat payable,https://www.acrepharmacy.co.uk/product/profhilo-figura-body-cream-150ml-stock-item-vat-payable/01tTw00000GQfntIAD,high
+SKN:SKIN-PROFHILO-FIGURABODYCREAM,"Skincare, haircare & peels",ACRE Pharmacy,profhilo figura body cream 150ml prescription item zero vat,https://www.acrepharmacy.co.uk/product/profhilo-figura-body-cream-150ml-prescription-item-zero-vat/01tTw00000GQfhRIAT,high
 SKN:10-VITAMIN-GBL-50ML,"Skincare, haircare & peels",ACRE Pharmacy,10 vitamin c 50ml gbl prescription item zero vat,https://www.acrepharmacy.co.uk/product/10-vitamin-c-50ml-gbl-prescription-item-zero-vat/01tTw00000GQcmpIAD,high
 SKN:10-VITAMIN-GBL-50ML,"Skincare, haircare & peels",ACRE Pharmacy,10 vitamin c 50ml gbl stock item vat payable,https://www.acrepharmacy.co.uk/product/10-vitamin-c-50ml-gbl-stock-item-vat-payable/01tTw00000GQcmnIAD,high
 SKN:TEOXANE-RHA-SERUM-30ML,"Skincare, haircare & peels",ACRE Pharmacy,teoxane rha serum 30ml stock item vat payable,https://www.acrepharmacy.co.uk/product/teoxane-rha-serum-30ml-stock-item-vat-payable/01tTw00000FrD89IAF,high
@@ -6836,7 +6834,7 @@ SKN:NOON-AESTHETICS-EXPERIENCE-STARTER,"Skincare, haircare & peels",ACRE Pharmac
 SKN:NOON-AESTHETICS-RESTART-SERUM-50ML,"Skincare, haircare & peels",ACRE Pharmacy,noon restart serum 50ml stock item vat payable,https://www.acrepharmacy.co.uk/product/noon-restart-serum-50ml-stock-item-vat-payable/01tTw000002RcgSIAS,high
 SKN:NOON-AESTHETICS-ANTIAGING-STARTER,"Skincare, haircare & peels",ACRE Pharmacy,noon antiaging starter kit stock item vat payable,https://www.acrepharmacy.co.uk/product/noon-antiaging-starter-kit-stock-item-vat-payable/01tTw000002RcgHIAS,high
 SKN:NOON-AESTHETICS-REFORM-EYE-CREAM-15ML,"Skincare, haircare & peels",ACRE Pharmacy,noon reform eye cream 15ml stock item vat payable,https://www.acrepharmacy.co.uk/product/noon-reform-eye-cream-15ml-stock-item-vat-payable/01tTw000002Rcg6IAC,high
-SKN:PROFHILO-TOPICAL-HAENKENIUM-50ML,"Skincare, haircare & peels",ACRE Pharmacy,profhilo haenkenium 50ml stock item pay vat,https://www.acrepharmacy.co.uk/product/profhilo-haenkenium-50ml-stock-item-pay-vat/01t8d000007lBhYAAU,high
+SKN:SKIN-PROFHILO-HAENKENIUMCREAM,"Skincare, haircare & peels",ACRE Pharmacy,profhilo haenkenium 50ml stock item pay vat,https://www.acrepharmacy.co.uk/product/profhilo-haenkenium-50ml-stock-item-pay-vat/01t8d000007lBhYAAU,high
 SKN:LMX4-CREAM-5G,"Skincare, haircare & peels",ACRE Pharmacy,lmx4 4 cream 5g prescription item zero vat,https://www.acrepharmacy.co.uk/product/lmx4-4-cream-5g-prescription-item-zero-vat/01t8d000007lBfUAAU,high
 SKN:LMX4-CREAM-30G,"Skincare, haircare & peels",ACRE Pharmacy,lmx4 4 cream 30g prescription item zero vat,https://www.acrepharmacy.co.uk/product/lmx4-4-cream-30g-prescription-item-zero-vat/01t8d000007lBfSAAU,high
 SKN:ARNICARE-ARNICA-CREAM-30G,"Skincare, haircare & peels",ACRE Pharmacy,arnicare arnica cream 30g prescription item zero vat,https://www.acrepharmacy.co.uk/product/arnicare-arnica-cream-30g-prescription-item-zero-vat/01t8d000007lBZ8AAM,high
@@ -7041,9 +7039,9 @@ SKN:ORAJEL-DENTAL-GEL-EXTRA-STRENGTH-5.3G,"Skincare, haircare & peels",John Bann
 SKN:ORAJEL-DENTAL-GEL-5.3G,"Skincare, haircare & peels",John Bannon Pharmacy,Orajel Dental Gel Regular 5.3g,https://www.johnbannonpharmacy.co.uk/products/orajel-dental-gel-regular-53g.html,high
 SKN:PHARMA-HERMETIC-ANTI-HAIR-LOSS-SHAMPOO-400ML,"Skincare, haircare & peels",John Bannon Pharmacy,Pharma Hermetic Anti-Hair Loss Shampoo 400ml,https://www.johnbannonpharmacy.co.uk/products/pharma-hermetic-pharma-hermetic-anti-hair-loss-shampoo-400ml.html,high
 SKN:PHARMA-HERMETIC-NOURISHING-HAIR-MASK-250ML,"Skincare, haircare & peels",John Bannon Pharmacy,Pharma Hermetic Nourishing Hair Mask 250ml,https://www.johnbannonpharmacy.co.uk/products/pharma-hermetic-pharma-hermetic-nourishing-hair-mask-250ml.html,high
-SKN:PROFHILO-TOPICAL-FIGURA-BODY-CREAM-150ML,"Skincare, haircare & peels",John Bannon Pharmacy,Profhilo FIGURA Body Cream 150ml,https://www.johnbannonpharmacy.co.uk/products/ibsa-profhilo-figura-body-cream-150ml.html,high
-SKN:PROFHILO-TOPICAL-HAENKENIUM-CREAM-50ML,"Skincare, haircare & peels",John Bannon Pharmacy,Profhilo Haenkenium Cream 50ml,https://www.johnbannonpharmacy.co.uk/products/ibsa-profhilo-haenkenium-cream-50ml.html,high
-SKN:PROFHILO-TOPICAL-PURA-MICELLAR-WATER-400ML,"Skincare, haircare & peels",John Bannon Pharmacy,Profhilo Pura Micellar Water 400ml,https://www.johnbannonpharmacy.co.uk/products/ibsa-profhilo-pura-micellar-water-400ml.html,high
+SKN:SKIN-PROFHILO-FIGURABODYCREAM,"Skincare, haircare & peels",John Bannon Pharmacy,Profhilo FIGURA Body Cream 150ml,https://www.johnbannonpharmacy.co.uk/products/ibsa-profhilo-figura-body-cream-150ml.html,high
+SKN:SKIN-PROFHILO-HAENKENIUMCREAM,"Skincare, haircare & peels",John Bannon Pharmacy,Profhilo Haenkenium Cream 50ml,https://www.johnbannonpharmacy.co.uk/products/ibsa-profhilo-haenkenium-cream-50ml.html,high
+SKN:SKIN-PROFHILO-PURAMICELLARWATER,"Skincare, haircare & peels",John Bannon Pharmacy,Profhilo Pura Micellar Water 400ml,https://www.johnbannonpharmacy.co.uk/products/ibsa-profhilo-pura-micellar-water-400ml.html,high
 SKN:PRX-T33-PEEL-4ML,"Skincare, haircare & peels",John Bannon Pharmacy,Prx-T33-Peel 5 x 4ml,https://www.johnbannonpharmacy.co.uk/products/wiqo-prx-t33-peel-5-x-4ml.html,rule
 SKN:PURASOMES-GF20-CREAM-50ML,"Skincare, haircare & peels",John Bannon Pharmacy,Purasomes GF20 Cream x 50ml,https://www.johnbannonpharmacy.co.uk/products/dermafocus-purasomes-gf20-cream-x-50ml.html,high
 SKN:REGAINE-EXTRA-STRENGTH-60ML,"Skincare, haircare & peels",John Bannon Pharmacy,Regaine Extra Strength 60ml x 3,https://www.johnbannonpharmacy.co.uk/products/regaine-regaine-extra-strength-60ml-x-3.html,high
@@ -7266,6 +7264,7 @@ SKN:MESOESTETIC-PROTEOGLYCAN-AMPOULE-2ML,"Skincare, haircare & peels",Dr. Adams 
 SKN:MESOESTETIC-SKINRETIN-100ML,"Skincare, haircare & peels",Dr. Adams Pharmacy,Mesoestetic Skinretin 1% (1 x 100ml),https://www.dradamspharmacy.co.uk/products/view/357,high
 SKN:MESOESTETIC-PROF-010-ARTICHOKE-EXTRACT-AMPOULES-5ML,"Skincare, haircare & peels",Dr. Adams Pharmacy,Mesoestetic X.Prof 010 Artichoke Extract Ampoules (20 x 5ml),https://www.dradamspharmacy.co.uk/products/view/350,high
 SKN:NECTAR-POST-RECOVERY,"Skincare, haircare & peels",Dr. Adams Pharmacy,NECTAR Post-Treatment Recovery,https://www.dradamspharmacy.co.uk/products/view/405,high
+SKN:SKIN-PROFHILO-HAENKENIUMCREAM,"Skincare, haircare & peels",Dr. Adams Pharmacy,Profhilo Haenkenium Cream (1 x 50ml),https://www.dradamspharmacy.co.uk/products/view/306,high
 SKN:PRX-SOLUTION-300ML,"Skincare, haircare & peels",Dr. Adams Pharmacy,PRX P-Solution,https://www.dradamspharmacy.co.uk/products/view/313,high
 SKN:PRX-PLUS-4ML,"Skincare, haircare & peels",Dr. Adams Pharmacy,PRX Plus (5 x 4ml),https://www.dradamspharmacy.co.uk/products/view/575,high
 SKN:PRX-THERAPY,"Skincare, haircare & peels",Dr. Adams Pharmacy,PRX Therapy Kit,https://www.dradamspharmacy.co.uk/products/view/311,high
@@ -7802,6 +7801,7 @@ SKN:INNO-EXFO-AGE-VIAL-25ML,"Skincare, haircare & peels",Wimpole Fillers,INNO-EX
 SKN:INNO-EXFO-RECOVERY-VIALS-5ML,"Skincare, haircare & peels",Wimpole Fillers,INNO-EXFO Skin Recovery 5 vials x 5ml,https://wimpolefillers.co.uk/product/inno-exfo-skin-recovery-1-x-25ml/,high
 SKN:INNO-EXFO-LIGHTENING-15G,"Skincare, haircare & peels",Wimpole Fillers,INNO-EXFO Lightening (1 x 15g),https://wimpolefillers.co.uk/product/inno-exfo-lightening-1-x-15g/,high
 SKN:INNO-EXFO-DEGREASING-SOLUTION-100ML,"Skincare, haircare & peels",Wimpole Fillers,INNO-EXFO Degreasing Solution (1 x 100ml),https://wimpolefillers.co.uk/product/inno-exfo-degreasing-solution-1-x-100ml/,high
+SKN:SKIN-PROFHILO-HAENKENIUMCREAM,"Skincare, haircare & peels",Wimpole Fillers,Profhilo Haenkenium (1 x 50ml),https://wimpolefillers.co.uk/product/profhilo-haenkenium-1-x-50ml/,high
 SKN:TEOXANE-3D-LIP-10ML,"Skincare, haircare & peels",Wimpole Fillers,Teoxane 3D Lip (1 x 10ml),https://wimpolefillers.co.uk/product/teoxane-3d-lip-1-x-10ml/,high
 SKN:TEOXANE-FILLER-DRY-50ML,"Skincare, haircare & peels",Wimpole Fillers,Teoxane Advanced Filler Dry Skin (1 x 50ml),https://wimpolefillers.co.uk/product/teoxane-advanced-filler-dry-skin-1-x-50ml/,high
 SKN:TEOXANE-FILLER-NORMAL-TO-COMBINATION-50ML,"Skincare, haircare & peels",Wimpole Fillers,Teoxane Advanced Filler Normal to Combination Skin (1 x 50ml),https://wimpolefillers.co.uk/product/teoxane-advanced-filler-normal-to-combination-skin-1-x-50ml/,high
@@ -8171,9 +8171,9 @@ SKN:OBAGI-RETINOL-28G,"Skincare, haircare & peels",Healthxchange,OBAGI Retinol 1
 SKN:OBAGI-SUN-SHIELD-MINERAL-BROAD-SPECTRUM-85G,"Skincare, haircare & peels",Healthxchange,Obagi SUN SHIELD Mineral Broad Spectrum SPF50+ Sunscreen Lotion 85g,https://www.healthxchange.com/products/obagi-sun-shield-mineral-broad-spectrum-spf50-sunscreen-lotion-85g,high
 SKN:OBAGI-SUN-SHIELD-SPF50-TINT-WARM-85G,"Skincare, haircare & peels",Healthxchange,OBAGI Sun Shield SPF50 85g Tint Warm,https://www.healthxchange.com/products/obagi-sun-shield-spf50-85g-tint-warm,high
 SKN:OBAGI-FX-CLARIFYING-SERUM-30ML,"Skincare, haircare & peels",Healthxchange,OBAGI-C Fx Clarifying SERUM (Arbutin) 30ml,https://www.healthxchange.com/products/obagi-c-fx-clarifying-serum-30ml,high
-SKN:PROFHILO-TOPICAL-HAENKENIUM-CREAM-50ML,"Skincare, haircare & peels",Healthxchange,Profhilo Haenkenium Cream 50ml,https://www.healthxchange.com/products/profhilo-haenkenium-cream-50ml,high
-SKN:PROFHILO-TOPICAL-HAENKENIUM-CREAM-50ML,"Skincare, haircare & peels",Healthxchange,Profhilo Haenkenium Cream 50ml,https://www.healthxchange.com/products/profhilo-haenkenium-cream-50ml-1,high
-SKN:PROFHILO-TOPICAL-PURA-400ML,"Skincare, haircare & peels",Healthxchange,Profhilo Pura 400ml (Micellar Cleansing Water),https://www.healthxchange.com/products/profhilo-pura-400ml-micellar-cleansing-water,high
+SKN:SKIN-PROFHILO-HAENKENIUMCREAM,"Skincare, haircare & peels",Healthxchange,Profhilo Haenkenium Cream 50ml,https://www.healthxchange.com/products/profhilo-haenkenium-cream-50ml,high
+SKN:SKIN-PROFHILO-HAENKENIUMCREAM,"Skincare, haircare & peels",Healthxchange,Profhilo Haenkenium Cream 50ml,https://www.healthxchange.com/products/profhilo-haenkenium-cream-50ml-1,high
+SKN:SKIN-PROFHILO-PURAMICELLARWATER,"Skincare, haircare & peels",Healthxchange,Profhilo Pura 400ml (Micellar Cleansing Water),https://www.healthxchange.com/products/profhilo-pura-400ml-micellar-cleansing-water,high
 SKN:SOFTFIL-TOPILASE-3ML,"Skincare, haircare & peels",Healthxchange,SOFTFIL Topilase 3ml,https://www.healthxchange.com/products/softfil-topilase-3ml,high
 SKN:SOOLANTRA-10MG-CREAM-45G,"Skincare, haircare & peels",Healthxchange,Soolantra 10mg/g Cream 45g (POM),https://www.healthxchange.com/products/soolantra-10mg-g-cream-45g-pom,high
 SKN:VISCODERM-TOPICAL-COVER-UP-CREAM-DARK-20ML,"Skincare, haircare & peels",Healthxchange,Viscoderm Cover Up Cream Dark 20ml,https://www.healthxchange.com/products/viscoderm-cover-up-cream-dark-20ml,high

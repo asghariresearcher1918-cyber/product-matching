@@ -216,7 +216,6 @@ R02935,Devices & equipment,ProFacial device solution
 R02132,Devices & equipment,ProFacial device part
 R02133,Devices & equipment,ProFacial device part
 R02137,Devices & equipment,ProFacial device part
-R02144,"Skincare, haircare & peels",micellar water
 R02148,Clinic consumables & PPE,wound gel
 R02165,Clinic consumables & PPE,door handle cover
 R02166,Clinic consumables & PPE,door handle cover
@@ -1336,8 +1335,12 @@ N00108,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: ad
 N00109,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 N00121,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 N00122,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+N00504,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
+N00505,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
+N00506,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
 N00532,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 N00613,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+N00760,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
 N00808,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 N00812,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 N00835,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
@@ -1369,6 +1372,9 @@ R01345,Medicine - topical / eye / other,re-filed from Skincare: licensed POM top
 R01501,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
 R01502,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
 R01814,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R02142,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
+R02143,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
+R02144,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
 R02250,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R02406,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R02884,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
@@ -1379,7 +1385,12 @@ R03032,Medicine - topical / eye / other,re-filed from Skincare: licensed POM top
 R03040,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R03103,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R03185,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R03616,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
+R03617,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
+R03620,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
+R03621,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
 R04004,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R04244,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
 R04331,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R04332,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04333,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
@@ -1406,6 +1417,9 @@ R04816,Medicine - topical / eye / other,re-filed from Skincare: licensed POM top
 R04817,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04928,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
 R04929,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
+R05161,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
+R05162,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
+R05163,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
 R05201,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R05202,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R05244,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
@@ -1431,6 +1445,7 @@ R06392,Medicine - topical / eye / other,re-filed from Skincare: licensed POM top
 R06418,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R06419,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R06435,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R06623,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
 R06974,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R07487,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R07489,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
@@ -1438,6 +1453,7 @@ R07530,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: de
 R07531,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
 R07591,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R07729,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R09355,"Skincare, haircare & peels","re-filed: Profhilo topical (Haenkenium/Figura/Pura) is skincare, not a booster"
 R10305,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R10322,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R10342,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)

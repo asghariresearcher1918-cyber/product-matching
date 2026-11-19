@@ -349,7 +349,7 @@ PCA-SKIN-FACIAL-WASH-OILYPROBLEM-29.6ML,Cleanser / wash,PCA Skin,facial wash oil
 PCA-SKIN-FACIAL-WASH-OILYPROBLEM-473.2ML,Cleanser / wash,PCA Skin,facial wash oilyproblem,473.2ml,1,1
 PAPAYA-ENZYME-CLEANSER,Cleanser / wash,Papaya,Enzyme Cleanser,,1,1
 PHA-FACIAL-CLEANSER,Cleanser / wash,Pha,Facial Cleanser,,1,1
-PROFHILO-TOPICAL-PURA-MICELLAR-WATER-400ML,Cleanser / wash,Profhilo (topical),pura micellar water,400ml,2,2
+SKIN-PROFHILO-PURAMICELLARWATER,Cleanser / wash,Profhilo,Profhilo Pura Micellar Water,400ml,4,5
 Q+SOD-ACTIVE-CLEANSER,Cleanser / wash,Q+Sod,Active Cleanser,,1,1
 QUINODERM-FACE-WASH-150ML,Cleanser / wash,Quinoderm,face wash,150ml,1,1
 RAIN-BALANCING-CLEANSER,Cleanser / wash,Rain,Balancing Cleanser,,1,1
@@ -1008,8 +1008,8 @@ PCA-SKIN-SILKCOAT-BALM-7.1G,Moisturiser / cream,PCA Skin,silkcoat balm,7.1g,1,1
 PCA-SKIN-SILKCOAT-BALM-OUTER-DAMAGED-BUT-48.2G,Moisturiser / cream,PCA Skin,silkcoat balm outer damaged but,48.2g,1,1
 PRIORI-MOISTURISING-FACIAL-CREAM-COMPLEX,Moisturiser / cream,Priori,Moisturising Facial Cream Complex,,1,1
 PRIORI-PERFECTION-FACIAL-GEL,Moisturiser / cream,Priori,Perfection Facial Gel,,1,1
-PROFHILO-TOPICAL-FIGURA-BODY-CREAM-150ML,Moisturiser / cream,Profhilo (topical),figura body cream,150ml,3,4
-PROFHILO-TOPICAL-HAENKENIUM-CREAM-50ML,Moisturiser / cream,Profhilo (topical),Haenkenium Cream,50ml,2,3
+SKIN-PROFHILO-FIGURABODYCREAM,Moisturiser / cream,Profhilo,Profhilo Figura Body Cream,150ml,3,4
+SKIN-PROFHILO-HAENKENIUMCREAM,Moisturiser / cream,Profhilo,Profhilo Haenkenium Cream,50ml,6,7
 PURASOMES-GF20-CREAM-50ML,Moisturiser / cream,Purasomes,GF20 Cream,50ml,1,1
 PURI-LIPS-BALM,Moisturiser / cream,Puri,lips balm,,1,1
 Q+SOD-AGE-RENEW-MOISTURIZING-CREAM,Moisturiser / cream,Q+Sod,Age Renew Moisturizing Cream,,1,1
@@ -1635,8 +1635,6 @@ POST-PROCEDURE-HYDROGEL-BELOTERO-HEATCOOL,Other skincare,Post,procedure hydrogel
 PRIORI-DAILY-REFRESH-DUO,Other skincare,Priori,Daily Refresh Duo,,1,1
 PROCEDURE-PREP-RECOVER-REGIMEN,Other skincare,Procedure,Prep Recover Regimen,,1,1
 PROFESSIONAL-WAKE-UP-TONIC-500ML,Other skincare,Professional,Wake Up Tonic,500ml,1,1
-PROFHILO-TOPICAL-HAENKENIUM-50ML,Other skincare,Profhilo (topical),haenkenium,50ml,2,2
-PROFHILO-TOPICAL-PURA-400ML,Other skincare,Profhilo (topical),pura,400ml,2,3
 PRX-PLUS-4ML,Other skincare,Prx,Plus,4ml,1,1
 PRX-POST-DRY-FACIAL,Other skincare,Prx,Post Dry facial,,1,1
 PRX-POST-DRY-NORMAL-FACIAL,Other skincare,Prx,Post Dry normal facial,,1,1
