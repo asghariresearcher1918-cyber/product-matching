@@ -39,6 +39,14 @@ def main():
             r["scope"], r["scope_group"] = CATEGORY_SCOPE.get(cat, "Phase 1"), ""
         if r["supplier"] in ON_HOLD and not r["scope"].startswith("Removed"):
             r["scope"], r["scope_group"] = "On hold - supplier not connected", ON_HOLD[r["supplier"]]
+    # per-id scope overrides (category-cleanup pass): highest priority
+    sp = ROOT / "data/scope_overrides.csv"
+    if sp.exists():
+        so = {o["id"]: o for o in csv.DictReader(open(sp, encoding="utf-8"))}
+        for r in rows:
+            o = so.get(r["id"])
+            if o:
+                r["scope"], r["scope_group"] = o["scope"], o["scope_group"]
     cols = [c for c in rows[0].keys() if c not in ("category_auto", "scope", "scope_group")] + ["category_auto", "scope", "scope_group"]
     with open(p, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(rows)
