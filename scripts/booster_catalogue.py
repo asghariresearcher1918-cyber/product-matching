@@ -210,6 +210,27 @@ def main():
     for m in maps:
         if m.get("code") in remap:
             m["decision"] += " (volume from matched product)"; m["code"] = remap[m["code"]]
+    # decimal fix: a supplier writing "35ml"/"15ml"/"10ml" means 3.5/1.5/1.0 for an injectable vial.
+    # Only merge when the decimal twin already exists in the same brand+line+pack+market (safe, no guessing).
+    def mlnum(v):
+        mm = re.match(r"^(\d+(?:\.\d+)?)ml$", v or "")
+        return float(mm.group(1)) if mm else None
+    groups2 = collections.defaultdict(dict)
+    for p in prods.values():
+        n = mlnum(p["volume"])
+        if n is not None:
+            groups2[(p["brand"], p["line"].lower(), p["pack"], p["market"])][round(n, 3)] = p
+    dmap = {}
+    for vols in groups2.values():
+        for n, p in list(vols.items()):
+            if n >= 10 and (n / 10) in vols:          # 35 -> 3.5, 15 -> 1.5, 10 -> 1.0
+                tgt = vols[n / 10]
+                dmap[p["code"]] = tgt["code"]
+                tgt["suppliers"] |= p["suppliers"]; tgt["listings"] += p["listings"]
+                prods.pop(p["code"], None)
+    for m in maps:
+        if m.get("code") in dmap:
+            m["decision"] += " (decimal volume fixed)"; m["code"] = dmap[m["code"]]
     for p in prods.values():
         p["suppliers"] = len(p["suppliers"])
     out = ROOT / "catalogue/final"; out.mkdir(parents=True, exist_ok=True)

@@ -172,6 +172,32 @@ def main():
                                  volume_ml=vol, lidocaine="yes" if lido else "no", syringes_per_pack=pk, market=market or "UK/std",
                                  source=src, brand_verified="yes" if verified else "brand page only", suppliers=set(), listings=0))
         prods[c]["suppliers"].add(r["supplier"]); prods[c]["listings"] += 1
+    # consolidation: merge codes that are the same product written with a different volume format
+    # (e.g. "1" vs "1.0" -> same; "10" that is really "1.0" -> decimal loss) within brand+line+pack+lido+market
+    def vnum(v):
+        try: return float(v)
+        except (TypeError, ValueError): return None
+    groups = collections.defaultdict(list)
+    for p in prods.values():
+        groups[(p["brand"], p["line"].lower(), p["syringes_per_pack"], p["lidocaine"], p["market"])].append(p)
+    remap = {}
+    for g in groups.values():
+        byv = {}
+        for p in sorted(g, key=lambda p: -p["listings"]):
+            n = vnum(p["volume_ml"])
+            if n is None: continue
+            key = round(n, 3)
+            # numeric-equal (1 vs 1.0) OR decimal-loss twin (10 -> 1.0) already present
+            tgt = byv.get(key) or (byv.get(round(n / 10, 3)) if n >= 10 else None)
+            if tgt:
+                remap[p["code"]] = tgt["code"]; tgt["suppliers"] |= p["suppliers"]; tgt["listings"] += p["listings"]
+            else:
+                byv[key] = p
+    for code in list(remap):
+        prods.pop(code, None)
+    for m in maps:
+        if m.get("code") in remap:
+            m["decision"] += " (volume format merged)"; m["code"] = remap[m["code"]]
     for p in prods.values(): p["suppliers"] = len(p["suppliers"])
     out = ROOT / "catalogue/final"; out.mkdir(parents=True, exist_ok=True)
     pc = ["code", "brand", "line", "equivalence_group", "manufacturer", "ha", "volume_ml", "lidocaine", "syringes_per_pack", "market", "brand_verified", "suppliers", "listings", "source"]
