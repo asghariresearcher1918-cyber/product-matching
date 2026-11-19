@@ -34,8 +34,7 @@ BTY:BTY-REVITALASH-DOUBLE-ENDED-MASCARA-PRIMER,Beauty (nails/brows/lashes/PMU/ma
 BTY:BTY-REVITALASH-EYELASH-CONDITIONER,Beauty (nails/brows/lashes/PMU/makeup),Lash / brow serum,Revitalash,Revitalash Eyelash Conditioner,,,,,,1,2,
 BTY:BTY-RUSH-LASH,Beauty (nails/brows/lashes/PMU/makeup),Lash / brow serum,Rush,Rush O Lash,,,,,,1,1,
 BTY:BTY-SUNSET-BROW-COLLECTION-LUXE,Beauty (nails/brows/lashes/PMU/makeup),Lash / brow serum,Sunset,Sunset Brow Collection LUXE,,,,,,1,1,
-BTY:BTY-AQ-LASH-BROW-ENHANCEMENT-SYSTEM,Beauty (nails/brows/lashes/PMU/makeup),Lash / brow serum,aq,Aq Lash Brow Enhancement System,,,,,,1,1,
-BTY:BTY-AQ-LASH-BROW-ENHANCEMENT-SYSTEM-CLEAR,Beauty (nails/brows/lashes/PMU/makeup),Lash / brow serum,aq,Aq Lash Brow Enhancement System,,,,,,1,1,
+BTY:BTY-AQ-LASH-BROW-ENHANCEMENT-SYSTEM,Beauty (nails/brows/lashes/PMU/makeup),Lash / brow serum,aq,Aq Lash Brow Enhancement System,,,,,,1,2,
 BTY:BTY-LASH-BROW-MASQUE,Beauty (nails/brows/lashes/PMU/makeup),Lash / brow serum,lash,Lash Brow Masque,,,,,,1,1,
 BTY:BTY-REVITABROW-ADVANCED-EYEBROW-CONDITIONER,Beauty (nails/brows/lashes/PMU/makeup),Lash / brow serum,revitabrow,Revitabrow Advanced Eyebrow Conditioner,,,,,,1,2,
 BTY:BTY-REVITABROW-EYEBROW-CONDITIONER,Beauty (nails/brows/lashes/PMU/makeup),Lash / brow serum,revitabrow,Revitabrow Eyebrow Conditioner,,,,,,1,1,
@@ -973,8 +972,7 @@ FIL:ALIAXIN-SV-11ML-1X,Dermal filler,Aliaxin Sv,Aliaxin,Aliaxin SV (2 x 1.1ml) I
 FIL:ALIAXIN-SV-11ML-2X,Dermal filler,Aliaxin Sv,Aliaxin,Aliaxin SV 2 x 1.1ml,1.1ml x2,IBSA,2,UK/std,yes,2,2,https://www.ibsaderma.com
 FIL:ALIAXIN-SV2X1-1ML-2X,Dermal filler,Aliaxin Sv - 2X1,Aliaxin,Aliaxin SV - 2x1 ml,1ml x2,IBSA,2,UK/std,yes,1,1,https://www.ibsaderma.com
 FIL:ALIAXIN-SVSUPERIORVOLUME-1ML-2X,Dermal filler,Aliaxin Sv - Superior Volume,Aliaxin,Aliaxin SV - Superior Volume 2 x 1ml,1ml x2,IBSA,2,UK/std,yes,1,1,https://www.ibsaderma.com
-FIL:ALIAXIN-SVNOVAT-1ML-2X,Dermal filler,Aliaxin Sv No Vat,Aliaxin,Aliaxin Sv 2 X 11ml,1ml x2,IBSA,2,UK/std,yes,1,1,https://www.ibsaderma.com
-FIL:ALIAXIN-SVPAYVAT-1ML-2X,Dermal filler,Aliaxin Sv Pay Vat,Aliaxin,Aliaxin Sv 2 X 11ml,1ml x2,IBSA,2,UK/std,yes,1,1,https://www.ibsaderma.com
+FIL:ALIAXIN-SVPAYVAT-1ML-2X,Dermal filler,Aliaxin Sv Pay Vat,Aliaxin,Aliaxin Sv 2 X 11ml,1ml x2,IBSA,2,UK/std,yes,1,2,https://www.ibsaderma.com
 FIL:AMMIB-BODYFILLERHARD-0ML-1X,Dermal filler,Ammi B Body Filler - Hard,Ammi B,Ammi B Body Filler - Hard 10ml,0ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:AQPRODEFINE-DEEPROMANCE-1ML-1X,Dermal filler,Aq Prodefine Deep Romance,Aq Prodefine,Aq Prodefine Deep Romance,1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:AQPRODEFINE-RETOUCH-1ML-2X,Dermal filler,Aq Prodefine Retouch,Aq Prodefine,Aq Prodefine Retouch,1ml x2,not named,2,UK/std,brand page only,1,1,supplier page
@@ -1027,13 +1025,10 @@ FIL:COLENA-SMALLFINE-LIDO-1X,Dermal filler,Colena Small Fine,Colena,Colena Small
 FIL:COLLAGEN-EYEFILLER-1X,Dermal filler,Collagen Eye Filler,Collagen,Collagen Eye Filler,x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:CROMA-COMBINATION-1X,Dermal filler,Croma Combination,Croma,Croma Combination Training,x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:CROMA-COUNTOURELJAMBER50MM8-1X,Dermal filler,Croma Countourel Jamber 50Mm 8,Croma,Croma Countourel Jamber 27G x 50mm x 8,x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:CROMA-COUNTOURELMAX100MML-1X,Dermal filler,Croma Countourel Max 100Mm L,Croma,Croma Countourel Max 18g X 100mm L Shaped Cannula,x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:CROMA-COUNTOURELMAX100MMW-1X,Dermal filler,Croma Countourel Max 100Mm W,Croma,Croma Countourel Max 18g X 100mm W Shaped Cannula,x1,not named,1,UK/std,brand page only,1,1,supplier page
+FIL:CROMA-COUNTOURELMAX100MMW-1X,Dermal filler,Croma Countourel Max 100Mm W,Croma,Croma Countourel Max 18g X 100mm W Shaped Cannula,x1,not named,1,UK/std,brand page only,1,2,supplier page
 FIL:CROMA-COUNTOURELMONO25MM60-1X,Dermal filler,Croma Countourel Mono 25Mm 60,Croma,Croma Countourel Mono 30G 25mm x 60,x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:CROMA-COUNTOURELMONO40MM60-1X,Dermal filler,Croma Countourel Mono 40Mm 60,Croma,Croma Countourel Mono 29G 40mm x 60,x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:CROMA-COUNTOURELULTRA100MM-1X,Dermal filler,Croma Countourel Ultra 100Mm -,Croma,Croma countourel Ultra 18g x 100mm - L Shaped Cannula,x1,not named,1,UK/std,brand page only,1,2,supplier page
-FIL:CROMA-COUNTOURELULTRA100MML-1X,Dermal filler,Croma Countourel Ultra 100Mm L,Croma,Croma Countourel Ultra 18g X 100mm L Shaped Cannula,x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:CROMA-COUNTOURELULTRA100MMW-1X,Dermal filler,Croma Countourel Ultra 100Mm W,Croma,Croma Countourel Ultra 18g X 100mm W Shaped Cannula,x1,not named,1,UK/std,brand page only,1,2,supplier page
+FIL:CROMA-COUNTOURELULTRA100MM-1X,Dermal filler,Croma Countourel Ultra 100Mm -,Croma,Croma countourel Ultra 18g x 100mm - L Shaped Cannula,x1,not named,1,UK/std,brand page only,1,5,supplier page
 FIL:CROMA-COUNTOURELBARBED90MM-1X,Dermal filler,Croma Countourelbarbed 90Mm,Croma,Croma Countourelbarbed 19g X 90mm,x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:CROMA-COUNTOURELJAMBERI50MM-1X,Dermal filler,Croma Countoureljamberi 50Mm,Croma,Croma Countoureljamberi 27g X 50mm,x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:CROMA-COUNTOURELJAMBERTANXING60MM-1X,Dermal filler,Croma Countoureljambertanxing 60Mm,Croma,Croma Countoureljambertanxing 21g X 60mm,x1,not named,1,UK/std,brand page only,1,2,supplier page
@@ -1064,8 +1059,7 @@ FIL:DEFINISSE-TOUCHFILLER-1ML-LIDO-1X,Dermal filler,Definisse Touch Filler,Defin
 FIL:DESIRIAL-1ML-1X,Dermal filler,Desirial,Desirial,Desirial 1 x 1ml,1ml x1,Vivacy,1,UK/std,yes,2,2,manufacturer IFU
 FIL:DESIRIAL-080227-1ML-1X,Dermal filler,Desirial 08/02/27,Desirial,Desirial 1 x 1ml 08/02/27,1ml x1,Vivacy,1,UK/std,yes,1,1,manufacturer IFU
 FIL:DESIRIAL-PLUS-2ML-1X,Dermal filler,Desirial Plus,Desirial,Desirial Plus,2ml x1,Vivacy,1,UK/std,yes,1,1,manufacturer IFU
-FIL:DESIRIAL-PLUS-2ML-2X,Dermal filler,Desirial Plus,Desirial,Desirial Plus 2 x 2ml,2ml x2,Vivacy,2,UK/std,yes,1,1,manufacturer IFU
-FIL:DESIRIAL-PLUS040227-2ML-2X,Dermal filler,Desirial Plus 04/02/27,Desirial,Desirial Plus 2 x 2ml,2ml x2,Vivacy,2,UK/std,yes,1,1,manufacturer IFU
+FIL:DESIRIAL-PLUS-2ML-2X,Dermal filler,Desirial Plus,Desirial,Desirial Plus 2 x 2ml,2ml x2,Vivacy,2,UK/std,yes,1,2,manufacturer IFU
 FIL:DRARJO-DRARJOBODY-0ML-1X,Dermal filler,Dr Arjo Dr. Arjo Body,Dr Arjo,Dr. ArJo Body - 1 x 10 ml,0ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:DRCYJ-DRCYJHAIRFILLER-1ML-2X,Dermal filler,Dr Cyj Dr. Cyj Hair Filler,Dr Cyj,DR. CYJ Hair Filler Double Pack 2x1ml,1ml x2,not named,2,UK/std,brand page only,2,2,supplier page
 FIL:DRCYJ-DRCYJHAIRFILLER-1ML-1X,Dermal filler,Dr Cyj Dr.Cyj Hair Filler,Dr Cyj,Dr. CYJ Hair Filler (2 x 1ml) Inj.,1ml x1,not named,1,UK/std,brand page only,3,3,supplier page
@@ -1094,23 +1088,16 @@ FIL:EPTQ-EPITIQUES300-11ML-1X,Dermal filler,EPTQ Epitique S300,EPTQ,Epitique EPT
 FIL:EPTQ-EPITIQUES500-11ML-1X,Dermal filler,EPTQ Epitique S500,EPTQ,Epitique EPTQ S500 (1 x 1.1ml),1.1ml x1,Jetema (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
 FIL:EPTQ-S100-11ML-1X,Dermal filler,EPTQ S100,EPTQ,EPTQ S100 – 1 x 1.1ml,1.1ml x1,Jetema (Korea),1,UK/std,brand page only,2,2,manufacturer IFU
 FIL:EPTQ-S100-11ML-LIDO-1X,Dermal filler,EPTQ S100,EPTQ,Eptq S100 Lidocaine 1X1.1Ml,1.1ml +lido x1,Jetema (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
-FIL:EPTQ-S100-1ML-LIDO-1X,Dermal filler,EPTQ S100,EPTQ,Eptq S100 Lidocaine 1x11ml,1ml +lido x1,Jetema (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
-FIL:EPTQ-S100PAYVAT-1ML-LIDO-1X,Dermal filler,EPTQ S100 Pay Vat,EPTQ,Eptq S100 Lidocaine 1x11ml,1ml +lido x1,Jetema (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
+FIL:EPTQ-S100-1ML-LIDO-1X,Dermal filler,EPTQ S100,EPTQ,Eptq S100 Lidocaine 1x11ml,1ml +lido x1,Jetema (Korea),1,UK/std,brand page only,1,2,manufacturer IFU
 FIL:EPTQ-S300-11ML-1X,Dermal filler,EPTQ S300,EPTQ,EPTQ S300 – 1 x 1.1ml,1.1ml x1,Jetema (Korea),1,UK/std,brand page only,2,2,manufacturer IFU
-FIL:EPTQ-S300-1ML-LIDO-1X,Dermal filler,EPTQ S300,EPTQ,Eptq S300 Lidocaine 1x11ml,1ml +lido x1,Jetema (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
-FIL:EPTQ-S300PAYVAT-1ML-LIDO-1X,Dermal filler,EPTQ S300 Pay Vat,EPTQ,Eptq S300 Lidocaine 1x11ml,1ml +lido x1,Jetema (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
+FIL:EPTQ-S300PAYVAT-1ML-LIDO-1X,Dermal filler,EPTQ S300 Pay Vat,EPTQ,Eptq S300 Lidocaine 1x11ml,1ml +lido x1,Jetema (Korea),1,UK/std,brand page only,1,2,manufacturer IFU
 FIL:EPTQ-S500-11ML-1X,Dermal filler,EPTQ S500,EPTQ,EPTQ S500 – 1 x 1.1ml,1.1ml x1,Jetema (Korea),1,UK/std,brand page only,2,2,manufacturer IFU
-FIL:EPTQ-S500-1ML-LIDO-1X,Dermal filler,EPTQ S500,EPTQ,Eptq S500 Lidocaine 1x11ml,1ml +lido x1,Jetema (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
-FIL:EPTQ-S500PAYVAT-1ML-LIDO-1X,Dermal filler,EPTQ S500 Pay Vat,EPTQ,Eptq S500 Lidocaine 1x11ml,1ml +lido x1,Jetema (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
+FIL:EPTQ-S500PAYVAT-1ML-LIDO-1X,Dermal filler,EPTQ S500 Pay Vat,EPTQ,Eptq S500 Lidocaine 1x11ml,1ml +lido x1,Jetema (Korea),1,UK/std,brand page only,1,2,manufacturer IFU
 FIL:ELASTY-D-1ML-1X,Dermal filler,Elasty D,Elasty,Elasty D (1 x 1ml),1ml x1,Dong Kook (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
-FIL:ELASTY-DPLUS-1ML-1X,Dermal filler,Elasty D Plus,Elasty,Elasty D Plus (2 x 1ml),1ml x1,Dong Kook (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
-FIL:ELASTY-DPLUS-1X,Dermal filler,Elasty D Plus,Elasty,Elasty D plus,x1,Dong Kook (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
+FIL:ELASTY-DPLUS-1ML-1X,Dermal filler,Elasty D Plus,Elasty,Elasty D Plus (2 x 1ml),1ml x1,Dong Kook (Korea),1,UK/std,brand page only,1,3,manufacturer IFU
+FIL:ELASTY-DPLUS-1X,Dermal filler,Elasty D Plus,Elasty,Elasty D plus,x1,Dong Kook (Korea),1,UK/std,brand page only,1,3,manufacturer IFU
 FIL:ELASTY-F-1ML-1X,Dermal filler,Elasty F,Elasty,Elasty F (1 x 1ml),1ml x1,Dong Kook (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
-FIL:ELASTY-FPLUS-1ML-1X,Dermal filler,Elasty F Plus,Elasty,Elasty F Plus (2 x 1ml),1ml x1,Dong Kook (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
-FIL:ELASTY-FPLUS-1X,Dermal filler,Elasty F Plus,Elasty,Elasty F plus,x1,Dong Kook (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
 FIL:ELASTY-G-1ML-1X,Dermal filler,Elasty G,Elasty,Elasty G (1 x 1ml),1ml x1,Dong Kook (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
-FIL:ELASTY-GPLUS-1X,Dermal filler,Elasty G Plus,Elasty,Elasty G Plus,x1,Dong Kook (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
-FIL:ELASTY-GPLUS-1ML-1X,Dermal filler,Elasty G Plus,Elasty,Elasty G Plus (2 x 1ml),1ml x1,Dong Kook (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
 FIL:ESTYME-FORM-1ML-1X,Dermal filler,Estyme Form,Estyme,Estyme Form 1 x 1ml,1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:ESTYME-LIPS-1ML-1X,Dermal filler,Estyme Lips,Estyme,Estyme Lips 1 x 1ml,1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:ESTYME-SCULPT-1ML-1X,Dermal filler,Estyme Sculpt,Estyme,Estyme Sculpt 1 x 1ml,1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
@@ -1242,8 +1229,7 @@ FIL:KLMEDI-EXTRAIII-1ML-1X,Dermal filler,Kl Medi Extra Iii,Kl Medi,KL Medi Extra
 FIL:KYSENSE-DEFINE-1ML-4X,Dermal filler,Kysense Define,Kysense,Kysense Define,1ml x4,not named,4,UK/std,brand page only,1,1,supplier page
 FIL:KYSENSE-EXTREME-1ML-4X,Dermal filler,Kysense Extreme,Kysense,Kysense Extreme,1ml x4,not named,4,UK/std,brand page only,1,1,supplier page
 FIL:KYSENSE-PRECISE-1ML-4X,Dermal filler,Kysense Precise,Kysense,Kysense Precise,1ml x4,not named,4,UK/std,brand page only,1,1,supplier page
-FIL:KYSENSE-PRECISEFILLER-1ML-4X,Dermal filler,Kysense Precise Filler,Kysense,Kysense Precise Filler 4 x 1ml,1ml x4,not named,4,UK/std,brand page only,1,1,supplier page
-FIL:KYSENSE-PRECISEFILLER0127-1ML-4X,Dermal filler,Kysense Precise Filler 01/27,Kysense,Kysense Precise Filler 4 x 1ml,1ml x4,not named,4,UK/std,brand page only,1,1,supplier page
+FIL:KYSENSE-PRECISEFILLER-1ML-4X,Dermal filler,Kysense Precise Filler,Kysense,Kysense Precise Filler 4 x 1ml,1ml x4,not named,4,UK/std,brand page only,1,2,supplier page
 FIL:KYSENSE-VOLUME-1ML-4X,Dermal filler,Kysense Volume,Kysense,Kysense Volume,1ml x4,not named,4,UK/std,brand page only,1,1,supplier page
 FIL:LAPIENA-CLASSIC-1X,Dermal filler,Lapiena Classic,Lapiena,Lapiena Classic,x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:LAPIENA-DEEP-1X,Dermal filler,Lapiena Deep,Lapiena,Lapiena Deep,x1,not named,1,UK/std,brand page only,1,1,supplier page
@@ -1266,24 +1252,21 @@ FIL:LORIENT-FINENO2-1ML-1X,Dermal filler,Lorient Fine No 2,Lorient,Lorient Fine 
 FIL:LORIENT-VOLUMENO6-1ML-1X,Dermal filler,Lorient Volume No 6,Lorient,Lorient Volume No 6,1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:LUMIFIL-2025BRANDEDROLLERBANNER-1X,Dermal filler,Lumifil 2025 Branded Roller Banner,Lumifil,2025 LUMIFIL BRANDED ROLLER BANNER - Syringes,x1,not named,1,UK/std,brand page only,1,2,supplier page
 FIL:LUMIFIL-ICE-1X,Dermal filler,Lumifil Ice,Lumifil,LUMIFIL ICE PACK,x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:LUMIFIL-KISS-LIDO-1X,Dermal filler,Lumifil Kiss,Lumifil,LUMIFIL KISS with Lidocaine,+lido x1,not named,1,UK/std,brand page only,4,4,supplier page
 FIL:LUMIFIL-KISS-10ML-1X,Dermal filler,Lumifil Kiss,Lumifil,Lumifil Kiss 1.0ml,1.0ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:LUMIFIL-KISS-1ML-LIDO-1X,Dermal filler,Lumifil Kiss,Lumifil,Lumifil Kiss with Lido (1 x 1ml),1ml +lido x1,not named,1,UK/std,brand page only,2,2,supplier page
 FIL:LUMIFIL-KISS2-1ML-LIDO-1X,Dermal filler,Lumifil Kiss 2,Lumifil,Lumifil Kiss With Lidocaine 1x1ml 2,1ml +lido x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:LUMIFIL-LMAX-1X,Dermal filler,Lumifil L Max,Lumifil,⁠lumifil L Max Dermal Filler,x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:LUMIFIL-LKISS-LIDO-1X,Dermal filler,Lumifil L-Kiss,Lumifil,LUMIFIL L-KISS with Lidocaine,+lido x1,not named,1,UK/std,brand page only,1,1,supplier page
+FIL:LUMIFIL-LKISS-LIDO-1X,Dermal filler,Lumifil L-Kiss,Lumifil,LUMIFIL L-KISS with Lidocaine,+lido x1,not named,1,UK/std,brand page only,5,5,supplier page
 FIL:LUMIFIL-LKISS-1ML-1X,Dermal filler,Lumifil L-Kiss,Lumifil,LUMIFIL L-Kiss - 1 x 1ml,1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:LUMIFIL-LKISS-11ML-LIDO-1X,Dermal filler,Lumifil L-Kiss,Lumifil,Lumifil L-Kiss with Lidocaine 1 x 1.1 ml,1.1ml +lido x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:LUMIFIL-LLITE-LIDO-1X,Dermal filler,Lumifil L-Lite,Lumifil,LUMIFIL L-LITE with Lidocaine,+lido x1,not named,1,UK/std,brand page only,1,1,supplier page
+FIL:LUMIFIL-LLITE-LIDO-1X,Dermal filler,Lumifil L-Lite,Lumifil,LUMIFIL L-LITE with Lidocaine,+lido x1,not named,1,UK/std,brand page only,5,5,supplier page
 FIL:LUMIFIL-LLITE-10ML-LIDO-1X,Dermal filler,Lumifil L-Lite,Lumifil,Lumifil L-Lite with Lidocaine 1 x 1.0 ml,1.0ml +lido x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:LUMIFIL-LMAX-LIDO-1X,Dermal filler,Lumifil L-Max,Lumifil,LUMIFIL L-MAX with Lidocaine,+lido x1,not named,1,UK/std,brand page only,1,1,supplier page
+FIL:LUMIFIL-LMAX-LIDO-1X,Dermal filler,Lumifil L-Max,Lumifil,LUMIFIL L-MAX with Lidocaine,+lido x1,not named,1,UK/std,brand page only,5,5,supplier page
 FIL:LUMIFIL-LMAX-1ML-1X,Dermal filler,Lumifil L-Max,Lumifil,LUMIFIL L-Max - 1 x 1ml,1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:LUMIFIL-LITE-LIDO-1X,Dermal filler,Lumifil Lite,Lumifil,LUMIFIL LITE with Lidocaine,+lido x1,not named,1,UK/std,brand page only,4,4,supplier page
 FIL:LUMIFIL-LITE-1ML-1X,Dermal filler,Lumifil Lite,Lumifil,LUMIFIL Lite - 1 x 1ml,1ml x1,not named,1,UK/std,brand page only,2,2,supplier page
 FIL:LUMIFIL-LITE-1ML-LIDO-1X,Dermal filler,Lumifil Lite,Lumifil,Lumifil Lite with Lido.(1X1ml) Inj.,1ml +lido x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:LUMIFIL-LITE2-1ML-LIDO-1X,Dermal filler,Lumifil Lite 2,Lumifil,Lumifil Lite With Lidocaine 1x1ml 2,1ml +lido x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:LUMIFIL-LITE3-1ML-LIDO-1X,Dermal filler,Lumifil Lite 3,Lumifil,Lumifil Lite With Lidocaine 1x1ml 3,1ml +lido x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:LUMIFIL-MAX-LIDO-1X,Dermal filler,Lumifil Max,Lumifil,LUMIFIL MAX with Lidocaine,+lido x1,not named,1,UK/std,brand page only,4,4,supplier page
 FIL:LUMIFIL-MAX-10ML-1X,Dermal filler,Lumifil Max,Lumifil,Lumifil Max 1.0ml,1.0ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:LUMIFIL-MAX-1ML-LIDO-1X,Dermal filler,Lumifil Max,Lumifil,Lumifil Max with Lido.(1X1ml) Inj.,1ml +lido x1,not named,1,UK/std,brand page only,2,2,supplier page
 FIL:LUMIFIL-MIXMATCH570-LIDO-1X,Dermal filler,Lumifil Mix Match 5 70,Lumifil,LUMIFIL Mix & Match | 5 For £70,+lido x1,not named,1,UK/std,brand page only,1,1,supplier page
@@ -1357,8 +1340,7 @@ FIL:NEAUVIA-ORGANICINTENSELIPS-1ML-1X,Dermal filler,Neauvia Organic Intense Lips
 FIL:NEAUVIA-ORGANICINTENSELIPS060427-1ML-1X,Dermal filler,Neauvia Organic Intense Lips 06/04/27,Neauvia,Neauvia Organic Intense Lips x 1ml 06/04/27,1ml x1,Matex Lab,1,UK/std,yes,1,1,manufacturer IFU
 FIL:NEAUVIA-ORGANICINTENSELV-1ML-1X,Dermal filler,Neauvia Organic Intense Lv,Neauvia,Neauvia Organic Intense LV (1 x 1ml) Inj.,1ml x1,Matex Lab,1,UK/std,yes,2,2,manufacturer IFU
 FIL:NEAUVIA-ORGANICINTENSERHEOLOGY-1ML-1X,Dermal filler,Neauvia Organic Intense Rheology,Neauvia,Neauvia Organic Intense Rheology (1 x 1ml) Inj.,1ml x1,Matex Lab,1,UK/std,yes,2,2,manufacturer IFU
-FIL:NEAUVIA-ORGANICINTENSEROSE-1ML-1X,Dermal filler,Neauvia Organic Intense Rose,Neauvia,Neauvia Organic Intense Rose (1 x 1ml) Inj.,1ml x1,Matex Lab,1,UK/std,yes,2,2,manufacturer IFU
-FIL:NEAUVIA-ORGANICINTENSEROSE190127-1ML-1X,Dermal filler,Neauvia Organic Intense Rose 19/01/27,Neauvia,Neauvia Organic Intense Rose x 1ml,1ml x1,Matex Lab,1,UK/std,yes,1,1,manufacturer IFU
+FIL:NEAUVIA-ORGANICINTENSEROSE190127-1ML-1X,Dermal filler,Neauvia Organic Intense Rose 19/01/27,Neauvia,Neauvia Organic Intense Rose x 1ml,1ml x1,Matex Lab,1,UK/std,yes,2,3,manufacturer IFU
 FIL:NEAUVIA-ORGANICSTIMULATE-1ML-1X,Dermal filler,Neauvia Organic Stimulate,Neauvia,Neauvia Organic Stimulate (1 x 1ml) Inj.,1ml x1,Matex Lab,1,UK/std,yes,2,2,manufacturer IFU
 FIL:NEAUVIA-STIMULATE-1ML-1X,Dermal filler,Neauvia Stimulate,Neauvia,Neauvia Stimulate 1ml,1ml x1,Matex Lab,1,UK/std,yes,2,3,manufacturer IFU
 FIL:NEURAMIS-1ML-LIDO-1X,Dermal filler,Neuramis,Neuramis,Neuramis with Lidocaine (1ml) UK | Dermal Filler,1ml +lido x1,Medytox (Korea),1,UK/std,brand page only,1,1,manufacturer IFU
@@ -1546,8 +1528,7 @@ FIL:SKINFILL-BACIO-25ML-1X,Dermal filler,Skinfill Bacio,Skinfill,Skinfill Bacio 
 FIL:SKINFILL-BACIO2-25ML-1X,Dermal filler,Skinfill Bacio 2,Skinfill,SkinFill Bacio (2×2.5ml),2.5ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:SKINFILL-BACIOLIPBOOSTER2-5ML-2X,Dermal filler,Skinfill Bacio Lip Booster 2,Skinfill,"SkinFill Bacio Lip Booster 2 x 2,5 ml",5ml x2,not named,2,UK/std,brand page only,1,1,supplier page
 FIL:SKINFILL-BIANCO-2ML-2X,Dermal filler,Skinfill Bianco,Skinfill,SkinFill Bianco 2x2ml,2ml x2,not named,2,UK/std,brand page only,1,1,supplier page
-FIL:SKINFILL-BLUE-2ML-1X,Dermal filler,Skinfill Blue,Skinfill,SkinFill Blue (1 x 2ml),2ml x1,not named,1,UK/std,brand page only,5,5,supplier page
-FIL:SKINFILL-BLUE1226-2ML-1X,Dermal filler,Skinfill Blue 12/26,Skinfill,SkinFill Blue 2ml,2ml x1,not named,1,UK/std,brand page only,1,1,supplier page
+FIL:SKINFILL-BLUE1226-2ML-1X,Dermal filler,Skinfill Blue 12/26,Skinfill,SkinFill Blue 2ml,2ml x1,not named,1,UK/std,brand page only,5,6,supplier page
 FIL:SKINFILL-BLUE31122026HYALURONIC-2ML-1X,Dermal filler,Skinfill Blue 31.12.2026 - Hyaluronic,Skinfill,"Skinfill Blue, 1 x 2ml - hyaluronic acid with Exosomes + Peptides",2ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:SKINFILL-BLUEEXOSOMETECHNOLOGY1X2-2ML-1X,Dermal filler,Skinfill Blue Exosome Technology 1X2,Skinfill,SkinFill BLUE Exosome Technology 1x2 ml,2ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:SKINFILL-BODY-0ML-1X,Dermal filler,Skinfill Body,Skinfill,Skinfill Body 50ml,0ml x1,not named,1,UK/std,brand page only,1,1,supplier page
@@ -1626,9 +1607,8 @@ FIL:VOLIFIL-CLASSICFINE-1ML-LIDO-1X,Dermal filler,Volifil Classic Fine,Volifil,V
 FIL:VOLIFIL-CLASSICFINE1-1ML-LIDO-1X,Dermal filler,Volifil Classic Fine 1,Volifil,Volifil Classic Fine 1 X 1 1ml With Lidocaine,1ml +lido x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:VOLIFIL-CLASSICLITEFINE-1ML-1X,Dermal filler,Volifil Classic Lite/Fine,Volifil,VOLIFIL CLASSIC 1ml next generation dermal filler,1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:VOLIFIL-DEEP-11ML-1X,Dermal filler,Volifil Deep,Volifil,VOLIFIL DEEP - 1 x 1.1ml,1.1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:VOLIFIL-DEEP-1ML-1X,Dermal filler,Volifil Deep,Volifil,VOLIFIL Deep 1 X 1ml,1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:VOLIFIL-DEEP-1ML-LIDO-1X,Dermal filler,Volifil Deep,Volifil,Volifil Deep with Lidocaine 1ml,1ml +lido x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:VOLIFIL-DEEP1-1ML-1X,Dermal filler,Volifil Deep 1,Volifil,Volifil Deep 1 1ml,1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
+FIL:VOLIFIL-DEEP1-1ML-1X,Dermal filler,Volifil Deep 1,Volifil,Volifil Deep 1 1ml,1ml x1,not named,1,UK/std,brand page only,2,2,supplier page
 FIL:VOLIFIL-DEEPKISS-11ML-1X,Dermal filler,Volifil Deep Kiss,Volifil,VOLIFIL DEEP 1.1ml next generation dermal filler,1.1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:VOLIFIL-SUBQ1-1ML-LIDO-1X,Dermal filler,Volifil Sub Q 1,Volifil,Volifil Sub Q 1 X 1 1ml With Lidocaine,1ml +lido x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:VOLIFIL-SUBQ-1X,Dermal filler,Volifil Sub-Q,Volifil,VOLIFIL SUB-Q,x1,not named,1,UK/std,brand page only,1,1,supplier page
@@ -1643,12 +1623,10 @@ FIL:ILLUMA-HYDROBOOSTER-2ML-3X,Dermal filler,iLLUMA Hydro Booster,iLLUMA,Illuma 
 FIL:ILLUMA-HYDROBOOSTER-2ML-1X,Dermal filler,iLLUMA Hydro Booster,iLLUMA,iLLUMA Hydro Booster 1 x 2ml Syringe,2ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:ILLUMA-HYDROBOOSTER3-2ML-3X,Dermal filler,iLLUMA Hydro Booster - 3,iLLUMA,iLLUMA Hydro Booster - 2ml x 3 Syringes,2ml x3,not named,3,UK/std,brand page only,1,1,supplier page
 FIL:ILLUMA-HYDROBOOSTER3-2ML-1X,Dermal filler,iLLUMA Hydro Booster 3,iLLUMA,iLLUMA Hydro Booster (2ml x 3),2ml x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:ILLUMA-HYDROBOOSTER3SYRINGES-2ML-3X,Dermal filler,iLLUMA Hydro Booster 3 Syringes,iLLUMA,iLLUMA Hydro Booster (2ml x 3 Syringes),2ml x3,not named,3,UK/std,brand page only,1,1,supplier page
+FIL:ILLUMA-HYDROBOOSTER3SYRINGES-2ML-3X,Dermal filler,iLLUMA Hydro Booster 3 Syringes,iLLUMA,iLLUMA Hydro Booster (2ml x 3 Syringes),2ml x3,not named,3,UK/std,brand page only,3,3,supplier page
 FIL:ILLUMA-HYDROBOOSTERLUNASAVE-1X,Dermal filler,iLLUMA Hydro Booster Luna Save,iLLUMA,iLLUMA Hydro Booster & iLLUMA Luna – Save 10%,x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:ILLUMA-HYDROBOOSTERSYRINGES-2ML-3X,Dermal filler,iLLUMA Hydro Booster Syringes,iLLUMA,iLLUMA Hydro Booster (3 x 2ml syringes),2ml x3,not named,3,UK/std,brand page only,2,2,supplier page
-FIL:ILLUMA-LUNA-1ML-1X,Dermal filler,iLLUMA Luna,iLLUMA,iLLUMA Luna 1 x 1 ml,1ml x1,not named,1,UK/std,brand page only,3,3,supplier page
+FIL:ILLUMA-LUNA-1ML-1X,Dermal filler,iLLUMA Luna,iLLUMA,iLLUMA Luna 1 x 1 ml,1ml x1,not named,1,UK/std,brand page only,7,7,supplier page
 FIL:ILLUMA-LUNA1-1X,Dermal filler,iLLUMA Luna 1,iLLUMA,ILLUMA Luna 1 X 1 Syringe,x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:ILLUMA-LUNA1-1ML-1X,Dermal filler,iLLUMA Luna 1,iLLUMA,ILLUMA Luna 1ml X 1 Syringe,1ml x1,not named,1,UK/std,brand page only,4,4,supplier page
 FIL:ILLUMA-LUNADARKSPOTCONTROL-1ML-1X,Dermal filler,iLLUMA Luna Dark Spot Control,iLLUMA,iLLUMA Luna Dark Spot Control (1 x 1ml),1ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:ILLUMA-LUNAEYE-03ML-2X,Dermal filler,iLLUMA Luna Eye,iLLUMA,ILLUMA Luna EYE (2x3ml),0.3ml x2,not named,2,UK/std,brand page only,1,1,supplier page
 FIL:ILLUMA-LUNAOFFICIALONLINEFREE-1X,Dermal filler,iLLUMA Luna Official Online Free,iLLUMA,ILLUMA LUNA training with FREE box,x1,not named,1,UK/std,brand page only,1,1,supplier page
@@ -1670,9 +1648,8 @@ FIL:ILLUMA-PNPROLUNASAVE-1X,Dermal filler,iLLUMA Pn Pro Luna Save,iLLUMA,iLLUMA 
 FIL:ILLUMA-PNPROOFFICIALONLINE-1X,Dermal filler,iLLUMA Pn Pro Official Online,iLLUMA,iLLUMA PN PRO Training with FREE Box,x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:ILLUMA-PNSKINBOOSTER-25ML-1X,Dermal filler,iLLUMA Pn Skin Booster,iLLUMA,iLLUMA PN Skin Booster (2 x 2.5ml),2.5ml x1,not named,1,UK/std,brand page only,1,1,supplier page
 FIL:ILLUMA-PNSKINBOOSTER2-5ML-2X,Dermal filler,iLLUMA Pn Skin Booster 2,iLLUMA,Illuma PN Skin Booster 2 X 2 5ml,5ml x2,not named,2,UK/std,brand page only,1,1,supplier page
-FIL:ILLUMA-PNSKINBOOSTERAMP-25ML-2X,Dermal filler,iLLUMA Pn Skin Booster Amp,iLLUMA,iLLUMA PN Skin Booster &amp;amp; Skin Healer - 2 x 2.5ml,2.5ml x2,not named,2,UK/std,brand page only,1,1,supplier page
+FIL:ILLUMA-PNSKINBOOSTERAMP-25ML-2X,Dermal filler,iLLUMA Pn Skin Booster Amp,iLLUMA,iLLUMA PN Skin Booster &amp;amp; Skin Healer - 2 x 2.5ml,2.5ml x2,not named,2,UK/std,brand page only,2,2,supplier page
 FIL:ILLUMA-PNSKINBOOSTERSKIN-25ML-1X,Dermal filler,iLLUMA Pn Skin Booster Skin,iLLUMA,iLLUMA PN Skin Booster & Skin Healer (2 x 2.5ml),2.5ml x1,not named,1,UK/std,brand page only,1,1,supplier page
-FIL:ILLUMA-PNSKINBOOSTERSKIN-25ML-2X,Dermal filler,iLLUMA Pn Skin Booster Skin,iLLUMA,iLLUMA PN Skin Booster & Skin Healer 2 x 2.5ml,2.5ml x2,not named,2,UK/std,brand page only,1,1,supplier page
 DEV:2X-COUCH-HYGIENE-ROLL-20-WHITE,Devices & equipment,Clinic furniture,2x,2x Couch Hygiene Roll 20 White,machine / device,,,,,1,1,
 DEV:COUCH-HYGIENE-ROLL-PLY-WHITE,Devices & equipment,Clinic furniture,Couch,"Couch/Hygiene Roll (20”) – 2 ply, White",machine / device,,,,,1,1,
 DEV:PURE-TONE-SUPRAMAX-PELVIC-FLOOR-CHAIR,Devices & equipment,Clinic furniture,Pure,Pure Tone Supramax Pelvic Floor Chair,machine / device,,,,,1,1,
@@ -3377,8 +3354,7 @@ BST:BCN-TENSIS-PEPTIDES-5ML-X5,Skin booster / PN / mesotherapy,Mesotherapy cockt
 BST:BCN-VITAMIN-RETINOL-2ML-X10,Skin booster / PN / mesotherapy,Mesotherapy cocktail,BCN,BCN Vitamin A Retinol (10 x 2ml) amps.,2ml x10,Institute BCN,10,,,1,1,
 BST:BCN-VITAMIN-5ML-X10,Skin booster / PN / mesotherapy,Mesotherapy cocktail,BCN,BCN Vitamin C (10 x 5ml) amps.,5ml x10,Institute BCN,10,,,1,1,
 BST:CRYSTAL-PIN-MULTI-32G,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Crystal,Crystal 5-Pin Multi Needle 32G,32g,,1,,,1,1,
-BST:CYTOCARE-532-5ML-X10,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Cytocare,CytoCare 532 (10 x 5ml),5ml x10,Revitacare,10,,,1,1,
-BST:CYTOCARE-5ML-X10,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Cytocare,CytoCare 532 (10 x 5ml) Vial,5ml x10,Revitacare,10,,,2,2,
+BST:CYTOCARE-532-5ML-X10,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Cytocare,CytoCare 532 (10 x 5ml),5ml x10,Revitacare,10,,,3,3,
 BST:CYTOCARE-640-LINE-4ML-X5,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Cytocare,CytoCare 640 C Line (5 x 4ml) Vial,4ml x5,Revitacare,5,,,3,3,
 BST:CYTOCARE-502-5ML-X10,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Cytocare,Cytocare 502 (10 x 5ml),5ml x10,Revitacare,10,,,1,1,
 BST:CYTOCARE-502-REVITACARE-5ML-X10,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Cytocare,Cytocare 502 Revitacare Mesotherapy 10x5ml,5ml x10,Revitacare,10,,,1,1,
@@ -3730,8 +3706,7 @@ BST:AURORA-PN-EYES,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Aurora,
 BST:BUY-PDRN-PLUS-2.2ML-X3,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Buy,3x Remedium PDRN 2.2ml x 3 Syringes – Get 1x Remedium Aqua Plus 2ml x 2 Syringes Free,2.2ml x3,,3,,,1,1,
 BST:BUY-PDRN-FACE-2.2ML,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Buy,3x Remedium PDRN 2.2ml x 3 syringes – Get 1x Exom-Rejuvenation Face 103 (1x5ml) Free,2.2ml,,1,,,1,1,
 BST:BUY-PDRN,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Buy,"4x Remedium PDRN, Get 1x free",,,1,,,1,1,
-BST:COSMOPRO-HIKARI-CELLULITE-8ML-X5,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Cosmopro Hikari,Cosmopro Hikari Cellulite Meso 8ml x 5,8ml x5,Cosmopro,5,,,1,1,
-BST:COSMOPRO-HIKARI-CELLULITE-SHORT-8ML-X5,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Cosmopro Hikari,Cosmopro Hikari Cellulite Meso 8ml x 5,8ml x5,Cosmopro,5,,,1,1,
+BST:COSMOPRO-HIKARI-CELLULITE-SHORT-8ML-X5,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Cosmopro Hikari,Cosmopro Hikari Cellulite Meso 8ml x 5,8ml x5,Cosmopro,5,,,1,2,
 BST:COSMOPRO-HIKARI-CHROMA-BRIGHTENING-8ML-X5,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Cosmopro Hikari,Cosmopro Hikari Chroma Brightening Meso 8ml x 5,8ml x5,Cosmopro,5,,,1,1,
 BST:COSMOPRO-HIKARI-EYES-8ML-X5,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Cosmopro Hikari,Cosmopro Hikari Eyes Meso 8ml x 5,8ml x5,Cosmopro,5,,,1,1,
 BST:COSMOPRO-HIKARI-GROWTH-FACTOR-8ML-X5,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Cosmopro Hikari,Cosmopro Hikari Growth Factor Meso 8ml x 5,8ml x5,Cosmopro,5,,,1,1,
@@ -4047,8 +4022,7 @@ SKN:BIENPEEL-TCA-35-PEELING-6ML,"Skincare, haircare & peels",Chemical peel,Bienp
 SKN:BIOREPEELCL3-FND-6ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BIOREPEELCL3 FND 5 x 6ml,6ml,,,,,9,12,
 SKN:BIOREPEELCL3-BIOREPEEL-SINGLE-VIAL-CL3-BODY-12ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRePeel *SINGLE VIAL* CL3 Body 1 x 12ml,12ml,,,,,1,1,
 SKN:BIOREPEELCL3-BIOREPEEL-SINGLE-VIAL-CL3-FND-6ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRePeel *SINGLE VIAL* CL3 FND 1 x 6ml,6ml,,,,,1,1,
-SKN:BIOREPEELCL3-BIOREPEEL-CL3-BODY-12ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRePeel CL3 Body 3 x 12ml,12ml,,,,,1,1,
-SKN:BIOREPEELCL3-BIOREPEEL-CL3-FND-6ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRePeel Cl3 FND - 5 x 6ml,6ml,,,,,2,2,
+SKN:BIOREPEELCL3-BIOREPEEL-CL3-FND-6ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRePeel Cl3 FND - 5 x 6ml,6ml,,,,,3,3,
 SKN:BIOREPEELCL3-BIOREPEEL-FACE-6ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRePeel Face (1 x 6ml Single Vial),6ml,,,,,1,2,
 SKN:BIOREPEELCL3-BIOREPEELCI3-BODY-12ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRePeelCI3 Body (3 x 12ml),12ml,,,,,2,3,
 SKN:BIOREPEELCL3-BODY-12ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRePeelCL3 BODY 3 x 12ml,12ml,,,,,3,3,
@@ -4056,8 +4030,7 @@ SKN:BIOREPEELCL3-BODY,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,Bi
 SKN:BIOREPEELCL3-BODY-3X-VIALS-12ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRePeelCl3 Body 3x12ml Vials,12ml,,,,,1,1,
 SKN:BIOREPEELCL3-FND-1X-6ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRePeelCl3 FND 1x6ml,6ml,,,,,1,1,
 SKN:BIOREPEELCL3-FND-5X-VIALS-6ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRePeelCl3 FND 5x6ml Vials,6ml,,,,,1,1,
-SKN:BIOREPEELCL3-BIOREPEEL-CL3-BODY-VIALS-12ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRepeel Cl3 Body 3 x 12ml Vials,12ml,,,,,1,1,
-SKN:BIOREPEELCL3-BIOREPEEL-CL3-FND-VIALS-6ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRepeel Cl3 FND 6ml x 5 vials,6ml,,,,,1,1,
+SKN:BIOREPEELCL3-BIOREPEEL-CL3-BODY-VIALS-12ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BioRepeel Cl3 Body 3 x 12ml Vials,12ml,,,,,2,2,
 SKN:BIOREPEELCL3-BIOREPEELC13-BODY-12ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,BiorepeelC13 Body (1 X 12ML),12ml,,,,,2,3,
 SKN:BIOREPEELCL3-COPY-FND-5X-VIALS-6ML,"Skincare, haircare & peels",Chemical peel,BioRePeelCl3,Copy Of Biorepeelcl3 Fnd 5x6ml Vials,6ml,,,,,1,1,
 SKN:BRIGHTENING-NIGHT-PEEL-40ML,"Skincare, haircare & peels",Chemical peel,Brightening,Brightening Night Peel (40ml),40ml,,,,,1,1,
@@ -4396,8 +4369,7 @@ SKN:SYNCHROROSE-GENTLE-CLEANSING-GEL-200ML,"Skincare, haircare & peels",Cleanser
 SKN:TEBISKIN-ROSAGATE-CLEANSING-MILK-250ML,"Skincare, haircare & peels",Cleanser / wash,Tebiskin,Tebiskin Rosagate Cleansing Milk 250ml,250ml,,,,,1,1,
 SKN:TEOXANE-AHA-CLEANSING-GEL-150ML,"Skincare, haircare & peels",Cleanser / wash,Teoxane,Teoxane AHA Cleansing Gel 150ml,150ml,,,,,4,5,
 SKN:TEOXANE-MICELLAR-SOLUTION-400ML,"Skincare, haircare & peels",Cleanser / wash,Teoxane,Teoxane Professional Micellar Solution 400ml,400ml,,,,,1,1,
-SKN:TEOXANE-RHA-MICELLAR-SOLUTION-400ML,"Skincare, haircare & peels",Cleanser / wash,Teoxane,Teoxane Professional RHA Micellar Solution 400ml,400ml,,,,,2,3,
-SKN:TEOXANE-RHA-MICELLAR-400ML,"Skincare, haircare & peels",Cleanser / wash,Teoxane,Teoxane RHA Micellar 400ml Professional Size,400ml,,,,,1,1,
+SKN:TEOXANE-RHA-MICELLAR-SOLUTION-400ML,"Skincare, haircare & peels",Cleanser / wash,Teoxane,Teoxane Professional RHA Micellar Solution 400ml,400ml,,,,,3,4,
 SKN:TEOXANE-RHA-MICELLAR-FORMERLY-PRIME-200ML,"Skincare, haircare & peels",Cleanser / wash,Teoxane,Teoxane RHA Micellar Formerly Prime,200ml,,,,,1,1,
 SKN:TEOXANE-RHA-MICELLAR-SOLUTION-200ML,"Skincare, haircare & peels",Cleanser / wash,Teoxane,Teoxane RHA Micellar Solution 200ml,200ml,,,,,2,3,
 SKN:TEOXANE-RHA-MICELLAR-SOLUTION,"Skincare, haircare & peels",Cleanser / wash,Teoxane,Teoxane RHA Micellar Solution Professional,,,,,,1,2,
@@ -4454,12 +4426,10 @@ SKN:NEOSTRATA-RESTORE-PHA-EYE-CREAM-15G,"Skincare, haircare & peels",Exfoliant /
 SKN:NEOSTRATA-RESURFACE-GLYCOLIC-RENEWAL-SMOOTHING-40G,"Skincare, haircare & peels",Exfoliant / toner,NeoStrata,Neostrata Resurface Glycolic Renewal Smoothing,40g,,,,,1,1,
 SKN:NEOSTRATA-RESURFACE-GLYCOLIC-RENEWAL-SMOOTHING-CRE-40G,"Skincare, haircare & peels",Exfoliant / toner,NeoStrata,Neostrata Resurface Glycolic Renewal Smoothing Cream 40g,40g,,,,,1,1,
 SKN:NEOSTRATA-RESURFACE-GLYCOLIC-RENEWAL-SMOOTHING-LOT-200ML,"Skincare, haircare & peels",Exfoliant / toner,NeoStrata,Neostrata Resurface Glycolic Renewal Smoothing Lotion 200ml,200ml,,,,,1,1,
-SKN:NEOSTRATA-RESURFACE-HIGH-POTENCY-CREAM-AVAILABLE-30ML,"Skincare, haircare & peels",Exfoliant / toner,NeoStrata,Neostrata Resurface High Potency Cream,30ml,,,,,1,1,
-SKN:NEOSTRATA-RESURFACE-HIGH-POTENCY-CREAM-30ML,"Skincare, haircare & peels",Exfoliant / toner,NeoStrata,Neostrata Resurface High Potency Cream 30ml,30ml,,,,,1,1,
+SKN:NEOSTRATA-RESURFACE-HIGH-POTENCY-CREAM-30ML,"Skincare, haircare & peels",Exfoliant / toner,NeoStrata,Neostrata Resurface High Potency Cream 30ml,30ml,,,,,2,2,
 SKN:NEOSTRATA-RESURFACE-LOTION-PLUS-200ML,"Skincare, haircare & peels",Exfoliant / toner,NeoStrata,Neostrata Resurface Lotion Plus 200ml,200ml,,,,,2,2,
 SKN:NEOSTRATA-RESURFACE-PROBLEM-DRY-100G,"Skincare, haircare & peels",Exfoliant / toner,NeoStrata,Neostrata Resurface Problem Dry Skin 100g,100g,,,,,2,2,
-SKN:NEOSTRATA-RESURFACE-GLYCOLIC-RENEWAL-SERUM-30ML,"Skincare, haircare & peels",Exfoliant / toner,NeoStrata,Neostrata resurface Glycolic Renewal Serum 30ml,30ml,,,,,1,1,
-SKN:NEOSTRATA-RESURFACE-GLYCOLIC-RENEWAL-SERUM-DISCONT-30ML,"Skincare, haircare & peels",Exfoliant / toner,NeoStrata,Neostrata resurface Glycolic Renewal Serum 30ml,30ml,,,,,1,1,
+SKN:NEOSTRATA-RESURFACE-GLYCOLIC-RENEWAL-SERUM-DISCONT-30ML,"Skincare, haircare & peels",Exfoliant / toner,NeoStrata,Neostrata resurface Glycolic Renewal Serum 30ml,30ml,,,,,1,2,
 SKN:OBAGI-BALANCING-TONER-OILY-198ML,"Skincare, haircare & peels",Exfoliant / toner,Obagi,OBAGI C-Balancing Toner N/Oily Skin 198ml,198ml,,,,,1,1,
 SKN:OBAGI-EXFOLIATING-DAY-LOTION-57G,"Skincare, haircare & peels",Exfoliant / toner,Obagi,OBAGI C-Exfoliating Day Lotion 57g,57g,,,,,1,1,
 SKN:OBAGI-NU-DERM-TONER-200ML,"Skincare, haircare & peels",Exfoliant / toner,Obagi,Obagi Back Bar NU-DERM Toner 1.0 L,200ml,,,,,1,2,
@@ -4702,8 +4672,7 @@ SKN:EPICUTIS-LIPID-RECOVERY-MASK-FACE-20G,"Skincare, haircare & peels",Mask,Epic
 SKN:EPICUTIS-LIPID-RECOVERY-MASK-NECK-DECOLLETE-20G,"Skincare, haircare & peels",Mask,Epicutis,Epicutis Lipid Recovery Mask for Neck + Decollete pack of 5 x 20g,20g,,,,,1,1,
 SKN:EPICUTIS-LIPID-RECOVERY-MASK-NECK-DECOLETTE,"Skincare, haircare & peels",Mask,Epicutis,Epicutis Lipid Recovery Mask for Neck and Decolette,,,,,,1,1,
 SKN:EXOBLANC-SHEET-MASK,"Skincare, haircare & peels",Mask,Exoblanc,Exoblanc sheet mask,,,,,,1,1,
-SKN:EXOCELL-EXOSOME-MASK-BY-PROMOITALIA,"Skincare, haircare & peels",Mask,Exocell,Exocell Exosome Mask By Promoitalia,,,,,,1,1,
-SKN:EXOCELL-EXOSOME-MASK-BY-PROMOITALIA-SINGLE,"Skincare, haircare & peels",Mask,Exocell,Exocell Exosome Mask By Promoitalia Single Pack,,,,,,1,1,
+SKN:EXOCELL-EXOSOME-MASK-BY-PROMOITALIA,"Skincare, haircare & peels",Mask,Exocell,Exocell Exosome Mask By Promoitalia,,,,,,1,2,
 SKN:EXUVIANCE-PICK-ME-UP-PLUMPING-MASK,"Skincare, haircare & peels",Mask,Exuviance,Exuviance Pick Me Up Plumping Mask (12 Pack),,,,,,1,3,
 SKN:FACE-MASK-BRUSH,"Skincare, haircare & peels",Mask,Face,Face Mask Brush,,,,,,1,1,
 SKN:FFP3-RESPIRATOR-MASK,"Skincare, haircare & peels",Mask,Ffp3,FFP3 Respirator Mask x 5,,,,,,1,2,
@@ -5062,7 +5031,6 @@ SKN:SKINMED-SENSICURE-CREAM-GEL-50ML,"Skincare, haircare & peels",Moisturiser / 
 SKN:SOOLANTRA-10MG-CREAM-45G,"Skincare, haircare & peels",Moisturiser / cream,Soolantra,Soolantra 10mg/g Cream 45g,45g,,,,,1,1,
 SKN:SOOLANTRA-CREAM-60G,"Skincare, haircare & peels",Moisturiser / cream,Soolantra,Soolantra Cream 60g,60g,,,,,1,1,
 SKN:SYLK-NATURAL-INTIMATE-MOISTURISER-40G,"Skincare, haircare & peels",Moisturiser / cream,Sylk,Sylk Natural Intimate Moisturiser,40g,,,,,1,1,
-SKN:SYNCHROROSE-FAST-CREAM-30ML,"Skincare, haircare & peels",Moisturiser / cream,Synchrorose,Synchrorose Fast Cream 30ml,30ml,,,,,1,1,
 SKN:SYNCHROROSE-INTENSIVE-CREAM-30ML,"Skincare, haircare & peels",Moisturiser / cream,Synchrorose,Synchrorose Intensive Cream x 30ml,30ml,,,,,2,2,
 SKN:TEASE-NIGHT-REPAIR-CREAM,"Skincare, haircare & peels",Moisturiser / cream,Tease,TEASE – Night Repair Cream,,,,,,1,1,
 SKN:TEBISKIN-CERA-BOOST-FACE-CREAM-50ML,"Skincare, haircare & peels",Moisturiser / cream,Tebiskin,Tebiskin Cera-Boost Face Cream x 50ml,50ml,,,,,1,1,
@@ -5094,8 +5062,7 @@ SKN:VANIQA-CREAM-11-60G,"Skincare, haircare & peels",Moisturiser / cream,Vaniqa,
 SKN:VISCODERM-TOPICAL-COVER-UP-CREAM-DARK-20ML,"Skincare, haircare & peels",Moisturiser / cream,Viscoderm (topical),Viscoderm Cover Up Cream Dark 20ml,20ml,,,,,1,1,
 SKN:VISCODERM-TOPICAL-COVER-UP-CREAM-LIGHT-20ML,"Skincare, haircare & peels",Moisturiser / cream,Viscoderm (topical),Viscoderm Cover Up Cream Light 20ml,20ml,,,,,1,1,
 SKN:WIQO-ANTI-DRYNESS-BODY-CREAM-SACHETS,"Skincare, haircare & peels",Moisturiser / cream,WiQo,WiQo Anti-Dryness Body Cream Sachets,,,,,,1,1,
-SKN:WIQO-BALANCING-CREAM-30ML,"Skincare, haircare & peels",Moisturiser / cream,WiQo,WiQo Balancing Cream 30ml,30ml,,,,,1,1,
-SKN:WIQO-BALANCING-CREAM-SHORT-DATED-EXP-30ML,"Skincare, haircare & peels",Moisturiser / cream,WiQo,WiQo Balancing Cream 30ml,30ml,,,,,1,1,
+SKN:WIQO-BALANCING-CREAM-SHORT-DATED-EXP-30ML,"Skincare, haircare & peels",Moisturiser / cream,WiQo,WiQo Balancing Cream 30ml,30ml,,,,,1,2,
 SKN:WIQO-DRY-ULTRA-FACE-CREAM,"Skincare, haircare & peels",Moisturiser / cream,WiQo,WiQo Dry/Ultra Dry Skin Face Cream,,,,,,1,2,
 SKN:WIQO-DRY-ULTRA-FACE-CREAM-SACHETS,"Skincare, haircare & peels",Moisturiser / cream,WiQo,WiQo Dry/Ultra Dry Skin Face Cream Sachets,,,,,,1,1,
 SKN:WIQO-FIRMING-ANTI-DRYNESS-BODY-CREAM,"Skincare, haircare & peels",Moisturiser / cream,WiQo,WiQo Firming Anti-Dryness Body Cream,,,,,,1,1,
@@ -5487,8 +5454,7 @@ SKN:NECTIFIRM,"Skincare, haircare & peels",Other skincare,Nectifirm,Nectifirm AD
 SKN:NELSONS-ARNICA-30G,"Skincare, haircare & peels",Other skincare,Nelsons,Nelsons Arnica,30g,,,,,1,1,
 SKN:NELSONS-ARNICA-50G,"Skincare, haircare & peels",Other skincare,Nelsons,Nelsons Arnica,50g,,,,,1,1,
 SKN:NEOSTRATA-BRIGHTENING-BOOST-DUO,"Skincare, haircare & peels",Other skincare,NeoStrata,NEOSTRATA Brightening Boost Duo,,,,,,1,1,
-SKN:NEOSTRATA-CLARIFY-OILY-100ML,"Skincare, haircare & peels",Other skincare,NeoStrata,Neostrata Clarify Oily Skin,100ml,,,,,1,1,
-SKN:NEOSTRATA-CLARIFY-OILY-SOLUTION-100ML,"Skincare, haircare & peels",Other skincare,NeoStrata,Neostrata Clarify Oily Skin Solution 100ml,100ml,,,,,1,1,
+SKN:NEOSTRATA-CLARIFY-OILY-SOLUTION-100ML,"Skincare, haircare & peels",Other skincare,NeoStrata,Neostrata Clarify Oily Skin Solution 100ml,100ml,,,,,2,2,
 SKN:NEOSTRATA-CORRECT-OVERNIGHT-ANTI-POLLUTION-50G,"Skincare, haircare & peels",Other skincare,NeoStrata,Neostrata Correct Overnight Anti-Pollution Treatment 50g,50g,,,,,1,1,
 SKN:NEOSTRATA-DARK-SPOT-CORRECTOR,"Skincare, haircare & peels",Other skincare,NeoStrata,Neostrata Dark Spot Corrector,,,,,,1,1,
 SKN:NEOSTRATA-ENLIGHTEN-DARK-SPOT-CORRECTOR-20G,"Skincare, haircare & peels",Other skincare,NeoStrata,Neostrata Enlighten Dark Spot Corrector 20g,20g,,,,,2,2,
@@ -5736,11 +5702,9 @@ SKN:SRS-DEXPANTHENOL-AMPULES,"Skincare, haircare & peels",Other skincare,Srs,SRS
 SKN:STEREX-ALOE-VERA-200ML,"Skincare, haircare & peels",Other skincare,Sterex,Sterex Aloe Vera,200ml,,,,,1,1,
 SKN:STEREX-ALOE-VERA-35ML,"Skincare, haircare & peels",Other skincare,Sterex,Sterex Aloe Vera,35ml,,,,,1,1,
 SKN:STEREX-APRES-CLEAR-200ML,"Skincare, haircare & peels",Other skincare,Sterex,Sterex Apres Clear,200ml,,,,,1,1,
-SKN:STEREX-APRES-CLEAR-30ML,"Skincare, haircare & peels",Other skincare,Sterex,Sterex Apres Clear,30ml,,,,,1,1,
-SKN:STEREX-APRES-CLEAR-AVAILABLE-ON-REQUEST-30ML,"Skincare, haircare & peels",Other skincare,Sterex,Sterex Apres Clear,30ml,,,,,1,1,
+SKN:STEREX-APRES-CLEAR-30ML,"Skincare, haircare & peels",Other skincare,Sterex,Sterex Apres Clear,30ml,,,,,1,2,
 SKN:STEREX-WITCH-HAZEL-200ML,"Skincare, haircare & peels",Other skincare,Sterex,Sterex Witch Hazel,200ml,,,,,1,1,
-SKN:STEREX-WITCH-HAZEL-35ML,"Skincare, haircare & peels",Other skincare,Sterex,Sterex Witch Hazel,35ml,,,,,1,1,
-SKN:STEREX-WITCH-HAZEL-AVAILABLE-ON-REQUEST-35ML,"Skincare, haircare & peels",Other skincare,Sterex,Sterex Witch Hazel,35ml,,,,,1,1,
+SKN:STEREX-WITCH-HAZEL-AVAILABLE-ON-REQUEST-35ML,"Skincare, haircare & peels",Other skincare,Sterex,Sterex Witch Hazel,35ml,,,,,1,2,
 SKN:SUNSENSE-SENSITIVE-100G,"Skincare, haircare & peels",Other skincare,Sunsense,Sunsense Sensitive,100g,,,,,1,1,
 SKN:SURGICAL-SCRUB-CAP,"Skincare, haircare & peels",Other skincare,Surgical,Surgical Scrub Cap,,,,,,1,5,
 SKN:SWISSCODE-PURE-KIRIBIRTH-15ML,"Skincare, haircare & peels",Other skincare,Swisscode,Swisscode Pure Kiribirth 15ml,15ml,,,,,1,1,
@@ -5748,7 +5712,7 @@ SKN:SWISSCODE-PURE-MPC-15ML,"Skincare, haircare & peels",Other skincare,Swisscod
 SKN:SWISSCODE-PURE-MPC-30ML,"Skincare, haircare & peels",Other skincare,Swisscode,Swisscode Pure MPC 30ml,30ml,,,,,1,1,
 SKN:SWISSCODE-PURE-VITAMIN-FORTE-15ML,"Skincare, haircare & peels",Other skincare,Swisscode,Swisscode Pure Vitamin F Forte 15ml,15ml,,,,,1,1,
 SKN:SWISSCODE-PURE-VITAMIN-FORTE-30ML,"Skincare, haircare & peels",Other skincare,Swisscode,Swisscode Pure Vitamin F Forte 30ml,30ml,,,,,1,1,
-SKN:SYNCHROROSE-FAST-30ML,"Skincare, haircare & peels",Other skincare,Synchrorose,Synchrorose Fast x 30ml,30ml,,,,,1,1,
+SKN:SYNCHROROSE-FAST-30ML,"Skincare, haircare & peels",Other skincare,Synchrorose,Synchrorose Fast x 30ml,30ml,,,,,2,2,
 SKN:TEBISKIN-EGF-50ML,"Skincare, haircare & peels",Other skincare,Tebiskin,Tebiskin EGF x 50ml,50ml,,,,,2,2,
 SKN:TEBISKIN-GLUAGE-20ML,"Skincare, haircare & peels",Other skincare,Tebiskin,Tebiskin GLUAGE x 20ml,20ml,,,,,1,1,
 SKN:TEBISKIN-GLY-STRONG-20ML,"Skincare, haircare & peels",Other skincare,Tebiskin,Tebiskin GLY-C Strong x 20ml,20ml,,,,,1,1,
@@ -5817,8 +5781,7 @@ SKN:WIQO-NEUTRALIZER,"Skincare, haircare & peels",Other skincare,WiQo,WiQo Neutr
 SKN:WIQO-SOLUTION-300ML,"Skincare, haircare & peels",Other skincare,WiQo,WiQo P-Solution 300ml,300ml,,,,,2,2,
 SKN:WIQO-PRX-CANNULAS-SYRINGES-20,"Skincare, haircare & peels",Other skincare,WiQo,WiQo PRX Cannulas/Syringes Pack 20,,,,,,1,1,
 SKN:WIQO-PRX-THERAPY,"Skincare, haircare & peels",Other skincare,WiQo,WiQo PRX Therapy Kit,,,,,,1,1,
-SKN:WIQO-PRX-PLUS-4ML,"Skincare, haircare & peels",Other skincare,WiQo,WiQo PRX-PLUS (5 x 4ml),4ml,,,,,1,1,
-SKN:WIQO-PRX-PLUS-SINGLE-4ML,"Skincare, haircare & peels",Other skincare,WiQo,WiQo PRX-PLUS Single (1 x 4ml),4ml,,,,,1,1,
+SKN:WIQO-PRX-PLUS-SINGLE-4ML,"Skincare, haircare & peels",Other skincare,WiQo,WiQo PRX-PLUS Single (1 x 4ml),4ml,,,,,1,2,
 SKN:WIQO-SMOOTHING-FACE-FLUID-30ML,"Skincare, haircare & peels",Other skincare,WiQo,WiQo Smoothing Face Fluid 30ml,30ml,,,,,2,2,
 SKN:WIQO-SMOOTHING-FLUID-30ML,"Skincare, haircare & peels",Other skincare,WiQo,WiQo Smoothing Fluid (1 x 30ml tube),30ml,,,,,1,1,
 SKN:WIQO-STARTER,"Skincare, haircare & peels",Other skincare,WiQo,WiQo Starter Bundle,,,,,,1,1,
@@ -5917,11 +5880,9 @@ SKN:ALTO-DEFENSE-REPAIR-SERUM,"Skincare, haircare & peels",Serum / booster,Alto,
 SKN:ALTO-DEFENSE-SERUM,"Skincare, haircare & peels",Serum / booster,Alto,Alto Defense Serum,,,,,,1,1,
 SKN:ALURA-HA-REVERSE-SERUM-5X-VIALS-5ML,"Skincare, haircare & peels",Serum / booster,Alura,ALURA HA Reverse Serum - 5x5ml Vials,5ml,,,,,1,1,
 SKN:ALURA-HA-REVITALISE-SERUM-5X-VIALS-5ML,"Skincare, haircare & peels",Serum / booster,Alura,ALURA HA Revitalise Serum - 5x5ml Vials,5ml,,,,,1,1,
-SKN:ALURA-SINGLE-VIAL-HA-REVERSE-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Alura,Alura *SINGLE VIAL* HA Reverse Serum (1×5ml),5ml,,,,,1,1,
-SKN:ALURA-SINGLE-VIAL-HA-REVITALISE-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Alura,Alura *SINGLE VIAL* HA Revitalise Serum (1 x 5ml),5ml,,,,,1,1,
+SKN:ALURA-SINGLE-VIAL-HA-REVITALISE-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Alura,Alura *SINGLE VIAL* HA Revitalise Serum (1 x 5ml),5ml,,,,,2,3,
 SKN:ALURA-ELTOX-REVERSE-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Alura,Alura ELTOX Reverse serum (5 x 5ml),5ml,,,,,1,1,
-SKN:ALURA-HA-REVERSE-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Alura,Alura HA Reverse Serum (5×5ml),5ml,,,,,1,1,
-SKN:ALURA-HA-REVITALISE-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Alura,Alura HA Revitalise Serum (5 x 5ml),5ml,,,,,2,2,
+SKN:ALURA-HA-REVERSE-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Alura,Alura HA Reverse Serum (5×5ml),5ml,,,,,1,2,
 SKN:B3-RECOVERY-SERUM-30ML,"Skincare, haircare & peels",Serum / booster,B3,B3 Recovery Serum 30ml,30ml,,,,,1,1,
 SKN:BIOREHYDRA-AFTER-SERUM-200ML,"Skincare, haircare & peels",Serum / booster,Biorehydra,BioReHydra - After Serum 200 ml,200ml,,,,,1,1,
 SKN:BIOREHYDRA-AFTER-SERUM-30ML,"Skincare, haircare & peels",Serum / booster,Biorehydra,BioReHydra - After Serum 30 ml,30ml,,,,,1,1,
@@ -5974,19 +5935,13 @@ SKN:HYDRATE-SERUM,"Skincare, haircare & peels",Serum / booster,Hydrate,Hydrate S
 SKN:HYDRATING-SERUM-30ML,"Skincare, haircare & peels",Serum / booster,Hydrating,Hydrating Serum 30ml,30ml,,,,,1,1,
 SKN:ILLUMINATING-AOX-SERUM-GBL-50ML,"Skincare, haircare & peels",Serum / booster,Illuminating,Illuminating Aox Serum 50ml Gbl,50ml,,,,,1,2,
 SKN:INBIOAMBER-SINGLE-VIAL-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioamber,Inbioamber *SINGLE VIAL* Microneedling Serum 1 x 5ml,5ml,,,,,1,1,
-SKN:INBIOAMBER-MICRONEEDLING-SERUM-SINGLE-VIAL-5ML,"Skincare, haircare & peels",Serum / booster,Inbioamber,Inbioamber Microneedling Serum (1 x 5ml) single vial,5ml,,,,,1,1,
-SKN:INBIOAMBER-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioamber,Inbioamber Microneedling Serum (5 x 5ml),5ml,,,,,3,3,
-SKN:INBIOAMBER-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioamber,Inbioamber Single Microneedling Serum (1 x 5ml),5ml,,,,,1,1,
+SKN:INBIOAMBER-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioamber,Inbioamber Single Microneedling Serum (1 x 5ml),5ml,,,,,3,5,
 SKN:INBIOFACE-SINGLE-VIAL-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioface,Inbioface *SINGLE VIAL* Microneedling Serum 1 x 5ml,5ml,,,,,1,1,
-SKN:INBIOFACE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioface,Inbioface Microneedling Serum (5 x 5ml),5ml,,,,,3,3,
-SKN:INBIOFACE-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioface,Inbioface Single Microneedling Serum (1 x 5ml),5ml,,,,,1,1,
+SKN:INBIOFACE-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioface,Inbioface Single Microneedling Serum (1 x 5ml),5ml,,,,,3,4,
 SKN:INBIOHAIR-SINGLE-VIAL-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbiohair,Inbiohair *SINGLE VIAL* Microneedling Serum 1 x 5ml,5ml,,,,,1,1,
-SKN:INBIOHAIR-MICRONEEDLING-SERUM-SINGLE-VIAL-5ML,"Skincare, haircare & peels",Serum / booster,Inbiohair,Inbiohair Microneedling Serum (1 x 5ml) single vial,5ml,,,,,1,1,
-SKN:INBIOHAIR-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbiohair,Inbiohair Microneedling Serum (5 x 5ml),5ml,,,,,3,3,
-SKN:INBIOHAIR-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbiohair,Inbiohair Single Microneedling Serum (1 x 5ml),5ml,,,,,1,1,
+SKN:INBIOHAIR-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbiohair,Inbiohair Single Microneedling Serum (1 x 5ml),5ml,,,,,3,5,
 SKN:INBIOREGEN-SINGLE-VIAL-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioregen,Inbioregen *SINGLE VIAL* Microneedling Serum 1 x 5ml,5ml,,,,,1,1,
-SKN:INBIOREGEN-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioregen,Inbioregen Microneedling Serum (5 x 5ml),5ml,,,,,3,3,
-SKN:INBIOREGEN-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioregen,Inbioregen Single Microneedling Serum (1 x 5ml),5ml,,,,,1,1,
+SKN:INBIOREGEN-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Inbioregen,Inbioregen Single Microneedling Serum (1 x 5ml),5ml,,,,,3,4,
 SKN:INTRACEUTICALS-INTRADERMOLOGY-FIRM-REVIVE-SERUM-15ML,"Skincare, haircare & peels",Serum / booster,Intraceuticals,Intradermology Firm and Revive Serum 15ml,15ml,,,,,1,1,
 SKN:INTRACEUTICALS-INTRADERMOLOGY-RESTORE-NIGHT-REPAIR-SERU-30ML,"Skincare, haircare & peels",Serum / booster,Intraceuticals,Intradermology Restore Night Repair Serum with TRI-RET Complex 30ml,30ml,,,,,1,1,
 SKN:JOCIN-ELEVATING-SERUM-S3-OXAGON-30ML,"Skincare, haircare & peels",Serum / booster,Jocin,Jocin Skin Elevating Serum S3 Oxagon,30ml,,,,,1,1,
@@ -6055,7 +6010,7 @@ SKN:NOUVEAU-SKIN-VISAGE-LE-SERUM-NEWSKIN-30ML,"Skincare, haircare & peels",Serum
 SKN:NOUVEAU-SKIN-VISAGE-LE-SERUM-NEWHAIR-30ML,"Skincare, haircare & peels",Serum / booster,Nouveau Skin,Nouveau Visage LE Serum NEWHAIR 30ml,30ml,,,,,1,1,
 SKN:OBAGI-ELASTIDERM-FACIAL-SERUM-30ML,"Skincare, haircare & peels",Serum / booster,Obagi,OBAGI ELASTIderm Facial Serum 30ml,30ml,,,,,1,1,
 SKN:OBAGI-ELASTIDERM-NECK-DECOLLETE-CONCENTRATE-60ML,"Skincare, haircare & peels",Serum / booster,Obagi,OBAGI Elastiderm Neck and Decollete Concentrate (60 ML),60ml,,,,,1,1,
-SKN:OBAGI-MEDICAL-NU-CIL-EYELASH-ENHANCING-3ML,"Skincare, haircare & peels",Serum / booster,Obagi,OBAGI Medical Nu-Cil EyeLASH Enhancing Serum 3ml,3ml,,,,,1,1,
+SKN:OBAGI-MEDICAL-NU-CIL-EYELASH-ENHANCING-3ML,"Skincare, haircare & peels",Serum / booster,Obagi,OBAGI Medical Nu-Cil EyeLASH Enhancing Serum 3ml,3ml,,,,,1,2,
 SKN:OBAGI-NU-CIL-BIOSTIM-SCALP-SERUM-60ML,"Skincare, haircare & peels",Serum / booster,Obagi,OBAGI Nu-Cil BIOSTIM Scalp Serum 60 ml,60ml,,,,,1,1,
 SKN:OBAGI-10-SERUM-30ML,"Skincare, haircare & peels",Serum / booster,Obagi,OBAGI Professional-C 10% Serum 30ml,30ml,,,,,1,1,
 SKN:OBAGI-15-SERUM-LILAC-30ML,"Skincare, haircare & peels",Serum / booster,Obagi,OBAGI Professional-C 15% Serum 30ml [Lilac],30ml,,,,,1,1,
@@ -6065,7 +6020,6 @@ SKN:OBAGI-BRIGHTENING-DUO-SERUM-15-42.5ML,"Skincare, haircare & peels",Serum / b
 SKN:OBAGI-BRIGHTENING-DUO-SERUM-20-42.5ML,"Skincare, haircare & peels",Serum / booster,Obagi,Obagi Brightening Duo: Professional-C Serum 20% Kit 42.5 ml,42.5ml,,,,,1,1,
 SKN:OBAGI-DAILY-HYDRO-DROPS-FACIAL-SERUM-30ML,"Skincare, haircare & peels",Serum / booster,Obagi,Obagi Daily Hydro-Drops Facial Serum 30ml,30ml,,,,,1,1,
 SKN:OBAGI-NU-CIL-EYEBROW-BOOSTING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,Obagi,Obagi NU-CIL Eyebrow Boosting Serum 5ml,5ml,,,,,1,1,
-SKN:OBAGI-NU-CIL-EYELASH-ENHANCING-SERUM-3ML,"Skincare, haircare & peels",Serum / booster,Obagi,Obagi NU-CIL Eyelash Enhancing Serum 3ml,3ml,,,,,1,1,
 SKN:OBAGI-NU-GEN-CELLULAR-RENEWAL-SERUM-10ML,"Skincare, haircare & peels",Serum / booster,Obagi,Obagi Nu-Gen Cellular Renewal Serum 0.34 fl oz (10 ml),10ml,,,,,1,1,
 SKN:OBAGI-NU-GEN-CELLULAR-RENEWAL-SERUM-30ML,"Skincare, haircare & peels",Serum / booster,Obagi,Obagi Nu-Gen Cellular Renewal Serum 1.0 fl oz (30 ml),30ml,,,,,1,1,
 SKN:PCA-SKIN-HYDRATING-SERUM-5ML,"Skincare, haircare & peels",Serum / booster,PCA Skin,PCA Skin Hydrating Serum Travel Size,5ml,,,,,1,1,
@@ -6400,12 +6354,11 @@ SUP:SUP-BEAUTY-PEAK-HAIR-60-CAP-60CAP,Supplements,Skin / beauty supplement,Beaut
 SUP:SUP-ELECTROLYTES-SKI-RADIANCE-POMEGRANATE-LEMON-SERVING,Supplements,Skin / beauty supplement,Electrolytes+Skin,Electrolytes+Skin Radiance. Pomegranate and Lemon - 7 servings,,,,,,1,1,
 SUP:SUP-IBSA-VITAMIN-BUNDLE,Supplements,Skin / beauty supplement,IBSA,IBSA Vitamin Bundle,,,,,,1,1,
 SUP:SUP-IBSA-VITAMIN-D3,Supplements,Skin / beauty supplement,IBSA,IBSA Vitamin D3,,,,,,1,1,
-SUP:SUP-VISCODERM-PEARLS-X30,Supplements,Skin / beauty supplement,Viscoderm,Viscoderm Pearls x30,,,,,,1,1,
+SUP:SUP-VISCODERM-PEARLS-X30,Supplements,Skin / beauty supplement,Viscoderm,Viscoderm Pearls x30,,,,,,3,3,
 SUP:SUP-IBSA-VITAMIN-STARTER-KIT,Supplements,Skin / beauty supplement,ibsa,Ibsa Vitamin Starter Kit,,,,,,1,1,
 SUP:SUP-JALUPRO-DIETARY-DRINK-30,Supplements,Skin / beauty supplement,jalupro,Jalupro Dietary Drink Supplement X 30,,,,,,1,1,
 SUP:SUP-JALUPRO-DIETARY-DRINK-30STOCK-PAY,Supplements,Skin / beauty supplement,jalupro,Jalupro Dietary Drink Supplement X 30stock Item,,,,,,1,1,
 SUP:SUP-VALUPAK-HAIR-NAILS-SKIN,Supplements,Skin / beauty supplement,valupak,Valupak Hair Nails Skin,,,,,,1,1,
-SUP:SUP-VISCODERM-PEARLS,Supplements,Skin / beauty supplement,viscoderm,Viscoderm Pearls (1 x 30),,,,,,2,2,
 SUP:SUP-VISCODERM-PEARLS-30,Supplements,Skin / beauty supplement,viscoderm,Viscoderm Pearls 30,,,,,,1,2,
 SUP:SUP-MEDICEUTICS-CONCENTRATED-DIETARY,Supplements,Supplement (other),Mediceutics,Mediceutics Concentrated Dietary Supplement,,,,,,1,1,
 SUP:SUP-MEDICEUTICS-SLIMMING-DIETARY,Supplements,Supplement (other),Mediceutics,Mediceutics Slimming Dietary Supplement,,,,,,1,1,
