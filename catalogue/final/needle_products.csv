@@ -1,0 +1,420 @@
+code,subtype,gauge,length,volume,luer,pack,brands,supplier_n,listings
+CONSUM-8MM-X10,Consumable (other),,8mm,0.3ml,,10,BD,1,1
+CONSUM-DERMAQUA-X50,Consumable (other),,,,,50,Dermaqual,1,2
+CONSUM-HYALURON,Consumable (other),,,,,1,Hyaluron,1,1
+CONSUM-HYDRA,Consumable (other),,,,,1,Hydra,1,1
+CONSUM-20G-11MM,Consumable (other),20G,11mm,,,1,B. Braun,1,1
+CONSUM-20G-32MM,Consumable (other),20G,32mm,,,1,BD,1,1
+CONSUM-20G-X20,Consumable (other),20G,,,,20,20G,1,1
+CONSUM-21G,Consumable (other),21G,,,,1,BD,1,1
+CONSUM-22G-25MM,Consumable (other),22G,25mm,,,1,BD,1,1
+CONSUM-22G-9MM,Consumable (other),22G,9mm,,,1,B. Braun,1,1
+CONSUM-28G-5MM,Consumable (other),28G,5mm,,,1,Mylife,1,1
+CONSUM-30G,Consumable (other),30G,,,,1,Mylife; Ultra,2,3
+CONSUM-30G-8MM-X100,Consumable (other),30G,8mm,0.5ml,,100,BD,1,1
+CONSUM-31G-4MM,Consumable (other),31G,4mm,,,1,THE,1,1
+ELECTR-STAINLES,Electrolysis needle,,,,,1,Stainless,1,1
+ELECTR-STEREX,Electrolysis needle,,,,,1,Sterex,1,9
+FILTER-18G-12MM,Filter needle,18G,12mm,,,1,BD,1,1
+FILTER-18G-40MM,Filter needle,18G,40mm,,,1,BD,1,1
+FILTER-18G-40MM-X100,Filter needle,18G,40mm,,,100,BD; Blunt,2,2
+FILTER-18G-X100,Filter needle,18G,,,,100,BD,2,2
+HYPODE-100,Hypodermic needle,,,,,1,100,1,8
+HYPODE-15MM,Hypodermic needle,,15mm,,,1,Dermaroller,1,2
+HYPODE-25MM,Hypodermic needle,,25mm,,,1,Dermaroller; Hydra,2,2
+HYPODE-38MM,Hypodermic needle,,38mm,,,1,BD,1,1
+HYPODE-40MM-X40,Hypodermic needle,,40mm,,,40,BD,1,1
+HYPODE-4MM-X90,Hypodermic needle,,4mm,,,90,BD; VIVA,1,2
+HYPODE-50MM,Hypodermic needle,,50mm,,,1,Hydra,1,1
+HYPODE-5MM,Hypodermic needle,,5mm,,,1,Potenza,1,2
+HYPODE-8MM,Hypodermic needle,,8mm,,,1,Potenza,1,2
+HYPODE-8MM-X90,Hypodermic needle,,8mm,,,90,BD; VIVA,1,2
+HYPODE-9MM,Hypodermic needle,,9mm,,,1,TSK,2,2
+HYPODE-9MM-X100,Hypodermic needle,,9mm,,,100,TSK,1,1
+HYPODE-9MM-X2,Hypodermic needle,,9mm,,,2,TSK,1,2
+HYPODE-BD,Hypodermic needle,,,,,1,BD,1,6
+HYPODE-BD-X3,Hypodermic needle,,,,,3,BD,1,1
+HYPODE-BD-X5,Hypodermic needle,,,,,5,BD,1,1
+HYPODE-DERMAQUA,Hypodermic needle,,,,,1,Dermaqual,1,1
+HYPODE-DERMAQUA-X10,Hypodermic needle,,,,,10,Dermaqual,1,2
+HYPODE-DR,Hypodermic needle,,,,,1,DR,1,1
+HYPODE-FMS-X10,Hypodermic needle,,,1ml,,10,FMS,1,3
+HYPODE-FMS-X100,Hypodermic needle,,,0.3ml,,100,FMS,1,3
+HYPODE-MESOESTE-X10,Hypodermic needle,,,,,10,Mesoestetic,1,1
+HYPODE-NEEDLE,Hypodermic needle,,,,,1,Needle,1,1
+HYPODE-POTENZA,Hypodermic needle,,,,,1,Potenza,1,5
+HYPODE-PROINFUS,Hypodermic needle,,,,,1,Proinfusion,1,1
+HYPODE-TERUMO,Hypodermic needle,,,,,1,Terumo,1,5
+HYPODE-TINA,Hypodermic needle,,,,,1,TINA,1,1
+HYPODE-18G,Hypodermic needle,18G,,,,1,BD; Terumo,2,2
+HYPODE-18G-38MM,Hypodermic needle,18G,38mm,,,1,BD; Terumo,4,5
+HYPODE-18G-40MM-X40,Hypodermic needle,18G,40mm,,,40,BD,1,1
+HYPODE-18G-50MM,Hypodermic needle,18G,50mm,,,1,BD,1,1
+HYPODE-18G-50MM-X50,Hypodermic needle,18G,50mm,,,50,BD,1,1
+HYPODE-18G-51MM-X2,Hypodermic needle,18G,51mm,,,2,BD,1,1
+HYPODE-18G-90MM,Hypodermic needle,18G,90mm,,,1,BD,1,1
+HYPODE-18G-X10,Hypodermic needle,18G,,,,10,Guiding,1,1
+HYPODE-19G-25MM,Hypodermic needle,19G,25mm,,,1,BD,1,1
+HYPODE-19G-38MM,Hypodermic needle,19G,38mm,,,1,Terumo,1,1
+HYPODE-19G-40MM-X40,Hypodermic needle,19G,40mm,,,40,BD,1,1
+HYPODE-20G-90MM,Hypodermic needle,20G,90mm,,,1,BD,1,2
+HYPODE-21G,Hypodermic needle,21G,,,,1,BD,1,1
+HYPODE-21G-16MM-X16,Hypodermic needle,21G,16mm,,,16,BD,1,1
+HYPODE-21G-203MM-X5,Hypodermic needle,21G,203mm,,,5,BD,2,2
+HYPODE-21G-25MM-X25,Hypodermic needle,21G,25mm,,,25,B. Braun,1,1
+HYPODE-21G-38MM,Hypodermic needle,21G,38mm,,,1,BD,3,3
+HYPODE-21G-38MM-X100,Hypodermic needle,21G,38mm,,,100,Unisharp,2,2
+HYPODE-21G-40MM,Hypodermic needle,21G,40mm,,,1,BD,2,2
+HYPODE-21G-40MM-X100,Hypodermic needle,21G,40mm,,,100,BD,3,4
+HYPODE-21G-40MM-X40,Hypodermic needle,21G,40mm,,,40,B. Braun; BD,1,2
+HYPODE-21G-50MM-X50,Hypodermic needle,21G,50mm,,,50,BD,1,1
+HYPODE-21G-51MM-X100,Hypodermic needle,21G,51mm,,,100,BD,1,1
+HYPODE-21G-8MM-X100,Hypodermic needle,21G,8mm,,,100,BD,1,2
+HYPODE-21G-X15,Hypodermic needle,21G,,,,15,BD,1,1
+HYPODE-22G-25MM,Hypodermic needle,22G,25mm,,,1,BD,1,1
+HYPODE-22G-25MM-X100,Hypodermic needle,22G,25mm,,,100,BD,1,1
+HYPODE-22G-30MM,Hypodermic needle,22G,30mm,,,1,BD,1,1
+HYPODE-22G-30MM-X100,Hypodermic needle,22G,30mm,,,100,BD,1,1
+HYPODE-22G-40MM-X100,Hypodermic needle,22G,40mm,,,100,BD,1,1
+HYPODE-22G-51MM-X2,Hypodermic needle,22G,51mm,,,2,BD,1,1
+HYPODE-22G-X2,Hypodermic needle,22G,,,,2,BD,1,1
+HYPODE-23G-25MM,Hypodermic needle,23G,25mm,,,1,B. Braun; BD,5,6
+HYPODE-23G-25MM-X100,Hypodermic needle,23G,25mm,,,100,BD,2,3
+HYPODE-23G-30MM,Hypodermic needle,23G,30mm,,,1,BD,1,1
+HYPODE-23G-30MM-X100,Hypodermic needle,23G,30mm,,,100,BD; Unisharp,2,2
+HYPODE-23G-30MM-X30,Hypodermic needle,23G,30mm,,,30,B. Braun; BD,1,3
+HYPODE-23G-32MM-X100,Hypodermic needle,23G,32mm,,,100,Terumo; Unisharp,2,2
+HYPODE-23G-6MM,Hypodermic needle,23G,6mm,,,1,BD,1,1
+HYPODE-23G-6MM-X100,Hypodermic needle,23G,6mm,,,100,BD,1,1
+HYPODE-24G,Hypodermic needle,24G,,,,1,BD,1,1
+HYPODE-25G,Hypodermic needle,25G,,,,1,BD,1,1
+HYPODE-25G-16MM-X100,Hypodermic needle,25G,16mm,,,100,BD; Unisharp,2,2
+HYPODE-25G-16MM-X16,Hypodermic needle,25G,16mm,,,16,BD,1,1
+HYPODE-25G-203MM-X5,Hypodermic needle,25G,203mm,,,5,BD,1,1
+HYPODE-25G-25MM,Hypodermic needle,25G,25mm,,,1,BD,4,4
+HYPODE-25G-25MM-X100,Hypodermic needle,25G,25mm,,,100,BD,3,4
+HYPODE-25G-25MM-X25,Hypodermic needle,25G,25mm,,,25,BD,1,1
+HYPODE-25G-5MM-X100,Hypodermic needle,25G,5mm,,,100,BD,1,1
+HYPODE-25G-X3,Hypodermic needle,25G,,,,3,BD,1,1
+HYPODE-25G-X5,Hypodermic needle,25G,,,,5,BD,1,1
+HYPODE-26G-10MM-X10,Hypodermic needle,26G,10mm,,,10,BD,1,1
+HYPODE-26G-10MM-X100,Hypodermic needle,26G,10mm,,,100,BD,1,1
+HYPODE-26G-13MM,Hypodermic needle,26G,13mm,,,0,BD; Unisharp,1,2
+HYPODE-26G-13MM-X100,Hypodermic needle,26G,13mm,,,100,BD,1,1
+HYPODE-26G-13MM-X12,Hypodermic needle,26G,13mm,,,12,Terumo,1,1
+HYPODE-26G-13MM-X13,Hypodermic needle,26G,13mm,,,13,BD,1,1
+HYPODE-26G-16MM-X100,Hypodermic needle,26G,16mm,,,100,BD,1,1
+HYPODE-26G-16MM-X16,Hypodermic needle,26G,16mm,,,16,BD,1,1
+HYPODE-27G,Hypodermic needle,27G,,,,1,BD,4,5
+HYPODE-27G-102MM,Hypodermic needle,27G,102mm,,,1,Monoject,1,1
+HYPODE-27G-12MM-X12,Hypodermic needle,27G,12mm,,,12,B. Braun,1,2
+HYPODE-27G-13MM,Hypodermic needle,27G,13mm,,,1,BD; TSK; Unisharp,4,5
+HYPODE-27G-13MM-X100,Hypodermic needle,27G,13mm,,,100,BD; Unisharp,6,8
+HYPODE-27G-13MM-X13,Hypodermic needle,27G,13mm,,,13,BD,1,2
+HYPODE-27G-19MM,Hypodermic needle,27G,19mm,,,1,Unisharp,1,2
+HYPODE-27G-19MM-X100,Hypodermic needle,27G,19mm,,,100,BD,1,1
+HYPODE-27G-203MM-X5,Hypodermic needle,27G,203mm,,,5,Terumo,1,1
+HYPODE-27G-40MM-X40,Hypodermic needle,27G,40mm,,,40,B. Braun,1,1
+HYPODE-27G-4MM-X100,Hypodermic needle,27G,4mm,,,100,BD,1,1
+HYPODE-29G-13MM-X100,Hypodermic needle,29G,13mm,1ml,,100,Unisharp,1,1
+HYPODE-29G-76MM-X100,Hypodermic needle,29G,76mm,1ml,,100,Unisharp,1,1
+HYPODE-29G-7MM-X100,Hypodermic needle,29G,7mm,0.5ml,,100,BD,1,2
+HYPODE-29G-7MM-X12,Hypodermic needle,29G,7mm,1ml,,12,BD,1,1
+HYPODE-29G-X100,Hypodermic needle,29G,,1ml,,100,BD,1,2
+HYPODE-30G,Hypodermic needle,30G,,,,0,BD; Terumo,1,2
+HYPODE-30G-13MM,Hypodermic needle,30G,13mm,,,1,BD; TSK; Terumo; Unisharp,12,17
+HYPODE-30G-13MM-X100,Hypodermic needle,30G,13mm,,,100,BD; TSK; Unisharp,7,11
+HYPODE-30G-13MM-X13,Hypodermic needle,30G,13mm,,,13,BD,1,2
+HYPODE-30G-4MM,Hypodermic needle,30G,4mm,,,1,Steriject; TSK,2,2
+HYPODE-30G-4MM-X100,Hypodermic needle,30G,4mm,,,100,Antonmove; TSK,4,5
+HYPODE-30G-6MM,Hypodermic needle,30G,6mm,,,1,TSK,1,1
+HYPODE-30G-6MM-X100,Hypodermic needle,30G,6mm,,,100,TSK,1,1
+HYPODE-30G-8MM,Hypodermic needle,30G,8mm,,,1,BD; Novo Nordisk,4,7
+HYPODE-30G-8MM-X10,Hypodermic needle,30G,8mm,0.5ml,,10,BD,2,2
+HYPODE-30G-8MM-X100,Hypodermic needle,30G,8mm,,,100,Novo Nordisk,2,3
+HYPODE-30G-X100,Hypodermic needle,30G,,0.5ml,,100,BD,2,4
+HYPODE-30G-X5,Hypodermic needle,30G,,,,5,B. Braun,1,1
+HYPODE-31G-4MM,Hypodermic needle,31G,4mm,,,1,GlucoRx; Needletech; Quatron,3,3
+HYPODE-31G-4MM-X100,Hypodermic needle,31G,4mm,,,100,Carepoint,1,1
+HYPODE-31G-4MM-X4,Hypodermic needle,31G,4mm,,,4,PEN,1,1
+HYPODE-31G-6MM,Hypodermic needle,31G,6mm,,,1,Novo Nordisk,1,1
+HYPODE-31G-6MM-X100,Hypodermic needle,31G,6mm,,,100,Carepoint; Finepoint; GlucoRx,2,4
+HYPODE-31G-6MM-X4,Hypodermic needle,31G,6mm,,,4,PEN,1,1
+HYPODE-31G-8MM-X100,Hypodermic needle,31G,8mm,,,100,BD; Carepoint,1,3
+HYPODE-31G-8MM-X4,Hypodermic needle,31G,8mm,,,4,PEN,1,1
+HYPODE-32G-13MM,Hypodermic needle,32G,13mm,,,1,TSK,1,1
+HYPODE-32G-13MM-X100,Hypodermic needle,32G,13mm,,,100,TSK,2,3
+HYPODE-32G-4MM,Hypodermic needle,32G,4mm,,,1,4Sure; BD; GlucoRx; Novo Nordisk; Penfine; TSK,5,9
+HYPODE-32G-4MM-X100,Hypodermic needle,32G,4mm,,,100,Microfine; TSK,2,4
+HYPODE-32G-5MM,Hypodermic needle,32G,5mm,,,1,4Sure,2,3
+HYPODE-32G-6MM,Hypodermic needle,32G,6mm,,,1,Mesoram; TSK,2,2
+HYPODE-32G-6MM-X100,Hypodermic needle,32G,6mm,,,100,TSK,2,3
+HYPODE-32G-9MM,Hypodermic needle,32G,9mm,,,1,TSK,1,1
+HYPODE-32G-9MM-X100,Hypodermic needle,32G,9mm,,,100,TSK,2,3
+HYPODE-33G-13MM,Hypodermic needle,33G,13mm,,,1,TSK,2,3
+HYPODE-33G-13MM-X100,Hypodermic needle,33G,13mm,,,100,TSK,2,3
+HYPODE-33G-4MM,Hypodermic needle,33G,4mm,,,1,Steriject; TSK,2,2
+HYPODE-33G-4MM-X100,Hypodermic needle,33G,4mm,,,100,TSK,2,3
+HYPODE-33G-4MM-X4,Hypodermic needle,33G,4mm,,,4,Sharp,1,1
+HYPODE-33G-9MM,Hypodermic needle,33G,9mm,,,1,Steriject; TSK,4,5
+HYPODE-34G-4MM-X10,Hypodermic needle,34G,4mm,,,10,Quatron,1,1
+HYPODE-34G-4MM-X4,Hypodermic needle,34G,4mm,,,4,Sharp,1,1
+HYPODE-34G-9MM,Hypodermic needle,34G,9mm,,,1,TSK,4,4
+HYPODE-34G-9MM-X100,Hypodermic needle,34G,9mm,,,100,TSK,1,1
+HYPODE-34G-X50,Hypodermic needle,34G,,,,50,SKIN,1,1
+INSULI-0.5ML-X12,Insulin syringe,29G,7mm,0.5ml,,12,BD; Insulin; Sterile,3,4
+INSULI-05ML,Insulin syringe,29G,,05ml,,1,B. Braun; BD; Hypodermic,1,6
+INSULI-05ML-X10,Insulin syringe,29G,,05ml,,10,BD,1,2
+INSULI-1.0ML-X12,Insulin syringe,29G,7mm,1.0ml,,12,BD,1,1
+INSULI-10ML,Insulin syringe,29G,,10ml,,1,BD,1,1
+INSULI-1ML,Insulin syringe,29G,7mm,1ml,,1,BD,6,6
+INSULI-1ML-X12,Insulin syringe,29G,7mm,1ml,,12,BD,3,3
+INSULI-0.3ML,Insulin syringe,30G,8mm,0.3ml,,1,BD; Sterile,5,6
+INSULI-0.3ML-X10,Insulin syringe,30G,8mm,0.3ml,,10,BD,1,1
+INSULI-0.3ML-X100,Insulin syringe,30G,8mm,0.3ml,,100,BD; Micro,6,6
+INSULI-0.5ML,Insulin syringe,30G,8mm,0.5ml,,1,BD; Microfine; Sterile,6,8
+INSULI-0.5ML-X100,Insulin syringe,30G,8mm,0.5ml,,100,BD,4,6
+INSULI-03ML,Insulin syringe,30G,8mm,03ml,,1,BD; Hypodermic,1,2
+INSULI-03ML-X100,Insulin syringe,30G,8mm,03ml,,100,BD,1,2
+INSULI-1.0ML,Insulin syringe,30G,8mm,1.0ml,,1,BD,1,1
+INSULI-1ML-X10,Insulin syringe,30G,8mm,1ml,,10,BD,1,1
+INSULI-1ML-X100,Insulin syringe,30G,8mm,1ml,,100,BD,2,2
+INSULI-5ML-X8,Insulin syringe,31G,8mm,5ml,,8,100; 30,1,2
+INSULI-3ML-X10,Insulin syringe,32G,8mm,3ml,,10,BD,1,1
+INSULI-3ML-X100,Insulin syringe,32G,8mm,3ml,,100,BD,1,2
+INSULI-5ML-X10,Insulin syringe,32G,8mm,5ml,,10,BD,1,1
+INSULI-BD,Insulin syringe,32G,4mm,,,1,BD,1,2
+INSULI-ELASTY,Insulin syringe,32G,8mm,,,1,Elasty,1,3
+LUERAD-BAXTER,Luer adapter / connector,,,,luer lock,1,Baxter,1,1
+LUERAD-GUARDED,Luer adapter / connector,,,,,1,Guarded,1,1
+LUERAD-LUER,Luer adapter / connector,,,,luer lock,1,LUER,1,1
+MICROC-100MM,Microcannula,,100mm,,,1,IntraLipo; Magicalift,3,4
+MICROC-100MM-X50,Microcannula,,100mm,,,50,Magicalift,1,1
+MICROC-20,Microcannula,,,,,1,20,1,1
+MICROC-38MM,Microcannula,,38mm,,,1,TSK,2,4
+MICROC-50MM,Microcannula,,50mm,,,1,TSK,1,2
+MICROC-50MM-X20,Microcannula,,50mm,,,20,NEO,1,2
+MICROC-70MM,Microcannula,,70mm,,,1,SoftFil,1,1
+MICROC-70MM-X20,Microcannula,,70mm,,,20,SoftFil,1,1
+MICROC-90MM,Microcannula,,90mm,,,1,SoftFil,1,1
+MICROC-90MM-X20,Microcannula,,90mm,,,20,SoftFil,1,2
+MICROC-BD,Microcannula,,,,,1,BD,1,1
+MICROC-BD-X50,Microcannula,,,,,50,BD,2,2
+MICROC-CANNULA,Microcannula,,,,,1,Cannula,1,1
+MICROC-CANNULA-X20,Microcannula,,,,,20,Cannula,1,1
+MICROC-CAROCELL,Microcannula,,,,,1,Carocelle,1,1
+MICROC-FLUSH,Microcannula,,,,,1,Flush,1,1
+MICROC-FMS,Microcannula,,,1ml,,1,FMS,1,1
+MICROC-JBPNANOS,Microcannula,,,,,1,JBP (Nanosoft),1,1
+MICROC-NEO,Microcannula,,,,,1,NEO,1,2
+MICROC-TERUMO,Microcannula,,,1ml,luer slip,1,Terumo,1,1
+MICROC-WIQO,Microcannula,,,,,1,WIQO,1,1
+MICROC-18G-100MM,Microcannula,18G,100mm,,,1,Needle; Needleflex,2,2
+MICROC-18G-110MM,Microcannula,18G,110mm,,,1,Magicalift,2,2
+MICROC-18G-40MM-X100,Microcannula,18G,40mm,,,100,BD,1,2
+MICROC-18G-70MM,Microcannula,18G,70mm,,,1,SilkAnn,1,1
+MICROC-18G-70MM-X20,Microcannula,18G,70mm,,,20,Dermasculpt; SoftFil,2,2
+MICROC-18G-70MM-X70,Microcannula,18G,70mm,,,70,SilkAnn,1,1
+MICROC-20G,Microcannula,20G,,,,1,IntraLipo,2,2
+MICROC-20G-60MM,Microcannula,20G,60mm,,,1,SilkAnn,1,1
+MICROC-21G,Microcannula,21G,,,,1,Venofix,1,1
+MICROC-21G-50MM-X24,Microcannula,21G,50mm,,,24,JBP (Nanosoft),1,1
+MICROC-21G-X50,Microcannula,21G,,,,50,Venofix,1,1
+MICROC-22G,Microcannula,22G,,,,1,B. Braun,1,1
+MICROC-22G-25MM,Microcannula,22G,25mm,,,1,BD; Terumo,4,4
+MICROC-22G-25MM-X100,Microcannula,22G,25mm,,,100,Terumo,1,1
+MICROC-22G-38MM,Microcannula,22G,38mm,,,1,Closed; TSK,3,4
+MICROC-22G-50MM,Microcannula,22G,50mm,,,1,COZI; Closed; FMC; JBP (Nanosoft); MINT; Magicalift; Needleflex; SilkAnn; SoftFil; TSK,9,19
+MICROC-22G-50MM-X20,Microcannula,22G,50mm,,,20,Dermasculpt; TSK,2,3
+MICROC-22G-50MM-X24,Microcannula,22G,50mm,,,24,FMC; JBP (Nanosoft); SILK,6,9
+MICROC-22G-50MM-X4,Microcannula,22G,50mm,,,4,TSK,2,3
+MICROC-22G-50MM-X50,Microcannula,22G,50mm,,,50,Magicalift,1,1
+MICROC-22G-60MM,Microcannula,22G,60mm,,,1,SilkAnn,2,2
+MICROC-22G-70MM,Microcannula,22G,70mm,,,1,Closed; FMC; JBP (Nanosoft); MINT; Magicalift; SilkAnn; TSK,8,18
+MICROC-22G-70MM-X20,Microcannula,22G,70mm,,,20,SoftFil; TSK,4,4
+MICROC-22G-70MM-X24,Microcannula,22G,70mm,,,24,FMC; JBP (Nanosoft); SILK,7,9
+MICROC-22G-70MM-X4,Microcannula,22G,70mm,,,4,TSK,2,3
+MICROC-22G-70MM-X50,Microcannula,22G,70mm,,,50,Magicalift,1,1
+MICROC-22G-90MM,Microcannula,22G,90mm,,,1,SoftFil,1,1
+MICROC-23G,Microcannula,23G,,,,1,23G; IntraLipo,3,3
+MICROC-23G-19MM,Microcannula,23G,19mm,,,0,Surflo,1,1
+MICROC-23G-40MM,Microcannula,23G,40mm,,,1,MINT,1,1
+MICROC-23G-50MM,Microcannula,23G,50mm,,,1,JBP (Nanosoft); SilkAnn; SoftFil,4,4
+MICROC-23G-50MM-X24,Microcannula,23G,50mm,,,24,JBP (Nanosoft),1,1
+MICROC-23G-70MM,Microcannula,23G,70mm,,,1,SilkAnn,2,2
+MICROC-23G-70MM-X25,Microcannula,23G,70mm,,,25,SilkAnn,1,1
+MICROC-23G-X50,Microcannula,23G,,,,50,Venofix,1,1
+MICROC-24G,Microcannula,24G,,,,1,B. Braun; IntraLipo,2,2
+MICROC-24G-100MM,Microcannula,24G,100mm,,,1,IntraLipo,1,1
+MICROC-25G,Microcannula,25G,,,,1,IntraLipo,2,2
+MICROC-25G-13MM,Microcannula,25G,13mm,,,1,TSK,1,1
+MICROC-25G-19MM,Microcannula,25G,19mm,,,0,Surflo,1,1
+MICROC-25G-25MM-X25,Microcannula,25G,25mm,,,25,Terumo,1,1
+MICROC-25G-30MM-X20,Microcannula,25G,30mm,,,20,SoftFil,1,1
+MICROC-25G-38MM,Microcannula,25G,38mm,,,1,Closed; Magicalift; TSK,5,9
+MICROC-25G-38MM-X20,Microcannula,25G,38mm,,,20,TSK,3,3
+MICROC-25G-38MM-X25,Microcannula,25G,38mm,,,25,TSK,1,1
+MICROC-25G-38MM-X4,Microcannula,25G,38mm,,,4,TSK,2,3
+MICROC-25G-38MM-X50,Microcannula,25G,38mm,,,50,Magicalift,1,1
+MICROC-25G-40MM,Microcannula,25G,40mm,,,1,FMC; JBP (Nanosoft); MINT; SilkAnn,4,7
+MICROC-25G-40MM-X20,Microcannula,25G,40mm,,,20,Dermasculpt; SoftFil,2,2
+MICROC-25G-40MM-X24,Microcannula,25G,40mm,,,24,FMC; JBP (Nanosoft); SILK,6,8
+MICROC-25G-50MM,Microcannula,25G,50mm,,,1,COZI; Closed; FINE; FMC; JBP (Nanosoft); MINT; Magicalift; Needleflex; SilkAnn; SoftFil; TSK,12,23
+MICROC-25G-50MM-X20,Microcannula,25G,50mm,,,20,Dermasculpt; SoftFil; TSK,4,5
+MICROC-25G-50MM-X24,Microcannula,25G,50mm,,,24,FMC; JBP (Nanosoft); SILK,7,9
+MICROC-25G-50MM-X25,Microcannula,25G,50mm,,,25,Amedica; TSK,2,2
+MICROC-25G-50MM-X4,Microcannula,25G,50mm,,,4,TSK,2,3
+MICROC-25G-50MM-X50,Microcannula,25G,50mm,,,50,Magicalift,1,1
+MICROC-25G-5MM-X50,Microcannula,25G,5mm,,,50,SoftFil,1,1
+MICROC-25G-70MM,Microcannula,25G,70mm,,,1,Magicalift,1,1
+MICROC-25G-70MM-X24,Microcannula,25G,70mm,,,24,JBP (Nanosoft),1,1
+MICROC-25G-70MM-X50,Microcannula,25G,70mm,,,50,Magicalift,1,1
+MICROC-27G-16MM-X16,Microcannula,27G,16mm,,,16,Terumo,1,1
+MICROC-27G-19MM-X19,Microcannula,27G,19mm,,,19,Terumo,1,1
+MICROC-27G-25MM,Microcannula,27G,25mm,,,1,TSK,4,6
+MICROC-27G-25MM-X20,Microcannula,27G,25mm,,,20,TSK,2,2
+MICROC-27G-25MM-X24,Microcannula,27G,25mm,,,24,SILK,1,1
+MICROC-27G-38MM,Microcannula,27G,38mm,,,1,Closed; MONO; Needleflex; TSK,6,10
+MICROC-27G-38MM-X20,Microcannula,27G,38mm,,,20,TSK,2,2
+MICROC-27G-40MM,Microcannula,27G,40mm,,,1,FMC; JBP (Nanosoft); SilkAnn; SoftFil,6,7
+MICROC-27G-40MM-X20,Microcannula,27G,40mm,,,20,SoftFil,1,1
+MICROC-27G-40MM-X24,Microcannula,27G,40mm,,,24,FMC; JBP (Nanosoft); SILK,5,5
+MICROC-27G-50MM,Microcannula,27G,50mm,,,1,COZI; Closed; FINE; JBP (Nanosoft); Magicalift; Needleflex; TSK,7,11
+MICROC-27G-50MM-X10,Microcannula,27G,50mm,,,10,FINE,1,1
+MICROC-27G-50MM-X20,Microcannula,27G,50mm,,,20,TSK,4,4
+MICROC-27G-50MM-X24,Microcannula,27G,50mm,,,24,JBP (Nanosoft); SILK,3,3
+MICROC-27G-50MM-X25,Microcannula,27G,50mm,,,25,TSK,1,1
+MICROC-27G-50MM-X50,Microcannula,27G,50mm,,,50,Magicalift,1,1
+MICROC-29G-38MM,Microcannula,29G,38mm,,,1,MONO,1,1
+MICROC-30G,Microcannula,30G,,,,1,Ultra,1,1
+MICROC-30G-13MM,Microcannula,30G,13mm,,,1,TSK,2,3
+MICROC-30G-13MM-X100,Microcannula,30G,13mm,,,100,TSK,1,2
+MICROC-30G-19MM,Microcannula,30G,19mm,,,1,TSK,1,1
+MICROC-30G-25MM,Microcannula,30G,25mm,,,1,FMC; JBP (Nanosoft); Magicalift; SoftFil; TSK,6,9
+MICROC-30G-25MM-X20,Microcannula,30G,25mm,,,20,TSK,1,1
+MICROC-30G-25MM-X24,Microcannula,30G,25mm,,,24,FMC; SILK,3,4
+MICROC-30G-25MM-X50,Microcannula,30G,25mm,,,50,Magicalift,1,1
+MICROC-30G-30MM,Microcannula,30G,30mm,,,1,SilkAnn,2,2
+MICROC-30G-8MM-X100,Microcannula,30G,8mm,1ml,,100,BD,1,1
+MICROC-31G,Microcannula,31G,,,,1,Venofix,1,1
+MICROC-32G-8MM-X100,Microcannula,32G,8mm,05ml,,100,FMS,1,4
+MICROC-32G-X4,Microcannula,32G,,,,4,TSK,1,1
+MICROC-33G-13MM,Microcannula,33G,13mm,,,1,TSK,1,1
+MICROC-33G-13MM-X100,Microcannula,33G,13mm,,,100,TSK,1,2
+MICROC-33G-9MM-X100,Microcannula,33G,9mm,,,100,TSK,1,2
+MICRON-12MM,Microneedling cartridge,,12mm,,,1,Gentlo,1,1
+MICRON-15MM,Microneedling cartridge,,15mm,,,1,Gentlo,1,1
+MICRON-18MM,Microneedling cartridge,,18mm,,,1,Gentlo,1,1
+MICRON-1NEED,Microneedling cartridge,,,,,1,1Need,1,1
+MICRON-66MM,Microneedling cartridge,,66mm,,,0,JBP (Nanosoft),1,1
+MICRON-6MM,Microneedling cartridge,,6mm,,,1,JBP (Nanosoft); Micronjet,3,3
+MICRON-8MM,Microneedling cartridge,,8mm,,,1,Micronjet,1,1
+MICRON-COSMOPRO-X5,Microneedling cartridge,,,,,5,Cosmopro,1,1
+MICRON-DR-X12,Microneedling cartridge,,,,,12,DR,1,1
+MICRON-DR-X24,Microneedling cartridge,,,,,24,DR,1,1
+MICRON-DR-X36,Microneedling cartridge,,,,,36,DR,1,1
+MICRON-EDERMAST,Microneedling cartridge,,,,,1,Edermastamp,1,1
+MICRON-EXOBLANC,Microneedling cartridge,,,,,1,Exoblanc,1,1
+MICRON-GENTLO,Microneedling cartridge,,,,,1,Gentlo,1,4
+MICRON-JBPNANOS,Microneedling cartridge,,,,,1,JBP (Nanosoft),1,1
+MICRON-JBPNANOS-X30,Microneedling cartridge,,,,,30,JBP (Nanosoft),1,1
+MICRON-MISSMITO,Microneedling cartridge,,,,,1,Missmito,1,1
+MICRON-PCA,Microneedling cartridge,,,,,1,PCA,1,1
+MICRON-27G-13MM,Microneedling cartridge,27G,13mm,,,1,Nanoneedle,1,1
+MICRON-30G-13MM,Microneedling cartridge,30G,13mm,,,1,Nanoneedle,1,1
+MICRON-30G-13MM-X100,Microneedling cartridge,30G,13mm,,,100,JBP (Nanosoft),1,1
+MICRON-30G-4MM,Microneedling cartridge,30G,4mm,,,1,Nanoneedle,1,1
+MICRON-30G-4MM-X100,Microneedling cartridge,30G,4mm,,,100,JBP (Nanosoft),1,1
+MICRON-30G-8MM-X100,Microneedling cartridge,30G,8mm,,,100,JBP (Nanosoft),1,1
+MICRON-33G-13MM-X100,Microneedling cartridge,33G,13mm,,,100,JBP (Nanosoft),1,1
+MICRON-33G-4MM,Microneedling cartridge,33G,4mm,,,1,JBP (Nanosoft),1,1
+MICRON-33G-4MM-X100,Microneedling cartridge,33G,4mm,,,100,JBP (Nanosoft),1,1
+MICRON-33G-8MM-X100,Microneedling cartridge,33G,8mm,,,100,JBP (Nanosoft),1,1
+MICRON-34G-4MM,Microneedling cartridge,34G,4mm,,,1,Nanoneedle,1,1
+MICRON-34G-4MM-X100,Microneedling cartridge,34G,4mm,,,100,JBP (Nanosoft),2,2
+MICRON-34G-6MM-X100,Microneedling cartridge,34G,6mm,,,100,JBP (Nanosoft),1,1
+MICRON-34G-8MM-X100,Microneedling cartridge,34G,8mm,,,100,JBP (Nanosoft),1,1
+NEEDLE-DISPOSAS,Needle holder / tool,,,,,1,Disposashield,1,1
+NEEDLE-PROTIP,Needle holder / tool,,,,,1,Protip,1,1
+NEEDLE-SHARPS,Needle holder / tool,,,,,1,Sharps,1,1
+NEEDLE-SYRINGE,Needle holder / tool,,,,,1,Syringe,1,1
+NEEDLE-TSK,Needle holder / tool,,,,,1,TSK,2,2
+NEEDLE-VAKU-X8,Needle holder / tool,,,,,8,VAKU,1,1
+SYRING-0.3ML-X10,Syringe,,,0.3ml,,10,FMS,2,2
+SYRING-0.5ML-X10,Syringe,,,0.5ml,,10,FMS,2,2
+SYRING-1.0ML,Syringe,,,1.0ml,,1,BD; FMS,2,2
+SYRING-100ML,Syringe,,,100ml,,1,BD,1,1
+SYRING-10ML,Syringe,,,10ml,,1,Adrenaline; B. Braun; BD; FMS; Sterile; Terumo,6,13
+SYRING-10ML-LUER-LOCK,Syringe,,,10ml,luer lock,1,BD; Unifix,2,4
+SYRING-10ML-LUER-SLIP,Syringe,,,10ml,luer slip,1,BD,1,1
+SYRING-10ML-LUER-SLIP-X100,Syringe,,,10ml,luer slip,100,BD,3,3
+SYRING-10ML-X100,Syringe,,,10ml,,100,BD; LUER,3,4
+SYRING-1ML,Syringe,,,1ml,,1,3Dose; Adrenaline; B. Braun; BD; FMS; JUVA; Neauvia; Unisharp; Xolair,7,20
+SYRING-1ML-LUER-LOCK,Syringe,,,1ml,luer lock,1,BD,1,1
+SYRING-1ML-LUER-LOCK-X100,Syringe,,,1ml,luer lock,100,BD; LUER; Luerlock; Unifix,4,4
+SYRING-1ML-LUER-SLIP,Syringe,,,1ml,luer slip,1,BD; Terumo,2,2
+SYRING-1ML-LUER-SLIP-X100,Syringe,,,1ml,luer slip,100,Reduced; Unifix,2,2
+SYRING-1ML-LUER-SLIP-X120,Syringe,,,1ml,luer slip,120,BD,1,1
+SYRING-1ML-X10,Syringe,,,1ml,,10,FMS; Unisharp,2,3
+SYRING-1ML-X100,Syringe,,,1ml,,100,BD; FMS; Reduced; Terumo; Unisharp,7,12
+SYRING-1ML-X120,Syringe,,,1ml,,120,BD,4,4
+SYRING-2.5ML-LUER-LOCK,Syringe,,,2.5ml,luer lock,1,LUER; Terumo,3,3
+SYRING-2.5ML-LUER-LOCK-X100,Syringe,,,2.5ml,luer lock,100,Terumo,1,1
+SYRING-2.5ML-X100,Syringe,,,2.5ml,,100,Terumo,2,2
+SYRING-2.5ML-X2,Syringe,,,2.5ml,,2,Purihilo,1,1
+SYRING-20ML,Syringe,,,20ml,,1,B. Braun; BD; Terumo,2,7
+SYRING-20ML-LUER-LOCK,Syringe,,,20ml,luer lock,1,BD; Terumo,1,2
+SYRING-20ML-LUER-SLIP-X50,Syringe,,,20ml,luer slip,50,Terumo,1,1
+SYRING-20ML-X120,Syringe,,,20ml,,120,BD,1,1
+SYRING-25ML-LUER-LOCK,Syringe,,,25ml,luer lock,1,Terumo,1,1
+SYRING-25ML-LUER-LOCK-X100,Syringe,,,25ml,luer lock,100,Terumo,1,2
+SYRING-2ML,Syringe,,,2ml,,1,BD; Sterile; Xolair,5,5
+SYRING-2ML-LUER-SLIP-X100,Syringe,,,2ml,luer slip,100,BD; Reduced,6,8
+SYRING-2ML-X100,Syringe,,,2ml,,100,BD,1,1
+SYRING-2ML-X2,Syringe,,,2ml,,2,Remedium,1,1
+SYRING-2ML-X3,Syringe,,,2ml,,3,Kiara,1,1
+SYRING-30ML,Syringe,,,30ml,,1,B. Braun; BD,1,2
+SYRING-30ML-LUER-SLIP-X60,Syringe,,,30ml,luer slip,60,BD,1,1
+SYRING-30ML-X60,Syringe,,,30ml,,60,BD,1,2
+SYRING-3ML,Syringe,,,3ml,,1,BD,2,2
+SYRING-3ML-LUER-LOCK,Syringe,,,3ml,luer lock,1,100; BD,2,2
+SYRING-3ML-LUER-SLIP-X100,Syringe,,,3ml,luer slip,100,Terumo,1,1
+SYRING-50ML,Syringe,,,50ml,,1,BD,2,3
+SYRING-50ML-LUER-LOCK,Syringe,,,50ml,luer lock,1,BD,1,1
+SYRING-50ML-LUER-SLIP-X25,Syringe,,,50ml,luer slip,25,Terumo,1,1
+SYRING-5ML,Syringe,,,5ml,,1,B. Braun; BD; Sterile,7,10
+SYRING-5ML-LUER-LOCK,Syringe,,,5ml,luer lock,1,100; BD; Terumo,5,8
+SYRING-5ML-LUER-LOCK-X10,Syringe,,,5ml,luer lock,10,BD,1,1
+SYRING-5ML-LUER-LOCK-X100,Syringe,,,5ml,luer lock,100,Luerlock; Unifix,2,2
+SYRING-5ML-LUER-LOCK-X125,Syringe,,,5ml,luer lock,125,BD,1,1
+SYRING-5ML-LUER-SLIP,Syringe,,,5ml,luer slip,1,Medicina,1,1
+SYRING-5ML-LUER-SLIP-X100,Syringe,,,5ml,luer slip,100,BD; LUER,3,3
+SYRING-5ML-X100,Syringe,,,5ml,,100,5ML; LUER,2,2
+SYRING-5ML-X125,Syringe,,,5ml,,125,BD,1,1
+SYRING-ADRENALI,Syringe,,,,,1,Adrenaline,1,1
+SYRING-ALLUZIEN,Syringe,,,,,1,Alluzience,1,1
+SYRING-ALLUZIEN-X10,Syringe,,,,,10,Alluzience,1,1
+SYRING-ARTHREX-X5,Syringe,,,,,5,Arthrex,2,3
+SYRING-AZZALURE-X10,Syringe,,,,,10,Azzalure,1,1
+SYRING-BUCCOLAM-X4,Syringe,,,,,4,Buccolam,1,4
+SYRING-CENTRIFU,Syringe,,,,,1,Centrifuge,1,2
+SYRING-GLUCAGEN,Syringe,,,,,1,Glucagen,2,2
+SYRING-GLUCORX,Syringe,,4mm,,,1,GlucoRx,1,1
+SYRING-JUVAPEN,Syringe,,,,,1,Juvapen,1,1
+SYRING-LUER-LOCK-X10,Syringe,,,,luer lock,10,LUER,1,2
+SYRING-MICRONJE,Syringe,,6mm,,,1,Micronjet,1,2
+SYRING-SYRINGE,Syringe,,,,,1,Syringe,1,1
+SYRING-5ML-X11,Syringe,21G,40mm,5ml,,11,Terumo,1,1
+SYRING-1ML-X12,Syringe,29G,33mm,1ml,,12,BD,1,1
+SYRING-BD,Syringe,30G,8mm,,,1,BD,1,1
+SYRING-BD-X100,Syringe,30G,8mm,,,100,BD,1,1
+SYRING-0.3ML,Syringe,32G,8mm,0.3ml,,1,FMS,4,5
+SYRING-0.3ML-X100,Syringe,32G,,0.3ml,,100,BD; FMS,9,10
+SYRING-0.3ML-X8,Syringe,32G,8mm,0.3ml,,8,FMS,1,1
+SYRING-0.5ML,Syringe,32G,8mm,0.5ml,,1,FMS; Xolair,4,6
+SYRING-0.5ML-X100,Syringe,32G,,0.5ml,,100,FMS,8,8
+SYRING-03ML,Syringe,32G,8mm,03ml,,1,FMS,1,1
+SYRING-03ML-X10,Syringe,32G,8mm,03ml,,10,FMS,1,1
+SYRING-05ML,Syringe,32G,8mm,05ml,,1,FMS,1,1
+SYRING-05ML-X10,Syringe,32G,8mm,05ml,,10,FMS,1,1
+SYRING-1.0ML-X100,Syringe,32G,,1.0ml,,100,FMS,2,2
