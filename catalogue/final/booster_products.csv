@@ -11,7 +11,8 @@ JALUPRO-FACE-MASKS-X11,Amino-acid skin booster,Jalupro,face masks,,11,,Professio
 JALUPRO-FACE-MASKS-X5,Amino-acid skin booster,Jalupro,face masks,,5,,Professional Derma,1,2
 JALUPRO-GLOW-PEEL-5ML,Amino-acid skin booster,Jalupro,Glow Peel,5ml,1,,Professional Derma,2,2
 JALUPRO-GLOW-PEEL-5ML-X6,Amino-acid skin booster,Jalupro,glow peel,5ml,6,,Professional Derma,7,8
-JALUPRO-HMW-1.5ML,Amino-acid skin booster,Jalupro,HMW,1.5ml,1,,Professional Derma,15,16
+JALUPRO-HMW,Amino-acid skin booster,Jalupro,HMW,,1,,Professional Derma,8,8
+JALUPRO-HMW-1.5ML,Amino-acid skin booster,Jalupro,HMW,1.5ml,1,,Professional Derma,7,8
 JALUPRO-HMW-15ML,Amino-acid skin booster,Jalupro,hmw,15ml,1,,Professional Derma,1,2
 JALUPRO-MASK-8ML-X11,Amino-acid skin booster,Jalupro,Mask,8ml,11,,Professional Derma,1,1
 JALUPRO-PLUS-4ML-X3,Amino-acid skin booster,Jalupro,plus,4ml,3,,Professional Derma,2,3
@@ -93,19 +94,16 @@ EXOSOME-OTHER-TSK-INVISIBLE-30ML,Exosome,Exosome (other),tsk invisible,30ml,1,,v
 PURASOMES-GF20-50ML,Exosome,Purasomes,gf20,50ml,1,,Purasomes,1,2
 PURASOMES-HSC50,Exosome,Purasomes,HSC50,,1,,Purasomes,2,2
 PURASOMES-HSC50-5ML-X3,Exosome,Purasomes,HSC50,5ml,3,,Purasomes,1,1
-PURASOMES-HSC50-HAIR,Exosome,Purasomes,HSC50 Hair,,1,,Purasomes,3,5
-PURASOMES-HSC50-HAIR-5ML,Exosome,Purasomes,hsc50 hair,5ml,1,,Purasomes,1,1
+PURASOMES-HSC50-HAIR-5ML,Exosome,Purasomes,hsc50 hair,5ml,1,,Purasomes,4,6
 PURASOMES-HSC50-HAIR-5ML-X3,Exosome,Purasomes,HSC50 Hair,5ml,3,,Purasomes,2,2
 PURASOMES-IRC100,Exosome,Purasomes,IRC100,,1,,Purasomes,2,2
 PURASOMES-NC150,Exosome,Purasomes,NC150,,1,,Purasomes,2,2
 PURASOMES-NC150-5ML-X3,Exosome,Purasomes,NC150,5ml,3,,Purasomes,1,1
-PURASOMES-NC150-NUTRI,Exosome,Purasomes,NC150 Nutri,,1,,Purasomes,3,5
-PURASOMES-NC150-NUTRI-5ML,Exosome,Purasomes,nc150 nutri,5ml,1,,Purasomes,1,1
+PURASOMES-NC150-NUTRI-5ML,Exosome,Purasomes,nc150 nutri,5ml,1,,Purasomes,4,6
 PURASOMES-NC150-NUTRI-5ML-X3,Exosome,Purasomes,NC150 Nutri,5ml,3,,Purasomes,2,2
 PURASOMES-SGC100,Exosome,Purasomes,SGC100,,1,,Purasomes,2,2
 PURASOMES-SGC100-5ML-X3,Exosome,Purasomes,SGC100,5ml,3,,Purasomes,1,1
-PURASOMES-SGC100-GLOW,Exosome,Purasomes,SGC100 Glow,,1,,Purasomes,3,5
-PURASOMES-SGC100-GLOW-5ML,Exosome,Purasomes,sgc100 glow,5ml,1,,Purasomes,1,1
+PURASOMES-SGC100-GLOW-5ML,Exosome,Purasomes,sgc100 glow,5ml,1,,Purasomes,4,6
 PURASOMES-SGC100-GLOW-5ML-X3,Exosome,Purasomes,SGC100 Glow,5ml,3,,Purasomes,3,3
 PURASOMES-XCELL-100ML,Exosome,Purasomes,xcell,100ml,1,,Purasomes,1,2
 PURASOMES-XCELL-HAIR-100ML,Exosome,Purasomes,XCell Hair,100ml,1,,Purasomes,1,1
@@ -158,15 +156,11 @@ NEAUVIA-HYDRO-DELUXE-HYDRATE-STIMULATE,HA bio-remodelling,Neauvia Hydro Deluxe,H
 NEAUVIA-HYDRO-DELUXE-ORGANIC-2.5ML-X2,HA bio-remodelling,Neauvia Hydro Deluxe,Organic,2.5ml,2,,Matex Lab,2,2
 PROFHILO-2ML,HA bio-remodelling,Profhilo,,2ml,1,,IBSA,19,23
 PROFHILO-2ML-HG,HA bio-remodelling,Profhilo,,2ml,1,HG,IBSA,6,6
-PROFHILO-BODY,HA bio-remodelling,Profhilo,Body,,1,,IBSA,9,9
-PROFHILO-BODY-3ML,HA bio-remodelling,Profhilo,body,3ml,1,,IBSA,3,4
+PROFHILO-BODY-3ML,HA bio-remodelling,Profhilo,body,3ml,1,,IBSA,13,14
 PROFHILO-BODY-3ML-X2,HA bio-remodelling,Profhilo,Body,3ml,2,,IBSA,1,1
-PROFHILO-BODY-SUPPLIES,HA bio-remodelling,Profhilo,Body Supplies,,1,,IBSA,1,1
 PROFHILO-FACE-103-2ML,HA bio-remodelling,Profhilo,Face 103,2ml,1,,IBSA,1,1
-PROFHILO-HAENKENIUM-50ML,HA bio-remodelling,Profhilo,Haenkenium,50ml,1,,IBSA,1,1
-PROFHILO-HAENKENIUM-CREAM-50ML,HA bio-remodelling,Profhilo,Haenkenium Cream,50ml,1,,IBSA,1,1
-PROFHILO-STRUCTURA,HA bio-remodelling,Profhilo,Structura,,1,,IBSA,2,2
-PROFHILO-STRUCTURA-2ML,HA bio-remodelling,Profhilo,structura,2ml,1,,IBSA,17,18
+PROFHILO-HAENKENIUM-50ML,HA bio-remodelling,Profhilo,Haenkenium,50ml,1,,IBSA,2,2
+PROFHILO-STRUCTURA-2ML,HA bio-remodelling,Profhilo,structura,2ml,1,,IBSA,19,20
 REVITRANE-HA-10-1ML,HA bio-remodelling,Revitrane,HA 10,1ml,1,,Revitrane,3,5
 REVITRANE-HA10-CLASSIC,HA bio-remodelling,Revitrane,HA10 Classic,,1,,Revitrane,2,2
 REVITRANE-HA10-VOLUME,HA bio-remodelling,Revitrane,HA10 Volume,,1,,Revitrane,1,1
@@ -177,8 +171,7 @@ RICHESSE-EXO-19,HA bio-remodelling,Richesse,exo 19,,1,,Richesse,1,1
 RICHESSE-EXO19-2.2ML,HA bio-remodelling,Richesse,EXO19,2.2ml,1,,Richesse,1,1
 RICHESSE-EYES,HA bio-remodelling,Richesse,eyes,,1,,Richesse,1,1
 RICHESSE-FACE,HA bio-remodelling,Richesse,face,,1,,Richesse,1,1
-SAYPHA-BOOSTER-CROMA-PHILART,HA bio-remodelling,Saypha Booster,croma philart,,1,,Croma,1,1
-SAYPHA-BOOSTER-CROMA-PHILART-2ML,HA bio-remodelling,Saypha Booster,Croma PhilArt,2ml,1,,Croma,1,4
+SAYPHA-BOOSTER-CROMA-PHILART-2ML,HA bio-remodelling,Saypha Booster,Croma PhilArt,2ml,1,,Croma,2,5
 SEVENTY-HYAL-2000-2ML,HA bio-remodelling,Seventy Hyal 2000,,2ml,1,,Seventy Hyal,9,9
 SEVENTY-HYAL-2000-2ML-X3,HA bio-remodelling,Seventy Hyal 2000,,2ml,3,,Seventy Hyal,11,11
 SEVENTY-HYAL-2000-30MG-PFS-2ML,HA bio-remodelling,Seventy Hyal 2000,30mg pfs,2ml,1,,Seventy Hyal,1,4
@@ -193,7 +186,7 @@ VISCODERM-AVAILABLE-ON-1.0ML,HA bio-remodelling,Viscoderm,available on,1.0ml,1,,
 VISCODERM-COVER-UP-20ML,HA bio-remodelling,Viscoderm,cover up,20ml,1,,IBSA,5,10
 VISCODERM-HYDROBOOSTER-1.1ML,HA bio-remodelling,Viscoderm,Hydrobooster,1.1ml,1,,IBSA,5,5
 VISCODERM-HYDROBOOSTER-11ML,HA bio-remodelling,Viscoderm,hydrobooster,11ml,1,,IBSA,1,2
-VISCODERM-HYDROBOOSTER-CREAM-50ML,HA bio-remodelling,Viscoderm,Hydrobooster Cream,50ml,1,,IBSA,1,1
+VISCODERM-HYDROBOOSTER-BOTTLE-50ML,HA bio-remodelling,Viscoderm,Hydrobooster bottle,50ml,1,,IBSA,1,1
 VISCODERM-HYDROBOOSTER-SYR-1.1ML,HA bio-remodelling,Viscoderm,Hydrobooster syr,1.1ml,1,,IBSA,1,1
 VISCODERM-HYDROGEL-PATCH,HA bio-remodelling,Viscoderm,hydrogel patch,,1,,IBSA,3,3
 VISCODERM-SKINKO-10X-5ML-X10,HA bio-remodelling,Viscoderm,Skinko 10x,5ml,10,,IBSA,1,1
@@ -286,8 +279,7 @@ DERMAQUAL-NEFERTITI-LIFT,Mesotherapy cocktail,Dermaqual,Nefertiti Lift,,1,,Derma
 DERMAQUAL-REJUVEYES,Mesotherapy cocktail,Dermaqual,Rejuveyes,,1,,Dermaqual,2,2
 DERMAQUAL-REJUVEYES-5ML-X5,Mesotherapy cocktail,Dermaqual,Rejuveyes,5ml,5,,Dermaqual,1,1
 DERMAQUAL-SUPREALL,Mesotherapy cocktail,Dermaqual,Supreall,,1,,Dermaqual,1,1
-DERMAQUAL-TRANEXPLUS,Mesotherapy cocktail,Dermaqual,tranexplus,,1,,Dermaqual,1,1
-DERMAQUAL-TRANEXPLUS-5ML,Mesotherapy cocktail,Dermaqual,TranexPlus,5ml,1,,Dermaqual,1,1
+DERMAQUAL-TRANEXPLUS-5ML,Mesotherapy cocktail,Dermaqual,TranexPlus,5ml,1,,Dermaqual,1,2
 FILLMED-NCTF-135-HA-3ML,Mesotherapy cocktail,Fillmed (NCTF),135 ha,3ml,1,,Fillmed,1,1
 FILLMED-NCTF-135-HA-3ML-X5,Mesotherapy cocktail,Fillmed (NCTF),135 HA,3ml,5,,Fillmed,4,4
 FILLMED-NCTF-135HA-3ML,Mesotherapy cocktail,Fillmed (NCTF),135HA,3ml,1,,Fillmed,3,3
@@ -343,8 +335,7 @@ LUMI-TOX-5X-5ML-X5,Mesotherapy cocktail,Lumi,tox 5x,5ml,5,,,1,1
 LUMI-MESO-BRIGHT-10-5ML-X5,Mesotherapy cocktail,Lumi Meso,BRIGHT 10,5ml,5,,Lumi,1,1
 LUMI-MESO-BRIGHT-5ML,Mesotherapy cocktail,Lumi Meso,BRIGHT,5ml,1,,Lumi,2,2
 LUMI-MESO-BRIGHT-5ML-X5,Mesotherapy cocktail,Lumi Meso,BRIGHT,5ml,5,,Lumi,1,1
-LUMI-MESO-BRIGHT-MICRONEEDLING,Mesotherapy cocktail,Lumi Meso,BRIGHT Microneedling,,1,,Lumi,1,1
-LUMI-MESO-BRIGHT-MICRONEEDLING-5ML,Mesotherapy cocktail,Lumi Meso,Bright Microneedling,5ml,1,,Lumi,1,1
+LUMI-MESO-BRIGHT-MICRONEEDLING-5ML,Mesotherapy cocktail,Lumi Meso,Bright Microneedling,5ml,1,,Lumi,2,2
 LUMI-MESO-BRIGHT-MICRONEEDLING-5ML-X5,Mesotherapy cocktail,Lumi Meso,Bright Microneedling,5ml,5,,Lumi,3,3
 LUMI-MESO-ELITE-10-5ML-X5,Mesotherapy cocktail,Lumi Meso,ELITE 10,5ml,5,,Lumi,1,1
 LUMI-MESO-ELITE-5ML,Mesotherapy cocktail,Lumi Meso,ELITE,5ml,1,,Lumi,2,2
@@ -448,21 +439,18 @@ PROSTROLANE-INNER-2ML-X2,Mesotherapy cocktail,Prostrolane,Inner,2ml,2,,Caregen,1
 PROSTROLANE-INNER-SE,Mesotherapy cocktail,Prostrolane,Inner SE,,1,,Caregen,1,1
 PROSTROLANE-INNER-SE-1ML-X2,Mesotherapy cocktail,Prostrolane,Inner SE,1ml,2,,Caregen,1,1
 PROSTROLANE-NATURAL,Mesotherapy cocktail,Prostrolane,Natural,,1,,Caregen,2,2
-REVS-PRO-32,Mesotherapy cocktail,REVS,Pro 32,,1,,REVS,2,2
-REVS-PRO-32-2ML,Mesotherapy cocktail,REVS,PRO 32,2ml,1,,REVS,7,7
+REVS-PRO-32-2ML,Mesotherapy cocktail,REVS,PRO 32,2ml,1,,REVS,9,9
 RRS-DERMAL-HA,Mesotherapy cocktail,RRS,Dermal HA,,1,,AQ Skin / Skin Tech,1,1
 RRS-DERMAL-HA-1.5ML-X12,Mesotherapy cocktail,RRS,Dermal HA,1.5ml,12,,AQ Skin / Skin Tech,1,1
 RRS-DERMAL-HA-3ML-X6,Mesotherapy cocktail,RRS,Dermal HA,3ml,6,,AQ Skin / Skin Tech,1,1
 RRS-HA-5ML,Mesotherapy cocktail,RRS,ha,5ml,1,,AQ Skin / Skin Tech,1,1
 RRS-HA-5ML-X6,Mesotherapy cocktail,RRS,HA,5ml,6,,AQ Skin / Skin Tech,3,3
-RRS-HA-CELLUTRIX,Mesotherapy cocktail,RRS,ha cellutrix,,1,,AQ Skin / Skin Tech,1,1
-RRS-HA-CELLUTRIX-10ML,Mesotherapy cocktail,RRS,HA Cellutrix,10ml,1,,AQ Skin / Skin Tech,1,1
+RRS-HA-CELLUTRIX-10ML,Mesotherapy cocktail,RRS,HA Cellutrix,10ml,1,,AQ Skin / Skin Tech,2,2
 RRS-HA-EYES-1.5ML,Mesotherapy cocktail,RRS,ha eyes,1.5ml,1,,AQ Skin / Skin Tech,2,2
 RRS-HA-EYES-1.5ML-X12,Mesotherapy cocktail,RRS,HA EYES,1.5ml,12,,AQ Skin / Skin Tech,1,1
 RRS-HA-EYES-5ML,Mesotherapy cocktail,RRS,ha eyes,5ml,1,,AQ Skin / Skin Tech,1,1
 RRS-HA-LONG-3ML,Mesotherapy cocktail,RRS,HA Long,3ml,1,,AQ Skin / Skin Tech,3,3
-RRS-HA-RELAX,Mesotherapy cocktail,RRS,ha relax,,1,,AQ Skin / Skin Tech,1,1
-RRS-HA-RELAX-3ML,Mesotherapy cocktail,RRS,HA RELAX,3ml,1,,AQ Skin / Skin Tech,1,1
+RRS-HA-RELAX-3ML,Mesotherapy cocktail,RRS,HA RELAX,3ml,1,,AQ Skin / Skin Tech,2,2
 RRS-HA-STRIMATRIX-10ML,Mesotherapy cocktail,RRS,ha strimatrix,10ml,1,,AQ Skin / Skin Tech,1,1
 RRS-HA-TENSOR-5ML,Mesotherapy cocktail,RRS,ha tensor,5ml,1,,AQ Skin / Skin Tech,1,1
 RRS-HA-TENSOR-5ML-X6,Mesotherapy cocktail,RRS,HA Tensor,5ml,6,,AQ Skin / Skin Tech,1,1
@@ -478,8 +466,7 @@ RRS-SILISORG-TENSOR-5ML,Mesotherapy cocktail,RRS,silisorg tensor,5ml,1,,AQ Skin 
 RRS-XL-HAIR-5ML,Mesotherapy cocktail,RRS,xl hair,5ml,1,,AQ Skin / Skin Tech,1,1
 RRS-XL-HAIR-5ML-X6,Mesotherapy cocktail,RRS,XL Hair,5ml,6,,AQ Skin / Skin Tech,2,2
 REVITACARE-HAIRCARE-LINE,Mesotherapy cocktail,Revitacare,Haircare Line,,1,,,1,1
-STAYVE-AC-STEM,Mesotherapy cocktail,Stayve,ac stem,,1,,Stayve,1,1
-STAYVE-AC-STEM-8ML,Mesotherapy cocktail,Stayve,AC Stem,8ml,1,,Stayve,2,2
+STAYVE-AC-STEM-8ML,Mesotherapy cocktail,Stayve,AC Stem,8ml,1,,Stayve,3,3
 STAYVE-AC-STEM-8ML-X10,Mesotherapy cocktail,Stayve,AC Stem,8ml,10,,Stayve,1,1
 STAYVE-BB-GLOW-8ML,Mesotherapy cocktail,Stayve,BB Glow,8ml,1,,Stayve,3,3
 STAYVE-BB-SHINE,Mesotherapy cocktail,Stayve,BB Shine,,1,,Stayve,1,1
@@ -581,8 +568,7 @@ AMI-TONE-UP-5ML,Polynucleotide / PDRN,AMI,Tone Up,5ml,1,,AMI,3,3
 AETER-PURI-EYES-32G,Polynucleotide / PDRN,Aeter,Puri Eyes,32g,1,,,1,1
 AETERDERM-PURI-PDRN,Polynucleotide / PDRN,Aeterderm,Puri PDRN,,1,,,1,1
 AMEELA-2.5ML,Polynucleotide / PDRN,Ameela,,2.5ml,1,,Teg-Derma / IBSA,5,5
-AMEELA-EXOSOMES,Polynucleotide / PDRN,Ameela,exosomes,,1,,Teg-Derma / IBSA,1,1
-AMEELA-EXOSOMES-3ML,Polynucleotide / PDRN,Ameela,Exosomes,3ml,1,,Teg-Derma / IBSA,4,4
+AMEELA-EXOSOMES-3ML,Polynucleotide / PDRN,Ameela,Exosomes,3ml,1,,Teg-Derma / IBSA,5,5
 AMEELA-EYES-2.5ML,Polynucleotide / PDRN,Ameela,Eyes,2.5ml,1,,Teg-Derma / IBSA,5,5
 AMEELA-FACE,Polynucleotide / PDRN,Ameela,face,,1,,Teg-Derma / IBSA,1,1
 AMEELA-FACE-2.5ML,Polynucleotide / PDRN,Ameela,Face,2.5ml,1,,Teg-Derma / IBSA,3,3
@@ -602,8 +588,7 @@ COSMOPRO-HIKARI-HAIR-8ML-X5,Polynucleotide / PDRN,Cosmopro Hikari,Hair,8ml,5,,Co
 COSMOPRO-HIKARI-STRETCH-8ML-X5,Polynucleotide / PDRN,Cosmopro Hikari,Stretch,8ml,5,,Cosmopro,1,1
 COSMOPRO-HIKARI-TIGHT-FIRM-8ML-X5,Polynucleotide / PDRN,Cosmopro Hikari,Tight Firm,8ml,5,,Cosmopro,1,1
 COSMOPRO-HIKARI-WRINKLE-8ML-X5,Polynucleotide / PDRN,Cosmopro Hikari,Wrinkle,8ml,5,,Cosmopro,1,1
-DERMAREN-LUMI-10,Polynucleotide / PDRN,Dermaren,lumi 10,,1,,Dermaren,1,1
-DERMAREN-LUMI-10-3ML,Polynucleotide / PDRN,Dermaren,Lumi 10,3ml,1,,Dermaren,1,1
+DERMAREN-LUMI-10-3ML,Polynucleotide / PDRN,Dermaren,Lumi 10,3ml,1,,Dermaren,2,2
 DERMAREN-LUMI-FACE,Polynucleotide / PDRN,Dermaren,Lumi Face,,1,,Dermaren,1,1
 DERMAREN-LUMI-GLOW,Polynucleotide / PDRN,Dermaren,Lumi Glow,,1,,Dermaren,1,1
 DERMAREN-LUMI-NAJU-2.5ML,Polynucleotide / PDRN,Dermaren,Lumi Naju,2.5ml,1,,Dermaren,4,4
@@ -618,8 +603,7 @@ KARISMA-2ML,Polynucleotide / PDRN,Karisma,,2ml,1,,Karisma,1,1
 KARISMA-RH-COLLAGEN-1ML-X2,Polynucleotide / PDRN,Karisma,Rh Collagen,1ml,2,,Karisma,2,2
 KARISMA-RH-COLLAGEN-2ML,Polynucleotide / PDRN,Karisma,Rh Collagen,2ml,1,,Karisma,3,3
 KIARA-2.7ML,Polynucleotide / PDRN,Kiara,,2.7ml,1,,Kiara Reju,2,2
-KIARA-ERA,Polynucleotide / PDRN,Kiara,Era,,1,,Kiara Reju,1,1
-KIARA-ERA-7ML,Polynucleotide / PDRN,Kiara,era,7ml,1,,Kiara Reju,1,1
+KIARA-ERA-7ML,Polynucleotide / PDRN,Kiara,era,7ml,1,,Kiara Reju,2,2
 KIARA-REJU,Polynucleotide / PDRN,Kiara,Reju,,1,,Kiara Reju,1,1
 KIARA-REJU-2.2ML-X3,Polynucleotide / PDRN,Kiara,Reju,2.2ml,3,,Kiara Reju,1,1
 LONGEVHA-2.5ML,Polynucleotide / PDRN,LongevHA,,2.5ml,1,,LongevHA,2,2
@@ -638,8 +622,7 @@ LUMI-EYES-DERMAREN-PRO-X10,Polynucleotide / PDRN,Lumi Eyes,Dermaren Pro,,10,,Lum
 LUMI-EYES-DERMAREN-X10-X10,Polynucleotide / PDRN,Lumi Eyes,Dermaren x10,,10,,Lumi,1,1
 LUMI-EYES-MESOEYE-C71-1ML,Polynucleotide / PDRN,Lumi Eyes,MesoEye C71,1ml,1,,Lumi,1,1
 LUMI-EYES-PRO-1ML,Polynucleotide / PDRN,Lumi Eyes,Pro,1ml,1,,Lumi,3,3
-LUMI-EYES-PRO-DERMAREN,Polynucleotide / PDRN,Lumi Eyes,PRO Dermaren,,1,,Lumi,1,1
-LUMI-EYES-PRO-DERMAREN-1ML,Polynucleotide / PDRN,Lumi Eyes,Pro Dermaren,1ml,1,,Lumi,1,1
+LUMI-EYES-PRO-DERMAREN-1ML,Polynucleotide / PDRN,Lumi Eyes,Pro Dermaren,1ml,1,,Lumi,2,2
 LUMI-EYES-PRO-POLYNUCLEOTIDE-1ML,Polynucleotide / PDRN,Lumi Eyes,Pro Polynucleotide,1ml,1,,Lumi,3,3
 LUMI-EYES-UNDER-EYE-1ML,Polynucleotide / PDRN,Lumi Eyes,Under Eye,1ml,1,,Lumi,1,1
 LUMI-PN-DUO-SOPHIA,Polynucleotide / PDRN,Lumi PN,Duo Sophia,,1,,Lumi,1,1
@@ -684,13 +667,13 @@ NUCLEOFILL-MEDIUM,Polynucleotide / PDRN,Nucleofill,medium,,1,,Promoitalia,1,1
 NUCLEOFILL-MEDIUM-1.5ML,Polynucleotide / PDRN,Nucleofill,Medium,1.5ml,1,,Promoitalia,9,9
 NUCLEOFILL-MEDIUM-15ML,Polynucleotide / PDRN,Nucleofill,medium,15ml,1,,Promoitalia,1,2
 NUCLEOFILL-MEDIUM-5ML,Polynucleotide / PDRN,Nucleofill,medium,5ml,1,,Promoitalia,1,1
-NUCLEOFILL-MEDIUM-PLUS,Polynucleotide / PDRN,Nucleofill,Medium Plus,,1,,Promoitalia,1,1
-NUCLEOFILL-MEDIUM-PLUS-2ML,Polynucleotide / PDRN,Nucleofill,medium plus,2ml,1,,Promoitalia,6,8
+NUCLEOFILL-MEDIUM-PLUS-2ML,Polynucleotide / PDRN,Nucleofill,medium plus,2ml,1,,Promoitalia,7,9
 NUCLEOFILL-MEDIUM-SHORTED-1.5ML,Polynucleotide / PDRN,Nucleofill,Medium SHORTED,1.5ml,1,,Promoitalia,1,1
 NUCLEOFILL-SOFT,Polynucleotide / PDRN,Nucleofill,soft,,1,,Promoitalia,1,1
 NUCLEOFILL-SOFT-EYES,Polynucleotide / PDRN,Nucleofill,Soft EYES,,1,,Promoitalia,1,1
 NUCLEOFILL-SOFT-PLUS-2ML,Polynucleotide / PDRN,Nucleofill,soft plus,2ml,1,,Promoitalia,9,10
-NUCLEOFILL-STRONG-1.5ML,Polynucleotide / PDRN,Nucleofill,Strong,1.5ml,1,,Promoitalia,9,9
+NUCLEOFILL-STRONG,Polynucleotide / PDRN,Nucleofill,Strong,,1,,Promoitalia,1,1
+NUCLEOFILL-STRONG-1.5ML,Polynucleotide / PDRN,Nucleofill,Strong,1.5ml,1,,Promoitalia,8,8
 NUCLEOFILL-STRONG-15ML,Polynucleotide / PDRN,Nucleofill,strong,15ml,1,,Promoitalia,2,3
 NUCLEOFILL-STRONG-5ML,Polynucleotide / PDRN,Nucleofill,strong,5ml,1,,Promoitalia,1,1
 NUCLEOFILL-STRONG-PLUS-2ML,Polynucleotide / PDRN,Nucleofill,strong plus,2ml,1,,Promoitalia,5,6
@@ -702,14 +685,12 @@ PLENHYAGE-XL-MEDIUM-2ML,Polynucleotide / PDRN,Plenhyage,XL Medium,2ml,1,,Vivacy,
 PLENHYAGE-XL-STRONG-2ML,Polynucleotide / PDRN,Plenhyage,XL Strong,2ml,1,,Vivacy,10,10
 PLENHYAGE-XL-THIN-2ML,Polynucleotide / PDRN,Plenhyage,XL Thin,2ml,1,,Vivacy,4,4
 PLINEST-NEWEST-2ML,Polynucleotide / PDRN,Plinest / Newest,,2ml,1,,Mastelli,15,29
-PLINEST-NEWEST-EYE,Polynucleotide / PDRN,Plinest / Newest,EYE,,1,,Mastelli,2,2
-PLINEST-NEWEST-EYE-2ML,Polynucleotide / PDRN,Plinest / Newest,eye,2ml,1,,Mastelli,9,10
+PLINEST-NEWEST-EYE-2ML,Polynucleotide / PDRN,Plinest / Newest,eye,2ml,1,,Mastelli,11,12
 PLINEST-NEWEST-EYE-GEL-2ML,Polynucleotide / PDRN,Plinest / Newest,Eye Gel,2ml,1,,Mastelli,1,1
 PLINEST-NEWEST-EYE-UNDER-2ML,Polynucleotide / PDRN,Plinest / Newest,Eye Under,2ml,1,,Mastelli,1,1
 PLINEST-NEWEST-EYES-2ML,Polynucleotide / PDRN,Plinest / Newest,Eyes,2ml,1,,Mastelli,1,1
 PLINEST-NEWEST-FAST-2ML,Polynucleotide / PDRN,Plinest / Newest,Fast,2ml,1,,Mastelli,6,6
-PLINEST-NEWEST-HAIR,Polynucleotide / PDRN,Plinest / Newest,Hair,,1,,Mastelli,2,2
-PLINEST-NEWEST-HAIR-2ML,Polynucleotide / PDRN,Plinest / Newest,hair,2ml,1,,Mastelli,10,11
+PLINEST-NEWEST-HAIR-2ML,Polynucleotide / PDRN,Plinest / Newest,hair,2ml,1,,Mastelli,12,13
 PLINEST-NEWEST-MASTELLI-2ML,Polynucleotide / PDRN,Plinest / Newest,Mastelli,2ml,1,,Mastelli,2,4
 PLINEST-NEWEST-MASTELLI-EYE-2ML,Polynucleotide / PDRN,Plinest / Newest,Mastelli Eye,2ml,1,,Mastelli,2,2
 PLINEST-NEWEST-MASTELLI-FAST-2ML,Polynucleotide / PDRN,Plinest / Newest,Mastelli Fast,2ml,1,,Mastelli,3,3
@@ -729,15 +710,12 @@ POLYPHIL-CROMA-EYE-2ML,Polynucleotide / PDRN,Polyphil,Croma Eye,2ml,1,,Polyphil,
 POLYPHIL-CROMA-HAIR-2ML,Polynucleotide / PDRN,Polyphil,Croma Hair,2ml,1,,Polyphil,1,1
 POLYPHIL-CROMA-NEXT-2ML,Polynucleotide / PDRN,Polyphil,Croma Next,2ml,1,,Polyphil,1,1
 POLYPHIL-CROMA-PHILART-2ML,Polynucleotide / PDRN,Polyphil,Croma PhilArt,2ml,1,,Polyphil,1,1
-POLYPHIL-EYE,Polynucleotide / PDRN,Polyphil,Eye,,1,,Polyphil,1,1
-POLYPHIL-EYE-2ML,Polynucleotide / PDRN,Polyphil,eye,2ml,1,,Polyphil,3,4
+POLYPHIL-EYE-2ML,Polynucleotide / PDRN,Polyphil,eye,2ml,1,,Polyphil,4,5
 POLYPHIL-EYE-FORMERLY-2ML,Polynucleotide / PDRN,Polyphil,eye formerly,2ml,1,,Polyphil,1,1
 POLYPHIL-FORMERLY-PHILART-2ML,Polynucleotide / PDRN,Polyphil,formerly philart,2ml,1,,Polyphil,1,1
-POLYPHIL-HAIR,Polynucleotide / PDRN,Polyphil,Hair,,1,,Polyphil,1,1
-POLYPHIL-HAIR-2ML,Polynucleotide / PDRN,Polyphil,hair,2ml,1,,Polyphil,3,4
+POLYPHIL-HAIR-2ML,Polynucleotide / PDRN,Polyphil,hair,2ml,1,,Polyphil,4,5
 POLYPHIL-HAIR-FORMERLY-2ML,Polynucleotide / PDRN,Polyphil,hair formerly,2ml,1,,Polyphil,1,1
-POLYPHIL-NEXT,Polynucleotide / PDRN,Polyphil,Next,,1,,Polyphil,1,1
-POLYPHIL-NEXT-2ML,Polynucleotide / PDRN,Polyphil,next,2ml,1,,Polyphil,3,4
+POLYPHIL-NEXT-2ML,Polynucleotide / PDRN,Polyphil,next,2ml,1,,Polyphil,4,5
 POLYPHIL-NEXT-FORMERLY-2ML,Polynucleotide / PDRN,Polyphil,next formerly,2ml,1,,Polyphil,1,1
 POLYPHIL-PHILART-HAIR-2ML,Polynucleotide / PDRN,Polyphil,PhilArt Hair,2ml,1,,Polyphil,1,1
 POLYPHIL-PHILART-NEXT-2ML,Polynucleotide / PDRN,Polyphil,PhilArt Next,2ml,1,,Polyphil,1,1
@@ -778,8 +756,7 @@ ULTIMA-PRO-PN-1ML,Polynucleotide / PDRN,Ultima,pro pn,1ml,1,,,1,1
 VITARAN-1ML,Polynucleotide / PDRN,Vitaran,,1ml,1,,VitaRan / Caregen,6,6
 VITARAN-1ML-X2,Polynucleotide / PDRN,Vitaran,,1ml,2,,VitaRan / Caregen,6,11
 VITARAN-COOLING-EYE,Polynucleotide / PDRN,Vitaran,Cooling Eye,,1,,VitaRan / Caregen,1,1
-VITARAN-EYES,Polynucleotide / PDRN,Vitaran,eyes,,1,,VitaRan / Caregen,1,1
-VITARAN-EYES-1ML,Polynucleotide / PDRN,Vitaran,Eyes,1ml,1,,VitaRan / Caregen,7,8
+VITARAN-EYES-1ML,Polynucleotide / PDRN,Vitaran,Eyes,1ml,1,,VitaRan / Caregen,8,9
 VITARAN-EYES-POLYNUCLEOTIDE-1ML,Polynucleotide / PDRN,Vitaran,Eyes Polynucleotide,1ml,1,,VitaRan / Caregen,2,2
 VITARAN-HP-CELL-1ML,Polynucleotide / PDRN,Vitaran,HP Cell,1ml,1,,VitaRan / Caregen,2,2
 VITARAN-HP-CELL-1ML-X2,Polynucleotide / PDRN,Vitaran,HP Cell,1ml,2,,VitaRan / Caregen,1,1

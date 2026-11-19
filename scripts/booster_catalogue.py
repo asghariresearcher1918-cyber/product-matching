@@ -136,7 +136,8 @@ NOISE_WORDS = {
  "professional", "original", "genuine", "authentic", "value", "bundle", "x1", "1x", "2x", "3x",
  "hologram", "roi", "eu", "uk/eu", "irish", "ireland", "english", "euro",
  "vat", "payable", "zero", "pay", "no", "yes", "essex", "london", "exom", "rejuvenation",
- "free", "aqua", "now", "here", "shop", "order", "best", "top", "quality", "grade"}
+ "free", "aqua", "now", "here", "shop", "order", "best", "top", "quality", "grade",
+ "supplies", "supply", "cream"}
 
 
 def market(t):
@@ -195,7 +196,7 @@ def main():
     # consolidation: a volume-less code folds into the single stated volume of the same brand+line+pack+market
     groups = collections.defaultdict(list)
     for p in prods.values():
-        groups[(p["brand"], p["line"], p["pack"], p["market"])].append(p)
+        groups[(p["brand"], p["line"].lower(), p["pack"], p["market"])].append(p)
     remap = {}
     for g in groups.values():
         blanks = [p for p in g if not p["volume"]]

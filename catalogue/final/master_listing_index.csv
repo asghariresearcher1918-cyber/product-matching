@@ -2071,9 +2071,9 @@ FIL:TEOSYAL-RHA3-1X,Dermal filler,MedFX,Teosyal RHA3,https://www.medfx.co.uk/fac
 FIL:TEOSYAL-RHAKISSVOLUME-LIDO-1X,Dermal filler,MedFX,Teosyal RHA Kiss Volume Lido,https://www.medfx.co.uk/facial-aesthetics/fillers/600846--teosyal-rha-kiss-volume-lido/,rule
 FIL:SAYPHA-VOLUME-1ML-LIDO-1X,Dermal filler,MedFX,Croma Saypha Volume Lidocaine 1ml,https://www.medfx.co.uk/facial-aesthetics/fillers/601101--croma-saypha-volume-lidocaine-1ml/,rule
 FIL:CROMA-PHILART-1X,Dermal filler,MedFX,Croma PhilArt,https://www.medfx.co.uk/facial-aesthetics/fillers/601105--croma-philart/,rule
-BST:PURASOMES-HSC50-HAIR,Skin booster / PN / mesotherapy,MedFX,Purasomes HSC50+ Hair + Scalp,https://www.medfx.co.uk/facial-aesthetics/fillers/600410--purasomes-hsc50-hair--scalp/,rule
-BST:PURASOMES-NC150-NUTRI,Skin booster / PN / mesotherapy,MedFX,Purasomes - NC150+ Nutri Complex,https://www.medfx.co.uk/facial-aesthetics/fillers/600411--purasomes--nc150-nutri-complex/,rule
-BST:PURASOMES-SGC100-GLOW,Skin booster / PN / mesotherapy,MedFX,Purasomes - SGC100+ Glow Complex,https://www.medfx.co.uk/facial-aesthetics/fillers/600412--purasomes--sgc100-glow-complex/,rule
+BST:PURASOMES-HSC50-HAIR-5ML,Skin booster / PN / mesotherapy,MedFX,Purasomes HSC50+ Hair + Scalp,https://www.medfx.co.uk/facial-aesthetics/fillers/600410--purasomes-hsc50-hair--scalp/,rule
+BST:PURASOMES-NC150-NUTRI-5ML,Skin booster / PN / mesotherapy,MedFX,Purasomes - NC150+ Nutri Complex,https://www.medfx.co.uk/facial-aesthetics/fillers/600411--purasomes--nc150-nutri-complex/,rule
+BST:PURASOMES-SGC100-GLOW-5ML,Skin booster / PN / mesotherapy,MedFX,Purasomes - SGC100+ Glow Complex,https://www.medfx.co.uk/facial-aesthetics/fillers/600412--purasomes--sgc100-glow-complex/,rule
 BST:CELLENIS-BALANCING-TUBE-11ML,Skin booster / PN / mesotherapy,Church Pharmacy,balancing tube for cellenis 11ml,https://store.churchpharmacy.co.uk/product/balancing-tube-for-cellenis-11ml-118795,high
 BST:CELLENIS-BALANCING-TUBE-22ML,Skin booster / PN / mesotherapy,Church Pharmacy,balancing tube for cellenis prp system 3,https://store.churchpharmacy.co.uk/product/balancing-tube-for-cellenis-prp-system-3-116723,high
 BST:CAMBRIDGE-CODE-MESOHAIR-5ML,Skin booster / PN / mesotherapy,Church Pharmacy,cambridge skin code mesohair,https://store.churchpharmacy.co.uk/product/cambridge-skin-code-mesohair-117570,rule
@@ -2196,7 +2196,7 @@ BST:JALUPRO-HMW-1.5ML,Skin booster / PN / mesotherapy,Fox Pharma,Jalupro HMW (1 
 BST:KARISMA-RH-COLLAGEN-2ML,Skin booster / PN / mesotherapy,Fox Pharma,Karisma Rh Collagen (1 x 2ml),https://foxpharma.co.uk/product/karisma-rh-collagen-1-x-2ml/,high
 BST:EXOCEAN-EXOSOME-5ML,Skin booster / PN / mesotherapy,Fox Pharma,Exocean Exosome (5 x 50mg + 5ml Vial),https://foxpharma.co.uk/product/exocean-exosome-5-x-50mg-5ml-vial/,high
 BST:EXOCEAN-EXOSOME-5ML,Skin booster / PN / mesotherapy,Fox Pharma,Exocean Exosome (1 x 50mg + 5ml vial),https://foxpharma.co.uk/product/exocean-exosome-1-x-50mg-5ml-vial/,high
-BST:PROFHILO-BODY,Skin booster / PN / mesotherapy,Fox Pharma,Profhilo Body Kit,https://foxpharma.co.uk/product/profhilo-body-kit/,rule
+BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,Fox Pharma,Profhilo Body Kit,https://foxpharma.co.uk/product/profhilo-body-kit/,rule
 BST:VITARAN-COOLING-EYE,Skin booster / PN / mesotherapy,Fox Pharma,VITARAN Cooling Eye Packs,https://foxpharma.co.uk/product/vitaran-cooling-eye-packs/,rule
 BST:EXOSOME-OTHER-TECH-SYSTEM-5ML,Skin booster / PN / mesotherapy,Fox Pharma,V-Tech Exosome System (1 x 5ml Vial) (Exp.30/06/2026),https://foxpharma.co.uk/product/vtech-exosome-system-1-x-5ml-vial/,high
 BST:PLINEST-NEWEST-2ML,Skin booster / PN / mesotherapy,Fox Pharma,Newest (1 x 2ml),https://foxpharma.co.uk/product/newest-1-x-2ml/,high
@@ -2343,12 +2343,12 @@ BST:REXOFACE-EXOBIOTIC-POWDER-4ML-X5,Skin booster / PN / mesotherapy,ACRE Pharma
 BST:REXOFACE-EXOBIOTIC-POWDER-4ML-X5,Skin booster / PN / mesotherapy,ACRE Pharmacy,rexoface exobiotic powder 110mg diluent 4ml x 5 vials prescription item zero vat,https://www.acrepharmacy.co.uk/product/rexoface-exobiotic-powder-110mg-diluent-4ml-x-5-vials-prescription-item-zero-vat/01tTw000007odzpIAA,rule
 BST:EXOSOME-OTHER-EXOJUV-PLANT-5ML,Skin booster / PN / mesotherapy,ACRE Pharmacy,exojuv plant exosome 1 vial 50mg powder 5ml complex set stock item vat payable,https://www.acrepharmacy.co.uk/product/exojuv-plant-exosome-1-vial-50mg-powder-5ml-complex-set-stock-item-vat-payable/01tTw0000074nsXIAQ,high
 BST:EXOSOME-OTHER-EXOJUV-PLANT-5ML,Skin booster / PN / mesotherapy,ACRE Pharmacy,exojuv plant exosome 1 vial 50mg powder 5ml complex set prescription item zero vat,https://www.acrepharmacy.co.uk/product/exojuv-plant-exosome-1-vial-50mg-powder-5ml-complex-set-prescription-item-zero-vat/01tTw0000074nnhIAA,high
-BST:PURASOMES-NC150-NUTRI,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes nc150 skin nutri complex stock item vat payable,https://www.acrepharmacy.co.uk/product/purasomes-nc150-skin-nutri-complex-stock-item-vat-payable/01tTw0000074lfRIAQ,rule
-BST:PURASOMES-NC150-NUTRI,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes nc150 skin nutri complex prescription item zero vat,https://www.acrepharmacy.co.uk/product/purasomes-nc150-skin-nutri-complex-prescription-item-zero-vat/01tTw0000074labIAA,rule
-BST:PURASOMES-SGC100-GLOW,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes sgc100 skin glow prescription item zero vat,https://www.acrepharmacy.co.uk/product/purasomes-sgc100-skin-glow-prescription-item-zero-vat/01tTw0000074kzVIAQ,rule
-BST:PURASOMES-SGC100-GLOW,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes sgc100 skin glow stock item vat payable,https://www.acrepharmacy.co.uk/product/purasomes-sgc100-skin-glow-stock-item-vat-payable/01tTw0000074kkzIAA,rule
-BST:PURASOMES-HSC50-HAIR,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes hsc50 hair scalp stock item vat payable,https://www.acrepharmacy.co.uk/product/purasomes-hsc50-hair-scalp-stock-item-vat-payable/01tTw0000073tdRIAQ,rule
-BST:PURASOMES-HSC50-HAIR,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes hsc50 hair scalp prescription item zero vat,https://www.acrepharmacy.co.uk/product/purasomes-hsc50-hair-scalp-prescription-item-zero-vat/01tTw0000073tWzIAI,rule
+BST:PURASOMES-NC150-NUTRI-5ML,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes nc150 skin nutri complex stock item vat payable,https://www.acrepharmacy.co.uk/product/purasomes-nc150-skin-nutri-complex-stock-item-vat-payable/01tTw0000074lfRIAQ,rule
+BST:PURASOMES-NC150-NUTRI-5ML,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes nc150 skin nutri complex prescription item zero vat,https://www.acrepharmacy.co.uk/product/purasomes-nc150-skin-nutri-complex-prescription-item-zero-vat/01tTw0000074labIAA,rule
+BST:PURASOMES-SGC100-GLOW-5ML,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes sgc100 skin glow prescription item zero vat,https://www.acrepharmacy.co.uk/product/purasomes-sgc100-skin-glow-prescription-item-zero-vat/01tTw0000074kzVIAQ,rule
+BST:PURASOMES-SGC100-GLOW-5ML,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes sgc100 skin glow stock item vat payable,https://www.acrepharmacy.co.uk/product/purasomes-sgc100-skin-glow-stock-item-vat-payable/01tTw0000074kkzIAA,rule
+BST:PURASOMES-HSC50-HAIR-5ML,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes hsc50 hair scalp stock item vat payable,https://www.acrepharmacy.co.uk/product/purasomes-hsc50-hair-scalp-stock-item-vat-payable/01tTw0000073tdRIAQ,rule
+BST:PURASOMES-HSC50-HAIR-5ML,Skin booster / PN / mesotherapy,ACRE Pharmacy,purasomes hsc50 hair scalp prescription item zero vat,https://www.acrepharmacy.co.uk/product/purasomes-hsc50-hair-scalp-prescription-item-zero-vat/01tTw0000073tWzIAI,rule
 BST:NEAUVIA-HYDRO-DELUXE-25ML-X2,Skin booster / PN / mesotherapy,ACRE Pharmacy,neauvia hydro deluxe 2 x 25ml stock item vat payable,https://www.acrepharmacy.co.uk/product/neauvia-hydro-deluxe-2-x-25ml-stock-item-vat-payable/01tTw000005yUd3IAE,high
 BST:NEAUVIA-HYDRO-DELUXE-25ML-X2,Skin booster / PN / mesotherapy,ACRE Pharmacy,neauvia hydro deluxe 2 x 25ml prescription item zero vat,https://www.acrepharmacy.co.uk/product/neauvia-hydro-deluxe-2-x-25ml-prescription-item-zero-vat/01tTw000005s7hZIAQ,high
 BST:PROFHILO-STRUCTURA-2ML,Skin booster / PN / mesotherapy,ACRE Pharmacy,profhilo structura 1x2ml stock item vat payable,https://www.acrepharmacy.co.uk/product/profhilo-structura-1x2ml-stock-item-vat-payable/01tTw000005TJHKIA4,high
@@ -2559,7 +2559,7 @@ BST:PROFHILO-STRUCTURA-2ML,Skin booster / PN / mesotherapy,Aesthetic Pharma,Prof
 BST:SEVENTY-HYAL-2000-2ML-X3,Skin booster / PN / mesotherapy,Aesthetic Pharma,Seventy Hyal 2000 3 x 2ml,https://www.aestheticpharma.co.uk/product/933,high
 BST:NUCLEOFILL-20-1.5ML,Skin booster / PN / mesotherapy,Aesthetic Pharma,Nucleofill 20,https://www.aestheticpharma.co.uk/product/932,rule
 BST:NUCLEOFILL-25,Skin booster / PN / mesotherapy,Aesthetic Pharma,Nucleofill 25,https://www.aestheticpharma.co.uk/product/931,rule
-BST:REVS-PRO-32,Skin booster / PN / mesotherapy,Aesthetic Pharma,Revs Pro 32,https://www.aestheticpharma.co.uk/product/908,rule
+BST:REVS-PRO-32-2ML,Skin booster / PN / mesotherapy,Aesthetic Pharma,Revs Pro 32,https://www.aestheticpharma.co.uk/product/908,rule
 BST:PROFHILO-2ML-HG,Skin booster / PN / mesotherapy,Aesthetic Pharma,Profhilo 1 x 2ml UK Hologram,https://www.aestheticpharma.co.uk/product/895,high
 BST:JALUCOMPLEX,Skin booster / PN / mesotherapy,Aesthetic Pharma,Jalucomplex 3,https://www.aestheticpharma.co.uk/product/863,partial
 BST:PLINEST-NEWEST-2ML,Skin booster / PN / mesotherapy,Aesthetic Pharma,Newest 2ml,https://www.aestheticpharma.co.uk/product/860,high
@@ -2567,7 +2567,7 @@ BST:PLENHYAGE-XL-STRONG-2ML,Skin booster / PN / mesotherapy,Aesthetic Pharma,Ple
 BST:PLENHYAGE-XL-MEDIUM-2ML,Skin booster / PN / mesotherapy,Aesthetic Pharma,Plenhyage XL Medium,https://www.aestheticpharma.co.uk/product/858,rule
 BST:SUNEKOS-PERFORMA-3.5ML-X2,Skin booster / PN / mesotherapy,Aesthetic Pharma,Sunekos Performa 2 x 3.5ml,https://www.aestheticpharma.co.uk/product/823,high
 BST:JALUPRO-SUPER-HYDRO,Skin booster / PN / mesotherapy,Aesthetic Pharma,Jalupro Super Hydro,https://www.aestheticpharma.co.uk/product/795,rule
-BST:PROFHILO-BODY,Skin booster / PN / mesotherapy,Aesthetic Pharma,Profhilo Body Kit,https://www.aestheticpharma.co.uk/product/791,rule
+BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,Aesthetic Pharma,Profhilo Body Kit,https://www.aestheticpharma.co.uk/product/791,rule
 BST:LUMI-EYES-1ML,Skin booster / PN / mesotherapy,Aesthetic Pharma,Lumi Eyes,https://www.aestheticpharma.co.uk/product/780,rule
 BST:TOSKANI-TKN-DEXANYL,Skin booster / PN / mesotherapy,Aesthetic Pharma,Toskani TKN Dexanyl (Dexpenthanol),https://www.aestheticpharma.co.uk/product/586,rule
 BST:TOSKANI-TKN-HA3-1.6ML,Skin booster / PN / mesotherapy,Aesthetic Pharma,Toskani TKN HA3 Skinbooster,https://www.aestheticpharma.co.uk/product/551,rule
@@ -2578,7 +2578,7 @@ BST:DERMAQUAL-REJUVEYES-5ML-X5,Skin booster / PN / mesotherapy,Aesthetic Pharma,
 BST:DERMAQUAL-EGF-GENESIS-10ML-X5,Skin booster / PN / mesotherapy,Aesthetic Pharma,Dermaqual EGF Genesis 5 x 10ml vials,https://www.aestheticpharma.co.uk/product/389,high
 BST:PROFHILO-2ML,Skin booster / PN / mesotherapy,Aesthetic Pharma,Profhilo 1 x 2ml,https://www.aestheticpharma.co.uk/product/215,high
 BST:FILLMED-NCTF-FILORGA-135HA,Skin booster / PN / mesotherapy,Aesthetic Pharma,Filorga NCTF 135HA,https://www.aestheticpharma.co.uk/product/193,rule
-BST:JALUPRO-HMW-1.5ML,Skin booster / PN / mesotherapy,Aesthetic Pharma,Jalupro HMW,https://www.aestheticpharma.co.uk/product/30,rule
+BST:JALUPRO-HMW,Skin booster / PN / mesotherapy,Aesthetic Pharma,Jalupro HMW,https://www.aestheticpharma.co.uk/product/30,rule
 BST:JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,Aesthetic Pharma,Jalupro Classic,https://www.aestheticpharma.co.uk/product/29,rule
 BST:LUMI-PRO-ROLLER-BANNER,Skin booster / PN / mesotherapy,Smile Pharma,LUMI-PRO Roller Banner (Blue),https://smilepharma.co.uk/product/lumi-pro-roller-banner-blue/,rule
 BST:LUMI-MESO-MIX-MATCH-5ML,Skin booster / PN / mesotherapy,Smile Pharma,LUMI-MESO Mix and Match Bundle - 2 for £99,https://smilepharma.co.uk/product/lumi-meso-mix-and-match-bundle-3-for-2/,high
@@ -2590,7 +2590,7 @@ BST:DERMAQUAL-DQ-HAIR-10ML-X5,Skin booster / PN / mesotherapy,Smile Pharma,Derma
 BST:DERMAQUAL-DQ-HAIR-10ML,Skin booster / PN / mesotherapy,Smile Pharma,Dermaqual DQ Hair + (1x10ml) Single Vial,https://smilepharma.co.uk/product/dermaqual-dq-hair-1x10ml-single-vial/,high
 BST:EXOCEAN-EXOSOMES-5ML,Skin booster / PN / mesotherapy,Smile Pharma,EXOCEAN Exosomes (1 x 50mg+5ml vial),https://smilepharma.co.uk/product/exocean-exosomes-1-x-50mg5ml-vial/,high
 BST:PROFHILO-STRUCTURA-2ML,Skin booster / PN / mesotherapy,Smile Pharma,Profhilo Structura - 1x2ml,https://smilepharma.co.uk/product/profhilo-structura-1x2ml/,high
-BST:NUCLEOFILL-STRONG-1.5ML,Skin booster / PN / mesotherapy,Smile Pharma,NUCLEOFILL Strong - Skin Booster,https://smilepharma.co.uk/product/nucleofill-25-skin-booster/,rule
+BST:NUCLEOFILL-STRONG,Skin booster / PN / mesotherapy,Smile Pharma,NUCLEOFILL Strong - Skin Booster,https://smilepharma.co.uk/product/nucleofill-25-skin-booster/,rule
 BST:STAYVE-BB-GLOW-8ML,Skin booster / PN / mesotherapy,Smile Pharma,Stayve BB Glow Starter Kit (8ml x12pcs),https://smilepharma.co.uk/product/professional-stayve-bb-glow-kit-brighten-even-tone/,high
 BST:STAYVE-SEANERGY-PEEL-8ML,Skin booster / PN / mesotherapy,Smile Pharma,Stayve Booster Seanergy Peel Single Vials,https://smilepharma.co.uk/product/stayve-booster-seanergy-peel-single-vials/,rule
 BST:LUMI-MESO-TOX-5ML,Skin booster / PN / mesotherapy,Smile Pharma,LUMI-MESO TOX (1 x 5ml vial),https://smilepharma.co.uk/product/lumi-meso-tox-1-x-5ml-single-vial/,high
@@ -2612,7 +2612,7 @@ BST:STAYVE-COLLAGEN-SERUM-8ML,Skin booster / PN / mesotherapy,Smile Pharma,Stayv
 BST:PLINEST-NEWEST-2ML,Skin booster / PN / mesotherapy,Smile Pharma,Plinest Newest - Skin Booster (1x2ml),https://smilepharma.co.uk/product/plinest-newest-skin-booster-1x2ml/,high
 BST:PROFHILO-2ML,Skin booster / PN / mesotherapy,Smile Pharma,Profhilo H+L (1 x 2ml),https://smilepharma.co.uk/product/profhilo-hl-2ml-2/,high
 BST:LEMON-BOTTLE-SKIN-BOO,Skin booster / PN / mesotherapy,Smile Pharma,Lemon Bottle Skin Booster (Single),https://smilepharma.co.uk/product/lemon-bottle-skin-booster-single/,rule
-BST:JALUPRO-HMW-1.5ML,Skin booster / PN / mesotherapy,Smile Pharma,Jalupro HMW - Skin Booster,https://smilepharma.co.uk/product/jalupro-hmw-skin-booster/,rule
+BST:JALUPRO-HMW,Skin booster / PN / mesotherapy,Smile Pharma,Jalupro HMW - Skin Booster,https://smilepharma.co.uk/product/jalupro-hmw-skin-booster/,rule
 BST:NUCLEOFILL-MEDIUM-PLUS-2ML,Skin booster / PN / mesotherapy,Smile Pharma,Nucleofill Medium Plus Hair (1 x 2ml),https://smilepharma.co.uk/product/nucleofill-medium-plus-hair-1-x-2ml/,high
 BST:PLINEST-NEWEST-FAST-2ML,Skin booster / PN / mesotherapy,Smile Pharma,Plinest Fast - Skin Booster (1x2ml),https://smilepharma.co.uk/product/plinest-fast-skin-booster-1x2ml/,high
 BST:LUMI-PN-EYES-POLYNUCLEOTIDE-1.5ML,Skin booster / PN / mesotherapy,Smile Pharma,LUMI-PN EYES | 1x1.5ml per pack | Polynucleotide (PDRN) 30mg,https://smilepharma.co.uk/product/lumi-pn-eyes-1x1-5ml-per-pack-polynucleotide-pdrn-30mg/,high
@@ -2638,13 +2638,13 @@ BST:PLENHYAGE-XL-MEDIUM-2ML,Skin booster / PN / mesotherapy,Smile Pharma,Plenhya
 BST:LUMI-PN-FACE-POLYNUCLEOTIDE-2.5ML,Skin booster / PN / mesotherapy,Smile Pharma,LUMI-PN FACE | 1x2.5ml per pack | Polynucleotide (PDRN) 50mg,https://smilepharma.co.uk/product/lumi-pn-face-pdrn-skin-booster-50-mg/,high
 BST:LUMI-MESO-ELITE-10-5ML-X5,Skin booster / PN / mesotherapy,Smile Pharma,LUMI-MESO ELITE (5 x 5ml vials) - 10 Treatments per pack,https://smilepharma.co.uk/product/lumi-meso-elite-5-x-5ml/,high
 BST:LUMI-MESO-BRIGHT-10-5ML-X5,Skin booster / PN / mesotherapy,Smile Pharma,LUMI-MESO BRIGHT (5 x 5ml vials) - 10 Treatments per pack,https://smilepharma.co.uk/product/lumi-meso-bright-5-x-5ml-vials/,high
-BST:PURASOMES-SGC100-GLOW,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes SGC100+ Skin Glow Complex,https://smilepharma.co.uk/product/purasomes-sgc100-skin-glow-complex/,rule
-BST:PURASOMES-HSC50-HAIR,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes HSC50+ Hair &amp;amp; Scalp Complex,https://smilepharma.co.uk/product/purasomes-hsc50-hair-scalp-complex/,rule
+BST:PURASOMES-SGC100-GLOW-5ML,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes SGC100+ Skin Glow Complex,https://smilepharma.co.uk/product/purasomes-sgc100-skin-glow-complex/,rule
+BST:PURASOMES-HSC50-HAIR-5ML,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes HSC50+ Hair &amp;amp; Scalp Complex,https://smilepharma.co.uk/product/purasomes-hsc50-hair-scalp-complex/,rule
 BST:LUMI-PRO-TRIPLE-2ML-X3,Skin booster / PN / mesotherapy,Smile Pharma,LUMI-PRO Skin Booster - Triple Pack (3 x 2ml),https://smilepharma.co.uk/product/lumi-pro-skin-booster-triple-pack-3-x-2ml/,high
-BST:PURASOMES-NC150-NUTRI,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes NC150+ Skin Nutri Complex,https://smilepharma.co.uk/product/purasomes-nc150-skin-nutri-complex/,rule
+BST:PURASOMES-NC150-NUTRI-5ML,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes NC150+ Skin Nutri Complex,https://smilepharma.co.uk/product/purasomes-nc150-skin-nutri-complex/,rule
 BST:PURASOMES-IRC100,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes IRC100+,https://smilepharma.co.uk/product/purasomes-irc100/,rule
-BST:PURASOMES-HSC50-HAIR,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes HSC50+ Hair &amp;amp; Scalp Complex (Single Vial),https://smilepharma.co.uk/product/purasomes-hsc50-hair-scalp-complex-single/,rule
-BST:PURASOMES-NC150-NUTRI,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes NC150+ Skin Nutri Complex (Single Vial),https://smilepharma.co.uk/product/purasomes-nc150-skin-nutri-complex-single-vial/,rule
+BST:PURASOMES-HSC50-HAIR-5ML,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes HSC50+ Hair &amp;amp; Scalp Complex (Single Vial),https://smilepharma.co.uk/product/purasomes-hsc50-hair-scalp-complex-single/,rule
+BST:PURASOMES-NC150-NUTRI-5ML,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes NC150+ Skin Nutri Complex (Single Vial),https://smilepharma.co.uk/product/purasomes-nc150-skin-nutri-complex-single-vial/,rule
 BST:FILLMED-NCTF-135HA-3ML,Skin booster / PN / mesotherapy,Smile Pharma,FILLMED NCTF® 135HA Skin Booster,https://smilepharma.co.uk/product/fillmed-nctf-135ha-skin-booster/,rule
 BST:SUNEKOS-PERFORMA-3.5ML-X2,Skin booster / PN / mesotherapy,Smile Pharma,SUNEKOS Performa (2 x 3.5ml vials),https://smilepharma.co.uk/product/sunekos-performa-2-x-3-5ml-vials/,high
 BST:SUNEKOS-200-3ML-X2,Skin booster / PN / mesotherapy,Smile Pharma,SUNEKOS 200 (2 X 3ML VIALS + 2 BOTTLES),https://smilepharma.co.uk/product/sunekos-200-2-x-3ml-vials-2-bottles/,high
@@ -2654,7 +2654,7 @@ BST:DERMAREN-LUMI-NAJU-2.5ML,Skin booster / PN / mesotherapy,Smile Pharma,Dermar
 BST:LEMON-BOTTLE-SKIN-BOO-REBOOT-STEP-3ML-X6,Skin booster / PN / mesotherapy,Smile Pharma,Lemon Bottle REBOOT 3-Step Skin Booster System (6 x 3ml),https://smilepharma.co.uk/product/lemon-bottle-reboot-skin-booster/,high
 BST:JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,Smile Pharma,Jalupro Classic - Skin Booster,https://smilepharma.co.uk/product/jalupro-classic-skin-booster/,rule
 BST:SEVENTY-HYAL-2000-2ML-X3,Skin booster / PN / mesotherapy,Smile Pharma,Seventy Hyal 2000 (3 x 2ml),https://smilepharma.co.uk/product/seventy-hyal-2000-3-x-2ml/,high
-BST:PURASOMES-SGC100-GLOW,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes SGC100+ Skin Glow Complex (Single Vial),https://smilepharma.co.uk/product/purasomes-sgc100-skin-glow-complex-single/,rule
+BST:PURASOMES-SGC100-GLOW-5ML,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes SGC100+ Skin Glow Complex (Single Vial),https://smilepharma.co.uk/product/purasomes-sgc100-skin-glow-complex-single/,rule
 BST:LUMI-PRO-2ML,Skin booster / PN / mesotherapy,Smile Pharma,LUMI-PRO Skin Booster (Single pack – 1 x 2ml),https://smilepharma.co.uk/product/lumi-pro-skin-booster-single-pack-1-x-2ml/,high
 BST:PLINEST-NEWEST-2ML,Skin booster / PN / mesotherapy,Smile Pharma,Plinest (1x2ml),https://smilepharma.co.uk/product/plinest/,high
 BST:REVS-PRO-32-2ML,Skin booster / PN / mesotherapy,Smile Pharma,Revs PRO 32 Skin Booster - 2ml,https://smilepharma.co.uk/product/revs-pro-32-skin-booster-2ml/,high
@@ -2729,23 +2729,23 @@ BST:PLINEST-NEWEST-ONE,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Newest
 BST:NEWGYN-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,NewGYN,https://www.dradamspharmacy.co.uk/products/view/270,partial
 BST:NUCLEOFILL-AGE-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Nucleofill Age (1 x 2ml),https://www.dradamspharmacy.co.uk/products/view/269,high
 BST:NUCLEOFILL-MEDIUM-1.5ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Nucleofill Medium (20) (1 x 1.5ml),https://www.dradamspharmacy.co.uk/products/view/171,high
-BST:NUCLEOFILL-MEDIUM-PLUS,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Nucleofill Medium Plus (Hair),https://www.dradamspharmacy.co.uk/products/view/174,rule
+BST:NUCLEOFILL-MEDIUM-PLUS-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Nucleofill Medium Plus (Hair),https://www.dradamspharmacy.co.uk/products/view/174,rule
 BST:NUCLEOFILL-SOFT-PLUS-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Nucleofill Soft Plus (eye) (1 x 2ml),https://www.dradamspharmacy.co.uk/products/view/173,high
 BST:NUCLEOFILL-STRONG-1.5ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Nucleofill Strong (25) (1 x 1.5ml),https://www.dradamspharmacy.co.uk/products/view/172,high
 BST:PLENHYAGE-XL-MEDIUM-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Plenhyage XL Medium 2ml,https://www.dradamspharmacy.co.uk/products/view/202,high
 BST:PLENHYAGE-XL-STRONG-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Plenhyage XL Strong 1 x 2ml,https://www.dradamspharmacy.co.uk/products/view/203,high
 BST:PLINEST-NEWEST-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Plinest (1 x 2ml),https://www.dradamspharmacy.co.uk/products/view/294,high
-BST:PLINEST-NEWEST-EYE,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Plinest EYE,https://www.dradamspharmacy.co.uk/products/view/297,rule
+BST:PLINEST-NEWEST-EYE-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Plinest EYE,https://www.dradamspharmacy.co.uk/products/view/297,rule
 BST:PLINEST-NEWEST-FAST-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Plinest Fast,https://www.dradamspharmacy.co.uk/products/view/296,rule
-BST:PLINEST-NEWEST-HAIR,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Plinest Hair,https://www.dradamspharmacy.co.uk/products/view/298,rule
+BST:PLINEST-NEWEST-HAIR-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Plinest Hair,https://www.dradamspharmacy.co.uk/products/view/298,rule
 BST:PLINEST-NEWEST-ONE,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Plinest One,https://www.dradamspharmacy.co.uk/products/view/295,rule
 BST:POLYPHIL-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,PolyPhil,https://www.dradamspharmacy.co.uk/products/view/94,rule
-BST:POLYPHIL-EYE,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,PolyPhil Eye,https://www.dradamspharmacy.co.uk/products/view/93,rule
-BST:POLYPHIL-HAIR,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,PolyPhil Hair,https://www.dradamspharmacy.co.uk/products/view/91,rule
-BST:POLYPHIL-NEXT,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,PolyPhil Next,https://www.dradamspharmacy.co.uk/products/view/92,rule
+BST:POLYPHIL-EYE-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,PolyPhil Eye,https://www.dradamspharmacy.co.uk/products/view/93,rule
+BST:POLYPHIL-HAIR-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,PolyPhil Hair,https://www.dradamspharmacy.co.uk/products/view/91,rule
+BST:POLYPHIL-NEXT-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,PolyPhil Next,https://www.dradamspharmacy.co.uk/products/view/92,rule
 BST:PROFHILO-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Profhilo,https://www.dradamspharmacy.co.uk/products/view/148,rule
-BST:PROFHILO-BODY,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Profhilo Body Kit (1kit),https://www.dradamspharmacy.co.uk/products/view/150,rule
-BST:PROFHILO-HAENKENIUM-CREAM-50ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Profhilo Haenkenium Cream (1 x 50ml),https://www.dradamspharmacy.co.uk/products/view/306,high
+BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Profhilo Body Kit (1kit),https://www.dradamspharmacy.co.uk/products/view/150,rule
+BST:PROFHILO-HAENKENIUM-50ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Profhilo Haenkenium Cream (1 x 50ml),https://www.dradamspharmacy.co.uk/products/view/306,high
 BST:PROFHILO-STRUCTURA-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Profhilo Structura (1 x 2ml),https://www.dradamspharmacy.co.uk/products/view/151,high
 BST:PROSTROLANE-BLANC-2ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Prostrolane Blanc-B 2ml,https://www.dradamspharmacy.co.uk/products/view/557,high
 BST:PROSTROLANE-INNER-2ML-X2,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Prostrolane Inner-B (2 x 2ml),https://www.dradamspharmacy.co.uk/products/view/580,high
@@ -2765,7 +2765,7 @@ BST:SUNEKOS-PERFORMA-3.5ML-X2,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy
 BST:VISCODERM-COVER-UP-20ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Viscoderm Cover Up Dark (1 x 20ml) bottle,https://www.dradamspharmacy.co.uk/products/view/314,high
 BST:VISCODERM-COVER-UP-20ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Viscoderm Cover Up Light (1 x 20ml) bottle,https://www.dradamspharmacy.co.uk/products/view/315,high
 BST:VISCODERM-HYDROBOOSTER-SYR-1.1ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Viscoderm Hydrobooster (1 x 1.1ml) syr,https://www.dradamspharmacy.co.uk/products/view/186,high
-BST:VISCODERM-HYDROBOOSTER-CREAM-50ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Viscoderm Hydrobooster Cream (1 x 50ml) bottle,https://www.dradamspharmacy.co.uk/products/view/317,high
+BST:VISCODERM-HYDROBOOSTER-BOTTLE-50ML,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Viscoderm Hydrobooster Cream (1 x 50ml) bottle,https://www.dradamspharmacy.co.uk/products/view/317,high
 BST:VISCODERM-HYDROGEL-PATCH,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Viscoderm Hydrogel Patch,https://www.dradamspharmacy.co.uk/products/view/316,rule
 BST:VISCODERM-SKINKO-5ML-X10,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Viscoderm Skinko E (10 x 5ml) vial,https://www.dradamspharmacy.co.uk/products/view/287,high
 BST:VITARAN-II-2ML-X2,Skin booster / PN / mesotherapy,Dr. Adams Pharmacy,Vitaran II 2 x 2ml (UK),https://www.dradamspharmacy.co.uk/products/view/568,high
@@ -2782,11 +2782,11 @@ BST:SEVENTY-HYAL-2000-2ML,Skin booster / PN / mesotherapy,Skin On You,Seventy Hy
 BST:RRS-HA-5ML-X6,Skin booster / PN / mesotherapy,Skin On You,RRS® HA Injectable (6x5ml),https://skinonyou.com/shop/rrs-ha-injectable/,high
 BST:RRS-HYALIFT-75-5ML-X6,Skin booster / PN / mesotherapy,Skin On You,RRS® Hyalift 75 (6x5ml),https://skinonyou.com/shop/rrs-hyalift-75/,high
 BST:RRS-HYALIFT-75-5ML-X6,Skin booster / PN / mesotherapy,Skin On You,RRS® Hyalift 75 ProActive (6x5ml),https://skinonyou.com/shop/rrs-hyalift-75-proactive/,high
-BST:RRS-HA-CELLUTRIX,Skin booster / PN / mesotherapy,Skin On You,rrs ha cellutrix,https://skinonyou.com/shop/rrs-ha-cellutrix/,rule
+BST:RRS-HA-CELLUTRIX-10ML,Skin booster / PN / mesotherapy,Skin On You,rrs ha cellutrix,https://skinonyou.com/shop/rrs-ha-cellutrix/,rule
 BST:RRS-XL-HAIR-5ML-X6,Skin booster / PN / mesotherapy,Skin On You,RRS® XL Hair (6x5ml),https://skinonyou.com/shop/rrs-xl-hair/,high
 BST:RRS-HA-EYES-1.5ML-X12,Skin booster / PN / mesotherapy,Skin On You,RRS® HA EYES (12x1.5ml),https://skinonyou.com/shop/rrs-ha-eyes/,high
 BST:RRS-HA-LONG-3ML,Skin booster / PN / mesotherapy,Skin On You,RRS® HA Long Lasting (1x3ml),https://skinonyou.com/shop/rrs-ha-long-lasting-1x3ml/,high
-BST:PROFHILO-BODY,Skin booster / PN / mesotherapy,Skin On You,Profhilo ® Body Kit,https://skinonyou.com/shop/profhilo-body-kit/,rule
+BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,Skin On You,Profhilo ® Body Kit,https://skinonyou.com/shop/profhilo-body-kit/,rule
 BST:PROFHILO-STRUCTURA-2ML,Skin booster / PN / mesotherapy,Skin On You,PROFHILO STRUCTURA WITH CANNULA (1×2mL),https://skinonyou.com/shop/profhilo-structura-1x2-ml/,high
 BST:PLENHYAGE-XL-THIN-2ML,Skin booster / PN / mesotherapy,Skin On You,Plenhyage XL Thin 1 x 2 ml,https://skinonyou.com/shop/plenhyage-xl-thin/,high
 BST:PLENHYAGE-XL-STRONG-2ML,Skin booster / PN / mesotherapy,Skin On You,Plenhyage XL Strong 1 x 2 ml,https://skinonyou.com/shop/plenhyage-xl-strong/,high
@@ -2804,7 +2804,7 @@ BST:LUMI-PRO-EYES-1ML,Skin booster / PN / mesotherapy,Skin On You,LUMI-PRO Eyes 
 BST:LUMI-PN-FACE-2.5ML,Skin booster / PN / mesotherapy,Skin On You,LUMI-PN FACE (1 × 2.5 ml),https://skinonyou.com/shop/lumi-pn-face-1-x-2-5-ml/,high
 BST:KARISMA-2ML,Skin booster / PN / mesotherapy,Skin On You,Karisma 1x2 ml,https://skinonyou.com/shop/karisma-1x2-ml/,high
 BST:JALUPRO-YOUNG-EYE-1ML,Skin booster / PN / mesotherapy,Skin On You,Jalupro Young Eye,https://skinonyou.com/shop/jalupro-young-eye/,rule
-BST:JALUPRO-HMW-1.5ML,Skin booster / PN / mesotherapy,Skin On You,Jalupro HMW,https://skinonyou.com/shop/jalupro-hmw/,rule
+BST:JALUPRO-HMW,Skin booster / PN / mesotherapy,Skin On You,Jalupro HMW,https://skinonyou.com/shop/jalupro-hmw/,rule
 BST:JALUPRO-SUPERHYDRO-1X2-5ML,Skin booster / PN / mesotherapy,Skin On You,jalupro superhydro 1x2 5ml,https://skinonyou.com/shop/jalupro-superhydro-1x2-5ml/,high
 BST:HYALUAL-ELECTRI-1.5ML,Skin booster / PN / mesotherapy,Skin On You,HYALUAL Electri 1x1.5ml,https://skinonyou.com/shop/hyalual-electri/,high
 BST:HYALUAL-XELA-REDERM-2ML,Skin booster / PN / mesotherapy,Skin On You,HYALUAL Xela Rederm 1.1% 1x2ml,https://skinonyou.com/shop/hyalual-xela-rederm-1-1/,high
@@ -2814,7 +2814,7 @@ BST:AMI-DIVES-200,Skin booster / PN / mesotherapy,Skin On You,Dives AMI 200,http
 BST:DIVES-TREHFILL-2ML,Skin booster / PN / mesotherapy,Skin On You,Dives Trehfill 2ml,https://skinonyou.com/shop/dives-trehfill-2ml/,rule
 BST:PHILART-EYES-BIO,Skin booster / PN / mesotherapy,Skin On You,philart eyes bio stimulator polynucleotide,https://skinonyou.com/shop/philart-eyes-bio-stimulator-polynucleotide/,partial
 BST:POLYPHIL-PHILART-HAIR-2ML,Skin booster / PN / mesotherapy,Skin On You,PhilArt Hair - PolyPhil Hair 1 x 2 ml,https://skinonyou.com/shop/philart-hair-bio-stimulation-polynucleotide/,high
-BST:SAYPHA-BOOSTER-CROMA-PHILART,Skin booster / PN / mesotherapy,Skin On You,croma philart bio stimulator polynucleotide,https://skinonyou.com/shop/croma-philart-bio-stimulator-polynucleotide/,rule
+BST:SAYPHA-BOOSTER-CROMA-PHILART-2ML,Skin booster / PN / mesotherapy,Skin On You,croma philart bio stimulator polynucleotide,https://skinonyou.com/shop/croma-philart-bio-stimulator-polynucleotide/,rule
 BST:POLYPHIL-PHILART-NEXT-2ML,Skin booster / PN / mesotherapy,Skin On You,PhilArt Next - PolyPhil Next 1 x 2 ml,https://skinonyou.com/shop/buy-croma-philart-next-polynucleotide/,high
 BST:ARES-AO-ANTI-4ML-X4,Skin booster / PN / mesotherapy,Skin On You,ARES AO® Anti-Oxidant 4 x 4 ml,https://skinonyou.com/shop/ares-ao-anti-oxidant-4-x-4ml-mesotherapy/,high
 BST:ARES-HB-HAIR-4ML-X4,Skin booster / PN / mesotherapy,Skin On You,Ares HB® Hair Booster 4 x 4 ml,https://skinonyou.com/shop/ares-hb-hair-booster-4x4ml-mesotherapy/,high
@@ -2828,7 +2828,7 @@ BST:REJURAN-HEALER-2ML-X2,Skin booster / PN / mesotherapy,Skin On You,Rejuran He
 BST:SUNEKOS-BODY-10ML,Skin booster / PN / mesotherapy,Skin On You,Sunekos ® Body,https://skinonyou.com/shop/sunekos-body-mesotherapy/,rule
 BST:NITHYA-BODY-200MG,Skin booster / PN / mesotherapy,Skin On You,Nithya Body 1 x 200mg,https://skinonyou.com/shop/nithya-body-1-x-200mg/,high
 BST:REJURAN-PN-1ML,Skin booster / PN / mesotherapy,Skin On You,Rejuran I PN (1 x 1ml) (white),https://skinonyou.com/shop/rejuran-i-pn-1-x-1ml/,high
-BST:RRS-HA-RELAX,Skin booster / PN / mesotherapy,Skin On You,rrs ha skin relax bonta 568,https://skinonyou.com/shop/rrs-ha-skin-relax-bonta-568/,rule
+BST:RRS-HA-RELAX-3ML,Skin booster / PN / mesotherapy,Skin On You,rrs ha skin relax bonta 568,https://skinonyou.com/shop/rrs-ha-skin-relax-bonta-568/,rule
 BST:RRS-SILISORG-5ML-X12,Skin booster / PN / mesotherapy,Skin On You,RRS® Silisorg (12x5ml),https://skinonyou.com/shop/rrs-silisorg/,high
 BST:RRS-HA-TENSOR-5ML-X6,Skin booster / PN / mesotherapy,Skin On You,RRS® HA Tensor Lift (6x5ml),https://skinonyou.com/shop/rrs-ha-tensor-lift/,high
 BST:ARES-ANTI-AGE-4ML-X4,Skin booster / PN / mesotherapy,Skin On You,ARES® Anti-Age 4 x 4 ml,https://skinonyou.com/shop/ares-aa-anti-age-4-x-4ml-mesotherapy/,high
@@ -2871,7 +2871,7 @@ BST:JALUPRO-AMINO-ACID-3ML-X2,Skin booster / PN / mesotherapy,LPG Clinics Wholes
 BST:FILLMED-NCTF-135-HA-3ML-X5,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Fillmed NCTF 135 HA Pro Pack 5 X 3ML Plus Injecting Kit,https://www.lpgclinicswholesale.com/product/fillmed-nctf-135-ha-pro-pack-5-x-3ml-plus-injecting-kit/,high
 BST:TOSKANI-HA-1ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Toskani HA-3- x 1ML,https://www.lpgclinicswholesale.com/product/toskani-ha-3-x-1ml/,high
 BST:JALUPRO-SUPER-HYDRO-2.5ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Jalupro Super Hydro 3.2%,https://www.lpgclinicswholesale.com/product/jalupro-super-hydro-3-2/,high
-BST:PROFHILO-BODY,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Profhilo Body Kit (1 Kit),https://www.lpgclinicswholesale.com/product/profhilo-body-kit-1-kit/,rule
+BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Profhilo Body Kit (1 Kit),https://www.lpgclinicswholesale.com/product/profhilo-body-kit-1-kit/,rule
 BST:MAGICALIFT-13MM-100-27G-X100,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Magicalift Mesotherapy Needle 27G 13mm x 100,https://www.lpgclinicswholesale.com/product/magicalift-mesotherapy-needle-27g-13mm-x-100/,high
 BST:MAGICALIFT-13MM-X100-30G-X100,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Magicalift Mesotherapy Needle 30G 13MM x100,https://www.lpgclinicswholesale.com/product/magicalift-mesotherapy-needle-30g-13mm-x100/,high
 BST:MAGICALIFT-13MM-X100-32G-X100,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Magicalift Mesotherapy Needle 32G 13MM x100,https://www.lpgclinicswholesale.com/product/magicalift-mesotherapy-needle-32g-13mm-x100/,high
@@ -2961,7 +2961,7 @@ BST:EXOBLANC-COS-EXO-4ML-X6,Skin booster / PN / mesotherapy,LPG Clinics Wholesal
 BST:EXOBLANC-COS-EXO-4ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Exoblanc COS EXO (1 x 4ml),https://www.lpgclinicswholesale.com/product/exoblanc-cos-exo-1-x-4ml/,high
 BST:EXOBLANC-COS-BR-3ML-X6,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Exoblanc COS BR (6 x 3ml),https://www.lpgclinicswholesale.com/product/exoblanc-cos-br-6-x-4ml/,high
 BST:EXOBLANC-COS-BR-4ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Exoblanc COS BR (Single 1 x 4ml),https://www.lpgclinicswholesale.com/product/exoblanc-cos-br-1-x-4ml/,high
-BST:DERMAQUAL-TRANEXPLUS,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,dermaqual tranexplus,https://www.lpgclinicswholesale.com/product/dermaqual-tranexplus/,rule
+BST:DERMAQUAL-TRANEXPLUS-5ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,dermaqual tranexplus,https://www.lpgclinicswholesale.com/product/dermaqual-tranexplus/,rule
 BST:DERMAQUAL-DQ-EXOCELL-10ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Dermaqual DQ Exocell +PDRN,https://www.lpgclinicswholesale.com/product/dermaqual-dq-exocell-pdrn/,high
 BST:KARISMA-RH-COLLAGEN-1ML-X2,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Karisma Rh Collagen (2 x 1ml),https://www.lpgclinicswholesale.com/product/karisma-rh-collagen-2-x-1ml/,high
 BST:REVERSHA-LIFEPOWER-EXOSOMES-5ML-X5,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,ReversHA LifePOWER Exosomes (5 x 5 ml),https://www.lpgclinicswholesale.com/product/reversha-life-power-exosomes-5-x-5-ml/,high
@@ -2979,7 +2979,7 @@ BST:AETERDERM-PURI-PDRN,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Ae
 BST:SUNEKOS-CELL-15-4.5ML-X10,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Sunekos Cell 15 (4.5ml x 10.5ml),https://www.lpgclinicswholesale.com/product/sunekos-cell-15/,high
 BST:AURORA-RH-COLLAGEN-2.5ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Aurora RH Collagen (1 x 2.5ml),https://www.lpgclinicswholesale.com/product/aurora-rh-collagen-1-x-2-5ml/,rule
 BST:PLURYAL-MESOLINE-SILK-2ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Pluryal Silk 2ml,https://www.lpgclinicswholesale.com/product/pluryal-silk/,high
-BST:VITARAN-EYES,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,VITARAN eyes,https://www.lpgclinicswholesale.com/product/vitaran-eyes/,rule
+BST:VITARAN-EYES-1ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,VITARAN eyes,https://www.lpgclinicswholesale.com/product/vitaran-eyes/,rule
 BST:DERMAREN-LUMI-NAJU-2.5ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Dermaren Lumi Naju,https://www.lpgclinicswholesale.com/product/lumi-naju/,rule
 BST:DERMAREN-LUMI-FACE,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Dermaren Lumi Face,https://www.lpgclinicswholesale.com/product/lumi-face/,rule
 BST:LUMI-PN-EYES-1.5ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,LUMI-PN EYES 1×1.5ml,https://www.lpgclinicswholesale.com/product/lumi-pn-eyes/,high
@@ -2999,7 +2999,7 @@ BST:AMEELA-2.5ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Ameela Re
 BST:AMEELA-EYES-2.5ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Ameela Eyes,https://www.lpgclinicswholesale.com/product/ameela-eyes/,rule
 BST:AURORA-PN,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,AURORA PN Booster,https://www.lpgclinicswholesale.com/product/aurora-pn-booster/,partial
 BST:AURORA-PN-PRO,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,AURORA PN Pro,https://www.lpgclinicswholesale.com/product/aurora-pn-pro/,partial
-BST:KIARA-ERA,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Kiara Era CE,https://www.lpgclinicswholesale.com/product/kiara-era-ce/,rule
+BST:KIARA-ERA-7ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Kiara Era CE,https://www.lpgclinicswholesale.com/product/kiara-era-ce/,rule
 BST:KIARA-REJU,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Kiara Reju,https://www.lpgclinicswholesale.com/product/kiara-reju/,rule
 BST:EXOBLANC-PDRN-EXOSOME-100ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,Exoblanc PDRN & Exosome Mist 100ml,https://www.lpgclinicswholesale.com/product/exoblanc-pdrn-exosome-mist-100ml/,high
 BST:RRS-HA-LONG-3ML,Skin booster / PN / mesotherapy,LPG Clinics Wholesale,RRS HA Long Lasting 3ml,https://www.lpgclinicswholesale.com/product/rrs-ha-long-lasting-3ml/,high
@@ -3073,7 +3073,7 @@ BST:AMI-EYES-2ML,Skin booster / PN / mesotherapy,Two Face Aesthetics,AMI eyes 2m
 BST:EJAL-40-BIO-REVITALISING-2ML,Skin booster / PN / mesotherapy,Two Face Aesthetics,Ejal 40 Bio-Revitalising Gel - 1x2ml,https://www.twofaceaesthetics.com/products/ejal-40-bio-revitalising-gel-1x2ml,high
 BST:FILLMED-NCTF-135-HA-3ML-X5,Skin booster / PN / mesotherapy,Two Face Aesthetics,Fillmed NCTF 135 HA - 5 x 3ml,https://www.twofaceaesthetics.com/products/fillmed-nctf-135-5x3ml,high
 BST:JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,Two Face Aesthetics,Jalupro Classic,https://www.twofaceaesthetics.com/products/jalupro-classic,rule
-BST:JALUPRO-HMW-1.5ML,Skin booster / PN / mesotherapy,Two Face Aesthetics,Jalupro HMW,https://www.twofaceaesthetics.com/products/jalupro-hmw,rule
+BST:JALUPRO-HMW,Skin booster / PN / mesotherapy,Two Face Aesthetics,Jalupro HMW,https://www.twofaceaesthetics.com/products/jalupro-hmw,rule
 BST:JALUPRO-SUPER-HYDRO-2.5ML,Skin booster / PN / mesotherapy,Two Face Aesthetics,Jalupro Super Hydro - 1 x 2.5ml,https://www.twofaceaesthetics.com/products/jalupro-super-hydro,high
 BST:LUMI-EYES-1ML,Skin booster / PN / mesotherapy,Two Face Aesthetics,Lumi Eyes,https://www.twofaceaesthetics.com/products/lumi-eyes-1-x-1ml,rule
 BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,Two Face Aesthetics,Profhilo Body - 3ml syringe,https://www.twofaceaesthetics.com/products/profhilo-body-3ml-syringe,high
@@ -3130,7 +3130,7 @@ BST:PLENHYAGE-XL-MEDIUM-2ML,Skin booster / PN / mesotherapy,Two Face Aesthetics,
 BST:LUMI-PN-FACE-2.5ML,Skin booster / PN / mesotherapy,Two Face Aesthetics,LUMI-PN FACE (1 x 2.5ml),https://www.twofaceaesthetics.com/products/lumi-pn-face-1-x-2-5ml,high
 BST:LUMI-PN-EYES-1.5ML,Skin booster / PN / mesotherapy,Two Face Aesthetics,LUMI-PN EYES 1×1.5ml,https://www.twofaceaesthetics.com/products/lumi-pn-eyes-1-1-5ml,high
 BST:LUMI-MESO-BRIGHT-MICRONEEDLING-5ML-X5,Skin booster / PN / mesotherapy,Two Face Aesthetics,LUMI-MESO BRIGHT Microneedling Serum - 5 x 5ml vials,https://www.twofaceaesthetics.com/products/lumi-meso-bright-microneedling-serum-5-x-5ml-vials,high
-BST:LUMI-MESO-BRIGHT-MICRONEEDLING,Skin booster / PN / mesotherapy,Two Face Aesthetics,LUMI-MESO BRIGHT Microneedling Serum (1 vial only ),https://www.twofaceaesthetics.com/products/copy-lumi-meso-bright-microneedling-serum-5-x-5ml-vials,rule
+BST:LUMI-MESO-BRIGHT-MICRONEEDLING-5ML,Skin booster / PN / mesotherapy,Two Face Aesthetics,LUMI-MESO BRIGHT Microneedling Serum (1 vial only ),https://www.twofaceaesthetics.com/products/copy-lumi-meso-bright-microneedling-serum-5-x-5ml-vials,rule
 BST:LUMI-MESO-TOX-MICRONEEDLING-5ML-X5,Skin booster / PN / mesotherapy,Two Face Aesthetics,LUMI-MESO TOX Microneedling Serum - 5 x 5ml vials,https://www.twofaceaesthetics.com/products/lumi-meso-tox-microneedling-serum-5-x-5ml-vials,high
 BST:LUMI-MESO-TOX-MICRONEEDLING-5ML,Skin booster / PN / mesotherapy,Two Face Aesthetics,LUMI-MESO TOX Microneedling Serum (1 x 5ml vial only),https://www.twofaceaesthetics.com/products/copy-lumi-meso-tox-microneedling-serum-5-x-5ml-vials,high
 BST:LUMI-MESO-ELITE-MICRONEEDLING-5ML-X5,Skin booster / PN / mesotherapy,Two Face Aesthetics,LUMI-MESO ELITE Microneedling Serum - 5 x 5ml vials,https://www.twofaceaesthetics.com/products/lumi-meso-elite-microneedling-serum-5-x-5ml-vials,high
@@ -3201,7 +3201,7 @@ BST:CYTOCARE-640-LINE-4ML-X5,Skin booster / PN / mesotherapy,Wimpole Fillers,Cyt
 BST:CYTOCARE-715-LINE-5ML-X5,Skin booster / PN / mesotherapy,Wimpole Fillers,Cytocare 715 C Line (5 x 5ml) Vial,https://wimpolefillers.co.uk/product/cytocare-715-c-line-5-x-5ml/,high
 BST:PROFHILO-HAENKENIUM-50ML,Skin booster / PN / mesotherapy,Wimpole Fillers,Profhilo Haenkenium (1 x 50ml),https://wimpolefillers.co.uk/product/profhilo-haenkenium-1-x-50ml/,high
 BST:JALUPRO-ENHANCER-GEL-6ML,Skin booster / PN / mesotherapy,Wimpole Fillers,Jalupro Enhancer Gel for Eyelashes and Eyebrows (1 x 6ml),https://wimpolefillers.co.uk/product/jalupro-enhancer-gel-for-eyelashes-and-eyebrows-1-x-9ml/,high
-BST:PROFHILO-BODY,Skin booster / PN / mesotherapy,Wimpole Fillers,Profhilo Body Kit inj.,https://wimpolefillers.co.uk/product/profhilo-body-kit/,rule
+BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,Wimpole Fillers,Profhilo Body Kit inj.,https://wimpolefillers.co.uk/product/profhilo-body-kit/,rule
 BST:NUCLEOFILL-SOFT-PLUS-2ML,Skin booster / PN / mesotherapy,Wimpole Fillers,Nucleofill Soft plus (1 X 2ML) Inj.,https://wimpolefillers.co.uk/product/nucleofill-soft-plus-1-x-2ml-inj/,high
 BST:SUNEKOS-BODY-10ML,Skin booster / PN / mesotherapy,Wimpole Fillers,Sunekos Body Vial,https://wimpolefillers.co.uk/product/sunekos-body-vial/,rule
 BST:NEOFOUND-SERUM-30ML,Skin booster / PN / mesotherapy,Wimpole Fillers,Neofound Serum (1 X 30ML),https://wimpolefillers.co.uk/product/neofound-serum-1-x-30ml/,rule
@@ -3268,7 +3268,7 @@ BST:JUVE-EYES-PN-2ML,Skin booster / PN / mesotherapy,IGO Aesthetics,Juve Eyes PN
 BST:HYALACE-32MG,Skin booster / PN / mesotherapy,IGO Aesthetics,Hyalace Skin Booster,https://igoaesthetics.com/products/hyalace-skin-booster,high
 BST:JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,IGO Aesthetics,Jalupro Classic,https://igoaesthetics.com/products/jalupro-classic,rule
 BST:JALUPRO-YOUNG-EYE-1ML,Skin booster / PN / mesotherapy,IGO Aesthetics,Jalupro Young Eye,https://igoaesthetics.com/products/jalupro-young-eye,rule
-BST:JALUPRO-HMW-1.5ML,Skin booster / PN / mesotherapy,IGO Aesthetics,Jalupro HMW,https://igoaesthetics.com/products/jalupro-hmw,rule
+BST:JALUPRO-HMW,Skin booster / PN / mesotherapy,IGO Aesthetics,Jalupro HMW,https://igoaesthetics.com/products/jalupro-hmw,rule
 BST:JALUPRO-SUPER-HYDRO,Skin booster / PN / mesotherapy,IGO Aesthetics,Jalupro Super Hydro,https://igoaesthetics.com/products/jalupro-super-hydro,rule
 BST:LUMI-MESO-BRIGHT-MICRONEEDLING-5ML-X5,Skin booster / PN / mesotherapy,IGO Aesthetics,LUMI-MESO Bright Microneedling Serum 5 x 5ml,https://igoaesthetics.com/products/lumi-meso-bright-microneedling-serum-5-x-5ml,high
 BST:LUMI-ELITE-5ML-X5,Skin booster / PN / mesotherapy,IGO Aesthetics,LUMI MESO ELITE LUMI-ELITE 5 x 5ml,https://igoaesthetics.com/products/lumi-meso-elite-lumi-elite-5-x-5ml,rule
@@ -3290,12 +3290,12 @@ BST:LUMI-PN-EYES-POLYNUCLEOTIDE-1.5ML,Skin booster / PN / mesotherapy,IGO Aesthe
 BST:LUMI-PN-DUO-SOPHIA,Skin booster / PN / mesotherapy,IGO Aesthetics,LUMI-PN Duo x Sophia Bailey | 1 x LUMI-PN Face + 1 x LUMI-PN Eyes,https://igoaesthetics.com/products/lumi-pn-duo-x-sophia-bailey-1-x-lumi-pn-face-1-x-lumi-pn-eyes,rule
 BST:PLINEST-NEWEST-2ML,Skin booster / PN / mesotherapy,IGO Aesthetics,Plinest Newest – Skin Booster – 1x2ml,https://igoaesthetics.com/products/plinest-newest-skin-booster-1x2ml,high
 BST:PROFHILO-2ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Profhilo H + L 1 x 2ml,https://kissaestheticswholesale.com/product/profhilo-h-l-1-x-2ml/,high
-BST:JALUPRO-HMW-1.5ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Jalupro HMW,https://kissaestheticswholesale.com/product/jalupro-hmw/,rule
+BST:JALUPRO-HMW,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Jalupro HMW,https://kissaestheticswholesale.com/product/jalupro-hmw/,rule
 BST:JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Jalupro Classic,https://kissaestheticswholesale.com/product/jalupro-classic-amino-acid-2-vials-x-30mg-2-vials-x-100mg/,rule
 BST:LUMI-EYES-1ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Lumi Eyes 1 x 1ml,https://kissaestheticswholesale.com/product/lumi-eyes-1-x-1ml/,high
 BST:JALUPRO-SUPER-HYDRO,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Jalupro Super Hydro,https://kissaestheticswholesale.com/product/jalupro-super-hydro/,rule
 BST:EJAL-40-2ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Ejal 40,https://kissaestheticswholesale.com/product/ejal-40/,rule
-BST:REVS-PRO-32,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Revs Pro 32,https://kissaestheticswholesale.com/product/revs-pro-32/,rule
+BST:REVS-PRO-32-2ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Revs Pro 32,https://kissaestheticswholesale.com/product/revs-pro-32/,rule
 BST:NUCLEOFILL-STRONG-1.5ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Nucleofill Strong 1 x 1.5ml,https://kissaestheticswholesale.com/product/nucleofill-strong-1-x-1-5ml/,high
 BST:NUCLEOFILL-MEDIUM-1.5ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Nucleofill Medium 1 x 1.5ml,https://kissaestheticswholesale.com/product/nucleofill-medium-1-x-1-5ml/,high
 BST:NUCLEOFILL-SOFT-PLUS-2ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Nucleofill Soft Plus 1 x 2ml,https://kissaestheticswholesale.com/product/nucleofill-soft-plus-1-x-2ml/,high
@@ -3329,7 +3329,7 @@ BST:INFINI-BTX-5X-10ML-X5,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholes
 BST:HYARON-2.5ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Hyaron *SINGLE PACK*,https://kissaestheticswholesale.com/product/hyaron-single-pack/,rule
 BST:VITARAN-EYES-1ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Vitaran Eyes - UK Box - (1 x 1ml),https://kissaestheticswholesale.com/product/uk-box-vitaran-eyes-1-x-1ml/,high
 BST:PLENHYAGE-XL-THIN-2ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Plenhyage XL Thin 2ml,https://kissaestheticswholesale.com/product/plenhyage-xl-thin-2ml/,high
-BST:LUMI-EYES-PRO-DERMAREN,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Lumi Eyes PRO Dermaren,https://kissaestheticswholesale.com/product/lumi-eyes-pro-dermaren/,rule
+BST:LUMI-EYES-PRO-DERMAREN-1ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,Lumi Eyes PRO Dermaren,https://kissaestheticswholesale.com/product/lumi-eyes-pro-dermaren/,rule
 BST:LUMI-MESO-ELITE-5ML-X5,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,LUMI-MESO ELITE 5 x 5ml,https://kissaestheticswholesale.com/product/lumi-meso-elite-microneedling-serum-5-x-5ml/,high
 BST:LUMI-MESO-ELITE-5ML,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,LUMI-MESO *SINGLE VIAL* ELITE 1 x 5ml,https://kissaestheticswholesale.com/product/lumi-meso-single-pack-elite-1-x-5ml/,high
 BST:LUMI-MESO-BRIGHT-5ML-X5,Skin booster / PN / mesotherapy,Kiss Aesthetics Wholesale,LUMI-MESO BRIGHT 5x 5ml,https://kissaestheticswholesale.com/product/lumi-meso-bright-5x-5ml/,high
@@ -3347,7 +3347,7 @@ BST:PLINEST-NEWEST-EYE-2ML,Skin booster / PN / mesotherapy,Herts & Essex Supplie
 BST:LEMON-BOTTLE-SKIN-BOO-FULL-3.5ML-X6,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Lemon Bottle Skin Booster (6 x 3.5ml) UK | Full Box,https://www.hesupplies.co.uk/products/lemon-bottle-skin-booster-6-3-5ml,high
 BST:KIARA-REJU-2.2ML-X3,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Kiara Reju 3x2.2ml,https://www.hesupplies.co.uk/products/kiara-reju-3x2-2ml,high
 BST:EJAL-40-BIOREVITLAIZER,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Ejal 40 Biorevitlaizer,https://www.hesupplies.co.uk/products/ejal-40-biorevitlaizer,rule
-BST:JALUPRO-HMW-1.5ML,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Jalupro HMW,https://www.hesupplies.co.uk/products/jalupro-hmw,rule
+BST:JALUPRO-HMW,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Jalupro HMW,https://www.hesupplies.co.uk/products/jalupro-hmw,rule
 BST:JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Jalupro Classic,https://www.hesupplies.co.uk/products/jalupro-classic,rule
 BST:JALUPRO-SUPER-HYDRO-2.5ML,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Jalupro Super Hydro (1 x 2.5ml),https://www.hesupplies.co.uk/products/jalupro-super-hydro-1-x-2-5ml,high
 BST:LUMI-EYES-DERMAREN-POLYNUCLEOTIDE-1ML,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Dermaren Lumi Eyes (1 x 1ml) UK | Polynucleotide Eye Booster,https://www.hesupplies.co.uk/products/dermaren-lumi-eyes-1x1ml,high
@@ -3444,7 +3444,7 @@ BST:NUVENE-SHINE-GLOW-2ML,Skin booster / PN / mesotherapy,Herts & Essex Supplies
 BST:NUVENE-FLEX-HYDRATING-2.7ML,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Nuvene Flex (2.7ml) UK | Hydrating Skin Booster,https://www.hesupplies.co.uk/products/nuvene-flex,rule
 BST:AMI-CALX,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Ami Calx,https://www.hesupplies.co.uk/products/ami-calx,rule
 BST:AMI-PEPTOX-5ML-X5,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Ami Peptox (5ml x 5 vials),https://www.hesupplies.co.uk/products/ami-peptox-5ml-x-5-vials,high
-BST:PROFHILO-BODY-SUPPLIES,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Profhilo Body Kit (1 Kit) | Buy Online UK | Herts & Essex Supplies,https://www.hesupplies.co.uk/products/profhilo-body-kit-1-kit,rule
+BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Profhilo Body Kit (1 Kit) | Buy Online UK | Herts & Essex Supplies,https://www.hesupplies.co.uk/products/profhilo-body-kit-1-kit,rule
 BST:EXOSOME-OTHER-PURI-HEAL-6ML-X5,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Puri Heal EXO+ Exosome Skin Booster (5 x 100mg + 5 x 6ml Activator),https://www.hesupplies.co.uk/products/puri-heal-exo-exosome-skin-booster-5-x-100mg-5-x-6ml-activator,high
 BST:EXOBLANC-COS-RE-3ML,Skin booster / PN / mesotherapy,Herts & Essex Supplies,Exoblanc COS RE (GHK-Cu + PDRN Microneedling Ampoule),https://www.hesupplies.co.uk/products/exoblanc-cos-re-ghk-cu-pdrn-microneedling-ampoule,rule
 BST:VITARAN-HP-POLYNUCLEOTIDE-1ML-X2,Skin booster / PN / mesotherapy,Herts & Essex Supplies,HP Vitaran i (2 x 1ml) UK | Polynucleotide Skin Booster,https://www.hesupplies.co.uk/products/hp-vitaran-i-1-x-1ml-uk-polynucleotide-skin-booster,high
@@ -3460,8 +3460,8 @@ BST:REVS-PRO-32-2ML,Skin booster / PN / mesotherapy,Ask Pharmacy,revs pro 32 2ml
 BST:FILLMED-NCTF-135HA-3ML-X5,Skin booster / PN / mesotherapy,Ask Pharmacy,fillmed nctf 135ha ce 5 x 3ml,https://ask-pharmacy.co.uk/product/fillmed-nctf-135ha-ce-5-x-3ml/,high
 BST:AMI-EYES-2ML,Skin booster / PN / mesotherapy,Ask Pharmacy,ami eyes 1x2ml,https://ask-pharmacy.co.uk/product/ami-eyes-1x2ml/,high
 BST:PROFHILO-2ML,Skin booster / PN / mesotherapy,Ask Pharmacy,profhilo,https://ask-pharmacy.co.uk/product/profhilo/,rule
-BST:PROFHILO-BODY,Skin booster / PN / mesotherapy,Ask Pharmacy,profhilo body kit,https://ask-pharmacy.co.uk/product/profhilo-body-kit/,rule
-BST:JALUPRO-HMW-1.5ML,Skin booster / PN / mesotherapy,Ask Pharmacy,jalupro hmw,https://ask-pharmacy.co.uk/product/jalupro-hmw/,rule
+BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,Ask Pharmacy,profhilo body kit,https://ask-pharmacy.co.uk/product/profhilo-body-kit/,rule
+BST:JALUPRO-HMW,Skin booster / PN / mesotherapy,Ask Pharmacy,jalupro hmw,https://ask-pharmacy.co.uk/product/jalupro-hmw/,rule
 BST:JALUPRO-SUPER-HYDRO,Skin booster / PN / mesotherapy,Ask Pharmacy,jalupro super hydro clone,https://ask-pharmacy.co.uk/product/jalupro-super-hydro-clone/,rule
 BST:JALUPRO-AMINO-ACID-30MG-X2,Skin booster / PN / mesotherapy,Ask Pharmacy,jalupro amino acid 2 vials x 30mg 2 vials x 100mg,https://ask-pharmacy.co.uk/product/jalupro-amino-acid-2-vials-x-30mg-2-vials-x-100mg/,high
 BST:SUNEKOS-200-BOTTLES-3ML-X2,Skin booster / PN / mesotherapy,Ask Pharmacy,sunekos 200 2 x 3ml vials 2 bottles,https://ask-pharmacy.co.uk/product/sunekos-200-2-x-3ml-vials-2-bottles/,high
@@ -3487,7 +3487,7 @@ BST:PURE-EYES-1ML,Skin booster / PN / mesotherapy,Ask Pharmacy,pure eyes 2 1 x 1
 BST:DERMAQUAL-DERMAECLAT,Skin booster / PN / mesotherapy,Ask Pharmacy,dermaqual dermaeclat,https://ask-pharmacy.co.uk/product/dermaqual-dermaeclat/,rule
 BST:DERMAQUAL-ASCORBIX-20,Skin booster / PN / mesotherapy,Ask Pharmacy,dermaqual ascorbix 20 clone,https://ask-pharmacy.co.uk/product/dermaqual-ascorbix-20-clone/,rule
 BST:DERMAQUAL-REJUVEYES,Skin booster / PN / mesotherapy,Ask Pharmacy,dermaqual rejuveyes,https://ask-pharmacy.co.uk/product/dermaqual-rejuveyes/,rule
-BST:DERMAREN-LUMI-10,Skin booster / PN / mesotherapy,Ask Pharmacy,dermaren lumi 10 0,https://ask-pharmacy.co.uk/product/dermaren-lumi-10-0/,rule
+BST:DERMAREN-LUMI-10-3ML,Skin booster / PN / mesotherapy,Ask Pharmacy,dermaren lumi 10 0,https://ask-pharmacy.co.uk/product/dermaren-lumi-10-0/,rule
 BST:REVITRANE-HA-10-1ML,Skin booster / PN / mesotherapy,Ask Pharmacy,revitrane ha 10 volume 1x1ml,https://ask-pharmacy.co.uk/product/revitrane-ha-10-volume-1x1ml/,high
 BST:REVITRANE-HA-10-1ML,Skin booster / PN / mesotherapy,Ask Pharmacy,revitrane ha 10 premium 1x1ml,https://ask-pharmacy.co.uk/product/revitrane-ha-10-premium-1x1ml/,high
 BST:REVITRANE-HA-10-1ML,Skin booster / PN / mesotherapy,Ask Pharmacy,revitrane ha 10 classic 1 x 1ml,https://ask-pharmacy.co.uk/product/revitrane-ha-10-classic-1-x-1ml/,high
@@ -3557,7 +3557,7 @@ BST:STAYVE-BB-GLOW-8ML,Skin booster / PN / mesotherapy,Ask Pharmacy,stayve bb gl
 BST:STAYVE-STARTER-8ML,Skin booster / PN / mesotherapy,Ask Pharmacy,stayve booster ampoule starter kit 2,https://ask-pharmacy.co.uk/product/stayve-booster-ampoule-starter-kit-2/,rule
 BST:STAYVE-STARTER-8ML,Skin booster / PN / mesotherapy,Ask Pharmacy,stayve booster ampoule starter kit,https://ask-pharmacy.co.uk/product/stayve-booster-ampoule-starter-kit/,rule
 BST:STAYVE-SALMON-DNA-8ML,Skin booster / PN / mesotherapy,Ask Pharmacy,stayve salmon dna gold ampoule,https://ask-pharmacy.co.uk/product/stayve-salmon-dna-gold-ampoule/,rule
-BST:STAYVE-AC-STEM,Skin booster / PN / mesotherapy,Ask Pharmacy,stayve ac stem cell gold ampoule,https://ask-pharmacy.co.uk/product/stayve-ac-stem-cell-gold-ampoule/,rule
+BST:STAYVE-AC-STEM-8ML,Skin booster / PN / mesotherapy,Ask Pharmacy,stayve ac stem cell gold ampoule,https://ask-pharmacy.co.uk/product/stayve-ac-stem-cell-gold-ampoule/,rule
 BST:STAYVE-PEPTIDE-GOLD-8ML,Skin booster / PN / mesotherapy,Ask Pharmacy,stayve peptide gold ampoule,https://ask-pharmacy.co.uk/product/stayve-peptide-gold-ampoule/,rule
 BST:ASCE+-DERMA-SIGNAL-5ML,Skin booster / PN / mesotherapy,Ask Pharmacy,asce derma signal kit srlv 20mg 5ml,https://ask-pharmacy.co.uk/product/asce-derma-signal-kit-srlv-20mg-5ml/,high
 BST:ASCE+-EXOSOMES-PLUS-20MG,Skin booster / PN / mesotherapy,Ask Pharmacy,exosomes asce plus hrlv 20mg,https://ask-pharmacy.co.uk/product/exosomes-asce-plus-hrlv-20mg/,high
@@ -3597,7 +3597,7 @@ BST:VELORA-CHP-2ML,Skin booster / PN / mesotherapy,Ask Pharmacy,velora chp skin 
 BST:KIARA-ERA-7ML,Skin booster / PN / mesotherapy,Ask Pharmacy,kiara era 2 7ml,https://ask-pharmacy.co.uk/product/kiara-era-2-7ml/,high
 BST:EX-HYALU-PN-2ML,Skin booster / PN / mesotherapy,Ask Pharmacy,ex i hyalu pn tox 1x2ml,https://ask-pharmacy.co.uk/product/ex-i-hyalu-pn-tox-1x2ml/,rule
 BST:PURI-EYES-1ML,Skin booster / PN / mesotherapy,Ask Pharmacy,puri eyes 1 x 1 1ml,https://ask-pharmacy.co.uk/product/puri-eyes-1-x-1-1ml/,rule
-BST:AMEELA-EXOSOMES,Skin booster / PN / mesotherapy,Ask Pharmacy,ameela exosomes,https://ask-pharmacy.co.uk/product/ameela-exosomes/,rule
+BST:AMEELA-EXOSOMES-3ML,Skin booster / PN / mesotherapy,Ask Pharmacy,ameela exosomes,https://ask-pharmacy.co.uk/product/ameela-exosomes/,rule
 BST:AMEELA-2.5ML,Skin booster / PN / mesotherapy,Ask Pharmacy,ameela rejuvenation,https://ask-pharmacy.co.uk/product/ameela-rejuvenation/,rule
 BST:AMEELA-EYES-2.5ML,Skin booster / PN / mesotherapy,Ask Pharmacy,ameela eyes,https://ask-pharmacy.co.uk/product/ameela-eyes/,rule
 BST:AMEELA-FACE,Skin booster / PN / mesotherapy,Ask Pharmacy,ameela face,https://ask-pharmacy.co.uk/product/ameela-face/,rule
@@ -3631,8 +3631,8 @@ BST:POLYPHIL-EYE-2ML,Skin booster / PN / mesotherapy,Healthxchange,Polyphil Eye 
 BST:POLYPHIL-HAIR-2ML,Skin booster / PN / mesotherapy,Healthxchange,Polyphil Hair 1 x 2ml,https://www.healthxchange.com/products/polyphil-hair-1x2ml-15-mg-2-ml,high
 BST:POLYPHIL-NEXT-2ML,Skin booster / PN / mesotherapy,Healthxchange,Polyphil Next 1 x 2ml,https://www.healthxchange.com/products/polyphil-next-1x2ml-20-mg-2ml-pn-20-mg-2ml-ha,high
 BST:PROFHILO-2ML,Skin booster / PN / mesotherapy,Healthxchange,Profhilo 1 x2 ml,https://www.healthxchange.com/products/profhilo-1-x2-ml-1,high
-BST:PROFHILO-BODY,Skin booster / PN / mesotherapy,Healthxchange,ProfHilo Body KIT,https://www.healthxchange.com/products/profhilo-body-kit-1,rule
-BST:PROFHILO-STRUCTURA,Skin booster / PN / mesotherapy,Healthxchange,Profhilo Structura + Profhilo Structura Needle Kit,https://www.healthxchange.com/products/profhilo-structura-profhilo-structura-needle-kit,rule
+BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,Healthxchange,ProfHilo Body KIT,https://www.healthxchange.com/products/profhilo-body-kit-1,rule
+BST:PROFHILO-STRUCTURA-2ML,Skin booster / PN / mesotherapy,Healthxchange,Profhilo Structura + Profhilo Structura Needle Kit,https://www.healthxchange.com/products/profhilo-structura-profhilo-structura-needle-kit,rule
 BST:REVITALIS-1ML,Skin booster / PN / mesotherapy,Healthxchange,Revitalis 1 x 1ml,https://www.healthxchange.com/products/revitalis-1-x-1ml,rule
 BST:VISCODERM-COVER-UP-20ML,Skin booster / PN / mesotherapy,Healthxchange,Viscoderm Cover Up- Dark 20ml,https://www.healthxchange.com/products/viscoderm-cover-up-dark-20ml,high
 BST:VISCODERM-COVER-UP-20ML,Skin booster / PN / mesotherapy,Healthxchange,Viscoderm Cover Up- Light 20ml,https://www.healthxchange.com/products/viscoderm-cover-up-light-20ml,high
@@ -3724,8 +3724,8 @@ BST:SUNEKOS-PERFORMA-3.5ML,Skin booster / PN / mesotherapy,MedFX,Sunekos Perform
 BST:SUNEKOS-BODY-10ML,Skin booster / PN / mesotherapy,MedFX,Sunekos Body,https://www.medfx.co.uk/facial-aesthetics/fillers/600239--sunekos-body/,rule
 BST:SUNEKOS-1200-1.5ML,Skin booster / PN / mesotherapy,MedFX,Sunekos 1200,https://www.medfx.co.uk/facial-aesthetics/fillers/600241--sunekos-1200/,rule
 BST:PLINEST-NEWEST-2ML,Skin booster / PN / mesotherapy,MedFX,Plinest,https://www.medfx.co.uk/facial-aesthetics/fillers/600400--plinest/,rule
-BST:PLINEST-NEWEST-EYE,Skin booster / PN / mesotherapy,MedFX,Plinest Eye,https://www.medfx.co.uk/facial-aesthetics/fillers/600401--plinest-eye/,rule
-BST:PLINEST-NEWEST-HAIR,Skin booster / PN / mesotherapy,MedFX,Plinest Hair,https://www.medfx.co.uk/facial-aesthetics/fillers/600402--plinest-hair/,rule
+BST:PLINEST-NEWEST-EYE-2ML,Skin booster / PN / mesotherapy,MedFX,Plinest Eye,https://www.medfx.co.uk/facial-aesthetics/fillers/600401--plinest-eye/,rule
+BST:PLINEST-NEWEST-HAIR-2ML,Skin booster / PN / mesotherapy,MedFX,Plinest Hair,https://www.medfx.co.uk/facial-aesthetics/fillers/600402--plinest-hair/,rule
 BST:PLINEST-NEWEST-2ML,Skin booster / PN / mesotherapy,MedFX,Newest,https://www.medfx.co.uk/facial-aesthetics/fillers/600403--newest/,rule
 BST:SEVENTY-HYAL-2000-2ML-X3,Skin booster / PN / mesotherapy,MedFX,Seventy Hyal 2000 3 x 2ml,https://www.medfx.co.uk/facial-aesthetics/fillers/600423--seventy-hyal-2000-3-x-2ml/,high
 BST:SEVENTY-HYAL-2000-2ML,Skin booster / PN / mesotherapy,MedFX,Seventy Hyal 2000 1 x 2ml,https://www.medfx.co.uk/facial-aesthetics/fillers/600424--seventy-hyal-2000-1-x-2ml/,high
@@ -3733,8 +3733,8 @@ BST:VITARAN-1ML,Skin booster / PN / mesotherapy,MedFX,VITARAN I,https://www.medf
 BST:VITARAN-II-2ML,Skin booster / PN / mesotherapy,MedFX,VITARAN II,https://www.medfx.co.uk/facial-aesthetics/fillers/600426--vitaran-ii/,rule
 BST:VITARAN-EYES-1ML,Skin booster / PN / mesotherapy,MedFX,VITARAN Eyes 1 x 1ml,https://www.medfx.co.uk/facial-aesthetics/fillers/600427--vitaran-eyes-1-x-1ml/,high
 BST:PROFHILO-2ML,Skin booster / PN / mesotherapy,MedFX,Profhilo,https://www.medfx.co.uk/facial-aesthetics/fillers/670474--profhilo/,rule
-BST:PROFHILO-BODY,Skin booster / PN / mesotherapy,MedFX,PROFHILO BODY Kit,https://www.medfx.co.uk/facial-aesthetics/fillers/670480--profhilo-body/,rule
-BST:PROFHILO-STRUCTURA,Skin booster / PN / mesotherapy,MedFX,Profhilo Structura,https://www.medfx.co.uk/facial-aesthetics/fillers/670482--profhilo-structura/,rule
+BST:PROFHILO-BODY-3ML,Skin booster / PN / mesotherapy,MedFX,PROFHILO BODY Kit,https://www.medfx.co.uk/facial-aesthetics/fillers/670480--profhilo-body/,rule
+BST:PROFHILO-STRUCTURA-2ML,Skin booster / PN / mesotherapy,MedFX,Profhilo Structura,https://www.medfx.co.uk/facial-aesthetics/fillers/670482--profhilo-structura/,rule
 BST:PROFHILO-2ML-HG,Skin booster / PN / mesotherapy,MedFX,Profhilo - UK & ROI Pack - Hologram Box,https://www.medfx.co.uk/facial-aesthetics/fillers/670483--profhilo--uk-pack--hologram-box/,rule
 BST:AUTENTICA-2ML,Skin booster / PN / mesotherapy,MedFX,AUTENTICA Skin Booster 1 x 2ml,https://www.medfx.co.uk/facial-aesthetics/fillers/670490--autentica-skin-booster-1-x-2ml/,rule
 BST:LUMINESCENS,Skin booster / PN / mesotherapy,MedFX,Luminescens Kit,https://www.medfx.co.uk/facial-aesthetics/mesotherapy/600305--luminescens-kit/,partial
