@@ -297,7 +297,6 @@ CONSUM-POTENZA-NEP,Consumable (other),NEP,,Potenza,1,1
 CONSUM-POTENZA-NEUTRAL-ELECTRODE-PAD-CABLE,Consumable (other),Neutral Electrode Pad Cable,,Potenza,1,1
 CONSUM-PPE-BUNDLE,Consumable (other),Bundle,,PPE,1,1
 CONSUM-PRACTITIONER-STARTER-KIT,Consumable (other),Starter Kit,,Practitioner,1,1
-CONSUM-PREGNANCY-TEST-BETA-HCG-HOME,Consumable (other),Test Beta hCG Home,,Pregnancy,1,1
 CONSUM-PREPT-GO-100ML,Consumable (other),Go,100ml,Prept,1,1
 CONSUM-PREPT-PRO-500ML,Consumable (other),Pro,500ml,Prept,1,1
 CONSUM-PUREHOLD-LEVER-ANTIBACTERIAL-DOOR-HANDL,Consumable (other),lever antibacterial door handle,,purehold,1,2
@@ -406,8 +405,6 @@ DRAPEC-COMPLETE-DRAPE-KIT,Drape / cover / barrier film,Drape Kit,,Complete,1,1
 DRAPEC-COUCH-ROLL,Drape / cover / barrier film,Roll,,Couch,1,1
 DRAPEC-COUCH-ROLL-BLUE-40M-40M,Drape / cover / barrier film,Roll Blue 40m,40m,Couch,1,2
 DRAPEC-COUCH-ROLL-WHITE-20-40M-40M,Drape / cover / barrier film,Roll White 20 40m,40m,Couch,1,1
-DRAPEC-DISPOSA-SHIELD-NO,Drape / cover / barrier film,No,,Disposa-Shield,1,1
-DRAPEC-DISPOSA-SHIELD-NO-TUBING-TURBINES-CAVITRON-45CM,Drape / cover / barrier film,No tubing turbines cavitron,45cm,Disposa-Shield,1,1
 DRAPEC-DISPOSABLE-IMPLANTOLOGY-KITS-DENTSET-DENT,Drape / cover / barrier film,Implantology Kits Dentset Dental,,Disposable,1,1
 DRAPEC-DISPOSABLE-SURGERY-DRAPES-ADHESIVE-BLUE-75CM,Drape / cover / barrier film,Surgery Drapes adhesive Blue,75cm,Disposable,1,1
 DRAPEC-DISPOSABLE-SURGERY-DRAPES-ADHESIVE-BLUE-90CM,Drape / cover / barrier film,Surgery Drapes adhesive Blue,90cm,Disposable,1,1
@@ -564,7 +561,6 @@ GAUZES-COTTON-WOOL-ROLL-500G,Gauze / swab / cotton,Wool Roll,500g,Cotton,1,1
 GAUZES-COTTON-WOOL-ROUND-COSMETIC-PADS,Gauze / swab / cotton,wool round cosmetic pads,,cotton,1,1
 GAUZES-COVID19-PCR-SWAB-TEST-KIT,Gauze / swab / cotton,pcr swab test kit,,covid19,1,1
 GAUZES-FABRIC-GAUZE-SWABS,Gauze / swab / cotton,Gauze Swabs,,Fabric,1,1
-GAUZES-FEMALE-SEXUAL-HEALTH-ADVANCED-SCREEN,Gauze / swab / cotton,Sexual Health Advanced Screen,,Female,1,1
 GAUZES-FOAM-SWABSTICKS,Gauze / swab / cotton,swabsticks,,foam,1,1
 GAUZES-GAUZE-10CM,Gauze / swab / cotton,,10cm,gauze,1,1
 GAUZES-GAUZE-PAD-SWAB-5CMX-5CM,Gauze / swab / cotton,pad swab 5cmx,5cm,gauze,1,1

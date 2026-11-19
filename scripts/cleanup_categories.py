@@ -20,10 +20,21 @@ REMOVED = "Removed - general pharmacy"
 recats = {}   # id -> (category, note)
 scopes = {}   # id -> (scope, group, note)
 
-# ---- device catalogue re-file rows ----
-dev = [m for m in csv.DictReader(open(ROOT / "catalogue/final/device_listing_map.csv")) if m["confidence"] == "re-file"]
+# Idempotent: classify directly from the master CSV by pattern, independent of catalogue outputs.
+master = list(csv.DictReader(open(ROOT / "output/all_products_categorised.csv", encoding="utf-8")))
+def title_of(r): return (r["title"] if not r["title"].isdigit() else (r.get("page_title") or r["title"]))
+
+# ---- items sitting in Devices & equipment that are not aesthetic devices ----
+DEVICE_MISFILED = re.compile(
+    r"\bmirena\b|kyleena|jaydess|nexplanon|copper\s*t|nova\s*t\b|novaplus|\bt\s*380\b|"
+    r"aerochamber|volumatic|easychamber|\bspacer\b|nebuliser|nebulizer|dentalpro aerosol|"
+    r"x-?ray|step wedge|film edge|disposa-?shield|"
+    r"air purifier|airbubbl|airhavn|"
+    r"home blood test|testing kit|ketostix|uristix|reagent strip|\bprofile\b.*test|blood pressure monitor|pill ?cutter|"
+    r"\bepipen\b|epi pen|\bpraluent\b|\bxolair\b|\bgenotropin\b|lignospan", re.I)
+dev = [r for r in master if DEVICE_MISFILED.search(title_of(r))]
 for m in dev:
-    t = m["title"].lower()
+    t = title_of(m).lower()
     if re.search(r"\bepipen\b|epi pen", t):
         recats[m["id"]] = (MED_INJ, "re-filed from Devices: adrenaline auto-injector (emergency medicine)")
     elif re.search(r"lignospan", t):
@@ -36,8 +47,8 @@ for m in dev:
     elif re.search(r"aerochamber|volumatic|easychamber|spacer|nebuliser|nebulizer|aerosol", t):
         scopes[m["id"]] = (REMOVED, "general pharmacy - respiratory", "respiratory device, not a clinic aesthetic product")
     elif re.search(r"x-?ray|step wedge|film edge|disposa-?shield", t):
-        scopes[m["id"]] = (REMOVED, "dental x-ray imaging", "imaging consumable, out of current scope")
-    elif re.search(r"purifier|airbubbl|airhavn", t):
+        scopes[m["id"]] = ("Phase 2 - later", "dental clinic imaging", "dental x-ray consumable - keep for dental clinic phase")
+    elif re.search(r"air purifier|airbubbl|airhavn", t):
         scopes[m["id"]] = (REMOVED, "facility equipment", "air purifier, not a clinical product")
     elif re.search(r"home blood test|testing kit|ketostix|uristix|reagent strip|profile|blood pressure monitor|pillcutter|pill cutter", t):
         scopes[m["id"]] = (REMOVED, "general pharmacy - diagnostics", "home test / diagnostic, out of current scope")
@@ -48,9 +59,11 @@ for m in dev:
 POM = re.compile(r"\bemla\b|\bfucidin\b|\bdaktacort\b|hydrocortisone|\bbetnovate\b|\bdifferin\b|\brozex\b|\bskinoren\b|"
                  r"\befudix\b|aciclovir|\bzovirax\b|virasorb|\bdermovate\b|\beumovate\b|\belocon\b|\bfinacea\b", re.I)
 COSMECEUTICAL = re.compile(r"\bnoon\b|azelaicbr|azelaics\b", re.I)  # Noon Aesthetics azelaic = cosmeceutical, keep in skincare
-for m in csv.DictReader(open(ROOT / "catalogue/final/skincare_listing_map.csv")):
-    if POM.search(m["title"]) and not COSMECEUTICAL.search(m["title"]):
-        recats[m["id"]] = (MED_TOP, "re-filed from Skincare: licensed POM topical medicine")
+SKIN_CATS = {"Skincare, haircare & peels", MED_TOP}  # match current or already-re-filed rows (idempotent)
+for m in master:
+    if m.get("category_auto", m["category"]) in SKIN_CATS or m["category"] in SKIN_CATS:
+        if POM.search(title_of(m)) and not COSMECEUTICAL.search(title_of(m)) and m["id"] not in recats:
+            recats[m["id"]] = (MED_TOP, "re-filed from Skincare: licensed POM topical medicine")
 
 # ---- append to category_overrides.csv (replace any existing row for these ids) ----
 ov_path = ROOT / "data/category_overrides.csv"

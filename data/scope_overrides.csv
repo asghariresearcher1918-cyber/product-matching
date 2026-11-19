@@ -2,8 +2,12 @@ id,scope,scope_group,note
 A00054,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
 A00205,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
 A00277,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
+A00308,Removed - general pharmacy,general pharmacy - respiratory,"respiratory device, not a clinic aesthetic product"
+A00309,Removed - general pharmacy,general pharmacy - respiratory,"respiratory device, not a clinic aesthetic product"
 A00310,Removed - general pharmacy,general pharmacy - respiratory,"respiratory device, not a clinic aesthetic product"
+A00311,Removed - general pharmacy,general pharmacy - respiratory,"respiratory device, not a clinic aesthetic product"
 A00324,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
+A00356,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
 A00359,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
 A00426,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
 A00427,Removed - general pharmacy,general pharmacy,not an aesthetic/skin/dental clinic product
@@ -19,20 +23,31 @@ A00809,Removed - general pharmacy,general pharmacy,not an aesthetic/skin/dental 
 A00810,Removed - general pharmacy,general pharmacy,not an aesthetic/skin/dental clinic product
 A00811,Removed - general pharmacy,general pharmacy,not an aesthetic/skin/dental clinic product
 A00812,Removed - general pharmacy,general pharmacy,not an aesthetic/skin/dental clinic product
+A00818,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
 A00834,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
+A00992,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
+A00993,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
 A01003,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
+A01043,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
 A01045,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
 A01047,Removed - general pharmacy,general pharmacy - diagnostics,"home test / diagnostic, out of current scope"
 A01069,Removed - general pharmacy,general pharmacy,not an aesthetic/skin/dental clinic product
 A01070,Removed - general pharmacy,general pharmacy,not an aesthetic/skin/dental clinic product
 A01071,Removed - general pharmacy,general pharmacy,not an aesthetic/skin/dental clinic product
+A01072,Removed - general pharmacy,general pharmacy,not an aesthetic/skin/dental clinic product
+A01073,Removed - general pharmacy,general pharmacy,not an aesthetic/skin/dental clinic product
+A01074,Removed - general pharmacy,general pharmacy,not an aesthetic/skin/dental clinic product
 R00128,Removed - general pharmacy,facility equipment,"air purifier, not a clinical product"
 R00129,Removed - general pharmacy,general pharmacy - respiratory,"respiratory device, not a clinic aesthetic product"
 R00130,Removed - general pharmacy,facility equipment,"air purifier, not a clinical product"
-R00256,Removed - general pharmacy,dental x-ray imaging,"imaging consumable, out of current scope"
-R00372,Removed - general pharmacy,dental x-ray imaging,"imaging consumable, out of current scope"
-R00373,Removed - general pharmacy,dental x-ray imaging,"imaging consumable, out of current scope"
-R00374,Removed - general pharmacy,dental x-ray imaging,"imaging consumable, out of current scope"
+R00253,Phase 2 - later,dental clinic imaging,dental x-ray consumable - keep for dental clinic phase
+R00254,Phase 2 - later,dental clinic imaging,dental x-ray consumable - keep for dental clinic phase
+R00255,Phase 2 - later,dental clinic imaging,dental x-ray consumable - keep for dental clinic phase
+R00256,Phase 2 - later,dental clinic imaging,dental x-ray consumable - keep for dental clinic phase
+R00257,Phase 2 - later,dental clinic imaging,dental x-ray consumable - keep for dental clinic phase
+R00372,Phase 2 - later,dental clinic imaging,dental x-ray consumable - keep for dental clinic phase
+R00373,Phase 2 - later,dental clinic imaging,dental x-ray consumable - keep for dental clinic phase
+R00374,Phase 2 - later,dental clinic imaging,dental x-ray consumable - keep for dental clinic phase
 R00414,Removed - general pharmacy,general pharmacy - respiratory,"respiratory device, not a clinic aesthetic product"
 R00415,Removed - general pharmacy,general pharmacy - respiratory,"respiratory device, not a clinic aesthetic product"
 R00804,Removed - general pharmacy,general pharmacy - contraceptive,"IUD/implant, not a clinic aesthetic product"

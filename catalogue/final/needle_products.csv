@@ -334,7 +334,6 @@ MICRON-34G-4MM,Microneedling cartridge,34G,4mm,,,1,Nanoneedle,1,1
 MICRON-34G-4MM-X100,Microneedling cartridge,34G,4mm,,,100,JBP (Nanosoft),2,2
 MICRON-34G-6MM-X100,Microneedling cartridge,34G,6mm,,,100,JBP (Nanosoft),1,1
 MICRON-34G-8MM-X100,Microneedling cartridge,34G,8mm,,,100,JBP (Nanosoft),1,1
-NEEDLE-DISPOSAS,Needle holder / tool,,,,,1,Disposashield,1,1
 NEEDLE-PROTIP,Needle holder / tool,,,,,1,Protip,1,1
 NEEDLE-SHARPS,Needle holder / tool,,,,,1,Sharps,1,1
 NEEDLE-SYRINGE,Needle holder / tool,,,,,1,Syringe,1,1
@@ -349,7 +348,7 @@ SYRING-10ML-LUER-LOCK,Syringe,,,10ml,luer lock,1,BD; Unifix,2,4
 SYRING-10ML-LUER-SLIP,Syringe,,,10ml,luer slip,1,BD,1,1
 SYRING-10ML-LUER-SLIP-X100,Syringe,,,10ml,luer slip,100,BD,3,3
 SYRING-10ML-X100,Syringe,,,10ml,,100,BD; LUER,3,4
-SYRING-1ML,Syringe,,,1ml,,1,3Dose; Adrenaline; B. Braun; BD; FMS; JUVA; Neauvia; Unisharp; Xolair,7,20
+SYRING-1ML,Syringe,,,1ml,,1,3Dose; Adrenaline; B. Braun; BD; FMS; JUVA; Neauvia; Unisharp,7,19
 SYRING-1ML-LUER-LOCK,Syringe,,,1ml,luer lock,1,BD,1,1
 SYRING-1ML-LUER-LOCK-X100,Syringe,,,1ml,luer lock,100,BD; LUER; Luerlock; Unifix,4,4
 SYRING-1ML-LUER-SLIP,Syringe,,,1ml,luer slip,1,BD; Terumo,2,2
@@ -368,7 +367,7 @@ SYRING-20ML-LUER-SLIP-X50,Syringe,,,20ml,luer slip,50,Terumo,1,1
 SYRING-20ML-X120,Syringe,,,20ml,,120,BD,1,1
 SYRING-25ML-LUER-LOCK,Syringe,,,25ml,luer lock,1,Terumo,1,1
 SYRING-25ML-LUER-LOCK-X100,Syringe,,,25ml,luer lock,100,Terumo,1,2
-SYRING-2ML,Syringe,,,2ml,,1,BD; Sterile; Xolair,5,5
+SYRING-2ML,Syringe,,,2ml,,1,BD; Sterile,4,4
 SYRING-2ML-LUER-SLIP-X100,Syringe,,,2ml,luer slip,100,BD; Reduced,6,8
 SYRING-2ML-X100,Syringe,,,2ml,,100,BD,1,1
 SYRING-2ML-X2,Syringe,,,2ml,,2,Remedium,1,1
@@ -391,7 +390,6 @@ SYRING-5ML-LUER-SLIP,Syringe,,,5ml,luer slip,1,Medicina,1,1
 SYRING-5ML-LUER-SLIP-X100,Syringe,,,5ml,luer slip,100,BD; LUER,3,3
 SYRING-5ML-X100,Syringe,,,5ml,,100,5ML; LUER,2,2
 SYRING-5ML-X125,Syringe,,,5ml,,125,BD,1,1
-SYRING-ADRENALI,Syringe,,,,,1,Adrenaline,1,1
 SYRING-ALLUZIEN,Syringe,,,,,1,Alluzience,1,1
 SYRING-ALLUZIEN-X10,Syringe,,,,,10,Alluzience,1,1
 SYRING-ARTHREX-X5,Syringe,,,,,5,Arthrex,2,3
@@ -411,7 +409,7 @@ SYRING-BD-X100,Syringe,30G,8mm,,,100,BD,1,1
 SYRING-0.3ML,Syringe,32G,8mm,0.3ml,,1,FMS,4,5
 SYRING-0.3ML-X100,Syringe,32G,,0.3ml,,100,BD; FMS,9,10
 SYRING-0.3ML-X8,Syringe,32G,8mm,0.3ml,,8,FMS,1,1
-SYRING-0.5ML,Syringe,32G,8mm,0.5ml,,1,FMS; Xolair,4,6
+SYRING-0.5ML,Syringe,32G,8mm,0.5ml,,1,FMS,4,5
 SYRING-0.5ML-X100,Syringe,32G,,0.5ml,,100,FMS,8,8
 SYRING-03ML,Syringe,32G,8mm,03ml,,1,FMS,1,1
 SYRING-03ML-X10,Syringe,32G,8mm,03ml,,10,FMS,1,1

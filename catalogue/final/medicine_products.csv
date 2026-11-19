@@ -25,7 +25,7 @@ ADRENALINE-1MG-INJE,adrenaline,adrenaline,1mg,injection,injectable/emergency,Adr
 ADRENALINE-1MG1ML-INJE,adrenaline,adrenaline,1mg/1ml,injection,injectable/emergency,Adrenaline; emerade autoinjector,3,4,https://www.medicines.org.uk/emc/search?q=adrenaline
 ADRENALINE-300MG-INJE,adrenaline,adrenaline,300mg,injection,injectable/emergency,Epipen Auto Injection,1,1,https://www.medicines.org.uk/emc/search?q=adrenaline
 ADRENALINE-3MG-INJE,adrenaline,adrenaline,3mg,injection,injectable/emergency,jext adrenaline,1,1,https://www.medicines.org.uk/emc/search?q=adrenaline
-ADRENALINE-INJE,adrenaline,adrenaline,,injection,injectable/emergency,Adrenaline; EpiPen Jr; adrenaline; epipen,5,15,https://www.medicines.org.uk/emc/search?q=adrenaline
+ADRENALINE-INJE,adrenaline,adrenaline,,injection,injectable/emergency,Adrenaline; Adrenaline Jext Epipen; EpiPen Jr; adrenaline,5,16,https://www.medicines.org.uk/emc/search?q=adrenaline
 ADRENALINEINJECTIO-1000U-INJE,adrenaline injections,adrenaline injections,1000u,injection,injectable/emergency,Adrenaline Injections,1,1,https://www.medicines.org.uk/emc/search?q=adrenaline
 AERKIT-INJE,aer kit,aer kit,,injection,injectable/emergency,AER kit,1,1,https://www.medicines.org.uk/emc/search?q=aer
 ALDARACREAM-5%-CREA,aldara cream,aldara cream,5%,cream,topical/eye,Aldara Cream; aldara cream sachets,2,2,https://www.medicines.org.uk/emc/search?q=aldara
@@ -576,7 +576,7 @@ VITAMIN-25000MG-INJE,vitamin,vitamin,25000mg,injection,vitamin/IV,vitamin c,1,1,
 VITAMIN-300000IU-INJE,vitamin,vitamin,300000iu,injection,vitamin/IV,Vitamin D,2,3,https://www.medicines.org.uk/emc/search?q=vitamin
 VITAMIN-300000U-INJE,vitamin,vitamin,300000u,injection,vitamin/IV,vitamin d,1,1,https://www.medicines.org.uk/emc/search?q=vitamin
 VITAMIN-8000MG-INJE,vitamin,vitamin,8000mg,injection,vitamin/IV,vitamin c,1,1,https://www.medicines.org.uk/emc/search?q=vitamin
-VITAMIN-INJE,vitamin,vitamin,,injection,vitamin/IV,Vitamin B; Vitamin D,3,3,https://www.medicines.org.uk/emc/search?q=vitamin
+VITAMIN-INJE,vitamin,vitamin,,injection,vitamin/IV,Vitamin D,2,2,https://www.medicines.org.uk/emc/search?q=vitamin
 VITAMINERGOCALCIFE-INJE,vitamin ergocalciferol,vitamin ergocalciferol,,injection,vitamin/IV,vitamin d ergocalciferol,1,2,https://www.medicines.org.uk/emc/search?q=vitamin
 VITAMINSBC,vitamins B + C,vitamins B + C,,,vitamin/IV,Pabrinex I/M; Pabrinex I/V,1,2,https://www.medicines.org.uk/emc/search?q=vitamins
 VITAMINSBC-INJE,vitamins B + C,vitamins B + C,,injection,vitamin/IV,Pabrinex High Potency Co; Pabrinex I/M; Pabrinex I/V; Vitamins B+C Intravenous,5,11,https://www.medicines.org.uk/emc/search?q=vitamins

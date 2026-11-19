@@ -132,7 +132,6 @@ R01011,Clinic consumables & PPE,bandage
 R01012,Clinic consumables & PPE,bandage
 R01013,Clinic consumables & PPE,bandage
 R01022,Clinic consumables & PPE,bandage
-R01028,Medicine - topical / eye / other,Emla cream
 R01031,Medicine - topical / eye / other,emollient
 R01097,Medicine - oral,ferrous fumarate tablets
 R01129,Skin booster / polynucleotide / mesotherapy,Fillmed M-HA18 mesotherapy
@@ -380,7 +379,6 @@ N00014,"Needles, cannulas & syringes",insulin syringes
 N00035,"Skincare, haircare & peels",Clinisept+ skin
 N00036,"Skincare, haircare & peels",Clinisept+ skin
 N00044,Devices & equipment,Dr Levy device
-N00079,Medicine - topical / eye / other,Emla cream
 N00123,Medicine - oral,Glucogel oral
 N00320,Skin booster / polynucleotide / mesotherapy,Neauvia Hydro Deluxe booster
 N00321,Dermal filler,Neauvia Intense filler
@@ -392,7 +390,6 @@ N00326,Dermal filler,Neauvia Intense filler
 N00327,Biostimulator,Neauvia Stimulate (CaHA+HA)
 N00333,Skin booster / polynucleotide / mesotherapy,Novuma booster
 N00526,Skin booster / polynucleotide / mesotherapy,Revitalis booster
-N00532,Medicine - topical / eye / other,Skinoren gel
 N00534,Medicine - injectable / anaesthetic / emergency,Topilase hyaluronidase
 N00568,Devices & equipment,IPL system
 N00577,Clinic consumables & PPE,Vaseline
@@ -461,7 +458,6 @@ R05137,"Needles, cannulas & syringes",pen needles
 R05138,"Needles, cannulas & syringes",pen needles
 R05140,Medicine - oral,Peptac liquid
 R05150,"Training, services & marketing",online training
-R05202,Medicine - topical / eye / other,Rozex gel
 R05261,Clinic consumables & PPE,eye wash
 R05278,Clinic consumables & PPE,surgical spirit
 R05328,"Skincare, haircare & peels",Teoxane skincare kit
@@ -514,8 +510,6 @@ R07492,Vitamin & IV therapy,Hartmann's IV
 R07496,Medicine - injectable / anaesthetic / emergency,hydrocortisone injection
 R07612,Clinic consumables & PPE,antibacterial spray
 R07615,"Skincare, haircare & peels",HA serum
-R07530,Medicine - injectable / anaesthetic / emergency,Lignospan dental anaesthetic
-R07531,Medicine - injectable / anaesthetic / emergency,Lignospan dental anaesthetic
 R07687,Medicine - injectable / anaesthetic / emergency,magnesium sulphate injection
 R07634,"Skincare, haircare & peels",SPF
 R07637,"Skincare, haircare & peels",moisturiser
@@ -597,9 +591,6 @@ R05748,Medicine - oral,(title only; page not available) Co-Codamol 30/500mg tabl
 R05817,Medicine - oral,(title only; page not available) Co-Codamol 30/500mg tablets 30'
 R05773,Medicine - oral,(title only; page not available) Co-Trimoxazole 80mg/400mg (100)
 R05839,Medicine - injectable / anaesthetic / emergency,(title only; page not available) Emerade Epinephrin Pen 300mcg
-R05788,Medicine - injectable / anaesthetic / emergency,(title only; page not available) Emergency Kit 1 (Includes: 1 x epipen 300mcg; Hyal
-R05771,Medicine - injectable / anaesthetic / emergency,"(title only; page not available) Emergency Kit 2 (1 x Epipen 300mcg, 3 x Hyalu, 1 x"
-R05883,Medicine - injectable / anaesthetic / emergency,(title only; page not available) Epipen Auto Injection 300mg
 R05837,Medicine - injectable / anaesthetic / emergency,(title only; page not available) Fibrovein 0.5% Solution for Injection 5 x 2ml
 R05751,Medicine - injectable / anaesthetic / emergency,(title only; page not available) Fibrovein 1% Solution for Injection 5 x 2ml
 R05881,Medicine - injectable / anaesthetic / emergency,(title only; page not available) Hyaluronidase 1500iu 1 ampoules
@@ -619,7 +610,6 @@ R05723,Weight-loss medicine,(title only; page not available) Mounjaro® 2.5 mg K
 R05722,Weight-loss medicine,(title only; page not available) Mounjaro® 5 mg KwikPen® solution for injection in
 R05721,Weight-loss medicine,(title only; page not available) Mounjaro® 7.5 mg KwikPen® solution for injection i
 R05854,Medicine - oral,(title only; page not available) Prednisolone 5mg 28s
-R05764,Medicine - topical / eye / other,(title only; page not available) Rozex 0.75% Gel 40g
 R05819,Medicine - injectable / anaesthetic / emergency,(title only; page not available) Sodium Bicarbonate 8.4% BRAUN 1 x 250ml
 R05823,Medicine - injectable / anaesthetic / emergency,(title only; page not available) Sodium Chloride 0.9% 500ml bag
 R05769,Medicine - injectable / anaesthetic / emergency,(title only; page not available) Sodium Chloride 0.9% Ecoflac Plus 10 X 250ml (1 BO
@@ -698,8 +688,6 @@ N00838,Medicine - oral,(title only; page not available) aciclovir 28
 N00740,Medicine - oral,(title only; page not available) aciclovir 35
 N00889,Medicine - injectable / anaesthetic / emergency,(title only; page not available) adrenaline auto injector jext
 N00872,Medicine - injectable / anaesthetic / emergency,(title only; page not available) adrenaline box
-N00808,Medicine - injectable / anaesthetic / emergency,(title only; page not available) adrenaline epipen
-N00812,Medicine - injectable / anaesthetic / emergency,(title only; page not available) adrenaline epipen 300mcg dual pack
 N00685,Medicine - injectable / anaesthetic / emergency,(title only; page not available) adrenaline single
 N00636,Fat dissolving,(title only; page not available) Alidya (5x10ml)
 N00628,Medicine - oral,(title only; page not available) amoxicillin 15 250mg
@@ -801,8 +789,6 @@ N00734,"Needles, cannulas & syringes",(title only; page not available) Emerald 2
 N00702,"Needles, cannulas & syringes",(title only; page not available) Emerald 2ml Hypodermic Syringe - Single
 N00703,"Needles, cannulas & syringes",(title only; page not available) Emerald 5ml Hypodermic Syringe
 N00709,"Needles, cannulas & syringes",(title only; page not available) Emerald 5ml Hypodermic Syringe - Single
-N00919,Medicine - topical / eye / other,(title only; page not available) EMLA 5% x30g
-N00835,Medicine - topical / eye / other,(title only; page not available) EMLA 5% x5g
 N00634,Medicine - oral,(title only; page not available) erythromycin 250mg tablets
 N00746,Skin booster / polynucleotide / mesotherapy,(title only; page not available) Exovair ( Single )
 N00846,Skin booster / polynucleotide / mesotherapy,(title only; page not available) Exovair (4 sets)
@@ -996,7 +982,6 @@ R00607,Medicine - topical / eye / other,Beconase nasal spray
 R00618,Medicine - oral,Benadryl oral solution
 R00627,Medicine - oral,betahistine tablets
 R00629,Medicine - topical / eye / other,Betnesol-N eye/ear drops
-R00631,Medicine - topical / eye / other,Betnovate cream
 R00639,"Skincare, haircare & peels",Bio-Oil
 R00682,Medicine - oral,Calpol suspension
 R00695,Medicine - oral,Carbomix granules
@@ -1019,7 +1004,6 @@ R00946,Medicine - oral,Dianette tablets
 R00948,Medicine - topical / eye / other,diazepam rectal tubes
 R00949,Medicine - oral,diclofenac tablets
 R00952,Medicine - oral,diclofenac tablets
-R00956,Medicine - topical / eye / other,Differin gel
 R00958,Medicine - topical / eye / other,Difflam rinse
 R00961,Medicine - oral,Dioctyl capsules
 R00977,Medicine - topical / eye / other,bath additive emollient
@@ -1027,9 +1011,7 @@ R00986,Medicine - oral,doxycycline capsules
 R00992,Medicine - topical / eye / other,Driclor solution
 R00993,Medicine - topical / eye / other,Driclor solution
 R00998,Medicine - oral,duloxetine capsules
-R01015,Medicine - topical / eye / other,Efudix cream
 R01020,Medicine - oral,Elleste Solo tablets
-R01021,Medicine - topical / eye / other,Elocon cream
 R01032,Medicine - topical / eye / other,emollient
 R01057,Medicine - oral,erythromycin suspension
 R01059,Medicine - topical / eye / other,Estraderm patches
@@ -1048,7 +1030,6 @@ R01203,Vitamin & IV therapy,Gelofusine IV bag
 R01222,Medicine - topical / eye / other,Germolene New Skin
 R01234,Medicine - topical / eye / other,wart treatment
 R01235,Medicine - topical / eye / other,glycerin
-R01345,Medicine - topical / eye / other,hydrocortisone cream
 R01346,Clinic consumables & PPE,hydrogen peroxide solution
 R01359,Medicine - oral,ibuprofen suspension
 R01365,Medicine - injectable / anaesthetic / emergency,Inhixa (enoxaparin) injection
@@ -1130,7 +1111,6 @@ R09023,"Beauty (nails, brows, lashes, PMU, makeup)",nail chrome powder
 R09970,"Skincare, haircare & peels",skincare oil
 R09971,"Skincare, haircare & peels",skincare oil
 R09972,"Skincare, haircare & peels",skincare oil
-N00613,Medicine - topical / eye / other,Fucidin cream (title only)
 R01980,"Training, services & marketing",patient brochure (marketing)
 R07683,"Skincare, haircare & peels",PRX-T peel ('training certificate required' is a status note)
 R08313,"Skincare, haircare & peels",copper peptide microneedling serum kit (not IV)
@@ -1303,31 +1283,96 @@ R09357,"Skincare, haircare & peels","manual: Teoxane skincare/kit, not a filler 
 R09358,"Skincare, haircare & peels","manual: Teoxane skincare/kit, not a filler (2026-11-19)"
 N00759,"Skincare, haircare & peels","manual: Teoxane skincare/kit, not a filler (2026-11-19)"
 A01681,"Skincare, haircare & peels","manual: Teoxane skincare/kit, not a filler (2026-11-19)"
+A00031,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00032,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00129,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00130,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00131,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00254,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00265,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00266,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00289,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00290,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00316,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00323,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+A00413,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00414,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00416,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00417,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 A00427,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
 A00428,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
+A00449,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00450,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00451,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00452,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00456,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00457,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00458,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 A00608,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
+A00609,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
 A00808,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
 A00809,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
 A00810,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
 A00811,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
 A00812,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
+A00868,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00869,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+A00910,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 A01069,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
 A01070,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
 A01071,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
+A01072,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
+A01073,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
+A01074,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: injectable medicine
 A01507,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 A01508,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 A01865,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 A01866,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 A01867,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 A01870,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+N00041,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+N00079,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 N00108,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 N00109,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 N00121,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 N00122,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+N00532,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+N00613,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+N00808,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+N00812,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+N00835,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+N00919,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R00002,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R00003,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R00034,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
+R00630,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R00631,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R00632,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R00878,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R00936,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R00937,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R00956,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01015,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01021,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01025,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01026,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01027,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01028,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01029,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01052,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R01053,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R01067,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01144,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01182,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01183,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01345,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R01501,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
 R01502,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
+R01814,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R02250,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R02406,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R02884,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R02913,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R03014,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R03018,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R03032,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
@@ -1335,29 +1380,53 @@ R03040,Medicine - topical / eye / other,re-filed from Skincare: licensed POM top
 R03103,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R03185,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04004,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R04331,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R04332,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04333,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R04334,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R04439,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04526,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04527,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04647,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04648,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04655,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R04656,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04685,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R04701,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R04702,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R04703,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R04704,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R04713,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04714,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R04715,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R04745,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04767,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R04768,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R04816,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R04817,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R04928,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
+R04929,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
 R05201,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R05202,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R05244,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R05534,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R05535,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R05536,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R05764,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R05771,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R05788,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R05878,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R05883,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R05966,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R05972,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R05992,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R05993,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R06004,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R06074,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R06087,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R06367,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R06390,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R06391,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R06392,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R06418,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R06419,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
@@ -1365,4 +1434,12 @@ R06435,Medicine - topical / eye / other,re-filed from Skincare: licensed POM top
 R06974,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R07487,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
 R07489,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R07530,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
+R07531,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: dental local anaesthetic cartridge
+R07591,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R07729,Medicine - topical / eye / other,re-filed from Skincare: licensed POM topical medicine
+R10305,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R10322,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R10342,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R10443,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
+R10497,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
