@@ -1,0 +1,20 @@
+<title>Basis Supplies</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  :root{ --bg:#F4F6F5; --fg:#12212E; --accent:#0E7C66; color-scheme:light }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){ --bg:#0F1714; --fg:#EAF1ED; --accent:#34B294; color-scheme:dark } }
+  :root[data-theme="dark"]{ --bg:#0F1714; --fg:#EAF1ED; --accent:#34B294; color-scheme:dark }
+  html,body{height:100%}
+  body{background:var(--bg);color:var(--fg);margin:0;display:grid;place-items:center;
+    font:500 15px/1.5 Inter,-apple-system,Segoe UI,sans-serif;text-align:center}
+  .card{padding:28px;max-width:420px}
+  a{color:var(--accent);font-weight:600}
+</style>
+<div class="card">
+  <p>Opening the Basis supplies catalogue…</p>
+  <p>If it does not open automatically, <a href="basis.html">tap here to open it</a>.</p>
+</div>
+<script>
+  try { location.replace('basis.html'); }
+  catch (e) { location.href = 'basis.html'; }
+</script>
