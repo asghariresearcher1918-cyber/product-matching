@@ -1308,7 +1308,7 @@
     var matches = matchProducts(q);
     if(matches.length===0){ hideAutocomplete(); return; }
     box.innerHTML = '';
-    matches.slice(0,4).forEach(function(k){
+    matches.slice(0,10).forEach(function(k){
       var p = PRODUCTS[k];
       var btn = document.createElement('button');
       btn.innerHTML = '<div class="ac-name">'+p.name+'</div><div class="ac-pack">'+p.pack+'</div>';
