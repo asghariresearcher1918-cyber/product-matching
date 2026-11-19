@@ -17,6 +17,7 @@ def add(brand, name, cls, pack, aliases, src, default=""):
 
 # ---- Profhilo (IBSA) - hologram/UK&ROI packaging is NOT a separate product ----
 IBSA = "https://ibsaderma.com/products/profhilo/"
+add("Profhilo", "Profhilo Body Kit", HA, "2 x 3ml", ["body kit"], IBSA)   # supplier titles say "Body Kit" = 2 x 3ml
 add("Profhilo", "Profhilo Body", HA, "1 x 3ml", ["body"], IBSA)
 add("Profhilo", "Profhilo Structura", HA, "1 x 2ml", ["structura"], IBSA)
 add("Profhilo", "Profhilo Haenkenium Cream", SK, "50ml", ["haenkenium"], IBSA)

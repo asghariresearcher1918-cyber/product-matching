@@ -1,36 +1,20 @@
 code,active_class,brand,line,volume,pack,market,manufacturer,suppliers,listings
 AMINO-FORMULA-FBP-50ML,Amino-acid skin booster,Amino,formula fbp,50ml,1,,,1,1
-JALUPRO-AMINO-ACID-30MG-X2,Amino-acid skin booster,Jalupro,Amino Acid,30mg,2,,Professional Derma,3,3
-JALUPRO-AMINO-ACID-3ML,Amino-acid skin booster,Jalupro,Amino Acid,3ml,1,,Professional Derma,1,1
-JALUPRO-AMINO-ACID-3ML-X2,Amino-acid skin booster,Jalupro,Amino Acid,3ml,2,,Professional Derma,1,1
-JALUPRO-AMPULES-X2,Amino-acid skin booster,Jalupro,ampules,,2,,Professional Derma,1,2
-JALUPRO-CLASSIC,Amino-acid skin booster,Jalupro,Classic,,1,,Professional Derma,7,7
-JALUPRO-ENHANCER-GEL-6ML,Amino-acid skin booster,Jalupro,Enhancer Gel,6ml,1,,Professional Derma,1,1
-JALUPRO-EYELASH-GEL-9ML,Amino-acid skin booster,Jalupro,eyelash gel,9ml,1,,Professional Derma,1,2
-JALUPRO-FACE-MASKS-X11,Amino-acid skin booster,Jalupro,face masks,,11,,Professional Derma,1,2
-JALUPRO-FACE-MASKS-X5,Amino-acid skin booster,Jalupro,face masks,,5,,Professional Derma,1,2
-JALUPRO-GLOW-PEEL-5ML,Amino-acid skin booster,Jalupro,Glow Peel,5ml,1,,Professional Derma,2,2
-JALUPRO-GLOW-PEEL-5ML-X6,Amino-acid skin booster,Jalupro,glow peel,5ml,6,,Professional Derma,7,8
-JALUPRO-HMW,Amino-acid skin booster,Jalupro,HMW,,1,,Professional Derma,8,8
-JALUPRO-HMW-1.5ML,Amino-acid skin booster,Jalupro,HMW,1.5ml,1,,Professional Derma,8,10
-JALUPRO-MASK-8ML-X11,Amino-acid skin booster,Jalupro,Mask,8ml,11,,Professional Derma,1,1
-JALUPRO-PLUS-4ML-X3,Amino-acid skin booster,Jalupro,plus,4ml,3,,Professional Derma,2,3
-JALUPRO-REVITALISING-EYE-30ML,Amino-acid skin booster,Jalupro,revitalising eye,30ml,1,,Professional Derma,1,2
-JALUPRO-SUPER-HYDRO,Amino-acid skin booster,Jalupro,Super Hydro,,1,,Professional Derma,6,6
-JALUPRO-SUPER-HYDRO-2.5ML,Amino-acid skin booster,Jalupro,Super Hydro,2.5ml,1,,Professional Derma,7,10
-JALUPRO-SUPER-HYDRO-5ML,Amino-acid skin booster,Jalupro,Super Hydro,5ml,1,,Professional Derma,1,1
-JALUPRO-SUPERHYDRO-1X2-5ML,Amino-acid skin booster,Jalupro,superhydro 1x2,5ml,1,,Professional Derma,1,1
-JALUPRO-YOUNG-EYE-1ML,Amino-acid skin booster,Jalupro,Young Eye,1ml,1,,Professional Derma,14,15
-SUNEKOS-1200-1.5ML,Amino-acid skin booster,Sunekos,1200,1.5ml,1,,Professional Derma,9,9
-SUNEKOS-1200-1.5ML-X2,Amino-acid skin booster,Sunekos,1200,1.5ml,2,,Professional Derma,7,8
-SUNEKOS-200-3ML-X2,Amino-acid skin booster,Sunekos,200,3ml,2,,Professional Derma,3,3
-SUNEKOS-200-BOTTLES-3ML-X2,Amino-acid skin booster,Sunekos,200 bottles,3ml,2,,Professional Derma,1,1
-SUNEKOS-BODY-10ML,Amino-acid skin booster,Sunekos,Body,10ml,1,,Professional Derma,9,9
-SUNEKOS-CELL-15,Amino-acid skin booster,Sunekos,Cell 15,,1,,Professional Derma,6,6
-SUNEKOS-CELL-15-4.5ML-X10,Amino-acid skin booster,Sunekos,Cell 15,4.5ml,10,,Professional Derma,1,1
-SUNEKOS-INTICARE,Amino-acid skin booster,Sunekos,Inticare,,1,,Professional Derma,1,1
-SUNEKOS-PERFORMA-3.5ML,Amino-acid skin booster,Sunekos,Performa,3.5ml,1,,Professional Derma,6,6
-SUNEKOS-PERFORMA-3.5ML-X2,Amino-acid skin booster,Sunekos,Performa,3.5ml,2,,Professional Derma,9,10
+BST-JALUPRO-CLASSIC,Amino-acid skin booster,Jalupro,Classic,3ml,1,,,3,3
+BST-JALUPRO-CLASSIC-11X,Amino-acid skin booster,Jalupro,Classic,3ml,11,,,1,1
+BST-JALUPRO-CLASSIC-2X,Amino-acid skin booster,Jalupro,Classic,3ml,2,,,13,22
+BST-JALUPRO-CLASSIC-3X,Amino-acid skin booster,Jalupro,Classic,3ml,3,,,2,3
+BST-JALUPRO-CLASSIC-6X,Amino-acid skin booster,Jalupro,Classic,3ml,6,,,7,8
+BST-JALUPRO-HMW,Amino-acid skin booster,Jalupro,HMW,1.5ml,1,,,12,13
+BST-JALUPRO-SUPERHYDRO,Amino-acid skin booster,Jalupro,Super Hydro,2.5ml,1,,,15,18
+BST-JALUPRO-YOUNGEYE,Amino-acid skin booster,Jalupro,Young Eye,1ml,1,,,14,15
+BST-SUNEKOS-1200-2X,Amino-acid skin booster,Sunekos,1200,1.5ml,2,,,16,17
+BST-SUNEKOS-200-2X,Amino-acid skin booster,Sunekos,200,3ml,2,,,4,4
+BST-SUNEKOS-BODY,Amino-acid skin booster,Sunekos,Body,10ml,1,,,9,9
+BST-SUNEKOS-CELL,Amino-acid skin booster,Sunekos,Cell,4.5ml,1,,,6,6
+BST-SUNEKOS-CELL-10X,Amino-acid skin booster,Sunekos,Cell,4.5ml,10,,,1,1
+BST-SUNEKOS-PERFORMA-2X,Amino-acid skin booster,Sunekos,Performa,3.5ml,2,,,15,16
+BST-SUNEKOS-UNSPECIFIED-2X,Amino-acid skin booster,Sunekos,(unspecified),1.5ml,2,,,1,1
 ASCE+-DERMA-SIGNAL-5ML,Exosome,ASCE+,derma signal,5ml,1,,Exocobio,1,1
 ASCE+-EXOSOMES-DERMA-5ML,Exosome,ASCE+,EXOSOMES DERMA,5ml,1,,Exocobio,1,1
 ASCE+-EXOSOMES-PLUS-20MG,Exosome,ASCE+,exosomes plus,20mg,1,,Exocobio,1,1
@@ -150,8 +134,8 @@ MYFILLER-BOOSTER-REVITALIZE-WHITE,HA bio-remodelling,MyFiller Booster,revitalize
 NEAUVIA-HYDRO-DELUXE-2.5ML-X2,HA bio-remodelling,Neauvia Hydro Deluxe,,2.5ml,2,,Matex Lab,3,4
 NEAUVIA-HYDRO-DELUXE-HYDRATE-STIMULATE,HA bio-remodelling,Neauvia Hydro Deluxe,Hydrate Stimulate,,1,,Matex Lab,1,1
 NEAUVIA-HYDRO-DELUXE-ORGANIC-2.5ML-X2,HA bio-remodelling,Neauvia Hydro Deluxe,Organic,2.5ml,2,,Matex Lab,2,2
-BST-PROFHILO-BODY,HA bio-remodelling,Profhilo,Body,3ml,1,,IBSA,13,14
-BST-PROFHILO-BODY-2X,HA bio-remodelling,Profhilo,Body,3ml,2,,IBSA,1,1
+BST-PROFHILO-BODY,HA bio-remodelling,Profhilo,Body,3ml,1,,IBSA,1,1
+BST-PROFHILO-BODYKIT-2X,HA bio-remodelling,Profhilo,Body Kit,3ml,2,,IBSA,13,14
 BST-PROFHILO-HL,HA bio-remodelling,Profhilo,H+L,2ml,1,,IBSA,19,28
 BST-PROFHILO-STRUCTURA,HA bio-remodelling,Profhilo,Structura,2ml,1,,IBSA,19,20
 REVITRANE-HA-10-1ML,HA bio-remodelling,Revitrane,HA 10,1ml,1,,Revitrane,3,5
@@ -165,15 +149,8 @@ RICHESSE-EXO19-2.2ML,HA bio-remodelling,Richesse,EXO19,2.2ml,1,,Richesse,1,1
 RICHESSE-EYES,HA bio-remodelling,Richesse,eyes,,1,,Richesse,1,1
 RICHESSE-FACE,HA bio-remodelling,Richesse,face,,1,,Richesse,1,1
 SAYPHA-BOOSTER-CROMA-PHILART-2ML,HA bio-remodelling,Saypha Booster,Croma PhilArt,2ml,1,,Croma,2,5
-SEVENTY-HYAL-2000-2ML,HA bio-remodelling,Seventy Hyal 2000,,2ml,1,,Seventy Hyal,9,9
-SEVENTY-HYAL-2000-2ML-X3,HA bio-remodelling,Seventy Hyal 2000,,2ml,3,,Seventy Hyal,11,11
-SEVENTY-HYAL-2000-30MG-PFS-2ML,HA bio-remodelling,Seventy Hyal 2000,30mg pfs,2ml,1,,Seventy Hyal,1,4
-SEVENTY-HYAL-2000-CLONE,HA bio-remodelling,Seventy Hyal 2000,clone,,1,,Seventy Hyal,1,1
-SEVENTY-HYAL-2000-COOLING,HA bio-remodelling,Seventy Hyal 2000,Cooling,,1,,Seventy Hyal,1,1
-SEVENTY-HYAL-2000-FACE-RULER,HA bio-remodelling,Seventy Hyal 2000,Face Ruler,,1,,Seventy Hyal,1,1
-SEVENTY-HYAL-2000-HEADBAND,HA bio-remodelling,Seventy Hyal 2000,Headband,,1,,Seventy Hyal,1,1
-SEVENTY-HYAL-2000-MIRROR,HA bio-remodelling,Seventy Hyal 2000,Mirror,,1,,Seventy Hyal,1,1
-SEVENTY-HYAL-2000-TRIPLE-2ML-X3,HA bio-remodelling,Seventy Hyal 2000,Triple,2ml,3,,Seventy Hyal,3,3
+BST-SEVENTY-HYAL-2000,HA bio-remodelling,Seventy Hyal,2000,2ml,1,,,10,15
+BST-SEVENTY-HYAL-2000-3X,HA bio-remodelling,Seventy Hyal,2000,2ml,3,,,13,14
 VISCODERM-1.0ML,HA bio-remodelling,Viscoderm,,1.0ml,1,,IBSA,1,1
 VISCODERM-AVAILABLE-ON-1.0ML,HA bio-remodelling,Viscoderm,available on,1.0ml,1,,IBSA,1,1
 VISCODERM-COVER-UP-20ML,HA bio-remodelling,Viscoderm,cover up,20ml,1,,IBSA,5,10
@@ -645,29 +622,12 @@ NOUVEAU-VISAGE-NEWDERM-HAIR-5ML-X4,Polynucleotide / PDRN,Nouveau Visage,NEWDERM 
 NOUVEAU-VISAGE-NEWDERM-LIFT,Polynucleotide / PDRN,Nouveau Visage,NEWDERM LIFT,,1,,Nouveau Visage,1,1
 NOUVEAU-VISAGE-NEWDERM-LIFT-5ML-X4,Polynucleotide / PDRN,Nouveau Visage,NEWDERM LIFT,5ml,4,,Nouveau Visage,2,2
 NOW-SUPPLYING-AWARD,Polynucleotide / PDRN,Now,Supplying Award,,1,,,1,1
-NUCLEOFILL-20-1.5ML,Polynucleotide / PDRN,Nucleofill,20,1.5ml,1,,Promoitalia,2,2
-NUCLEOFILL-20-MEDIUM-5ML,Polynucleotide / PDRN,Nucleofill,20 Medium,5ml,1,,Promoitalia,1,1
-NUCLEOFILL-25,Polynucleotide / PDRN,Nucleofill,25,,1,,Promoitalia,1,1
-NUCLEOFILL-25-STRONG-5ML,Polynucleotide / PDRN,Nucleofill,25 Strong,5ml,1,,Promoitalia,1,1
-NUCLEOFILL-AGE-2ML,Polynucleotide / PDRN,Nucleofill,Age,2ml,1,,Promoitalia,3,3
-NUCLEOFILL-AGE-STRONG-2ML,Polynucleotide / PDRN,Nucleofill,Age Strong,2ml,1,,Promoitalia,1,1
-NUCLEOFILL-EYES,Polynucleotide / PDRN,Nucleofill,Eyes,,1,,Promoitalia,1,1
-NUCLEOFILL-EYES-SOFT-2ML,Polynucleotide / PDRN,Nucleofill,Eyes Soft,2ml,1,,Promoitalia,1,1
-NUCLEOFILL-HAIR-2ML,Polynucleotide / PDRN,Nucleofill,HAIR,2ml,1,,Promoitalia,1,1
-NUCLEOFILL-HAIR-MEDIUM-2ML,Polynucleotide / PDRN,Nucleofill,Hair Medium,2ml,1,,Promoitalia,1,1
-NUCLEOFILL-MEDIUM,Polynucleotide / PDRN,Nucleofill,medium,,1,,Promoitalia,1,1
-NUCLEOFILL-MEDIUM-1.5ML,Polynucleotide / PDRN,Nucleofill,Medium,1.5ml,1,,Promoitalia,10,11
-NUCLEOFILL-MEDIUM-5ML,Polynucleotide / PDRN,Nucleofill,medium,5ml,1,,Promoitalia,1,1
-NUCLEOFILL-MEDIUM-PLUS-2ML,Polynucleotide / PDRN,Nucleofill,medium plus,2ml,1,,Promoitalia,7,9
-NUCLEOFILL-MEDIUM-SHORTED-1.5ML,Polynucleotide / PDRN,Nucleofill,Medium SHORTED,1.5ml,1,,Promoitalia,1,1
-NUCLEOFILL-SOFT,Polynucleotide / PDRN,Nucleofill,soft,,1,,Promoitalia,1,1
-NUCLEOFILL-SOFT-EYES,Polynucleotide / PDRN,Nucleofill,Soft EYES,,1,,Promoitalia,1,1
-NUCLEOFILL-SOFT-PLUS-2ML,Polynucleotide / PDRN,Nucleofill,soft plus,2ml,1,,Promoitalia,9,10
-NUCLEOFILL-STRONG,Polynucleotide / PDRN,Nucleofill,Strong,,1,,Promoitalia,1,1
-NUCLEOFILL-STRONG-1.5ML,Polynucleotide / PDRN,Nucleofill,Strong,1.5ml,1,,Promoitalia,10,11
-NUCLEOFILL-STRONG-5ML,Polynucleotide / PDRN,Nucleofill,strong,5ml,1,,Promoitalia,1,1
-NUCLEOFILL-STRONG-PLUS-2ML,Polynucleotide / PDRN,Nucleofill,strong plus,2ml,1,,Promoitalia,5,6
-NUCLEOFILL-STRONG-PLUS-5ML,Polynucleotide / PDRN,Nucleofill,strong plus,5ml,1,,Promoitalia,1,1
+BST-NUCLEOFILL-MEDIUM,Polynucleotide / PDRN,Nucleofill,Medium,1.5ml,1,,,14,17
+BST-NUCLEOFILL-MEDIUMPLUSHAIR,Polynucleotide / PDRN,Nucleofill,Medium Plus (Hair),2ml,1,,,9,11
+BST-NUCLEOFILL-SOFTPLUSEYES,Polynucleotide / PDRN,Nucleofill,Soft Plus (Eyes),2ml,1,,,13,14
+BST-NUCLEOFILL-STRONG,Polynucleotide / PDRN,Nucleofill,Strong,1.5ml,1,,,14,15
+BST-NUCLEOFILL-STRONGPLUS,Polynucleotide / PDRN,Nucleofill,Strong Plus,2ml,1,,,8,9
+BST-NUCLEOFILL-UNSPECIFIED,Polynucleotide / PDRN,Nucleofill,(unspecified),2ml,1,,,2,2
 PDRN-EP-DS-5ML-X5,Polynucleotide / PDRN,Pdrn,EP DS,5ml,5,,,1,1
 PHILART-EYES-BIO,Polynucleotide / PDRN,Philart,eyes bio,,1,,,1,1
 PLENHYAGE,Polynucleotide / PDRN,Plenhyage,,,1,,Vivacy,1,1
@@ -759,7 +719,6 @@ VITARAN-II-2ML,Polynucleotide / PDRN,Vitaran,II,2ml,1,,VitaRan / Caregen,4,4
 VITARAN-II-2ML-X2,Polynucleotide / PDRN,Vitaran,II,2ml,2,,VitaRan / Caregen,8,9
 VITARAN-II-POLYNUCLEOTIDE-2ML-X2,Polynucleotide / PDRN,Vitaran,II Polynucleotide,2ml,2,,VitaRan / Caregen,1,1
 VITARAN-POLYNUCLEOTIDE-1ML-X2,Polynucleotide / PDRN,Vitaran,Polynucleotide,1ml,2,,VitaRan / Caregen,1,1
-VITARAN-SEVENTY-HYAL,Polynucleotide / PDRN,Vitaran,Seventy Hyal,,1,,VitaRan / Caregen,1,4
 A-2.5ML,Skin booster / mesotherapy (other),A,,2.5ml,1,,,1,1
 AGE-LESS-EVERYDAY,Skin booster / mesotherapy (other),Age,Less Everyday,,1,,,1,1
 ALLSKIN-MED-BRIGHTENING,Skin booster / mesotherapy (other),Allskin,MED Brightening,,1,,,1,1

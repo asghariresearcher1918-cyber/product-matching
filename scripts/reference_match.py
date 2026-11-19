@@ -69,12 +69,14 @@ def run(cfg, refnames):
         base_n, vol = pack_vol(best["pack"])
         mt = re.search(r"(\d+)\s*x\s*\d|\bx\s*(\d+)\b|\b(\d+)\s*(?:syringes?|vials?|pack)\b", tl)
         packn = int(next((g for g in (mt.groups() if mt else []) if g), base_n)) if mt else base_n
+        if "kit" in best["product_name"].lower():
+            packn = base_n  # a Kit is a fixed bundle - take its pack from the reference, not the listing
         name = best["product_name"]
         line = re.sub(r"^" + re.escape(rb) + r"\s*", "", name).strip() or name
         # hologram / ROI packaging is NOT a separate product -> no market in the code
         code = slug(cfg["prefix"], rb, re.sub(r"[^A-Za-z0-9]+", "", line), "LIDO" if lido else "", f"{packn}X" if packn > 1 else "")
         uid = cfg["tag"] + ":" + code
-        refnames[uid] = name + (" with lidocaine" if lido and lv not in ("yes", "no") else "") + (f" (pack of {packn})" if packn > 1 else "")
+        refnames[uid] = name + (" with lidocaine" if lido and lv not in ("yes", "no") else "")
         maps.append(dict(m, code=code, brand=rb, line=line, matched="reference",
                          decision=f"{name}; {vol}ml; pack {packn}; {'+lido' if lido else 'no lido'}"))
         if cfg["kind"] == "filler":
