@@ -74,7 +74,7 @@ def run(cfg, refnames):
         # hologram / ROI packaging is NOT a separate product -> no market in the code
         code = slug(cfg["prefix"], rb, re.sub(r"[^A-Za-z0-9]+", "", line), "LIDO" if lido else "", f"{packn}X" if packn > 1 else "")
         uid = cfg["tag"] + ":" + code
-        refnames[uid] = name + (" with lidocaine" if lido and lv not in ("yes", "no") else "")
+        refnames[uid] = name + (" with lidocaine" if lido and lv not in ("yes", "no") else "") + (f" (pack of {packn})" if packn > 1 else "")
         maps.append(dict(m, code=code, brand=rb, line=line, matched="reference",
                          decision=f"{name}; {vol}ml; pack {packn}; {'+lido' if lido else 'no lido'}"))
         if cfg["kind"] == "filler":
