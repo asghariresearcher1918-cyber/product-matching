@@ -99,7 +99,7 @@ def main():
         if r["source"].startswith("http"):
             details.append(["Official reference", r["source"]])
         details = [[k, v] for k, v in details if v]
-        PRODUCTS[pkey(r["uid"])] = {"name": name, "pack": pack or "—", "category": disp,
+        PRODUCTS[pkey(r["uid"])] = {"name": name, "pack": "", "category": disp,
                                     "group": r["equivalence_group"], "pom": cat in POM_CATS,
                                     "suppliers": nsup, "defaultQty": 1, "offers": offers,
                                     "desc": desc, "details": details, "examples": examples.get(r["uid"], [])}

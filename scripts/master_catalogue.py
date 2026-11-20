@@ -122,6 +122,12 @@ def main():
         for m in master:
             if m["uid"] in rn:
                 m["product"] = rn[m["uid"]]; m["verified"] = "reference-matched"
+    # one COMPLETE title. Reference-matched -> our clean name + presentation. Non-reference -> the pharmacy's own
+    # title (already complete), left as-is so we never duplicate the size/pack it already contains.
+    for m in master:
+        sp = m.get("key_spec", "")
+        if m.get("verified") == "reference-matched" and sp and sp.lower() not in m["product"].lower():
+            m["product"] = f'{m["product"]} ({sp})'
     master.sort(key=lambda m: (m["category"], m["equivalence_group"], m["brand"], m["product"]))
     with open(FINAL / "master_catalogue.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=COLS); w.writeheader(); w.writerows(master)
