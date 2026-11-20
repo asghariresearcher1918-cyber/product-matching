@@ -91,6 +91,28 @@ def main():
             ps.cell(row=ps.max_row, column=9).fill = PatternFill("solid", fgColor="C6EFCE")
     ps.auto_filter.ref = f"A1:L{ps.max_row}"
 
+    # ---- Matching (one row per product: which pharmacies carry it) ----
+    bysup = collections.defaultdict(list)   # uid -> [supplier, ...] (with duplicates = listing count per pharmacy)
+    for m in listings:
+        bysup[m["uid"]].append(m["supplier"])
+    mt = wb.create_sheet("Matching")
+    header(mt, ["Category", "Equivalence group", "Brand", "Product", "Spec", "Verified",
+                "# Pharmacies", "Pharmacies that stock it", "# Listings"],
+           [22, 24, 18, 36, 16, 10, 12, 60, 10])
+    for uid, p in sorted(prods.items(), key=lambda kv: (kv[1]["category"], kv[1]["equivalence_group"], kv[1]["brand"], kv[1]["product"])):
+        sups = bysup.get(uid, [])
+        counts = collections.Counter(sups)
+        names = "; ".join(f"{s} (x{n})" if n > 1 else s for s, n in sorted(counts.items(), key=lambda x: -x[1]))
+        mt.append([p["category"], p["equivalence_group"], p["brand"], p["product"], p["key_spec"],
+                   "reference" if "reference" in p.get("verified", "") else "",
+                   len(counts), names, len(sups)])
+        row_style(mt)
+        if len(counts) > 1:
+            mt.cell(row=mt.max_row, column=7).fill = PatternFill("solid", fgColor="C6EFCE")  # comparable (multi-pharmacy)
+        if "reference" in p.get("verified", ""):
+            mt.cell(row=mt.max_row, column=6).fill = PatternFill("solid", fgColor="C6EFCE")
+    mt.auto_filter.ref = f"A1:I{mt.max_row}"
+
     # ---- By pharmacy ----
     phar = collections.defaultdict(lambda: [0, set(), set()])
     for m in listings:
