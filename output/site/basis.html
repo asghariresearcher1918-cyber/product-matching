@@ -1040,6 +1040,8 @@
   }
 
   function fmt(pence){ return '£' + (pence/100).toFixed(2); }
+  function pomLock(key){ return !!(PRODUCTS[key] && PRODUCTS[key].pom && !state.verified); }
+  function priceCell(key,best){ return pomLock(key) ? '🔒 Login' : priceCell(k,best); }
 
   function eligibleSuppliers(productKey){
     var offers = PRODUCTS[productKey].offers;
@@ -1188,7 +1190,6 @@
     var seenCats = {};
     var picks = [];
     Object.keys(PRODUCTS).forEach(function(k){
-      if(PRODUCTS[k].pom && !state.verified) return;
       var cat = PRODUCTS[k].category;
       if(!seenCats[cat]){ seenCats[cat] = true; picks.push(k); }
     });
@@ -1205,7 +1206,7 @@
         '<div class="pc-cat">'+p.category+'</div>'+
         '<div class="pc-name">'+p.name+'</div>'+
         '<div class="pc-pack">'+p.pack+'</div>'+
-        '<div class="pc-price"><div><div class="pc-from">from</div><div class="pc-amt">'+(best?fmt(best.unit):'—')+'</div></div>'+
+        '<div class="pc-price"><div><div class="pc-from">from</div><div class="pc-amt">'+priceCell(k,best)+'</div></div>'+
         '<div class="pc-offers">'+offerCount+' supplier'+(offerCount===1?'':'s')+'</div></div>';
       card.addEventListener('click', function(){ openProduct(k); });
       grid.appendChild(card);
@@ -1261,7 +1262,7 @@
   var lastQuery = '';
   function matchProducts(query){
     query = (query||'').trim().toLowerCase();
-    var keys = Object.keys(PRODUCTS).filter(function(k){ return state.verified || !PRODUCTS[k].pom; });
+    var keys = Object.keys(PRODUCTS);
     if(!query) return keys;
     return keys.filter(function(k){
       var p = PRODUCTS[k];
@@ -1288,7 +1289,7 @@
       row.innerHTML =
         '<div style="display:flex;align-items:center;gap:12px;"><div class="cat-icon">'+categoryIcon(p.category)+'</div>'+
         '<div><div class="rr-name">'+p.name+'</div><div class="rr-meta">'+p.pack+' · '+p.category+'</div></div></div>'+
-        '<div class="rr-price"><div class="rr-from">from</div><div class="rr-amt">'+(best?fmt(best.unit):'—')+'</div></div>';
+        '<div class="rr-price"><div class="rr-from">from</div><div class="rr-amt">'+priceCell(k,best)+'</div></div>';
       row.addEventListener('click', function(){ openProduct(k); });
       list.appendChild(row);
     });
@@ -1369,7 +1370,7 @@
     document.getElementById('productOfferCount').textContent = allOffers.length + ' verified offer' + (allOffers.length===1?'':'s');
 
     var cheapestPublic = cheapestOffer(key, qty, false);
-    document.getElementById('productLowest').textContent = cheapestPublic ? fmt(cheapestPublic.unit) : '—';
+    document.getElementById('productLowest').textContent = pomLock(key) ? 'Login to view price' : (cheapestPublic ? fmt(cheapestPublic.unit) : '—');
     var _ab=document.getElementById('productAbout'); if(_ab) _ab.innerHTML = buildAbout(p);
 
     var proBox = document.getElementById('productProBox');

@@ -127,13 +127,14 @@ def main():
     html = re.sub(r"connections:\{[^}]*\}", "connections:{}", html, count=1)
     html = re.sub(r"var LAST_ORDER = \{[^}]*\};", "var LAST_ORDER = {};", html, count=1)
 
-    # 5) POM gating: hide prescription-only products from public lists unless verified (compliance)
+    # 5) POM policy (owner decision): SHOW prescription-only products publicly, but hide the PRICE until verified.
     html = html.replace(
-        "    var keys = Object.keys(PRODUCTS);\n    if(!query) return keys;",
-        "    var keys = Object.keys(PRODUCTS).filter(function(k){ return state.verified || !PRODUCTS[k].pom; });\n    if(!query) return keys;")
-    html = html.replace(
-        "    Object.keys(PRODUCTS).forEach(function(k){\n      var cat = PRODUCTS[k].category;\n      if(!seenCats[cat]){ seenCats[cat] = true; picks.push(k); }\n    });",
-        "    Object.keys(PRODUCTS).forEach(function(k){\n      if(PRODUCTS[k].pom && !state.verified) return;\n      var cat = PRODUCTS[k].category;\n      if(!seenCats[cat]){ seenCats[cat] = true; picks.push(k); }\n    });")
+        "  function fmt(pence){ return '£' + (pence/100).toFixed(2); }",
+        "  function fmt(pence){ return '£' + (pence/100).toFixed(2); }\n"
+        "  function pomLock(key){ return !!(PRODUCTS[key] && PRODUCTS[key].pom && !state.verified); }\n"
+        "  function priceCell(key,best){ return pomLock(key) ? '🔒 Login' : (best?fmt(best.unit):'—'); }")
+    # card / result-row 'from' price -> masked for POM until verified (both call sites use variable k)
+    html = html.replace("(best?fmt(best.unit):'—')", "priceCell(k,best)")
 
     # 6) wording: 'offers' -> 'suppliers' on cards (no prices yet), and the empty-state copy
     html = html.replace("' offer'+(offerCount===1?'':'s')+'", "' supplier'+(offerCount===1?'':'s')+'")
@@ -146,7 +147,7 @@ def main():
                         '<div class="p-about" id="productAbout"></div>\n\n      <div class="qty-row">', 1)
     html = html.replace(
         "    document.getElementById('productLowest').textContent = cheapestPublic ? fmt(cheapestPublic.unit) : '—';",
-        "    document.getElementById('productLowest').textContent = cheapestPublic ? fmt(cheapestPublic.unit) : '—';\n"
+        "    document.getElementById('productLowest').textContent = pomLock(key) ? 'Login to view price' : (cheapestPublic ? fmt(cheapestPublic.unit) : '—');\n"
         "    var _ab=document.getElementById('productAbout'); if(_ab) _ab.innerHTML = buildAbout(p);", 1)
     helpers = r"""
   function esc(s){ return (s==null?'':String(s)).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
