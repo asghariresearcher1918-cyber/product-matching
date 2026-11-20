@@ -859,12 +859,12 @@ FIL:FILLER-RESTYLANE-VOLYME-LIDO,Dermal filler,Smile Pharma,Restylane Volyme Der
 FIL:FILLER-JUVEDERM-VOLIFT-LIDO-2X,Dermal filler,Smile Pharma,Juvederm Volift (2 x 1ml),https://smilepharma.co.uk/product/juvederm-volift-2-x-1ml/,high
 FIL:FILLER-JUVEDERM-VOLUX-LIDO-2X,Dermal filler,Smile Pharma,Juvederm Volux Lidocaine (2 x 1ml),https://smilepharma.co.uk/product/juvederm-volux-lidocaine-2-x-1ml/,high
 FIL:LUMIFIL-ICE-1X,Dermal filler,Smile Pharma,LUMIFIL ICE PACK,https://smilepharma.co.uk/product/lumifil-ice-pack/,rule
-FIL:AESSOA-GLOBAL-1ML-LIDO-1X,Dermal filler,Smile Pharma,Aessoa Global with Lidocaine (1ml),https://smilepharma.co.uk/product/aessoa-global-with-lidocaine-1ml/,rule
-FIL:AESSOA-DEEP-1ML-LIDO-1X,Dermal filler,Smile Pharma,Aessoa Deep with Lidocaine (1ml),https://smilepharma.co.uk/product/aessoa-deep-with-lidocaine-1ml/,rule
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,Smile Pharma,Aessoa Global with Lidocaine (1ml),https://smilepharma.co.uk/product/aessoa-global-with-lidocaine-1ml/,rule
+FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,Smile Pharma,Aessoa Deep with Lidocaine (1ml),https://smilepharma.co.uk/product/aessoa-deep-with-lidocaine-1ml/,rule
 FIL:KAIRAX-ENHANCE45-2ML-1X,Dermal filler,Smile Pharma,Kairax Enhance 45 (1 x 2ml),https://smilepharma.co.uk/product/kairax-enhance-45/,high*
 FIL:ILLUMA-LUNA-1ML-1X,Dermal filler,Smile Pharma,ILLUMA Luna 1ml X 1 Syringe,https://smilepharma.co.uk/product/illuma-luna-1ml-x-1-syringe/,high*
 FIL:ILLUMA-NADSKINBOOSTER2-5ML-1X,Dermal filler,Smile Pharma,iLLUMA NAD+ Skin Booster (2 vial x 5ml),https://smilepharma.co.uk/product/illuma-nad-skin-booster-2-vial-x-5ml/,rule
-FIL:AESSOA-ULTRA-1ML-LIDO-1X,Dermal filler,Smile Pharma,Aessoa Ultra with Lidocaine (1ml),https://smilepharma.co.uk/product/aessoa-ultra-with-lidocaine-1ml/,rule
+FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,Smile Pharma,Aessoa Ultra with Lidocaine (1ml),https://smilepharma.co.uk/product/aessoa-ultra-with-lidocaine-1ml/,rule
 FIL:KAIRAX-DEEP1-11ML-1X,Dermal filler,Smile Pharma,Kairax Deep Dermal Filler (1.1.1ml),https://smilepharma.co.uk/product/kairax-deep-dermal-filler-1-1-1ml/,rule
 FIL:KAIRAX-FINE-11ML-1X,Dermal filler,Smile Pharma,Kairax Fine (1x1.1ml),https://smilepharma.co.uk/product/kairax-fine-1x1-1ml/,high*
 FIL:KAIRAX-SUBQ-11ML-1X,Dermal filler,Smile Pharma,Kairax Sub-Q Dermal Filler (1x1.1ml),https://smilepharma.co.uk/product/kairax-sub-q-dermal-filler-1x1-1ml/,high*
@@ -874,10 +874,10 @@ FIL:REGENOVUE-SUBQPLUS-11ML-1X,Dermal filler,Smile Pharma,Regenovue Sub-Q Plus (
 FIL:LUMIFIL-LLITE-LIDO-1X,Dermal filler,Smile Pharma,LUMIFIL L-LITE with Lidocaine,https://smilepharma.co.uk/product/lumifil-l-lite-with-lidocaine/,rule
 FIL:LUMIFIL-LMAX-LIDO-1X,Dermal filler,Smile Pharma,LUMIFIL L-MAX with Lidocaine,https://smilepharma.co.uk/product/lumifil-l-max-with-lidocaine/,rule
 FIL:LUMIFIL-LKISS-LIDO-1X,Dermal filler,Smile Pharma,LUMIFIL L-KISS with Lidocaine,https://smilepharma.co.uk/product/lumifil-l-kiss-with-lidocaine/,rule
-FIL:AESSOA-DEEP-LIDO-1X,Dermal filler,Dr. Adams Pharmacy,Aessoa Deep Lido,https://www.dradamspharmacy.co.uk/products/view/145,rule
-FIL:AESSOA-GLOBAL-LIDO-1X,Dermal filler,Dr. Adams Pharmacy,Aessoa Global Lido,https://www.dradamspharmacy.co.uk/products/view/144,rule
-FIL:AESSOA-SHINE-LIDO-1X,Dermal filler,Dr. Adams Pharmacy,Aessoa Shine Lido,https://www.dradamspharmacy.co.uk/products/view/142,rule
-FIL:AESSOA-ULTRA-LIDO-1X,Dermal filler,Dr. Adams Pharmacy,Aessoa Ultra Lido,https://www.dradamspharmacy.co.uk/products/view/143,rule
+FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,Dr. Adams Pharmacy,Aessoa Deep Lido,https://www.dradamspharmacy.co.uk/products/view/145,rule
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,Dr. Adams Pharmacy,Aessoa Global Lido,https://www.dradamspharmacy.co.uk/products/view/144,rule
+FIL:FILLER-AESSOA-SHINE-LIDO,Dermal filler,Dr. Adams Pharmacy,Aessoa Shine Lido,https://www.dradamspharmacy.co.uk/products/view/142,rule
+FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,Dr. Adams Pharmacy,Aessoa Ultra Lido,https://www.dradamspharmacy.co.uk/products/view/143,rule
 FIL:ALIAXIN-EV-1X,Dermal filler,Dr. Adams Pharmacy,Aliaxin EV,https://www.dradamspharmacy.co.uk/products/view/120,rule
 FIL:ALIAXIN-FL-1X,Dermal filler,Dr. Adams Pharmacy,Aliaxin FL,https://www.dradamspharmacy.co.uk/products/view/119,rule
 FIL:ALIAXIN-GP-1X,Dermal filler,Dr. Adams Pharmacy,Aliaxin GP,https://www.dradamspharmacy.co.uk/products/view/118,rule
@@ -1055,12 +1055,12 @@ FIL:BELLAST-PRIMESOFT-1ML-LIDO-1X,Dermal filler,Skin On You,Bellast Prime Soft w
 FIL:ALIAXIN-SR-1ML-2X,Dermal filler,Skin On You,Aliaxin SR - 2x1 ml,https://skinonyou.com/shop/aliaxin-sr-dermal-filler-ibsa/,high
 FIL:ALIAXIN-SV2X1-1ML-2X,Dermal filler,Skin On You,Aliaxin SV - 2x1 ml,https://skinonyou.com/shop/aliaxin-sv-volume-dermal-filler/,high
 FIL:ALIAXIN-LV-1ML-2X,Dermal filler,Skin On You,Aliaxin LV - 2x1 ml,https://skinonyou.com/shop/aliaxin-lv-lips-volume/,high
-FIL:AESSOA-GLOBAL-1ML-LIDO-1X,Dermal filler,Skin On You,Aessoa Global with Lidocaine 1x1ml,https://skinonyou.com/shop/aessoa-global-with-lidocaine-monophasic-dermal-filler/,high*
-FIL:AESSOA-DEEP-1ML-LIDO-1X,Dermal filler,Skin On You,Aessoa Deep with Lidocaine 1x1ml,https://skinonyou.com/shop/aessoa-deep-with-lidocaine-monophasic-dermal-filler/,high*
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,Skin On You,Aessoa Global with Lidocaine 1x1ml,https://skinonyou.com/shop/aessoa-global-with-lidocaine-monophasic-dermal-filler/,high*
+FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,Skin On You,Aessoa Deep with Lidocaine 1x1ml,https://skinonyou.com/shop/aessoa-deep-with-lidocaine-monophasic-dermal-filler/,high*
 FIL:FILLER-STYLAGE-XXL-LIDO-2X,Dermal filler,Skin On You,Stylage XXL Bi-SOFT,https://skinonyou.com/shop/stylage-xxl-bisoft/,rule
 FIL:FILLER-STYLAGE-UNSPECIFIED-LIDO-2X,Dermal filler,Skin On You,Stylage® M Bi-SOFT with Lidocaine,https://skinonyou.com/shop/stylage-m-with-lidocaine-bisoft/,rule
 FIL:FILLER-STYLAGE-HYDRO,Dermal filler,Skin On You,Stylage® Hydro Bi-SOFT,https://skinonyou.com/shop/stylage-hydro-bi-soft/,rule
-FIL:AESSOA-ULTRA-1ML-LIDO-1X,Dermal filler,Skin On You,Aessoa Ultra with Lidocaine 1x1ml,https://skinonyou.com/shop/aessoa-ultra-dermal-filler-with-lidocaine/,high*
+FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,Skin On You,Aessoa Ultra with Lidocaine 1x1ml,https://skinonyou.com/shop/aessoa-ultra-dermal-filler-with-lidocaine/,high*
 FIL:BELLAST-PRIMEMILD-1ML-LIDO-1X,Dermal filler,Skin On You,Bellast Prime Mild with Lidocaine (1 x 1ml),https://skinonyou.com/shop/bellast-prime-mild/,high*
 FIL:ALIAXIN-EV-1ML-2X,Dermal filler,Skin On You,Aliaxin EV - 2x1 ml,https://skinonyou.com/shop/aliaxin-ev-volution-contouring-dermal-filler/,high
 FIL:HYACORP-BODYCONTOURINGMLF1-1X,Dermal filler,Skin On You,HyaCorp Body Contouring MLF1,https://skinonyou.com/shop/hyacorp-body-contouring-mlf1-body-filler/,rule
@@ -1147,11 +1147,11 @@ FIL:FILLER-TEOSYAL-RHA1-2X,Dermal filler,MyPharmacyspace,Teosyal RHA 1,https://m
 FIL:FILLER-TEOSYAL-PURESENSEKISS-LIDO-2X,Dermal filler,MyPharmacyspace,Teosyal pure sense kiss,https://mypharmacyspace.co.uk/products/teosyal-pure-sense-kiss,rule
 FIL:FILLER-JUVEDERM-VOLUX-LIDO-2X,Dermal filler,MyPharmacyspace,Juvederm Volux + lidocaine (2 x 1ml),https://mypharmacyspace.co.uk/products/juvederm-volux-lidocaine-2-x-1ml,high
 FIL:HARMONY-CA-125ML-LIDO-2X,Dermal filler,MyPharmacyspace,Harmony CA + Lido 2 x 1.25ml (on prescription),https://mypharmacyspace.co.uk/products/harmony-ca-lido-2-x-1-25ml,high*
-FIL:AESSOA-DEEP-1ML-LIDO-1X,Dermal filler,MyPharmacyspace,Aessoa Deep Lidocaine Syringe 1 x 1.0 ml,https://mypharmacyspace.co.uk/products/aessoa-deep-lidocaine-syringe-1-x-1-0-ml,high*
-FIL:AESSOA-GLOBAL-1ML-LIDO-1X,Dermal filler,MyPharmacyspace,Aessoa Global Lidocaine Syringe 1 x 1.0 ml,https://mypharmacyspace.co.uk/products/copy-of-aessoa-deep-lidocaine-syringe-1-x-1-0-ml,high*
-FIL:AESSOA-ULTRA-1ML-LIDO-1X,Dermal filler,MyPharmacyspace,Aessoa Ultra Lidocaine Syringe 1 x 1.0 ml,https://mypharmacyspace.co.uk/products/aessoa-ultra-lidocaine-syringe-1-x-1-0-ml,high*
-FIL:AESSOA-GLOBAL-1ML-LIDO-1X,Dermal filler,MyPharmacyspace,Aessoa Global Lidocaine Syringe 1 x 1.0 ml (prescription item),https://mypharmacyspace.co.uk/products/aessoa-global-lidocaine-syringe-1-x-1-0-ml-prescription-item,high*
-FIL:AESSOA-SHINE-LIDO-1X,Dermal filler,MyPharmacyspace,Aessoa Shine with Lidocaine,https://mypharmacyspace.co.uk/products/aessoa-shine-with-lidocaine,rule
+FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,MyPharmacyspace,Aessoa Deep Lidocaine Syringe 1 x 1.0 ml,https://mypharmacyspace.co.uk/products/aessoa-deep-lidocaine-syringe-1-x-1-0-ml,high*
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,MyPharmacyspace,Aessoa Global Lidocaine Syringe 1 x 1.0 ml,https://mypharmacyspace.co.uk/products/copy-of-aessoa-deep-lidocaine-syringe-1-x-1-0-ml,high*
+FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,MyPharmacyspace,Aessoa Ultra Lidocaine Syringe 1 x 1.0 ml,https://mypharmacyspace.co.uk/products/aessoa-ultra-lidocaine-syringe-1-x-1-0-ml,high*
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,MyPharmacyspace,Aessoa Global Lidocaine Syringe 1 x 1.0 ml (prescription item),https://mypharmacyspace.co.uk/products/aessoa-global-lidocaine-syringe-1-x-1-0-ml-prescription-item,high*
+FIL:FILLER-AESSOA-SHINE-LIDO,Dermal filler,MyPharmacyspace,Aessoa Shine with Lidocaine,https://mypharmacyspace.co.uk/products/aessoa-shine-with-lidocaine,rule
 FIL:HARMONY-CA-125ML-LIDO-2X,Dermal filler,MyPharmacyspace,Harmony CA + Lido 2 x 1.25ml,https://mypharmacyspace.co.uk/products/harmony-ca-lido-2-x-1-25ml-1,high*
 FIL:FILLER-JUVEDERM-ULTRA2-LIDO-2X,Dermal filler,LPG Clinics Wholesale,Juvederm Ultra 2 2 x 0.55ml,https://www.lpgclinicswholesale.com/product/juvederm-ultra-2-2-x-0-55ml/,high
 FIL:FILLER-JUVEDERM-ULTRA3-LIDO-2X,Dermal filler,LPG Clinics Wholesale,Juvederm Ultra 3 2 x 1ml,https://www.lpgclinicswholesale.com/product/juvederm-ultra-3-2-x-1ml/,high
@@ -1206,9 +1206,9 @@ FIL:NEXFILL-DEEP-1ML-LIDO-1X,Dermal filler,LPG Clinics Wholesale,NEXFILL Deep (1
 FIL:NEXFILL-FINE-1ML-LIDO-1X,Dermal filler,LPG Clinics Wholesale,NEXFILL Fine (1ml with Lidocaine),https://www.lpgclinicswholesale.com/product/nexfill-fine-1ml-with-lidocaine/,rule
 FIL:RHA-1-1ML-2X,Dermal filler,LPG Clinics Wholesale,RHA 1 (2x1ml),https://www.lpgclinicswholesale.com/product/rha-1-2x1ml/,high*
 FIL:RHAKISS-07ML-2X,Dermal filler,LPG Clinics Wholesale,RHA KISS 2 X 0.7ml,https://www.lpgclinicswholesale.com/product/rha-kiss-lip-filler-2-x-0-7ml/,partial - check line/size
-FIL:AESSOA-DEEP-1ML-1X,Dermal filler,LPG Clinics Wholesale,Aessoa Deep 1ml,https://www.lpgclinicswholesale.com/product/aessoa-deep-1ml/,rule
-FIL:AESSOA-GLOBAL-1ML-1X,Dermal filler,LPG Clinics Wholesale,Aessoa Global 1ml,https://www.lpgclinicswholesale.com/product/aessoa-global-1ml/,rule
-FIL:AESSOA-ULTRA-1ML-1X,Dermal filler,LPG Clinics Wholesale,Aessoa Ultra 1ml,https://www.lpgclinicswholesale.com/product/aessoa-ultra-1ml/,rule
+FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,LPG Clinics Wholesale,Aessoa Deep 1ml,https://www.lpgclinicswholesale.com/product/aessoa-deep-1ml/,rule
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,LPG Clinics Wholesale,Aessoa Global 1ml,https://www.lpgclinicswholesale.com/product/aessoa-global-1ml/,rule
+FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,LPG Clinics Wholesale,Aessoa Ultra 1ml,https://www.lpgclinicswholesale.com/product/aessoa-ultra-1ml/,rule
 FIL:VOLIFIL-DEEP1-1ML-1X,Dermal filler,LPG Clinics Wholesale,VOLIFIL Deep 1 X 1ml,https://www.lpgclinicswholesale.com/product/volifil-deep-1-1ml/,high*
 FIL:VOLIFIL-SUBQ-1ML-1X,Dermal filler,LPG Clinics Wholesale,VOLIFIL SubQ 1 X 1ml,https://www.lpgclinicswholesale.com/product/volifil-subq-1-1ml/,high*
 FIL:VOLIFIL-CLASSIC-1ML-1X,Dermal filler,LPG Clinics Wholesale,VOLIFIL Classic 1 X 1ml,https://www.lpgclinicswholesale.com/product/volifil-classic-1-1ml/,high*
@@ -1491,9 +1491,9 @@ FIL:FILLER-TEOSYAL-RHA3-2X,Dermal filler,Wimpole Fillers,Teosyal RHA 3 Lido. (2 
 FIL:FILLER-TEOSYAL-RHA4-2X,Dermal filler,Wimpole Fillers,Teosyal RHA 4 Lido. (2 x 1.2ml) Inj.,https://wimpolefillers.co.uk/product/teosyal-rha-4-lidocaine-2-x-1-2ml/,high
 FIL:FILLER-TEOSYAL-RHAKISS-2X,Dermal filler,Wimpole Fillers,Teosyal RHA Kiss Lido. (2 x 0.7ml) Inj.,https://wimpolefillers.co.uk/product/teosyal-rha-kiss-lidocaine-2-x-0-7ml/,high
 FIL:FILLER-RESTYLANE-EYELIGHT-LIDO,Dermal filler,Wimpole Fillers,Restylane Eyelight (1 x 0.5ml) Inj.,https://wimpolefillers.co.uk/product/restylane-eyelight-1-x-0-5ml-inj/,high
-FIL:AESSOA-DEEP-1ML-LIDO-1X,Dermal filler,Wimpole Fillers,Aessoa Deep with Lido. (1x1ml) Inj.,https://wimpolefillers.co.uk/product/aessoa-deep-with-lido-1x1ml-inj/,high*
-FIL:AESSOA-GLOBAL-1ML-LIDO-1X,Dermal filler,Wimpole Fillers,Aessoa Global with Lido. (1x1ml) Inj.,https://wimpolefillers.co.uk/product/aessoa-global-with-lido-1x1ml-inj/,high*
-FIL:AESSOA-ULTRA-1ML-LIDO-1X,Dermal filler,Wimpole Fillers,Aessoa Ultra with Lido. (1x1ml) Inj.,https://wimpolefillers.co.uk/product/aessoa-ultra-with-lido-1x1ml-inj/,high*
+FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,Wimpole Fillers,Aessoa Deep with Lido. (1x1ml) Inj.,https://wimpolefillers.co.uk/product/aessoa-deep-with-lido-1x1ml-inj/,high*
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,Wimpole Fillers,Aessoa Global with Lido. (1x1ml) Inj.,https://wimpolefillers.co.uk/product/aessoa-global-with-lido-1x1ml-inj/,high*
+FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,Wimpole Fillers,Aessoa Ultra with Lido. (1x1ml) Inj.,https://wimpolefillers.co.uk/product/aessoa-ultra-with-lido-1x1ml-inj/,high*
 FIL:LUMIFIL-KISS-1ML-LIDO-1X,Dermal filler,Wimpole Fillers,Lumifil Kiss with Lido.(1X1ml) Inj.,https://wimpolefillers.co.uk/product/lumifil-kiss-with-lido-1x1ml-inj-2/,high*
 FIL:LUMIFIL-LITE-1ML-LIDO-1X,Dermal filler,Wimpole Fillers,Lumifil Lite with Lido.(1X1ml) Inj.,https://wimpolefillers.co.uk/product/lumifil-lite-with-lido-1x1ml-inj-2/,high*
 FIL:LUMIFIL-MAX-1ML-LIDO-1X,Dermal filler,Wimpole Fillers,Lumifil Max with Lido.(1X1ml) Inj.,https://wimpolefillers.co.uk/product/lumifil-max-with-lido-1x1ml-inj-2/,high*
@@ -1566,9 +1566,9 @@ FIL:NEXFILL-DEEP-1X,Dermal filler,Kiss Aesthetics Wholesale,Nexfill Deep,https:/
 FIL:NEXFILL-VOLUME-1X,Dermal filler,Kiss Aesthetics Wholesale,Nexfill Volume,https://kissaestheticswholesale.com/product/nexfill-volume/,rule
 FIL:ILLUMA-LUNA-1ML-1X,Dermal filler,Kiss Aesthetics Wholesale,iLLUMA Luna 1 x 1ml,https://kissaestheticswholesale.com/product/illuma-luna-1-x-1ml/,high*
 FIL:ILLUMA-PNBOOSTER2SYRINGES-25ML-2X,Dermal filler,Kiss Aesthetics Wholesale,iLLUMA PN Booster 2.5ml x 2 syringes,https://kissaestheticswholesale.com/product/illuma-pn-booster-2-5ml-x-2-syringes/,high*
-FIL:AESSOA-GLOBALFINE-1X,Dermal filler,Kiss Aesthetics Wholesale,Aessoa Global (Fine),https://kissaestheticswholesale.com/product/aessoa-global/,rule
-FIL:AESSOA-DEEP-1X,Dermal filler,Kiss Aesthetics Wholesale,Aessoa Deep,https://kissaestheticswholesale.com/product/aessoa-deep/,rule
-FIL:AESSOA-ULTRASUBQ-1X,Dermal filler,Kiss Aesthetics Wholesale,Aessoa Ultra (SUBQ),https://kissaestheticswholesale.com/product/aessoa-ultra/,rule
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,Kiss Aesthetics Wholesale,Aessoa Global (Fine),https://kissaestheticswholesale.com/product/aessoa-global/,rule
+FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,Kiss Aesthetics Wholesale,Aessoa Deep,https://kissaestheticswholesale.com/product/aessoa-deep/,rule
+FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,Kiss Aesthetics Wholesale,Aessoa Ultra (SUBQ),https://kissaestheticswholesale.com/product/aessoa-ultra/,rule
 FIL:KAIRAX-ENHANCE45-2ML-1X,Dermal filler,Kiss Aesthetics Wholesale,Kairax Enhance 45 (2ml),https://kissaestheticswholesale.com/product/kairax-enhance-45-2ml/,rule
 FIL:ILLUMA-PNPRO2-25ML-1X,Dermal filler,Kiss Aesthetics Wholesale,illuma PN PRO 2% (2 x 2.5ml),https://kissaestheticswholesale.com/product/illuma-pn-pro-2-2-x-2-5ml/,high*
 FIL:LEMON-FILLFINE-1X,Dermal filler,Kiss Aesthetics Wholesale,Lemon Fill Fine,https://kissaestheticswholesale.com/product/lemon-fill-fine/,rule
@@ -1652,9 +1652,9 @@ FIL:NEXFILL-DEEP-1ML-1X,Dermal filler,Herts & Essex Supplies,Nexfill Deep 1 x 1m
 FIL:NEXFILL-FINE-1ML-1X,Dermal filler,Herts & Essex Supplies,Nexfill Fine 1 x 1ml,https://www.hesupplies.co.uk/products/nexfill-fine-1-x-1ml,high*
 FIL:NEXFILL-VOLUME-1ML-1X,Dermal filler,Herts & Essex Supplies,Nexfill Volume 1 x 1ml,https://www.hesupplies.co.uk/products/nexfill-volume-1-x-1ml,high*
 FIL:DRCYJ-HAIRFILLER-1ML-2X,Dermal filler,Herts & Essex Supplies,Dr CYJ Hair Filler 2 x 1ml,https://www.hesupplies.co.uk/products/dr-cyj-hair-filler-2-x-1ml,high*
-FIL:AESSOA-GLOBAL-1ML-LIDO-1X,Dermal filler,Herts & Essex Supplies,Aessoa Global with Lidocaine (1x1ml),https://www.hesupplies.co.uk/products/aessoa-global-with-lidocaine-1x1ml,high*
-FIL:AESSOA-ULTRA-1ML-LIDO-1X,Dermal filler,Herts & Essex Supplies,Aessoa Ultra with Lidocaine (1x1ml),https://www.hesupplies.co.uk/products/aessoa-ultra-with-lidocaine-1x1ml,high*
-FIL:AESSOA-DEEP-1ML-LIDO-1X,Dermal filler,Herts & Essex Supplies,Aessoa Deep with Lidocaine (1x1ml),https://www.hesupplies.co.uk/products/aessoa-deep-with-lidocaine-1x1ml,high*
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,Herts & Essex Supplies,Aessoa Global with Lidocaine (1x1ml),https://www.hesupplies.co.uk/products/aessoa-global-with-lidocaine-1x1ml,high*
+FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,Herts & Essex Supplies,Aessoa Ultra with Lidocaine (1x1ml),https://www.hesupplies.co.uk/products/aessoa-ultra-with-lidocaine-1x1ml,high*
+FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,Herts & Essex Supplies,Aessoa Deep with Lidocaine (1x1ml),https://www.hesupplies.co.uk/products/aessoa-deep-with-lidocaine-1x1ml,high*
 FIL:ILLUMA-HYDROBOOSTER3SYRINGES-2ML-3X,Dermal filler,Herts & Essex Supplies,iLLUMA Hydro Booster (2ml x 3 Syringes),https://www.hesupplies.co.uk/products/illuma-hydro-booster-2ml-x-3-syringes,high*
 FIL:MONALISA-HARDTYPE-1X,Dermal filler,Herts & Essex Supplies,Monalisa Hard Type,https://www.hesupplies.co.uk/products/monalisa-hard-type,rule
 FIL:MONALISA-SOFTTYPE-1X,Dermal filler,Herts & Essex Supplies,Monalisa Soft Type,https://www.hesupplies.co.uk/products/monalisa-soft-type,rule
@@ -1802,7 +1802,7 @@ FIL:LUMIFIL-KISS2-1ML-LIDO-1X,Dermal filler,Ask Pharmacy,lumifil kiss with lidoc
 FIL:LEMON-FILLCONTOUR-1ML-1X,Dermal filler,Ask Pharmacy,lemon fill contour 1 x 1ml,https://ask-pharmacy.co.uk/product/lemon-fill-contour-1-x-1ml/,high*
 FIL:LEMON-FILLFINE-1ML-1X,Dermal filler,Ask Pharmacy,lemon fill fine 1 x 1ml,https://ask-pharmacy.co.uk/product/lemon-fill-fine-1-x-1ml/,high*
 FIL:LEMON-FILLKISS-1ML-1X,Dermal filler,Ask Pharmacy,lemon fill kiss 1 x 1ml,https://ask-pharmacy.co.uk/product/lemon-fill-kiss-1-x-1ml/,high*
-FIL:AESSOA-ULTRA-1ML-1X,Dermal filler,Ask Pharmacy,aessoa ultra 1x1ml,https://ask-pharmacy.co.uk/product/aessoa-ultra-1x1ml/,high*
+FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,Ask Pharmacy,aessoa ultra 1x1ml,https://ask-pharmacy.co.uk/product/aessoa-ultra-1x1ml/,high*
 FIL:REGENOVUE-AQUASHINEPLUS3-03ML-1X,Dermal filler,Ask Pharmacy,regenovue aquashine plus 3ml x 3,https://ask-pharmacy.co.uk/product/regenovue-aquashine-plus-3ml-x-3/,rule
 FIL:KAIRAX-ENHANCE45-2ML-1X,Dermal filler,Ask Pharmacy,kairax enhance 45 2ml,https://ask-pharmacy.co.uk/product/kairax-enhance-45-2ml/,rule
 FIL:ILLUMA-PNPRO22-5ML-2X,Dermal filler,Ask Pharmacy,illuma pn pro 2 2 x 2 5ml,https://ask-pharmacy.co.uk/product/illuma-pn-pro-2-2-x-2-5ml/,high*
@@ -1832,8 +1832,8 @@ FIL:CROMA-PHILARTINJECTABLEPN-2ML-1X,Dermal filler,Ask Pharmacy,croma philart in
 FIL:HADERM-SUBSKIN-0ML-1X,Dermal filler,Ask Pharmacy,haderm sub skin 10ml,https://ask-pharmacy.co.uk/product/haderm-sub-skin-10ml/,rule
 FIL:FILLER-STYLAGE-XL-LIDO-2X,Dermal filler,Ask Pharmacy,stylage xl bi soft 2 x 1ml,https://ask-pharmacy.co.uk/product/stylage-xl-bi-soft-2-x-1ml/,high
 FIL:FILLER-JUVEDERM-SKINVIVE-LIDO-2X,Dermal filler,Ask Pharmacy,juvederm skinvive 2 x 1ml,https://ask-pharmacy.co.uk/product/juvederm-skinvive-2-x-1ml/,high
-FIL:AESSOA-DEEP2-1ML-1X,Dermal filler,Ask Pharmacy,aessoa deep 1x1ml 2,https://ask-pharmacy.co.uk/product/aessoa-deep-1x1ml-2/,high*
-FIL:AESSOA-GLOBAL-1ML-1X,Dermal filler,Ask Pharmacy,aessoa global 1x1ml clone,https://ask-pharmacy.co.uk/product/aessoa-global-1x1ml-clone/,high*
+FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,Ask Pharmacy,aessoa deep 1x1ml 2,https://ask-pharmacy.co.uk/product/aessoa-deep-1x1ml-2/,high*
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,Ask Pharmacy,aessoa global 1x1ml clone,https://ask-pharmacy.co.uk/product/aessoa-global-1x1ml-clone/,high*
 FIL:MONALISA-FILLERMILD-1X,Dermal filler,Ask Pharmacy,monalisa filler mild clone,https://ask-pharmacy.co.uk/product/monalisa-filler-mild-clone/,rule
 FIL:LAPIENA-CLASSIC-1X,Dermal filler,Ask Pharmacy,lapiena classic,https://ask-pharmacy.co.uk/product/lapiena-classic/,rule
 FIL:LAPIENA-DEEP-1X,Dermal filler,Ask Pharmacy,lapiena deep,https://ask-pharmacy.co.uk/product/lapiena-deep/,rule
@@ -1981,9 +1981,9 @@ FIL:BELLAST-PRIMEHARD-1ML-LIDO-1X,Dermal filler,Moda Pharmacy,Bellast Prime Hard
 FIL:BELLAST-PRIMEMILD-1ML-LIDO-1X,Dermal filler,Moda Pharmacy,Bellast Prime Mild with Lidocaine (1 x 1ml),https://www.modapharmacy.co.uk/product/bellast-prime-mild-with-lidocaine-1-x-1ml,high*
 FIL:BELLAST-PRIMESOFT-1ML-LIDO-1X,Dermal filler,Moda Pharmacy,Bellast Prime Soft with Lidocaine (1 x 1ml),https://www.modapharmacy.co.uk/product/bellast-prime-soft-with-lidocaine-1-x-1ml,high*
 FIL:BELLAST-PRIMEULTRA-1ML-LIDO-1X,Dermal filler,Moda Pharmacy,Bellast Prime Ultra with Lidocaine (1 x 1ml),https://www.modapharmacy.co.uk/product/bellast-prime-ultra-with-lidocaine-1-x-1ml,high*
-FIL:AESSOA-DEEP-1ML-LIDO-1X,Dermal filler,MyPharmacyspace,Aessoa Deep Lidocaine Syringe 1 x 1.0 ml (prescription item),https://mypharmacyspace.co.uk/products/aessoa-deep-lidocaine-syringe-1-x-1-0-ml-prescription-item,high*
-FIL:AESSOA-SHINE-LIDO-1X,Dermal filler,MyPharmacyspace,Aessoa Shine with Lidocaine (on prescription),https://mypharmacyspace.co.uk/products/aessoa-shine-with-lidocaine-on-prescription,rule
-FIL:AESSOA-ULTRA-1ML-LIDO-1X,Dermal filler,MyPharmacyspace,Aessoa Ultra Lidocaine Syringe 1 x 1.0 ml (Prescription Item),https://mypharmacyspace.co.uk/products/aessoa-ultra-lidocaine-syringe-1-x-1-0-ml-prescription-item,high*
+FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,MyPharmacyspace,Aessoa Deep Lidocaine Syringe 1 x 1.0 ml (prescription item),https://mypharmacyspace.co.uk/products/aessoa-deep-lidocaine-syringe-1-x-1-0-ml-prescription-item,high*
+FIL:FILLER-AESSOA-SHINE-LIDO,Dermal filler,MyPharmacyspace,Aessoa Shine with Lidocaine (on prescription),https://mypharmacyspace.co.uk/products/aessoa-shine-with-lidocaine-on-prescription,rule
+FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,MyPharmacyspace,Aessoa Ultra Lidocaine Syringe 1 x 1.0 ml (Prescription Item),https://mypharmacyspace.co.uk/products/aessoa-ultra-lidocaine-syringe-1-x-1-0-ml-prescription-item,high*
 FIL:FILLER-BELOTERO-BALANCE,Dermal filler,MyPharmacyspace,Belotero Balance (on prescription),https://mypharmacyspace.co.uk/products/belotero-balance-on-prescription,rule
 FIL:FILLER-BELOTERO-BALANCE-LIDO,Dermal filler,MyPharmacyspace,Belotero Balance with Lidocaine (on prescription),https://mypharmacyspace.co.uk/products/belotero-balance-with-lidocaine-on-prescription,rule
 FIL:FILLER-BELOTERO-INTENSE,Dermal filler,MyPharmacyspace,Belotero Intense (on prescription),https://mypharmacyspace.co.uk/products/belotero-intense-on-prescription,rule

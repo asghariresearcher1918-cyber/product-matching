@@ -935,20 +935,10 @@ FIL:VARIOUSHA-LGYVOIRECLASSICPLUS-1ML-LIDO-1X,Dermal filler,(various HA) Lg Yvoi
 FIL:VARIOUSHA-LGYVOIREVOLUMEPLUS-1ML-LIDO-1X,Dermal filler,(various HA) Lg Yvoire Volume Plus,(various HA),Lg Yvoire Volume Plus With Lidocaine 1 X 1ml Innotds Slimming 4 X 5ml,1 x 1ml with lidocaine,varies,1,,brand page only,1,2,supplier page
 FIL:VARIOUSHA-LGYVOIREYSOLUTION720-1ML-LIDO-1X,Dermal filler,(various HA) Lg Yvoire Ysolution 720,(various HA),Lg Yvoire Ysolution 720 With Lidocaine,1 x 1ml with lidocaine,varies,1,,brand page only,1,1,supplier page
 FIL:ADVANCED-FILLERNORMALSKIN-1X,Dermal filler,Advanced Filler Normal Skin,Advanced,Advanced Filler Normal Skin,,not named,1,,brand page only,1,1,supplier page
-FIL:AESSOA-DEEP-1X,Dermal filler,Aessoa Deep,Aessoa,Aessoa Deep,,not named,1,,brand page only,1,1,supplier page
-FIL:AESSOA-DEEP-1ML-1X,Dermal filler,Aessoa Deep,Aessoa,Aessoa Deep 1ml,1 x 1ml,not named,1,,brand page only,1,1,supplier page
-FIL:AESSOA-DEEP-LIDO-1X,Dermal filler,Aessoa Deep,Aessoa,Aessoa Deep Lido,with lidocaine,not named,1,,brand page only,1,1,supplier page
-FIL:AESSOA-DEEP-1ML-LIDO-1X,Dermal filler,Aessoa Deep,Aessoa,Aessoa Deep with Lido. (1x1ml) Inj.,1 x 1ml with lidocaine,not named,1,,brand page only,5,6,supplier page
-FIL:AESSOA-DEEP2-1ML-1X,Dermal filler,Aessoa Deep 2,Aessoa,Aessoa Deep 1x1ml 2,1 x 1ml,not named,1,,brand page only,1,1,supplier page
-FIL:AESSOA-GLOBAL-1ML-1X,Dermal filler,Aessoa Global,Aessoa,Aessoa Global 1x1ml Clone,1 x 1ml,not named,1,,brand page only,2,2,supplier page
-FIL:AESSOA-GLOBAL-LIDO-1X,Dermal filler,Aessoa Global,Aessoa,Aessoa Global Lido,with lidocaine,not named,1,,brand page only,1,1,supplier page
-FIL:AESSOA-GLOBAL-1ML-LIDO-1X,Dermal filler,Aessoa Global,Aessoa,Aessoa Global with Lido. (1x1ml) Inj.,1 x 1ml with lidocaine,not named,1,,brand page only,5,6,supplier page
-FIL:AESSOA-GLOBALFINE-1X,Dermal filler,Aessoa Global Fine,Aessoa,Aessoa Global,,not named,1,,brand page only,1,1,supplier page
-FIL:AESSOA-SHINE-LIDO-1X,Dermal filler,Aessoa Shine,Aessoa,Aessoa Shine Lido,with lidocaine,not named,1,,brand page only,2,3,supplier page
-FIL:AESSOA-ULTRA-1ML-1X,Dermal filler,Aessoa Ultra,Aessoa,Aessoa Ultra 1x1ml,1 x 1ml,not named,1,,brand page only,2,2,supplier page
-FIL:AESSOA-ULTRA-LIDO-1X,Dermal filler,Aessoa Ultra,Aessoa,Aessoa Ultra Lido,with lidocaine,not named,1,,brand page only,1,1,supplier page
-FIL:AESSOA-ULTRA-1ML-LIDO-1X,Dermal filler,Aessoa Ultra,Aessoa,Aessoa Ultra with Lido. (1x1ml) Inj.,1 x 1ml with lidocaine,not named,1,,brand page only,5,6,supplier page
-FIL:AESSOA-ULTRASUBQ-1X,Dermal filler,Aessoa Ultra Subq,Aessoa,Aessoa Ultra,,not named,1,,brand page only,1,1,supplier page
+FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,Aessoa,Aessoa,Aessoa Deep (1 x 1ml with lidocaine),1 x 1ml with lidocaine,,1,,reference-matched,9,10,https://www.teleta.co.uk/product-category/dermal-fillers/aessoa-dermal-fillers/
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,Aessoa,Aessoa,Aessoa Global (1 x 1ml with lidocaine),1 x 1ml with lidocaine,,1,,reference-matched,9,10,https://www.teleta.co.uk/product-category/dermal-fillers/aessoa-dermal-fillers/
+FIL:FILLER-AESSOA-SHINE-LIDO,Dermal filler,Aessoa,Aessoa,Aessoa Shine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,,1,,reference-matched,2,3,https://www.teleta.co.uk/product-category/dermal-fillers/aessoa-dermal-fillers/
+FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,Aessoa,Aessoa,Aessoa Ultra (1 x 1ml with lidocaine),1 x 1ml with lidocaine,,1,,reference-matched,9,10,https://www.teleta.co.uk/product-category/dermal-fillers/aessoa-dermal-fillers/
 FIL:AILEENE-VOL1-1ML-2X,Dermal filler,Aileene Vol 1,Aileene,Aileene Vol 1 (2x1ml),2 x 1ml,not named,2,,brand page only,1,1,supplier page
 FIL:AILEENE-VOL2-1ML-2X,Dermal filler,Aileene Vol 2,Aileene,Aileene Vol 2 (2x1ml),2 x 1ml,not named,2,,brand page only,1,1,supplier page
 FIL:AILEENE-VOL3-1ML-2X,Dermal filler,Aileene Vol 3,Aileene,Aileene Vol 3 (2x1ml),2 x 1ml,not named,2,,brand page only,1,1,supplier page

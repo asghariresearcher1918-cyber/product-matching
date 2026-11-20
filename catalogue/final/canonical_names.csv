@@ -315,12 +315,12 @@ FIL:PRODERMIS-PROSCULPTDEEP-1X,Prodermis — PROSCULPT Deep,Smile Pharma
 FIL:PRODERMIS-PROSCULPTSUBQ-1X,Prodermis — PROSCULPT Sub-Q,Smile Pharma
 FIL:ILLUMA-PNSKINBOOSTERAMP-25ML-2X,iLLUMA PN Skin Booster &amp; Skin Healer - 2 x 2.5ml,Smile Pharma
 FIL:LUMIFIL-ICE-1X,LUMIFIL ICE PACK,Smile Pharma
-FIL:AESSOA-GLOBAL-1ML-LIDO-1X,Aessoa Global with Lido. (1x1ml) Inj.,Wimpole Fillers
-FIL:AESSOA-DEEP-1ML-LIDO-1X,Aessoa Deep with Lido. (1x1ml) Inj.,Wimpole Fillers
+FIL:FILLER-AESSOA-GLOBAL-LIDO,Aessoa Global with Lido. (1x1ml) Inj.,Wimpole Fillers
+FIL:FILLER-AESSOA-DEEP-LIDO,Aessoa Deep with Lido. (1x1ml) Inj.,Wimpole Fillers
 FIL:KAIRAX-ENHANCE45-2ML-1X,Kairax Enhance 45 2ml,Ask Pharmacy
 FIL:ILLUMA-LUNA1-1ML-1X,Illuma Luna 1ml X 1 Syringe,Ask Pharmacy
 FIL:ILLUMA-NADSKINBOOSTER2-5ML-1X,Illuma Nad Skin Booster 2 Vial X 5ml,Ask Pharmacy
-FIL:AESSOA-ULTRA-1ML-LIDO-1X,Aessoa Ultra with Lido. (1x1ml) Inj.,Wimpole Fillers
+FIL:FILLER-AESSOA-ULTRA-LIDO,Aessoa Ultra with Lido. (1x1ml) Inj.,Wimpole Fillers
 FIL:KAIRAX-DEEP1-11ML-1X,Kairax Deep Dermal Filler (1.1.1ml),Smile Pharma
 FIL:KAIRAX-FINE-11ML-1X,Kairax Fine (1x1.1ml),Smile Pharma
 FIL:KAIRAX-SUBQ-11ML-1X,Kairax Sub-Q Dermal Filler (1x1.1ml),Smile Pharma
@@ -330,10 +330,7 @@ FIL:REGENOVUE-SUBQPLUS-11ML-1X,Regenovue Sub-Q Plus (1.1ml),Smile Pharma
 FIL:LUMIFIL-LLITE-LIDO-1X,LUMIFIL L-LITE with Lidocaine,Smile Pharma
 FIL:LUMIFIL-LMAX-LIDO-1X,LUMIFIL L-MAX with Lidocaine,Smile Pharma
 FIL:LUMIFIL-LKISS-LIDO-1X,LUMIFIL L-KISS with Lidocaine,Smile Pharma
-FIL:AESSOA-DEEP-LIDO-1X,Aessoa Deep Lido,Dr. Adams Pharmacy
-FIL:AESSOA-GLOBAL-LIDO-1X,Aessoa Global Lido,Dr. Adams Pharmacy
-FIL:AESSOA-SHINE-LIDO-1X,Aessoa Shine Lido,Dr. Adams Pharmacy
-FIL:AESSOA-ULTRA-LIDO-1X,Aessoa Ultra Lido,Dr. Adams Pharmacy
+FIL:FILLER-AESSOA-SHINE-LIDO,Aessoa Shine Lido,Dr. Adams Pharmacy
 FIL:ALIAXIN-EV-1X,Aliaxin EV,Dr. Adams Pharmacy
 FIL:ALIAXIN-FL-1X,Aliaxin FL,Dr. Adams Pharmacy
 FIL:ALIAXIN-GP-1X,Aliaxin GP,Dr. Adams Pharmacy
@@ -441,9 +438,6 @@ FIL:NEXFILL-DEEP-1ML-LIDO-1X,NEXFILL Deep (1ml with Lidocaine),LPG Clinics Whole
 FIL:NEXFILL-FINE-1ML-LIDO-1X,NEXFILL Fine (1ml with Lidocaine),LPG Clinics Wholesale
 FIL:RHA-1-1ML-2X,RHA 1 (2x1ml),LPG Clinics Wholesale
 FIL:RHAKISS-07ML-2X,RHA KISS 2 X 0.7ml,LPG Clinics Wholesale
-FIL:AESSOA-DEEP-1ML-1X,Aessoa Deep 1ml,LPG Clinics Wholesale
-FIL:AESSOA-GLOBAL-1ML-1X,Aessoa Global 1x1ml Clone,Ask Pharmacy
-FIL:AESSOA-ULTRA-1ML-1X,Aessoa Ultra 1x1ml,Ask Pharmacy
 FIL:VOLIFIL-DEEP-1ML-1X,VOLIFIL Deep 1 X 1ml,LPG Clinics Wholesale
 FIL:VOLIFIL-SUBQ-1ML-1X,VOLIFIL SubQ 1 X 1ml,LPG Clinics Wholesale
 FIL:VOLIFIL-CLASSIC-1ML-1X,VOLIFIL Classic 1 X 1ml,LPG Clinics Wholesale
@@ -593,9 +587,6 @@ FIL:COLENA-MEDIUMDEEP-LIDO-1X,Colena Medium With Lidocaine,Kiss Aesthetics Whole
 FIL:COLENA-MACROSUBQ-LIDO-1X,Colena Macro With Lidocaine,Kiss Aesthetics Wholesale
 FIL:COLENA-SMALLFINE-LIDO-1X,Colena Small With Lidocaine,Kiss Aesthetics Wholesale
 FIL:ILLUMA-PNBOOSTER2SYRINGES-25ML-2X,iLLUMA PN Booster 2.5ml x 2 syringes,Kiss Aesthetics Wholesale
-FIL:AESSOA-GLOBALFINE-1X,Aessoa Global,Kiss Aesthetics Wholesale
-FIL:AESSOA-DEEP-1X,Aessoa Deep,Kiss Aesthetics Wholesale
-FIL:AESSOA-ULTRASUBQ-1X,Aessoa Ultra,Kiss Aesthetics Wholesale
 FIL:LEMON-FILLFINE-1X,Lemon Fill Fine,Kiss Aesthetics Wholesale
 FIL:LEMON-FILLKISS-1X,Lemon Fill Kiss,Kiss Aesthetics Wholesale
 FIL:LEMON-FILLCONTOUR-1X,Lemon Fill Contour,Kiss Aesthetics Wholesale
@@ -693,7 +684,6 @@ FIL:CROMA-PHILARTHAIR-2ML-1X,Croma Philart Hair 1x2ml,Ask Pharmacy
 FIL:CROMA-PHILARTNEXT-2ML-1X,Croma Philart Next 1x2ml,Ask Pharmacy
 FIL:CROMA-PHILARTINJECTABLEPN-2ML-1X,Croma Philart Injectable PN 1x2ml,Ask Pharmacy
 FIL:HADERM-SUBSKIN-0ML-1X,Haderm Sub Skin 10ml,Ask Pharmacy
-FIL:AESSOA-DEEP2-1ML-1X,Aessoa Deep 1x1ml 2,Ask Pharmacy
 FIL:MONALISA-FILLERMILD-1X,Monalisa Filler Mild Clone,Ask Pharmacy
 FIL:LAPIENA-CLASSIC-1X,Lapiena Classic,Ask Pharmacy
 FIL:LAPIENA-DEEP-1X,Lapiena Deep,Ask Pharmacy

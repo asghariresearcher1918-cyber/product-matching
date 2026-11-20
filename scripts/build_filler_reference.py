@@ -82,6 +82,13 @@ add("Belotero", "Belotero Revive", "1 x 1ml", "detect", ["revive"], BL)
 add("Belotero", "Belotero Hydro", "1 x 1ml", "no", ["hydro"], BL)
 add("Belotero", "Belotero (unspecified)", "1 x 1ml", "detect", [], BL, default="detect")
 
+# ---- Aessoa / Oreon Life Science (4 products, each 1 x 1ml, all with lidocaine) ----
+AE = "https://www.teleta.co.uk/product-category/dermal-fillers/aessoa-dermal-fillers/"
+add("Aessoa", "Aessoa Shine", "1 x 1ml", "yes", ["shine"], AE)
+add("Aessoa", "Aessoa Global", "1 x 1ml", "yes", ["global"], AE)
+add("Aessoa", "Aessoa Deep", "1 x 1ml", "yes", ["deep"], AE)
+add("Aessoa", "Aessoa Ultra", "1 x 1ml", "yes", ["ultra"], AE)
+
 # ---- Revolax / Across (all 1 x 1.1ml, lidocaine common) ----
 RV = "https://www.revolax.co.uk"
 add("Revolax", "Revolax Sub-Q", "1 x 1.1ml", "detect", ["sub-q", "sub q", "subq"], RV)
