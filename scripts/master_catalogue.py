@@ -34,9 +34,15 @@ def biostim(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand")
 def fat(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "variant")),
                         spec=join(g(r, "volume_ml") + "ml" if g(r, "volume_ml") else "", "x" + g(r, "vials_per_pack") if g(r, "vials_per_pack") else ""),
                         man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="", verified=g(r, "agent_verified"), source="")
+def _mkt(v): return "" if v in ("UK/std", "UK", "std", "") else v
+def _packspec(n, vol, unit="ml", lido=False):
+    """Market-style presentation: '2 x 1ml with lidocaine'."""
+    n = n or "1"
+    base = f"{n} x {vol}{unit}" if vol else (f"{n} x" if n != "1" else "")
+    return (base + (" with lidocaine" if lido else "")).strip()
 def filler(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "line")),
-                           spec=join(g(r, "volume_ml") + "ml" if g(r, "volume_ml") else "", "+lido" if g(r, "lidocaine") in ("yes", "Y", "True") else "", "x" + g(r, "syringes_per_pack") if g(r, "syringes_per_pack") else ""),
-                           man=g(r, "manufacturer"), pack=g(r, "syringes_per_pack"), market=g(r, "market"), verified=g(r, "brand_verified"), source=g(r, "source"))
+                           spec=_packspec(g(r, "syringes_per_pack"), g(r, "volume_ml"), "ml", g(r, "lidocaine") in ("yes", "Y", "True")),
+                           man=g(r, "manufacturer"), pack=g(r, "syringes_per_pack"), market=_mkt(g(r, "market")), verified=g(r, "brand_verified"), source=g(r, "source"))
 def thread(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "thread_type"), g(r, "material")),
                            spec=join(g(r, "gauge"), g(r, "length"), g(r, "delivery"), "x" + g(r, "pcs_per_pack") if g(r, "pcs_per_pack") else ""),
                            man=g(r, "manufacturer"), pack=g(r, "pcs_per_pack"), market="", verified=g(r, "brand_verified"), source="")
@@ -46,8 +52,8 @@ def weight(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"),
 def medicine(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brands"), product=g(r, "molecule"),
                              spec=join(g(r, "strength"), g(r, "form")), man="", pack="", market=g(r, "category"), verified="", source=g(r, "source"))
 def booster(r): return dict(group=g(r, "active_class"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "line")),
-                            spec=join(g(r, "volume"), "x" + g(r, "pack") if g(r, "pack") not in ("", "1") else ""), man=g(r, "manufacturer"),
-                            pack=g(r, "pack"), market=g(r, "market"), verified="", source="")
+                            spec=_packspec(g(r, "pack"), (g(r, "volume") or "").replace("ml", ""), "ml"), man=g(r, "manufacturer"),
+                            pack=g(r, "pack"), market=_mkt(g(r, "market")), verified="", source="")
 def skincare(r): return dict(group=g(r, "function"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "name")),
                              spec=g(r, "size"), man="", pack="", market="", verified="", source="")
 def needle(r): return dict(group=g(r, "subtype"), brand=g(r, "brands"), product=join(g(r, "subtype"), g(r, "gauge"), g(r, "length"), g(r, "volume"), g(r, "luer")),
