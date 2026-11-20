@@ -176,8 +176,8 @@ def main():
 </style>"""
     html = html.replace("</style>", css, 1)
 
-    # 6c) show more matches in the search autocomplete (was capped at 4)
-    html = html.replace("matches.slice(0,4)", "matches.slice(0,10)")
+    # 6c) remove the search autocomplete cap - show every match (was capped at 4)
+    html = html.replace("matches.slice(0,4).forEach", "matches.forEach")
 
     # 7) test banner so it is clear this is the data-load step, prices pending
     banner = ('<div style="background:#0E7C66;color:#fff;font:600 13px/1.4 Inter,sans-serif;'
