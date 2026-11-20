@@ -25,9 +25,13 @@ def join(*parts, sep=" "):
 
 
 # (file, category label, tag, row->unified mapper)
+def _vials(n):
+    n = n or "1"
+    return f"{n} vials" if n not in ("1", "") else "1 vial"
 def toxin(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "molecule")),
-                          spec=join(g(r, "units_per_vial") + g(r, "unit_type") + "/vial", "x" + g(r, "vials_per_pack") if g(r, "vials_per_pack") else ""),
-                          man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="", verified=g(r, "status"), source=g(r, "source"))
+                          spec=_vials(g(r, "vials_per_pack")),
+                          man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="",
+                          verified="reference-matched" if g(r, "status") == "reference" else g(r, "status"), source=g(r, "source"))
 def biostim(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "variant")),
                             spec=join(g(r, "strength"), g(r, "volume_ml") + "ml" if g(r, "volume_ml") else "", "x" + g(r, "vials_per_pack") if g(r, "vials_per_pack") else "", "+lido" if g(r, "lidocaine") in ("yes", "Y", "True") else ""),
                             man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="", verified=g(r, "agent_verified"), source="")

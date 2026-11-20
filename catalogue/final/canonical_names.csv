@@ -1,26 +1,25 @@
 uid,name,title_source
-TOX:AZZALURE-125U-2X,Azzalure 125IU (2 Vials),Fox Pharma
-TOX:AZZALURE-125U-1X,Azzalure 125IU,Fox Pharma
-TOX:BOCOUTURE-100U-2X,Bocouture 100iu x 2 Vials,Fox Pharma
-TOX:BOCOUTURE-100U-1X,Bocouture 100iu x 1 Vials,Fox Pharma
-TOX:BOCOUTURE-50U-2X,Bocouture 50iu x 2 Vials,Fox Pharma
-TOX:BOCOUTURE-50U-1X,Bocouture 50iu x 1 Vials,Fox Pharma
-TOX:BOTOX-100U-1X,BOTOX 100IU,Fox Pharma
-TOX:BOTOX-200U-1X,BOTOX 200IU,Fox Pharma
-TOX:BOTOX-50U-1X,BOTOX 50IU,Fox Pharma
-TOX:DYSPORT-500U-2X,Dysport 1 Box (2 X 500IU Vials ),Fox Pharma
-TOX:DYSPORT-500U-1X,Dysport Single Vial (1 x 500IU vial),Fox Pharma
-TOX:LETYBO-50U-1X,Letybo 50IU,Fox Pharma
-TOX:XEOMIN-100U-1X,Xeomin 100u Single Pack Botulinum Toxin Type A Not Approved For Aesthetic Use Please Refer To Emc,Church Pharmacy
-TOX:ALLUZIENCE-125U-2X,Alluzience 125IU 2 Vials Twin Pack,Fox Pharma
-TOX:RELFYDESS-150U-1X,Relfydess Solution For Injection Single (100 units/ml),Fox Pharma
-TOX:ALLUZIENCE-125U-1X,Alluzience 125iu (SINGLE PACK 1 Vial ),Smile Pharma
-TOX:NUCEIVA-50U-1X,Nuceiva 1 x 50 unit vial,Healthxchange
-TOX:DYSPORT-300U-1X,Dysport 300iu (1 x vial),Moda Pharmacy
-TOX:ALLUZIENCE-125U-2X-ROI,Alluzience Twin Pack ROI 200 Speywood/ml,Healthxchange
-TOX:AZZALURE-125U-2X-ROI,Azzalure Twin Pack ROI 125 Speywood/ml,Healthxchange
-TOX:RELFYDESS-150U-10X,Relfydess 100 units/ml 1.5ml x 10 Vials,Healthxchange
-TOX:XEOMIN-50U-1X,Xeomin 50u - Single Pack - Botulinum Toxin Type A,Church Pharmacy
+TOX:TOX-AZZALURE-125SPEYWOODUNITS,Azzalure 125IU,Fox Pharma
+TOX:TOX-BOCOUTURE-100UNITS,Bocouture 100iu x 1 Vials,Fox Pharma
+TOX:TOX-BOCOUTURE-50UNITS,Bocouture 50iu x 1 Vials,Fox Pharma
+TOX:TOX-BOTOX-100UNITS,BOTOX 100IU,Fox Pharma
+TOX:TOX-BOTOX-200UNITS,BOTOX 200IU,Fox Pharma
+TOX:TOX-BOTOX-50UNITS,BOTOX 50IU,Fox Pharma
+TOX:TOX-DYSPORT-500UNITS,Dysport Single Vial (1 x 500IU vial),Fox Pharma
+TOX:TOX-LETYBO-100UNITS,Letybo Botulinum Toxin Type A,Church Pharmacy
+TOX:TOX-XEOMIN-100UNITS,Xeomin 100u Single Pack Botulinum Toxin Type A Not Approved For Aesthetic Use Please Refer To Emc,Church Pharmacy
+TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Azzalure 125IU (2 Vials),Fox Pharma
+TOX:TOX-DYSPORT-500UNITS-2X,Dysport 1 Box (2 X 500IU Vials ),Fox Pharma
+TOX:TOX-LETYBO-50UNITS,Letybo 50IU,Fox Pharma
+TOX:TOX-BOCOUTURE-50UNITS-2X,Bocouture 50iu x 2 Vials,Fox Pharma
+TOX:TOX-BOCOUTURE-100UNITS-2X,Bocouture 100iu x 2 Vials,Fox Pharma
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Alluzience 125IU 2 Vials Twin Pack,Fox Pharma
+TOX:TOX-RELFYDESS-150UNITS,Relfydess Solution For Injection Single (100 units/ml),Fox Pharma
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Alluzience 125iu (SINGLE PACK 1 Vial ),Smile Pharma
+TOX:TOX-NUCEIVA-100UNITS,Nuceiva 1 x 50 unit vial,Healthxchange
+TOX:TOX-DYSPORT-300UNITS,Dysport 300iu (1 x vial),Moda Pharmacy
+TOX:TOX-RELFYDESS-150UNITS-10X,Relfydess 100 units/ml 1.5ml x 10 Vials,Healthxchange
+TOX:TOX-XEOMIN-50UNITS,Xeomin 50u - Single Pack - Botulinum Toxin Type A,Church Pharmacy
 FIL:ALIAXIN-EV-1ML-2X,Aliaxin EV - Essential Volume 2 x 1ml,Healthxchange
 FIL:ALIAXIN-FL-1ML-2X,Aliaxin FL - Lips & Fine Lines 2 x 1ml,Healthxchange
 FIL:ALIAXIN-GP-1ML-2X,Aliaxin GP - Global Performance 2 x 1ml,Healthxchange
