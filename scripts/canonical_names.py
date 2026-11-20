@@ -28,6 +28,8 @@ NOTE = re.compile(r"\b(exp(iry)?\.?\s*\d[\d/\.]*|discontinued|previously[^)]*|me
 
 
 def clean(t):
+    import html as _html
+    t = _html.unescape(t)                               # &amp; -> & , &deg; -> ° etc.
     t = re.sub(r"[®™©]", "", t)          # ® ™ ©
     t = NOISE.sub(" ", t)
     t = NOTE.sub(" ", t)
@@ -79,25 +81,44 @@ def canonical(titles):
     return name, " | ".join(others)
 
 
+SIZE_RX = re.compile(r"\d+\s*(ml|mg|mcg|g|%|iu)\b|\d+g\b", re.I)
+PACK_RX = re.compile(r"\d+\s*x\s*\d|pack of|box of|\bx\s*\d+|single|double|\bkit\b|vials?|syringes?", re.I)
+NOISE_RX = re.compile(r"stock item|vat|prescription item|out of stock|appropriate training|available on request", re.I)
+
+
 def main():
-    idx = collections.defaultdict(list)
-    for r in csv.DictReader(open(ROOT / "catalogue/final/master_listing_index.csv", encoding="utf-8")):
-        if r.get("listing_title"):
-            idx[r["uid"]].append(r["listing_title"])
-    out = []
-    for uid, titles in idx.items():
-        name, variants = canonical(titles)
-        out.append({"uid": uid, "name": name, "title_variants": variants})
+    rows = [r for r in csv.DictReader(open(ROOT / "catalogue/final/master_listing_index.csv", encoding="utf-8")) if r.get("listing_title")]
+
+    # 1) per (category, pharmacy) title-quality score: how often titles carry size + pack, penalising noise
+    q = collections.defaultdict(lambda: [0, 0.0])
+    for r in rows:
+        t = r["listing_title"]
+        s = (1 if SIZE_RX.search(t) else 0) + (1 if PACK_RX.search(t) else 0) - (1.5 if NOISE_RX.search(t) else 0)
+        k = (r["category"], r["supplier"]); q[k][0] += 1; q[k][1] += s
+    score = {k: v[1] / v[0] for k, v in q.items()}   # mean title-quality per pharmacy within a category
+
+    # 2) group listings by product; pick the title from the best-ranked pharmacy for that category
+    byuid = collections.defaultdict(list)
+    for r in rows:
+        byuid[r["uid"]].append(r)
+    out, ranked_cats = [], {}
+    for uid, lst in byuid.items():
+        cat = lst[0]["category"]
+        # best pharmacy first (category score), then the most complete (longest cleaned) of its titles
+        best = max(lst, key=lambda r: (score.get((cat, r["supplier"]), -9), len(clean(r["listing_title"]))))
+        nm = clean(best["listing_title"])
+        nm = recase(nm) if nm == nm.lower() else nm
+        out.append({"uid": uid, "name": nm, "title_source": best["supplier"]})
+        ranked_cats.setdefault(cat, sorted({r["supplier"] for r in rows if r["category"] == cat},
+                                           key=lambda s: -score.get((cat, s), -9)))
     with open(ROOT / "catalogue/final/canonical_names.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["uid", "name", "title_variants"]); w.writeheader(); w.writerows(out)
-    print("wrote canonical_names.csv:", len(out), "codes")
-    # sample
-    names = {r["uid"]: r["name"] for r in out}
-    for pat in ["BST:PROFHILO", "FIL:", "BST:SUNEKOS", "BST:NUCLEOFILL"]:
-        print(f"\n{pat} examples:")
-        for uid, nm in list(names.items()):
-            if uid.startswith(pat): print(f"  {uid:34} -> {nm}")
-            if sum(1 for u in names if u.startswith(pat) and list(names).index(u) <= list(names).index(uid)) >= 6: break
+        w = csv.DictWriter(f, fieldnames=["uid", "name", "title_source"]); w.writeheader(); w.writerows(out)
+    # write the per-category pharmacy priority used (for transparency / owner review)
+    with open(ROOT / "catalogue/final/title_source_priority.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f); w.writerow(["category", "pharmacy_priority (best title source first)"])
+        for cat, order in sorted(ranked_cats.items()):
+            w.writerow([cat, " > ".join(order[:8])])
+    print("wrote canonical_names.csv:", len(out), "codes; title_source_priority.csv:", len(ranked_cats), "categories")
 
 
 if __name__ == "__main__":

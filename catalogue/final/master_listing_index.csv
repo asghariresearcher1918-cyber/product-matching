@@ -317,7 +317,7 @@ FIL:DEFINISSE-TOUCH-10ML-LIDO-1X,Dermal filler,Church Pharmacy,definisse touch l
 FIL:KYSENSE-DEFINE-1ML-4X,Dermal filler,Church Pharmacy,kysense define training recommended,https://store.churchpharmacy.co.uk/product/kysense-define-training-recommended-118568,high*
 FIL:VARIOUSHA-LGYVOIREVOLUMEPLUS-1ML-LIDO-1X,Dermal filler,Church Pharmacy,lg yvoire volume plus with lidocaine 1 x 1ml innotds slimming 4 x 5ml,https://store.churchpharmacy.co.uk/product/lg-yvoire-volume-plus-with-lidocaine-1-x-1ml-innotds-slimming-4-x-5ml-122316,high*
 FIL:FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT-LIDO,Dermal filler,Church Pharmacy,restylane skinbooster vital light lidocaine hyaluronic acidnon animal stabilised lidocaine 1 x 10 ml,https://store.churchpharmacy.co.uk/product/restylane-skinbooster-vital-light-lidocaine-hyaluronic-acidnon-animal-stabilised-lidocaine-1-x-10-ml-122338,high
-FIL:DRCYJ-HAIRFILLER-1ML-1X,Dermal filler,Fox Pharma,Dr CYJ Hair Filler (2 x 1ml),https://foxpharma.co.uk/product/dr-cyj-hair-filler-2-x-1ml/,high*
+FIL:DRCYJ-DRCYJHAIRFILLER-1ML-1X,Dermal filler,Fox Pharma,Dr CYJ Hair Filler (2 x 1ml),https://foxpharma.co.uk/product/dr-cyj-hair-filler-2-x-1ml/,high*
 FIL:FILLER-RESTYLANE-SKINBOOSTERSVITAL-LIDO,Dermal filler,Fox Pharma,Restylane Skinboosters Vital Lidocaine (1 x 1ml),https://foxpharma.co.uk/product/restylane-skinboosters-vital-with-lidocaine/,high
 FIL:BELLAST-PRIMELIPSCOOLING-1X,Dermal filler,Fox Pharma,Bellast Prime Lips Cooling Pack,https://foxpharma.co.uk/product/bellast-lips-ice-packs/,rule
 FIL:FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT-LIDO,Dermal filler,Fox Pharma,Restylane Skinboosters Vital Light Lidocaine (1 x 1ml),https://foxpharma.co.uk/product/restylane-skinboosters-vital-light-with-lidocaine/,high
@@ -850,7 +850,7 @@ FIL:FILLER-RESTYLANE-LYFT-LIDO,Dermal filler,Smile Pharma,Restylane Lyft with Li
 FIL:FILLER-JUVEDERM-VOLUMA-LIDO-2X,Dermal filler,Smile Pharma,Juvederm Voluma (2 x 1ml),https://smilepharma.co.uk/product/juvederm-voluma-2-x-1ml/,high
 FIL:FILLER-JUVEDERM-SKINVIVE-LIDO-2X,Dermal filler,Smile Pharma,SKINVIVE by Juvederm (2 x 1.0ml),https://smilepharma.co.uk/product/skinvive-by-juvederm-2-x-1-0ml/,high
 FIL:FILLER-STYLAGE-HYDROMAX,Dermal filler,Smile Pharma,Stylage Bi-Soft HydroMax,https://smilepharma.co.uk/product/stylage-bi-soft-hydro-max/,high
-FIL:ILLUMA-HYDROBOOSTER3-2ML-3X,Dermal filler,Smile Pharma,iLLUMA Hydro Booster - 2ml x 3 Syringes,https://smilepharma.co.uk/product/illuma-hydro-booster/,high*
+FIL:ILLUMA-HYDROBOOSTERSYRINGES-2ML-3X,Dermal filler,Smile Pharma,iLLUMA Hydro Booster - 2ml x 3 Syringes,https://smilepharma.co.uk/product/illuma-hydro-booster/,high*
 FIL:PRODERMIS-PROSCULPTFINE-1X,Dermal filler,Smile Pharma,Prodermis — PROSCULPT Fine,https://smilepharma.co.uk/product/prodermis-prosculpt-fine/,rule
 FIL:PRODERMIS-PROSCULPTDEEP-1X,Dermal filler,Smile Pharma,Prodermis — PROSCULPT Deep,https://smilepharma.co.uk/product/prodermis-prosculpt-deep/,rule
 FIL:PRODERMIS-PROSCULPTSUBQ-1X,Dermal filler,Smile Pharma,Prodermis — PROSCULPT Sub-Q,https://smilepharma.co.uk/product/prodermis-prosculpt-sub-q/,rule
@@ -868,8 +868,8 @@ FIL:AESSOA-ULTRA-1ML-LIDO-1X,Dermal filler,Smile Pharma,Aessoa Ultra with Lidoca
 FIL:KAIRAX-DEEP1-11ML-1X,Dermal filler,Smile Pharma,Kairax Deep Dermal Filler (1.1.1ml),https://smilepharma.co.uk/product/kairax-deep-dermal-filler-1-1-1ml/,rule
 FIL:KAIRAX-FINE-11ML-1X,Dermal filler,Smile Pharma,Kairax Fine (1x1.1ml),https://smilepharma.co.uk/product/kairax-fine-1x1-1ml/,high*
 FIL:KAIRAX-SUBQ-11ML-1X,Dermal filler,Smile Pharma,Kairax Sub-Q Dermal Filler (1x1.1ml),https://smilepharma.co.uk/product/kairax-sub-q-dermal-filler-1x1-1ml/,high*
-FIL:REGENOVUE-DEEPPLUS-11ML-1X,Dermal filler,Smile Pharma,Regenovue Deep Plus (1.1ml),https://smilepharma.co.uk/product/regenovue-deep-plus-1-1ml/,rule
-FIL:REGENOVUE-FINEPLUS-11ML-1X,Dermal filler,Smile Pharma,Regenovue Fine Plus (1.1ml),https://smilepharma.co.uk/product/regenovue-fine-plus-1-1ml/,rule
+FIL:REGENOVUE-DEEPPLUS1-11ML-1X,Dermal filler,Smile Pharma,Regenovue Deep Plus (1.1ml),https://smilepharma.co.uk/product/regenovue-deep-plus-1-1ml/,rule
+FIL:REGENOVUE-FINEPLUS1-11ML-1X,Dermal filler,Smile Pharma,Regenovue Fine Plus (1.1ml),https://smilepharma.co.uk/product/regenovue-fine-plus-1-1ml/,rule
 FIL:REGENOVUE-SUBQPLUS-11ML-1X,Dermal filler,Smile Pharma,Regenovue Sub-Q Plus (1.1ml),https://smilepharma.co.uk/product/regenovue-sub-q-plus-1-1ml/,rule
 FIL:LUMIFIL-LLITE-LIDO-1X,Dermal filler,Smile Pharma,LUMIFIL L-LITE with Lidocaine,https://smilepharma.co.uk/product/lumifil-l-lite-with-lidocaine/,rule
 FIL:LUMIFIL-LMAX-LIDO-1X,Dermal filler,Smile Pharma,LUMIFIL L-MAX with Lidocaine,https://smilepharma.co.uk/product/lumifil-l-max-with-lidocaine/,rule
@@ -966,7 +966,7 @@ FIL:FILLER-REVOLAX-FINE-LIDO,Dermal filler,Dr. Adams Pharmacy,Revolax Fine with 
 FIL:FILLER-REVOLAX-SUBQ-LIDO,Dermal filler,Dr. Adams Pharmacy,Revolax Sub-Q with Lido (EU),https://www.dradamspharmacy.co.uk/products/view/589,rule
 FIL:SAYPHA-RICH-1ML-1X,Dermal filler,Dr. Adams Pharmacy,Saypha Rich (1 x 1ml syr.),https://www.dradamspharmacy.co.uk/products/view/99,high
 FIL:SAYPHA-VOLUME-1ML-LIDO-1X,Dermal filler,Dr. Adams Pharmacy,Saypha Volume Lido (1 x 1ml),https://www.dradamspharmacy.co.uk/products/view/98,high
-FIL:SKINFILL-BACIO2-25ML-1X,Dermal filler,Dr. Adams Pharmacy,SkinFill Bacio (2×2.5ml),https://www.dradamspharmacy.co.uk/products/view/178,rule
+FIL:SKINFILL-BACIO-25ML-1X,Dermal filler,Dr. Adams Pharmacy,SkinFill Bacio (2×2.5ml),https://www.dradamspharmacy.co.uk/products/view/178,rule
 FIL:SKINFILL-BLUE1226-2ML-1X,Dermal filler,Dr. Adams Pharmacy,SkinFill Blue (1x2ml),https://www.dradamspharmacy.co.uk/products/view/177,high*
 FIL:FILLER-STYLAGE-HYDRO,Dermal filler,Dr. Adams Pharmacy,Stylage Bi-Soft Hydro (1 x 1ml),https://www.dradamspharmacy.co.uk/products/view/122,high
 FIL:FILLER-STYLAGE-HYDROMAX,Dermal filler,Dr. Adams Pharmacy,Stylage Bi-Soft HydroMax (1 x 1ml),https://www.dradamspharmacy.co.uk/products/view/123,high
@@ -1219,7 +1219,7 @@ FIL:OUYE-FINEPLUS-10ML-1X,Dermal filler,LPG Clinics Wholesale,OUYE Fine Plus 1.0
 FIL:OUYE-SUBQPLUS-1ML-1X,Dermal filler,LPG Clinics Wholesale,OUYE SubQ Plus 1 x 1ml,https://www.lpgclinicswholesale.com/product/ouye-sub-q-plus-1ml/,high*
 FIL:REVITRANE-VOLUME-1ML-1X,Dermal filler,LPG Clinics Wholesale,Revitrane Volume 1ml,https://www.lpgclinicswholesale.com/product/revitrane-volume-1ml/,high*
 FIL:REVITRANE-CLASSIC-1ML-1X,Dermal filler,LPG Clinics Wholesale,Revitrane Classic 1ml,https://www.lpgclinicswholesale.com/product/revitrane-classic-1ml/,high*
-FIL:REVITRANE-1ML-1X,Dermal filler,LPG Clinics Wholesale,Revitrane Premium 1ml,https://www.lpgclinicswholesale.com/product/revitrane-premium-1ml/,partial - check line/size
+FIL:REVITRANE-Q7826-1ML-1X,Dermal filler,LPG Clinics Wholesale,Revitrane Premium 1ml,https://www.lpgclinicswholesale.com/product/revitrane-premium-1ml/,partial - check line/size
 FIL:REVITRANE-SUBQ-1ML-1X,Dermal filler,LPG Clinics Wholesale,Revitrane Premium SubQ 1ml,https://www.lpgclinicswholesale.com/product/revitrane-premium-subq-1ml/,high*
 FIL:FILLER-STYLAGE-M-LIDO-2X,Dermal filler,LPG Clinics Wholesale,STYLAGE M (2x1ml) without Lidocaine,https://www.lpgclinicswholesale.com/product/stylage-m-2x1ml-lidocaine/,high
 FIL:REVITRANE-Q7826-1ML-1X,Dermal filler,LPG Clinics Wholesale,Revitrane Premium Q 1ml (short dated 7.8.26),https://www.lpgclinicswholesale.com/product/revitrane-premium-q-1ml/,high*
@@ -1246,7 +1246,7 @@ FIL:KAIRAX-ENHANCE45OFFICIALONLINE-1X,Dermal filler,LPG Clinics Wholesale,Kairax
 FIL:FILLER-RESTYLANE-ORIGINAL-LIDO,Dermal filler,LPG Clinics Wholesale,Restylane with Lidocaine (1x1ml),https://www.lpgclinicswholesale.com/product/restylane-with-lidocaine-1x1ml/,high
 FIL:KAIRAX-ENHANCELIPOIL-1X,Dermal filler,LPG Clinics Wholesale,Kairax Enhance Lip Oil,https://www.lpgclinicswholesale.com/product/kairax-enhance-lip-oil/,rule
 FIL:KAIRAX-ENHANCEICE-1X,Dermal filler,LPG Clinics Wholesale,Kairax Enhance Ice Pack,https://www.lpgclinicswholesale.com/product/kairax-enhance-ice-pack/,rule
-FIL:ILLUMA-HYDROBOOSTER3SYRINGES-2ML-3X,Dermal filler,LPG Clinics Wholesale,iLLUMA Hydro Booster 3 x 2ml Syringes,https://www.lpgclinicswholesale.com/product/illuma-hydro-booster-2ml-x-3-syringes/,high*
+FIL:ILLUMA-HYDROBOOSTERSYRINGES-2ML-3X,Dermal filler,LPG Clinics Wholesale,iLLUMA Hydro Booster 3 x 2ml Syringes,https://www.lpgclinicswholesale.com/product/illuma-hydro-booster-2ml-x-3-syringes/,high*
 FIL:FILLER-RESTYLANE-DEFYNE-LIDO,Dermal filler,LPG Clinics Wholesale,Restylane Defyne (1ml),https://www.lpgclinicswholesale.com/product/restylane-defyne-1ml/,high
 FIL:ILLUMA-HYDROBOOSTERLUNASAVE-1X,Dermal filler,LPG Clinics Wholesale,iLLUMA Hydro Booster & iLLUMA Luna – Save 10%,https://www.lpgclinicswholesale.com/product/illuma-luna-booster-package/,rule
 FIL:ILLUMA-HYDROBOOSTER-2ML-1X,Dermal filler,LPG Clinics Wholesale,iLLUMA Hydro Booster 1 x 2ml Syringe,https://www.lpgclinicswholesale.com/product/illuma-hydro-booster-2ml-x-1-syringe/,high*
@@ -1330,7 +1330,7 @@ FIL:ESTYME-SMOOTH-1ML-1X,Dermal filler,LPG Clinics Wholesale,Estyme Smooth 1 x 1
 FIL:ESTYME-LIPS-1ML-1X,Dermal filler,LPG Clinics Wholesale,Estyme Lips 1 x 1ml,https://www.lpgclinicswholesale.com/product/estyme-lips-1-x-1ml/,high*
 FIL:ESTYME-FORM-1ML-1X,Dermal filler,LPG Clinics Wholesale,Estyme Form 1 x 1ml,https://www.lpgclinicswholesale.com/product/estyme-form-1-x-1ml/,high*
 FIL:ESTYME-SCULPT-1ML-1X,Dermal filler,LPG Clinics Wholesale,Estyme Sculpt 1 x 1ml,https://www.lpgclinicswholesale.com/product/estyme-sculpt-1-x-1ml/,high*
-FIL:DRCYJ-HAIRFILLER-1ML-1X,Dermal filler,LPG Clinics Wholesale,Dr CYJ Hair Filler 1x1ml Single Syringe,https://www.lpgclinicswholesale.com/product/dr-cyj-hair-filler-1x1ml-single/,high*
+FIL:DRCYJ-DRCYJHAIRFILLER-1ML-1X,Dermal filler,LPG Clinics Wholesale,Dr CYJ Hair Filler 1x1ml Single Syringe,https://www.lpgclinicswholesale.com/product/dr-cyj-hair-filler-1x1ml-single/,high*
 FIL:HYACORP-MLF2-1X,Dermal filler,LPG Clinics Wholesale,HYACORP MLF2,https://www.lpgclinicswholesale.com/product/hyacorp-mlf2/,rule
 FIL:HYACORP-MLF1-1X,Dermal filler,LPG Clinics Wholesale,HYACORP MLF1,https://www.lpgclinicswholesale.com/product/hyacorp-mlf1/,rule
 FIL:AILEENE-VOL1-1ML-2X,Dermal filler,LPG Clinics Wholesale,Aileene Vol 1 (2x1ml),https://www.lpgclinicswholesale.com/product/aileene-vol-1-2x1ml/,high*
@@ -1547,8 +1547,8 @@ FIL:LUMIFIL-LKISS-LIDO-1X,Dermal filler,Kiss Aesthetics Wholesale,Lumifil Kiss w
 FIL:LUMIFIL-LMAX-LIDO-1X,Dermal filler,Kiss Aesthetics Wholesale,Lumifil Max with Lidocaine,https://kissaestheticswholesale.com/product/lumifil-max-with-lidocaine/,rule
 FIL:FILLER-JUVEDERM-ULTRA2-LIDO-2X,Dermal filler,Kiss Aesthetics Wholesale,Juvederm Ultra Smile with Lidocaine 2 x 0.55ml,https://kissaestheticswholesale.com/product/juvederm-ultra-smile-with-lidocaine-2-x-0-55ml/,high
 FIL:FILLER-JUVEDERM-VOLBELLA-LIDO-2X,Dermal filler,Kiss Aesthetics Wholesale,Juvederm Volbella with Lidocaine 2 x 1ml,https://kissaestheticswholesale.com/product/juvederm-volbella-with-lidocaine-2-x-1ml/,high
-FIL:REGENOVUE-FINEPLUS-11ML-1X,Dermal filler,Kiss Aesthetics Wholesale,Regenovue Fine Plus 1 x 1.1ml,https://kissaestheticswholesale.com/product/regenovue-fine-plus-1-x-1-1ml/,high*
-FIL:REGENOVUE-DEEPPLUS-11ML-1X,Dermal filler,Kiss Aesthetics Wholesale,Regenovue Deep Plus 1 x 1.1ml,https://kissaestheticswholesale.com/product/regenovue-deep-plus-1-x-1-1ml/,high*
+FIL:REGENOVUE-FINEPLUS1-11ML-1X,Dermal filler,Kiss Aesthetics Wholesale,Regenovue Fine Plus 1 x 1.1ml,https://kissaestheticswholesale.com/product/regenovue-fine-plus-1-x-1-1ml/,high*
+FIL:REGENOVUE-DEEPPLUS1-11ML-1X,Dermal filler,Kiss Aesthetics Wholesale,Regenovue Deep Plus 1 x 1.1ml,https://kissaestheticswholesale.com/product/regenovue-deep-plus-1-x-1-1ml/,high*
 FIL:REGENOVUE-SUBQPLUS-11ML-1X,Dermal filler,Kiss Aesthetics Wholesale,Regenovue SUBQ Plus 1 x 1.1ml,https://kissaestheticswholesale.com/product/regenovue-subq-plus-1-x-1-1ml/,high*
 FIL:KAIRAX-FINE-LIDO-1X,Dermal filler,Kiss Aesthetics Wholesale,Kairax Fine with Lidocaine,https://kissaestheticswholesale.com/product/kairax-fine-with-lidocaine/,rule
 FIL:KAIRAX-DEEP-LIDO-1X,Dermal filler,Kiss Aesthetics Wholesale,Kairax Deep with Lidocaine,https://kissaestheticswholesale.com/product/kairax-deep-with-lidocaine/,rule
@@ -1580,7 +1580,7 @@ FIL:STARFILL-IMPLANTPLUS-11ML-LIDO-1X,Dermal filler,Kiss Aesthetics Wholesale,St
 FIL:TEOFIL-CLASSIC-1X,Dermal filler,Kiss Aesthetics Wholesale,Teofil Classic,https://kissaestheticswholesale.com/product/teofil-classic/,rule
 FIL:TEOFIL-DEEP-1X,Dermal filler,Kiss Aesthetics Wholesale,Teofil Deep,https://kissaestheticswholesale.com/product/teofil-deep/,rule
 FIL:TEOFIL-SUBQ-1X,Dermal filler,Kiss Aesthetics Wholesale,Teofil Subq,https://kissaestheticswholesale.com/product/teofil-subq/,rule
-FIL:ILLUMA-HYDROBOOSTER3SYRINGES-2ML-3X,Dermal filler,Kiss Aesthetics Wholesale,iLLUMA Hydro Booster (3 x 2ml syringes),https://kissaestheticswholesale.com/product/illuma-hydro-booster-3-x-2ml-syringes/,high*
+FIL:ILLUMA-HYDROBOOSTERSYRINGES-2ML-3X,Dermal filler,Kiss Aesthetics Wholesale,iLLUMA Hydro Booster (3 x 2ml syringes),https://kissaestheticswholesale.com/product/illuma-hydro-booster-3-x-2ml-syringes/,high*
 FIL:INFINI-FILLERSOFTLIPS-1X,Dermal filler,Kiss Aesthetics Wholesale,INFINI PREMIUM FILLER SOFT LIPS +,https://kissaestheticswholesale.com/product/infini-premium-filler-soft-lips/,rule
 FIL:INFINI-FILLERS-1X,Dermal filler,Kiss Aesthetics Wholesale,INFINI PREMIUM FILLER S+,https://kissaestheticswholesale.com/product/infini-premium-filler-s/,rule
 FIL:INFINI-FILLERM-1X,Dermal filler,Kiss Aesthetics Wholesale,INFINI PREMIUM FILLER M+,https://kissaestheticswholesale.com/product/infini-premium-filler-m/,rule
@@ -1630,7 +1630,7 @@ FIL:STARFILL-IMPLANTPLUS1-11ML-1X,Dermal filler,Herts & Essex Supplies,Starfill 
 FIL:STARFILL-PLUS-11ML-LIDO-1X,Dermal filler,Herts & Essex Supplies,Starfill Plus Lidocaine 1 x 1.1ml,https://www.hesupplies.co.uk/products/starfill-plus-lidocaine-1-x-1-1ml,high*
 FIL:REVITRANE-CLASSIC-1ML-1X,Dermal filler,Herts & Essex Supplies,Revitrane Classic 1 x 1ml,https://www.hesupplies.co.uk/products/revitrane-classic-1-x-1ml,high*
 FIL:REVITRANE-VOLUME-1ML-1X,Dermal filler,Herts & Essex Supplies,Revitrane Volume 1 x 1ml,https://www.hesupplies.co.uk/products/revitrane-volume-1-x-1ml,high*
-FIL:REVITRANE-1ML-1X,Dermal filler,Herts & Essex Supplies,Revitrane Premium 1 x 1ml,https://www.hesupplies.co.uk/products/revitrane-premium-1-x-1ml,partial - check line/size
+FIL:REVITRANE-Q7826-1ML-1X,Dermal filler,Herts & Essex Supplies,Revitrane Premium 1 x 1ml,https://www.hesupplies.co.uk/products/revitrane-premium-1-x-1ml,partial - check line/size
 FIL:FILLER-RESTYLANE-ORIGINAL-LIDO,Dermal filler,Herts & Essex Supplies,Restylane with Lidocaine (1 x 1ml),https://www.hesupplies.co.uk/products/restylane-with-lidocaine-1-x-1ml,high
 FIL:FILLER-RESTYLANE-KYSSE-LIDO,Dermal filler,Herts & Essex Supplies,Restylane Kysse with Lidocaine 1 x 1ml,https://www.hesupplies.co.uk/products/restylane-kysse-with-lidocaine-1-x-1ml,high
 FIL:FILLER-RESTYLANE-REFYNE-LIDO,Dermal filler,Herts & Essex Supplies,Restylane Refyne Lidocaine (1x1ml ),https://www.hesupplies.co.uk/products/restylane-refyne-lidocaine-1x1ml,high
@@ -1745,7 +1745,7 @@ FIL:FILLER-JUVEDERM-ULTRA4-LIDO-2X,Dermal filler,Ask Pharmacy,juvederm ultra 4,h
 FIL:FILLER-JUVEDERM-ULTRA2-LIDO-2X,Dermal filler,Ask Pharmacy,juvederm ultra smile,https://ask-pharmacy.co.uk/product/juvederm-ultra-smile/,rule
 FIL:FILLER-JUVEDERM-VOLUMA-LIDO-2X,Dermal filler,Ask Pharmacy,juvederm voluma with lidocaine 2x1ml,https://ask-pharmacy.co.uk/product/juvederm-voluma-with-lidocaine-2x1ml/,high
 FIL:FILLER-JUVEDERM-ULTRA2-LIDO-2X,Dermal filler,Ask Pharmacy,juvederm ultra 2,https://ask-pharmacy.co.uk/product/juvederm-ultra-2/,rule
-FIL:DRCYJ-HAIRFILLER-1ML-1X,Dermal filler,Ask Pharmacy,dr cyj hair filler 1 x 1ml,https://ask-pharmacy.co.uk/product/dr-cyj-hair-filler-1-x-1ml/,high*
+FIL:DRCYJ-DRCYJHAIRFILLER-1ML-1X,Dermal filler,Ask Pharmacy,dr cyj hair filler 1 x 1ml,https://ask-pharmacy.co.uk/product/dr-cyj-hair-filler-1-x-1ml/,high*
 FIL:FILLER-JUVEDERM-ULTRA3-LIDO-2X,Dermal filler,Ask Pharmacy,juvederm ultra 3 single syringe 1ml,https://ask-pharmacy.co.uk/product/juvederm-ultra-3-single-syringe-1ml/,high
 FIL:FILLER-JUVEDERM-ULTRA4-LIDO-2X,Dermal filler,Ask Pharmacy,juvederm ultra 4 single syringe 1ml,https://ask-pharmacy.co.uk/product/juvederm-ultra-4-single-syringe-1ml/,high
 FIL:FILLER-JUVEDERM-ULTRA2-LIDO-2X,Dermal filler,Ask Pharmacy,juvederm ultra 2 single syringe 1ml,https://ask-pharmacy.co.uk/product/juvederm-ultra-2-single-syringe-1ml/,high
@@ -6400,9 +6400,9 @@ SKN:HINNAO-TECHNOLOGY-RESVERATROL,"Skincare, haircare & peels",Fox Pharma,HINNAO
 SKN:INBIOAMBER-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbioamber Single Microneedling Serum (1 x 5ml),https://foxpharma.co.uk/product/inbioamber-single-microneedling-serum-1-x-5ml/,high
 SKN:INBIOHAIR-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbiohair Single Microneedling Serum (1 x 5ml),https://foxpharma.co.uk/product/inbiohair-single-microneedling-serum-1-x-5ml/,high
 SKN:INBIOREGEN-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbioregen Single Microneedling Serum (1 x 5ml),https://foxpharma.co.uk/product/inbioregen-single-microneedling-serum-1-x-5ml/,high
-SKN:INBIOREGEN-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbioregen Microneedling Serum (5 x 5ml),https://foxpharma.co.uk/product/inbioregen-microneedling-serum-5-x-5ml/,high
-SKN:INBIOHAIR-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbiohair Microneedling Serum (5 x 5ml),https://foxpharma.co.uk/product/inbiohair-microneedling-serum-5-x-5ml/,high
-SKN:INBIOAMBER-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbioamber Microneedling Serum (5 x 5ml),https://foxpharma.co.uk/product/inbioamber-microneedling-serum-5-x-5ml/,high
+SKN:INBIOREGEN-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbioregen Microneedling Serum (5 x 5ml),https://foxpharma.co.uk/product/inbioregen-microneedling-serum-5-x-5ml/,high
+SKN:INBIOHAIR-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbiohair Microneedling Serum (5 x 5ml),https://foxpharma.co.uk/product/inbiohair-microneedling-serum-5-x-5ml/,high
+SKN:INBIOAMBER-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbioamber Microneedling Serum (5 x 5ml),https://foxpharma.co.uk/product/inbioamber-microneedling-serum-5-x-5ml/,high
 SKN:NELSONS-ARNICA-CREAM-30G,"Skincare, haircare & peels",Fox Pharma,Nelsons Arnica Cream 30g,https://foxpharma.co.uk/product/nelsons-arnica-cream-30g/,high
 SKN:NELSONS-ARNICA-CREAM-50G,"Skincare, haircare & peels",Fox Pharma,Nelsons Arnica Cream 50g,https://foxpharma.co.uk/product/nelsons-arnica-cream-50g/,high
 SKN:AFTERMED-LIP,"Skincare, haircare & peels",Fox Pharma,AFTERMED LIP TREATMENT,https://foxpharma.co.uk/product/aftermed-lip-treatment/,high
@@ -6418,7 +6418,7 @@ SKN:ALASTIN-INHANCE-SOOTHING-SERUM,"Skincare, haircare & peels",Fox Pharma,Alast
 SKN:ALASTIN-HA-IMMERSIVE-SERUM,"Skincare, haircare & peels",Fox Pharma,Alastin HA Immersive Serum,https://foxpharma.co.uk/product/alastin-ha-immersive-serum/,high
 SKN:ALASTIN-ULTRA-NOURISHING-MOISTURIZER,"Skincare, haircare & peels",Fox Pharma,Alastin Ultra Nourishing Moisturizer,https://foxpharma.co.uk/product/alastin-ultra-nourishing-moisturizer/,high
 SKN:ALASTIN-NECTAR-FACE-SERUM,"Skincare, haircare & peels",Fox Pharma,Alastin Skin Nectar Face Serum,https://foxpharma.co.uk/product/alastin-skin-nectar-face-serum/,high
-SKN:INBIOFACE-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbioface Microneedling Serum (5 x 5ml),https://foxpharma.co.uk/product/inbioface-microneedling-serum-5-x-5ml/,high
+SKN:INBIOFACE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbioface Microneedling Serum (5 x 5ml),https://foxpharma.co.uk/product/inbioface-microneedling-serum-5-x-5ml/,high
 SKN:INBIOFACE-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Fox Pharma,Inbioface Single Microneedling Serum (1 x 5ml),https://foxpharma.co.uk/product/inbioface-single-microneedling-serum-1-x-5ml/,high
 SKN:HYDROPEPTIDE-COLLAGEL-FACE-MASK,"Skincare, haircare & peels",Fox Pharma,HydroPeptide Collagel Face Mask (x 12),https://foxpharma.co.uk/product/hydropeptide-collagel-face-mask-x-12/,high
 SKN:HYDROPEPTIDE-COLLAGEL-FACE-MASK,"Skincare, haircare & peels",Fox Pharma,HydroPeptide Collagel Face Mask,https://foxpharma.co.uk/product/hydropeptide-collagel-face-mask/,high
@@ -7785,11 +7785,11 @@ SKN:MEDIK8-PORE-REFINING-SCRUB-75ML,"Skincare, haircare & peels",Two Face Aesthe
 SKN:CREAM-CAKE-UNBELIEVABEL-GEL,"Skincare, haircare & peels",Two Face Aesthetics,Cream Cake Unbelievabel Gel,https://www.twofaceaesthetics.com/products/cream-cake-unbelievabel-gel,high
 SKN:LEMONBOTTLE-MASTER-CREAM-30ML,"Skincare, haircare & peels",Two Face Aesthetics,LEMONBOTTLE Master Cream - 1 x 30ml,https://www.twofaceaesthetics.com/products/lemon-bottle-r-master-cream-1-x-30ml,high
 SKN:AFTERMED-LIPS-8ML,"Skincare, haircare & peels",Two Face Aesthetics,AfterMED LIPS,https://www.twofaceaesthetics.com/products/aftermed-lips,high
-SKN:INBIOFACE-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Two Face Aesthetics,Inbioface Microneedling Serum (5 x 5ml),https://www.twofaceaesthetics.com/products/inbioface-microneedling-serum-5-x-5ml,high
-SKN:INBIOREGEN-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Two Face Aesthetics,Inbioregen Microneedling Serum (5 x 5ml),https://www.twofaceaesthetics.com/products/inbioregen-microneedling-serum-5-x-5ml,high
-SKN:INBIOHAIR-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Two Face Aesthetics,Inbiohair Microneedling Serum (5 x 5ml),https://www.twofaceaesthetics.com/products/inbiohair-microneedling-serum-5-x-5ml,high
+SKN:INBIOFACE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Two Face Aesthetics,Inbioface Microneedling Serum (5 x 5ml),https://www.twofaceaesthetics.com/products/inbioface-microneedling-serum-5-x-5ml,high
+SKN:INBIOREGEN-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Two Face Aesthetics,Inbioregen Microneedling Serum (5 x 5ml),https://www.twofaceaesthetics.com/products/inbioregen-microneedling-serum-5-x-5ml,high
+SKN:INBIOHAIR-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Two Face Aesthetics,Inbiohair Microneedling Serum (5 x 5ml),https://www.twofaceaesthetics.com/products/inbiohair-microneedling-serum-5-x-5ml,high
 SKN:INBIOHAIR-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Two Face Aesthetics,Inbiohair Microneedling Serum (1 x 5ml) single vial,https://www.twofaceaesthetics.com/products/inbiohair-microneedling-serum-5-x-5ml-copy,high
-SKN:INBIOAMBER-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Two Face Aesthetics,Inbioamber Microneedling Serum (5 x 5ml),https://www.twofaceaesthetics.com/products/inbioamber-microneedling-serum-5-x-5ml,high
+SKN:INBIOAMBER-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Two Face Aesthetics,Inbioamber Microneedling Serum (5 x 5ml),https://www.twofaceaesthetics.com/products/inbioamber-microneedling-serum-5-x-5ml,high
 SKN:INBIOAMBER-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Two Face Aesthetics,Inbioamber Microneedling Serum (1 x 5ml) single vial,https://www.twofaceaesthetics.com/products/inbioamber-microneedling-serum-5-x-5ml-copy,high
 SKN:BLISTEX-LIP-BALM-REPAIR-CREAM,"Skincare, haircare & peels",Two Face Aesthetics,Blistex Lip Balm Repair Cream,https://www.twofaceaesthetics.com/products/blistex-lip-balm-repair-cream,high
 SKN:BATISTE-DRY-SHAMPOO-200ML,"Skincare, haircare & peels",Two Face Aesthetics,Batiste Dry Shampoo 200ml,https://www.twofaceaesthetics.com/products/batiste-dry-shampoo-200ml,high
@@ -7829,13 +7829,13 @@ SKN:PRX-PLUS-VIAL-4ML,"Skincare, haircare & peels",Wimpole Fillers,PRX-Plus (5 X
 SKN:PRX-T33-PEEL-4ML,"Skincare, haircare & peels",Wimpole Fillers,PRX-T33 Peel (5 X 4ml),https://wimpolefillers.co.uk/product/prx-t33-peel-5-x-4ml/,high
 SKN:BIENPEEL-TCA-35-PEELING-6ML,"Skincare, haircare & peels",IGO Aesthetics,Bienpeel TCA 35% peeling 1 x 6 ml,https://igoaesthetics.com/products/bienpeel-tca-35-peeling-1-x-6-ml,high
 SKN:EXOBLOOM-SCALP,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Exobloom Scalp,https://kissaestheticswholesale.com/product/exobloom-scalp/,high
-SKN:INBIOFACE-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbioface Microneedling Serum 5 x 5ml,https://kissaestheticswholesale.com/product/inbioface-microneedling-serum-5-x-5ml/,high
+SKN:INBIOFACE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbioface Microneedling Serum 5 x 5ml,https://kissaestheticswholesale.com/product/inbioface-microneedling-serum-5-x-5ml/,high
 SKN:INBIOFACE-SINGLE-VIAL-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbioface *SINGLE VIAL* Microneedling Serum 1 x 5ml,https://kissaestheticswholesale.com/product/inbioface-single-vial-microneedling-serum-1-x-5ml/,high
-SKN:INBIOREGEN-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbioregen Microneedling Serum 5 x 5ml,https://kissaestheticswholesale.com/product/inbioregen-microneedling-serum-5-x-5ml/,high
+SKN:INBIOREGEN-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbioregen Microneedling Serum 5 x 5ml,https://kissaestheticswholesale.com/product/inbioregen-microneedling-serum-5-x-5ml/,high
 SKN:INBIOREGEN-SINGLE-VIAL-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbioregen *SINGLE VIAL* Microneedling Serum 1 x 5ml,https://kissaestheticswholesale.com/product/inbioregen-single-vial-microneedling-serum-1-x-5ml/,high
-SKN:INBIOHAIR-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbiohair Microneedling Serum 5 x 5ml,https://kissaestheticswholesale.com/product/inbiohair-microneedling-serum-5-x-5ml/,high
+SKN:INBIOHAIR-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbiohair Microneedling Serum 5 x 5ml,https://kissaestheticswholesale.com/product/inbiohair-microneedling-serum-5-x-5ml/,high
 SKN:INBIOHAIR-SINGLE-VIAL-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbiohair *SINGLE VIAL* Microneedling Serum 1 x 5ml,https://kissaestheticswholesale.com/product/inbiohair-single-vial-microneedling-serum-1-x-5ml/,high
-SKN:INBIOAMBER-SINGLE-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbioamber Microneedling Serum 5 x 5ml,https://kissaestheticswholesale.com/product/inbioamber-microneedling-serum-5-x-5ml/,high
+SKN:INBIOAMBER-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbioamber Microneedling Serum 5 x 5ml,https://kissaestheticswholesale.com/product/inbioamber-microneedling-serum-5-x-5ml/,high
 SKN:INBIOAMBER-SINGLE-VIAL-MICRONEEDLING-SERUM-5ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,Inbioamber *SINGLE VIAL* Microneedling Serum 1 x 5ml,https://kissaestheticswholesale.com/product/inbioamber-single-vial-microneedling-serum-5-x-5ml/,high
 SKN:BIOREPEELCL3-BIOREPEEL-CL3-FND-6ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,BioRePeel CL3 FND (Face) 5 x 6ml,https://kissaestheticswholesale.com/product/biorepeel-cl3-fnd-face-5-x-6ml/,high
 SKN:BIOREPEELCL3-BIOREPEEL-CL3-BODY-VIALS-12ML,"Skincare, haircare & peels",Kiss Aesthetics Wholesale,BioRePeel CL3 Body 3 x 12ml,https://kissaestheticswholesale.com/product/biorepeel-cl3-body-3-x-12ml/,high
