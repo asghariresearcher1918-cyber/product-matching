@@ -25,6 +25,7 @@ CATS = [
  dict(kind="skincare", ref="skincare.csv", lmap="skincare_listing_map.csv", prod="skincare_products.csv", tag="SKN", prefix="SKIN"),
  dict(kind="toxin", ref="toxins.csv", lmap="toxin_listing_map.csv", prod="toxin_products.csv", tag="TOX", prefix="TOX"),
  dict(kind="fat", ref="fat.csv", lmap="fat_listing_map.csv", prod="fat_products.csv", tag="FAT", prefix="FAT"),
+ dict(kind="biostim", ref="biostim.csv", lmap="biostim_listing_map.csv", prod="biostim_products.csv", tag="BIO", prefix="BIO"),
 ]
 ACCESSORY = re.compile(r"roller banner|\bbanner\b|poster|sticker|lanyard|t-?shirt|brochure|leaflet|display stand|shelf", re.I)
 BUNDLE = re.compile(r"\bfree\b|get 1|get one|\+ ?1 ?x|buy 1 get|bundle|worth £|multibuy", re.I)
@@ -37,6 +38,10 @@ _PACK_STRICT = (r"box of\s*(\d+)", r"pack of\s*(\d+)",
 _PACK_LOOSE = (r"\bx\s*(\d+)\b", r"(\d+)\s*x\b")        # generic x10 / 10x (titles only)
 
 
+_PACK_EXPLICIT = (r"box contents?:?\s*(\d+)\s*vials?", r"box of\s*(\d+)", r"pack of\s*(\d+)",
+                  r"contains?\s*(\d+)\s*vials?")
+
+
 def pack_count(text, strict=False):
     """How many vials/syringes in the pack. Returns None when the text does not state it (so the caller can read the
     page / image before defaulting). strict=True uses only vial/box/ml-anchored patterns (safe on long page text)."""
@@ -46,6 +51,25 @@ def pack_count(text, strict=False):
             n = int(m.group(1))
             if 1 <= n <= 60:
                 return n
+    return None
+
+
+def pack_from_doc(text, brand):
+    """Read the pack from a product PAGE or image where the text may list many other products (supplier price-lists).
+    Only trust a pack token that sits next to THIS product's own brand name, so 'relfydess pack of 10' on the same
+    page can't be mis-read as this product's pack. Returns None if the brand's own window states no pack."""
+    bl = brand.lower()
+    pats = _PACK_EXPLICIT + _PACK_STRICT
+    usage = re.compile(r"divide|split|reconstitut|dissolv|draw up|mix|inject|per session|each area")
+    for mb in re.finditer(re.escape(bl), text):
+        window = text[mb.start():mb.start() + 150]       # the brand and the bracket/line right after it
+        for rx in pats:
+            mm = re.search(rx, window)
+            if mm:
+                n = int(mm.group(1))
+                before = window[max(0, mm.start() - 40):mm.start()]   # skip usage text ("divide into 3 syringes")
+                if 1 <= n <= 60 and not usage.search(before):
+                    return n
     return None
 
 
@@ -76,7 +100,7 @@ def run(cfg, refnames):
     for r in csv.DictReader(open(refpath, encoding="utf-8")):
         r["alias_list"] = [a for a in r["aliases"].split("|") if a]
         ref[r["brand"]].append(r)
-    refbrands = set(ref)
+    refbrands = sorted(ref, key=len, reverse=True)   # longest first: 'Linerase Hydro' wins over 'Linerase'
     cur = {r["code"]: r for r in csv.DictReader(open(FINAL / cfg["prod"], encoding="utf-8"))}
     listings = list(csv.DictReader(open(FINAL / cfg["lmap"], encoding="utf-8")))
 
@@ -104,9 +128,9 @@ def run(cfg, refnames):
         base_n, vol = pack_vol(best["pack"])
         packn, pack_src = pack_count(tl), "title"
         if packn is None and m.get("id"):                 # owner rule: read the whole page, then the image, before defaulting
-            packn = pack_count(page_text(m["id"]).lower(), strict=True); pack_src = "page"
+            packn = pack_from_doc(page_text(m["id"]).lower(), rb); pack_src = "page"   # only trust a pack beside THIS brand
             if packn is None:
-                packn = pack_count((image_text(m["id"]) or "").lower(), strict=True); pack_src = "image(OCR)"
+                packn = pack_from_doc((image_text(m["id"]) or "").lower(), rb); pack_src = "image(OCR)"
         if packn is None:
             packn, pack_src = base_n, "assumed (not stated)"
         if "kit" in best["product_name"].lower():
@@ -137,6 +161,13 @@ def run(cfg, refnames):
                                             volume_ml=best.get("volume", ""), vials_per_pack=packn, total_units="",
                                             licensed_use="", official_pack_sizes="", note="", source=best["source"],
                                             status="reference", suppliers=set(), listings=0))
+        elif cfg["kind"] == "biostim":
+            p = prods.setdefault(code, dict(code=code, brand=rb, variant=best.get("variant", ""),
+                                            active_agent=best.get("active_agent", ""), equivalence_group=best.get("equivalence_group", ""),
+                                            manufacturer=best.get("manufacturer", ""), strength=best.get("strength", ""),
+                                            volume_ml=vol, vials_per_pack=packn, lidocaine="yes" if lido else "no",
+                                            agent_verified=("yes (reference)" if best.get("active_agent") != "unknown" else "confirm with supplier"),
+                                            note=best.get("equivalence_group", ""), source=best["source"], suppliers=set(), listings=0))
         else:  # fat dissolving
             p = prods.setdefault(code, dict(code=code, brand=rb, variant=best.get("variant", ""),
                                             active_agent=best.get("active_agent", ""), equivalence_group=best.get("active_class", ""),
@@ -165,6 +196,10 @@ def run(cfg, refnames):
         pc = ["code", "brand", "molecule", "equivalence_group", "manufacturer", "units_per_vial", "unit_type", "volume_ml",
               "vials_per_pack", "total_units", "licensed_use", "official_pack_sizes", "note", "source", "status", "suppliers", "listings"]
         skey = lambda p: (p["brand"], p["code"])
+    elif cfg["kind"] == "biostim":
+        pc = ["code", "brand", "variant", "active_agent", "equivalence_group", "manufacturer", "strength", "volume_ml",
+              "vials_per_pack", "lidocaine", "agent_verified", "suppliers", "listings", "note", "source"]
+        skey = lambda p: (p.get("equivalence_group", ""), p["brand"], p["code"])
     else:  # fat dissolving
         pc = ["code", "brand", "variant", "active_agent", "equivalence_group", "manufacturer", "volume_ml",
               "vials_per_pack", "agent_verified", "suppliers", "listings", "note"]

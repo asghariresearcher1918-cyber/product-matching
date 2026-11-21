@@ -18,15 +18,10 @@ TOX:TOX-RELFYDESS-150UNITS,Relfydess Solution For Injection Single (100 units/ml
 TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Alluzience 125iu (SINGLE PACK 1 Vial ),Smile Pharma
 TOX:TOX-NUCEIVA-100UNITS,Nuceiva 50U,John Bannon Pharmacy
 TOX:TOX-DYSPORT-300UNITS,Dysport 300iu (1 x vial),Moda Pharmacy
-TOX:TOX-LETYBO-50UNITS-10X,Letybo 50iu Botulinum Toxin Type A,Smile Pharma
-TOX:TOX-BOCOUTURE-100UNITS-6X,Bocouture 100 Units,Skin On You
 TOX:TOX-BOTOX-50UNITS-50X,Botox 1 X 50 unit vial,Healthxchange
 TOX:TOX-NUCEIVA-100UNITS-50X,Nuceiva 1 x 50 unit vial,Healthxchange
 TOX:TOX-RELFYDESS-150UNITS-10X,Relfydess 100 units/ml 1.5ml x 10 Vials,Healthxchange
 TOX:TOX-XEOMIN-50UNITS,Xeomin 50u - Single Pack - Botulinum Toxin Type A,Church Pharmacy
-TOX:TOX-BOTOX-100UNITS-2X,Botox Botulinum Toxin Type A Vials,MedFX
-TOX:TOX-BOCOUTURE-50UNITS-50X,Bocouture Neurotoxin Type A 50 units,MedFX
-TOX:TOX-RELFYDESS-150UNITS-2X,Relfydess Single Pack,MedFX
 FIL:ALIAXIN-EV-1ML-2X,Aliaxin EV - Essential Volume 2 x 1ml,Healthxchange
 FIL:ALIAXIN-FL-1ML-2X,Aliaxin FL - Lips & Fine Lines 2 x 1ml,Healthxchange
 FIL:ALIAXIN-GP-1ML-2X,Aliaxin GP - Global Performance 2 x 1ml,Healthxchange
@@ -315,9 +310,8 @@ FIL:VOLIFIL-DEEPKISS-11ML-1X,VOLIFIL DEEP 1.1ml next generation dermal filler,Sm
 FIL:VOLIFIL-SUBQMAX-11ML-1X,VOLIFIL SUB-Q 1.1ml next generation dermal filler,Smile Pharma
 FIL:VOLIFIL-CLASSICLITEFINE-1ML-1X,VOLIFIL CLASSIC 1ml next generation dermal filler,Smile Pharma
 FIL:FILLER-REVOLAX-FINE,Revolax Fine 1 1ml,Ask Pharmacy
-FIL:FILLER-REVOLAX-UNSPECIFIED-2X,Revolaxsub,Smile Pharma
-FIL:FILLER-REVOLAX-DEEP-2X,Revolaxdeep,Smile Pharma
-FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO-2X,Belotero Lips Contour with Lidocaine (0.6ml),Smile Pharma
+FIL:FILLER-REVOLAX-DEEP,Revolax Deep Q 1 1ml Clone,Ask Pharmacy
+FIL:FILLER-RESTYLANE-REFYNE-LIDO-2X,Restylane Refyne Dermal Filler,Smile Pharma
 FIL:EPTQ-EPITIQUES300-11ML-1X,Epitique EPTQ S300 (1 x 1.1ml),Smile Pharma
 FIL:FILLER-STYLAGE-HYDROMAX,Stylage Bi-Soft HydroMax (1 x 1ml) Inj.,Wimpole Fillers
 FIL:ILLUMA-HYDROBOOSTER3-2ML-3X,iLLUMA Hydro Booster - 2ml x 3 Syringes,Smile Pharma
@@ -467,7 +461,6 @@ FIL:HADAPLUS-3-1X,THE HADA PLUS 3,LPG Clinics Wholesale
 FIL:ILLUMA-PNPROOFFICIALONLINE-1X,iLLUMA PN PRO Training with FREE Box,LPG Clinics Wholesale
 FIL:KAIRAX-50H-0ML-1X,Kairax 50H 1 x 50ml,LPG Clinics Wholesale
 FIL:FILLER-REVOLAX-SUBQ,Revolax Subq1 1ml,Ask Pharmacy
-FIL:FILLER-REVOLAX-DEEP,Revolax Deep Q 1 1ml Clone,Ask Pharmacy
 FIL:ILLUMA-16PINNEEDLE12-1X,iLLUMA 16 Pin Needle 1-2 mm x 10,LPG Clinics Wholesale
 FIL:LAPIENA-SUBQ1-1ML-1X,LAPIENA Sub-Q 1ml x 1 Syringe,LPG Clinics Wholesale
 FIL:KAIRAX-ENHANCE45OFFICIALONLINE-1X,Kairax Enhance 45 Training with FREE Box,LPG Clinics Wholesale
@@ -761,27 +754,13 @@ FIL:CROMA-FAREWELLPUFFYEYES-1X,Croma Farewell Puffy Eyes,MedFX
 FIL:CROMA-PUREHA-1X,Croma PureHA,MedFX
 FIL:ADVANCED-FILLERNORMALSKIN-1X,Advanced Filler Normal Skin,MedFX
 FIL:COLLAGEN-EYEFILLER-1X,Collagen Eye Filler,MedFX
-FIL:FILLER-BELOTERO-SOFT-LIDO-2X,Belotero Soft with Lidocaine,MedFX
 FIL:FILLER-BELOTERO-BALANCE-LIDO-10X,Belotero Balance with Lidocaine,MedFX
-FIL:FILLER-BELOTERO-INTENSE-LIDO-3X,Belotero Intense with Lidocaine,MedFX
-FIL:FILLER-BELOTERO-LIPSSHAPE-LIDO-2X,Belotero+ Lips Shape,MedFX
-FIL:FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT-LIDO-10X,Restylane Skinboosters Vital Light Lidocaine 1ml (D16),MedFX
-FIL:FILLER-RESTYLANE-SKINBOOSTERSVITAL-LIDO-10X,Restylane Skinboosters Vital Lidocaine 1ml (D16),MedFX
-FIL:FILLER-RESTYLANE-ORIGINAL-LIDO-10X,Restylane Classyc Lidocaine 1ml (D16),MedFX
-FIL:FILLER-RESTYLANE-VOLYME-LIDO-10X,Restylane Volyme 1ml,MedFX
-FIL:FILLER-RESTYLANE-REFYNE-LIDO-10X,Restylane Refyne 1ml,MedFX
-FIL:FILLER-RESTYLANE-LYFT-LIDO-10X,Restylane Lyft Lidocaine 1ml,MedFX
-FIL:FILLER-RESTYLANE-DEFYNE-LIDO-10X,Restylane Defyne 1ml,MedFX
-FIL:FILLER-RESTYLANE-KYSSE-LIDO-10X,Restylane Kysse 1ml,MedFX
-FIL:FILLER-RESTYLANE-EYELIGHT-LIDO-10X,Restylane Eyelight 0.5ml,MedFX
-FIL:FILLER-JUVEDERM-ULTRA2-LIDO-10X,Juvederm Ultra Smile,MedFX
+FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO-2X,Belotero+ Lips Contour,MedFX
 FIL:NEWGYN-1X,NewGyn,MedFX
 FIL:FILLER-REVOLAX-DEEP-LIDO-10X,Revolax Deep With Lidocaine 1.1ml,MedFX
 FIL:FILLER-REVOLAX-SUBQ-LIDO-10X,Revolax Sub-Q With Lidocaine 1.1ml,MedFX
 FIL:FILLER-REVOLAX-FINE-LIDO-10X,Revolax Fine With Lidocaine 1.1ml,MedFX
 FIL:FILLMED-ARTFILLERLIPSSOFT-1X,FILLMED Art Filler Lips Soft,MedFX
-FIL:FILLER-TEOSYAL-PURESENSEREDENSITYII-LIDO-10X,Teosyal PureSense Redensity II,MedFX
-FIL:FILLER-TEOSYAL-RHA4-10X,Teosyal RHA4,MedFX
 FIL:CROMA-PHILART-1X,Croma PhilArt,MedFX
 BST:PURASOMES-HSC50-HAIR-5ML,Purasomes HSC50+ Hair &amp; Scalp Complex,Smile Pharma
 BST:PURASOMES-NC150-NUTRI-5ML,Purasomes NC150+ Skin Nutri Complex,Smile Pharma
@@ -1091,9 +1070,7 @@ BST:REVERSHA-EXOSOMES-5ML-X5,ReversHA - Exosomes Skin Booster (5x5ml),Smile Phar
 BST:EJAL-40-2ML,Ejal 40 – Skin Booster (1x2ml),Smile Pharma
 BST:STAYVE-COLLAGEN-SERUM-8ML,Stayve Collagen Serum – Collagen Ampoule 8ml x10pcs,Smile Pharma
 BST:LEMON-BOTTLE-SKIN-BOO,Lemon Bottle Skin Booster,Smile Pharma
-BST:BST-JALUPRO-HMW-2X,Jalupro HMW - Skin Booster,Smile Pharma
 BST:LUMI-PN-EYES-POLYNUCLEOTIDE-1.5ML,LUMI-PN EYES | 1x1.5ml per pack | Polynucleotide 30mg,Smile Pharma
-BST:BST-JALUPRO-SUPERHYDRO-5X,Jalupro Super Hydro - Skin Booster,Smile Pharma
 BST:LUMI-EYES-UNDER-EYE-1ML,LUMI-EYES Under Eye Booster 1ml,Smile Pharma
 BST:PLINEST-NEWEST-ONE-4ML-X5,Plinest Newest One (5x4ml),Smile Pharma
 BST:VITARAN-EYES-POLYNUCLEOTIDE-1ML,Vitaran Eyes - Polynucleotide (1x1ml),Smile Pharma
@@ -1438,6 +1415,7 @@ BST:LUMI-FACE-POLYNUCLEOTIDES-2ML-X2,48248,Kiss Aesthetics Wholesale
 BST:LEMON-BOTTLE-SKIN-BOO-FULL-3.5ML-X6,Lemon Bottle Skin Booster (6 x 3.5ml) UK | Full Box,Herts & Essex Supplies
 BST:KIARA-REJU-2.2ML-X3,Kiara Reju 3x2.2ml,Herts & Essex Supplies
 BST:EJAL-40-BIOREVITLAIZER,Ejal 40 Biorevitlaizer,Herts & Essex Supplies
+BST:BST-JALUPRO-HMW-2X,Jalupro HMW,Herts & Essex Supplies
 BST:LUMI-EYES-DERMAREN-POLYNUCLEOTIDE-1ML,Dermaren Lumi Eyes (1 x 1ml) UK | Polynucleotide Eye Booster,Herts & Essex Supplies
 BST:PURE-EYES-EYE-1.1ML,Pure Eyes 1.1ml eye booster,Herts & Essex Supplies
 BST:PURIHILO-PN,Purihilo PN Skin Booster,Herts & Essex Supplies
@@ -1589,6 +1567,7 @@ BST:FILLMED-NCTF-INSTIT-MIRROR,Fillmed Instit Mirror,Church Pharmacy
 BST:FILLMED-NCTF-NST-DERMA,Fillmed NST DERMA PENCIL WHITE,Church Pharmacy
 BST:FILLMED-NCTF-PERFECTING-SOLUTION-200ML,Fillmed Perfecting Solution,Church Pharmacy
 BST:PURASOMES-XCELL-SUPPLEMENT-100ML,Purasomes XCell Supplement,Church Pharmacy
+BST:BST-SUNEKOS-BODY-2X,Sunekos Body,Church Pharmacy
 BST:BST-SUNEKOS-CELL-2X,Sunekos Cell 15,Church Pharmacy
 BST:HYALUAL-XELA-REDERM-1ML,Hyalual Xela Rederm 2.2%,Church Pharmacy
 BST:EXOBLANC-DISCOVERY,Exoblanc Discovery Pack,Herts & Essex Supplies
@@ -1624,82 +1603,72 @@ BST:DR-ADAMS-PHARMACY,160,Dr. Adams Pharmacy
 BST:DR-ADAMS-PHARMACY-1ML,182,Dr. Adams Pharmacy
 BST:DR-ADAMS-PHARMACY-5ML,621,Dr. Adams Pharmacy
 BST:AUTENTICA-PROMOTIONAL,AUTENTICA Skin Booster Promotional Stock,MedFX
-BST:BST-SUNEKOS-PERFORMA-10X,Sunekos Performa,MedFX
-BST:BST-SUNEKOS-BODY-3X,Sunekos Body,MedFX
-BST:BST-PROFHILO-HL-10X,Profhilo - UK & ROI Pack - Hologram Box,MedFX
-BST:BST-PROFHILO-STRUCTURA-10X,Profhilo Structura,MedFX
+BST:BST-SUNEKOS-1200,Sunekos 1200,MedFX
 BST:LUMINESCENS,Luminescens Kit,MedFX
 BST:AGE-LESS-EVERYDAY,Age Less Everyday,MedFX
 BST:PRP-PRF-KIT-PURE-VERSION,PRP Pure - New Version,MedFX
 BST:NOW-SUPPLYING-AWARD,Now Supplying the Award-Winning Polynucleotides,MedFX
-BIO:ELLANSE-M-1ML-2X,Ellanse M (2 x 1ml) Inj.,Wimpole Fillers
-BIO:ELLANSE-S-1ML-2X,Ellanse S (2 x 1ml) Inj.,Wimpole Fillers
-BIO:HARMONYCA-1.25ML-LIDO-2X,Harmonyca Lido 2x125ml Inj,Wimpole Fillers
-BIO:JUVELOOK-50MG-1X,Juvelook CE 1 X 50mg,Ask Pharmacy
-BIO:LENISNA-200MG-1X,Lenisna 200 (1 x 200mg),Skin On You
-BIO:RADIESSE-1.5ML-LIDO-1X,Radiesse + Lido. (1 x 1.5ml) Inj.,Wimpole Fillers
-BIO:AESPLLA-365MG-1X,Aesplla 365mg 1 Vial,Ask Pharmacy
-BIO:RADIESSE-1.5ML-1X,Radiesse (1 x 1.5ml) Inj.,Wimpole Fillers
-BIO:SCULPTRA-367.5MG-2X,Sculptra Inj.,Wimpole Fillers
-BIO:LANLUMA-X-630MG-1X,Lanluma V (1 X 15ml) Inj.,Wimpole Fillers
-BIO:JUVELOOK-50MG-2X,Fillmed JuveLook 50mg,John Bannon Pharmacy
-BIO:LENISNA-200MG-2X,Fillmed Lenisna 200mg/vial,John Bannon Pharmacy
-BIO:JULAINE-150MG-1X,Julaine 1 vial,Wimpole Fillers
-BIO:LANLUMA-V-210MG-1X,Lanluma V - Face 210mg,Healthxchange
-BIO:NEAUVIASTIMULATE-1ML-2X,Neauvia Organic Stimulate x 1ml OLD PACKAGING,John Bannon Pharmacy
-BIO:NOVUMA-1.5ML-1X,Novuma The Next-Generation CaHA Biostimulation 1.5ml,John Bannon Pharmacy
-BIO:ILLUMAPLLA-500MG-1X,iLLUMA PLLA 500,LPG Clinics Wholesale
-BIO:ILLUMAPLLA-200MG-1X,iLLUMA PLLA 200,LPG Clinics Wholesale
-BIO:GOURI-1X,Gouri (1 X 1ML) inj.,Wimpole Fillers
-BIO:SCULPTRA-367.5MG-1X,Sculptra Single Vial 1 X 5ml,Ask Pharmacy
-BIO:ECOLLA-365MG-1X,Ecolla PLLA 1 X 365mg Vial,Ask Pharmacy
-BIO:AESTHEFILL-200MG-1X,Aesthefill (1 x 200mg),Wimpole Fillers
-BIO:DOUBLYXEVO-2ML-1X,Doublyx Evo (1 x 2ml),Dr. Adams Pharmacy
-BIO:ELYSIHA-1X,Elysiha Eyes,Dr. Adams Pharmacy
-BIO:LINERASE-100MG-1X,Linerase Collagen powder-(1x100mg) vial.,Wimpole Fillers
-BIO:LINERASEHYDRO-5ML-5X,Linerase Hydro (5x5ml) vials,Wimpole Fillers
-BIO:RADIESSE-3ML-1X,Radiesse (1 x 3ml) Inj.,Wimpole Fillers
-BIO:JUVELOOK-VOLUME-200MG-1X,Juvelook Volume (1x200mg),LPG Clinics Wholesale
-BIO:RADIESSE-1.5ML-LIDO-2X,Radiesse Lidocaine 1 5ml 2,LPG Clinics Wholesale
-BIO:NOVUMA-1X,Novuma Collagen Stimulating,LPG Clinics Wholesale
-BIO:STICOL-365MG-1X,StiCol Volume (1 x 365mg),LPG Clinics Wholesale
-BIO:PLLACELL-100MG-1X,Pllacell 1x100mg Vial,Ask Pharmacy
-BIO:PINKLLA-100MG-1X,PiNkLLA with PN 100mg,LPG Clinics Wholesale
-BIO:OLIDIA-1X,Olidia PLLA Poly L Lactic Acid,Ask Pharmacy
-BIO:NEAUVIASTIMULATE-1ML-1X,Neauvia Stimulate 1 x 1ml,Healthxchange
-FAT:FAT-INNO-TDS-DRAININGPPC-4X,Innotds Draining Ppc Injectable,Church Pharmacy
+BIO:BIO-ELLANSE-M-2X,Ellanse M (2 x 1ml) Inj.,Wimpole Fillers
+BIO:BIO-ELLANSE-S-2X,Ellanse S (2 x 1ml) Inj.,Wimpole Fillers
+BIO:BIO-HARMONYCA-HARMONYCA-LIDO-2X,Harmonyca Lido 2x125ml Inj,Wimpole Fillers
+BIO:BIO-JUVELOOK-JUVELOOK,Juvelook CE 1 X 50mg,Ask Pharmacy
+BIO:BIO-LENISNA-LENISNA,Fillmed Lenisna 200mg/vial,John Bannon Pharmacy
+BIO:BIO-RADIESSE-15ML-LIDO,Radiesse + Lido. (1 x 1.5ml) Inj.,Wimpole Fillers
+BIO:BIO-AESPLLA-AESPLLA,Aesplla 365mg 1 Vial,Ask Pharmacy
+BIO:BIO-RADIESSE-15ML,Radiesse (1 x 1.5ml) Inj.,Wimpole Fillers
+BIO:BIO-SCULPTRA-SCULPTRA-2X,Sculptra 2 Vials Of 5ml,Ask Pharmacy
+BIO:BIO-LANLUMA-X,Lanluma X (1 X 40ml) Inj.,Wimpole Fillers
+BIO:BIO-LANLUMA-V,Lanluma V (1 X 15ml) Inj.,Wimpole Fillers
+BIO:BIO-JULAINE-JULAINE,Julaine 1 vial,Wimpole Fillers
+BIO:BIO-NEAUVIA-STIMULATE,Neauvia Organic Stimulate x 1ml OLD PACKAGING,John Bannon Pharmacy
+BIO:BIO-NOVUMA-NOVUMA,Novuma The Next-Generation CaHA Biostimulation 1.5ml,John Bannon Pharmacy
+BIO:BIO-ILLUMA-PLLA-500,iLLUMA PLLA 500,LPG Clinics Wholesale
+BIO:BIO-ILLUMA-PLLA-200,iLLUMA PLLA 200,LPG Clinics Wholesale
+BIO:BIO-GOURI-GOURI,Gouri (1 X 1ML) inj.,Wimpole Fillers
+BIO:BIO-SCULPTRA-SCULPTRA,Sculptra Inj.,Wimpole Fillers
+BIO:BIO-ECOLLA-ECOLLA,Ecolla PLLA 1 X 365mg Vial,Ask Pharmacy
+BIO:BIO-AESTHEFILL-AESTHEFILL,Aesthefill (1 x 200mg),Wimpole Fillers
+BIO:BIO-DOUBLYX-EVO,Doublyx Evo (1 x 2ml),Dr. Adams Pharmacy
+BIO:BIO-ELYSIHA-ELYSIHA,Elysiha Eyes,Dr. Adams Pharmacy
+BIO:BIO-LINERASE-LINERASE,Linerase Collagen powder-(1x100mg) vial.,Wimpole Fillers
+BIO:BIO-LINERASE-HYDRO-LINERASEHYDRO-5X,Linerase Hydro (5x5ml) vials,Wimpole Fillers
+BIO:BIO-RADIESSE-3ML,Radiesse (1 x 3ml) Inj.,Wimpole Fillers
+BIO:BIO-JUVELOOK-VOLUME,Juvelook Volume (1x200mg),LPG Clinics Wholesale
+BIO:BIO-STICOL-STICOL,StiCol Volume (1 x 365mg),LPG Clinics Wholesale
+BIO:BIO-PLLACELL-PLLACELL,Pllacell 1x100mg Vial,Ask Pharmacy
+BIO:BIO-PINKLLA-PINKLLA,PiNkLLA with PN 100mg,LPG Clinics Wholesale
+BIO:BIO-OLIDIA-OLIDIA,Olidia PLLA Poly L Lactic Acid,Ask Pharmacy
+FAT:FAT-INNO-TDS-DRAININGPPC,Inno-TDS Draining PPC 5ml,Dr. Adams Pharmacy
 FAT:FAT-AQUALYX-AQUALYX-10X,Aqualyx (10 x 8ml) Vial,Wimpole Fillers
 FAT:FAT-DESOBODY-DESOBODY-5X,DesoBody 1.25% 10ml x 5,John Bannon Pharmacy
 FAT:FAT-DESOFACE-DESOFACE-5X,DesoFace 0.5% x 10ml x 5,John Bannon Pharmacy
+FAT:FAT-DESOBODY-DESOBODY,Desobody 1.25% 10ML 5'S,Moda Pharmacy
+FAT:FAT-DESOFACE-DESOFACE,Desoface 0.5% 10ML 5's,Moda Pharmacy
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Lemon Bottle 1x10ml (1 Vial only),Wimpole Fillers
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Lemon Bottle 5x10ml Vial,Wimpole Fillers
 FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Alidya Anti LipoDystrophic Agents (5 x 340mg + 5 x 10ml) Vial,Wimpole Fillers
-FAT:FAT-INNO-TDS-DRAININGPPC,Inno-TDS Draining PPC 5ml,Dr. Adams Pharmacy
 FAT:FAT-LIPO-LAB-PPC-10X,Lipo Lab PPC 10x10ml,Herts & Essex Supplies
 FAT:FAT-LIPO-LAB-VLINE-5X,LipoLab V Line 5 x 10ml,Herts & Essex Supplies
 FAT:FAT-MESOESTETIC-CPROF221LIPOLYTIC-5X,Mesoestetic C.Prof 221 Lipolytic Solution (5 x 10ml),Dr. Adams Pharmacy
-FAT:FAT-DESOFACE-DESOFACE,Desoface Single Vial 1 X 10ml,Ask Pharmacy
 FAT:FAT-AQUALYX-AQUALYX-8X,Aqualyx (10mlx8),LPG Clinics Wholesale
 FAT:FAT-CINCELAR-PLUS-5X,Cincelar Plus + 5 x 8ml,LPG Clinics Wholesale
 FAT:FAT-MESOSCULPT-C71,MesoSculpt C71 – 1 X 1ML,LPG Clinics Wholesale
 FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,The Skinny Bottle Fat Dissolving (5 x 10ml) UK | Full Box,Herts & Essex Supplies
 FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,The Skinny Bottle Fat Dissolving (1 x 10ml) UK | Single Vial,Herts & Essex Supplies
 FAT:FAT-AQUALYX-AQUALYX,Aqualyx (1 x 8ml) Vial,Wimpole Fillers
-FAT:FAT-KABELLINE-KABELLINE-5X,Kabelline,LPG Clinics Wholesale
+FAT:FAT-KABELLINE-KABELLINE,Kabelline,LPG Clinics Wholesale
 FAT:FAT-DR.-LIPO-PLUSBODY-10X,Dr. Lipo + V Face (10 x 5ml),LPG Clinics Wholesale
 FAT:FAT-DR.-LIPO-PLUSBODY,Dr. Lipo Plus | Professional Body Contouring 1 x 10ml,Herts & Essex Supplies
-FAT:FAT-DESOBODY-DESOBODY,DESOBODY Fat Dissolver,Two Face Aesthetics
 FAT:FAT-LIPO-LAB-PPC,Lipolab Single Vial 1 X 10ml,Ask Pharmacy
-FAT:FAT-LIPO-LAB-VLINE,Lipo Lab V-Line,Two Face Aesthetics
+FAT:FAT-LIPO-LAB-VLINE,Lipolab V Line,Ask Pharmacy
 FAT:FAT-BCN-ADIPO-FORTE-5X,BCN Adipo Forte (5 x 10ml) Vial,Wimpole Fillers
 FAT:FAT-AQUALYX-AQUALYX-5X,Aqualyx (5 x 8ml) Vial,Wimpole Fillers
 FAT:FAT-PINE-BOTTLE-PINEBOTTLE-5X,Pine Bottle Fat Dissolver (5 x 10ml Vials),Herts & Essex Supplies
 FAT:FAT-DR.-LIPO-VLINE-10X,Dr. Lipo Plus V-Line | Professional Facial Contouring 5ml x 10 vials,Herts & Essex Supplies
 FAT:MYFILLERREVITALIZESLIM-10ML-1X,Myfiller Revitalize Slim,Ask Pharmacy
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-10X,Lemon Bottle Injection Kit,Ask Pharmacy
+FAT:FAT-ALIDYA-ANTILIPODYSTROPHY,Alidya,Ask Pharmacy
 FAT:FAT-DR.-LIPO-VLINE,Dr. Lipo Plus V-Line | Professional Facial Contouring 1 x 5ml,Herts & Essex Supplies
-FAT:FAT-DESOBODY-DESOBODY-10X,"DesoBody 1,25%",MedFX
-FAT:FAT-DESOFACE-DESOFACE-10X,"Desoface 0,50%",MedFX
 THR:CROQUIS-COG-21G-110MM-NEE-6PCS,Croquis Barbed Cutting 2b Needle PDO Threads 21g 60mm 110mm,Church Pharmacy
 THR:CROQUIS-COG-21G-150MM-NEE-6PCS,Croquis Barbed Cutting 2b Needle PDO Threads 21g 90mm 150mm,Church Pharmacy
 THR:CROQUIS-COG-23G-110MM-NEE-6PCS,Croquis Barbed Cutting 2b Needle PDO Threads 23g 60mm 110mm,Church Pharmacy

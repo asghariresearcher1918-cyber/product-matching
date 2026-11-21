@@ -61,17 +61,14 @@ FILLER-BELOTERO-BALANCE,Belotero,Balance,Belotero,Merz,yes,1,no,1,UK/std,yes (re
 FILLER-BELOTERO-BALANCE-LIDO,Belotero,Balance,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),11,13,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-BALANCE-LIDO-10X,Belotero,Balance,Belotero,Merz,yes,1,yes,10,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-INTENSE,Belotero,Intense,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),3,4,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-INTENSE-LIDO,Belotero,Intense,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),11,15,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-INTENSE-LIDO-3X,Belotero,Intense,Belotero,Merz,yes,1,yes,3,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-LIPSCONTOUR-LIDO,Belotero,Lips Contour,Belotero,Merz,yes,0.6,yes,1,UK/std,yes (reference),9,10,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-LIPSCONTOUR-LIDO-2X,Belotero,Lips Contour,Belotero,Merz,yes,0.6,yes,2,UK/std,yes (reference),2,2,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-LIPSSHAPE-LIDO,Belotero,Lips Shape,Belotero,Merz,yes,0.6,yes,1,UK/std,yes (reference),10,11,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-LIPSSHAPE-LIDO-2X,Belotero,Lips Shape,Belotero,Merz,yes,0.6,yes,2,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
+FILLER-BELOTERO-INTENSE-LIDO,Belotero,Intense,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),12,16,https://merz-aesthetics.co.uk/belotero/
+FILLER-BELOTERO-LIPSCONTOUR-LIDO,Belotero,Lips Contour,Belotero,Merz,yes,0.6,yes,1,UK/std,yes (reference),10,11,https://merz-aesthetics.co.uk/belotero/
+FILLER-BELOTERO-LIPSCONTOUR-LIDO-2X,Belotero,Lips Contour,Belotero,Merz,yes,0.6,yes,2,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
+FILLER-BELOTERO-LIPSSHAPE-LIDO,Belotero,Lips Shape,Belotero,Merz,yes,0.6,yes,1,UK/std,yes (reference),11,12,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-REVIVE,Belotero,Revive,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),8,9,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-REVIVE-LIDO,Belotero,Revive,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-SOFT,Belotero,Soft,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),3,4,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-SOFT-LIDO,Belotero,Soft,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),11,13,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-SOFT-LIDO-2X,Belotero,Soft,Belotero,Merz,yes,1,yes,2,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
+FILLER-BELOTERO-SOFT-LIDO,Belotero,Soft,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),12,14,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-VOLUME-2X,Belotero,Volume,Belotero,Merz,yes,1,no,2,UK/std,yes (reference),6,7,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-VOLUME-LIDO,Belotero,Volume,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),1,2,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-VOLUME-LIDO-2X,Belotero,Volume,Belotero,Merz,yes,1,yes,2,UK/std,yes (reference),11,13,https://merz-aesthetics.co.uk/belotero/
@@ -263,8 +260,7 @@ INTRALINE-TWO-1X,Intraline,Two,Intraline Two,Intraline,yes,,no,1,UK/std,brand pa
 FILLER-JUVEDERM-UNSPECIFIED-LIDO-2X,Juvederm,(unspecified),Juvederm,Allergan / AbbVie,yes,1,yes,2,UK/std,yes (reference),1,1,https://www.juvederm.co.uk
 FILLER-JUVEDERM-SKINVIVE-LIDO-2X,Juvederm,Skinvive,Juvederm,Allergan / AbbVie,yes,1,yes,2,UK/std,yes (reference),14,14,https://www.juvederm.co.uk
 FILLER-JUVEDERM-ULTRA2-LIDO,Juvederm,Ultra 2,Juvederm,Allergan / AbbVie,yes,0.55,yes,1,UK/std,yes (reference),6,11,https://www.juvederm.co.uk
-FILLER-JUVEDERM-ULTRA2-LIDO-10X,Juvederm,Ultra 2,Juvederm,Allergan / AbbVie,yes,0.55,yes,10,UK/std,yes (reference),1,2,https://www.juvederm.co.uk
-FILLER-JUVEDERM-ULTRA2-LIDO-2X,Juvederm,Ultra 2,Juvederm,Allergan / AbbVie,yes,0.55,yes,2,UK/std,yes (reference),17,34,https://www.juvederm.co.uk
+FILLER-JUVEDERM-ULTRA2-LIDO-2X,Juvederm,Ultra 2,Juvederm,Allergan / AbbVie,yes,0.55,yes,2,UK/std,yes (reference),18,36,https://www.juvederm.co.uk
 FILLER-JUVEDERM-ULTRA3-LIDO,Juvederm,Ultra 3,Juvederm,Allergan / AbbVie,yes,1,yes,1,UK/std,yes (reference),6,6,https://www.juvederm.co.uk
 FILLER-JUVEDERM-ULTRA3-LIDO-2X,Juvederm,Ultra 3,Juvederm,Allergan / AbbVie,yes,1,yes,2,UK/std,yes (reference),18,20,https://www.juvederm.co.uk
 FILLER-JUVEDERM-ULTRA4-LIDO,Juvederm,Ultra 4,Juvederm,Allergan / AbbVie,yes,1,yes,1,UK/std,yes (reference),5,5,https://www.juvederm.co.uk
@@ -529,27 +525,19 @@ RELUMA-KISS-11ML-1X,Reluma,Kiss,Reluma Kiss,not named,yes,1.1,no,1,UK/std,brand 
 RELUMA-LUSH-11ML-1X,Reluma,Lush,Reluma Lush,not named,yes,1.1,no,1,UK/std,brand page only,1,1,supplier page
 RESTLANE-DEFYNE-1ML-LIDO-1X,Restlane,Defyne,Restlane Defyne,not named,yes,1,yes,1,UK/std,brand page only,1,1,supplier page
 FILLER-RESTYLANE-ORIGINAL,Restylane,(original),Restylane,Galderma,yes,1,no,1,UK/std,yes (reference),3,6,https://www.restylane.co.uk
-FILLER-RESTYLANE-ORIGINAL-LIDO,Restylane,(original),Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),14,15,https://www.restylane.co.uk
-FILLER-RESTYLANE-ORIGINAL-LIDO-10X,Restylane,(original),Restylane,Galderma,yes,1,yes,10,UK/std,yes (reference),1,1,https://www.restylane.co.uk
-FILLER-RESTYLANE-DEFYNE-LIDO,Restylane,Defyne,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),14,16,https://www.restylane.co.uk
-FILLER-RESTYLANE-DEFYNE-LIDO-10X,Restylane,Defyne,Restylane,Galderma,yes,1,yes,10,UK/std,yes (reference),1,1,https://www.restylane.co.uk
-FILLER-RESTYLANE-EYELIGHT-LIDO,Restylane,Eyelight,Restylane,Galderma,yes,0.5,yes,1,UK/std,yes (reference),10,11,https://www.restylane.co.uk
-FILLER-RESTYLANE-EYELIGHT-LIDO-10X,Restylane,Eyelight,Restylane,Galderma,yes,0.5,yes,10,UK/std,yes (reference),1,1,https://www.restylane.co.uk
-FILLER-RESTYLANE-KYSSE-LIDO,Restylane,Kysse,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),16,18,https://www.restylane.co.uk
-FILLER-RESTYLANE-KYSSE-LIDO-10X,Restylane,Kysse,Restylane,Galderma,yes,1,yes,10,UK/std,yes (reference),1,1,https://www.restylane.co.uk
+FILLER-RESTYLANE-ORIGINAL-LIDO,Restylane,(original),Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),15,16,https://www.restylane.co.uk
+FILLER-RESTYLANE-DEFYNE-LIDO,Restylane,Defyne,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),15,17,https://www.restylane.co.uk
+FILLER-RESTYLANE-EYELIGHT-LIDO,Restylane,Eyelight,Restylane,Galderma,yes,0.5,yes,1,UK/std,yes (reference),11,12,https://www.restylane.co.uk
+FILLER-RESTYLANE-KYSSE-LIDO,Restylane,Kysse,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),17,19,https://www.restylane.co.uk
 FILLER-RESTYLANE-LYFT,Restylane,Lyft,Restylane,Galderma,yes,1,no,1,UK/std,yes (reference),2,2,https://www.restylane.co.uk
-FILLER-RESTYLANE-LYFT-LIDO,Restylane,Lyft,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),15,17,https://www.restylane.co.uk
-FILLER-RESTYLANE-LYFT-LIDO-10X,Restylane,Lyft,Restylane,Galderma,yes,1,yes,10,UK/std,yes (reference),1,1,https://www.restylane.co.uk
+FILLER-RESTYLANE-LYFT-LIDO,Restylane,Lyft,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),16,18,https://www.restylane.co.uk
 FILLER-RESTYLANE-REFYNE-LIDO,Restylane,Refyne,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),16,18,https://www.restylane.co.uk
-FILLER-RESTYLANE-REFYNE-LIDO-10X,Restylane,Refyne,Restylane,Galderma,yes,1,yes,10,UK/std,yes (reference),1,1,https://www.restylane.co.uk
+FILLER-RESTYLANE-REFYNE-LIDO-2X,Restylane,Refyne,Restylane,Galderma,yes,1,yes,2,UK/std,yes (reference),1,1,https://www.restylane.co.uk
 FILLER-RESTYLANE-SKINBOOSTERSVITAL,Restylane,Skinboosters Vital,Restylane,Galderma,yes,1,no,1,UK/std,yes (reference),1,1,https://www.restylane.co.uk
-FILLER-RESTYLANE-SKINBOOSTERSVITAL-LIDO,Restylane,Skinboosters Vital,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),13,15,https://www.restylane.co.uk
-FILLER-RESTYLANE-SKINBOOSTERSVITAL-LIDO-10X,Restylane,Skinboosters Vital,Restylane,Galderma,yes,1,yes,10,UK/std,yes (reference),1,1,https://www.restylane.co.uk
+FILLER-RESTYLANE-SKINBOOSTERSVITAL-LIDO,Restylane,Skinboosters Vital,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),14,16,https://www.restylane.co.uk
 FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT,Restylane,Skinboosters Vital Light,Restylane,Galderma,yes,1,no,1,UK/std,yes (reference),1,2,https://www.restylane.co.uk
-FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT-LIDO,Restylane,Skinboosters Vital Light,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),10,12,https://www.restylane.co.uk
-FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT-LIDO-10X,Restylane,Skinboosters Vital Light,Restylane,Galderma,yes,1,yes,10,UK/std,yes (reference),1,1,https://www.restylane.co.uk
-FILLER-RESTYLANE-VOLYME-LIDO,Restylane,Volyme,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),14,15,https://www.restylane.co.uk
-FILLER-RESTYLANE-VOLYME-LIDO-10X,Restylane,Volyme,Restylane,Galderma,yes,1,yes,10,UK/std,yes (reference),1,1,https://www.restylane.co.uk
+FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT-LIDO,Restylane,Skinboosters Vital Light,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),11,13,https://www.restylane.co.uk
+FILLER-RESTYLANE-VOLYME-LIDO,Restylane,Volyme,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),15,16,https://www.restylane.co.uk
 REVANESSE-CONTOUR-12ML-LIDO-1X,Revanesse,Contour,Revanesse Contour,Prollenium (Canada),yes,1.2,yes,1,UK/std,yes,1,1,manufacturer IFU
 REVANESSE-CONTOUR-12ML-LIDO-2X,Revanesse,Contour,Revanesse Contour,Prollenium (Canada),yes,1.2,yes,2,UK/std,yes,1,1,manufacturer IFU
 REVANESSE-CONTOUR-2ML-2X,Revanesse,Contour,Revanesse Contour,Prollenium (Canada),yes,2,no,2,UK/std,yes,1,2,manufacturer IFU
@@ -583,10 +571,8 @@ REVOFIL-PLUS-1X,Revofil,Plus,Revofil Plus,Dexlevo (Korea),yes,,no,1,UK/std,brand
 REVOFIL-PLUSSYR-1ML-1X,Revofil,Plus Syr,Revofil Plus Syr,Dexlevo (Korea),yes,1,no,1,UK/std,brand page only,1,1,manufacturer IFU
 REVOFIL-ULTRA-1X,Revofil,Ultra,Revofil Ultra,Dexlevo (Korea),yes,,no,1,UK/std,brand page only,1,1,manufacturer IFU
 REVOFIL-ULTRASYR-1ML-1X,Revofil,Ultra Syr,Revofil Ultra Syr,Dexlevo (Korea),yes,1,no,1,UK/std,brand page only,1,1,manufacturer IFU
-FILLER-REVOLAX-UNSPECIFIED,Revolax,(unspecified),Revolax,Across (Korea),yes,1.1,no,1,UK/std,yes (reference),1,1,https://www.revolax.co.uk
-FILLER-REVOLAX-UNSPECIFIED-2X,Revolax,(unspecified),Revolax,Across (Korea),yes,1.1,no,2,UK/std,yes (reference),1,1,https://www.revolax.co.uk
-FILLER-REVOLAX-DEEP,Revolax,Deep,Revolax,Across (Korea),yes,1.1,no,1,UK/std,yes (reference),5,5,https://www.revolax.co.uk
-FILLER-REVOLAX-DEEP-2X,Revolax,Deep,Revolax,Across (Korea),yes,1.1,no,2,UK/std,yes (reference),1,1,https://www.revolax.co.uk
+FILLER-REVOLAX-UNSPECIFIED,Revolax,(unspecified),Revolax,Across (Korea),yes,1.1,no,1,UK/std,yes (reference),2,2,https://www.revolax.co.uk
+FILLER-REVOLAX-DEEP,Revolax,Deep,Revolax,Across (Korea),yes,1.1,no,1,UK/std,yes (reference),6,6,https://www.revolax.co.uk
 FILLER-REVOLAX-DEEP-LIDO,Revolax,Deep,Revolax,Across (Korea),yes,1.1,yes,1,UK/std,yes (reference),10,12,https://www.revolax.co.uk
 FILLER-REVOLAX-DEEP-LIDO-10X,Revolax,Deep,Revolax,Across (Korea),yes,1.1,yes,10,UK/std,yes (reference),1,1,https://www.revolax.co.uk
 FILLER-REVOLAX-FINE,Revolax,Fine,Revolax,Across (Korea),yes,1.1,no,1,UK/std,yes (reference),6,6,https://www.revolax.co.uk
@@ -677,8 +663,7 @@ FILLER-TEOSYAL-PURESENSEKISS-LIDO-2X,Teosyal,PureSense Kiss,Teosyal,Teoxane,yes,
 FILLER-TEOSYAL-PURESENSEREDENSITYI-LIDO,Teosyal,PureSense Redensity I,Teosyal,Teoxane,yes,1,yes,1,UK/std,yes (reference),14,19,https://www.teoxane.com
 FILLER-TEOSYAL-PURESENSEREDENSITYI-LIDO-2X,Teosyal,PureSense Redensity I,Teosyal,Teoxane,yes,1,yes,2,UK/std,yes (reference),13,17,https://www.teoxane.com
 FILLER-TEOSYAL-PURESENSEREDENSITYII-LIDO,Teosyal,PureSense Redensity II,Teosyal,Teoxane,yes,1,yes,1,UK/std,yes (reference),6,6,https://www.teoxane.com
-FILLER-TEOSYAL-PURESENSEREDENSITYII-LIDO-10X,Teosyal,PureSense Redensity II,Teosyal,Teoxane,yes,1,yes,10,UK/std,yes (reference),1,1,https://www.teoxane.com
-FILLER-TEOSYAL-PURESENSEREDENSITYII-LIDO-2X,Teosyal,PureSense Redensity II,Teosyal,Teoxane,yes,1,yes,2,UK/std,yes (reference),18,20,https://www.teoxane.com
+FILLER-TEOSYAL-PURESENSEREDENSITYII-LIDO-2X,Teosyal,PureSense Redensity II,Teosyal,Teoxane,yes,1,yes,2,UK/std,yes (reference),19,21,https://www.teoxane.com
 FILLER-TEOSYAL-PURESENSEULTRADEEP-LIDO,Teosyal,PureSense Ultra Deep,Teosyal,Teoxane,yes,1.2,yes,1,UK/std,yes (reference),4,4,https://www.teoxane.com
 FILLER-TEOSYAL-PURESENSEULTRADEEP-LIDO-2X,Teosyal,PureSense Ultra Deep,Teosyal,Teoxane,yes,1.2,yes,2,UK/std,yes (reference),17,19,https://www.teoxane.com
 FILLER-TEOSYAL-RHA1,Teosyal,RHA 1,Teosyal,Teoxane,yes,1,no,1,UK/std,yes (reference),5,5,https://www.teoxane.com
@@ -690,8 +675,7 @@ FILLER-TEOSYAL-RHA3-24X,Teosyal,RHA 3,Teosyal,Teoxane,yes,1,no,24,UK/std,yes (re
 FILLER-TEOSYAL-RHA3-2X,Teosyal,RHA 3,Teosyal,Teoxane,yes,1,no,2,UK/std,yes (reference),15,17,https://www.teoxane.com
 FILLER-TEOSYAL-RHA3-6X,Teosyal,RHA 3,Teosyal,Teoxane,yes,1,no,6,UK/std,yes (reference),1,1,https://www.teoxane.com
 FILLER-TEOSYAL-RHA4,Teosyal,RHA 4,Teosyal,Teoxane,yes,1,no,1,UK/std,yes (reference),4,4,https://www.teoxane.com
-FILLER-TEOSYAL-RHA4-10X,Teosyal,RHA 4,Teosyal,Teoxane,yes,1,no,10,UK/std,yes (reference),1,1,https://www.teoxane.com
-FILLER-TEOSYAL-RHA4-2X,Teosyal,RHA 4,Teosyal,Teoxane,yes,1,no,2,UK/std,yes (reference),16,20,https://www.teoxane.com
+FILLER-TEOSYAL-RHA4-2X,Teosyal,RHA 4,Teosyal,Teoxane,yes,1,no,2,UK/std,yes (reference),17,21,https://www.teoxane.com
 FILLER-TEOSYAL-RHAKISS,Teosyal,RHA Kiss,Teosyal,Teoxane,yes,0.7,no,1,UK/std,yes (reference),5,6,https://www.teoxane.com
 FILLER-TEOSYAL-RHAKISS-2X,Teosyal,RHA Kiss,Teosyal,Teoxane,yes,0.7,no,2,UK/std,yes (reference),15,25,https://www.teoxane.com
 TESORO-DEEP-1X,Tesoro,Deep,Tesoro Deep,not named,yes,,no,1,UK/std,brand page only,1,1,supplier page
