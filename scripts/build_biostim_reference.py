@@ -83,7 +83,10 @@ add("Linerase Hydro", "Linerase Hydro", "", "HA booster", "Mastelli", "HA booste
     ["hydro"], "https://mastelli.com", default="yes")
 # ---- agent not stated -> flagged for supplier confirmation ------------------
 add("Doublyx", "Doublyx Evo", "Evo", "unknown", "not stated", "", "1 x 2ml", ["doublyx"], "", default="yes")
-add("Elysiha", "Elysiha", "", "unknown", "not stated", "", "1 vial", ["elysiha"], "", default="yes")
+# ElysiHA (Dr. Adams) markets two distinct SKUs - Face (DAL20855) and Eyes (DAL20854) - as separate products.
+# Page states only "biostimulating + hydration"; no molecule/volume given -> agent unconfirmed (name hints HA skin booster).
+add("Elysiha", "Elysiha Face", "Face", "unknown", "ElysiHA (Dr. Adams)", "", "1 vial", ["face"], "", default="yes")
+add("Elysiha", "Elysiha Eyes", "Eyes", "unknown", "ElysiHA (Dr. Adams)", "", "1 vial", ["eyes"], "")
 
 out = ROOT / "data/reference/biostim.csv"
 with open(out, "w", newline="", encoding="utf-8") as f:
