@@ -1146,13 +1146,11 @@ FIL:FILLER-TEOSYAL-PURESENSEULTRADEEP-LIDO-2X,Dermal filler,MyPharmacyspace,Teos
 FIL:FILLER-TEOSYAL-RHA1-2X,Dermal filler,MyPharmacyspace,Teosyal RHA 1,https://mypharmacyspace.co.uk/products/teosyal-rha-1,rule
 FIL:FILLER-TEOSYAL-PURESENSEKISS-LIDO-2X,Dermal filler,MyPharmacyspace,Teosyal pure sense kiss,https://mypharmacyspace.co.uk/products/teosyal-pure-sense-kiss,rule
 FIL:FILLER-JUVEDERM-VOLUX-LIDO-2X,Dermal filler,MyPharmacyspace,Juvederm Volux + lidocaine (2 x 1ml),https://mypharmacyspace.co.uk/products/juvederm-volux-lidocaine-2-x-1ml,high
-FIL:HARMONY-CA-125ML-LIDO-2X,Dermal filler,MyPharmacyspace,Harmony CA + Lido 2 x 1.25ml (on prescription),https://mypharmacyspace.co.uk/products/harmony-ca-lido-2-x-1-25ml,high*
 FIL:FILLER-AESSOA-DEEP-LIDO,Dermal filler,MyPharmacyspace,Aessoa Deep Lidocaine Syringe 1 x 1.0 ml,https://mypharmacyspace.co.uk/products/aessoa-deep-lidocaine-syringe-1-x-1-0-ml,high*
 FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,MyPharmacyspace,Aessoa Global Lidocaine Syringe 1 x 1.0 ml,https://mypharmacyspace.co.uk/products/copy-of-aessoa-deep-lidocaine-syringe-1-x-1-0-ml,high*
 FIL:FILLER-AESSOA-ULTRA-LIDO,Dermal filler,MyPharmacyspace,Aessoa Ultra Lidocaine Syringe 1 x 1.0 ml,https://mypharmacyspace.co.uk/products/aessoa-ultra-lidocaine-syringe-1-x-1-0-ml,high*
 FIL:FILLER-AESSOA-GLOBAL-LIDO,Dermal filler,MyPharmacyspace,Aessoa Global Lidocaine Syringe 1 x 1.0 ml (prescription item),https://mypharmacyspace.co.uk/products/aessoa-global-lidocaine-syringe-1-x-1-0-ml-prescription-item,high*
 FIL:FILLER-AESSOA-SHINE-LIDO,Dermal filler,MyPharmacyspace,Aessoa Shine with Lidocaine,https://mypharmacyspace.co.uk/products/aessoa-shine-with-lidocaine,rule
-FIL:HARMONY-CA-125ML-LIDO-2X,Dermal filler,MyPharmacyspace,Harmony CA + Lido 2 x 1.25ml,https://mypharmacyspace.co.uk/products/harmony-ca-lido-2-x-1-25ml-1,high*
 FIL:FILLER-JUVEDERM-ULTRA2-LIDO-2X,Dermal filler,LPG Clinics Wholesale,Juvederm Ultra 2 2 x 0.55ml,https://www.lpgclinicswholesale.com/product/juvederm-ultra-2-2-x-0-55ml/,high
 FIL:FILLER-JUVEDERM-ULTRA3-LIDO-2X,Dermal filler,LPG Clinics Wholesale,Juvederm Ultra 3 2 x 1ml,https://www.lpgclinicswholesale.com/product/juvederm-ultra-3-2-x-1ml/,high
 FIL:FILLER-JUVEDERM-ULTRA2-LIDO-2X,Dermal filler,LPG Clinics Wholesale,Juvederm Ultra Smile 2×0.55ml,https://www.lpgclinicswholesale.com/product/juvederm-ultra-smile-2x0-55ml/,rule
@@ -3808,7 +3806,9 @@ BIO:BIO-GOURI-GOURI,Biostimulator,Skin On You,Gouri - Liquid PCL,https://skinony
 BIO:BIO-JUVELOOK-JUVELOOK,Biostimulator,Skin On You,JuveLook (1x 50mg),https://skinonyou.com/shop/juvelook-1x-50mg/,high
 BIO:BIO-ELLANSE-M-2X,Biostimulator,Skin On You,Ellanse M 2x1ml,https://skinonyou.com/shop/ellanse-m-2-x-1ml-dermal-filler/,high
 BIO:BIO-HARMONYCA-HARMONYCA-LIDO-2X,Biostimulator,Skin On You,HArmonyCa with Lidocaine (2 x 1.25ml),https://skinonyou.com/shop/harmonyca-2-x-1-25-ml/,high
+BIO:BIO-HARMONYCA-HARMONYCA-LIDO-2X,Biostimulator,MyPharmacyspace,Harmony CA + Lido 2 x 1.25ml (on prescription),https://mypharmacyspace.co.uk/products/harmony-ca-lido-2-x-1-25ml,high
 BIO:BIO-LANLUMA-V,Biostimulator,MyPharmacyspace,Lanluma PLLA Filler 15ml (prescription item),https://mypharmacyspace.co.uk/products/lanluma-plla-filler-15ml-prescription-item,high
+BIO:BIO-HARMONYCA-HARMONYCA-LIDO-2X,Biostimulator,MyPharmacyspace,Harmony CA + Lido 2 x 1.25ml,https://mypharmacyspace.co.uk/products/harmony-ca-lido-2-x-1-25ml-1,high
 BIO:BIO-LANLUMA-X,Biostimulator,LPG Clinics Wholesale,Lanluma X 1 x40ml,https://www.lpgclinicswholesale.com/product/lanluma-x-1-x40ml/,high
 BIO:BIO-LANLUMA-V,Biostimulator,LPG Clinics Wholesale,Lanluma V 1 x 15ml,https://www.lpgclinicswholesale.com/product/lanluma-v-1-x-15ml/,high
 BIO:BIO-RADIESSE-15ML,Biostimulator,LPG Clinics Wholesale,Radiesse 1.5ml,https://www.lpgclinicswholesale.com/product/radiesse-1-5ml/,rule
