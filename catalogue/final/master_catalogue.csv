@@ -989,18 +989,23 @@ FIL:BELLAST-PRIMEULTRA-1ML-LIDO-1X,Dermal filler,Bellast Prime Ultra,Bellast,Bel
 FIL:FILLER-BELOTERO-UNSPECIFIED,Dermal filler,Belotero,Belotero,Belotero (unspecified) (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-UNSPECIFIED-LIDO,Dermal filler,Belotero,Belotero,Belotero (unspecified) with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,2,6,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-BALANCE,Dermal filler,Belotero,Belotero,Belotero Balance (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,4,5,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-BALANCE-LIDO,Dermal filler,Belotero,Belotero,Belotero Balance with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,12,14,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-BALANCE-LIDO,Dermal filler,Belotero,Belotero,Belotero Balance with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,11,13,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-BALANCE-LIDO-10X,Dermal filler,Belotero,Belotero,Belotero Balance with lidocaine (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Merz,10,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-INTENSE,Dermal filler,Belotero,Belotero,Belotero Intense (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,3,4,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-INTENSE-LIDO,Dermal filler,Belotero,Belotero,Belotero Intense with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,12,16,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO,Dermal filler,Belotero,Belotero,Belotero Lips Contour (1 x 0.6ml with lidocaine),1 x 0.6ml with lidocaine,Merz,1,,reference-matched,11,12,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-LIPSSHAPE-LIDO,Dermal filler,Belotero,Belotero,Belotero Lips Shape (1 x 0.6ml with lidocaine),1 x 0.6ml with lidocaine,Merz,1,,reference-matched,11,12,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-INTENSE-LIDO,Dermal filler,Belotero,Belotero,Belotero Intense with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,11,15,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-INTENSE-LIDO-3X,Dermal filler,Belotero,Belotero,Belotero Intense with lidocaine (3 x 1ml with lidocaine),3 x 1ml with lidocaine,Merz,3,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO,Dermal filler,Belotero,Belotero,Belotero Lips Contour (1 x 0.6ml with lidocaine),1 x 0.6ml with lidocaine,Merz,1,,reference-matched,9,10,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO-2X,Dermal filler,Belotero,Belotero,Belotero Lips Contour (2 x 0.6ml with lidocaine),2 x 0.6ml with lidocaine,Merz,2,,reference-matched,2,2,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-LIPSSHAPE-LIDO,Dermal filler,Belotero,Belotero,Belotero Lips Shape (1 x 0.6ml with lidocaine),1 x 0.6ml with lidocaine,Merz,1,,reference-matched,10,11,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-LIPSSHAPE-LIDO-2X,Dermal filler,Belotero,Belotero,Belotero Lips Shape (2 x 0.6ml with lidocaine),2 x 0.6ml with lidocaine,Merz,2,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-REVIVE,Dermal filler,Belotero,Belotero,Belotero Revive (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,8,9,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-REVIVE-LIDO,Dermal filler,Belotero,Belotero,Belotero Revive with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-SOFT,Dermal filler,Belotero,Belotero,Belotero Soft (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,3,4,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-SOFT-LIDO,Dermal filler,Belotero,Belotero,Belotero Soft with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,12,14,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-SOFT-LIDO,Dermal filler,Belotero,Belotero,Belotero Soft with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,11,13,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-SOFT-LIDO-2X,Dermal filler,Belotero,Belotero,Belotero Soft with lidocaine (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Merz,2,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-VOLUME-2X,Dermal filler,Belotero,Belotero,Belotero Volume (2 x 1ml),2 x 1ml,Merz,2,,reference-matched,6,7,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-VOLUME-LIDO,Dermal filler,Belotero,Belotero,Belotero Volume with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-VOLUME-LIDO-2X,Dermal filler,Belotero,Belotero,Belotero Volume with lidocaine (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Merz,2,,reference-matched,11,14,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-VOLUME-LIDO,Dermal filler,Belotero,Belotero,Belotero Volume with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,1,2,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-VOLUME-LIDO-2X,Dermal filler,Belotero,Belotero,Belotero Volume with lidocaine (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Merz,2,,reference-matched,11,13,https://merz-aesthetics.co.uk/belotero/
 FIL:CAMBDERM-CLASSIC-1ML-1X,Dermal filler,Cambderm Classic,Cambderm,Cambderm Classic Dermal Filler,1 x 1ml,not named,1,,brand page only,1,1,supplier page
 FIL:CGSTYLER-600-1ML-1X,Dermal filler,Cg Styler 600,Cg Styler,CG Styler 600 Dermal Filler – 1ml,1 x 1ml,not named,1,,brand page only,1,1,supplier page
 FIL:COLENA-L-1ML-1X,Dermal filler,Colena L,Colena,Colena L,1 x 1ml,not named,1,,brand page only,1,1,supplier page
@@ -1176,22 +1181,23 @@ FIL:INTRALINE-MONOM293838MM50MM20-1X,Dermal filler,Intraline Mono M2938 38Mm-50M
 FIL:INTRALINE-TWO-1X,Dermal filler,Intraline Two,Intraline,Intraline Two,,Intraline,1,,brand page only,1,1,manufacturer IFU
 FIL:FILLER-JUVEDERM-UNSPECIFIED-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm (unspecified) (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,1,1,https://www.juvederm.co.uk
 FIL:FILLER-JUVEDERM-SKINVIVE-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Skinvive (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,14,14,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-ULTRA2-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 2 (1 x 0.55ml with lidocaine),1 x 0.55ml with lidocaine,Allergan / AbbVie,1,,reference-matched,5,8,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-ULTRA2-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 2 (2 x 0.55ml with lidocaine),2 x 0.55ml with lidocaine,Allergan / AbbVie,2,,reference-matched,18,39,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-ULTRA3-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 3 (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,4,4,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-ULTRA3-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 3 (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,18,22,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-ULTRA4-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 4 (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,3,3,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-ULTRA4-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 4 (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,17,21,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-VOLBELLA-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Volbella (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,5,5,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-VOLBELLA-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Volbella (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,18,20,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-VOLIFT-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Volift (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,4,4,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-VOLIFT-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Volift (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,16,19,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-VOLIFTRETOUCH-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Volift Retouch (1 x 0.55ml with lidocaine),1 x 0.55ml with lidocaine,Allergan / AbbVie,1,,reference-matched,1,1,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-VOLIFTRETOUCH-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Volift Retouch (2 x 0.55ml with lidocaine),2 x 0.55ml with lidocaine,Allergan / AbbVie,2,,reference-matched,11,13,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-ULTRA2-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 2 (1 x 0.55ml with lidocaine),1 x 0.55ml with lidocaine,Allergan / AbbVie,1,,reference-matched,6,11,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-ULTRA2-LIDO-10X,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 2 (10 x 0.55ml with lidocaine),10 x 0.55ml with lidocaine,Allergan / AbbVie,10,,reference-matched,1,2,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-ULTRA2-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 2 (2 x 0.55ml with lidocaine),2 x 0.55ml with lidocaine,Allergan / AbbVie,2,,reference-matched,17,34,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-ULTRA3-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 3 (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,6,6,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-ULTRA3-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 3 (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,18,20,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-ULTRA4-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 4 (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,5,5,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-ULTRA4-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Ultra 4 (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,17,19,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-VOLBELLA-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Volbella (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,6,6,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-VOLBELLA-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Volbella (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,18,19,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-VOLIFT-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Volift (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,5,5,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-VOLIFT-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Volift (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,16,18,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-VOLIFTRETOUCH-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Volift Retouch (1 x 0.55ml with lidocaine),1 x 0.55ml with lidocaine,Allergan / AbbVie,1,,reference-matched,2,2,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-VOLIFTRETOUCH-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Volift Retouch (2 x 0.55ml with lidocaine),2 x 0.55ml with lidocaine,Allergan / AbbVie,2,,reference-matched,11,12,https://www.juvederm.co.uk
 FIL:FILLER-JUVEDERM-VOLITE-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Volite (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,1,1,https://www.juvederm.co.uk
 FIL:FILLER-JUVEDERM-VOLITE-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Volite (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,9,9,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-VOLUMA-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Voluma (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,2,2,https://www.juvederm.co.uk
-FIL:FILLER-JUVEDERM-VOLUMA-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Voluma (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,16,19,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-VOLUMA-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Voluma (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,3,3,https://www.juvederm.co.uk
+FIL:FILLER-JUVEDERM-VOLUMA-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Voluma (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,16,18,https://www.juvederm.co.uk
 FIL:FILLER-JUVEDERM-VOLUX-LIDO,Dermal filler,Juvederm,Juvederm,Juvederm Volux (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Allergan / AbbVie,1,,reference-matched,3,3,https://www.juvederm.co.uk
 FIL:FILLER-JUVEDERM-VOLUX-LIDO-2X,Dermal filler,Juvederm,Juvederm,Juvederm Volux (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Allergan / AbbVie,2,,reference-matched,16,18,https://www.juvederm.co.uk
 FIL:KAIRAX-50H-0ML-1X,Dermal filler,Kairax 50H,Kairax,Kairax 50H 1 x 50ml,1 x 0ml,not named,1,,brand page only,1,1,supplier page
@@ -1435,18 +1441,27 @@ FIL:RELUMA-KISS-11ML-1X,Dermal filler,Reluma Kiss,Reluma,Reluma Kiss (1 x 1.1ml)
 FIL:RELUMA-LUSH-11ML-1X,Dermal filler,Reluma Lush,Reluma,Reluma Lush,1 x 1.1ml,not named,1,,brand page only,1,1,supplier page
 FIL:RESTLANE-DEFYNE-1ML-LIDO-1X,Dermal filler,Restlane Defyne,Restlane,Restlane Defyne Lidocaine 1x1ml,1 x 1ml with lidocaine,not named,1,,brand page only,1,1,supplier page
 FIL:FILLER-RESTYLANE-ORIGINAL,Dermal filler,Restylane,Restylane,Restylane (original) (1 x 1ml),1 x 1ml,Galderma,1,,reference-matched,3,6,https://www.restylane.co.uk
-FIL:FILLER-RESTYLANE-ORIGINAL-LIDO,Dermal filler,Restylane,Restylane,Restylane (original) with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,15,16,https://www.restylane.co.uk
-FIL:FILLER-RESTYLANE-DEFYNE-LIDO,Dermal filler,Restylane,Restylane,Restylane Defyne (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,15,17,https://www.restylane.co.uk
-FIL:FILLER-RESTYLANE-EYELIGHT-LIDO,Dermal filler,Restylane,Restylane,Restylane Eyelight (1 x 0.5ml with lidocaine),1 x 0.5ml with lidocaine,Galderma,1,,reference-matched,11,12,https://www.restylane.co.uk
-FIL:FILLER-RESTYLANE-KYSSE-LIDO,Dermal filler,Restylane,Restylane,Restylane Kysse (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,17,19,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-ORIGINAL-LIDO,Dermal filler,Restylane,Restylane,Restylane (original) with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,14,15,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-ORIGINAL-LIDO-10X,Dermal filler,Restylane,Restylane,Restylane (original) with lidocaine (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Galderma,10,,reference-matched,1,1,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-DEFYNE-LIDO,Dermal filler,Restylane,Restylane,Restylane Defyne (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,14,16,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-DEFYNE-LIDO-10X,Dermal filler,Restylane,Restylane,Restylane Defyne (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Galderma,10,,reference-matched,1,1,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-EYELIGHT-LIDO,Dermal filler,Restylane,Restylane,Restylane Eyelight (1 x 0.5ml with lidocaine),1 x 0.5ml with lidocaine,Galderma,1,,reference-matched,10,11,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-EYELIGHT-LIDO-10X,Dermal filler,Restylane,Restylane,Restylane Eyelight (10 x 0.5ml with lidocaine),10 x 0.5ml with lidocaine,Galderma,10,,reference-matched,1,1,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-KYSSE-LIDO,Dermal filler,Restylane,Restylane,Restylane Kysse (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,16,18,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-KYSSE-LIDO-10X,Dermal filler,Restylane,Restylane,Restylane Kysse (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Galderma,10,,reference-matched,1,1,https://www.restylane.co.uk
 FIL:FILLER-RESTYLANE-LYFT,Dermal filler,Restylane,Restylane,Restylane Lyft (1 x 1ml),1 x 1ml,Galderma,1,,reference-matched,2,2,https://www.restylane.co.uk
-FIL:FILLER-RESTYLANE-LYFT-LIDO,Dermal filler,Restylane,Restylane,Restylane Lyft with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,16,18,https://www.restylane.co.uk
-FIL:FILLER-RESTYLANE-REFYNE-LIDO,Dermal filler,Restylane,Restylane,Restylane Refyne (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,17,19,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-LYFT-LIDO,Dermal filler,Restylane,Restylane,Restylane Lyft with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,15,17,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-LYFT-LIDO-10X,Dermal filler,Restylane,Restylane,Restylane Lyft with lidocaine (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Galderma,10,,reference-matched,1,1,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-REFYNE-LIDO,Dermal filler,Restylane,Restylane,Restylane Refyne (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,16,18,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-REFYNE-LIDO-10X,Dermal filler,Restylane,Restylane,Restylane Refyne (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Galderma,10,,reference-matched,1,1,https://www.restylane.co.uk
 FIL:FILLER-RESTYLANE-SKINBOOSTERSVITAL,Dermal filler,Restylane,Restylane,Restylane Skinboosters Vital (1 x 1ml),1 x 1ml,Galderma,1,,reference-matched,1,1,https://www.restylane.co.uk
 FIL:FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT,Dermal filler,Restylane,Restylane,Restylane Skinboosters Vital Light (1 x 1ml),1 x 1ml,Galderma,1,,reference-matched,1,2,https://www.restylane.co.uk
-FIL:FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT-LIDO,Dermal filler,Restylane,Restylane,Restylane Skinboosters Vital Light with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,11,13,https://www.restylane.co.uk
-FIL:FILLER-RESTYLANE-SKINBOOSTERSVITAL-LIDO,Dermal filler,Restylane,Restylane,Restylane Skinboosters Vital with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,14,16,https://www.restylane.co.uk
-FIL:FILLER-RESTYLANE-VOLYME-LIDO,Dermal filler,Restylane,Restylane,Restylane Volyme (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,15,16,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT-LIDO,Dermal filler,Restylane,Restylane,Restylane Skinboosters Vital Light with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,10,12,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT-LIDO-10X,Dermal filler,Restylane,Restylane,Restylane Skinboosters Vital Light with lidocaine (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Galderma,10,,reference-matched,1,1,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-SKINBOOSTERSVITAL-LIDO,Dermal filler,Restylane,Restylane,Restylane Skinboosters Vital with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,13,15,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-SKINBOOSTERSVITAL-LIDO-10X,Dermal filler,Restylane,Restylane,Restylane Skinboosters Vital with lidocaine (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Galderma,10,,reference-matched,1,1,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-VOLYME-LIDO,Dermal filler,Restylane,Restylane,Restylane Volyme (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,14,15,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-VOLYME-LIDO-10X,Dermal filler,Restylane,Restylane,Restylane Volyme (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Galderma,10,,reference-matched,1,1,https://www.restylane.co.uk
 FIL:REVANESSE-CONTOUR-2ML-2X,Dermal filler,Revanesse Contour,Revanesse,Revanesse Contour 2 X 12ml,2 x 2ml,Prollenium (Canada),2,,yes,1,2,manufacturer IFU
 FIL:REVANESSE-CONTOUR-12ML-LIDO-1X,Dermal filler,Revanesse Contour,Revanesse,Revanesse Contour+ With Lidocaine (2 x 1.2ml),1 x 1.2ml with lidocaine,Prollenium (Canada),1,,yes,1,1,manufacturer IFU
 FIL:REVANESSE-CONTOUR-12ML-LIDO-2X,Dermal filler,Revanesse Contour,Revanesse,Revanesse Contour+ with Lidocaine (2x1.2ml),2 x 1.2ml with lidocaine,Prollenium (Canada),2,,yes,1,1,manufacturer IFU
@@ -1479,13 +1494,18 @@ FIL:REVOFIL-PLUS-1X,Dermal filler,Revofil Plus,Revofil,Revofil Plus,,Dexlevo (Ko
 FIL:REVOFIL-PLUSSYR-1ML-1X,Dermal filler,Revofil Plus Syr,Revofil,Revofil Plus (2 x 1ml syr.),1 x 1ml,Dexlevo (Korea),1,,brand page only,1,1,manufacturer IFU
 FIL:REVOFIL-ULTRA-1X,Dermal filler,Revofil Ultra,Revofil,Revofil Ultra,,Dexlevo (Korea),1,,brand page only,1,1,manufacturer IFU
 FIL:REVOFIL-ULTRASYR-1ML-1X,Dermal filler,Revofil Ultra Syr,Revofil,Revofil Ultra (2 x 1ml syr.),1 x 1ml,Dexlevo (Korea),1,,brand page only,1,1,manufacturer IFU
-FIL:FILLER-REVOLAX-UNSPECIFIED,Dermal filler,Revolax,Revolax,Revolax (unspecified) (1 x 1.1ml),1 x 1.1ml,Across (Korea),1,,reference-matched,2,2,https://www.revolax.co.uk
-FIL:FILLER-REVOLAX-DEEP,Dermal filler,Revolax,Revolax,Revolax Deep (1 x 1.1ml),1 x 1.1ml,Across (Korea),1,,reference-matched,6,6,https://www.revolax.co.uk
-FIL:FILLER-REVOLAX-DEEP-LIDO,Dermal filler,Revolax,Revolax,Revolax Deep with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,11,13,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-UNSPECIFIED,Dermal filler,Revolax,Revolax,Revolax (unspecified) (1 x 1.1ml),1 x 1.1ml,Across (Korea),1,,reference-matched,1,1,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-UNSPECIFIED-2X,Dermal filler,Revolax,Revolax,Revolax (unspecified) (2 x 1.1ml),2 x 1.1ml,Across (Korea),2,,reference-matched,1,1,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-DEEP,Dermal filler,Revolax,Revolax,Revolax Deep (1 x 1.1ml),1 x 1.1ml,Across (Korea),1,,reference-matched,5,5,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-DEEP-2X,Dermal filler,Revolax,Revolax,Revolax Deep (2 x 1.1ml),2 x 1.1ml,Across (Korea),2,,reference-matched,1,1,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-DEEP-LIDO,Dermal filler,Revolax,Revolax,Revolax Deep with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,10,12,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-DEEP-LIDO-10X,Dermal filler,Revolax,Revolax,Revolax Deep with lidocaine (10 x 1.1ml with lidocaine),10 x 1.1ml with lidocaine,Across (Korea),10,,reference-matched,1,1,https://www.revolax.co.uk
 FIL:FILLER-REVOLAX-FINE,Dermal filler,Revolax,Revolax,Revolax Fine (1 x 1.1ml),1 x 1.1ml,Across (Korea),1,,reference-matched,6,6,https://www.revolax.co.uk
-FIL:FILLER-REVOLAX-FINE-LIDO,Dermal filler,Revolax,Revolax,Revolax Fine with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,11,13,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-FINE-LIDO,Dermal filler,Revolax,Revolax,Revolax Fine with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,10,12,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-FINE-LIDO-10X,Dermal filler,Revolax,Revolax,Revolax Fine with lidocaine (10 x 1.1ml with lidocaine),10 x 1.1ml with lidocaine,Across (Korea),10,,reference-matched,1,1,https://www.revolax.co.uk
 FIL:FILLER-REVOLAX-SUBQ,Dermal filler,Revolax,Revolax,Revolax Sub-Q (1 x 1.1ml),1 x 1.1ml,Across (Korea),1,,reference-matched,5,5,https://www.revolax.co.uk
-FIL:FILLER-REVOLAX-SUBQ-LIDO,Dermal filler,Revolax,Revolax,Revolax Sub-Q with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,11,13,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-SUBQ-LIDO,Dermal filler,Revolax,Revolax,Revolax Sub-Q with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,10,12,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-SUBQ-LIDO-10X,Dermal filler,Revolax,Revolax,Revolax Sub-Q with lidocaine (10 x 1.1ml with lidocaine),10 x 1.1ml with lidocaine,Across (Korea),10,,reference-matched,1,1,https://www.revolax.co.uk
 FIL:RHA-1-1ML-2X,Dermal filler,Rha 1,Rha,RHA 1 (2x1ml),2 x 1ml,not named,2,,brand page only,1,1,supplier page
 FIL:RHA-1-1ML-1X,Dermal filler,Rha 1,Rha,RHA 1 Single (1x1ml),1 x 1ml,not named,1,,brand page only,1,1,supplier page
 FIL:RHAKISS-07ML-2X,Dermal filler,Rha Kiss,Rha Kiss,RHA KISS 2 X 0.7ml,2 x 0.7ml,not named,2,,brand page only,1,1,supplier page
@@ -1528,8 +1548,8 @@ FIL:FILLER-STYLAGE-HYDRO,Dermal filler,Stylage,Stylage,Stylage Hydro (1 x 1ml),1
 FIL:FILLER-STYLAGE-HYDRO-2X,Dermal filler,Stylage,Stylage,Stylage Hydro (2 x 1ml),2 x 1ml,Vivacy,2,,reference-matched,4,4,https://www.vivacy.com
 FIL:FILLER-STYLAGE-HYDROMAX,Dermal filler,Stylage,Stylage,Stylage HydroMax (1 x 1ml),1 x 1ml,Vivacy,1,,reference-matched,6,6,https://www.vivacy.com
 FIL:FILLER-STYLAGE-HYDROMAX-2X,Dermal filler,Stylage,Stylage,Stylage HydroMax (2 x 1ml),2 x 1ml,Vivacy,2,,reference-matched,2,3,https://www.vivacy.com
-FIL:FILLER-STYLAGE-L-LIDO,Dermal filler,Stylage,Stylage,Stylage L (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Vivacy,1,,reference-matched,2,6,https://www.vivacy.com
-FIL:FILLER-STYLAGE-L-LIDO-2X,Dermal filler,Stylage,Stylage,Stylage L (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Vivacy,2,,reference-matched,14,22,https://www.vivacy.com
+FIL:FILLER-STYLAGE-L-LIDO,Dermal filler,Stylage,Stylage,Stylage L (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Vivacy,1,,reference-matched,3,7,https://www.vivacy.com
+FIL:FILLER-STYLAGE-L-LIDO-2X,Dermal filler,Stylage,Stylage,Stylage L (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Vivacy,2,,reference-matched,14,21,https://www.vivacy.com
 FIL:FILLER-STYLAGE-M-LIDO,Dermal filler,Stylage,Stylage,Stylage M (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Vivacy,1,,reference-matched,1,1,https://www.vivacy.com
 FIL:FILLER-STYLAGE-M-LIDO-2X,Dermal filler,Stylage,Stylage,Stylage M (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Vivacy,2,,reference-matched,14,18,https://www.vivacy.com
 FIL:FILLER-STYLAGE-S-LIDO,Dermal filler,Stylage,Stylage,Stylage S (1 x 0.8ml with lidocaine),1 x 0.8ml with lidocaine,Vivacy,1,,reference-matched,1,1,https://www.vivacy.com
@@ -1554,30 +1574,35 @@ FIL:TEOFIL-LIPS-1X,Dermal filler,Teofil Lips,Teofil,Teofil Lips,,not named,1,,br
 FIL:TEOFIL-SUBQ-1X,Dermal filler,Teofil Sub Q,Teofil,Teofil Sub Q,,not named,1,,brand page only,2,2,supplier page
 FIL:TEOFIL-SUBQCE-11ML-1X,Dermal filler,Teofil Sub-Q - - Ce,Teofil,Teofil Sub-Q - 1 x 1.1ml - CE Marked Dermal Filler,1 x 1.1ml,not named,1,,brand page only,1,1,supplier page
 FIL:TEOFIL-SUBQCE-1X,Dermal filler,Teofil Sub-Q Ce,Teofil,Teofil Sub-Q CE Dermal Filler,,not named,1,,brand page only,1,1,supplier page
-FIL:FILLER-TEOSYAL-UNSPECIFIED-2X,Dermal filler,Teosyal,Teosyal,Teosyal (unspecified) (2 x 1ml),2 x 1ml,Teoxane,2,,reference-matched,6,11,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-UNSPECIFIED,Dermal filler,Teosyal,Teosyal,Teosyal (unspecified) (1 x 1ml),1 x 1ml,Teoxane,1,,reference-matched,2,2,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-UNSPECIFIED-2X,Dermal filler,Teosyal,Teosyal,Teosyal (unspecified) (2 x 1ml),2 x 1ml,Teoxane,2,,reference-matched,6,9,https://www.teoxane.com
 FIL:FILLER-TEOSYAL-FIRSTLINESTOUCHUP-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal First Lines / Touch Up (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Teoxane,2,,reference-matched,1,2,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-PURESENSEDEEPLINES-LIDO,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Deep Lines (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Teoxane,1,,reference-matched,1,1,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-PURESENSEDEEPLINES-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Deep Lines (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Teoxane,2,,reference-matched,9,11,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-PURESENSEGLOBALACTION-LIDO,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Global Action (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Teoxane,1,,reference-matched,1,1,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-PURESENSEGLOBALACTION-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Global Action (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Teoxane,2,,reference-matched,7,10,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-PURESENSEKISS-LIDO,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Kiss (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Teoxane,1,,reference-matched,2,2,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-PURESENSEKISS-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Kiss (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Teoxane,2,,reference-matched,14,17,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-PURESENSEREDENSITYI-LIDO,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Redensity I (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Teoxane,1,,reference-matched,14,18,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-PURESENSEREDENSITYI-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Redensity I (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Teoxane,2,,reference-matched,13,18,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-PURESENSEREDENSITYII-LIDO,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Redensity II (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Teoxane,1,,reference-matched,5,5,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-PURESENSEREDENSITYII-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Redensity II (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Teoxane,2,,reference-matched,19,22,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-PURESENSEDEEPLINES-LIDO,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Deep Lines (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Teoxane,1,,reference-matched,2,2,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-PURESENSEDEEPLINES-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Deep Lines (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Teoxane,2,,reference-matched,9,10,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-PURESENSEGLOBALACTION-LIDO,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Global Action (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Teoxane,1,,reference-matched,2,2,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-PURESENSEGLOBALACTION-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Global Action (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Teoxane,2,,reference-matched,7,9,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-PURESENSEKISS-LIDO,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Kiss (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Teoxane,1,,reference-matched,3,3,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-PURESENSEKISS-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Kiss (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Teoxane,2,,reference-matched,14,16,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-PURESENSEREDENSITYI-LIDO,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Redensity I (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Teoxane,1,,reference-matched,14,19,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-PURESENSEREDENSITYI-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Redensity I (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Teoxane,2,,reference-matched,13,17,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-PURESENSEREDENSITYII-LIDO,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Redensity II (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Teoxane,1,,reference-matched,6,6,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-PURESENSEREDENSITYII-LIDO-10X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Redensity II (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Teoxane,10,,reference-matched,1,1,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-PURESENSEREDENSITYII-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Redensity II (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Teoxane,2,,reference-matched,18,20,https://www.teoxane.com
 FIL:FILLER-TEOSYAL-PURESENSEULTRADEEP-LIDO,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Ultra Deep (1 x 1.2ml with lidocaine),1 x 1.2ml with lidocaine,Teoxane,1,,reference-matched,4,4,https://www.teoxane.com
 FIL:FILLER-TEOSYAL-PURESENSEULTRADEEP-LIDO-2X,Dermal filler,Teosyal,Teosyal,Teosyal PureSense Ultra Deep (2 x 1.2ml with lidocaine),2 x 1.2ml with lidocaine,Teoxane,2,,reference-matched,17,19,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-RHA1,Dermal filler,Teosyal,Teosyal,Teosyal RHA 1 (1 x 1ml),1 x 1ml,Teoxane,1,,reference-matched,3,3,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-RHA1-2X,Dermal filler,Teosyal,Teosyal,Teosyal RHA 1 (2 x 1ml),2 x 1ml,Teoxane,2,,reference-matched,17,20,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-RHA2,Dermal filler,Teosyal,Teosyal,Teosyal RHA 2 (1 x 1ml),1 x 1ml,Teoxane,1,,reference-matched,3,3,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-RHA2-2X,Dermal filler,Teosyal,Teosyal,Teosyal RHA 2 (2 x 1ml),2 x 1ml,Teoxane,2,,reference-matched,16,19,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-RHA3,Dermal filler,Teosyal,Teosyal,Teosyal RHA 3 (1 x 1ml),1 x 1ml,Teoxane,1,,reference-matched,3,3,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-RHA3-2X,Dermal filler,Teosyal,Teosyal,Teosyal RHA 3 (2 x 1ml),2 x 1ml,Teoxane,2,,reference-matched,15,20,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-RHA4,Dermal filler,Teosyal,Teosyal,Teosyal RHA 4 (1 x 1ml),1 x 1ml,Teoxane,1,,reference-matched,3,3,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-RHA4-2X,Dermal filler,Teosyal,Teosyal,Teosyal RHA 4 (2 x 1ml),2 x 1ml,Teoxane,2,,reference-matched,17,22,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-RHAKISS,Dermal filler,Teosyal,Teosyal,Teosyal RHA Kiss (1 x 0.7ml),1 x 0.7ml,Teoxane,1,,reference-matched,4,5,https://www.teoxane.com
-FIL:FILLER-TEOSYAL-RHAKISS-2X,Dermal filler,Teosyal,Teosyal,Teosyal RHA Kiss (2 x 0.7ml),2 x 0.7ml,Teoxane,2,,reference-matched,15,26,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHA1,Dermal filler,Teosyal,Teosyal,Teosyal RHA 1 (1 x 1ml),1 x 1ml,Teoxane,1,,reference-matched,5,5,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHA1-2X,Dermal filler,Teosyal,Teosyal,Teosyal RHA 1 (2 x 1ml),2 x 1ml,Teoxane,2,,reference-matched,16,18,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHA2,Dermal filler,Teosyal,Teosyal,Teosyal RHA 2 (1 x 1ml),1 x 1ml,Teoxane,1,,reference-matched,4,4,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHA2-2X,Dermal filler,Teosyal,Teosyal,Teosyal RHA 2 (2 x 1ml),2 x 1ml,Teoxane,2,,reference-matched,16,18,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHA3,Dermal filler,Teosyal,Teosyal,Teosyal RHA 3 (1 x 1ml),1 x 1ml,Teoxane,1,,reference-matched,4,4,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHA3-2X,Dermal filler,Teosyal,Teosyal,Teosyal RHA 3 (2 x 1ml),2 x 1ml,Teoxane,2,,reference-matched,15,17,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHA3-24X,Dermal filler,Teosyal,Teosyal,Teosyal RHA 3 (24 x 1ml),24 x 1ml,Teoxane,24,,reference-matched,1,1,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHA3-6X,Dermal filler,Teosyal,Teosyal,Teosyal RHA 3 (6 x 1ml),6 x 1ml,Teoxane,6,,reference-matched,1,1,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHA4,Dermal filler,Teosyal,Teosyal,Teosyal RHA 4 (1 x 1ml),1 x 1ml,Teoxane,1,,reference-matched,4,4,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHA4-10X,Dermal filler,Teosyal,Teosyal,Teosyal RHA 4 (10 x 1ml),10 x 1ml,Teoxane,10,,reference-matched,1,1,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHA4-2X,Dermal filler,Teosyal,Teosyal,Teosyal RHA 4 (2 x 1ml),2 x 1ml,Teoxane,2,,reference-matched,16,20,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHAKISS,Dermal filler,Teosyal,Teosyal,Teosyal RHA Kiss (1 x 0.7ml),1 x 0.7ml,Teoxane,1,,reference-matched,5,6,https://www.teoxane.com
+FIL:FILLER-TEOSYAL-RHAKISS-2X,Dermal filler,Teosyal,Teosyal,Teosyal RHA Kiss (2 x 0.7ml),2 x 0.7ml,Teoxane,2,,reference-matched,15,25,https://www.teoxane.com
 FIL:TESORO-DEEP-1X,Dermal filler,Tesoro Deep,Tesoro,Tesoro Deep,,not named,1,,brand page only,1,1,supplier page
 FIL:UTHDEEP-03-1ML-LIDO-1X,Dermal filler,Uth Deep 03,Uth Deep,UTH Deep 03 + Lidocaine (1x1ml),1 x 1ml with lidocaine,not named,1,,brand page only,2,3,supplier page
 FIL:UTHDEEP-03-1ML-1X,Dermal filler,Uth Deep 03,Uth Deep,Uth Deep 03 1x1ml,1 x 1ml,not named,1,,brand page only,1,1,supplier page
@@ -1927,22 +1952,24 @@ DEV:OBSERV-VISOR-POLARISATION,Devices & equipment,Skin analysis / imaging,Observ
 DEV:PURE-TONE-DERMA-VU-PHOTOGRAPHIC-SKIN,Devices & equipment,Skin analysis / imaging,Pure,Pure Tone Derma Vu Photographic Skin Analysis Machine,machine / device,,,,,1,1,
 DEV:MOISTSENSE-CAPACITIVE-MOISTURE-SENSOR,Devices & equipment,Skin analysis / imaging,moistsense,Moistsense Capacitive Moisture Sensor,machine / device,,,,,1,1,
 DEV:AUTOCLAVE-STERILISATION-POUCHES-200PCS,Devices & equipment,Steriliser / autoclave,Autoclave,Autoclave Sterilisation Pouches - (135mm x 260mm) 200pcs,machine / device,,,,,1,1,
-FAT:FAT-ALIDYA-ANTILIPODYSTROPHY,Fat dissolving,Anti-lipodystrophic (cellulite),Alidya,Alidya (anti-lipodystrophy) (1 x 10ml vial),1 x 10ml vial,Mastelli,1,,reference-matched,2,2,
-FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Fat dissolving,Anti-lipodystrophic (cellulite),Alidya,Alidya (anti-lipodystrophy) (5 x 10ml vials),5 x 10ml vials,Mastelli,5,,reference-matched,4,4,
-FAT:FAT-AQUALYX-AQUALYX,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (1 x 8ml vial),1 x 8ml vial,Marllor / Ghimja,1,,reference-matched,7,9,
-FAT:FAT-AQUALYX-AQUALYX-10X,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (10 x 8ml vials),10 x 8ml vials,Marllor / Ghimja,10,,reference-matched,10,10,
+FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Fat dissolving,Anti-lipodystrophic (cellulite),Alidya,Alidya (anti-lipodystrophy) (5 x 10ml vials),5 x 10ml vials,Mastelli,5,,reference-matched,6,6,
+FAT:FAT-AQUALYX-AQUALYX,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (1 x 8ml vial),1 x 8ml vial,Marllor / Ghimja,1,,reference-matched,7,7,
+FAT:FAT-AQUALYX-AQUALYX-10X,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (10 x 8ml vials),10 x 8ml vials,Marllor / Ghimja,10,,reference-matched,11,11,
 FAT:FAT-AQUALYX-AQUALYX-5X,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (5 x 8ml vials),5 x 8ml vials,Marllor / Ghimja,5,,reference-matched,1,1,
-FAT:FAT-AQUALYX-AQUALYX-8X,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (8 x 8ml vials),8 x 8ml vials,Marllor / Ghimja,8,,reference-matched,1,1,
-FAT:FAT-KABELLINE-KABELLINE,Fat dissolving,Deoxycholic acid,Kabelline,Kabelline (1 x 8ml vial),1 x 8ml vial,Kabelline (Korea),1,,reference-matched,1,1,
-FAT:FAT-DESOFACE-DESOFACE,Fat dissolving,Deoxycholic acid 0.5%,DesoFace,DesoFace (1 x 10ml vial),1 x 10ml vial,Deso (Korea),1,,reference-matched,6,7,
-FAT:FAT-DESOFACE-DESOFACE-5X,Fat dissolving,Deoxycholic acid 0.5%,DesoFace,DesoFace (5 x 10ml vials),5 x 10ml vials,Deso (Korea),5,,reference-matched,3,3,
-FAT:FAT-DESOBODY-DESOBODY,Fat dissolving,Deoxycholic acid 1.25%,DesoBody,DesoBody (1 x 10ml vial),1 x 10ml vial,Deso (Korea),1,,reference-matched,4,4,
-FAT:FAT-DESOBODY-DESOBODY-5X,Fat dissolving,Deoxycholic acid 1.25%,DesoBody,DesoBody (5 x 10ml vials),5 x 10ml vials,Deso (Korea),5,,reference-matched,4,4,
-FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Fat dissolving,Lecithin / proprietary,Lemon Bottle,Lemon Bottle (1 x 10ml vial),1 x 10ml vial,Lemon Bottle (Korea),1,,reference-matched,8,11,
-FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Fat dissolving,Lecithin / proprietary,Lemon Bottle,Lemon Bottle (5 x 10ml vials),5 x 10ml vials,Lemon Bottle (Korea),5,,reference-matched,7,7,
+FAT:FAT-AQUALYX-AQUALYX-8X,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (8 x 8ml vials),8 x 8ml vials,Marllor / Ghimja,8,,reference-matched,2,2,
+FAT:FAT-KABELLINE-KABELLINE-5X,Fat dissolving,Deoxycholic acid,Kabelline,Kabelline (5 x 8ml vials),5 x 8ml vials,Kabelline (Korea),5,,reference-matched,1,1,
+FAT:FAT-DESOFACE-DESOFACE,Fat dissolving,Deoxycholic acid 0.5%,DesoFace,DesoFace (1 x 10ml vial),1 x 10ml vial,Deso (Korea),1,,reference-matched,3,4,
+FAT:FAT-DESOFACE-DESOFACE-10X,Fat dissolving,Deoxycholic acid 0.5%,DesoFace,DesoFace (10 x 10ml vials),10 x 10ml vials,Deso (Korea),10,,reference-matched,1,1,
+FAT:FAT-DESOFACE-DESOFACE-5X,Fat dissolving,Deoxycholic acid 0.5%,DesoFace,DesoFace (5 x 10ml vials),5 x 10ml vials,Deso (Korea),5,,reference-matched,5,5,
+FAT:FAT-DESOBODY-DESOBODY,Fat dissolving,Deoxycholic acid 1.25%,DesoBody,DesoBody (1 x 10ml vial),1 x 10ml vial,Deso (Korea),1,,reference-matched,1,1,
+FAT:FAT-DESOBODY-DESOBODY-10X,Fat dissolving,Deoxycholic acid 1.25%,DesoBody,DesoBody (10 x 10ml vials),10 x 10ml vials,Deso (Korea),10,,reference-matched,1,1,
+FAT:FAT-DESOBODY-DESOBODY-5X,Fat dissolving,Deoxycholic acid 1.25%,DesoBody,DesoBody (5 x 10ml vials),5 x 10ml vials,Deso (Korea),5,,reference-matched,6,6,
+FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Fat dissolving,Lecithin / proprietary,Lemon Bottle,Lemon Bottle (1 x 10ml vial),1 x 10ml vial,Lemon Bottle (Korea),1,,reference-matched,8,8,
+FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-10X,Fat dissolving,Lecithin / proprietary,Lemon Bottle,Lemon Bottle (10 x 10ml vials),10 x 10ml vials,Lemon Bottle (Korea),10,,reference-matched,1,1,
+FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Fat dissolving,Lecithin / proprietary,Lemon Bottle,Lemon Bottle (5 x 10ml vials),5 x 10ml vials,Lemon Bottle (Korea),5,,reference-matched,7,9,
 FAT:FAT-PINE-BOTTLE-PINEBOTTLE-5X,Fat dissolving,Lecithin / proprietary,Pine Bottle,Pine Bottle (5 x 10ml vials),5 x 10ml vials,Pine Bottle,5,,reference-matched,2,2,
-FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,Fat dissolving,Lecithin / proprietary,The Skinny Bottle,The Skinny Bottle (1 x 10ml vial),1 x 10ml vial,The Skinny Bottle,1,,reference-matched,3,3,
-FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,Fat dissolving,Lecithin / proprietary,The Skinny Bottle,The Skinny Bottle (5 x 10ml vials),5 x 10ml vials,The Skinny Bottle,5,,reference-matched,2,2,
+FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,Fat dissolving,Lecithin / proprietary,The Skinny Bottle,The Skinny Bottle (1 x 10ml vial),1 x 10ml vial,The Skinny Bottle,1,,reference-matched,2,2,
+FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,Fat dissolving,Lecithin / proprietary,The Skinny Bottle,The Skinny Bottle (5 x 10ml vials),5 x 10ml vials,The Skinny Bottle,5,,reference-matched,3,3,
 FAT:FAT-BCN-ADIPO-FORTE-5X,Fat dissolving,Mesotherapy lipolytic,BCN Adipo,BCN Adipo Forte (5 x 10ml vials),5 x 10ml vials,Institute BCN,5,,reference-matched,1,1,
 FAT:FAT-CINCELAR-PLUS-5X,Fat dissolving,Mesotherapy lipolytic,Cincelar,Cincelar Plus (5 x 8ml vials),5 x 8ml vials,Cincelar,5,,reference-matched,1,1,
 FAT:FAT-DR.-LIPO-PLUSBODY,Fat dissolving,Mesotherapy lipolytic,Dr. Lipo,Dr. Lipo Plus (Body) (1 x 10ml vial),1 x 10ml vial,Dr. Lipo,1,,reference-matched,3,6,
@@ -1951,11 +1978,12 @@ FAT:FAT-DR.-LIPO-VLINE,Fat dissolving,Mesotherapy lipolytic,Dr. Lipo,Dr. Lipo V-
 FAT:FAT-DR.-LIPO-VLINE-10X,Fat dissolving,Mesotherapy lipolytic,Dr. Lipo,Dr. Lipo V-Line (10 x 10ml vials),10 x 10ml vials,Dr. Lipo,10,,reference-matched,1,1,
 FAT:FAT-MESOSCULPT-C71,Fat dissolving,Mesotherapy lipolytic,MesoSculpt,MesoSculpt C71 (1 x 1ml vial),1 x 1ml vial,MesoSculpt,1,,reference-matched,1,1,
 FAT:FAT-MESOESTETIC-CPROF221LIPOLYTIC-5X,Fat dissolving,Mesotherapy lipolytic,Mesoestetic,Mesoestetic C.Prof 221 Lipolytic (5 x 10ml vials),5 x 10ml vials,Mesoestetic,5,,reference-matched,1,1,
-FAT:FAT-INNO-TDS-DRAININGPPC,Fat dissolving,Phosphatidylcholine (PPC),Inno-TDS,Inno-TDS Draining PPC (1 x 5ml vial),1 x 5ml vial,Innoaesthetics,1,,reference-matched,2,2,
+FAT:FAT-INNO-TDS-DRAININGPPC,Fat dissolving,Phosphatidylcholine (PPC),Inno-TDS,Inno-TDS Draining PPC (1 x 5ml vial),1 x 5ml vial,Innoaesthetics,1,,reference-matched,1,1,
+FAT:FAT-INNO-TDS-DRAININGPPC-4X,Fat dissolving,Phosphatidylcholine (PPC),Inno-TDS,Inno-TDS Draining PPC (4 x 5ml vials),4 x 5ml vials,Innoaesthetics,4,,reference-matched,1,1,
 FAT:FAT-LIPO-LAB-PPC,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab PPC (1 x 10ml vial),1 x 10ml vial,Lipo Lab (Korea),1,,reference-matched,2,3,
 FAT:FAT-LIPO-LAB-PPC-10X,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab PPC (10 x 10ml vials),10 x 10ml vials,Lipo Lab (Korea),10,,reference-matched,5,5,
-FAT:FAT-LIPO-LAB-VLINE,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab V-Line (1 x 10ml vial),1 x 10ml vial,Lipo Lab (Korea),1,,reference-matched,2,2,
-FAT:FAT-LIPO-LAB-VLINE-5X,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab V-Line (5 x 10ml vials),5 x 10ml vials,Lipo Lab (Korea),5,,reference-matched,3,3,
+FAT:FAT-LIPO-LAB-VLINE,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab V-Line (1 x 10ml vial),1 x 10ml vial,Lipo Lab (Korea),1,,reference-matched,1,1,
+FAT:FAT-LIPO-LAB-VLINE-5X,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab V-Line (5 x 10ml vials),5 x 10ml vials,Lipo Lab (Korea),5,,reference-matched,4,4,
 FAT:MYFILLERREVITALIZESLIM-10ML-1X,Fat dissolving,Phosphatidylcholine + deoxycholate (PPC),Myfiller Revitalize Slim,Myfiller Revitalize Slim,1 x 10ml vial,not named,1,,NO - confirm,1,1,
 MED:ABIOGENDIBASE-INJE,Medicines,abiogen dibase,abiogen dibase,Abiogen Dibase 300000 1ml X 2amps 2,injection,,,vitamin/IV,,1,1,https://www.medicines.org.uk/emc/search?q=abiogen
 MED:ACDA-INJE,Medicines,acd-a,ACD-A,ACD-A 500ml x12,injection,,,injectable/emergency,,1,1,https://www.medicines.org.uk/emc/search?q=acd-a
@@ -3141,21 +3169,27 @@ THR:SPRINGTHREAD-COG-NEE-6PCS,PDO threads,PLLA cog/barbed,SpringThread,SpringThr
 THR:SPRINGTHREAD-COG-NO--6PCS,PDO threads,PLLA cog/barbed,SpringThread,SpringThread Face Thread WITHOUT needles x 6,no-needle x6,Promoitalia,6,,yes,1,1,
 THR:SILHOUETTESOFT-CONE-2PCS,PDO threads,PLLA/PLGA cone,Silhouette Soft,Silhouette Soft 12 Cones (5 packs x 2 units),x2,Sinclair,2,,yes,3,8,
 BST:AMINO-FORMULA-FBP-50ML,Skin booster / PN / mesotherapy,Amino-acid skin booster,Amino,Amino Formula Fbp 50ml,1 x 50ml,,1,,,1,1,
-BST:BST-JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (1 x 3ml),1 x 3ml,,1,,reference-matched,3,3,
-BST:BST-JALUPRO-CLASSIC-11X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (11 x 3ml),11 x 3ml,,11,,reference-matched,1,1,
-BST:BST-JALUPRO-CLASSIC-2X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (2 x 3ml),2 x 3ml,,2,,reference-matched,13,22,
+BST:BST-JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (1 x 3ml),1 x 3ml,,1,,reference-matched,5,9,
+BST:BST-JALUPRO-CLASSIC-11X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (11 x 3ml),11 x 3ml,,11,,reference-matched,2,3,
+BST:BST-JALUPRO-CLASSIC-2X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (2 x 3ml),2 x 3ml,,2,,reference-matched,11,12,
 BST:BST-JALUPRO-CLASSIC-3X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (3 x 3ml),3 x 3ml,,3,,reference-matched,2,3,
+BST:BST-JALUPRO-CLASSIC-5X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (5 x 3ml),5 x 3ml,,5,,reference-matched,1,2,
 BST:BST-JALUPRO-CLASSIC-6X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (6 x 3ml),6 x 3ml,,6,,reference-matched,7,8,
-BST:BST-JALUPRO-HMW,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro HMW (1 x 1.5ml),1 x 1.5ml,,1,,reference-matched,12,13,
-BST:BST-JALUPRO-SUPERHYDRO,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Super Hydro (1 x 2.5ml),1 x 2.5ml,,1,,reference-matched,15,18,
+BST:BST-JALUPRO-HMW,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro HMW (1 x 1.5ml),1 x 1.5ml,,1,,reference-matched,11,12,
+BST:BST-JALUPRO-HMW-2X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro HMW (2 x 1.5ml),2 x 1.5ml,,2,,reference-matched,1,1,
+BST:BST-JALUPRO-SUPERHYDRO,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Super Hydro (1 x 2.5ml),1 x 2.5ml,,1,,reference-matched,14,17,
+BST:BST-JALUPRO-SUPERHYDRO-5X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Super Hydro (5 x 2.5ml),5 x 2.5ml,,5,,reference-matched,1,1,
 BST:BST-JALUPRO-YOUNGEYE,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Young Eye (1 x 1ml),1 x 1ml,,1,,reference-matched,14,15,
 BST:BST-SUNEKOS-UNSPECIFIED-2X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos (unspecified) (2 x 1.5ml),2 x 1.5ml,,2,,reference-matched,1,1,
 BST:BST-SUNEKOS-1200-2X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos 1200 (2 x 1.5ml),2 x 1.5ml,,2,,reference-matched,16,17,
 BST:BST-SUNEKOS-200-2X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos 200 (2 x 3ml),2 x 3ml,,2,,reference-matched,4,4,
-BST:BST-SUNEKOS-BODY,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos Body (1 x 10ml),1 x 10ml,,1,,reference-matched,9,9,
-BST:BST-SUNEKOS-CELL,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos Cell (1 x 4.5ml),1 x 4.5ml,,1,,reference-matched,6,6,
+BST:BST-SUNEKOS-BODY,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos Body (1 x 10ml),1 x 10ml,,1,,reference-matched,8,8,
+BST:BST-SUNEKOS-BODY-3X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos Body (3 x 10ml),3 x 10ml,,3,,reference-matched,1,1,
+BST:BST-SUNEKOS-CELL,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos Cell (1 x 4.5ml),1 x 4.5ml,,1,,reference-matched,5,5,
 BST:BST-SUNEKOS-CELL-10X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos Cell (10 x 4.5ml),10 x 4.5ml,,10,,reference-matched,1,1,
-BST:BST-SUNEKOS-PERFORMA-2X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos Performa (2 x 3.5ml),2 x 3.5ml,,2,,reference-matched,15,16,
+BST:BST-SUNEKOS-CELL-2X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos Cell (2 x 4.5ml),2 x 4.5ml,,2,,reference-matched,1,1,
+BST:BST-SUNEKOS-PERFORMA-10X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos Performa (10 x 3.5ml),10 x 3.5ml,,10,,reference-matched,1,1,
+BST:BST-SUNEKOS-PERFORMA-2X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Sunekos,Sunekos Performa (2 x 3.5ml),2 x 3.5ml,,2,,reference-matched,14,15,
 BST:ASCE+-HRLV,Skin booster / PN / mesotherapy,Exosome,ASCE+,ASCE+ HRLV,,Exocobio,1,,,2,2,
 BST:ASCE+-SRLV,Skin booster / PN / mesotherapy,Exosome,ASCE+,ASCE+ SRLV,,Exocobio,1,,,1,1,
 BST:ASCE+-DERMA-SIGNAL-5ML,Skin booster / PN / mesotherapy,Exosome,ASCE+,Asce Derma Signal Kit Srlv 20mg 5ml,1 x 5ml,Exocobio,1,,,1,1,
@@ -3277,8 +3311,11 @@ BST:NEAUVIA-HYDRO-DELUXE-2.5ML-X2,Skin booster / PN / mesotherapy,HA bio-remodel
 BST:NEAUVIA-HYDRO-DELUXE-ORGANIC-2.5ML-X2,Skin booster / PN / mesotherapy,HA bio-remodelling,Neauvia Hydro Deluxe,Neauvia Organic Hydro Deluxe 2 x 2.5ml,2 x 2.5ml,Matex Lab,2,,,2,2,
 BST:BST-PROFHILO-BODY,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Body (1 x 3ml),1 x 3ml,IBSA,1,,reference-matched,1,1,
 BST:BST-PROFHILO-BODYKIT-2X,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Body Kit (2 x 3ml),2 x 3ml,IBSA,2,,reference-matched,13,14,
-BST:BST-PROFHILO-HL,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo H+L (1 x 2ml),1 x 2ml,IBSA,1,,reference-matched,19,28,
-BST:BST-PROFHILO-STRUCTURA,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Structura (1 x 2ml),1 x 2ml,IBSA,1,,reference-matched,19,20,
+BST:BST-PROFHILO-HL,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo H+L (1 x 2ml),1 x 2ml,IBSA,1,,reference-matched,18,26,
+BST:BST-PROFHILO-HL-10X,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo H+L (10 x 2ml),10 x 2ml,IBSA,10,,reference-matched,1,2,
+BST:BST-PROFHILO-STRUCTURA,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Structura (1 x 2ml),1 x 2ml,IBSA,1,,reference-matched,17,18,
+BST:BST-PROFHILO-STRUCTURA-10X,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Structura (10 x 2ml),10 x 2ml,IBSA,10,,reference-matched,1,1,
+BST:BST-PROFHILO-STRUCTURA-2X,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Structura (2 x 2ml),2 x 2ml,IBSA,2,,reference-matched,1,1,
 BST:REVITRANE-HA-10-1ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Revitrane,Revitrane HA 10 Premium (1x1ml),1 x 1ml,Revitrane,1,,,3,5,
 BST:REVITRANE-HA10-CLASSIC,Skin booster / PN / mesotherapy,HA bio-remodelling,Revitrane,Revitrane HA10 Classic,,Revitrane,1,,,2,2,
 BST:REVITRANE-HA10-VOLUME,Skin booster / PN / mesotherapy,HA bio-remodelling,Revitrane,Revitrane HA10 Volume,,Revitrane,1,,,1,1,
@@ -3290,8 +3327,8 @@ BST:RICHESSE-EXO-19,Skin booster / PN / mesotherapy,HA bio-remodelling,Richesse,
 BST:RICHESSE-EYES,Skin booster / PN / mesotherapy,HA bio-remodelling,Richesse,Richesse Eyes,,Richesse,1,,,1,1,
 BST:RICHESSE-FACE,Skin booster / PN / mesotherapy,HA bio-remodelling,Richesse,Richesse Face,,Richesse,1,,,1,1,
 BST:SAYPHA-BOOSTER-CROMA-PHILART-2ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Saypha Booster,Croma Philart Bio Stimulator Polynucleotide,1 x 2ml,Croma,1,,,2,5,
-BST:BST-SEVENTY-HYAL-2000,Skin booster / PN / mesotherapy,HA bio-remodelling,Seventy Hyal,Seventy Hyal 2000 (1 x 2ml),1 x 2ml,,1,,reference-matched,10,15,
-BST:BST-SEVENTY-HYAL-2000-3X,Skin booster / PN / mesotherapy,HA bio-remodelling,Seventy Hyal,Seventy Hyal 2000 (3 x 2ml),3 x 2ml,,3,,reference-matched,13,14,
+BST:BST-SEVENTY-HYAL-2000,Skin booster / PN / mesotherapy,HA bio-remodelling,Seventy Hyal,Seventy Hyal 2000 (1 x 2ml),1 x 2ml,,1,,reference-matched,10,14,
+BST:BST-SEVENTY-HYAL-2000-3X,Skin booster / PN / mesotherapy,HA bio-remodelling,Seventy Hyal,Seventy Hyal 2000 (3 x 2ml),3 x 2ml,,3,,reference-matched,14,15,
 BST:VISCODERM-1.0ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Viscoderm,Viscoderm,1 x 1.0ml,IBSA,1,,,1,1,
 BST:VISCODERM-AVAILABLE-ON-1.0ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Viscoderm,Viscoderm,1 x 1.0ml,IBSA,1,,,1,1,
 BST:VISCODERM-COVER-UP-20ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Viscoderm,Viscoderm Cover Up- Light 20ml,1 x 20ml,IBSA,1,,,5,10,
@@ -6358,23 +6395,30 @@ SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-MINERAL-COMPLEX-138MG,Supplements,Vitamin C (
 SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-1000MG-1000MG,Supplements,Vitamin C (oral/liposomal),altrient,Altrient Liposomal Vitamin C 1000mg,1000mg,,,,,1,1,
 TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Toxin,Botulinum toxin type A,Alluzience,Alluzience 125 Speywood units (1 x 0.625ml vial),1 x 0.625ml vial,Galderma,1,,reference-matched,7,9,https://www.medicines.org.uk/emc/search?q=alluzience
 TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Toxin,Botulinum toxin type A,Alluzience,Alluzience 125 Speywood units (2 x 0.625ml vials),2 x 0.625ml vials,Galderma,2,,reference-matched,8,8,https://www.medicines.org.uk/emc/search?q=alluzience
-TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,Botulinum toxin type A,Azzalure,Azzalure 125 Speywood units (1 vial),1 vial,Galderma,1,,reference-matched,11,15,https://www.medicines.org.uk/emc/search?q=azzalure
-TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Toxin,Botulinum toxin type A,Azzalure,Azzalure 125 Speywood units (2 vials),2 vials,Galderma,2,,reference-matched,7,7,https://www.medicines.org.uk/emc/search?q=azzalure
-TOX:TOX-BOCOUTURE-100UNITS,Toxin,Botulinum toxin type A,Bocouture,Bocouture 100 units (1 vial),1 vial,Merz,1,,reference-matched,11,13,https://www.medicines.org.uk/emc/search?q=bocouture
-TOX:TOX-BOCOUTURE-100UNITS-2X,Toxin,Botulinum toxin type A,Bocouture,Bocouture 100 units (2 vials),2 vials,Merz,2,,reference-matched,2,2,https://www.medicines.org.uk/emc/search?q=bocouture
-TOX:TOX-BOCOUTURE-50UNITS,Toxin,Botulinum toxin type A,Bocouture,Bocouture 50 units (1 vial),1 vial,Merz,1,,reference-matched,11,13,https://www.medicines.org.uk/emc/search?q=bocouture
+TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,Botulinum toxin type A,Azzalure,Azzalure 125 Speywood units (1 vial),1 vial,Galderma,1,,reference-matched,10,14,https://www.medicines.org.uk/emc/search?q=azzalure
+TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Toxin,Botulinum toxin type A,Azzalure,Azzalure 125 Speywood units (2 vials),2 vials,Galderma,2,,reference-matched,8,8,https://www.medicines.org.uk/emc/search?q=azzalure
+TOX:TOX-BOCOUTURE-100UNITS,Toxin,Botulinum toxin type A,Bocouture,Bocouture 100 units (1 vial),1 vial,Merz,1,,reference-matched,9,11,https://www.medicines.org.uk/emc/search?q=bocouture
+TOX:TOX-BOCOUTURE-100UNITS-2X,Toxin,Botulinum toxin type A,Bocouture,Bocouture 100 units (2 vials),2 vials,Merz,2,,reference-matched,3,3,https://www.medicines.org.uk/emc/search?q=bocouture
+TOX:TOX-BOCOUTURE-100UNITS-6X,Toxin,Botulinum toxin type A,Bocouture,Bocouture 100 units (6 vials),6 vials,Merz,6,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=bocouture
+TOX:TOX-BOCOUTURE-50UNITS,Toxin,Botulinum toxin type A,Bocouture,Bocouture 50 units (1 vial),1 vial,Merz,1,,reference-matched,10,12,https://www.medicines.org.uk/emc/search?q=bocouture
 TOX:TOX-BOCOUTURE-50UNITS-2X,Toxin,Botulinum toxin type A,Bocouture,Bocouture 50 units (2 vials),2 vials,Merz,2,,reference-matched,2,2,https://www.medicines.org.uk/emc/search?q=bocouture
-TOX:TOX-BOTOX-100UNITS,Toxin,Botulinum toxin type A,Botox,Botox 100 units (1 vial),1 vial,Allergan / AbbVie,1,,reference-matched,13,14,https://www.medicines.org.uk/emc/search?q=botox
+TOX:TOX-BOCOUTURE-50UNITS-50X,Toxin,Botulinum toxin type A,Bocouture,Bocouture 50 units (50 vials),50 vials,Merz,50,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=bocouture
+TOX:TOX-BOTOX-100UNITS,Toxin,Botulinum toxin type A,Botox,Botox 100 units (1 vial),1 vial,Allergan / AbbVie,1,,reference-matched,13,13,https://www.medicines.org.uk/emc/search?q=botox
+TOX:TOX-BOTOX-100UNITS-2X,Toxin,Botulinum toxin type A,Botox,Botox 100 units (2 vials),2 vials,Allergan / AbbVie,2,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=botox
 TOX:TOX-BOTOX-200UNITS,Toxin,Botulinum toxin type A,Botox,Botox 200 units (1 vial),1 vial,Allergan / AbbVie,1,,reference-matched,10,10,https://www.medicines.org.uk/emc/search?q=botox
-TOX:TOX-BOTOX-50UNITS,Toxin,Botulinum toxin type A,Botox,Botox 50 units (1 vial),1 vial,Allergan / AbbVie,1,,reference-matched,13,13,https://www.medicines.org.uk/emc/search?q=botox
+TOX:TOX-BOTOX-50UNITS,Toxin,Botulinum toxin type A,Botox,Botox 50 units (1 vial),1 vial,Allergan / AbbVie,1,,reference-matched,12,12,https://www.medicines.org.uk/emc/search?q=botox
+TOX:TOX-BOTOX-50UNITS-50X,Toxin,Botulinum toxin type A,Botox,Botox 50 units (50 vials),50 vials,Allergan / AbbVie,50,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=botox
 TOX:TOX-DYSPORT-300UNITS,Toxin,Botulinum toxin type A,Dysport,Dysport 300 units (1 vial),1 vial,Ipsen / Galderma,1,,reference-matched,5,5,https://www.medicines.org.uk/emc/search?q=dysport
-TOX:TOX-DYSPORT-500UNITS,Toxin,Botulinum toxin type A,Dysport,Dysport 500 units (1 vial),1 vial,Ipsen / Galderma,1,,reference-matched,6,9,https://www.medicines.org.uk/emc/search?q=dysport
-TOX:TOX-DYSPORT-500UNITS-2X,Toxin,Botulinum toxin type A,Dysport,Dysport 500 units (2 vials),2 vials,Ipsen / Galderma,2,,reference-matched,6,6,https://www.medicines.org.uk/emc/search?q=dysport
+TOX:TOX-DYSPORT-500UNITS,Toxin,Botulinum toxin type A,Dysport,Dysport 500 units (1 vial),1 vial,Ipsen / Galderma,1,,reference-matched,4,6,https://www.medicines.org.uk/emc/search?q=dysport
+TOX:TOX-DYSPORT-500UNITS-2X,Toxin,Botulinum toxin type A,Dysport,Dysport 500 units (2 vials),2 vials,Ipsen / Galderma,2,,reference-matched,8,9,https://www.medicines.org.uk/emc/search?q=dysport
 TOX:TOX-LETYBO-100UNITS,Toxin,Botulinum toxin type A,Letybo,Letybo 100 units (1 vial),1 vial,Hugel,1,,reference-matched,2,2,https://www.medicines.org.uk/emc/search?q=letybo
-TOX:TOX-LETYBO-50UNITS,Toxin,Botulinum toxin type A,Letybo,Letybo 50 units (1 vial),1 vial,Hugel,1,,reference-matched,6,6,https://www.medicines.org.uk/emc/search?q=letybo
-TOX:TOX-NUCEIVA-100UNITS,Toxin,Botulinum toxin type A,Nuceiva,Nuceiva 100 units (1 vial),1 vial,Evolus,1,,reference-matched,3,3,https://www.medicines.org.uk/emc/search?q=nuceiva
-TOX:TOX-RELFYDESS-150UNITS,Toxin,Botulinum toxin type A,Relfydess,Relfydess 150 units (1 x 1.5ml vial),1 x 1.5ml vial,Galderma,1,,reference-matched,10,12,https://www.medicines.org.uk/emc/search?q=relfydess
-TOX:TOX-RELFYDESS-150UNITS-10X,Toxin,Botulinum toxin type A,Relfydess,Relfydess 150 units (10 x 1.5ml vials),10 x 1.5ml vials,Galderma,10,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=relfydess
+TOX:TOX-LETYBO-50UNITS,Toxin,Botulinum toxin type A,Letybo,Letybo 50 units (1 vial),1 vial,Hugel,1,,reference-matched,5,5,https://www.medicines.org.uk/emc/search?q=letybo
+TOX:TOX-LETYBO-50UNITS-10X,Toxin,Botulinum toxin type A,Letybo,Letybo 50 units (10 vials),10 vials,Hugel,10,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=letybo
+TOX:TOX-NUCEIVA-100UNITS,Toxin,Botulinum toxin type A,Nuceiva,Nuceiva 100 units (1 vial),1 vial,Evolus,1,,reference-matched,2,2,https://www.medicines.org.uk/emc/search?q=nuceiva
+TOX:TOX-NUCEIVA-100UNITS-50X,Toxin,Botulinum toxin type A,Nuceiva,Nuceiva 100 units (50 vials),50 vials,Evolus,50,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=nuceiva
+TOX:TOX-RELFYDESS-150UNITS,Toxin,Botulinum toxin type A,Relfydess,Relfydess 150 units (1 x 1.5ml vial),1 x 1.5ml vial,Galderma,1,,reference-matched,9,9,https://www.medicines.org.uk/emc/search?q=relfydess
+TOX:TOX-RELFYDESS-150UNITS-10X,Toxin,Botulinum toxin type A,Relfydess,Relfydess 150 units (10 x 1.5ml vials),10 x 1.5ml vials,Galderma,10,,reference-matched,3,3,https://www.medicines.org.uk/emc/search?q=relfydess
+TOX:TOX-RELFYDESS-150UNITS-2X,Toxin,Botulinum toxin type A,Relfydess,Relfydess 150 units (2 x 1.5ml vials),2 x 1.5ml vials,Galderma,2,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=relfydess
 TOX:TOX-XEOMIN-100UNITS,Toxin,Botulinum toxin type A,Xeomin,Xeomin 100 units (1 vial),1 vial,Merz,1,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=xeomin
 TOX:TOX-XEOMIN-50UNITS,Toxin,Botulinum toxin type A,Xeomin,Xeomin 50 units (1 vial),1 vial,Merz,1,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=xeomin
 VAC:VAC-ENGERIX-B-ADULT-20MCG-PFS,Vaccine,Hepatitis B,engerix,Engerix B 20 micrograms/1 ml Suspension for injection in pre-filled syringe x 1,,,,,,2,2,

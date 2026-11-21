@@ -1,19 +1,25 @@
 code,active_class,brand,line,volume,pack,market,manufacturer,suppliers,listings
 AMINO-FORMULA-FBP-50ML,Amino-acid skin booster,Amino,formula fbp,50ml,1,,,1,1
-BST-JALUPRO-CLASSIC,Amino-acid skin booster,Jalupro,Classic,3ml,1,,,3,3
-BST-JALUPRO-CLASSIC-11X,Amino-acid skin booster,Jalupro,Classic,3ml,11,,,1,1
-BST-JALUPRO-CLASSIC-2X,Amino-acid skin booster,Jalupro,Classic,3ml,2,,,13,22
+BST-JALUPRO-CLASSIC,Amino-acid skin booster,Jalupro,Classic,3ml,1,,,5,9
+BST-JALUPRO-CLASSIC-11X,Amino-acid skin booster,Jalupro,Classic,3ml,11,,,2,3
+BST-JALUPRO-CLASSIC-2X,Amino-acid skin booster,Jalupro,Classic,3ml,2,,,11,12
 BST-JALUPRO-CLASSIC-3X,Amino-acid skin booster,Jalupro,Classic,3ml,3,,,2,3
+BST-JALUPRO-CLASSIC-5X,Amino-acid skin booster,Jalupro,Classic,3ml,5,,,1,2
 BST-JALUPRO-CLASSIC-6X,Amino-acid skin booster,Jalupro,Classic,3ml,6,,,7,8
-BST-JALUPRO-HMW,Amino-acid skin booster,Jalupro,HMW,1.5ml,1,,,12,13
-BST-JALUPRO-SUPERHYDRO,Amino-acid skin booster,Jalupro,Super Hydro,2.5ml,1,,,15,18
+BST-JALUPRO-HMW,Amino-acid skin booster,Jalupro,HMW,1.5ml,1,,,11,12
+BST-JALUPRO-HMW-2X,Amino-acid skin booster,Jalupro,HMW,1.5ml,2,,,1,1
+BST-JALUPRO-SUPERHYDRO,Amino-acid skin booster,Jalupro,Super Hydro,2.5ml,1,,,14,17
+BST-JALUPRO-SUPERHYDRO-5X,Amino-acid skin booster,Jalupro,Super Hydro,2.5ml,5,,,1,1
 BST-JALUPRO-YOUNGEYE,Amino-acid skin booster,Jalupro,Young Eye,1ml,1,,,14,15
 BST-SUNEKOS-1200-2X,Amino-acid skin booster,Sunekos,1200,1.5ml,2,,,16,17
 BST-SUNEKOS-200-2X,Amino-acid skin booster,Sunekos,200,3ml,2,,,4,4
-BST-SUNEKOS-BODY,Amino-acid skin booster,Sunekos,Body,10ml,1,,,9,9
-BST-SUNEKOS-CELL,Amino-acid skin booster,Sunekos,Cell,4.5ml,1,,,6,6
+BST-SUNEKOS-BODY,Amino-acid skin booster,Sunekos,Body,10ml,1,,,8,8
+BST-SUNEKOS-BODY-3X,Amino-acid skin booster,Sunekos,Body,10ml,3,,,1,1
+BST-SUNEKOS-CELL,Amino-acid skin booster,Sunekos,Cell,4.5ml,1,,,5,5
 BST-SUNEKOS-CELL-10X,Amino-acid skin booster,Sunekos,Cell,4.5ml,10,,,1,1
-BST-SUNEKOS-PERFORMA-2X,Amino-acid skin booster,Sunekos,Performa,3.5ml,2,,,15,16
+BST-SUNEKOS-CELL-2X,Amino-acid skin booster,Sunekos,Cell,4.5ml,2,,,1,1
+BST-SUNEKOS-PERFORMA-10X,Amino-acid skin booster,Sunekos,Performa,3.5ml,10,,,1,1
+BST-SUNEKOS-PERFORMA-2X,Amino-acid skin booster,Sunekos,Performa,3.5ml,2,,,14,15
 BST-SUNEKOS-UNSPECIFIED-2X,Amino-acid skin booster,Sunekos,(unspecified),1.5ml,2,,,1,1
 ASCE+-DERMA-SIGNAL-5ML,Exosome,ASCE+,derma signal,5ml,1,,Exocobio,1,1
 ASCE+-EXOSOMES-DERMA-5ML,Exosome,ASCE+,EXOSOMES DERMA,5ml,1,,Exocobio,1,1
@@ -136,8 +142,11 @@ NEAUVIA-HYDRO-DELUXE-HYDRATE-STIMULATE,HA bio-remodelling,Neauvia Hydro Deluxe,H
 NEAUVIA-HYDRO-DELUXE-ORGANIC-2.5ML-X2,HA bio-remodelling,Neauvia Hydro Deluxe,Organic,2.5ml,2,,Matex Lab,2,2
 BST-PROFHILO-BODY,HA bio-remodelling,Profhilo,Body,3ml,1,,IBSA,1,1
 BST-PROFHILO-BODYKIT-2X,HA bio-remodelling,Profhilo,Body Kit,3ml,2,,IBSA,13,14
-BST-PROFHILO-HL,HA bio-remodelling,Profhilo,H+L,2ml,1,,IBSA,19,28
-BST-PROFHILO-STRUCTURA,HA bio-remodelling,Profhilo,Structura,2ml,1,,IBSA,19,20
+BST-PROFHILO-HL,HA bio-remodelling,Profhilo,H+L,2ml,1,,IBSA,18,26
+BST-PROFHILO-HL-10X,HA bio-remodelling,Profhilo,H+L,2ml,10,,IBSA,1,2
+BST-PROFHILO-STRUCTURA,HA bio-remodelling,Profhilo,Structura,2ml,1,,IBSA,17,18
+BST-PROFHILO-STRUCTURA-10X,HA bio-remodelling,Profhilo,Structura,2ml,10,,IBSA,1,1
+BST-PROFHILO-STRUCTURA-2X,HA bio-remodelling,Profhilo,Structura,2ml,2,,IBSA,1,1
 REVITRANE-HA-10-1ML,HA bio-remodelling,Revitrane,HA 10,1ml,1,,Revitrane,3,5
 REVITRANE-HA10-CLASSIC,HA bio-remodelling,Revitrane,HA10 Classic,,1,,Revitrane,2,2
 REVITRANE-HA10-VOLUME,HA bio-remodelling,Revitrane,HA10 Volume,,1,,Revitrane,1,1
@@ -149,8 +158,8 @@ RICHESSE-EXO19-2.2ML,HA bio-remodelling,Richesse,EXO19,2.2ml,1,,Richesse,1,1
 RICHESSE-EYES,HA bio-remodelling,Richesse,eyes,,1,,Richesse,1,1
 RICHESSE-FACE,HA bio-remodelling,Richesse,face,,1,,Richesse,1,1
 SAYPHA-BOOSTER-CROMA-PHILART-2ML,HA bio-remodelling,Saypha Booster,Croma PhilArt,2ml,1,,Croma,2,5
-BST-SEVENTY-HYAL-2000,HA bio-remodelling,Seventy Hyal,2000,2ml,1,,,10,15
-BST-SEVENTY-HYAL-2000-3X,HA bio-remodelling,Seventy Hyal,2000,2ml,3,,,13,14
+BST-SEVENTY-HYAL-2000,HA bio-remodelling,Seventy Hyal,2000,2ml,1,,,10,14
+BST-SEVENTY-HYAL-2000-3X,HA bio-remodelling,Seventy Hyal,2000,2ml,3,,,14,15
 VISCODERM-1.0ML,HA bio-remodelling,Viscoderm,,1.0ml,1,,IBSA,1,1
 VISCODERM-AVAILABLE-ON-1.0ML,HA bio-remodelling,Viscoderm,available on,1.0ml,1,,IBSA,1,1
 VISCODERM-COVER-UP-20ML,HA bio-remodelling,Viscoderm,cover up,20ml,1,,IBSA,5,10

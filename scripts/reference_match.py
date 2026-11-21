@@ -5,10 +5,16 @@ come from the listing where allowed. Hologram / UK&ROI packaging is folded into 
 Obvious multi-product promo bundles are flagged for review. Brands with no reference keep their current entry.
 Runs for fillers and boosters; rewrites each *_products.csv + *_listing_map.csv and writes reference_names.csv.
 Usage: python -I scripts/reference_match.py   (after filler_catalogue.py and booster_catalogue.py)"""
-import collections, csv, re
+import collections, csv, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+try:
+    from page_facts import page_text, image_text   # owner rule: read the whole page, then the image, before defaulting
+except Exception:
+    def page_text(_i): return ""
+    def image_text(_i): return ""
 FINAL = ROOT / "catalogue/final"
 MANUF = {"Teosyal": "Teoxane", "Juvederm": "Allergan / AbbVie", "Stylage": "Vivacy", "Restylane": "Galderma",
          "Belotero": "Merz", "Revolax": "Across (Korea)", "Profhilo": "IBSA"}
@@ -22,6 +28,25 @@ CATS = [
 ]
 ACCESSORY = re.compile(r"roller banner|\bbanner\b|poster|sticker|lanyard|t-?shirt|brochure|leaflet|display stand|shelf", re.I)
 BUNDLE = re.compile(r"\bfree\b|get 1|get one|\+ ?1 ?x|buy 1 get|bundle|worth £|multibuy", re.I)
+
+
+_PACK_STRICT = (r"box of\s*(\d+)", r"pack of\s*(\d+)",
+                r"(\d+)\s*x\s*\d+(?:\.\d+)?\s*ml",     # 10 x 8ml / 10x8ml
+                r"ml\s*x\s*(\d+)",                      # 8ml x 10 / 10mlx8
+                r"\b(\d+)\s*(?:vials?|pcs|pieces|syringes?)\b")  # 10 vials
+_PACK_LOOSE = (r"\bx\s*(\d+)\b", r"(\d+)\s*x\b")        # generic x10 / 10x (titles only)
+
+
+def pack_count(text, strict=False):
+    """How many vials/syringes in the pack. Returns None when the text does not state it (so the caller can read the
+    page / image before defaulting). strict=True uses only vial/box/ml-anchored patterns (safe on long page text)."""
+    for rx in (_PACK_STRICT if strict else _PACK_STRICT + _PACK_LOOSE):
+        m = re.search(rx, text)
+        if m:
+            n = int(m.group(1))
+            if 1 <= n <= 60:
+                return n
+    return None
 
 
 def pack_vol(pack):
@@ -77,10 +102,15 @@ def run(cfg, refnames):
         lv = best.get("lidocaine", "no")
         lido = True if lv == "yes" else (False if lv == "no" else bool(re.search(r"lidocaine|\+?lido\b|with lido", tl)))
         base_n, vol = pack_vol(best["pack"])
-        mt = re.search(r"(\d+)\s*x\s*\d|\bx\s*(\d+)\b|\b(\d+)\s*(?:syringes?|vials?|pack)\b", tl)
-        packn = int(next((g for g in (mt.groups() if mt else []) if g), base_n)) if mt else base_n
+        packn, pack_src = pack_count(tl), "title"
+        if packn is None and m.get("id"):                 # owner rule: read the whole page, then the image, before defaulting
+            packn = pack_count(page_text(m["id"]).lower(), strict=True); pack_src = "page"
+            if packn is None:
+                packn = pack_count((image_text(m["id"]) or "").lower(), strict=True); pack_src = "image(OCR)"
+        if packn is None:
+            packn, pack_src = base_n, "assumed (not stated)"
         if "kit" in best["product_name"].lower():
-            packn = base_n  # a Kit is a fixed bundle - take its pack from the reference, not the listing
+            packn = base_n; pack_src = "reference (kit)"  # a Kit is a fixed bundle - take its pack from the reference
         name = best["product_name"]
         line = re.sub(r"^" + re.escape(rb) + r"\s*", "", name).strip() or name
         # hologram / ROI packaging is NOT a separate product -> no market in the code
@@ -88,7 +118,7 @@ def run(cfg, refnames):
         uid = cfg["tag"] + ":" + code
         refnames[uid] = name + (" with lidocaine" if lido and lv not in ("yes", "no") else "")
         maps.append(dict(m, code=code, brand=rb, line=line, matched="reference",
-                         decision=f"{name}; {vol}ml; pack {packn}; {'+lido' if lido else 'no lido'}"))
+                         decision=f"{name}; {vol}ml; pack {packn} ({pack_src}); {'+lido' if lido else 'no lido'}"))
         if cfg["kind"] == "filler":
             p = prods.setdefault(code, dict(code=code, brand=rb, line=line, equivalence_group=rb, manufacturer=MANUF.get(rb, ""),
                                             ha="yes", volume_ml=vol, lidocaine="yes" if lido else "no", syringes_per_pack=packn,
