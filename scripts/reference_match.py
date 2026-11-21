@@ -96,8 +96,9 @@ def run(cfg, refnames):
             p = prods.setdefault(code, dict(code=code, brand=rb, molecule=best.get("molecule", ""),
                                             equivalence_group=best.get("active_class", ""), manufacturer=best.get("manufacturer", ""),
                                             units_per_vial=best.get("units", ""), unit_type=best.get("unit_type", ""),
-                                            vials_per_pack=packn, total_units="", licensed_use="", official_pack_sizes="",
-                                            note="", source=best["source"], status="reference", suppliers=set(), listings=0))
+                                            volume_ml=best.get("volume", ""), vials_per_pack=packn, total_units="",
+                                            licensed_use="", official_pack_sizes="", note="", source=best["source"],
+                                            status="reference", suppliers=set(), listings=0))
         p["suppliers"].add(m["supplier"]); p["listings"] += 1
 
     for p in prods.values():
@@ -117,7 +118,7 @@ def run(cfg, refnames):
         pc = ["code", "function", "brand", "name", "size", "suppliers", "listings"]
         skey = lambda p: (p.get("function", ""), p["brand"], p["code"])
     else:  # toxin
-        pc = ["code", "brand", "molecule", "equivalence_group", "manufacturer", "units_per_vial", "unit_type",
+        pc = ["code", "brand", "molecule", "equivalence_group", "manufacturer", "units_per_vial", "unit_type", "volume_ml",
               "vials_per_pack", "total_units", "licensed_use", "official_pack_sizes", "note", "source", "status", "suppliers", "listings"]
         skey = lambda p: (p["brand"], p["code"])
     with open(FINAL / cfg["prod"], "w", newline="", encoding="utf-8") as f:

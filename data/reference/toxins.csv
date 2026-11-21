@@ -1,16 +1,16 @@
-brand,product_name,molecule,manufacturer,unit_type,units,active_class,pack,lidocaine,default,aliases,source
-Botox,Botox 50 units,onabotulinumtoxinA,Allergan / AbbVie,units,50,Botulinum toxin type A,1 vial,no,,50,https://www.medicines.org.uk/emc/search?q=botox
-Botox,Botox 100 units,onabotulinumtoxinA,Allergan / AbbVie,units,100,Botulinum toxin type A,1 vial,no,yes,100,https://www.medicines.org.uk/emc/search?q=botox
-Botox,Botox 200 units,onabotulinumtoxinA,Allergan / AbbVie,units,200,Botulinum toxin type A,1 vial,no,,200,https://www.medicines.org.uk/emc/search?q=botox
-Azzalure,Azzalure 125 Speywood units,abobotulinumtoxinA,Galderma,Speywood units,125,Botulinum toxin type A,1 vial,no,yes,125,https://www.medicines.org.uk/emc/search?q=azzalure
-Dysport,Dysport 300 units,abobotulinumtoxinA,Ipsen / Galderma,units,300,Botulinum toxin type A,1 vial,no,,300,https://www.medicines.org.uk/emc/search?q=dysport
-Dysport,Dysport 500 units,abobotulinumtoxinA,Ipsen / Galderma,units,500,Botulinum toxin type A,1 vial,no,yes,500,https://www.medicines.org.uk/emc/search?q=dysport
-Bocouture,Bocouture 50 units,incobotulinumtoxinA,Merz,units,50,Botulinum toxin type A,1 vial,no,,50,https://www.medicines.org.uk/emc/search?q=bocouture
-Bocouture,Bocouture 100 units,incobotulinumtoxinA,Merz,units,100,Botulinum toxin type A,1 vial,no,yes,100,https://www.medicines.org.uk/emc/search?q=bocouture
-Xeomin,Xeomin 50 units,incobotulinumtoxinA,Merz,units,50,Botulinum toxin type A,1 vial,no,,50,https://www.medicines.org.uk/emc/search?q=xeomin
-Xeomin,Xeomin 100 units,incobotulinumtoxinA,Merz,units,100,Botulinum toxin type A,1 vial,no,yes,100,https://www.medicines.org.uk/emc/search?q=xeomin
-Alluzience,Alluzience 125 Speywood units,abobotulinumtoxinA,Galderma,Speywood units,125,Botulinum toxin type A,1 vial,no,yes,125|alluzience,https://www.medicines.org.uk/emc/search?q=alluzience
-Letybo,Letybo 50 units,letibotulinumtoxinA,Hugel,units,50,Botulinum toxin type A,1 vial,no,,50,https://www.medicines.org.uk/emc/search?q=letybo
-Letybo,Letybo 100 units,letibotulinumtoxinA,Hugel,units,100,Botulinum toxin type A,1 vial,no,yes,100,https://www.medicines.org.uk/emc/search?q=letybo
-Nuceiva,Nuceiva 100 units,prabotulinumtoxinA,Evolus,units,100,Botulinum toxin type A,1 vial,no,yes,100|nuceiva|jeuveau,https://www.medicines.org.uk/emc/search?q=nuceiva
-Relfydess,Relfydess 150 units,relabotulinumtoxinA,Galderma,units,150,Botulinum toxin type A,1 vial,no,yes,150|relfydess|100 units/ml|100units/ml,https://www.medicines.org.uk/emc/search?q=relfydess
+brand,product_name,molecule,manufacturer,unit_type,units,volume,active_class,pack,lidocaine,default,aliases,source
+Botox,Botox 50 units,onabotulinumtoxinA,Allergan / AbbVie,units,50,,Botulinum toxin type A,1 vial,no,,50,https://www.medicines.org.uk/emc/search?q=botox
+Botox,Botox 100 units,onabotulinumtoxinA,Allergan / AbbVie,units,100,,Botulinum toxin type A,1 vial,no,yes,100,https://www.medicines.org.uk/emc/search?q=botox
+Botox,Botox 200 units,onabotulinumtoxinA,Allergan / AbbVie,units,200,,Botulinum toxin type A,1 vial,no,,200,https://www.medicines.org.uk/emc/search?q=botox
+Azzalure,Azzalure 125 Speywood units,abobotulinumtoxinA,Galderma,Speywood units,125,,Botulinum toxin type A,1 vial,no,yes,125,https://www.medicines.org.uk/emc/search?q=azzalure
+Dysport,Dysport 300 units,abobotulinumtoxinA,Ipsen / Galderma,units,300,,Botulinum toxin type A,1 vial,no,,300,https://www.medicines.org.uk/emc/search?q=dysport
+Dysport,Dysport 500 units,abobotulinumtoxinA,Ipsen / Galderma,units,500,,Botulinum toxin type A,1 vial,no,yes,500,https://www.medicines.org.uk/emc/search?q=dysport
+Bocouture,Bocouture 50 units,incobotulinumtoxinA,Merz,units,50,,Botulinum toxin type A,1 vial,no,,50,https://www.medicines.org.uk/emc/search?q=bocouture
+Bocouture,Bocouture 100 units,incobotulinumtoxinA,Merz,units,100,,Botulinum toxin type A,1 vial,no,yes,100,https://www.medicines.org.uk/emc/search?q=bocouture
+Xeomin,Xeomin 50 units,incobotulinumtoxinA,Merz,units,50,,Botulinum toxin type A,1 vial,no,,50,https://www.medicines.org.uk/emc/search?q=xeomin
+Xeomin,Xeomin 100 units,incobotulinumtoxinA,Merz,units,100,,Botulinum toxin type A,1 vial,no,yes,100,https://www.medicines.org.uk/emc/search?q=xeomin
+Alluzience,Alluzience 125 Speywood units,abobotulinumtoxinA,Galderma,Speywood units,125,0.625ml,Botulinum toxin type A,1 vial,no,yes,125|alluzience,https://www.medicines.org.uk/emc/search?q=alluzience
+Letybo,Letybo 50 units,letibotulinumtoxinA,Hugel,units,50,,Botulinum toxin type A,1 vial,no,,50,https://www.medicines.org.uk/emc/search?q=letybo
+Letybo,Letybo 100 units,letibotulinumtoxinA,Hugel,units,100,,Botulinum toxin type A,1 vial,no,yes,100,https://www.medicines.org.uk/emc/search?q=letybo
+Nuceiva,Nuceiva 100 units,prabotulinumtoxinA,Evolus,units,100,,Botulinum toxin type A,1 vial,no,yes,100|nuceiva|jeuveau,https://www.medicines.org.uk/emc/search?q=nuceiva
+Relfydess,Relfydess 150 units,relabotulinumtoxinA,Galderma,units,150,1.5ml,Botulinum toxin type A,1 vial,no,yes,150|relfydess|100 units/ml|100units/ml,https://www.medicines.org.uk/emc/search?q=relfydess
