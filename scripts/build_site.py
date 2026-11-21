@@ -92,7 +92,7 @@ def main():
                  else "Currently listed by a single supplier (price comparison turns on when a second supplier carries it).")
         desc = f"{name} is {blurb}.{made} {avail}"
         details = [["Brand", r["brand"]], ["Manufacturer", r["manufacturer"]], ["Category", disp],
-                   ["Equivalence group", r["equivalence_group"]], ["Spec / pack", pack],
+                   ["Equivalence group", r["equivalence_group"]], ["Pack size", pack],
                    ["Market variant", r["market"]], ["Suppliers (our catalogue)", str(nsup)]]
         if cat in POM_CATS:
             details.append(["Legal", "Prescription-only (POM) — price shown to verified professionals only"])
