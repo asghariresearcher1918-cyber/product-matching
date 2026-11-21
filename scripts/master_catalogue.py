@@ -37,8 +37,9 @@ def biostim(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand")
                             spec=join(g(r, "strength"), g(r, "volume_ml") + "ml" if g(r, "volume_ml") else "", "x" + g(r, "vials_per_pack") if g(r, "vials_per_pack") else "", "+lido" if g(r, "lidocaine") in ("yes", "Y", "True") else ""),
                             man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="", verified=g(r, "agent_verified"), source="")
 def fat(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "variant")),
-                        spec=join(g(r, "volume_ml") + "ml" if g(r, "volume_ml") else "", "x" + g(r, "vials_per_pack") if g(r, "vials_per_pack") else ""),
-                        man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="", verified=g(r, "agent_verified"), source="")
+                        spec=_vials(g(r, "vials_per_pack"), (g(r, "volume_ml") or "").replace("ml", "") + "ml" if g(r, "volume_ml") else ""),
+                        man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="",
+                        verified="reference-matched" if "reference" in g(r, "agent_verified") else g(r, "agent_verified"), source=g(r, "source"))
 def _mkt(v): return "" if v in ("UK/std", "UK", "std", "") else v
 def _packspec(n, vol, unit="ml", lido=False):
     """Market-style presentation: '2 x 1ml with lidocaine'."""

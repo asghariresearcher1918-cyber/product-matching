@@ -18,7 +18,9 @@ CATS = [
  dict(kind="booster", ref="boosters.csv", lmap="booster_listing_map.csv", prod="booster_products.csv", tag="BST", prefix="BST"),
  dict(kind="skincare", ref="skincare.csv", lmap="skincare_listing_map.csv", prod="skincare_products.csv", tag="SKN", prefix="SKIN"),
  dict(kind="toxin", ref="toxins.csv", lmap="toxin_listing_map.csv", prod="toxin_products.csv", tag="TOX", prefix="TOX"),
+ dict(kind="fat", ref="fat.csv", lmap="fat_listing_map.csv", prod="fat_products.csv", tag="FAT", prefix="FAT"),
 ]
+ACCESSORY = re.compile(r"roller banner|\bbanner\b|poster|sticker|lanyard|t-?shirt|brochure|leaflet|display stand|shelf", re.I)
 BUNDLE = re.compile(r"\bfree\b|get 1|get one|\+ ?1 ?x|buy 1 get|bundle|worth £|multibuy", re.I)
 
 
@@ -56,10 +58,16 @@ def run(cfg, refnames):
     maps, prods, passthrough = [], {}, set()
     for m in listings:
         tl = m["title"].lower()
+        tlsq = re.sub(r"[^a-z0-9]", "", tl)   # squashed (ignore spaces/punct): 'lipolab' ~ 'lipo lab'
         brand = m.get("brand", "")
-        rb = next((b for b in refbrands if re.search(r"\b" + re.escape(b.lower()) + r"\b", tl)), None) or (brand if brand in refbrands else None)
+        rb = (next((b for b in refbrands if re.search(r"\b" + re.escape(b.lower()) + r"\b", tl)), None)
+              or next((b for b in refbrands if re.sub(r"[^a-z0-9]", "", b.lower()) in tlsq), None)
+              or (brand if brand in refbrands else None))
         if not rb:
             maps.append(dict(m, matched="passthrough")); passthrough.add(m.get("code", "")); continue
+        if ACCESSORY.search(tl):
+            maps.append(dict(m, code="", brand=rb, matched="review-accessory",
+                             decision="marketing / accessory (banner, poster...) - not a product")); continue
         if BUNDLE.search(tl):
             maps.append(dict(m, code="", brand=rb, matched="review-bundle",
                              decision="promo bundle / multi-item listing - not a single product")); continue
@@ -92,13 +100,19 @@ def run(cfg, refnames):
         elif cfg["kind"] == "skincare":
             p = prods.setdefault(code, dict(code=code, function=best.get("active_class", ""), brand=rb, name=name,
                                             size=best["pack"], brand_verified="yes (reference)", suppliers=set(), listings=0))
-        else:  # toxin
+        elif cfg["kind"] == "toxin":
             p = prods.setdefault(code, dict(code=code, brand=rb, molecule=best.get("molecule", ""),
                                             equivalence_group=best.get("active_class", ""), manufacturer=best.get("manufacturer", ""),
                                             units_per_vial=best.get("units", ""), unit_type=best.get("unit_type", ""),
                                             volume_ml=best.get("volume", ""), vials_per_pack=packn, total_units="",
                                             licensed_use="", official_pack_sizes="", note="", source=best["source"],
                                             status="reference", suppliers=set(), listings=0))
+        else:  # fat dissolving
+            p = prods.setdefault(code, dict(code=code, brand=rb, variant=best.get("variant", ""),
+                                            active_agent=best.get("active_agent", ""), equivalence_group=best.get("active_class", ""),
+                                            manufacturer=best.get("manufacturer", ""), volume_ml=best.get("volume", ""),
+                                            vials_per_pack=packn, agent_verified="yes (reference)", note="",
+                                            source=best["source"], suppliers=set(), listings=0))
         p["suppliers"].add(m["supplier"]); p["listings"] += 1
 
     for p in prods.values():
@@ -117,10 +131,14 @@ def run(cfg, refnames):
     elif cfg["kind"] == "skincare":
         pc = ["code", "function", "brand", "name", "size", "suppliers", "listings"]
         skey = lambda p: (p.get("function", ""), p["brand"], p["code"])
-    else:  # toxin
+    elif cfg["kind"] == "toxin":
         pc = ["code", "brand", "molecule", "equivalence_group", "manufacturer", "units_per_vial", "unit_type", "volume_ml",
               "vials_per_pack", "total_units", "licensed_use", "official_pack_sizes", "note", "source", "status", "suppliers", "listings"]
         skey = lambda p: (p["brand"], p["code"])
+    else:  # fat dissolving
+        pc = ["code", "brand", "variant", "active_agent", "equivalence_group", "manufacturer", "volume_ml",
+              "vials_per_pack", "agent_verified", "suppliers", "listings", "note"]
+        skey = lambda p: (p.get("active_agent", ""), p["brand"], p["code"])
     with open(FINAL / cfg["prod"], "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=pc, extrasaction="ignore"); w.writeheader()
         w.writerows(sorted(prods.values(), key=skey))
