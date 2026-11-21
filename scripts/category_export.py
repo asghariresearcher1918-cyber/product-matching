@@ -63,6 +63,37 @@ def main():
         fmt(ls, 3, m["url"])
     ls.auto_filter.ref = f"A1:D{ls.max_row}"
 
+    # "For your review" tab: items the rules say must be confirmed by a human, not decided on a probability.
+    def flags(p):
+        grp = (p.get("equivalence_group", "") or "").lower()
+        src = (p.get("source", "") or "").strip()
+        why = []
+        if "hybrid" in grp:
+            why.append("HYBRID product (two agent classes) - confirm which category it belongs in")
+        if "unconfirmed" in grp or "ask the supplier" in grp:
+            why.append("active agent not stated on the page - confirm agent & category with the supplier")
+        if "not a biostimulator" in grp or "(not a" in grp:
+            why.append("grouped separately from the main category - confirm placement")
+        if not src:
+            why.append("no brand/importer reference link found - name & agent taken from pharmacy consensus")
+        return why
+
+    rv = wb.create_sheet("For your review")
+    head(rv, ["Product (as listed)", "Equivalence group", "Why flagged (please decide)", "Pharmacies", "Listings", "Reference link"],
+         [40, 26, 48, 11, 9, 34])
+    flagged = 0
+    for uid, p in sorted(prods.items(), key=lambda kv: (kv[1]["equivalence_group"], kv[1]["product"])):
+        why = flags(p)
+        if not why:
+            continue
+        flagged += 1
+        rv.append([p["product"], p["equivalence_group"], " ; ".join(why), len(bysup.get(uid, [])), bylist.get(uid, 0), p.get("source", "")])
+        fmt(rv, 6, p.get("source", ""))
+    if flagged:
+        rv.auto_filter.ref = f"A1:F{rv.max_row}"
+    else:
+        rv.append(["(nothing to review - every product matched a reference)", "", "", "", "", ""]); fmt(rv)
+
     name = re.sub(r"[^a-z0-9]+", "_", category.lower()).strip("_")
     out = Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / f"output/category_{name}.xlsx"
     wb.save(out)

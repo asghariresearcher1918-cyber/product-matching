@@ -34,8 +34,8 @@ def toxin(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"), 
                           man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="",
                           verified="reference-matched" if g(r, "status") == "reference" else g(r, "status"), source=g(r, "source"))
 def biostim(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "variant")),
-                            spec=join(g(r, "strength"), g(r, "volume_ml") + "ml" if g(r, "volume_ml") else "", "x" + g(r, "vials_per_pack") if g(r, "vials_per_pack") else "", "+lido" if g(r, "lidocaine") in ("yes", "Y", "True") else ""),
-                            man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="", verified=g(r, "agent_verified"), source="")
+                            spec=g(r, "pack_size"), man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="",
+                            verified=g(r, "agent_verified"), source=g(r, "source"))
 def fat(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "variant")),
                         spec=_vials(g(r, "vials_per_pack"), (g(r, "volume_ml") or "").replace("ml", "") + "ml" if g(r, "volume_ml") else ""),
                         man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="",
@@ -132,7 +132,8 @@ def main():
     # title (already complete), left as-is so we never duplicate the size/pack it already contains.
     for m in master:
         sp = m.get("key_spec", "")
-        if m.get("verified") == "reference-matched" and sp and sp.lower() not in m["product"].lower():
+        if (m.get("verified") == "reference-matched" and sp and sp.lower() not in m["product"].lower()
+                and m["category"] != "Biostimulator"):   # biostim name is already the complete commercial name
             m["product"] = f'{m["product"]} ({sp})'
     master.sort(key=lambda m: (m["category"], m["equivalence_group"], m["brand"], m["product"]))
     with open(FINAL / "master_catalogue.csv", "w", newline="", encoding="utf-8") as f:

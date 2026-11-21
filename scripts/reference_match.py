@@ -137,12 +137,33 @@ def run(cfg, refnames):
             packn = base_n; pack_src = "reference (kit)"  # a Kit is a fixed bundle - take its pack from the reference
         name = best["product_name"]
         line = re.sub(r"^" + re.escape(rb) + r"\s*", "", name).strip() or name
-        # hologram / ROI packaging is NOT a separate product -> no market in the code
-        code = slug(cfg["prefix"], rb, re.sub(r"[^A-Za-z0-9]+", "", line), "LIDO" if lido else "", f"{packn}X" if packn > 1 else "")
-        uid = cfg["tag"] + ":" + code
-        refnames[uid] = name + (" with lidocaine" if lido and lv not in ("yes", "no") else "")
-        maps.append(dict(m, code=code, brand=rb, line=line, matched="reference",
-                         decision=f"{name}; {vol}ml; pack {packn} ({pack_src}); {'+lido' if lido else 'no lido'}"))
+        pack_size = ""
+        if cfg["kind"] == "biostim":
+            # real commercial name = <canonical> [with Lidocaine] (<market pack>); Pack size is a separate attribute.
+            strength = best.get("strength", "")
+            if strength:                                   # powder -> strength in mg; vol not shown in the name
+                pack_size = f"{packn} x {strength}" if packn > 1 else strength
+                mkt = (f"{packn} vials" if packn > 1 else "")
+            elif vol:                                      # gel / liquid -> volume in ml
+                pack_size = f"{packn} x {vol}ml" if packn > 1 else f"{vol}ml"
+                mkt = pack_size
+            else:
+                pack_size = f"{packn} vials" if packn > 1 else "1 vial"
+                mkt = (f"{packn} vials" if packn > 1 else "")
+            disp = name + (" with Lidocaine" if lido else "") + (f" ({mkt})" if mkt else "")
+            sizetok = re.sub(r"[^A-Za-z0-9]+", "", best.get("variant", "") or strength or vol or "")
+            code = slug(cfg["prefix"], rb, sizetok, "LIDO" if lido else "", f"{packn}X" if packn > 1 else "")
+            uid = cfg["tag"] + ":" + code
+            refnames[uid] = disp
+            maps.append(dict(m, code=code, brand=rb, line=line, matched="reference",
+                             decision=f"{disp}; pack {packn} ({pack_src})"))
+        else:
+            # hologram / ROI packaging is NOT a separate product -> no market in the code
+            code = slug(cfg["prefix"], rb, re.sub(r"[^A-Za-z0-9]+", "", line), "LIDO" if lido else "", f"{packn}X" if packn > 1 else "")
+            uid = cfg["tag"] + ":" + code
+            refnames[uid] = name + (" with lidocaine" if lido and lv not in ("yes", "no") else "")
+            maps.append(dict(m, code=code, brand=rb, line=line, matched="reference",
+                             decision=f"{name}; {vol}ml; pack {packn} ({pack_src}); {'+lido' if lido else 'no lido'}"))
         if cfg["kind"] == "filler":
             p = prods.setdefault(code, dict(code=code, brand=rb, line=line, equivalence_group=rb, manufacturer=MANUF.get(rb, ""),
                                             ha="yes", volume_ml=vol, lidocaine="yes" if lido else "no", syringes_per_pack=packn,
@@ -165,7 +186,7 @@ def run(cfg, refnames):
             p = prods.setdefault(code, dict(code=code, brand=rb, variant=best.get("variant", ""),
                                             active_agent=best.get("active_agent", ""), equivalence_group=best.get("equivalence_group", ""),
                                             manufacturer=best.get("manufacturer", ""), strength=best.get("strength", ""),
-                                            volume_ml=vol, vials_per_pack=packn, lidocaine="yes" if lido else "no",
+                                            volume_ml=vol, vials_per_pack=packn, pack_size=pack_size, lidocaine="yes" if lido else "no",
                                             agent_verified=("yes (reference)" if best.get("active_agent") != "unknown" else "confirm with supplier"),
                                             note=best.get("equivalence_group", ""), source=best["source"], suppliers=set(), listings=0))
         else:  # fat dissolving
@@ -198,7 +219,7 @@ def run(cfg, refnames):
         skey = lambda p: (p["brand"], p["code"])
     elif cfg["kind"] == "biostim":
         pc = ["code", "brand", "variant", "active_agent", "equivalence_group", "manufacturer", "strength", "volume_ml",
-              "vials_per_pack", "lidocaine", "agent_verified", "suppliers", "listings", "note", "source"]
+              "vials_per_pack", "pack_size", "lidocaine", "agent_verified", "suppliers", "listings", "note", "source"]
         skey = lambda p: (p.get("equivalence_group", ""), p["brand"], p["code"])
     else:  # fat dissolving
         pc = ["code", "brand", "variant", "active_agent", "equivalence_group", "manufacturer", "volume_ml",

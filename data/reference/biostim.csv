@@ -1,32 +1,32 @@
 brand,product_name,variant,active_agent,equivalence_group,manufacturer,strength,pack,lidocaine,default,aliases,source
-Radiesse,Radiesse 1.5ml,1.5ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,1 x 1.5ml,detect,yes,1.5ml|1 5ml|1.5 ml|(1.5|1.5),https://www.merzaesthetics.co.uk
-Radiesse,Radiesse 3ml,3ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,1 x 3ml,detect,,3ml|3 ml|3.0ml|(3ml|3.0 ml,https://www.merzaesthetics.co.uk
+Radiesse,Radiesse,1.5ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,1 x 1.5ml,detect,yes,1.5ml|1 5ml|1.5 ml|(1.5|1.5),https://www.merzaesthetics.co.uk
+Radiesse,Radiesse,3ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,1 x 3ml,detect,,3ml|3 ml|3.0ml|(3ml|3.0 ml,https://www.merzaesthetics.co.uk
 Novuma,Novuma,,CaHA,CaHA - calcium hydroxylapatite,Burgeon (Korea) / Vivacy UK,,1 x 1.5ml,no,yes,,https://vivacy.co.uk
-Sculptra,Sculptra,,PLLA,PLLA - poly-L-lactic acid,Galderma,367.5mg per vial,1 vial,no,yes,,https://www.sculptra.co.uk
-Lanluma,Lanluma V,V (face),PLLA,PLLA - poly-L-lactic acid,Sinclair,210mg,1 x 15ml,no,yes,lanluma v|15ml|210| v |face,https://sinclair.com
-Lanluma,Lanluma X,X (body),PLLA,PLLA - poly-L-lactic acid,Sinclair,630mg,1 x 40ml,no,,lanluma x|40ml|630| x |body,https://sinclair.com
-aesPLLA,aesPLLA,,PLLA,PLLA - poly-L-lactic acid,Oreon Life Science (Korea),365mg vial (150mg PLLA),1 vial,no,yes,aesplla|aes plla,
-Ecolla,Ecolla,,PLLA,PLLA - poly-L-lactic acid,Korea,365mg vial,1 vial,no,yes,,
-PLLACELL,PLLACELL,,PLLA,PLLA - poly-L-lactic acid,Korea,100mg (PLLA + PN cocktail),1 vial,no,yes,pllacell,
-Julaine,Julaine,,PLLA,PLLA - poly-L-lactic acid,Nordberg Medical (Sweden),150mg + CMC,1 vial,no,yes,,
-StiCol,StiCol,,PLLA,PLLA - poly-L-lactic acid,Korea,PLLA (+ HA),1 vial,no,yes,sticol,
-Olidia,Olidia,,PLLA,PLLA - poly-L-lactic acid,PRP Science (Korea),365mg vial,1 vial,no,yes,,
+Sculptra,Sculptra,,PLLA,PLLA - poly-L-lactic acid,Galderma,367.5mg,1 vial,no,yes,,https://www.galderma.com/uk
+Lanluma,Lanluma V,V (face),PLLA,PLLA - poly-L-lactic acid,Sinclair,210mg,1 vial,no,yes,lanluma v|15ml|210|face,https://sinclair.com
+Lanluma,Lanluma X,X (body),PLLA,PLLA - poly-L-lactic acid,Sinclair,630mg,1 vial,no,,lanluma x|40ml|630|body,https://sinclair.com
+aesPLLA,aesPLLA,,PLLA,PLLA - poly-L-lactic acid,Oreon Life Science (Korea),365mg,1 vial,no,yes,aesplla|aes plla,
+Ecolla,Ecolla,,PLLA,PLLA - poly-L-lactic acid,Korea,365mg,1 vial,no,yes,,
+PLLACELL,PLLACELL,,PLLA,PLLA - poly-L-lactic acid,Korea,100mg,1 vial,no,yes,pllacell,
+Julaine,Julaine,,PLLA,PLLA - poly-L-lactic acid,Nordberg Medical (Sweden),150mg,1 vial,no,yes,,
+StiCol,StiCol,,PLLA,PLLA - poly-L-lactic acid,Korea,,1 vial,no,yes,sticol,
+Olidia,Olidia,,PLLA,PLLA - poly-L-lactic acid,PRP Science (Korea),365mg,1 vial,no,yes,,
 iLLUMA PLLA,iLLUMA PLLA 200,200mg,PLLA,PLLA - poly-L-lactic acid,Korea,200mg,1 vial,no,yes,200|illuma plla 200,
 iLLUMA PLLA,iLLUMA PLLA 500,500mg,PLLA,PLLA - poly-L-lactic acid,Korea,500mg,1 vial,no,,500|illuma plla 500,
-PiNkLLA,PiNkLLA,,PLLA,PLLA - poly-L-lactic acid,Daesung (Korea),100mg (PLLA + PN),1 vial,no,yes,pinklla,
-AestheFill,AestheFill,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",Regen Biotech,200mg powder,1 vial,no,yes,aesthefill|aesthe fill,
-Juvelook,Juvelook,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",VAIM / Medit (Korea),50mg (PDLLA + HA),1 vial,no,yes,,
-Juvelook,Juvelook Volume,Volume,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",VAIM / Medit (Korea),200mg (PDLLA + HA),1 vial,no,,volume|200,
-Lenisna,Lenisna,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",Medit / Fillmed,200mg (PDLLA + HA),1 vial,no,yes,lenisna,
+PiNkLLA,PiNkLLA,,PLLA,PLLA - poly-L-lactic acid,Daesung (Korea),100mg,1 vial,no,yes,pinklla,
+AestheFill,AestheFill,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",Regen Biotech,200mg,1 vial,no,yes,aesthefill|aesthe fill,
+Juvelook,Juvelook,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",VAIM / Medit (Korea),50mg,1 vial,no,yes,,
+Juvelook,Juvelook Volume,Volume,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",VAIM / Medit (Korea),200mg,1 vial,no,,volume|200,
+Lenisna,Lenisna,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",Medit / Fillmed,200mg,1 vial,no,yes,lenisna,
 Ellanse,Ellanse S,S,PCL,PCL - polycaprolactone,Sinclair,,1 x 1ml,no,,ellanse s|ellanse-s|ellansé s,https://sinclair.com
 Ellanse,Ellanse M,M,PCL,PCL - polycaprolactone,Sinclair,,1 x 1ml,no,yes,ellanse m|ellanse-m|ellansé m,https://sinclair.com
 Ellanse,Ellanse L,L,PCL,PCL - polycaprolactone,Sinclair,,1 x 1ml,no,,ellanse l|ellanse-l,https://sinclair.com
 Ellanse,Ellanse E,E,PCL,PCL - polycaprolactone,Sinclair,,1 x 1ml,no,,ellanse e|ellanse-e,https://sinclair.com
-Gouri,Gouri,,PCL,PCL - polycaprolactone,APAD / Gran Aesthetics,liquid PCL,1 x 1ml,no,yes,gouri,
-Linerase,Linerase,,collagen,Injectable collagen stimulator,Mastelli,100mg (equine Type I collagen),1 vial,no,yes,,https://mastelli.com
-HArmonyCa,HArmonyCa,,CaHA+HA,CaHA + HA hybrid,Allergan / AbbVie,CaHA in HA gel,2 x 1.25ml,yes,yes,harmonyca|harmony ca,https://www.allerganaesthetics.co.uk
-Neauvia,Neauvia Stimulate,Stimulate,CaHA+HA,CaHA + HA hybrid,Matex Lab / Neauvia,HA 26mg/ml + 1% CaHA,1 x 1ml,no,yes,stimulate|organic stimulate,https://neauvia.com
-Linerase Hydro,Linerase Hydro,,HA booster,HA skin booster (not a biostimulator),Mastelli,HA booster,5 x 5ml,no,yes,hydro,https://mastelli.com
+Gouri,Gouri,,PCL,PCL - polycaprolactone,APAD / Gran Aesthetics,,1 x 1ml,no,yes,gouri,
+Linerase,Linerase,,collagen,Injectable collagen stimulator,Mastelli (equine Type I collagen),100mg,1 vial,no,yes,,https://mastelli.com
+HArmonyCa,HArmonyCa,,CaHA+HA,CaHA + HA hybrid,Allergan / AbbVie,,2 x 1.25ml,yes,yes,harmonyca|harmony ca,https://www.allerganaesthetics.co.uk
+Neauvia,Neauvia Stimulate,Stimulate,CaHA+HA,CaHA + HA hybrid,Matex Lab / Neauvia,,1 x 1ml,no,yes,stimulate|organic stimulate,https://neauvia.com
+Linerase Hydro,Linerase Hydro,,HA booster,HA skin booster (not a biostimulator),Mastelli,,5 x 5ml,no,yes,hydro,https://mastelli.com
 Doublyx,Doublyx Evo,Evo,unknown,Unconfirmed - ask the supplier,not stated,,1 x 2ml,no,yes,doublyx,
 Elysiha,Elysiha Face,Face,unknown,Unconfirmed - ask the supplier,ElysiHA (Dr. Adams),,1 vial,no,yes,face,
 Elysiha,Elysiha Eyes,Eyes,unknown,Unconfirmed - ask the supplier,ElysiHA (Dr. Adams),,1 vial,no,,eyes,
