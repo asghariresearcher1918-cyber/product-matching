@@ -38,27 +38,28 @@ add("Novuma", "Novuma", "", "CaHA", "Burgeon (Korea) / Vivacy UK", "", "1 x 1.5m
 # ---- PLLA (powders; strength in mg) -----------------------------------------
 add("Sculptra", "Sculptra", "", "PLLA", "Galderma", "367.5mg", "1 vial",
     [], "https://www.galderma.com/uk", default="yes")
+# -- niche brands: manufacturer / UK distributor confirmed by research (2026-11-22) --
 add("Lanluma", "Lanluma V", "V (face)", "PLLA", "Sinclair", "210mg", "1 vial",
     ["lanluma v", "15ml", "210", "face"], "https://sinclair.com", default="yes")
 add("Lanluma", "Lanluma X", "X (body)", "PLLA", "Sinclair", "630mg", "1 vial",
     ["lanluma x", "40ml", "630", "body"], "https://sinclair.com")
-add("aesPLLA", "aesPLLA", "", "PLLA", "Oreon Life Science (Korea)", "365mg", "1 vial",
-    ["aesplla", "aes plla"], "", default="yes")
-add("Ecolla", "Ecolla", "", "PLLA", "Korea", "365mg", "1 vial", [], "", default="yes")
+add("aesPLLA", "aesPLLA", "", "PLLA", "Oreon Life Science (Korea); Fox Pharma exclusive UK/EU", "365mg", "1 vial",
+    ["aesplla", "aes plla"], "https://support.foxpharma.co.uk/en-gb/what-is-aesplla", default="yes")
+add("Ecolla", "Ecolla", "", "PLLA", "JETEMA (Korea)", "365mg", "1 vial", [], "https://www.jetema.com", default="yes")
 add("PLLACELL", "PLLACELL", "", "PLLA", "Korea", "100mg", "1 vial", ["pllacell"], "", default="yes")
-add("Julaine", "Julaine", "", "PLLA", "Nordberg Medical (Sweden)", "150mg", "1 vial", [], "", default="yes")
-add("StiCol", "StiCol", "", "PLLA", "Korea", "", "1 vial", ["sticol"], "", default="yes")
-add("Olidia", "Olidia", "", "PLLA", "PRP Science (Korea)", "365mg", "1 vial", [], "", default="yes")
+add("Julaine", "Julaine", "", "PLLA", "Nordberg Medical (Sweden); own UK & Ireland arm", "150mg", "1 vial", [], "https://www.nordbergmedical.com", default="yes")
+add("StiCol", "StiCol", "", "PLLA", "Contac Korea", "", "1 vial", ["sticol"], "https://sticolfiller.com", default="yes")
+add("Olidia", "Olidia", "", "PLLA", "PRP Science (Korea)", "365mg", "1 vial", [], "https://olidia.kr", default="yes")
 add("iLLUMA PLLA", "iLLUMA PLLA 200", "200mg", "PLLA", "Korea", "200mg", "1 vial",
     ["200", "illuma plla 200"], "", default="yes")
 add("iLLUMA PLLA", "iLLUMA PLLA 500", "500mg", "PLLA", "Korea", "500mg", "1 vial", ["500", "illuma plla 500"], "")
-add("PiNkLLA", "PiNkLLA", "", "PLLA", "Daesung (Korea)", "100mg", "1 vial", ["pinklla"], "", default="yes")
+add("PiNkLLA", "PiNkLLA", "", "PLLA", "Oreon Life Science (Korea)", "100mg", "1 vial", ["pinklla"], "", default="yes")
 # ---- PDLLA (+ HA) powders ---------------------------------------------------
-add("AestheFill", "AestheFill", "", "PDLLA", "Regen Biotech", "200mg", "1 vial",
-    ["aesthefill", "aesthe fill"], "", default="yes")
-add("Juvelook", "Juvelook", "", "PDLLA", "VAIM / Medit (Korea)", "50mg", "1 vial", [], "", default="yes")
-add("Juvelook", "Juvelook Volume", "Volume", "PDLLA", "VAIM / Medit (Korea)", "200mg", "1 vial", ["volume", "200"], "")
-add("Lenisna", "Lenisna", "", "PDLLA", "Medit / Fillmed", "200mg", "1 vial", ["lenisna"], "", default="yes")
+add("AestheFill", "AestheFill", "", "PDLLA", "Regen Biotech (Korea)", "200mg", "1 vial",
+    ["aesthefill", "aesthe fill"], "https://www.tga.gov.au/resources/artg/402703", default="yes")
+add("Juvelook", "Juvelook", "", "PDLLA", "VAIM (Korea); Fillmed UK & Ireland", "50mg", "1 vial", [], "https://uk.fillmed.com", default="yes")
+add("Juvelook", "Juvelook Volume", "Volume", "PDLLA", "VAIM (Korea); Fillmed UK & Ireland (= Lenisna globally)", "200mg", "1 vial", ["volume", "200"], "https://uk.fillmed.com")
+add("Lenisna", "Lenisna", "", "PDLLA", "VAIM (Korea); Fillmed UK & Ireland", "200mg", "1 vial", ["lenisna"], "https://uk.fillmed.com", default="yes")
 # ---- PCL (gels/liquid) ------------------------------------------------------
 add("Ellanse", "Ellanse S", "S", "PCL", "Sinclair", "", "1 x 1ml",
     ["ellanse s", "ellanse-s", "ellansé s"], "https://sinclair.com")
@@ -66,7 +67,7 @@ add("Ellanse", "Ellanse M", "M", "PCL", "Sinclair", "", "1 x 1ml",
     ["ellanse m", "ellanse-m", "ellansé m"], "https://sinclair.com", default="yes")
 add("Ellanse", "Ellanse L", "L", "PCL", "Sinclair", "", "1 x 1ml", ["ellanse l", "ellanse-l"], "https://sinclair.com")
 add("Ellanse", "Ellanse E", "E", "PCL", "Sinclair", "", "1 x 1ml", ["ellanse e", "ellanse-e"], "https://sinclair.com")
-add("Gouri", "Gouri", "", "PCL", "APAD / Gran Aesthetics", "", "1 x 1ml", ["gouri"], "", default="yes")
+add("Gouri", "Gouri", "", "PCL", "DEXLEVO (Korea)", "", "1 x 1ml", ["gouri"], "https://www.dexlevo.com", default="yes")
 # ---- collagen ---------------------------------------------------------------
 add("Linerase", "Linerase", "", "collagen", "Mastelli (equine Type I collagen)", "100mg", "1 vial",
     [], "https://mastelli.com", default="yes")
@@ -78,8 +79,10 @@ add("Neauvia", "Neauvia Stimulate", "Stimulate", "CaHA+HA", "Matex Lab / Neauvia
 # ---- HA booster (grouped separately, NOT a collagen stimulator) -------------
 add("Linerase Hydro", "Linerase Hydro", "", "HA booster", "Mastelli", "", "5 x 5ml",
     ["hydro"], "https://mastelli.com", default="yes")
+# ---- Doublyx Evo: research shows non-crosslinked HA (40mg/2ml) -> HA booster, not a collagen stimulator ----
+add("Doublyx", "Doublyx Evo", "Evo", "HA booster", "Xcelens (Switzerland) / Aerazen Lab (Italy)", "", "1 x 2ml",
+    ["doublyx"], "https://xcelens.ch/en/doublyx-evo/", default="yes")
 # ---- agent not stated -> flagged for your review ----------------------------
-add("Doublyx", "Doublyx Evo", "Evo", "unknown", "not stated", "", "1 x 2ml", ["doublyx"], "", default="yes")
 add("Elysiha", "Elysiha Face", "Face", "unknown", "ElysiHA (Dr. Adams)", "", "1 vial", ["face"], "", default="yes")
 add("Elysiha", "Elysiha Eyes", "Eyes", "unknown", "ElysiHA (Dr. Adams)", "", "1 vial", ["eyes"], "")
 

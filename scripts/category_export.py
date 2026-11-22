@@ -66,7 +66,7 @@ def main():
     # "For your review" tab: items the rules say must be confirmed by a human, not decided on a probability.
     def flags(p):
         grp = (p.get("equivalence_group", "") or "").lower()
-        src = (p.get("source", "") or "").strip()
+        man = (p.get("manufacturer", "") or "").strip().lower()
         why = []
         if "hybrid" in grp:
             why.append("HYBRID product (two agent classes) - confirm which category it belongs in")
@@ -74,8 +74,8 @@ def main():
             why.append("active agent not stated on the page - confirm agent & category with the supplier")
         if "not a biostimulator" in grp or "(not a" in grp:
             why.append("grouped separately from the main category - confirm placement")
-        if not src:
-            why.append("no brand/importer reference link found - name & agent taken from pharmacy consensus")
+        if man in ("", "not stated", "not named", "korea", "unknown"):
+            why.append("no manufacturer / importer identified - name & agent taken from pharmacy consensus")
         return why
 
     rv = wb.create_sheet("For your review")

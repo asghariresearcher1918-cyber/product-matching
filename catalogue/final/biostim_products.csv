@@ -5,28 +5,28 @@ BIO-NOVUMA-15,Novuma,,CaHA,CaHA - calcium hydroxylapatite,Burgeon (Korea) / Viva
 BIO-RADIESSE-15ML,Radiesse,1.5ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,1.5,1,1.5ml,no,yes (reference),9,9,CaHA - calcium hydroxylapatite,https://www.merzaesthetics.co.uk
 BIO-RADIESSE-15ML-LIDO,Radiesse,1.5ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,1.5,1,1.5ml,yes,yes (reference),12,16,CaHA - calcium hydroxylapatite,https://www.merzaesthetics.co.uk
 BIO-RADIESSE-3ML,Radiesse,3ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,3,1,3ml,no,yes (reference),2,2,CaHA - calcium hydroxylapatite,https://www.merzaesthetics.co.uk
+BIO-DOUBLYX-EVO,Doublyx,Evo,HA booster,HA skin booster (not a biostimulator),Xcelens (Switzerland) / Aerazen Lab (Italy),,2,1,2ml,no,yes (reference),1,1,HA skin booster (not a biostimulator),https://xcelens.ch/en/doublyx-evo/
 BIO-LINERASE-HYDRO-5-5X,Linerase Hydro,,HA booster,HA skin booster (not a biostimulator),Mastelli,,5,5,5 x 5ml,no,yes (reference),2,3,HA skin booster (not a biostimulator),https://mastelli.com
 BIO-LINERASE-100MG,Linerase,,collagen,Injectable collagen stimulator,Mastelli (equine Type I collagen),100mg,,1,100mg,no,yes (reference),4,4,Injectable collagen stimulator,https://mastelli.com
 BIO-ELLANSE-M-2X,Ellanse,M,PCL,PCL - polycaprolactone,Sinclair,,1,2,2 x 1ml,no,yes (reference),7,7,PCL - polycaprolactone,https://sinclair.com
 BIO-ELLANSE-S-2X,Ellanse,S,PCL,PCL - polycaprolactone,Sinclair,,1,2,2 x 1ml,no,yes (reference),8,9,PCL - polycaprolactone,https://sinclair.com
-BIO-GOURI-1,Gouri,,PCL,PCL - polycaprolactone,APAD / Gran Aesthetics,,1,1,1ml,no,yes (reference),8,8,PCL - polycaprolactone,
-BIO-AESTHEFILL-200MG,AestheFill,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",Regen Biotech,200mg,,1,200mg,no,yes (reference),2,2,"PDLLA - poly-D,L-lactic acid (+ HA)",
-BIO-JUVELOOK-50MG,Juvelook,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",VAIM / Medit (Korea),50mg,,1,50mg,no,yes (reference),7,9,"PDLLA - poly-D,L-lactic acid (+ HA)",
-BIO-JUVELOOK-VOLUME,Juvelook,Volume,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",VAIM / Medit (Korea),200mg,,1,200mg,no,yes (reference),1,1,"PDLLA - poly-D,L-lactic acid (+ HA)",
-BIO-LENISNA-200MG,Lenisna,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",Medit / Fillmed,200mg,,1,200mg,no,yes (reference),5,6,"PDLLA - poly-D,L-lactic acid (+ HA)",
-BIO-ECOLLA-365MG,Ecolla,,PLLA,PLLA - poly-L-lactic acid,Korea,365mg,,1,365mg,no,yes (reference),4,4,PLLA - poly-L-lactic acid,
-BIO-JULAINE-150MG,Julaine,,PLLA,PLLA - poly-L-lactic acid,Nordberg Medical (Sweden),150mg,,1,150mg,no,yes (reference),5,5,PLLA - poly-L-lactic acid,
+BIO-GOURI-1,Gouri,,PCL,PCL - polycaprolactone,DEXLEVO (Korea),,1,1,1ml,no,yes (reference),8,8,PCL - polycaprolactone,https://www.dexlevo.com
+BIO-AESTHEFILL-200MG,AestheFill,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",Regen Biotech (Korea),200mg,,1,200mg,no,yes (reference),2,2,"PDLLA - poly-D,L-lactic acid (+ HA)",https://www.tga.gov.au/resources/artg/402703
+BIO-JUVELOOK-50MG,Juvelook,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",VAIM (Korea); Fillmed UK & Ireland,50mg,,1,50mg,no,yes (reference),7,9,"PDLLA - poly-D,L-lactic acid (+ HA)",https://uk.fillmed.com
+BIO-JUVELOOK-VOLUME,Juvelook,Volume,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",VAIM (Korea); Fillmed UK & Ireland (= Lenisna globally),200mg,,1,200mg,no,yes (reference),1,1,"PDLLA - poly-D,L-lactic acid (+ HA)",https://uk.fillmed.com
+BIO-LENISNA-200MG,Lenisna,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",VAIM (Korea); Fillmed UK & Ireland,200mg,,1,200mg,no,yes (reference),5,6,"PDLLA - poly-D,L-lactic acid (+ HA)",https://uk.fillmed.com
+BIO-ECOLLA-365MG,Ecolla,,PLLA,PLLA - poly-L-lactic acid,JETEMA (Korea),365mg,,1,365mg,no,yes (reference),4,4,PLLA - poly-L-lactic acid,https://www.jetema.com
+BIO-JULAINE-150MG,Julaine,,PLLA,PLLA - poly-L-lactic acid,Nordberg Medical (Sweden); own UK & Ireland arm,150mg,,1,150mg,no,yes (reference),5,5,PLLA - poly-L-lactic acid,https://www.nordbergmedical.com
 BIO-LANLUMA-VFACE,Lanluma,V (face),PLLA,PLLA - poly-L-lactic acid,Sinclair,210mg,,1,210mg,no,yes (reference),7,8,PLLA - poly-L-lactic acid,https://sinclair.com
 BIO-LANLUMA-XBODY,Lanluma,X (body),PLLA,PLLA - poly-L-lactic acid,Sinclair,630mg,,1,630mg,no,yes (reference),6,7,PLLA - poly-L-lactic acid,https://sinclair.com
-BIO-OLIDIA-365MG,Olidia,,PLLA,PLLA - poly-L-lactic acid,PRP Science (Korea),365mg,,1,365mg,no,yes (reference),1,1,PLLA - poly-L-lactic acid,
+BIO-OLIDIA-365MG,Olidia,,PLLA,PLLA - poly-L-lactic acid,PRP Science (Korea),365mg,,1,365mg,no,yes (reference),1,1,PLLA - poly-L-lactic acid,https://olidia.kr
 BIO-PLLACELL-100MG,PLLACELL,,PLLA,PLLA - poly-L-lactic acid,Korea,100mg,,1,100mg,no,yes (reference),3,3,PLLA - poly-L-lactic acid,
-BIO-PINKLLA-100MG,PiNkLLA,,PLLA,PLLA - poly-L-lactic acid,Daesung (Korea),100mg,,1,100mg,no,yes (reference),1,1,PLLA - poly-L-lactic acid,
+BIO-PINKLLA-100MG,PiNkLLA,,PLLA,PLLA - poly-L-lactic acid,Oreon Life Science (Korea),100mg,,1,100mg,no,yes (reference),1,1,PLLA - poly-L-lactic acid,
 BIO-SCULPTRA-3675MG,Sculptra,,PLLA,PLLA - poly-L-lactic acid,Galderma,367.5mg,,1,367.5mg,no,yes (reference),8,8,PLLA - poly-L-lactic acid,https://www.galderma.com/uk
 BIO-SCULPTRA-3675MG-2X,Sculptra,,PLLA,PLLA - poly-L-lactic acid,Galderma,367.5mg,,2,2 x 367.5mg,no,yes (reference),12,14,PLLA - poly-L-lactic acid,https://www.galderma.com/uk
-BIO-STICOL,StiCol,,PLLA,PLLA - poly-L-lactic acid,Korea,,,1,1 vial,no,yes (reference),1,1,PLLA - poly-L-lactic acid,
-BIO-AESPLLA-365MG,aesPLLA,,PLLA,PLLA - poly-L-lactic acid,Oreon Life Science (Korea),365mg,,1,365mg,no,yes (reference),9,11,PLLA - poly-L-lactic acid,
+BIO-STICOL,StiCol,,PLLA,PLLA - poly-L-lactic acid,Contac Korea,,,1,1 vial,no,yes (reference),1,1,PLLA - poly-L-lactic acid,https://sticolfiller.com
+BIO-AESPLLA-365MG,aesPLLA,,PLLA,PLLA - poly-L-lactic acid,Oreon Life Science (Korea); Fox Pharma exclusive UK/EU,365mg,,1,365mg,no,yes (reference),9,11,PLLA - poly-L-lactic acid,https://support.foxpharma.co.uk/en-gb/what-is-aesplla
 BIO-ILLUMA-PLLA-200MG,iLLUMA PLLA,200mg,PLLA,PLLA - poly-L-lactic acid,Korea,200mg,,1,200mg,no,yes (reference),4,4,PLLA - poly-L-lactic acid,
 BIO-ILLUMA-PLLA-500MG,iLLUMA PLLA,500mg,PLLA,PLLA - poly-L-lactic acid,Korea,500mg,,1,500mg,no,yes (reference),3,3,PLLA - poly-L-lactic acid,
-BIO-DOUBLYX-EVO,Doublyx,Evo,unknown,Unconfirmed - ask the supplier,not stated,,2,1,2ml,no,confirm with supplier,1,1,Unconfirmed - ask the supplier,
 BIO-ELYSIHA-EYES,Elysiha,Eyes,unknown,Unconfirmed - ask the supplier,ElysiHA (Dr. Adams),,,1,1 vial,no,confirm with supplier,1,1,Unconfirmed - ask the supplier,
 BIO-ELYSIHA-FACE,Elysiha,Face,unknown,Unconfirmed - ask the supplier,ElysiHA (Dr. Adams),,,1,1 vial,no,confirm with supplier,1,1,Unconfirmed - ask the supplier,
