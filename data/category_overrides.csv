@@ -1461,3 +1461,12 @@ R10443,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: ad
 R10497,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R07685,Biostimulator,"HArmonyCa (Harmony CA) hybrid - filed with biostimulators"
 R07727,Biostimulator,"HArmonyCa (Harmony CA) hybrid - filed with biostimulators"
+R06372,Skin booster / polynucleotide / mesotherapy,"Doublyx Evo = non-crosslinked HA booster (Xcelens), not a biostimulator"
+R06484,Skin booster / polynucleotide / mesotherapy,"Linerase Hydro = HA booster (Mastelli), not a biostimulator"
+R09498,Skin booster / polynucleotide / mesotherapy,"Linerase Hydro = HA booster"
+A01580,Skin booster / polynucleotide / mesotherapy,"Linerase Hydro = HA booster"
+R09500,Skin booster / polynucleotide / mesotherapy,"Linerase Hydro + PN bundle"
+R09509,Skin booster / polynucleotide / mesotherapy,"Remedium PDRN + Linerase Hydro bundle"
+R09522,Skin booster / polynucleotide / mesotherapy,"Mastelli Plinest + Linerase Hydro bundle"
+R06388,"Skincare, haircare & peels","Elysiha Eyes = topical PDRN/HA/collagen serum (Caromed Italia), not injectable"
+R06389,"Skincare, haircare & peels","Elysiha Face = topical PDRN/HA/collagen serum (Caromed Italia), not injectable"

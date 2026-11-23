@@ -1108,6 +1108,7 @@ BST:DERMAHEAL-SB-5ML-X10,Dermaheal SB (10 x 5ml) Vial,Wimpole Fillers
 BST:DERMAHEAL-SR-5ML-X10,Dermaheal SR (10 x 5ml) Vial,Wimpole Fillers
 BST:DERMAHEAL-SUN-SCREEN,Dermaheal Sun Screen,Dr. Adams Pharmacy
 BST:DIVES-LIPGLAM,Dives Lipglam X,Dr. Adams Pharmacy
+BST:DOUBLYX-EVO-2ML,Doublyx Evo (1 x 2ml),Dr. Adams Pharmacy
 BST:EJAL-40-GEL-2ML,Ejal 40 Gel (1 x 2ml),Dr. Adams Pharmacy
 BST:EJAL-40-SUNSCREEN-BODY-100ML,Ejal Sunscreen Body Protector SPF50+ (1 x 100ml bottle),Dr. Adams Pharmacy
 BST:EJAL-40-SUNSCREEN-FACE-30ML,Ejal Sunscreen Face SPF30 (1 x 30ml bottle),Dr. Adams Pharmacy
@@ -1124,6 +1125,7 @@ BST:INNO-TDS-FACE-NADE,INNO-TDS Face Nade,Dr. Adams Pharmacy
 BST:INNO-TDS-HYALURONIC-ACID,INNO-TDS Hyaluronic Acid,Dr. Adams Pharmacy
 BST:INNO-AESTHETICS-INNOAESTHETICS-HAIR-5ML-X2,Innoaesthetics Hair Vital 2x5ml,Dr. Adams Pharmacy
 BST:INNO-AESTHETICS-INNOAESTHETICS-RESTRUCTURE-5ML-X4,Innoaesthetics Restructurer (4 x 5ml),Dr. Adams Pharmacy
+BST:LINERASE-HYDRO-5ML-X5,Linerase Hydro (5x5ml) vials,Wimpole Fillers
 BST:LONGEVHA-2.5ML,Longevha Skin Booster (1 x 2.5 ml),LPG Clinics Wholesale
 BST:LUMI-PRO-EYES-PN-1ML,LUMI-PRO Eyes PN Skin Booster – 1 x 1ml,Two Face Aesthetics
 BST:LUMI-PRO-LIPS-LIP-1.1ML,Lumi-Pro Lips - Lip Booster – 1 x 1.1ml,Skin On You
@@ -1385,9 +1387,12 @@ BST:EXOM-REJUVENATION-FACE-103-5ML,Exom-Rejuvenation Face 103 (1x5ml),Wimpole Fi
 BST:HAIRCARE-5ML-X10,Haircare (10 x 5ml) Vial,Wimpole Fillers
 BST:BCN-ORGANIC-SILICA-5ML-X10,BCN Organic Silica & DMAE (10 x 5ml) amps.,Wimpole Fillers
 BST:INNO-TDS-DNA-PEPT-2.5ML-X4,INNO-TDS DNA Pept-HA (4 x 2.5ml) Vial,Wimpole Fillers
+BST:BUY-LINERASE-HYDRO-5ML-X5,Linerase Hydro (5x5ml) vials + Linerase Collagen Powder (1x100mg) vial – Get 15% off,Wimpole Fillers
 BST:EXOSOME-OTHER-SILK-10-2.5ML,2 x Remedium Silk Exosome 2.5ml x 1 syringe – Get 10% off,Wimpole Fillers
+BST:BUY-PDRN-LINERASE-2.2ML-X5,Remedium PDRN 2.2ml x 3 syringes + Linerase Hydro (5x5ml) vials – Get 15% off,Wimpole Fillers
 BST:BUY-PDRN-FACE-2.2ML,3x Remedium PDRN 2.2ml x 3 syringes – Get 1x Exom-Rejuvenation Face 103 (1x5ml) Free,Wimpole Fillers
 BST:BUY-PDRN-PLUS-2.2ML-X3,3x Remedium PDRN 2.2ml x 3 Syringes – Get 1x Remedium Aqua Plus 2ml x 2 Syringes Free,Wimpole Fillers
+BST:PLINEST-NEWEST-MASTELLI-LINERASE-2ML,2x Mastelli Plinest 1 x 2ml Inj. + 1x Linerase Hydro (5x5ml) Vials – Get 10% Off,Wimpole Fillers
 BST:HANHEAL-NAD-COMPLEX-5ML,HANHEAL NAD+ Complex Skin booster (120 mg/vial + 5 ml/vial),IGO Aesthetics
 BST:VITARAN-HP-POLYNUCLEOTIDE-1ML-X2,HP Vitaran i (2 x 1ml) UK | Polynucleotide Skin Booster,Herts & Essex Supplies
 BST:REVITRANE-VOLUME-1.1ML,Revitrane Volume 1 x 1.1ml,IGO Aesthetics
@@ -1626,11 +1631,7 @@ BIO:BIO-GOURI-1,Gouri (1 X 1ML) inj.,Wimpole Fillers
 BIO:BIO-SCULPTRA-3675MG,Sculptra Single Vial 1 X 5ml,Ask Pharmacy
 BIO:BIO-ECOLLA-365MG,Ecolla PLLA 1 X 365mg Vial,Ask Pharmacy
 BIO:BIO-AESTHEFILL-200MG,Aesthefill (1 x 200mg),Wimpole Fillers
-BIO:BIO-DOUBLYX-EVO,Doublyx Evo (1 x 2ml),Dr. Adams Pharmacy
-BIO:BIO-ELYSIHA-EYES,Elysiha Eyes,Dr. Adams Pharmacy
-BIO:BIO-ELYSIHA-FACE,Elysiha Face,Dr. Adams Pharmacy
 BIO:BIO-LINERASE-100MG,Linerase Collagen powder-(1x100mg) vial.,Wimpole Fillers
-BIO:BIO-LINERASE-HYDRO-5-5X,Linerase Hydro (5x5ml) vials,Wimpole Fillers
 BIO:BIO-RADIESSE-3ML,Radiesse (1 x 3ml) Inj.,Wimpole Fillers
 BIO:BIO-JUVELOOK-VOLUME,Juvelook Volume (1x200mg),LPG Clinics Wholesale
 BIO:BIO-STICOL-VOLUME,StiCol Volume (1 x 365mg),LPG Clinics Wholesale
@@ -3659,6 +3660,8 @@ SKN:DERMACEUTIC-MILK-PEEL,Dermaceutic Milk Peel,Dr. Adams Pharmacy
 SKN:DERMAHEAL-AQUA-PEEL-15ML,Dermaheal Aqua Peel 15ml (1 kit),Dr. Adams Pharmacy
 SKN:DMAE-FIRMING-SOLUTION,DMAE Firming Solution,Dr. Adams Pharmacy
 SKN:DRENCH-HYALURONIC-ACID-30ML,DRENCH Hyaluronic Acid (1 x 30ml),Dr. Adams Pharmacy
+SKN:ELYSIHA-EYES,Elysiha Eyes,Dr. Adams Pharmacy
+SKN:ELYSIHA-FACE,Elysiha Face,Dr. Adams Pharmacy
 SKN:EXPOSE-RETINOL,EXPOSE Retinol,Dr. Adams Pharmacy
 SKN:FLIRT-LASH-BROW-HAIR-GROWTH-SERUM,FLIRT: LASH AND BROW HAIR GROWTH SERUM,Dr. Adams Pharmacy
 SKN:FUCIBET-CREAM-30G,Fucibet Cream 30g,Dr. Adams Pharmacy

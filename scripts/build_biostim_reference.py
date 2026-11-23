@@ -78,15 +78,8 @@ add("HArmonyCa", "HArmonyCa", "", "CaHA+HA", "Allergan / AbbVie", "", "2 x 1.25m
     ["harmonyca", "harmony ca"], "https://www.allerganaesthetics.co.uk", default="yes", lido="yes")
 add("Neauvia", "Neauvia Stimulate", "Stimulate", "CaHA+HA", "Matex Lab / Neauvia", "", "1 x 1ml",
     ["stimulate", "organic stimulate"], "https://neauvia.com", default="yes")
-# ---- HA booster (grouped separately, NOT a collagen stimulator) -------------
-add("Linerase Hydro", "Linerase Hydro", "", "HA booster", "Mastelli", "", "5 x 5ml",
-    ["hydro"], "https://mastelli.com", default="yes")
-# ---- Doublyx Evo: research shows non-crosslinked HA (40mg/2ml) -> HA booster, not a collagen stimulator ----
-add("Doublyx", "Doublyx Evo", "Evo", "HA booster", "Xcelens (Switzerland) / Aerazen Lab (Italy)", "", "1 x 2ml",
-    ["doublyx"], "https://xcelens.ch/en/doublyx-evo/", default="yes")
-# ---- agent not stated -> flagged for your review ----------------------------
-add("Elysiha", "Elysiha Face", "Face", "topical", "Caromed Italia", "", "1 vial", ["face"], "https://elysiha.com", default="yes")
-add("Elysiha", "Elysiha Eyes", "Eyes", "topical", "Caromed Italia", "", "1 vial", ["eyes"], "https://elysiha.com")
+# NOTE: Linerase Hydro + Doublyx Evo (HA boosters) and Elysiha (topical serum) were moved out of this category
+# to Skin booster / Skincare via data/category_overrides.csv (owner decision 2026-11-23).
 
 out = ROOT / "data/reference/biostim.csv"
 with open(out, "w", newline="", encoding="utf-8") as f:

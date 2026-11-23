@@ -92,8 +92,6 @@ BIO:BIO-NOVUMA-15,Biostimulator,CaHA - calcium hydroxylapatite,Novuma,Novuma (1 
 BIO:BIO-RADIESSE-15ML,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse (1 x 1.5ml),1 x 1.5ml,Merz,1,,reference-matched,11,12,https://www.merzaesthetics.co.uk
 BIO:BIO-RADIESSE-3ML,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse (1 x 3ml),1 x 3ml,Merz,1,,reference-matched,2,2,https://www.merzaesthetics.co.uk
 BIO:BIO-RADIESSE-15ML-LIDO,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse with Lidocaine (1 x 1.5ml),1 x 1.5ml,Merz,1,,reference-matched,12,13,https://www.merzaesthetics.co.uk
-BIO:BIO-DOUBLYX-EVO,Biostimulator,HA skin booster (not a biostimulator),Doublyx,Doublyx Evo (1 x 2ml),1 x 2ml,Xcelens (Switzerland) / Aerazen Lab (Italy),1,,reference-matched,1,1,https://xcelens.ch/en/doublyx-evo/
-BIO:BIO-LINERASE-HYDRO-5-5X,Biostimulator,HA skin booster (not a biostimulator),Linerase Hydro,Linerase Hydro (5 x 5ml),5 x 5ml,Mastelli,5,,reference-matched,2,3,https://mastelli.com
 BIO:BIO-LINERASE-100MG,Biostimulator,Injectable collagen stimulator,Linerase,Linerase (1 x 100mg),1 x 100mg,Mastelli (equine Type I collagen),1,,reference-matched,4,4,https://mastelli.com
 BIO:BIO-ELLANSE-M-2X,Biostimulator,PCL - polycaprolactone,Ellanse,Ellanse M (2 x 1ml),2 x 1ml,Sinclair,2,,reference-matched,7,7,https://sinclair.com
 BIO:BIO-ELLANSE-S-2X,Biostimulator,PCL - polycaprolactone,Ellanse,Ellanse S (2 x 1ml),2 x 1ml,Sinclair,2,,reference-matched,8,9,https://sinclair.com
@@ -115,8 +113,6 @@ BIO:BIO-STICOL-VOLUME,Biostimulator,PLLA - poly-L-lactic acid,StiCol,StiCol Volu
 BIO:BIO-AESPLLA-365MG,Biostimulator,PLLA - poly-L-lactic acid,aesPLLA,aesPLLA (1 x 365mg),1 x 365mg,Oreon Life Science (Korea); Fox Pharma exclusive UK/EU,1,,reference-matched,9,11,https://support.foxpharma.co.uk/en-gb/what-is-aesplla
 BIO:BIO-ILLUMA-PLLA-200MG,Biostimulator,PLLA - poly-L-lactic acid,iLLUMA PLLA,iLLUMA PLLA 200 (1 x 200mg),1 x 200mg,LINKUS GLOBAL (Korea),1,,reference-matched,4,4,https://linkusglobal.kr/portfolio/illuma-plla/
 BIO:BIO-ILLUMA-PLLA-500MG,Biostimulator,PLLA - poly-L-lactic acid,iLLUMA PLLA,iLLUMA PLLA 500 (1 x 500mg),1 x 500mg,LINKUS GLOBAL (Korea),1,,reference-matched,3,3,https://linkusglobal.kr/portfolio/illuma-plla/
-BIO:BIO-ELYSIHA-EYES,Biostimulator,Topical serum PDRN/HA/collagen (not a biostimulator - move to Skincare),Elysiha,Elysiha Eyes,1 vial,Caromed Italia,1,,reference-matched,1,1,https://elysiha.com
-BIO:BIO-ELYSIHA-FACE,Biostimulator,Topical serum PDRN/HA/collagen (not a biostimulator - move to Skincare),Elysiha,Elysiha Face,1 vial,Caromed Italia,1,,reference-matched,1,1,https://elysiha.com
 CON:ANTISE-100-RESMED-DISINFECTION-SWABS,Clinic consumables & PPE,Antiseptic / skin prep / wipe,100,100 x ResMed Disinfection Swabs,,,,,,1,1,
 CON:ANTISE-ACRIFLEX-25-30G,Clinic consumables & PPE,Antiseptic / skin prep / wipe,Acriflex,"Acriflex , 0.25%, 1 x 30g",30g,,,,,1,1,
 CON:ANTISE-ALCOHOL-PRE-INJECTION-SWABS-100,Clinic consumables & PPE,Antiseptic / skin prep / wipe,Alcohol,Alcohol Pre-Injection Swabs x 100,,,,,,1,1,
@@ -3698,6 +3694,7 @@ BST:AURORA-PN-EYES,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Aurora,
 BST:BUY-PDRN-PLUS-2.2ML-X3,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Buy,3x Remedium PDRN 2.2ml x 3 Syringes – Get 1x Remedium Aqua Plus 2ml x 2 Syringes Free,3 x 2.2ml,,3,,,1,1,
 BST:BUY-PDRN-FACE-2.2ML,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Buy,3x Remedium PDRN 2.2ml x 3 syringes – Get 1x Exom-Rejuvenation Face 103 (1x5ml) Free,1 x 2.2ml,,1,,,1,1,
 BST:BUY-PDRN,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Buy,"4x Remedium PDRN, Get 1x free",,,1,,,1,1,
+BST:BUY-PDRN-LINERASE-2.2ML-X5,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Buy,Remedium PDRN 2.2ml x 3 syringes + Linerase Hydro (5x5ml) vials – Get 15% off,5 x 2.2ml,,5,,,1,1,
 BST:COSMOPRO-HIKARI-CELLULITE-SHORT-8ML-X5,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Cosmopro Hikari,Cosmopro Hikari Cellulite Meso 8ml x 5,5 x 8ml,Cosmopro,5,,,1,2,
 BST:COSMOPRO-HIKARI-CHROMA-BRIGHTENING-8ML-X5,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Cosmopro Hikari,Cosmopro Hikari Chroma Brightening Meso 8ml x 5,5 x 8ml,Cosmopro,5,,,1,1,
 BST:COSMOPRO-HIKARI-EYES-8ML-X5,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Cosmopro Hikari,Cosmopro Hikari Eyes Meso 8ml x 5,5 x 8ml,Cosmopro,5,,,1,1,
@@ -3783,6 +3780,7 @@ BST:PLENHYAGE,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Plenhyage,Pl
 BST:PLENHYAGE-XL-MEDIUM-2ML,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Plenhyage,Plenhyage XL Medium (1 x 2ml),1 x 2ml,Vivacy,1,,,10,11,
 BST:PLENHYAGE-XL-STRONG-2ML,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Plenhyage,Plenhyage XL Strong (1 x 2ml),1 x 2ml,Vivacy,1,,,10,10,
 BST:PLENHYAGE-XL-THIN-2ML,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Plenhyage,Plenhyage XL Thin 1 x 2 ml,1 x 2ml,Vivacy,1,,,4,4,
+BST:PLINEST-NEWEST-MASTELLI-LINERASE-2ML,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Plinest / Newest,2x Mastelli Plinest 1 x 2ml Inj. + 1x Linerase Hydro (5x5ml) Vials – Get 10% Off,1 x 2ml,Mastelli,1,,,1,1,
 BST:PLINEST-NEWEST-MASTELLI-NEWGYN-2ML,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Plinest / Newest,Mastelli NEWGyn 1 x 2ml,1 x 2ml,Mastelli,1,,,1,1,
 BST:PLINEST-NEWEST-MASTELLI-2ML,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Plinest / Newest,Mastelli Plinest 1 x 2ml Inj.,1 x 2ml,Mastelli,1,,,2,4,
 BST:PLINEST-NEWEST-MASTELLI-EYE-2ML,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Plinest / Newest,Mastelli Plinest Eye 1 x 2ml Inj.,1 x 2ml,Mastelli,1,,,2,2,
@@ -3877,6 +3875,7 @@ BST:ARTHREX-DRUCKER-ZENTRIFUGE,Skin booster / PN / mesotherapy,Skin booster / me
 BST:AURORA-RH-COLLAGEN-2.5ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Aurora,Aurora RH Collagen - 1 x 2.5ml,1 x 2.5ml,,1,,,2,2,
 BST:AUTENTICA-PROMOTIONAL,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Autentica,AUTENTICA Skin Booster Promotional Stock,,,1,,,1,1,
 BST:AUTENTICA-2ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Autentica,Autentica (1 x 2ml),1 x 2ml,,1,,,2,2,
+BST:BUY-LINERASE-HYDRO-5ML-X5,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Buy,Linerase Hydro (5x5ml) vials + Linerase Collagen Powder (1x100mg) vial – Get 15% off,5 x 5ml,,5,,,1,1,
 BST:CAMBRIDGE-CODE-MESOHAIR-5ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Cambridge,Cambridge Skin Code Mesohair,1 x 5ml,,1,,,1,1,
 BST:CAMBRIDGE-CODE-MESOLIFT-5ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Cambridge,Cambridge Skin Code Mesolift,1 x 5ml,,1,,,1,1,
 BST:CAMBRIDGE-CODE-MESOWHITE-5ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Cambridge,Cambridge Skin Code Mesowhite,1 x 5ml,,1,,,1,1,
@@ -3888,6 +3887,7 @@ BST:DEFINISSE-HYDROBOOSTER-1ML,Skin booster / PN / mesotherapy,Skin booster / me
 BST:DERMAFOCUS-CELORA-VITA-5ML-X2,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Dermafocus,DermaFocus Celora Vita 2 x 5ml,2 x 5ml,,2,,,1,1,
 BST:DIVES-LIPGLAM,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Dives,Dives Lipglam X,,,1,,,1,1,
 BST:DIVES-TREHFILL-2ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Dives,Dives Trehfill 2ml,1 x 2ml,,1,,,1,1,
+BST:DOUBLYX-EVO-2ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Doublyx,Doublyx Evo (1 x 2ml),1 x 2ml,,1,,,1,1,
 BST:DR-ADAMS-PHARMACY,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Dr,160,,,1,,,1,5,
 BST:DR-ADAMS-PHARMACY-1ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Dr,182,1 x 1ml,,1,,,1,1,
 BST:DR-ADAMS-PHARMACY-5ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Dr,621,1 x 5ml,,1,,,1,1,
@@ -3921,6 +3921,7 @@ BST:LEMON-BOTTLE-SKIN-BOO-3.5ML-X6,Skin booster / PN / mesotherapy,Skin booster 
 BST:LEMON-BOTTLE-SKIN-BOO-6X-3.5ML-X6,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Lemon Bottle (skin booster),Lemon Bottle Skin Booster 6x3.5ml,6 x 3.5ml,Lemon Bottle,6,,,1,1,
 BST:LEMONBOTTLE,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Lemonbottle,LEMONBOTTLE Skin Booster,,,1,,,1,1,
 BST:LIGHT-EYES-ULTRA-10ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Light,Light Eyes Ultra (1 x 10ml),1 x 10ml,,1,,,1,1,
+BST:LINERASE-HYDRO-5ML-X5,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Linerase,Linerase Hydro (5x5ml) vials,5 x 5ml,,5,,,2,3,
 BST:LORIENT-ELEMENT,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Lorient,Lorient Element,,,1,,,1,1,
 BST:LUMI-GLOW-SHEETS-X5,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Lumi,Lumi Glow x 5 Sheets,5 x,,5,,,1,1,
 BST:LUMI-GOLD-DNA-PEPTIDES-8ML-X6,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Lumi-Gold,LUMI-GOLD DNA + Peptides (6 x 8ml),6 x 8ml,,6,,,1,1,
@@ -5231,6 +5232,8 @@ SKN:E45-500ML,"Skincare, haircare & peels",Other skincare,E45,E45,500ml,,,,,1,1,
 SKN:E45-50G,"Skincare, haircare & peels",Other skincare,E45,E45,50g,,,,,1,1,
 SKN:E45-PUMP-DISPENSER-500G,"Skincare, haircare & peels",Other skincare,E45,E45 Pump Dispenser,500g,,,,,1,1,
 SKN:ELURE-STARTER,"Skincare, haircare & peels",Other skincare,Elure,Elure Starter Kit,,,,,,1,1,
+SKN:ELYSIHA-EYES,"Skincare, haircare & peels",Other skincare,Elysiha,Elysiha Eyes,,,,,,1,1,
+SKN:ELYSIHA-FACE,"Skincare, haircare & peels",Other skincare,Elysiha,Elysiha Face,,,,,,1,1,
 SKN:ENLIGHTEN-DARK-SPOT-CORRECTOR,"Skincare, haircare & peels",Other skincare,Enlighten,Enlighten Dark Spot Corrector,,,,,,1,1,
 SKN:EPICUTIS-ARCTIGENIN-BRIGHTENING-30ML,"Skincare, haircare & peels",Other skincare,Epicutis,Epicutis Arctigenin Brightening Treatment 30ml,30ml,,,,,1,1,
 SKN:EPICUTIS-BACKBAR-ARCTIGENIN-BRIGHTENING-118ML,"Skincare, haircare & peels",Other skincare,Epicutis,Epicutis Backbar Arctigenin Brightening Treatment 118ml,118ml,,,,,1,1,
