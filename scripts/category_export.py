@@ -40,28 +40,38 @@ def main():
         m["verified"] = "reference" if "reference" in p.get("verified", "") else ""
 
     wb = Workbook()
+    def name_ref(p):
+        """Where the product's NAME came from: the brand/importer reference link, else pharmacy consensus."""
+        src = (p.get("source", "") or "").strip()
+        return src if src.startswith("http") else "pharmacy consensus (no brand reference link)"
+
     # Products tab
     ps = wb.active; ps.title = "Products"
     head(ps, ["Product (as listed on site)", "Equivalence group", "Brand", "Pack size", "Verified",
-              "Pharmacies", "Listings"], [44, 26, 18, 20, 11, 11, 9])
+              "Pharmacies", "Listings", "Name reference (source used to decide the name)"], [44, 26, 18, 20, 11, 11, 9, 46])
     bysup = collections.defaultdict(set); bylist = collections.Counter()
     for m in listings:
         bysup[m["uid"]].add(m["supplier"]); bylist[m["uid"]] += 1
     for uid, p in sorted(prods.items(), key=lambda kv: (kv[1]["equivalence_group"], kv[1]["brand"], kv[1]["product"])):
+        nr = name_ref(p)
         ps.append([p["product"], p["equivalence_group"], p["brand"], p["key_spec"],
-                   "reference" if "reference" in p.get("verified", "") else "", len(bysup.get(uid, [])), bylist.get(uid, 0)])
-        fmt(ps)
+                   "reference" if "reference" in p.get("verified", "") else "", len(bysup.get(uid, [])), bylist.get(uid, 0), nr])
+        fmt(ps, 8, nr if nr.startswith("http") else None)
         if "reference" in p.get("verified", ""):
             ps.cell(row=ps.max_row, column=5).fill = PatternFill("solid", fgColor="C6EFCE")
-    ps.auto_filter.ref = f"A1:G{ps.max_row}"
+    ps.auto_filter.ref = f"A1:H{ps.max_row}"
 
     # Listings-per-product tab (grouped by product name; pharmacy + clickable link)
     ls = wb.create_sheet("Listings per product")
-    head(ls, ["Product (as listed)", "Pharmacy", "Supplier listing (click to open)", "Match confidence"], [40, 20, 60, 14])
+    head(ls, ["Product (as listed)", "Pharmacy", "Supplier listing (click to open)", "Match confidence",
+              "Name reference (source used to decide the name)"], [38, 19, 52, 13, 46])
     for m in sorted(listings, key=lambda m: (m["product"], m["supplier"])):
-        ls.append([m["product"], m["supplier"], m["listing_title"], m["confidence"]])
+        nr = name_ref(prods.get(m["uid"], {}))
+        ls.append([m["product"], m["supplier"], m["listing_title"], m["confidence"], nr])
         fmt(ls, 3, m["url"])
-    ls.auto_filter.ref = f"A1:D{ls.max_row}"
+        if nr.startswith("http"):
+            c = ls.cell(row=ls.max_row, column=5); c.hyperlink = nr; c.font = LINK
+    ls.auto_filter.ref = f"A1:E{ls.max_row}"
 
     # "For your review" tab: items the rules say must be confirmed by a human, not decided on a probability.
     def flags(p):
