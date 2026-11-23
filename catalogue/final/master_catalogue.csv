@@ -87,34 +87,34 @@ BTY:BTY-DRAGONHAWK-MAST-P60-WIRELESS-TATTOO-MACHINE,Beauty (nails/brows/lashes/P
 BTY:BTY-FLEEK-MICROBLADING-NANO-DISPOSABLE-PEN-S,Beauty (nails/brows/lashes/PMU/makeup),PMU / microblading tool,Fleek,Fleek Microblading Nano Disposable Pen – spmu – manual permanent makeup tool,,,,,,1,1,
 BTY:BTY-MICROBLADE-SPMU-10M-PRE-INKED-MAPPING,Beauty (nails/brows/lashes/PMU/makeup),PMU / microblading tool,Microblade,Microblade/SPMU 10m Pre Inked Mapping String,,,,,,1,1,
 BIO:BIO-HARMONYCA-125-LIDO-2X,Biostimulator,CaHA + HA hybrid,HArmonyCa,HArmonyCa with Lidocaine (2 x 1.25ml),2 x 1.25ml,Allergan / AbbVie,2,,reference-matched,10,11,https://www.allerganaesthetics.co.uk
-BIO:BIO-NEAUVIA-STIMULATE,Biostimulator,CaHA + HA hybrid,Neauvia,Neauvia Stimulate (1ml),1ml,Matex Lab / Neauvia,1,,reference-matched,2,3,https://neauvia.com
-BIO:BIO-NOVUMA-15,Biostimulator,CaHA - calcium hydroxylapatite,Novuma,Novuma (1.5ml),1.5ml,Burgeon (Korea) / Vivacy UK,1,,reference-matched,2,2,https://vivacy.co.uk
-BIO:BIO-RADIESSE-15ML,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse (1.5ml),1.5ml,Merz,1,,reference-matched,9,9,https://www.merzaesthetics.co.uk
-BIO:BIO-RADIESSE-3ML,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse (3ml),3ml,Merz,1,,reference-matched,2,2,https://www.merzaesthetics.co.uk
-BIO:BIO-RADIESSE-15ML-LIDO,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse with Lidocaine (1.5ml),1.5ml,Merz,1,,reference-matched,12,16,https://www.merzaesthetics.co.uk
-BIO:BIO-DOUBLYX-EVO,Biostimulator,HA skin booster (not a biostimulator),Doublyx,Doublyx Evo (2ml),2ml,Xcelens (Switzerland) / Aerazen Lab (Italy),1,,reference-matched,1,1,https://xcelens.ch/en/doublyx-evo/
+BIO:BIO-NEAUVIA-STIMULATE,Biostimulator,CaHA + HA hybrid,Neauvia,Neauvia Stimulate (1 x 1ml),1 x 1ml,Matex Lab / Neauvia,1,,reference-matched,2,3,https://neauvia.com
+BIO:BIO-NOVUMA-15,Biostimulator,CaHA - calcium hydroxylapatite,Novuma,Novuma (1 x 1.5ml),1 x 1.5ml,Burgeon (Korea) / Vivacy UK,1,,reference-matched,2,2,https://vivacy.co.uk
+BIO:BIO-RADIESSE-15ML,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse (1 x 1.5ml),1 x 1.5ml,Merz,1,,reference-matched,9,9,https://www.merzaesthetics.co.uk
+BIO:BIO-RADIESSE-3ML,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse (1 x 3ml),1 x 3ml,Merz,1,,reference-matched,2,2,https://www.merzaesthetics.co.uk
+BIO:BIO-RADIESSE-15ML-LIDO,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse with Lidocaine (1 x 1.5ml),1 x 1.5ml,Merz,1,,reference-matched,12,16,https://www.merzaesthetics.co.uk
+BIO:BIO-DOUBLYX-EVO,Biostimulator,HA skin booster (not a biostimulator),Doublyx,Doublyx Evo (1 x 2ml),1 x 2ml,Xcelens (Switzerland) / Aerazen Lab (Italy),1,,reference-matched,1,1,https://xcelens.ch/en/doublyx-evo/
 BIO:BIO-LINERASE-HYDRO-5-5X,Biostimulator,HA skin booster (not a biostimulator),Linerase Hydro,Linerase Hydro (5 x 5ml),5 x 5ml,Mastelli,5,,reference-matched,2,3,https://mastelli.com
-BIO:BIO-LINERASE-100MG,Biostimulator,Injectable collagen stimulator,Linerase,Linerase (100mg),100mg,Mastelli (equine Type I collagen),1,,reference-matched,4,4,https://mastelli.com
+BIO:BIO-LINERASE-100MG,Biostimulator,Injectable collagen stimulator,Linerase,Linerase (1 x 100mg),1 x 100mg,Mastelli (equine Type I collagen),1,,reference-matched,4,4,https://mastelli.com
 BIO:BIO-ELLANSE-M-2X,Biostimulator,PCL - polycaprolactone,Ellanse,Ellanse M (2 x 1ml),2 x 1ml,Sinclair,2,,reference-matched,7,7,https://sinclair.com
 BIO:BIO-ELLANSE-S-2X,Biostimulator,PCL - polycaprolactone,Ellanse,Ellanse S (2 x 1ml),2 x 1ml,Sinclair,2,,reference-matched,8,9,https://sinclair.com
-BIO:BIO-GOURI-1,Biostimulator,PCL - polycaprolactone,Gouri,Gouri (1ml),1ml,DEXLEVO (Korea),1,,reference-matched,8,8,https://www.dexlevo.com
-BIO:BIO-AESTHEFILL-200MG,Biostimulator,"PDLLA - poly-D,L-lactic acid (+ HA)",AestheFill,AestheFill (200mg),200mg,Regen Biotech (Korea),1,,reference-matched,2,2,https://www.tga.gov.au/resources/artg/402703
-BIO:BIO-JUVELOOK-50MG,Biostimulator,"PDLLA - poly-D,L-lactic acid (+ HA)",Juvelook,Juvelook (50mg),50mg,VAIM (Korea); Fillmed UK & Ireland,1,,reference-matched,7,9,https://uk.fillmed.com
-BIO:BIO-JUVELOOK-VOLUME,Biostimulator,"PDLLA - poly-D,L-lactic acid (+ HA)",Juvelook,Juvelook Volume (200mg),200mg,VAIM (Korea); Fillmed UK & Ireland (= Lenisna globally),1,,reference-matched,1,1,https://uk.fillmed.com
-BIO:BIO-LENISNA-200MG,Biostimulator,"PDLLA - poly-D,L-lactic acid (+ HA)",Lenisna,Lenisna (200mg),200mg,VAIM (Korea); Fillmed UK & Ireland,1,,reference-matched,5,6,https://uk.fillmed.com
-BIO:BIO-ECOLLA-365MG,Biostimulator,PLLA - poly-L-lactic acid,Ecolla,Ecolla (365mg),365mg,JETEMA (Korea),1,,reference-matched,4,4,https://www.jetema.com
-BIO:BIO-JULAINE-150MG,Biostimulator,PLLA - poly-L-lactic acid,Julaine,Julaine (150mg),150mg,Nordberg Medical (Sweden); own UK & Ireland arm,1,,reference-matched,5,5,https://www.nordbergmedical.com
-BIO:BIO-LANLUMA-VFACE,Biostimulator,PLLA - poly-L-lactic acid,Lanluma,Lanluma V (210mg),210mg,Sinclair,1,,reference-matched,7,8,https://sinclair.com
-BIO:BIO-LANLUMA-XBODY,Biostimulator,PLLA - poly-L-lactic acid,Lanluma,Lanluma X (630mg),630mg,Sinclair,1,,reference-matched,6,7,https://sinclair.com
-BIO:BIO-OLIDIA-365MG,Biostimulator,PLLA - poly-L-lactic acid,Olidia,Olidia (365mg),365mg,PRP Science (Korea),1,,reference-matched,1,1,https://olidia.kr
-BIO:BIO-PLLACELL-100MG,Biostimulator,PLLA - poly-L-lactic acid,PLLACELL,PLLACELL (100mg),100mg,Korea,1,,reference-matched,3,3,
-BIO:BIO-PINKLLA-100MG,Biostimulator,PLLA - poly-L-lactic acid,PiNkLLA,PiNkLLA (100mg),100mg,Oreon Life Science (Korea),1,,reference-matched,1,1,
+BIO:BIO-GOURI-1,Biostimulator,PCL - polycaprolactone,Gouri,Gouri (1 x 1ml),1 x 1ml,DEXLEVO (Korea),1,,reference-matched,8,8,https://www.dexlevo.com
+BIO:BIO-AESTHEFILL-200MG,Biostimulator,"PDLLA - poly-D,L-lactic acid (+ HA)",AestheFill,AestheFill (1 x 200mg),1 x 200mg,Regen Biotech (Korea),1,,reference-matched,2,2,https://www.tga.gov.au/resources/artg/402703
+BIO:BIO-JUVELOOK-50MG,Biostimulator,"PDLLA - poly-D,L-lactic acid (+ HA)",Juvelook,Juvelook (1 x 50mg),1 x 50mg,VAIM (Korea); Fillmed UK & Ireland,1,,reference-matched,7,9,https://uk.fillmed.com
+BIO:BIO-JUVELOOK-VOLUME,Biostimulator,"PDLLA - poly-D,L-lactic acid (+ HA)",Juvelook,Juvelook Volume (1 x 200mg),1 x 200mg,VAIM (Korea); Fillmed UK & Ireland (= Lenisna globally),1,,reference-matched,1,1,https://uk.fillmed.com
+BIO:BIO-LENISNA-200MG,Biostimulator,"PDLLA - poly-D,L-lactic acid (+ HA)",Lenisna,Lenisna (1 x 200mg),1 x 200mg,VAIM (Korea); Fillmed UK & Ireland,1,,reference-matched,5,6,https://uk.fillmed.com
+BIO:BIO-ECOLLA-365MG,Biostimulator,PLLA - poly-L-lactic acid,Ecolla,Ecolla (1 x 365mg),1 x 365mg,JETEMA (Korea),1,,reference-matched,4,4,https://www.jetema.com
+BIO:BIO-JULAINE-150MG,Biostimulator,PLLA - poly-L-lactic acid,Julaine,Julaine (1 x 150mg),1 x 150mg,Nordberg Medical (Sweden); own UK & Ireland arm,1,,reference-matched,5,5,https://www.nordbergmedical.com
+BIO:BIO-LANLUMA-VFACE,Biostimulator,PLLA - poly-L-lactic acid,Lanluma,Lanluma V (1 x 210mg),1 x 210mg,Sinclair,1,,reference-matched,7,8,https://sinclair.com
+BIO:BIO-LANLUMA-XBODY,Biostimulator,PLLA - poly-L-lactic acid,Lanluma,Lanluma X (1 x 630mg),1 x 630mg,Sinclair,1,,reference-matched,6,7,https://sinclair.com
+BIO:BIO-OLIDIA-365MG,Biostimulator,PLLA - poly-L-lactic acid,Olidia,Olidia (1 x 365mg),1 x 365mg,PRP Science (Korea),1,,reference-matched,1,1,https://olidia.kr
+BIO:BIO-PLLACELL-100MG,Biostimulator,PLLA - poly-L-lactic acid,PLLACELL,PLLACELL (1 x 100mg),1 x 100mg,Korea,1,,reference-matched,3,3,
+BIO:BIO-PINKLLA-100MG,Biostimulator,PLLA - poly-L-lactic acid,PiNkLLA,PiNkLLA (1 x 100mg),1 x 100mg,Oreon Life Science (Korea),1,,reference-matched,1,1,
+BIO:BIO-SCULPTRA-3675MG,Biostimulator,PLLA - poly-L-lactic acid,Sculptra,Sculptra (1 x 367.5mg),1 x 367.5mg,Galderma,1,,reference-matched,8,8,https://www.galderma.com/uk
 BIO:BIO-SCULPTRA-3675MG-2X,Biostimulator,PLLA - poly-L-lactic acid,Sculptra,Sculptra (2 x 367.5mg),2 x 367.5mg,Galderma,2,,reference-matched,12,14,https://www.galderma.com/uk
-BIO:BIO-SCULPTRA-3675MG,Biostimulator,PLLA - poly-L-lactic acid,Sculptra,Sculptra (367.5mg),367.5mg,Galderma,1,,reference-matched,8,8,https://www.galderma.com/uk
 BIO:BIO-STICOL,Biostimulator,PLLA - poly-L-lactic acid,StiCol,StiCol,1 vial,Contac Korea,1,,reference-matched,1,1,https://sticolfiller.com
-BIO:BIO-AESPLLA-365MG,Biostimulator,PLLA - poly-L-lactic acid,aesPLLA,aesPLLA (365mg),365mg,Oreon Life Science (Korea); Fox Pharma exclusive UK/EU,1,,reference-matched,9,11,https://support.foxpharma.co.uk/en-gb/what-is-aesplla
-BIO:BIO-ILLUMA-PLLA-200MG,Biostimulator,PLLA - poly-L-lactic acid,iLLUMA PLLA,iLLUMA PLLA 200 (200mg),200mg,Korea,1,,reference-matched,4,4,
-BIO:BIO-ILLUMA-PLLA-500MG,Biostimulator,PLLA - poly-L-lactic acid,iLLUMA PLLA,iLLUMA PLLA 500 (500mg),500mg,Korea,1,,reference-matched,3,3,
+BIO:BIO-AESPLLA-365MG,Biostimulator,PLLA - poly-L-lactic acid,aesPLLA,aesPLLA (1 x 365mg),1 x 365mg,Oreon Life Science (Korea); Fox Pharma exclusive UK/EU,1,,reference-matched,9,11,https://support.foxpharma.co.uk/en-gb/what-is-aesplla
+BIO:BIO-ILLUMA-PLLA-200MG,Biostimulator,PLLA - poly-L-lactic acid,iLLUMA PLLA,iLLUMA PLLA 200 (1 x 200mg),1 x 200mg,Korea,1,,reference-matched,4,4,
+BIO:BIO-ILLUMA-PLLA-500MG,Biostimulator,PLLA - poly-L-lactic acid,iLLUMA PLLA,iLLUMA PLLA 500 (1 x 500mg),1 x 500mg,Korea,1,,reference-matched,3,3,
 BIO:BIO-ELYSIHA-EYES,Biostimulator,Unconfirmed - ask the supplier,Elysiha,Elysiha Eyes,1 vial,ElysiHA (Dr. Adams),1,,reference-matched,1,1,
 BIO:BIO-ELYSIHA-FACE,Biostimulator,Unconfirmed - ask the supplier,Elysiha,Elysiha Face,1 vial,ElysiHA (Dr. Adams),1,,reference-matched,1,1,
 CON:ANTISE-100-RESMED-DISINFECTION-SWABS,Clinic consumables & PPE,Antiseptic / skin prep / wipe,100,100 x ResMed Disinfection Swabs,,,,,,1,1,

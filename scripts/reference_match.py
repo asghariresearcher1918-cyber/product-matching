@@ -141,13 +141,14 @@ def run(cfg, refnames):
         if cfg["kind"] == "biostim":
             # real commercial name = <canonical> [with Lidocaine] (<market pack>); Pack size is a separate attribute.
             strength = best.get("strength", "")
-            if strength:                                   # powder -> show the strength (mg) in the name, like the market does
-                pack_size = f"{packn} x {strength}" if packn > 1 else strength
-                mkt = pack_size                            # e.g. 'AestheFill (200mg)', not a bare 'AestheFill'
-            elif vol:                                      # gel / liquid -> volume in ml
-                pack_size = f"{packn} x {vol}ml" if packn > 1 else f"{vol}ml"
-                mkt = pack_size
-            else:
+            # rule: whenever the name carries mg or ml, prefix the unit count too, even when it is 1 (e.g. '1 x 200mg')
+            if strength:                                   # powder -> unit count x strength (mg)
+                pack_size = f"{packn} x {strength}"
+                mkt = pack_size                            # e.g. 'AestheFill (1 x 200mg)'
+            elif vol:                                      # gel / liquid -> unit count x volume (ml)
+                pack_size = f"{packn} x {vol}ml"
+                mkt = pack_size                            # e.g. 'Radiesse (1 x 1.5ml)'
+            else:                                          # no mg/ml stated -> just the vial count, no 'N x'
                 pack_size = f"{packn} vials" if packn > 1 else "1 vial"
                 mkt = (f"{packn} vials" if packn > 1 else "")
             disp = name + (" with Lidocaine" if lido else "") + (f" ({mkt})" if mkt else "")
