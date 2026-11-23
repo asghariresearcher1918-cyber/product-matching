@@ -89,9 +89,9 @@ BTY:BTY-MICROBLADE-SPMU-10M-PRE-INKED-MAPPING,Beauty (nails/brows/lashes/PMU/mak
 BIO:BIO-HARMONYCA-125-LIDO-2X,Biostimulator,CaHA + HA hybrid,HArmonyCa,HArmonyCa with Lidocaine (2 x 1.25ml),2 x 1.25ml,Allergan / AbbVie,2,,reference-matched,10,11,https://www.allerganaesthetics.co.uk
 BIO:BIO-NEAUVIA-STIMULATE,Biostimulator,CaHA + HA hybrid,Neauvia,Neauvia Stimulate (1 x 1ml),1 x 1ml,Matex Lab / Neauvia,1,,reference-matched,2,3,https://neauvia.com
 BIO:BIO-NOVUMA-15,Biostimulator,CaHA - calcium hydroxylapatite,Novuma,Novuma (1 x 1.5ml),1 x 1.5ml,Burgeon (Korea) / Vivacy UK,1,,reference-matched,2,2,https://vivacy.co.uk
-BIO:BIO-RADIESSE-15ML,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse (1 x 1.5ml),1 x 1.5ml,Merz,1,,reference-matched,9,9,https://www.merzaesthetics.co.uk
+BIO:BIO-RADIESSE-15ML,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse (1 x 1.5ml),1 x 1.5ml,Merz,1,,reference-matched,11,12,https://www.merzaesthetics.co.uk
 BIO:BIO-RADIESSE-3ML,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse (1 x 3ml),1 x 3ml,Merz,1,,reference-matched,2,2,https://www.merzaesthetics.co.uk
-BIO:BIO-RADIESSE-15ML-LIDO,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse with Lidocaine (1 x 1.5ml),1 x 1.5ml,Merz,1,,reference-matched,12,16,https://www.merzaesthetics.co.uk
+BIO:BIO-RADIESSE-15ML-LIDO,Biostimulator,CaHA - calcium hydroxylapatite,Radiesse,Radiesse with Lidocaine (1 x 1.5ml),1 x 1.5ml,Merz,1,,reference-matched,12,13,https://www.merzaesthetics.co.uk
 BIO:BIO-DOUBLYX-EVO,Biostimulator,HA skin booster (not a biostimulator),Doublyx,Doublyx Evo (1 x 2ml),1 x 2ml,Xcelens (Switzerland) / Aerazen Lab (Italy),1,,reference-matched,1,1,https://xcelens.ch/en/doublyx-evo/
 BIO:BIO-LINERASE-HYDRO-5-5X,Biostimulator,HA skin booster (not a biostimulator),Linerase Hydro,Linerase Hydro (5 x 5ml),5 x 5ml,Mastelli,5,,reference-matched,2,3,https://mastelli.com
 BIO:BIO-LINERASE-100MG,Biostimulator,Injectable collagen stimulator,Linerase,Linerase (1 x 100mg),1 x 100mg,Mastelli (equine Type I collagen),1,,reference-matched,4,4,https://mastelli.com
@@ -109,14 +109,14 @@ BIO:BIO-LANLUMA-XBODY,Biostimulator,PLLA - poly-L-lactic acid,Lanluma,Lanluma X 
 BIO:BIO-OLIDIA-365MG,Biostimulator,PLLA - poly-L-lactic acid,Olidia,Olidia (1 x 365mg),1 x 365mg,PRP Science (Korea),1,,reference-matched,1,1,https://olidia.kr
 BIO:BIO-PLLACELL-100MG,Biostimulator,PLLA - poly-L-lactic acid,PLLACELL,PLLACELL (1 x 100mg),1 x 100mg,Korea,1,,reference-matched,3,3,
 BIO:BIO-PINKLLA-100MG,Biostimulator,PLLA - poly-L-lactic acid,PiNkLLA,PiNkLLA (1 x 100mg),1 x 100mg,Oreon Life Science (Korea),1,,reference-matched,1,1,
-BIO:BIO-SCULPTRA-3675MG,Biostimulator,PLLA - poly-L-lactic acid,Sculptra,Sculptra (1 x 367.5mg),1 x 367.5mg,Galderma,1,,reference-matched,8,8,https://www.galderma.com/uk
-BIO:BIO-SCULPTRA-3675MG-2X,Biostimulator,PLLA - poly-L-lactic acid,Sculptra,Sculptra (2 x 367.5mg),2 x 367.5mg,Galderma,2,,reference-matched,12,14,https://www.galderma.com/uk
-BIO:BIO-STICOL,Biostimulator,PLLA - poly-L-lactic acid,StiCol,StiCol,1 vial,Contac Korea,1,,reference-matched,1,1,https://sticolfiller.com
+BIO:BIO-SCULPTRA-3675MG,Biostimulator,PLLA - poly-L-lactic acid,Sculptra,Sculptra (1 x 367.5mg),1 x 367.5mg,Galderma,1,,reference-matched,6,6,https://www.galderma.com/uk
+BIO:BIO-SCULPTRA-3675MG-2X,Biostimulator,PLLA - poly-L-lactic acid,Sculptra,Sculptra (2 x 367.5mg),2 x 367.5mg,Galderma,2,,reference-matched,14,16,https://www.galderma.com/uk
+BIO:BIO-STICOL-VOLUME,Biostimulator,PLLA - poly-L-lactic acid,StiCol,StiCol Volume (1 x 365mg),1 x 365mg,Contac Korea,1,,reference-matched,1,1,https://sticolfiller.com
 BIO:BIO-AESPLLA-365MG,Biostimulator,PLLA - poly-L-lactic acid,aesPLLA,aesPLLA (1 x 365mg),1 x 365mg,Oreon Life Science (Korea); Fox Pharma exclusive UK/EU,1,,reference-matched,9,11,https://support.foxpharma.co.uk/en-gb/what-is-aesplla
-BIO:BIO-ILLUMA-PLLA-200MG,Biostimulator,PLLA - poly-L-lactic acid,iLLUMA PLLA,iLLUMA PLLA 200 (1 x 200mg),1 x 200mg,Korea,1,,reference-matched,4,4,
-BIO:BIO-ILLUMA-PLLA-500MG,Biostimulator,PLLA - poly-L-lactic acid,iLLUMA PLLA,iLLUMA PLLA 500 (1 x 500mg),1 x 500mg,Korea,1,,reference-matched,3,3,
-BIO:BIO-ELYSIHA-EYES,Biostimulator,Unconfirmed - ask the supplier,Elysiha,Elysiha Eyes,1 vial,ElysiHA (Dr. Adams),1,,reference-matched,1,1,
-BIO:BIO-ELYSIHA-FACE,Biostimulator,Unconfirmed - ask the supplier,Elysiha,Elysiha Face,1 vial,ElysiHA (Dr. Adams),1,,reference-matched,1,1,
+BIO:BIO-ILLUMA-PLLA-200MG,Biostimulator,PLLA - poly-L-lactic acid,iLLUMA PLLA,iLLUMA PLLA 200 (1 x 200mg),1 x 200mg,LINKUS GLOBAL (Korea),1,,reference-matched,4,4,https://linkusglobal.kr/portfolio/illuma-plla/
+BIO:BIO-ILLUMA-PLLA-500MG,Biostimulator,PLLA - poly-L-lactic acid,iLLUMA PLLA,iLLUMA PLLA 500 (1 x 500mg),1 x 500mg,LINKUS GLOBAL (Korea),1,,reference-matched,3,3,https://linkusglobal.kr/portfolio/illuma-plla/
+BIO:BIO-ELYSIHA-EYES,Biostimulator,Topical serum PDRN/HA/collagen (not a biostimulator - move to Skincare),Elysiha,Elysiha Eyes,1 vial,Caromed Italia,1,,reference-matched,1,1,https://elysiha.com
+BIO:BIO-ELYSIHA-FACE,Biostimulator,Topical serum PDRN/HA/collagen (not a biostimulator - move to Skincare),Elysiha,Elysiha Face,1 vial,Caromed Italia,1,,reference-matched,1,1,https://elysiha.com
 CON:ANTISE-100-RESMED-DISINFECTION-SWABS,Clinic consumables & PPE,Antiseptic / skin prep / wipe,100,100 x ResMed Disinfection Swabs,,,,,,1,1,
 CON:ANTISE-ACRIFLEX-25-30G,Clinic consumables & PPE,Antiseptic / skin prep / wipe,Acriflex,"Acriflex , 0.25%, 1 x 30g",30g,,,,,1,1,
 CON:ANTISE-ALCOHOL-PRE-INJECTION-SWABS-100,Clinic consumables & PPE,Antiseptic / skin prep / wipe,Alcohol,Alcohol Pre-Injection Swabs x 100,,,,,,1,1,
@@ -987,13 +987,12 @@ FIL:FILLER-BELOTERO-UNSPECIFIED-LIDO,Dermal filler,Belotero,Belotero,Belotero (u
 FIL:FILLER-BELOTERO-BALANCE,Dermal filler,Belotero,Belotero,Belotero Balance (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,4,5,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-BALANCE-LIDO,Dermal filler,Belotero,Belotero,Belotero Balance with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,11,13,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-BALANCE-LIDO-10X,Dermal filler,Belotero,Belotero,Belotero Balance with lidocaine (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Merz,10,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-INTENSE,Dermal filler,Belotero,Belotero,Belotero Intense (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,3,4,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-INTENSE-LIDO,Dermal filler,Belotero,Belotero,Belotero Intense with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,12,16,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-INTENSE,Dermal filler,Belotero,Belotero,Belotero Intense (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,4,5,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-INTENSE-LIDO,Dermal filler,Belotero,Belotero,Belotero Intense with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,12,15,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO,Dermal filler,Belotero,Belotero,Belotero Lips Contour (1 x 0.6ml with lidocaine),1 x 0.6ml with lidocaine,Merz,1,,reference-matched,10,11,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO-2X,Dermal filler,Belotero,Belotero,Belotero Lips Contour (2 x 0.6ml with lidocaine),2 x 0.6ml with lidocaine,Merz,2,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-LIPSSHAPE-LIDO,Dermal filler,Belotero,Belotero,Belotero Lips Shape (1 x 0.6ml with lidocaine),1 x 0.6ml with lidocaine,Merz,1,,reference-matched,11,12,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-REVIVE,Dermal filler,Belotero,Belotero,Belotero Revive (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,8,9,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-REVIVE-LIDO,Dermal filler,Belotero,Belotero,Belotero Revive with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-REVIVE,Dermal filler,Belotero,Belotero,Belotero Revive (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,9,10,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-SOFT,Dermal filler,Belotero,Belotero,Belotero Soft (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,3,4,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-SOFT-LIDO,Dermal filler,Belotero,Belotero,Belotero Soft with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,12,14,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-VOLUME-2X,Dermal filler,Belotero,Belotero,Belotero Volume (2 x 1ml),2 x 1ml,Merz,2,,reference-matched,6,7,https://merz-aesthetics.co.uk/belotero/
@@ -1523,8 +1522,9 @@ FIL:STARFILL-DEEPPLUS1-11ML-1X,Dermal filler,Starfill Deep Plus 1,Starfill,Starf
 FIL:STARFILL-IMPLANTPLUS-11ML-LIDO-1X,Dermal filler,Starfill Implant Plus,Starfill,StarFill Implant Plus Lidocaine (1 x 1.1ml),1 x 1.1ml with lidocaine,not named,1,,brand page only,3,3,supplier page
 FIL:STARFILL-IMPLANTPLUS1-11ML-1X,Dermal filler,Starfill Implant Plus 1,Starfill,Starfill implant plus (1×1.1ml),1 x 1.1ml,not named,1,,brand page only,1,1,supplier page
 FIL:STARFILL-PLUS-11ML-LIDO-1X,Dermal filler,Starfill Plus,Starfill,Starfill Plus Lidocaine 1 x 1.1ml,1 x 1.1ml with lidocaine,not named,1,,brand page only,4,4,supplier page
+FIL:FILLER-STYLAGE-UNSPECIFIED-2X,Dermal filler,Stylage,Stylage,Stylage (unspecified) (2 x 1ml),2 x 1ml,Vivacy,2,,reference-matched,1,3,https://www.vivacy.com
 FIL:FILLER-STYLAGE-UNSPECIFIED-LIDO,Dermal filler,Stylage,Stylage,Stylage (unspecified) with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Vivacy,1,,reference-matched,1,3,https://www.vivacy.com
-FIL:FILLER-STYLAGE-UNSPECIFIED-LIDO-2X,Dermal filler,Stylage,Stylage,Stylage (unspecified) with lidocaine (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Vivacy,2,,reference-matched,3,12,https://www.vivacy.com
+FIL:FILLER-STYLAGE-UNSPECIFIED-LIDO-2X,Dermal filler,Stylage,Stylage,Stylage (unspecified) with lidocaine (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Vivacy,2,,reference-matched,3,9,https://www.vivacy.com
 FIL:FILLER-STYLAGE-HYDRO,Dermal filler,Stylage,Stylage,Stylage Hydro (1 x 1ml),1 x 1ml,Vivacy,1,,reference-matched,13,17,https://www.vivacy.com
 FIL:FILLER-STYLAGE-HYDRO-2X,Dermal filler,Stylage,Stylage,Stylage Hydro (2 x 1ml),2 x 1ml,Vivacy,2,,reference-matched,4,4,https://www.vivacy.com
 FIL:FILLER-STYLAGE-HYDROMAX,Dermal filler,Stylage,Stylage,Stylage HydroMax (1 x 1ml),1 x 1ml,Vivacy,1,,reference-matched,6,6,https://www.vivacy.com
@@ -3288,8 +3288,7 @@ BST:NEAUVIA-HYDRO-DELUXE-ORGANIC-2.5ML-X2,Skin booster / PN / mesotherapy,HA bio
 BST:BST-PROFHILO-BODY,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Body (1 x 3ml),1 x 3ml,IBSA,1,,reference-matched,1,1,
 BST:BST-PROFHILO-BODYKIT-2X,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Body Kit (2 x 3ml),2 x 3ml,IBSA,2,,reference-matched,13,14,
 BST:BST-PROFHILO-HL,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo H+L (1 x 2ml),1 x 2ml,IBSA,1,,reference-matched,19,28,
-BST:BST-PROFHILO-STRUCTURA,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Structura (1 x 2ml),1 x 2ml,IBSA,1,,reference-matched,18,19,
-BST:BST-PROFHILO-STRUCTURA-2X,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Structura (2 x 2ml),2 x 2ml,IBSA,2,,reference-matched,1,1,
+BST:BST-PROFHILO-STRUCTURA,Skin booster / PN / mesotherapy,HA bio-remodelling,Profhilo,Profhilo Structura (1 x 2ml),1 x 2ml,IBSA,1,,reference-matched,19,20,
 BST:REVITRANE-HA-10-1ML,Skin booster / PN / mesotherapy,HA bio-remodelling,Revitrane,Revitrane HA 10 Premium (1x1ml),1 x 1ml,Revitrane,1,,,3,5,
 BST:REVITRANE-HA10-CLASSIC,Skin booster / PN / mesotherapy,HA bio-remodelling,Revitrane,Revitrane HA10 Classic,,Revitrane,1,,,2,2,
 BST:REVITRANE-HA10-VOLUME,Skin booster / PN / mesotherapy,HA bio-remodelling,Revitrane,Revitrane HA10 Volume,,Revitrane,1,,,1,1,
@@ -6367,10 +6366,10 @@ SUP:SUP-ALTRIENT-LIPOSOMAL-GLUTATHIONE-450MG-450MG,Supplements,Vitamin C (oral/l
 SUP:SUP-ALTRIENT-LIPOSOMAL-MAGNESIUM-LTHREONATE,Supplements,Vitamin C (oral/liposomal),altrient,Altrient Liposomal Magnesium Lthreonate,,,,,,1,1,
 SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-MINERAL-COMPLEX-138MG,Supplements,Vitamin C (oral/liposomal),altrient,Altrient Liposomal Vitamin B And Mineral Complex 138mg,138mg,,,,,1,1,
 SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-1000MG-1000MG,Supplements,Vitamin C (oral/liposomal),altrient,Altrient Liposomal Vitamin C 1000mg,1000mg,,,,,1,1,
-TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Toxin,Botulinum toxin type A,Alluzience,Alluzience 125 Speywood units (1 x 0.625ml vial),1 x 0.625ml vial,Galderma,1,,reference-matched,8,10,https://www.medicines.org.uk/emc/search?q=alluzience
-TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Toxin,Botulinum toxin type A,Alluzience,Alluzience 125 Speywood units (2 x 0.625ml vials),2 x 0.625ml vials,Galderma,2,,reference-matched,7,7,https://www.medicines.org.uk/emc/search?q=alluzience
-TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,Botulinum toxin type A,Azzalure,Azzalure 125 Speywood units (1 vial),1 vial,Galderma,1,,reference-matched,10,14,https://www.medicines.org.uk/emc/search?q=azzalure
-TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Toxin,Botulinum toxin type A,Azzalure,Azzalure 125 Speywood units (2 vials),2 vials,Galderma,2,,reference-matched,8,8,https://www.medicines.org.uk/emc/search?q=azzalure
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Toxin,Botulinum toxin type A,Alluzience,Alluzience 125 Speywood units (1 x 0.625ml vial),1 x 0.625ml vial,Galderma,1,,reference-matched,7,8,https://www.medicines.org.uk/emc/search?q=alluzience
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Toxin,Botulinum toxin type A,Alluzience,Alluzience 125 Speywood units (2 x 0.625ml vials),2 x 0.625ml vials,Galderma,2,,reference-matched,9,9,https://www.medicines.org.uk/emc/search?q=alluzience
+TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,Botulinum toxin type A,Azzalure,Azzalure 125 Speywood units (1 vial),1 vial,Galderma,1,,reference-matched,10,11,https://www.medicines.org.uk/emc/search?q=azzalure
+TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Toxin,Botulinum toxin type A,Azzalure,Azzalure 125 Speywood units (2 vials),2 vials,Galderma,2,,reference-matched,11,11,https://www.medicines.org.uk/emc/search?q=azzalure
 TOX:TOX-BOCOUTURE-100UNITS,Toxin,Botulinum toxin type A,Bocouture,Bocouture 100 units (1 vial),1 vial,Merz,1,,reference-matched,11,13,https://www.medicines.org.uk/emc/search?q=bocouture
 TOX:TOX-BOCOUTURE-100UNITS-2X,Toxin,Botulinum toxin type A,Bocouture,Bocouture 100 units (2 vials),2 vials,Merz,2,,reference-matched,2,2,https://www.medicines.org.uk/emc/search?q=bocouture
 TOX:TOX-BOCOUTURE-50UNITS,Toxin,Botulinum toxin type A,Bocouture,Bocouture 50 units (1 vial),1 vial,Merz,1,,reference-matched,11,13,https://www.medicines.org.uk/emc/search?q=bocouture

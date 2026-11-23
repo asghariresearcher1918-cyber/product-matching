@@ -18,6 +18,7 @@ GRP = {
     "PCL": "PCL - polycaprolactone",
     "collagen": "Injectable collagen stimulator",
     "HA booster": "HA skin booster (not a biostimulator)",
+    "topical": "Topical serum PDRN/HA/collagen (not a biostimulator - move to Skincare)",
     "unknown": "Unconfirmed - ask the supplier",
 }
 
@@ -48,11 +49,12 @@ add("aesPLLA", "aesPLLA", "", "PLLA", "Oreon Life Science (Korea); Fox Pharma ex
 add("Ecolla", "Ecolla", "", "PLLA", "JETEMA (Korea)", "365mg", "1 vial", [], "https://www.jetema.com", default="yes")
 add("PLLACELL", "PLLACELL", "", "PLLA", "Korea", "100mg", "1 vial", ["pllacell"], "", default="yes")
 add("Julaine", "Julaine", "", "PLLA", "Nordberg Medical (Sweden); own UK & Ireland arm", "150mg", "1 vial", [], "https://www.nordbergmedical.com", default="yes")
-add("StiCol", "StiCol", "", "PLLA", "Contac Korea", "", "1 vial", ["sticol"], "https://sticolfiller.com", default="yes")
+add("StiCol", "StiCol Volume", "Volume", "PLLA", "Contac Korea", "365mg", "1 vial", ["sticol", "volume"], "https://sticolfiller.com", default="yes")
 add("Olidia", "Olidia", "", "PLLA", "PRP Science (Korea)", "365mg", "1 vial", [], "https://olidia.kr", default="yes")
-add("iLLUMA PLLA", "iLLUMA PLLA 200", "200mg", "PLLA", "Korea", "200mg", "1 vial",
-    ["200", "illuma plla 200"], "", default="yes")
-add("iLLUMA PLLA", "iLLUMA PLLA 500", "500mg", "PLLA", "Korea", "500mg", "1 vial", ["500", "illuma plla 500"], "")
+add("iLLUMA PLLA", "iLLUMA PLLA 200", "200mg", "PLLA", "LINKUS GLOBAL (Korea)", "200mg", "1 vial",
+    ["200", "illuma plla 200"], "https://linkusglobal.kr/portfolio/illuma-plla/", default="yes")
+add("iLLUMA PLLA", "iLLUMA PLLA 500", "500mg", "PLLA", "LINKUS GLOBAL (Korea)", "500mg", "1 vial",
+    ["500", "illuma plla 500"], "https://linkusglobal.kr/portfolio/illuma-plla/")
 add("PiNkLLA", "PiNkLLA", "", "PLLA", "Oreon Life Science (Korea)", "100mg", "1 vial", ["pinklla"], "", default="yes")
 # ---- PDLLA (+ HA) powders ---------------------------------------------------
 add("AestheFill", "AestheFill", "", "PDLLA", "Regen Biotech (Korea)", "200mg", "1 vial",
@@ -83,8 +85,8 @@ add("Linerase Hydro", "Linerase Hydro", "", "HA booster", "Mastelli", "", "5 x 5
 add("Doublyx", "Doublyx Evo", "Evo", "HA booster", "Xcelens (Switzerland) / Aerazen Lab (Italy)", "", "1 x 2ml",
     ["doublyx"], "https://xcelens.ch/en/doublyx-evo/", default="yes")
 # ---- agent not stated -> flagged for your review ----------------------------
-add("Elysiha", "Elysiha Face", "Face", "unknown", "ElysiHA (Dr. Adams)", "", "1 vial", ["face"], "", default="yes")
-add("Elysiha", "Elysiha Eyes", "Eyes", "unknown", "ElysiHA (Dr. Adams)", "", "1 vial", ["eyes"], "")
+add("Elysiha", "Elysiha Face", "Face", "topical", "Caromed Italia", "", "1 vial", ["face"], "https://elysiha.com", default="yes")
+add("Elysiha", "Elysiha Eyes", "Eyes", "topical", "Caromed Italia", "", "1 vial", ["eyes"], "https://elysiha.com")
 
 out = ROOT / "data/reference/biostim.csv"
 with open(out, "w", newline="", encoding="utf-8") as f:

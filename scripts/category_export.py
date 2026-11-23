@@ -40,20 +40,24 @@ def main():
         m["verified"] = "reference" if "reference" in p.get("verified", "") else ""
 
     wb = Workbook()
-    def name_ref(p):
-        """Where the product's NAME came from: the brand/importer reference link, else pharmacy consensus."""
+    bysup = collections.defaultdict(set); bylist = collections.Counter()
+    for m in listings:
+        bysup[m["uid"]].add(m["supplier"]); bylist[m["uid"]] += 1
+
+    def name_ref(p, uid):
+        """Where the product's NAME came from: the brand/importer reference link, else the pharmacy(s) it was taken from."""
         src = (p.get("source", "") or "").strip()
-        return src if src.startswith("http") else "pharmacy consensus (no brand reference link)"
+        if src.startswith("http"):
+            return src
+        sups = sorted(bysup.get(uid, []))
+        return ("pharmacy consensus: " + ", ".join(sups)) if sups else "pharmacy consensus (no brand reference)"
 
     # Products tab
     ps = wb.active; ps.title = "Products"
     head(ps, ["Product (as listed on site)", "Equivalence group", "Brand", "Pack size", "Verified",
               "Pharmacies", "Listings", "Name reference (source used to decide the name)"], [44, 26, 18, 20, 11, 11, 9, 46])
-    bysup = collections.defaultdict(set); bylist = collections.Counter()
-    for m in listings:
-        bysup[m["uid"]].add(m["supplier"]); bylist[m["uid"]] += 1
     for uid, p in sorted(prods.items(), key=lambda kv: (kv[1]["equivalence_group"], kv[1]["brand"], kv[1]["product"])):
-        nr = name_ref(p)
+        nr = name_ref(p, uid)
         ps.append([p["product"], p["equivalence_group"], p["brand"], p["key_spec"],
                    "reference" if "reference" in p.get("verified", "") else "", len(bysup.get(uid, [])), bylist.get(uid, 0), nr])
         fmt(ps, 8, nr if nr.startswith("http") else None)
@@ -66,7 +70,7 @@ def main():
     head(ls, ["Product (as listed)", "Pharmacy", "Supplier listing (click to open)", "Match confidence",
               "Name reference (source used to decide the name)"], [38, 19, 52, 13, 46])
     for m in sorted(listings, key=lambda m: (m["product"], m["supplier"])):
-        nr = name_ref(prods.get(m["uid"], {}))
+        nr = name_ref(prods.get(m["uid"], {}), m["uid"])
         ls.append([m["product"], m["supplier"], m["listing_title"], m["confidence"], nr])
         fmt(ls, 3, m["url"])
         if nr.startswith("http"):

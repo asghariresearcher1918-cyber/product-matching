@@ -60,13 +60,12 @@ FILLER-BELOTERO-UNSPECIFIED-LIDO,Belotero,(unspecified),Belotero,Merz,yes,1,yes,
 FILLER-BELOTERO-BALANCE,Belotero,Balance,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),4,5,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-BALANCE-LIDO,Belotero,Balance,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),11,13,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-BALANCE-LIDO-10X,Belotero,Balance,Belotero,Merz,yes,1,yes,10,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-INTENSE,Belotero,Intense,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),3,4,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-INTENSE-LIDO,Belotero,Intense,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),12,16,https://merz-aesthetics.co.uk/belotero/
+FILLER-BELOTERO-INTENSE,Belotero,Intense,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),4,5,https://merz-aesthetics.co.uk/belotero/
+FILLER-BELOTERO-INTENSE-LIDO,Belotero,Intense,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),12,15,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-LIPSCONTOUR-LIDO,Belotero,Lips Contour,Belotero,Merz,yes,0.6,yes,1,UK/std,yes (reference),10,11,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-LIPSCONTOUR-LIDO-2X,Belotero,Lips Contour,Belotero,Merz,yes,0.6,yes,2,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-LIPSSHAPE-LIDO,Belotero,Lips Shape,Belotero,Merz,yes,0.6,yes,1,UK/std,yes (reference),11,12,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-REVIVE,Belotero,Revive,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),8,9,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-REVIVE-LIDO,Belotero,Revive,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
+FILLER-BELOTERO-REVIVE,Belotero,Revive,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),9,10,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-SOFT,Belotero,Soft,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),3,4,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-SOFT-LIDO,Belotero,Soft,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),12,14,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-VOLUME-2X,Belotero,Volume,Belotero,Merz,yes,1,no,2,UK/std,yes (reference),6,7,https://merz-aesthetics.co.uk/belotero/
@@ -618,8 +617,9 @@ STARFILL-DEEPPLUS1-11ML-1X,Starfill,Deep Plus 1,Starfill Deep Plus 1,not named,y
 STARFILL-IMPLANTPLUS-11ML-LIDO-1X,Starfill,Implant Plus,Starfill Implant Plus,not named,yes,1.1,yes,1,UK/std,brand page only,3,3,supplier page
 STARFILL-IMPLANTPLUS1-11ML-1X,Starfill,Implant Plus 1,Starfill Implant Plus 1,not named,yes,1.1,no,1,UK/std,brand page only,1,1,supplier page
 STARFILL-PLUS-11ML-LIDO-1X,Starfill,Plus,Starfill Plus,not named,yes,1.1,yes,1,UK/std,brand page only,4,4,supplier page
+FILLER-STYLAGE-UNSPECIFIED-2X,Stylage,(unspecified),Stylage,Vivacy,yes,1,no,2,UK/std,yes (reference),1,3,https://www.vivacy.com
 FILLER-STYLAGE-UNSPECIFIED-LIDO,Stylage,(unspecified),Stylage,Vivacy,yes,1,yes,1,UK/std,yes (reference),1,3,https://www.vivacy.com
-FILLER-STYLAGE-UNSPECIFIED-LIDO-2X,Stylage,(unspecified),Stylage,Vivacy,yes,1,yes,2,UK/std,yes (reference),3,12,https://www.vivacy.com
+FILLER-STYLAGE-UNSPECIFIED-LIDO-2X,Stylage,(unspecified),Stylage,Vivacy,yes,1,yes,2,UK/std,yes (reference),3,9,https://www.vivacy.com
 FILLER-STYLAGE-HYDRO,Stylage,Hydro,Stylage,Vivacy,yes,1,no,1,UK/std,yes (reference),13,17,https://www.vivacy.com
 FILLER-STYLAGE-HYDRO-2X,Stylage,Hydro,Stylage,Vivacy,yes,1,no,2,UK/std,yes (reference),4,4,https://www.vivacy.com
 FILLER-STYLAGE-HYDROMAX,Stylage,HydroMax,Stylage,Vivacy,yes,1,no,1,UK/std,yes (reference),6,6,https://www.vivacy.com

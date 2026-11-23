@@ -2,8 +2,8 @@ code,brand,variant,active_agent,equivalence_group,manufacturer,strength,volume_m
 BIO-HARMONYCA-125-LIDO-2X,HArmonyCa,,CaHA+HA,CaHA + HA hybrid,Allergan / AbbVie,,1.25,2,2 x 1.25ml,yes,yes (reference),10,11,CaHA + HA hybrid,https://www.allerganaesthetics.co.uk
 BIO-NEAUVIA-STIMULATE,Neauvia,Stimulate,CaHA+HA,CaHA + HA hybrid,Matex Lab / Neauvia,,1,1,1 x 1ml,no,yes (reference),2,3,CaHA + HA hybrid,https://neauvia.com
 BIO-NOVUMA-15,Novuma,,CaHA,CaHA - calcium hydroxylapatite,Burgeon (Korea) / Vivacy UK,,1.5,1,1 x 1.5ml,no,yes (reference),2,2,CaHA - calcium hydroxylapatite,https://vivacy.co.uk
-BIO-RADIESSE-15ML,Radiesse,1.5ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,1.5,1,1 x 1.5ml,no,yes (reference),9,9,CaHA - calcium hydroxylapatite,https://www.merzaesthetics.co.uk
-BIO-RADIESSE-15ML-LIDO,Radiesse,1.5ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,1.5,1,1 x 1.5ml,yes,yes (reference),12,16,CaHA - calcium hydroxylapatite,https://www.merzaesthetics.co.uk
+BIO-RADIESSE-15ML,Radiesse,1.5ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,1.5,1,1 x 1.5ml,no,yes (reference),11,12,CaHA - calcium hydroxylapatite,https://www.merzaesthetics.co.uk
+BIO-RADIESSE-15ML-LIDO,Radiesse,1.5ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,1.5,1,1 x 1.5ml,yes,yes (reference),12,13,CaHA - calcium hydroxylapatite,https://www.merzaesthetics.co.uk
 BIO-RADIESSE-3ML,Radiesse,3ml,CaHA,CaHA - calcium hydroxylapatite,Merz,,3,1,1 x 3ml,no,yes (reference),2,2,CaHA - calcium hydroxylapatite,https://www.merzaesthetics.co.uk
 BIO-DOUBLYX-EVO,Doublyx,Evo,HA booster,HA skin booster (not a biostimulator),Xcelens (Switzerland) / Aerazen Lab (Italy),,2,1,1 x 2ml,no,yes (reference),1,1,HA skin booster (not a biostimulator),https://xcelens.ch/en/doublyx-evo/
 BIO-LINERASE-HYDRO-5-5X,Linerase Hydro,,HA booster,HA skin booster (not a biostimulator),Mastelli,,5,5,5 x 5ml,no,yes (reference),2,3,HA skin booster (not a biostimulator),https://mastelli.com
@@ -22,11 +22,11 @@ BIO-LANLUMA-XBODY,Lanluma,X (body),PLLA,PLLA - poly-L-lactic acid,Sinclair,630mg
 BIO-OLIDIA-365MG,Olidia,,PLLA,PLLA - poly-L-lactic acid,PRP Science (Korea),365mg,,1,1 x 365mg,no,yes (reference),1,1,PLLA - poly-L-lactic acid,https://olidia.kr
 BIO-PLLACELL-100MG,PLLACELL,,PLLA,PLLA - poly-L-lactic acid,Korea,100mg,,1,1 x 100mg,no,yes (reference),3,3,PLLA - poly-L-lactic acid,
 BIO-PINKLLA-100MG,PiNkLLA,,PLLA,PLLA - poly-L-lactic acid,Oreon Life Science (Korea),100mg,,1,1 x 100mg,no,yes (reference),1,1,PLLA - poly-L-lactic acid,
-BIO-SCULPTRA-3675MG,Sculptra,,PLLA,PLLA - poly-L-lactic acid,Galderma,367.5mg,,1,1 x 367.5mg,no,yes (reference),8,8,PLLA - poly-L-lactic acid,https://www.galderma.com/uk
-BIO-SCULPTRA-3675MG-2X,Sculptra,,PLLA,PLLA - poly-L-lactic acid,Galderma,367.5mg,,2,2 x 367.5mg,no,yes (reference),12,14,PLLA - poly-L-lactic acid,https://www.galderma.com/uk
-BIO-STICOL,StiCol,,PLLA,PLLA - poly-L-lactic acid,Contac Korea,,,1,1 vial,no,yes (reference),1,1,PLLA - poly-L-lactic acid,https://sticolfiller.com
+BIO-SCULPTRA-3675MG,Sculptra,,PLLA,PLLA - poly-L-lactic acid,Galderma,367.5mg,,1,1 x 367.5mg,no,yes (reference),6,6,PLLA - poly-L-lactic acid,https://www.galderma.com/uk
+BIO-SCULPTRA-3675MG-2X,Sculptra,,PLLA,PLLA - poly-L-lactic acid,Galderma,367.5mg,,2,2 x 367.5mg,no,yes (reference),14,16,PLLA - poly-L-lactic acid,https://www.galderma.com/uk
+BIO-STICOL-VOLUME,StiCol,Volume,PLLA,PLLA - poly-L-lactic acid,Contac Korea,365mg,,1,1 x 365mg,no,yes (reference),1,1,PLLA - poly-L-lactic acid,https://sticolfiller.com
 BIO-AESPLLA-365MG,aesPLLA,,PLLA,PLLA - poly-L-lactic acid,Oreon Life Science (Korea); Fox Pharma exclusive UK/EU,365mg,,1,1 x 365mg,no,yes (reference),9,11,PLLA - poly-L-lactic acid,https://support.foxpharma.co.uk/en-gb/what-is-aesplla
-BIO-ILLUMA-PLLA-200MG,iLLUMA PLLA,200mg,PLLA,PLLA - poly-L-lactic acid,Korea,200mg,,1,1 x 200mg,no,yes (reference),4,4,PLLA - poly-L-lactic acid,
-BIO-ILLUMA-PLLA-500MG,iLLUMA PLLA,500mg,PLLA,PLLA - poly-L-lactic acid,Korea,500mg,,1,1 x 500mg,no,yes (reference),3,3,PLLA - poly-L-lactic acid,
-BIO-ELYSIHA-EYES,Elysiha,Eyes,unknown,Unconfirmed - ask the supplier,ElysiHA (Dr. Adams),,,1,1 vial,no,confirm with supplier,1,1,Unconfirmed - ask the supplier,
-BIO-ELYSIHA-FACE,Elysiha,Face,unknown,Unconfirmed - ask the supplier,ElysiHA (Dr. Adams),,,1,1 vial,no,confirm with supplier,1,1,Unconfirmed - ask the supplier,
+BIO-ILLUMA-PLLA-200MG,iLLUMA PLLA,200mg,PLLA,PLLA - poly-L-lactic acid,LINKUS GLOBAL (Korea),200mg,,1,1 x 200mg,no,yes (reference),4,4,PLLA - poly-L-lactic acid,https://linkusglobal.kr/portfolio/illuma-plla/
+BIO-ILLUMA-PLLA-500MG,iLLUMA PLLA,500mg,PLLA,PLLA - poly-L-lactic acid,LINKUS GLOBAL (Korea),500mg,,1,1 x 500mg,no,yes (reference),3,3,PLLA - poly-L-lactic acid,https://linkusglobal.kr/portfolio/illuma-plla/
+BIO-ELYSIHA-EYES,Elysiha,Eyes,topical,Topical serum PDRN/HA/collagen (not a biostimulator - move to Skincare),Caromed Italia,,,1,1 vial,no,yes (reference),1,1,Topical serum PDRN/HA/collagen (not a biostimulator - move to Skincare),https://elysiha.com
+BIO-ELYSIHA-FACE,Elysiha,Face,topical,Topical serum PDRN/HA/collagen (not a biostimulator - move to Skincare),Caromed Italia,,,1,1 vial,no,yes (reference),1,1,Topical serum PDRN/HA/collagen (not a biostimulator - move to Skincare),https://elysiha.com

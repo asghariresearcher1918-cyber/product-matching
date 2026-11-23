@@ -87,7 +87,7 @@ TOX:TOX-BOCOUTURE-50UNITS,Toxin,Smile Pharma,Bocouture 50iu (1 Vials),https://sm
 TOX:TOX-BOCOUTURE-100UNITS,Toxin,Smile Pharma,Bocouture 100iu x (1 Vials),https://smilepharma.co.uk/product/bocouture-100iu-x-1-vials/,high
 TOX:TOX-LETYBO-50UNITS,Toxin,Smile Pharma,Letybo 50iu Botulinum Toxin Type A,https://smilepharma.co.uk/product/letybo-50iu-botulinum-toxin-type-a/,rule
 TOX:TOX-RELFYDESS-150UNITS,Toxin,Smile Pharma,Relfydess Solution For Injection - 100 Units/ml (1 x 1.5ml),https://smilepharma.co.uk/product/relfydess-toxin-1-x-1-5-ml/,high
-TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,Smile Pharma,Azzalure 125iu (TWIN PACK),https://smilepharma.co.uk/product/azzalure-125iu-twin-pack-2/,high
+TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Toxin,Smile Pharma,Azzalure 125iu (TWIN PACK),https://smilepharma.co.uk/product/azzalure-125iu-twin-pack-2/,high
 TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Toxin,Smile Pharma,Alluzience 125iu (SINGLE PACK 1 Vial ),https://smilepharma.co.uk/product/alluzience-125iu-1-vial-single-pack/,high
 TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,Smile Pharma,Azzalure 125iu (SINGLE VIAL),https://smilepharma.co.uk/product/azzalure-125iu-single-vial/,high
 TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Toxin,Dr. Adams Pharmacy,Alluzience 2 x 125 units,https://www.dradamspharmacy.co.uk/products/view/2,high
@@ -126,9 +126,9 @@ TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,Ask Pharmacy,azzalure 125u single pack,h
 TOX:TOX-DYSPORT-300UNITS,Toxin,Ask Pharmacy,dysport 300u single vial,https://ask-pharmacy.co.uk/product/dysport-300u-single-vial/,high
 TOX:TOX-RELFYDESS-150UNITS,Toxin,Ask Pharmacy,relfydess 100u,https://ask-pharmacy.co.uk/product/relfydess-100u/,rule
 TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Toxin,Healthxchange,Alluzience SINGLE VIAL 200 Speywood units/ml (Split Pack May Not Include Original Box) (POM),https://www.healthxchange.com/products/alluzience-single-vial-200-speywood-units-ml-split-pack-may-not-include-original-box-pom,high
-TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Toxin,Healthxchange,Alluzience Twin Pack ROI 200 Speywood/ml (POM),https://www.healthxchange.com/products/alluzience-twin-pack-roi-200-speywood-ml,high
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Toxin,Healthxchange,Alluzience Twin Pack ROI 200 Speywood/ml (POM),https://www.healthxchange.com/products/alluzience-twin-pack-roi-200-speywood-ml,high
 TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,Healthxchange,Azzalure SINGLE VIAL 125 Speywood units (Split Pack May Not Include Original Box) (with Azzalure Plus Syringe 1ml) (POM),https://www.healthxchange.com/products/azzalure-single-vial-125-speywood-units-split-pack-may-not-include-original-box-with-azzalure-plus-syringe-1ml-pom,high
-TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,Healthxchange,Azzalure Twin Pack ROI 125 Speywood/ml (POM),https://www.healthxchange.com/products/azzalure-twin-pack-roi-125-speywood-ml,high
+TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Toxin,Healthxchange,Azzalure Twin Pack ROI 125 Speywood/ml (POM),https://www.healthxchange.com/products/azzalure-twin-pack-roi-125-speywood-ml,high
 TOX:TOX-BOTOX-100UNITS,Toxin,Healthxchange,Botox 1 x 100 unit vial (POM),https://www.healthxchange.com/products/botox-1-x-100-unit-vial-pom,high
 TOX:TOX-BOTOX-200UNITS,Toxin,Healthxchange,Botox 1 x 200 unit vial (POM),https://www.healthxchange.com/products/botox-1-x-200-unit-vial-pom,high
 TOX:TOX-BOTOX-50UNITS-50X,Toxin,Healthxchange,Botox 1 X 50 unit vial (POM),https://www.healthxchange.com/products/botox-1-x-50-unit-vial-pom,high
@@ -144,11 +144,11 @@ TOX:TOX-BOTOX-100UNITS,Toxin,MedFX,Botox Botulinum Toxin Type A Vials (100 units
 TOX:TOX-BOTOX-50UNITS,Toxin,MedFX,Botox Botulinum Toxin Type A Vials (50 units),https://www.medfx.co.uk/facial-aesthetics/toxins/600011--botox-botulinum-toxin-type-a-vials/,rule
 TOX:TOX-BOTOX-100UNITS,Toxin,MedFX,Botox Botulinum Toxin Type A Vials,https://www.medfx.co.uk/facial-aesthetics/toxins/600013--botox-botulinum-toxin-type-a-vials/,rule
 TOX:TOX-DYSPORT-500UNITS,Toxin,MedFX,Dysport,https://www.medfx.co.uk/facial-aesthetics/toxins/600020--dysport/,rule
-TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Toxin,MedFX,Alluzience 2x125 Units Twin Pack.,https://www.medfx.co.uk/facial-aesthetics/toxins/600028--alluzience-2x125-units-twin-pack/,high
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Toxin,MedFX,Alluzience 2x125 Units Twin Pack.,https://www.medfx.co.uk/facial-aesthetics/toxins/600028--alluzience-2x125-units-twin-pack/,high
 TOX:TOX-BOCOUTURE-50UNITS,Toxin,MedFX,Bocouture Neurotoxin Type A 50 units,https://www.medfx.co.uk/facial-aesthetics/toxins/600032--bocouture-neurotoxin-type-a-50-units/,rule
 TOX:TOX-BOCOUTURE-100UNITS,Toxin,MedFX,Bocouture Neurotoxin Type A 100 units,https://www.medfx.co.uk/facial-aesthetics/toxins/600034--bocouture-neurotoxin-type-a-100-units/,rule
 TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,MedFX,Azzalure Botulinum Type A 125 Units Single Vial,https://www.medfx.co.uk/facial-aesthetics/toxins/600035--azzalure-botulinum-type-a-125-units-single-vial/,high
-TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,MedFX,Azzalure Botulinum Type A 2x125 Units Twin Pack,https://www.medfx.co.uk/facial-aesthetics/toxins/600037--azzalure-botulinum-type-a-2x125-units-twin-pack/,high
+TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Toxin,MedFX,Azzalure Botulinum Type A 2x125 Units Twin Pack,https://www.medfx.co.uk/facial-aesthetics/toxins/600037--azzalure-botulinum-type-a-2x125-units-twin-pack/,high
 TOX:TOX-RELFYDESS-150UNITS-10X,Toxin,MedFX,Relfydess Pack Of 10,https://www.medfx.co.uk/facial-aesthetics/toxins/600065--relfydess-pack-of-10/,high
 TOX:TOX-RELFYDESS-150UNITS,Toxin,MedFX,Relfydess Single Pack,https://www.medfx.co.uk/facial-aesthetics/toxins/600066--relfydess-single-pack/,high
 FIL:ALIAXIN-EV-1ML-2X,Dermal filler,Church Pharmacy,aliaxin ev,https://store.churchpharmacy.co.uk/product/aliaxin-ev-115727,high
@@ -167,7 +167,7 @@ FIL:AQUAMID-RECONSTRUCTION-10ML-1X,Dermal filler,Church Pharmacy,aquamid reconst
 FIL:FILLER-BELOTERO-INTENSE-LIDO,Dermal filler,Church Pharmacy,Belotero Intense Plus (Lidocaine),https://store.churchpharmacy.co.uk/product/belotero-intense-plus-lidocaine-104863,high
 FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO,Dermal filler,Church Pharmacy,Belotero Lips Contour Plus (Lidocaine),https://store.churchpharmacy.co.uk/product/belotero-lips-contour-plus-lidocaine-116919,high
 FIL:FILLER-BELOTERO-LIPSSHAPE-LIDO,Dermal filler,Church Pharmacy,belotero lips shape plus lidocaine,https://store.churchpharmacy.co.uk/product/belotero-lips-shape-plus-lidocaine-116918,high
-FIL:FILLER-BELOTERO-REVIVE-LIDO,Dermal filler,Church Pharmacy,belotero revive nonlidocaine,https://store.churchpharmacy.co.uk/product/belotero-revive-nonlidocaine-118650,high
+FIL:FILLER-BELOTERO-REVIVE,Dermal filler,Church Pharmacy,belotero revive nonlidocaine,https://store.churchpharmacy.co.uk/product/belotero-revive-nonlidocaine-118650,high
 FIL:FILLER-BELOTERO-SOFT-LIDO,Dermal filler,Church Pharmacy,belotero soft plus lidocaine,https://store.churchpharmacy.co.uk/product/belotero-soft-plus-lidocaine-104861,high
 FIL:FILLER-BELOTERO-VOLUME-LIDO-2X,Dermal filler,Church Pharmacy,belotero volume plus lidocaine,https://store.churchpharmacy.co.uk/product/belotero-volume-plus-lidocaine-105522,high
 FIL:FILLER-BELOTERO-VOLUME-LIDO,Dermal filler,Church Pharmacy,belotero volume plus lidocaine single syringe,https://store.churchpharmacy.co.uk/product/belotero-volume-plus-lidocaine-single-syringe-115555,high
@@ -1078,10 +1078,10 @@ FIL:HYACORP-FACE-2ML-2X,Dermal filler,Skin On You,HyaCorp FACE 2x2ML,https://ski
 FIL:FILLER-JUVEDERM-VOLITE-LIDO-2X,Dermal filler,Skin On You,Juvederm® Volite with Lidocaine,https://skinonyou.com/shop/juvederm-volite-mesotherapy-skin-conditioning/,rule
 FIL:HYACORP-BODYCONTOURINGMLF2-1X,Dermal filler,Skin On You,HyaCorp Body Contouring MLF 2,https://skinonyou.com/shop/hyacorp-body-contouring-mlf-2-body-filler/,rule
 FIL:FILLER-TEOSYAL-PURESENSEKISS-LIDO-2X,Dermal filler,Skin On You,Teoxane Teosyal® PureSense Kiss,https://skinonyou.com/shop/teoxane-puresense-kiss/,rule
-FIL:FILLER-BELOTERO-INTENSE-LIDO,Dermal filler,Skin On You,Belotero® Intense without Lidocaine,https://skinonyou.com/shop/belotero-intense-dermal-filler-by-merz-aesthetics/,rule
-FIL:FILLER-STYLAGE-UNSPECIFIED-LIDO-2X,Dermal filler,Skin On You,Stylage® L Without Lidocaine,https://skinonyou.com/shop/stylage-l-bisoft/,rule
-FIL:FILLER-STYLAGE-UNSPECIFIED-LIDO-2X,Dermal filler,Skin On You,Stylage® M Bi-SOFT Without Lido,https://skinonyou.com/shop/stylage-m-bisoft/,rule
-FIL:FILLER-STYLAGE-UNSPECIFIED-LIDO-2X,Dermal filler,Skin On You,Stylage® S Bi-SOFT Without Lido,https://skinonyou.com/shop/stylage-s-bisoft-without-lidocaine/,rule
+FIL:FILLER-BELOTERO-INTENSE,Dermal filler,Skin On You,Belotero® Intense without Lidocaine,https://skinonyou.com/shop/belotero-intense-dermal-filler-by-merz-aesthetics/,rule
+FIL:FILLER-STYLAGE-UNSPECIFIED-2X,Dermal filler,Skin On You,Stylage® L Without Lidocaine,https://skinonyou.com/shop/stylage-l-bisoft/,rule
+FIL:FILLER-STYLAGE-UNSPECIFIED-2X,Dermal filler,Skin On You,Stylage® M Bi-SOFT Without Lido,https://skinonyou.com/shop/stylage-m-bisoft/,rule
+FIL:FILLER-STYLAGE-UNSPECIFIED-2X,Dermal filler,Skin On You,Stylage® S Bi-SOFT Without Lido,https://skinonyou.com/shop/stylage-s-bisoft-without-lidocaine/,rule
 FIL:FILLER-STYLAGE-XL-LIDO-2X,Dermal filler,Skin On You,Stylage® XL Bi-SOFT without Lidocaine,https://skinonyou.com/shop/stylage-xl-bisoft/,rule
 FIL:ALIAXIN-FL-1ML-2X,Dermal filler,Skin On You,Aliaxin FL - 2 x 1 ml,https://skinonyou.com/shop/aliaxin-fl-lips-dermal-filler/,high
 FIL:SAYPHA-VOLUME-LIDO-1X,Dermal filler,Skin On You,Saypha Volume without Lidocaine,https://skinonyou.com/shop/saypha-filler-without-lid/,rule
@@ -2776,7 +2776,7 @@ BST:RRS-XL-HAIR-5ML-X6,Skin booster / PN / mesotherapy,Skin On You,RRS® XL Hair
 BST:RRS-HA-EYES-1.5ML-X12,Skin booster / PN / mesotherapy,Skin On You,RRS® HA EYES (12x1.5ml),https://skinonyou.com/shop/rrs-ha-eyes/,high
 BST:RRS-HA-LONG-3ML,Skin booster / PN / mesotherapy,Skin On You,RRS® HA Long Lasting (1x3ml),https://skinonyou.com/shop/rrs-ha-long-lasting-1x3ml/,high
 BST:BST-PROFHILO-BODYKIT-2X,Skin booster / PN / mesotherapy,Skin On You,Profhilo ® Body Kit,https://skinonyou.com/shop/profhilo-body-kit/,rule
-BST:BST-PROFHILO-STRUCTURA-2X,Skin booster / PN / mesotherapy,Skin On You,PROFHILO STRUCTURA WITH CANNULA (1×2mL),https://skinonyou.com/shop/profhilo-structura-1x2-ml/,high
+BST:BST-PROFHILO-STRUCTURA,Skin booster / PN / mesotherapy,Skin On You,PROFHILO STRUCTURA WITH CANNULA (1×2mL),https://skinonyou.com/shop/profhilo-structura-1x2-ml/,high
 BST:PLENHYAGE-XL-THIN-2ML,Skin booster / PN / mesotherapy,Skin On You,Plenhyage XL Thin 1 x 2 ml,https://skinonyou.com/shop/plenhyage-xl-thin/,high
 BST:PLENHYAGE-XL-STRONG-2ML,Skin booster / PN / mesotherapy,Skin On You,Plenhyage XL Strong 1 x 2 ml,https://skinonyou.com/shop/plenhyage-xl-strong/,high
 BST:BST-NUCLEOFILL-STRONGPLUS,Skin booster / PN / mesotherapy,Skin On You,NucleoFill Age - Nucleofill Strong Plus 1 × 2 ml,https://skinonyou.com/shop/nucleofill-strong-plus-1-x-2-ml/,high
@@ -3729,7 +3729,7 @@ BIO:BIO-ELLANSE-S-2X,Biostimulator,Church Pharmacy,ellanse short,https://store.c
 BIO:BIO-HARMONYCA-125-LIDO-2X,Biostimulator,Church Pharmacy,harmonyca lidocaine,https://store.churchpharmacy.co.uk/product/harmonyca-lidocaine-120137,high
 BIO:BIO-JUVELOOK-50MG,Biostimulator,Church Pharmacy,juvelook,https://store.churchpharmacy.co.uk/product/juvelook-122803,high
 BIO:BIO-LENISNA-200MG,Biostimulator,Church Pharmacy,lenisna,https://store.churchpharmacy.co.uk/product/lenisna-122805,high
-BIO:BIO-RADIESSE-15ML-LIDO,Biostimulator,Church Pharmacy,radiesse 15ml without lidocaine,https://store.churchpharmacy.co.uk/product/radiesse-15ml-without-lidocaine-9060,high
+BIO:BIO-RADIESSE-15ML,Biostimulator,Church Pharmacy,radiesse 15ml without lidocaine,https://store.churchpharmacy.co.uk/product/radiesse-15ml-without-lidocaine-9060,high
 BIO:BIO-RADIESSE-15ML-LIDO,Biostimulator,Church Pharmacy,radiesse plus 15ml with lidocaine,https://store.churchpharmacy.co.uk/product/radiesse-plus-15ml-with-lidocaine-116129,high
 BIO:BIO-AESPLLA-365MG,Biostimulator,Fox Pharma,aesPlla®,https://foxpharma.co.uk/product/aesplla/,high
 BIO:BIO-RADIESSE-15ML,Biostimulator,Fox Pharma,Radiesse (1.5ml),https://foxpharma.co.uk/product/radiesse-volume-advantage-1-5ml/,rule
@@ -3738,8 +3738,8 @@ BIO:BIO-LENISNA-200MG,Biostimulator,ACRE Pharmacy,lenisna 1 x 200mg stock item v
 BIO:BIO-LENISNA-200MG,Biostimulator,ACRE Pharmacy,lenisna 1 x 200mg prescription item zero vat,https://www.acrepharmacy.co.uk/product/lenisna-1-x-200mg-prescription-item-zero-vat/01tTw00000HQC5NIAX,high
 BIO:BIO-JUVELOOK-50MG,Biostimulator,ACRE Pharmacy,juvelook 1 x 50mg stock item vat payable,https://www.acrepharmacy.co.uk/product/juvelook-1-x-50mg-stock-item-vat-payable/01tTw00000GVDKjIAP,high
 BIO:BIO-JUVELOOK-50MG,Biostimulator,ACRE Pharmacy,juvelook 1 x 50mg prescription item zero vat,https://www.acrepharmacy.co.uk/product/juvelook-1-x-50mg-prescription-item-zero-vat/01tTw00000GVDEHIA5,high
-BIO:BIO-RADIESSE-15ML-LIDO,Biostimulator,ACRE Pharmacy,radiesse 15ml non lido 1 stock item vat payable,https://www.acrepharmacy.co.uk/product/radiesse-15ml-non-lido-1-stock-item-vat-payable/01tTw00000Bbsr7IAB,high
-BIO:BIO-RADIESSE-15ML-LIDO,Biostimulator,ACRE Pharmacy,radiesse 15ml non lido 1 prescription item zero vat,https://www.acrepharmacy.co.uk/product/radiesse-15ml-non-lido-1-prescription-item-zero-vat/01tTw00000BbsmHIAR,high
+BIO:BIO-RADIESSE-15ML,Biostimulator,ACRE Pharmacy,radiesse 15ml non lido 1 stock item vat payable,https://www.acrepharmacy.co.uk/product/radiesse-15ml-non-lido-1-stock-item-vat-payable/01tTw00000Bbsr7IAB,high
+BIO:BIO-RADIESSE-15ML,Biostimulator,ACRE Pharmacy,radiesse 15ml non lido 1 prescription item zero vat,https://www.acrepharmacy.co.uk/product/radiesse-15ml-non-lido-1-prescription-item-zero-vat/01tTw00000BbsmHIAR,high
 BIO:BIO-LANLUMA-XBODY,Biostimulator,ACRE Pharmacy,lanluma x 40ml 1pri stock item vat payable,https://www.acrepharmacy.co.uk/product/lanluma-x-40ml-1pri-stock-item-vat-payable/01tTw00000Afzg6IAB,high
 BIO:BIO-ELLANSE-S-2X,Biostimulator,ACRE Pharmacy,ellanse s 2x1ml 1 stock item vat payable,https://www.acrepharmacy.co.uk/product/ellanse-s-2x1ml-1-stock-item-vat-payable/01tTw00000Ac9MHIAZ,high
 BIO:BIO-LANLUMA-VFACE,Biostimulator,ACRE Pharmacy,lanluma v 15ml 1 exp06112026 stock item vat payable,https://www.acrepharmacy.co.uk/product/lanluma-v-15ml-1-exp06112026-stock-item-vat-payable/01tTw00000Ac88VIAR,high
@@ -3794,7 +3794,7 @@ BIO:BIO-RADIESSE-15ML,Biostimulator,Dr. Adams Pharmacy,Radiesse (1 x 1.5ml),http
 BIO:BIO-RADIESSE-3ML,Biostimulator,Dr. Adams Pharmacy,Radiesse (1 x 3ml),https://www.dradamspharmacy.co.uk/products/view/140,high
 BIO:BIO-RADIESSE-15ML-LIDO,Biostimulator,Dr. Adams Pharmacy,Radiesse with Lido (1 x 1.5ml),https://www.dradamspharmacy.co.uk/products/view/141,high
 BIO:BIO-SCULPTRA-3675MG-2X,Biostimulator,Dr. Adams Pharmacy,Sculptra (2 x 5ml),https://www.dradamspharmacy.co.uk/products/view/90,high
-BIO:BIO-SCULPTRA-3675MG,Biostimulator,Skin On You,SCULPTRA® Poly-L-Lactic Acid (2×5ml Vials),https://skinonyou.com/shop/sculptra-poly-l-lactic-acid/,high
+BIO:BIO-SCULPTRA-3675MG-2X,Biostimulator,Skin On You,SCULPTRA® Poly-L-Lactic Acid (2×5ml Vials),https://skinonyou.com/shop/sculptra-poly-l-lactic-acid/,high
 BIO:BIO-LENISNA-200MG,Biostimulator,Skin On You,Lenisna 200 (1 x 200mg),https://skinonyou.com/shop/lenisna-1-x-200mg/,high
 BIO:BIO-RADIESSE-15ML,Biostimulator,Skin On You,"Radiesse 1x1,5ml - Lifting & Volume Filler",https://skinonyou.com/shop/radiesse-lifting-volume-filler-by-merz-aesthetics/,high
 BIO:BIO-LANLUMA-XBODY,Biostimulator,Skin On You,Lanluma X 1x40ml,https://skinonyou.com/shop/lanluma-x-1x40ml/,high
@@ -3825,7 +3825,7 @@ BIO:BIO-RADIESSE-15ML-LIDO,Biostimulator,LPG Clinics Wholesale,radiesse lidocain
 BIO:BIO-NOVUMA-15,Biostimulator,LPG Clinics Wholesale,Novuma Collagen Stimulating,https://www.lpgclinicswholesale.com/product/novuma-collagen-stimulating/,rule
 BIO:BIO-JUVELOOK-50MG,Biostimulator,LPG Clinics Wholesale,Juvelook CE (1 x 50mg),https://www.lpgclinicswholesale.com/product/juvelook-new/,high
 BIO:BIO-SCULPTRA-3675MG,Biostimulator,LPG Clinics Wholesale,Sculptra Single Vial (1 x 5ml),https://www.lpgclinicswholesale.com/product/sculptra-1-x-5ml-vials/,high
-BIO:BIO-STICOL,Biostimulator,LPG Clinics Wholesale,StiCol Volume (1 x 365mg),https://www.lpgclinicswholesale.com/product/sticol-volume/,high
+BIO:BIO-STICOL-VOLUME,Biostimulator,LPG Clinics Wholesale,StiCol Volume (1 x 365mg),https://www.lpgclinicswholesale.com/product/sticol-volume/,high
 BIO:BIO-HARMONYCA-125-LIDO-2X,Biostimulator,LPG Clinics Wholesale,HArmonyCA with Lidocaine (2 x 1.25ml),https://www.lpgclinicswholesale.com/product/harmonyca-with-lidocaine-2x1-25ml/,high
 BIO:BIO-PLLACELL-100MG,Biostimulator,LPG Clinics Wholesale,PLLACELL (1 x 100mg),https://www.lpgclinicswholesale.com/product/pllacell/,high
 BIO:BIO-JULAINE-150MG,Biostimulator,LPG Clinics Wholesale,Julaine of Sweden – Collagen Stimulator,https://www.lpgclinicswholesale.com/product/julaine-of-sweden/,high
@@ -3841,7 +3841,7 @@ BIO:BIO-LANLUMA-VFACE,Biostimulator,Wimpole Fillers,Lanluma V (1 X 15ml) Inj.,ht
 BIO:BIO-LANLUMA-XBODY,Biostimulator,Wimpole Fillers,Lanluma X (1 X 40ml) Inj.,https://wimpolefillers.co.uk/product/lanluma-x-1-x-40ml-inj/,high
 BIO:BIO-GOURI-1,Biostimulator,Wimpole Fillers,Gouri (1 X 1ML) inj.,https://wimpolefillers.co.uk/product/gouri-1-x-1ml-inj/,high
 BIO:BIO-HARMONYCA-125-LIDO-2X,Biostimulator,Wimpole Fillers,harmonyca lido 2x125ml inj,https://wimpolefillers.co.uk/product/harmonyca-lido-2x125ml-inj/,high
-BIO:BIO-SCULPTRA-3675MG,Biostimulator,Wimpole Fillers,Sculptra (Twin Vial) Inj.,https://wimpolefillers.co.uk/product/sculptra-twin-vial/,high
+BIO:BIO-SCULPTRA-3675MG-2X,Biostimulator,Wimpole Fillers,Sculptra (Twin Vial) Inj.,https://wimpolefillers.co.uk/product/sculptra-twin-vial/,high
 BIO:BIO-ELLANSE-M-2X,Biostimulator,Wimpole Fillers,Ellanse M (2 x 1ml) Inj.,https://wimpolefillers.co.uk/product/ellanse-m-2-x-1ml/,high
 BIO:BIO-AESTHEFILL-200MG,Biostimulator,Wimpole Fillers,Aesthefill (1 x 200mg),https://wimpolefillers.co.uk/product/aesthefill-1-x-200mg/,high
 BIO:BIO-LINERASE-100MG,Biostimulator,Wimpole Fillers,Linerase Collagen powder-(1x100mg) vial.,https://wimpolefillers.co.uk/product/linerase-collagen-powder-1x100mg-vial/,high

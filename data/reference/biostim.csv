@@ -9,10 +9,10 @@ aesPLLA,aesPLLA,,PLLA,PLLA - poly-L-lactic acid,Oreon Life Science (Korea); Fox 
 Ecolla,Ecolla,,PLLA,PLLA - poly-L-lactic acid,JETEMA (Korea),365mg,1 vial,no,yes,,https://www.jetema.com
 PLLACELL,PLLACELL,,PLLA,PLLA - poly-L-lactic acid,Korea,100mg,1 vial,no,yes,pllacell,
 Julaine,Julaine,,PLLA,PLLA - poly-L-lactic acid,Nordberg Medical (Sweden); own UK & Ireland arm,150mg,1 vial,no,yes,,https://www.nordbergmedical.com
-StiCol,StiCol,,PLLA,PLLA - poly-L-lactic acid,Contac Korea,,1 vial,no,yes,sticol,https://sticolfiller.com
+StiCol,StiCol Volume,Volume,PLLA,PLLA - poly-L-lactic acid,Contac Korea,365mg,1 vial,no,yes,sticol|volume,https://sticolfiller.com
 Olidia,Olidia,,PLLA,PLLA - poly-L-lactic acid,PRP Science (Korea),365mg,1 vial,no,yes,,https://olidia.kr
-iLLUMA PLLA,iLLUMA PLLA 200,200mg,PLLA,PLLA - poly-L-lactic acid,Korea,200mg,1 vial,no,yes,200|illuma plla 200,
-iLLUMA PLLA,iLLUMA PLLA 500,500mg,PLLA,PLLA - poly-L-lactic acid,Korea,500mg,1 vial,no,,500|illuma plla 500,
+iLLUMA PLLA,iLLUMA PLLA 200,200mg,PLLA,PLLA - poly-L-lactic acid,LINKUS GLOBAL (Korea),200mg,1 vial,no,yes,200|illuma plla 200,https://linkusglobal.kr/portfolio/illuma-plla/
+iLLUMA PLLA,iLLUMA PLLA 500,500mg,PLLA,PLLA - poly-L-lactic acid,LINKUS GLOBAL (Korea),500mg,1 vial,no,,500|illuma plla 500,https://linkusglobal.kr/portfolio/illuma-plla/
 PiNkLLA,PiNkLLA,,PLLA,PLLA - poly-L-lactic acid,Oreon Life Science (Korea),100mg,1 vial,no,yes,pinklla,
 AestheFill,AestheFill,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",Regen Biotech (Korea),200mg,1 vial,no,yes,aesthefill|aesthe fill,https://www.tga.gov.au/resources/artg/402703
 Juvelook,Juvelook,,PDLLA,"PDLLA - poly-D,L-lactic acid (+ HA)",VAIM (Korea); Fillmed UK & Ireland,50mg,1 vial,no,yes,,https://uk.fillmed.com
@@ -28,5 +28,5 @@ HArmonyCa,HArmonyCa,,CaHA+HA,CaHA + HA hybrid,Allergan / AbbVie,,2 x 1.25ml,yes,
 Neauvia,Neauvia Stimulate,Stimulate,CaHA+HA,CaHA + HA hybrid,Matex Lab / Neauvia,,1 x 1ml,no,yes,stimulate|organic stimulate,https://neauvia.com
 Linerase Hydro,Linerase Hydro,,HA booster,HA skin booster (not a biostimulator),Mastelli,,5 x 5ml,no,yes,hydro,https://mastelli.com
 Doublyx,Doublyx Evo,Evo,HA booster,HA skin booster (not a biostimulator),Xcelens (Switzerland) / Aerazen Lab (Italy),,1 x 2ml,no,yes,doublyx,https://xcelens.ch/en/doublyx-evo/
-Elysiha,Elysiha Face,Face,unknown,Unconfirmed - ask the supplier,ElysiHA (Dr. Adams),,1 vial,no,yes,face,
-Elysiha,Elysiha Eyes,Eyes,unknown,Unconfirmed - ask the supplier,ElysiHA (Dr. Adams),,1 vial,no,,eyes,
+Elysiha,Elysiha Face,Face,topical,Topical serum PDRN/HA/collagen (not a biostimulator - move to Skincare),Caromed Italia,,1 vial,no,yes,face,https://elysiha.com
+Elysiha,Elysiha Eyes,Eyes,topical,Topical serum PDRN/HA/collagen (not a biostimulator - move to Skincare),Caromed Italia,,1 vial,no,,eyes,https://elysiha.com

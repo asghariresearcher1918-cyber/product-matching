@@ -38,7 +38,7 @@ FIL:AQUAMID-RECONSTRUCTION-10ML-1X,Aquamid Reconstruction,Church Pharmacy
 FIL:FILLER-BELOTERO-INTENSE-LIDO,Belotero Intense Lido. (1 x 1ml) Inj.,Wimpole Fillers
 FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO,Belotero Lips Contour Lido. (1 x 0.6ml) Inj.,Wimpole Fillers
 FIL:FILLER-BELOTERO-LIPSSHAPE-LIDO,Belotero Lips Shape Lido. (1 x 0.6ml) Inj.,Wimpole Fillers
-FIL:FILLER-BELOTERO-REVIVE-LIDO,Belotero Revive Nonlidocaine,Church Pharmacy
+FIL:FILLER-BELOTERO-REVIVE,Belotero Revive (1 x 1ml) Inj.,Wimpole Fillers
 FIL:FILLER-BELOTERO-SOFT-LIDO,Belotero Soft Lido. (1 x 1ml) Inj.,Wimpole Fillers
 FIL:FILLER-BELOTERO-VOLUME-LIDO-2X,Belotero Volume Lido. (2 x 1ml) Inj.,Wimpole Fillers
 FIL:FILLER-BELOTERO-VOLUME-LIDO,Belotero Volume Plus Lidocaine Syringe Prefilled 1 X 1ml,Church Pharmacy
@@ -218,7 +218,6 @@ FIL:UTHDEEP-03-1ML-LIDO-1X,UTH Deep 03 + Lidocaine (1x1ml),Moda Pharmacy
 FIL:SAYPHA-FILLER1-1ML-LIDO-1X,Saypha Filler Lido 1ml 1,ACRE Pharmacy
 FIL:FILLER-RESTYLANE-EYELIGHT-LIDO,Restylane Eyelight (1 x 0.5ml) Inj.,Wimpole Fillers
 FIL:FILLER-BELOTERO-UNSPECIFIED-LIDO,Belotero Contour Lips Lido (1x0.6ml),Moda Pharmacy
-FIL:FILLER-BELOTERO-REVIVE,Belotero Revive (1 x 1ml) Inj.,Wimpole Fillers
 FIL:ALIAXIN-SVNOVAT-1ML-2X,Aliaxin Sv 2 X 11ml,ACRE Pharmacy
 FIL:ALIAXIN-SVPAYVAT-1ML-2X,Aliaxin Sv 2 X 11ml,ACRE Pharmacy
 FIL:CROMA-COUNTOURELJAMBER50MM8-1X,Croma Countourel Jamber 27G x 50mm x 8,John Bannon Pharmacy
@@ -405,6 +404,8 @@ FIL:SAYPHA-VOLUME-LIDO-1X,Saypha Volume without Lidocaine,Skin On You
 FIL:HYACORP-LIPS-1X,HyaCorp LIPS,Skin On You
 FIL:HYACORP-FACE-2ML-2X,HyaCorp FACE 2x2ML,Skin On You
 FIL:HYACORP-BODYCONTOURINGMLF2-1X,HyaCorp Body Contouring MLF 2,Skin On You
+FIL:FILLER-BELOTERO-INTENSE,Belotero Intense 1ml,LPG Clinics Wholesale
+FIL:FILLER-STYLAGE-UNSPECIFIED-2X,Stylage M Bi-SOFT Without Lido,Skin On You
 FIL:REVOFIL-FINE-1X,Revofil Fine,Skin On You
 FIL:REVOFIL-PLUS-1X,Revofil Plus,Skin On You
 FIL:REVOFIL-ULTRA-1X,Revofil Ultra,Skin On You
@@ -413,7 +414,6 @@ FIL:PERFECT-LINEVOLUMEBODY-0ML-1X,Perfect Line Volume Body 10ml,Skin On You
 FIL:SKINFILL-BODY-0ML-1X,Skinfill Body 50ml,Skin On You
 FIL:DRARJO-DRARJOBODY-0ML-1X,Dr. ArJo Body - 1 x 10 ml,Skin On You
 FIL:TARGETED-LIPFILLER-1X,Targeted Lip Filler,MedFX
-FIL:FILLER-BELOTERO-INTENSE,Belotero Intense 1ml,LPG Clinics Wholesale
 FIL:FILLER-RESTYLANE-ORIGINAL,Restylane Fynesse 1ml,Ask Pharmacy
 FIL:FILLER-RESTYLANE-LYFT,Restylane Lyft – 1 x 1ml,Two Face Aesthetics
 FIL:SAYPHA-FILLER-1ML-1X,Saypha Filler 1ml,MyPharmacyspace
@@ -1153,7 +1153,6 @@ BST:RRS-HA-CELLUTRIX-10ML,Rrs HA Cellutrix,Skin On You
 BST:RRS-XL-HAIR-5ML-X6,RRS XL Hair (6x5ml),Skin On You
 BST:RRS-HA-EYES-1.5ML-X12,RRS HA EYES (12x1.5ml),Skin On You
 BST:RRS-HA-LONG-3ML,RRS HA Long Lasting (1x3ml),Skin On You
-BST:BST-PROFHILO-STRUCTURA-2X,PROFHILO STRUCTURA WITH CANNULA (1×2mL),Skin On You
 BST:PLENHYAGE-XL-THIN-2ML,Plenhyage XL Thin 1 x 2 ml,Skin On You
 BST:NITHYA-FACE-COLLAGEN-70MG,Nithya FACE- Collagen type I 3x70 mg,Skin On You
 BST:LUMINESCENS-MELASMA,Luminescens Kit Melasma,Skin On You
@@ -1612,10 +1611,10 @@ BIO:BIO-ELLANSE-S-2X,Ellanse S (2 x 1ml) Inj.,Wimpole Fillers
 BIO:BIO-HARMONYCA-125-LIDO-2X,Harmonyca Lido 2x125ml Inj,Wimpole Fillers
 BIO:BIO-JUVELOOK-50MG,Juvelook CE 1 X 50mg,Ask Pharmacy
 BIO:BIO-LENISNA-200MG,Fillmed Lenisna 200mg/vial,John Bannon Pharmacy
+BIO:BIO-RADIESSE-15ML,Radiesse (1 x 1.5ml) Inj.,Wimpole Fillers
 BIO:BIO-RADIESSE-15ML-LIDO,Radiesse + Lido. (1 x 1.5ml) Inj.,Wimpole Fillers
 BIO:BIO-AESPLLA-365MG,Aesplla 365mg 1 Vial,Ask Pharmacy
-BIO:BIO-RADIESSE-15ML,Radiesse (1 x 1.5ml) Inj.,Wimpole Fillers
-BIO:BIO-SCULPTRA-3675MG-2X,Sculptra 2 Vials Of 5ml,Ask Pharmacy
+BIO:BIO-SCULPTRA-3675MG-2X,Sculptra Inj.,Wimpole Fillers
 BIO:BIO-LANLUMA-XBODY,Lanluma X (1 X 40ml) Inj.,Wimpole Fillers
 BIO:BIO-LANLUMA-VFACE,Lanluma V (1 X 15ml) Inj.,Wimpole Fillers
 BIO:BIO-JULAINE-150MG,Julaine 1 vial,Wimpole Fillers
@@ -1624,7 +1623,7 @@ BIO:BIO-NOVUMA-15,Novuma The Next-Generation CaHA Biostimulation 1.5ml,John Bann
 BIO:BIO-ILLUMA-PLLA-500MG,iLLUMA PLLA 500,LPG Clinics Wholesale
 BIO:BIO-ILLUMA-PLLA-200MG,iLLUMA PLLA 200,LPG Clinics Wholesale
 BIO:BIO-GOURI-1,Gouri (1 X 1ML) inj.,Wimpole Fillers
-BIO:BIO-SCULPTRA-3675MG,Sculptra Inj.,Wimpole Fillers
+BIO:BIO-SCULPTRA-3675MG,Sculptra Single Vial 1 X 5ml,Ask Pharmacy
 BIO:BIO-ECOLLA-365MG,Ecolla PLLA 1 X 365mg Vial,Ask Pharmacy
 BIO:BIO-AESTHEFILL-200MG,Aesthefill (1 x 200mg),Wimpole Fillers
 BIO:BIO-DOUBLYX-EVO,Doublyx Evo (1 x 2ml),Dr. Adams Pharmacy
@@ -1634,7 +1633,7 @@ BIO:BIO-LINERASE-100MG,Linerase Collagen powder-(1x100mg) vial.,Wimpole Fillers
 BIO:BIO-LINERASE-HYDRO-5-5X,Linerase Hydro (5x5ml) vials,Wimpole Fillers
 BIO:BIO-RADIESSE-3ML,Radiesse (1 x 3ml) Inj.,Wimpole Fillers
 BIO:BIO-JUVELOOK-VOLUME,Juvelook Volume (1x200mg),LPG Clinics Wholesale
-BIO:BIO-STICOL,StiCol Volume (1 x 365mg),LPG Clinics Wholesale
+BIO:BIO-STICOL-VOLUME,StiCol Volume (1 x 365mg),LPG Clinics Wholesale
 BIO:BIO-PLLACELL-100MG,Pllacell 1x100mg Vial,Ask Pharmacy
 BIO:BIO-PINKLLA-100MG,PiNkLLA with PN 100mg,LPG Clinics Wholesale
 BIO:BIO-OLIDIA-365MG,Olidia PLLA Poly L Lactic Acid,Ask Pharmacy

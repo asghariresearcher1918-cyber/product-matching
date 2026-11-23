@@ -106,7 +106,7 @@ def run(cfg, refnames):
 
     maps, prods, passthrough = [], {}, set()
     for m in listings:
-        tl = m["title"].lower()
+        tl = m["title"].lower().replace("×", "x").replace("✕", "x")   # normalise '2×5ml' -> '2x5ml'
         tlsq = re.sub(r"[^a-z0-9]", "", tl)   # squashed (ignore spaces/punct): 'lipolab' ~ 'lipo lab'
         brand = m.get("brand", "")
         rb = (next((b for b in refbrands if re.search(r"\b" + re.escape(b.lower()) + r"\b", tl)), None)
@@ -124,9 +124,15 @@ def run(cfg, refnames):
         if best is None:
             maps.append(dict(m, code="", brand=rb, matched="review-nomatch", decision=f"{rb}: no reference product matched")); continue
         lv = best.get("lidocaine", "no")
-        lido = True if lv == "yes" else (False if lv == "no" else bool(re.search(r"lidocaine|\+?lido\b|with lido", tl)))
+        if lv in ("yes", "no"):
+            lido = (lv == "yes")
+        else:                                              # detect from title, but respect negation ('non lido', 'without lidocaine')
+            neg = re.search(r"non[\s-]*lido|without\s+lido|w/?o\s+lido|no\s+lido", tl)
+            lido = (not neg) and bool(re.search(r"lidocaine|\blido\b|\+\s*lido|with lido", tl))
         base_n, vol = pack_vol(best["pack"])
         packn, pack_src = pack_count(tl), "title"
+        if packn is None and re.search(r"\btwin\b", tl):   # 'Twin Vial' = 2 vials
+            packn, pack_src = 2, "title (twin)"
         if packn is None and m.get("id"):                 # owner rule: read the whole page, then the image, before defaulting
             packn = pack_from_doc(page_text(m["id"]).lower(), rb); pack_src = "page"   # only trust a pack beside THIS brand
             if packn is None:
