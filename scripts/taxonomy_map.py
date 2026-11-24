@@ -21,6 +21,7 @@ for c in TX["categories"]:
             NAME[p["id"]] = p["name"]
 NAME["WLM"] = "Weight Management"          # owner-approved standalone top-level (not C09.07)
 NAME["PARKED"] = "Parked (phase 2)"
+NAME["C08.VAC"] = "Vaccines (proposed — pending JSON approval)"   # rule 11
 
 
 def has(text, *words):
@@ -35,23 +36,38 @@ def med_sub(grp):
         return "C08.01"
     if has(g, "hyaluronidase", "hyalase"):
         return "C08.02"
-    if has(g, "amoxicillin", "co-amoxiclav", "cefalexin", "cephalexin", "clindamycin", "metronidazole", "doxycycline", "flucloxacillin", "erythromycin", "azithromycin", "trimethoprim", "ciprofloxacin", "antibiotic"):
+    if has(g, "amoxicillin", "co-amoxiclav", "cefalexin", "cephalexin", "cefuroxime", "clindamycin", "metronidazole",
+            "doxycycline", "flucloxacillin", "erythromycin", "erythroped", "azithromycin", "clarithromycin", "trimethoprim",
+            "ciprofloxacin", "moxifloxacin", "minocycline", "minocin", "oxytetracycline", "lymecycline", "ampicillin",
+            "phenoxymethylpenicillin", "penicillin", "fusidic", "mupirocin", "nystatin", "nystaform", "fluconazole",
+            "itraconazole", "terbinafine", "nizoral", "ivermectin", "antibiotic"):
         return "C08.03"
-    if has(g, "aciclovir", "acyclovir", "valaciclovir", "valacyclovir", "famciclovir", "antiviral"):
+    if has(g, "aciclovir", "acyclovir", "valaciclovir", "valacyclovir", "famciclovir", "valtrex", "zovirax", "antiviral"):
         return "C08.04"
-    if has(g, "ibuprofen", "naproxen", "diclofenac", "nsaid", "anti-inflammatory"):
+    if has(g, "ibuprofen", "brufen", "naproxen", "diclofenac", "nsaid", "anti-inflammatory"):
         return "C08.06"
     if has(g, "paracetamol", "acetaminophen", "codeine", "co-codamol", "analgesic"):
         return "C08.05"
-    if has(g, "betamethasone", "dexamethasone", "hydrocortisone", "prednisolone", "triamcinolone", "methylprednisolone", "mometasone", "clobetasol", "steroid"):
+    if has(g, "betamethasone", "dexamethasone", "hydrocortisone", "prednisolone", "prednisonlone", "triamcinolone",
+            "methylprednisolone", "depomedrone", "mometasone", "clobetasol", "clobetasone", "clobaderm", "fluocinolone",
+            "synalar", "diprosalic", "dovobet", "enstilar", "lotriderm", "mildison", "canesten hc", "steroid"):
         return "C08.07"
     if has(g, "midazolam", "diazepam", "sedation"):
         return "C08.08"
-    if has(g, "adrenaline", "epinephrine", "chlorphenamine", "chlorpheniramine", "glucagon", "naloxone", "salbutamol", "emergency"):
+    if has(g, "adrenaline", "epinephrine", "chlorphenamine", "chlorpheniramine", "glucagon", "naloxone", "salbutamol",
+            "atropine", "metaraminol", "phenylephrine", "emergency"):
         return "C08.09"
-    if has(g, "saline", "sodium chloride", "water for injection", "bacteriostatic", "diluent", "wfi"):
+    if has(g, "water for injection", "sterile water", "bacteriostatic", "diluent", "wfi"):
         return "C08.10"
     return None
+
+
+# consumable / device items mis-filed under "Medicines" in v1 -> C10 (rule 5/7)
+def is_consumable_in_meds(n):
+    return has(n, "cannula", "introcan", "surflo", "venflon", "winged infusion", "butterfly winged", "winged set",
+               "infusion set", "administration set", "giving set", "intrafix", "exadrop", "gravity administration",
+               "baxter administration", "codan infusion", "posiflush", "winged", "freeflex", "mini-plasco", "polyfusor",
+               "intralipid iv", "clinimix", "gelofusine", "braun", "terumo", "codan", "infusion bag")
 
 
 def classify(cat, grp, name):
@@ -73,7 +89,7 @@ def classify(cat, grp, name):
     if cat == "Supplements":
         return "C09.05", None, "CLASSIFIED", "oral supplement"
     if cat == "Vaccine":
-        return "PARKED", None, "PARKED", "vaccines parked for a later phase (owner decision)"
+        return "C08", "C08.VAC", "CLASSIFIED", "vaccine -> C08, proposed new subcategory 'Vaccines' (rule 11; JSON unchanged pending approval)"
 
     if cat == "Dermal filler":
         if has(n, "aquamid", "radiesse", "ellanse", "polycaprolactone", "calcium hydroxyl", "caha", "\bplla\b", "poly-l-lactic", "collagen"):
@@ -96,12 +112,24 @@ def classify(cat, grp, name):
         return "C05", "C05.01", "CLASSIFIED", "PDO thread (material); design is a facet"
 
     if cat == "Medicines":
-        if has(g, "vitamin", "glutathione", "biotin", "vit c", "nad"):
-            return "C09", "C09.03", "CLASSIFIED", "vitamin/wellness injectable -> IV/IM & Wellness"
-        sub = med_sub(grp)
+        # rule 5/7: injection/infusion consumables & medical-device flushes (e.g. BD PosiFlush) are NOT medicines -> C10
+        if is_consumable_in_meds(n):
+            return "C10", "C10.02", "CLASSIFIED", "injection/infusion consumable or device flush -> C10 (not a medicine)"
+        # rule 6: water for injections / dilution solutions -> C08.10
+        if has(n, "water for injection", "sterile water", "water injection", "wfi") or (has(n, "water") and has(n, "inject")):
+            return "C08", "C08.10", "CLASSIFIED", "water for injections / diluent (rule 6)"
+        # rule 4: injectable glutathione / NAD+ -> evidence of legal status/nature required -> Review Queue
+        # (word-boundary NAD so 'beNADryl' / 'fexofeNADine' are not caught)
+        if re.search(r"glutathione|tationil|cellgevity|lisathyone|\bnmn\b|\bnad\b|nad\+|nadura", n):
+            return "C08", None, "REVIEW_REQUIRED", "injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4)"
+        # rule 3: vitamins of drug nature (POM/injectable, as filed under Medicines) -> C08 (may show in C09 as a secondary link)
+        if has(g, "vitamin") or has(n, "colecalciferol", "cholecalciferol", "ergocalciferol", "hydroxocobalamin",
+                                     "cyanocobalamin", "methylcobalamin", "pyridoxine", "ascorbic", "vitamin"):
+            return "C08", None, "CLASSIFIED", "vitamin of drug nature -> C08 (secondary display in C09; rule 3)"
+        sub = med_sub(grp) or med_sub(n)
         if sub:
             return "C08", sub, "CLASSIFIED", f"medicine class from '{grp}'"
-        return "C08", None, "REVIEW_REQUIRED", f"medicine '{grp}' - confirm C08 subcategory"
+        return "C08", None, "CLASSIFIED", f"medicine '{grp}'; C08 subcategory left empty (acceptable)"
 
     if cat == "Needles, cannulas & syringes":
         sub = {"Hypodermic needle": "C10.01", "Filter needle": "C10.01", "Syringe": "C10.02",
@@ -178,9 +206,10 @@ def main():
     out, counts, status_counts = [], collections.Counter(), collections.Counter()
     for r in rows:
         pid, sub, status, reason = classify(r["category"], r["equivalence_group"], r["product"])
-        # owner rule: a known primary category with no fitting subcategory is CLASSIFIED (empty subcategory is acceptable);
-        # only keep REVIEW for a genuinely uncertain PRIMARY. All current review items have a certain primary.
-        if status == "REVIEW_REQUIRED" and pid:
+        # owner rule: a known primary category with no fitting subcategory is CLASSIFIED (empty subcategory is acceptable).
+        # Keep REVIEW only for genuine decisions that need evidence (e.g. glutathione/NAD+ legal status, rule 4).
+        genuine = any(k in reason.lower() for k in ("rule 4", "legal status", "evidence"))
+        if status == "REVIEW_REQUIRED" and pid and not genuine:
             status = "CLASSIFIED"
             if "subcategory" not in reason.lower():
                 reason = reason + " (primary certain; subcategory left empty pending the per-category pass)"

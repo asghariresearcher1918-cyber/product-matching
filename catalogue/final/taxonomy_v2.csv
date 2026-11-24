@@ -1958,10 +1958,10 @@ FAT:FAT-LIPO-LAB-PPC-10X,Lipo Lab PPC (10 x 10ml vials),Fat dissolving,Phosphati
 FAT:FAT-LIPO-LAB-VLINE,Lipo Lab V-Line (1 x 10ml vial),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
 FAT:FAT-LIPO-LAB-VLINE-5X,Lipo Lab V-Line (5 x 10ml vials),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,3
 FAT:MYFILLERREVITALIZESLIM-10ML-1X,Myfiller Revitalize Slim,Fat dissolving,Phosphatidylcholine + deoxycholate (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
-MED:ABIOGENDIBASE-INJE,Abiogen Dibase 300000 1ml X 2amps 2,Medicines,abiogen dibase,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'abiogen dibase' - confirm C08 subcategory,1
-MED:ACDA-INJE,ACD-A 500ml x12,Medicines,acd-a,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'acd-a' - confirm C08 subcategory,1
-MED:ACETAZOLAMIDE-250MG-TABL,Acetazolamide,Medicines,acetazolamide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'acetazolamide' - confirm C08 subcategory,1
-MED:ACETAZOLOMIDETABS-250MG-TABL,Acetazolomide Tabs 250mg x 112,Medicines,acetazolomide tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'acetazolomide tabs' - confirm C08 subcategory,1
+MED:ABIOGENDIBASE-INJE,Abiogen Dibase 300000 1ml X 2amps 2,Medicines,abiogen dibase,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'abiogen dibase'; C08 subcategory left empty (acceptable),1
+MED:ACDA-INJE,ACD-A 500ml x12,Medicines,acd-a,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'acd-a'; C08 subcategory left empty (acceptable),1
+MED:ACETAZOLAMIDE-250MG-TABL,Acetazolamide,Medicines,acetazolamide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'acetazolamide'; C08 subcategory left empty (acceptable),1
+MED:ACETAZOLOMIDETABS-250MG-TABL,Acetazolomide Tabs 250mg x 112,Medicines,acetazolomide tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'acetazolomide tabs'; C08 subcategory left empty (acceptable),1
 MED:ACICLOVIR-400MG-TABL,ACICLOVIR 400MG Tablets 56,Medicines,aciclovir,,C08,Medicines & Pharmaceuticals,C08.04,Antivirals,CLASSIFIED,medicine class from 'aciclovir',2
 MED:ACICLOVIR-200MG-TABL,ACICLOVIR 200MG Tablets 25',Medicines,aciclovir,,C08,Medicines & Pharmaceuticals,C08.04,Antivirals,CLASSIFIED,medicine class from 'aciclovir',6
 MED:ACICLOVIR-800MG-TABL,Aciclovir,Medicines,aciclovir,,C08,Medicines & Pharmaceuticals,C08.04,Antivirals,CLASSIFIED,medicine class from 'aciclovir',2
@@ -1970,13 +1970,13 @@ MED:ACICLOVIRCREAM-5%-CREA,Aciclovir Cream Aciclovir 5 1 X 10g,Medicines,aciclov
 MED:ACICLOVIRDISPERSIB-200MG-TABL,Aciclovir Dispersible Tabs 200mg x25,Medicines,aciclovir dispersible,,C08,Medicines & Pharmaceuticals,C08.04,Antivirals,CLASSIFIED,medicine class from 'aciclovir dispersible',1
 MED:ACICLOVIRDISPERSIB-400MG-TABL,Aciclovir Dispersible Tabs 400mg x 56,Medicines,aciclovir dispersible,,C08,Medicines & Pharmaceuticals,C08.04,Antivirals,CLASSIFIED,medicine class from 'aciclovir dispersible',1
 MED:ACICLOVIRTABLETS-200MG-TABL,Aciclovir Tablets (200mg),Medicines,aciclovir tablets,,C08,Medicines & Pharmaceuticals,C08.04,Antivirals,CLASSIFIED,medicine class from 'aciclovir tablets',1
-MED:ACNECIDE-5%-GEL,Acnecide,Medicines,acnecide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'acnecide' - confirm C08 subcategory,1
-MED:ACTIKERALL-SOLU,Actikerall,Medicines,actikerall,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'actikerall' - confirm C08 subcategory,1
-MED:ADAPALENE-0.1%-CREA,Differin Cream 0.1% 50g,Medicines,adapalene,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'adapalene' - confirm C08 subcategory,2
-MED:ADAPALENE-0.1%-GEL,Differin Gel 0.1% 50g,Medicines,adapalene,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'adapalene' - confirm C08 subcategory,3
-MED:ADAPALENE-0.10%-GEL,Differin,Medicines,adapalene,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'adapalene' - confirm C08 subcategory,1
-MED:ADAPALENEBENZOYLPE-0.3%-GEL,Epiduo Pump Dispenser,Medicines,adapalene + benzoyl peroxide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'adapalene + benzoyl peroxide' - confirm C08 subcategory,2
-MED:ADAPALENEBENZOYLPE-0.1%-GEL,Epiduo Pump Dispenser,Medicines,adapalene + benzoyl peroxide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'adapalene + benzoyl peroxide' - confirm C08 subcategory,2
+MED:ACNECIDE-5%-GEL,Acnecide,Medicines,acnecide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'acnecide'; C08 subcategory left empty (acceptable),1
+MED:ACTIKERALL-SOLU,Actikerall,Medicines,actikerall,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'actikerall'; C08 subcategory left empty (acceptable),1
+MED:ADAPALENE-0.1%-CREA,Differin Cream 0.1% 50g,Medicines,adapalene,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'adapalene'; C08 subcategory left empty (acceptable),2
+MED:ADAPALENE-0.1%-GEL,Differin Gel 0.1% 50g,Medicines,adapalene,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'adapalene'; C08 subcategory left empty (acceptable),3
+MED:ADAPALENE-0.10%-GEL,Differin,Medicines,adapalene,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'adapalene'; C08 subcategory left empty (acceptable),1
+MED:ADAPALENEBENZOYLPE-0.3%-GEL,Epiduo Pump Dispenser,Medicines,adapalene + benzoyl peroxide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'adapalene + benzoyl peroxide'; C08 subcategory left empty (acceptable),2
+MED:ADAPALENEBENZOYLPE-0.1%-GEL,Epiduo Pump Dispenser,Medicines,adapalene + benzoyl peroxide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'adapalene + benzoyl peroxide'; C08 subcategory left empty (acceptable),2
 MED:ADRENALINE-1000U-INJE,Adrenaline Injection (1:1000units) 2 x 1ml,Medicines,adrenaline,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'adrenaline',1
 MED:ADRENALINE-INJE,Adrenaline 1:1000 1ml x1,Medicines,adrenaline,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'adrenaline',16
 MED:ADRENALINE-1MG-INJE,Adrenaline 1mg/ml,Medicines,adrenaline,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'adrenaline',5
@@ -1986,12 +1986,12 @@ MED:ADRENALINE-0.15MG-INJE,EpiPen Jr Auto Injector 150mcg Duo Pack,Medicines,adr
 MED:ADRENALINE-300MG-INJE,Epipen Auto Injection 300mg,Medicines,adrenaline,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'adrenaline',1
 MED:ADRENALINE-3MG-INJE,Jext Adrenaline 0 3mg Auto Injector Alternative Epipen Single Pen,Medicines,adrenaline,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'adrenaline',1
 MED:ADRENALINEINJECTIO-1000U-INJE,Adrenaline Injections (1:1000units) 10 x 1ml,Medicines,adrenaline injections,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'adrenaline injections',1
-MED:AERKIT-INJE,AER kit [POM],Medicines,aer kit,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aer kit' - confirm C08 subcategory,1
-MED:ALDARACREAM-5%-CREA,Aldara Cream 5% x 12 sachets,Medicines,aldara cream,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aldara cream' - confirm C08 subcategory,2
-MED:ALPHALIPOIC-500MG-INJE,Alpha Lipoic Acid 500mg 20ml,Medicines,alpha lipoic,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'alpha lipoic' - confirm C08 subcategory,1
-MED:ALURAGLUTATHIONE-INJE,Alura Glutathione Repair Serum 5 x 5ml,Medicines,alura glutathione,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,3
-MED:ALURAVIAL-INJE,Alura *SINGLE VIAL* Glutathione Repair Serum 1 x 5ml,Medicines,alura vial,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'alura vial' - confirm C08 subcategory,1
-MED:AMINOFORMULA-INJE,Amino Formula Fcs 50ml,Medicines,amino formula,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'amino formula' - confirm C08 subcategory,2
+MED:AERKIT-INJE,AER kit [POM],Medicines,aer kit,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aer kit'; C08 subcategory left empty (acceptable),1
+MED:ALDARACREAM-5%-CREA,Aldara Cream 5% x 12 sachets,Medicines,aldara cream,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aldara cream'; C08 subcategory left empty (acceptable),2
+MED:ALPHALIPOIC-500MG-INJE,Alpha Lipoic Acid 500mg 20ml,Medicines,alpha lipoic,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'alpha lipoic'; C08 subcategory left empty (acceptable),1
+MED:ALURAGLUTATHIONE-INJE,Alura Glutathione Repair Serum 5 x 5ml,Medicines,alura glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),3
+MED:ALURAVIAL-INJE,Alura *SINGLE VIAL* Glutathione Repair Serum 1 x 5ml,Medicines,alura vial,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:AMINOFORMULA-INJE,Amino Formula Fcs 50ml,Medicines,amino formula,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'amino formula'; C08 subcategory left empty (acceptable),2
 MED:AMOXICILLIN-3000MG,Amoxicillin,Medicines,amoxicillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'amoxicillin',1
 MED:AMOXICILLIN-250MG-CAPS,"Amoxicillin , 250mg, 1 x 21",Medicines,amoxicillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'amoxicillin',3
 MED:AMOXICILLIN-1000MG-TABL,Amoxicillin 1g dispersible tablets (pack of 6 tabs),Medicines,amoxicillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'amoxicillin',1
@@ -2006,64 +2006,64 @@ MED:AMOXICILLINCAPSULE-250MG-CAPS,Amoxicillin Capsules BP - 250mg,Medicines,amox
 MED:AMOXICILLINCAPSULE-500MG-CAPS,Amoxicillin Capsules 500mg (21 pack),Medicines,amoxicillin capsules,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'amoxicillin capsules',3
 MED:AMOXICILLINSF-125MG5ML-ORAL,Amoxicillin Sf,Medicines,amoxicillin sf,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'amoxicillin sf',1
 MED:AMOXICILLINSUGAR-250MG5ML-ORAL,Amoxicillin Sugar Free,Medicines,amoxicillin sugar,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'amoxicillin sugar',1
-MED:AMPICILLIN-500MG-CAPS,Ampicillin,Medicines,ampicillin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ampicillin' - confirm C08 subcategory,1
-MED:AMPICILLIN-250MG-CAPS,Ampicillin,Medicines,ampicillin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ampicillin' - confirm C08 subcategory,1
-MED:ANESTADENT-INJE,"Anestadent 4% w/v and 1:100,000 Solution for Injection",Medicines,anestadent,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'anestadent' - confirm C08 subcategory,1
-MED:APRACLONIDINE-EYED,Iopidine Drops 0.5% 5ml,Medicines,apraclonidine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'apraclonidine' - confirm C08 subcategory,6
-MED:APRACLONIDINE-5MG-EYED,Iopidine Eye Drops Solution 5mg / ml,Medicines,apraclonidine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'apraclonidine' - confirm C08 subcategory,5
+MED:AMPICILLIN-500MG-CAPS,Ampicillin,Medicines,ampicillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'ampicillin',1
+MED:AMPICILLIN-250MG-CAPS,Ampicillin,Medicines,ampicillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'ampicillin',1
+MED:ANESTADENT-INJE,"Anestadent 4% w/v and 1:100,000 Solution for Injection",Medicines,anestadent,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'anestadent'; C08 subcategory left empty (acceptable),1
+MED:APRACLONIDINE-EYED,Iopidine Drops 0.5% 5ml,Medicines,apraclonidine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'apraclonidine'; C08 subcategory left empty (acceptable),6
+MED:APRACLONIDINE-5MG-EYED,Iopidine Eye Drops Solution 5mg / ml,Medicines,apraclonidine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'apraclonidine'; C08 subcategory left empty (acceptable),5
 MED:ARTICAINEADRENALIN-INJE,"Septanest 4% Articaine Anaesthetic 1:100,000",Medicines,articaine + adrenaline,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'articaine + adrenaline',3
-MED:ASCORBICACID-150MG-INJE,Ascorbic Acid 150mg/ml concentrate for solution for injection/infusion 50ml,Medicines,ascorbic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ascorbic acid' - confirm C08 subcategory,3
-MED:ASCORELL-500MG-INJE,Ascorell,Medicines,ascorell,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ascorell' - confirm C08 subcategory,1
-MED:ASPIRIN-300MG-TABL,Aspirin 300mg Dispersible Tablets,Medicines,aspirin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin' - confirm C08 subcategory,4
-MED:ASPIRIN-75MG-TABL,Aspirin 75mg Tablets,Medicines,aspirin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin' - confirm C08 subcategory,8
-MED:ASPIRINDISPERSIBLE-75MG-TABL,Aspirin Dispersible 75mg Tablets,Medicines,aspirin dispersible,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin dispersible' - confirm C08 subcategory,1
-MED:ASPIRINEC-75MG-TABL,Aspirin E/C,Medicines,aspirin ec,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin ec' - confirm C08 subcategory,2
-MED:ASPIRINTABLETS-75MG-TABL,Aspirin Tablets Dispersible 75mg 28 tablets,Medicines,aspirin tablets,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin tablets' - confirm C08 subcategory,1
-MED:ASPIRINTABS-75MG-TABL,Aspirin Tabs Dispersible 75mg x28,Medicines,aspirin tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin tabs' - confirm C08 subcategory,1
-MED:ATROPINESULPHATE-0.4MG-INJE,Atropine Sulphate Injection,Medicines,atropine sulphate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'atropine sulphate' - confirm C08 subcategory,1
-MED:ATROPINESULPHATE-1MG-INJE,Atropine Sulphate Injection,Medicines,atropine sulphate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'atropine sulphate' - confirm C08 subcategory,1
-MED:ATROPINESULPHATE-0.6MG-INJE,Atropine Sulphate Injection,Medicines,atropine sulphate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'atropine sulphate' - confirm C08 subcategory,1
-MED:AURORANAD,Aurora NAD+ (1 x 5ml),Medicines,aurora nad+,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:AZELAICACID-15%-GEL,Finacea Gel 15% 30g,Medicines,azelaic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'azelaic acid' - confirm C08 subcategory,3
-MED:AZELAICACID-20%-CREA,Skinoren - Azelaic acid,Medicines,azelaic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'azelaic acid' - confirm C08 subcategory,2
-MED:AZELAICACID-CREA,Skinoren Cream 50g,Medicines,azelaic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'azelaic acid' - confirm C08 subcategory,1
+MED:ASCORBICACID-150MG-INJE,Ascorbic Acid 150mg/ml concentrate for solution for injection/infusion 50ml,Medicines,ascorbic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),3
+MED:ASCORELL-500MG-INJE,Ascorell,Medicines,ascorell,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ascorell'; C08 subcategory left empty (acceptable),1
+MED:ASPIRIN-300MG-TABL,Aspirin 300mg Dispersible Tablets,Medicines,aspirin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin'; C08 subcategory left empty (acceptable),4
+MED:ASPIRIN-75MG-TABL,Aspirin 75mg Tablets,Medicines,aspirin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin'; C08 subcategory left empty (acceptable),8
+MED:ASPIRINDISPERSIBLE-75MG-TABL,Aspirin Dispersible 75mg Tablets,Medicines,aspirin dispersible,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin dispersible'; C08 subcategory left empty (acceptable),1
+MED:ASPIRINEC-75MG-TABL,Aspirin E/C,Medicines,aspirin ec,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin ec'; C08 subcategory left empty (acceptable),2
+MED:ASPIRINTABLETS-75MG-TABL,Aspirin Tablets Dispersible 75mg 28 tablets,Medicines,aspirin tablets,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin tablets'; C08 subcategory left empty (acceptable),1
+MED:ASPIRINTABS-75MG-TABL,Aspirin Tabs Dispersible 75mg x28,Medicines,aspirin tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aspirin tabs'; C08 subcategory left empty (acceptable),1
+MED:ATROPINESULPHATE-0.4MG-INJE,Atropine Sulphate Injection,Medicines,atropine sulphate,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'atropine sulphate',1
+MED:ATROPINESULPHATE-1MG-INJE,Atropine Sulphate Injection,Medicines,atropine sulphate,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'atropine sulphate',1
+MED:ATROPINESULPHATE-0.6MG-INJE,Atropine Sulphate Injection,Medicines,atropine sulphate,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'atropine sulphate',1
+MED:AURORANAD,Aurora NAD+ (1 x 5ml),Medicines,aurora nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:AZELAICACID-15%-GEL,Finacea Gel 15% 30g,Medicines,azelaic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'azelaic acid'; C08 subcategory left empty (acceptable),3
+MED:AZELAICACID-20%-CREA,Skinoren - Azelaic acid,Medicines,azelaic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'azelaic acid'; C08 subcategory left empty (acceptable),2
+MED:AZELAICACID-CREA,Skinoren Cream 50g,Medicines,azelaic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'azelaic acid'; C08 subcategory left empty (acceptable),1
 MED:AZITHROMYCIN-200MG5ML-ORAL,Azithromycin,Medicines,azithromycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'azithromycin',1
 MED:AZITHROMYCIN-250MG-TABL,Azithromycin,Medicines,azithromycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'azithromycin',1
 MED:AZITHROMYCIN-500MG-TABL,Azithromycin 500mg Tabs Pack Of 3 Tabs,Medicines,azithromycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'azithromycin',3
 MED:AZITHROMYCIN-250MG-CAPS,Azithromycin,Medicines,azithromycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'azithromycin',1
 MED:AZITHROMYCINTABLET-500MG-TABL,Azithromycin Tablets 500mg,Medicines,azithromycin tablets,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'azithromycin tablets',1
 MED:AZITHROMYCINTABS-500MG-TABL,Azithromycin Tabs 500mg x3,Medicines,azithromycin tabs,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'azithromycin tabs',1
-MED:BAXTERADMINISTRATI-SOLU,Baxter Solution Administration Set Non Air Vented- Luer-lock. Length 232cm,Medicines,baxter administration,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'baxter administration' - confirm C08 subcategory,1
-MED:BENADRYLALLERGY-8MG-CAPS,Benadryl Allergy Relief,Medicines,benadryl allergy,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:BEPANTHENE-250MG-INJE,Bepanthene 250mg/ml IM 2ml Amps x 6,Medicines,bepanthene,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bepanthene' - confirm C08 subcategory,1
+MED:BAXTERADMINISTRATI-SOLU,Baxter Solution Administration Set Non Air Vented- Luer-lock. Length 232cm,Medicines,baxter administration,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:BENADRYLALLERGY-8MG-CAPS,Benadryl Allergy Relief,Medicines,benadryl allergy,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'benadryl allergy'; C08 subcategory left empty (acceptable),1
+MED:BEPANTHENE-250MG-INJE,Bepanthene 250mg/ml IM 2ml Amps x 6,Medicines,bepanthene,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bepanthene'; C08 subcategory left empty (acceptable),1
 MED:BETAMETHASONE-4MG-INJE,Betamethasone Inj 4mg 5 x 1ml,Medicines,betamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'betamethasone',1
 MED:BETAMETHASONE-0.1%-CREA,Betnovate,Medicines,betamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'betamethasone',2
 MED:BETAMETHASONE-CREA,Betnovate Cream 100g,Medicines,betamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'betamethasone',2
 MED:BETAMETHASONE-0.10%-OINT,Betamethasone,Medicines,betamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'betamethasone',3
 MED:BETAMETHASONE-0.03%-OINT,Betnovate Rd,Medicines,betamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'betamethasone',1
 MED:BETAMETHASONE-0.10%-LOTI,Betnovate Scalp Application,Medicines,betamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'betamethasone',1
-MED:BIMATOPROST-0.1MG-EYED,Bimatoprost 0.1mg/ml Eye Drops,Medicines,bimatoprost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost' - confirm C08 subcategory,5
-MED:BIMATOPROST-EYED,Lumigan Eye Drops 0.01% Triple Pack 3ml x 3,Medicines,bimatoprost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost' - confirm C08 subcategory,8
-MED:BIMATOPROST-0.3MG-EYED,Lumigan 0.3mg/mL 30 x 0.4ml,Medicines,bimatoprost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost' - confirm C08 subcategory,2
-MED:BIMATOPROST-1MG-EYED,Lumigan 0 1mg Ml Eye Drops,Medicines,bimatoprost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost' - confirm C08 subcategory,1
-MED:BIMATOPROST-3MG-EYED,Lumigan 0 3mg Ml Unit Dose Eye Drops 0 4ml X 30 Doses,Medicines,bimatoprost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost' - confirm C08 subcategory,1
-MED:BIMATOPROSTDROPS,Bimatoprost Drops 0.03% X 3ml,Medicines,bimatoprost drops,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost drops' - confirm C08 subcategory,1
-MED:BIMATOPROSTEYREIDA-3MG3ML-EYED,Bimatoprost Eyreida 03mg3ml,Medicines,bimatoprost eyreida,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost eyreida' - confirm C08 subcategory,1
-MED:BIOTIN-INJE,Biotin 0.5% Box of 6 x 1ml,Medicines,biotin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:BIOTIN-5MG-INJE,Biotin 5mg Ml Solution For Injection 5 Amps,Medicines,biotin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:BIOTINEBAYER-INJE,Biotine Bayer 0.5% Vitamin H IM Injection (6 x 1ml Ampoules),Medicines,biotine bayer,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,3
-MED:BRAUNEXADROP-SOLU,B Braun Exadrop Precision Iv Flow Gravity Infusion Set,Medicines,braun exadrop,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'braun exadrop' - confirm C08 subcategory,1
-MED:BRAUNINTROCAN-24000MG-SOLU,B Braun Introcan Safety 3Â Closed IV Catheter 24G x 19mm,Medicines,braun introcan,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'braun introcan' - confirm C08 subcategory,1
-MED:BRIMONIDINE-889000MG-EYED,Alphagan,Medicines,brimonidine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'brimonidine' - confirm C08 subcategory,1
-MED:BRIMONIDINE-GEL,Mirvaso,Medicines,brimonidine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'brimonidine' - confirm C08 subcategory,1
-MED:BRIMONIDINEEYE-EYED,Brimonidine Eye Drops 0 2 1x5ml,Medicines,brimonidine eye,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'brimonidine eye' - confirm C08 subcategory,1
-MED:BRINZOLAMIDE-10MG-EYED,Azopt Eye Drops,Medicines,brinzolamide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'brinzolamide' - confirm C08 subcategory,1
-MED:BRUFEN-400MG-TABL,Brufen,Medicines,brufen,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'brufen' - confirm C08 subcategory,1
-MED:BUPIVACAINE-INJE,Marcain 0.25% 10ml x 5 Polyamp,Medicines,bupivacaine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bupivacaine' - confirm C08 subcategory,9
+MED:BIMATOPROST-0.1MG-EYED,Bimatoprost 0.1mg/ml Eye Drops,Medicines,bimatoprost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost'; C08 subcategory left empty (acceptable),5
+MED:BIMATOPROST-EYED,Lumigan Eye Drops 0.01% Triple Pack 3ml x 3,Medicines,bimatoprost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost'; C08 subcategory left empty (acceptable),8
+MED:BIMATOPROST-0.3MG-EYED,Lumigan 0.3mg/mL 30 x 0.4ml,Medicines,bimatoprost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost'; C08 subcategory left empty (acceptable),2
+MED:BIMATOPROST-1MG-EYED,Lumigan 0 1mg Ml Eye Drops,Medicines,bimatoprost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost'; C08 subcategory left empty (acceptable),1
+MED:BIMATOPROST-3MG-EYED,Lumigan 0 3mg Ml Unit Dose Eye Drops 0 4ml X 30 Doses,Medicines,bimatoprost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost'; C08 subcategory left empty (acceptable),1
+MED:BIMATOPROSTDROPS,Bimatoprost Drops 0.03% X 3ml,Medicines,bimatoprost drops,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost drops'; C08 subcategory left empty (acceptable),1
+MED:BIMATOPROSTEYREIDA-3MG3ML-EYED,Bimatoprost Eyreida 03mg3ml,Medicines,bimatoprost eyreida,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bimatoprost eyreida'; C08 subcategory left empty (acceptable),1
+MED:BIOTIN-INJE,Biotin 0.5% Box of 6 x 1ml,Medicines,biotin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'biotin'; C08 subcategory left empty (acceptable),2
+MED:BIOTIN-5MG-INJE,Biotin 5mg Ml Solution For Injection 5 Amps,Medicines,biotin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'biotin'; C08 subcategory left empty (acceptable),1
+MED:BIOTINEBAYER-INJE,Biotine Bayer 0.5% Vitamin H IM Injection (6 x 1ml Ampoules),Medicines,biotine bayer,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),3
+MED:BRAUNEXADROP-SOLU,B Braun Exadrop Precision Iv Flow Gravity Infusion Set,Medicines,braun exadrop,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:BRAUNINTROCAN-24000MG-SOLU,B Braun Introcan Safety 3Â Closed IV Catheter 24G x 19mm,Medicines,braun introcan,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:BRIMONIDINE-889000MG-EYED,Alphagan,Medicines,brimonidine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'brimonidine'; C08 subcategory left empty (acceptable),1
+MED:BRIMONIDINE-GEL,Mirvaso,Medicines,brimonidine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'brimonidine'; C08 subcategory left empty (acceptable),1
+MED:BRIMONIDINEEYE-EYED,Brimonidine Eye Drops 0 2 1x5ml,Medicines,brimonidine eye,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'brimonidine eye'; C08 subcategory left empty (acceptable),1
+MED:BRINZOLAMIDE-10MG-EYED,Azopt Eye Drops,Medicines,brinzolamide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'brinzolamide'; C08 subcategory left empty (acceptable),1
+MED:BRUFEN-400MG-TABL,Brufen,Medicines,brufen,,C08,Medicines & Pharmaceuticals,C08.06,Anti-inflammatory Medicines,CLASSIFIED,medicine class from 'brufen',1
+MED:BUPIVACAINE-INJE,Marcain 0.25% 10ml x 5 Polyamp,Medicines,bupivacaine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'bupivacaine'; C08 subcategory left empty (acceptable),9
 MED:BUPIVACAINEADRENAL-INJE,Bupivacaine with adrenaline 0.5%,Medicines,bupivacaine adrenaline,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'bupivacaine adrenaline',1
 MED:BUPIVACAINEADRENAL-7000MG-INJE,Bupivacaine Adrenaline Injection,Medicines,bupivacaine adrenaline,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'bupivacaine adrenaline',1
-MED:BUTTERFLYWINGED-23000MG-SOLU,Butterfly Winged Infusion Set 23G x 19mm,Medicines,butterfly winged,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'butterfly winged' - confirm C08 subcategory,1
-MED:CANESTENHC-1%-CREA,Canesten Hc,Medicines,canesten hc,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'canesten hc' - confirm C08 subcategory,2
+MED:BUTTERFLYWINGED-23000MG-SOLU,Butterfly Winged Infusion Set 23G x 19mm,Medicines,butterfly winged,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:CANESTENHC-1%-CREA,Canesten Hc,Medicines,canesten hc,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'canesten hc',2
 MED:CEFALEXIN-250MG-TABL,Cefalexin,Medicines,cefalexin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'cefalexin',1
 MED:CEFALEXIN-500MG-CAPS,Cefalexin,Medicines,cefalexin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'cefalexin',1
 MED:CEFALEXIN-500MG-TABL,Cefalexin,Medicines,cefalexin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'cefalexin',1
@@ -2071,10 +2071,10 @@ MED:CEFALEXIN-250MG5ML-ORAL,Cefalexin,Medicines,cefalexin,,C08,Medicines & Pharm
 MED:CEFALEXIN-250MG-CAPS,Cefalexin,Medicines,cefalexin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'cefalexin',2
 MED:CEFALEXIN-125MG5ML-ORAL,Cefalexin,Medicines,cefalexin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'cefalexin',1
 MED:CEFALEXINCAPSULES-500MG-CAPS,Cefalexin Capsules 500mg x 21,Medicines,cefalexin capsules,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'cefalexin capsules',1
-MED:CEFUROXIME-250MG-TABL,Zinnat,Medicines,cefuroxime,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cefuroxime' - confirm C08 subcategory,1
-MED:CETIRIZINE-10MG-TABL,Cetirizine 10mg Tablets (x 30),Medicines,cetirizine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cetirizine' - confirm C08 subcategory,4
-MED:CETIRIZINETABS-10MG-TABL,Cetirizine Tabs 10mg x30,Medicines,cetirizine tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cetirizine tabs' - confirm C08 subcategory,1
-MED:CHIROCAINE-5MG-INJE,Chirocaine,Medicines,chirocaine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'chirocaine' - confirm C08 subcategory,1
+MED:CEFUROXIME-250MG-TABL,Zinnat,Medicines,cefuroxime,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'cefuroxime',1
+MED:CETIRIZINE-10MG-TABL,Cetirizine 10mg Tablets (x 30),Medicines,cetirizine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cetirizine'; C08 subcategory left empty (acceptable),4
+MED:CETIRIZINETABS-10MG-TABL,Cetirizine Tabs 10mg x30,Medicines,cetirizine tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cetirizine tabs'; C08 subcategory left empty (acceptable),1
+MED:CHIROCAINE-5MG-INJE,Chirocaine,Medicines,chirocaine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'chirocaine'; C08 subcategory left empty (acceptable),1
 MED:CHLORPHENAMINE-10MG-INJE,Chlorphenamine Injection 10mg/ml x 1,Medicines,chlorphenamine,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'chlorphenamine',2
 MED:CHLORPHENAMINE-4MG-TABL,Chlorphenamine,Medicines,chlorphenamine,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'chlorphenamine',4
 MED:CHLORPHENAMINE-2MG5ML-ORAL,Piriton,Medicines,chlorphenamine,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'chlorphenamine',1
@@ -2082,18 +2082,18 @@ MED:CHLORPHENAMINE-2MG-ORAL,"Piriton , 2mg-5ml, 1 x 150ml",Medicines,chlorphenam
 MED:CHLORPHENAMINE-10MG1ML-INJE,Chlorphenamine,Medicines,chlorphenamine,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'chlorphenamine',1
 MED:CHLORPHENAMINETABL-4MG-TABL,Chlorphenamine Tablets 4mg 1 x 28,Medicines,chlorphenamine tablets,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'chlorphenamine tablets',1
 MED:CHLORPHENAMINETABS-4MG-TABL,Chlorphenamine Tabs 4mg x28,Medicines,chlorphenamine tabs,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'chlorphenamine tabs',1
-MED:CICLOSPORIN-100MG-CAPS,Ciclosporin,Medicines,ciclosporin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ciclosporin' - confirm C08 subcategory,1
+MED:CICLOSPORIN-100MG-CAPS,Ciclosporin,Medicines,ciclosporin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ciclosporin'; C08 subcategory left empty (acceptable),1
 MED:CIPROFLOXACIN-500MG-TABL,Ciprofloxacin 500mg Tablets,Medicines,ciprofloxacin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'ciprofloxacin',3
 MED:CIPROFLOXACIN-250MG-TABL,Ciprofloxacin 250mg Tablets,Medicines,ciprofloxacin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'ciprofloxacin',3
 MED:CIPROFLOXACINTABS-500MG-TABL,Ciprofloxacin Tabs 500mg x 10,Medicines,ciprofloxacin tabs,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'ciprofloxacin tabs',1
-MED:CLARITHROMYCIN-125MG5ML-ORAL,Clarithromycin,Medicines,clarithromycin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clarithromycin' - confirm C08 subcategory,1
-MED:CLARITHROMYCIN-250MG5ML-ORAL,Clarithromycin,Medicines,clarithromycin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clarithromycin' - confirm C08 subcategory,1
-MED:CLARITHROMYCIN-250MG-TABL,Clarithromycin 250mg Film Coated Tablets,Medicines,clarithromycin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clarithromycin' - confirm C08 subcategory,3
-MED:CLARITHROMYCIN-500MG-TABL,Clarithromycin 500mg Film Coated Tablets,Medicines,clarithromycin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clarithromycin' - confirm C08 subcategory,4
-MED:CLARITHROMYCINTABL-250MG-TABL,Clarithromycin Tablets 250mg (Pack of 14),Medicines,clarithromycin tablets,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clarithromycin tablets' - confirm C08 subcategory,1
-MED:CLARITHROMYCINTABL-500MG-TABL,Clarithromycin Tablets 500mg (Pack of 14),Medicines,clarithromycin tablets,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clarithromycin tablets' - confirm C08 subcategory,1
-MED:CLARITHROMYCINTABS-500MG-TABL,Clarithromycin Tabs 500mg x14,Medicines,clarithromycin tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clarithromycin tabs' - confirm C08 subcategory,1
-MED:CLARITHROMYCINTABS-250MG-TABL,Clarithromycin tabs 250mg x 14,Medicines,clarithromycin tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clarithromycin tabs' - confirm C08 subcategory,1
+MED:CLARITHROMYCIN-125MG5ML-ORAL,Clarithromycin,Medicines,clarithromycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clarithromycin',1
+MED:CLARITHROMYCIN-250MG5ML-ORAL,Clarithromycin,Medicines,clarithromycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clarithromycin',1
+MED:CLARITHROMYCIN-250MG-TABL,Clarithromycin 250mg Film Coated Tablets,Medicines,clarithromycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clarithromycin',3
+MED:CLARITHROMYCIN-500MG-TABL,Clarithromycin 500mg Film Coated Tablets,Medicines,clarithromycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clarithromycin',4
+MED:CLARITHROMYCINTABL-250MG-TABL,Clarithromycin Tablets 250mg (Pack of 14),Medicines,clarithromycin tablets,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clarithromycin tablets',1
+MED:CLARITHROMYCINTABL-500MG-TABL,Clarithromycin Tablets 500mg (Pack of 14),Medicines,clarithromycin tablets,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clarithromycin tablets',1
+MED:CLARITHROMYCINTABS-500MG-TABL,Clarithromycin Tabs 500mg x14,Medicines,clarithromycin tabs,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clarithromycin tabs',1
+MED:CLARITHROMYCINTABS-250MG-TABL,Clarithromycin tabs 250mg x 14,Medicines,clarithromycin tabs,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clarithromycin tabs',1
 MED:CLINDAMYCIN-150MG-CAPS,Clindamycin,Medicines,clindamycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clindamycin',1
 MED:CLINDAMYCIN-GEL,Zindaclin Gel 30g,Medicines,clindamycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clindamycin',1
 MED:CLINDAMYCIN-2%-CREA,Dalacin,Medicines,clindamycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clindamycin',1
@@ -2107,16 +2107,16 @@ MED:CLINDAMYCINTRETINO-1%-GEL,Treclin Gel 1%/0.025% 30g,Medicines,clindamycin + 
 MED:CLINDAMYCINTRETINO-0.025%-GEL,Treclin,Medicines,clindamycin + tretinoin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clindamycin + tretinoin',1
 MED:CLINDAMYCINTRETINO-INJE,Treclin,Medicines,clindamycin + tretinoin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clindamycin + tretinoin',1
 MED:CLINDAMYCINCAPSULE-300MG-CAPS,Clindamycin Capsules 30 X 300mg,Medicines,clindamycin capsules,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'clindamycin capsules',1
-MED:CLINIMIX-SOLU,Clinimix N14g30e Dual Chamber Iv,Medicines,clinimix,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clinimix' - confirm C08 subcategory,1
-MED:CLOBADERM-0.05%-OINT,Clobaderm,Medicines,clobaderm,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clobaderm' - confirm C08 subcategory,1
+MED:CLINIMIX-SOLU,Clinimix N14g30e Dual Chamber Iv,Medicines,clinimix,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:CLOBADERM-0.05%-OINT,Clobaderm,Medicines,clobaderm,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'clobaderm',1
 MED:CLOBETASOL-0.05%-OINT,Dermovate,Medicines,clobetasol,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'clobetasol',2
 MED:CLOBETASOL-CREA,Dermovate Cream 100g,Medicines,clobetasol,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'clobetasol',3
 MED:CLOBETASOL-0.05%-CREA,Dermovate,Medicines,clobetasol,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'clobetasol',1
 MED:CLOBETASOL-0.05%-LOTI,Dermovate Scalp Application,Medicines,clobetasol,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'clobetasol',1
-MED:CLOBETASONE-20%-CREA,Eumovate Cream (30g),Medicines,clobetasone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clobetasone' - confirm C08 subcategory,1
-MED:CLOBETASONE-CREA,Eumovate Cream 100g,Medicines,clobetasone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clobetasone' - confirm C08 subcategory,3
-MED:CLOBETASONE-OINT,Eumovate Ointment 30g,Medicines,clobetasone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clobetasone' - confirm C08 subcategory,1
-MED:CLOBETASONE-0.05%-CREA,Eumovate,Medicines,clobetasone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'clobetasone' - confirm C08 subcategory,1
+MED:CLOBETASONE-20%-CREA,Eumovate Cream (30g),Medicines,clobetasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'clobetasone',1
+MED:CLOBETASONE-CREA,Eumovate Cream 100g,Medicines,clobetasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'clobetasone',3
+MED:CLOBETASONE-OINT,Eumovate Ointment 30g,Medicines,clobetasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'clobetasone',1
+MED:CLOBETASONE-0.05%-CREA,Eumovate,Medicines,clobetasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'clobetasone',1
 MED:COAMOXICLAV-500MG-INJE,21 X Co Amoxiclav 500mg 125mg,Medicines,co-amoxiclav,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'co-amoxiclav',1
 MED:COAMOXICLAV-625MG-TABL,Co-Amoxiclav 625mg x 21,Medicines,co-amoxiclav,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'co-amoxiclav',5
 MED:COAMOXICLAV-375MG-TABL,"Augmentin , 375mg, 1 x 21",Medicines,co-amoxiclav,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'co-amoxiclav',3
@@ -2124,50 +2124,50 @@ MED:COAMOXICLAV-250MG-ORAL,Co-Amoxiclav,Medicines,co-amoxiclav,,C08,Medicines & 
 MED:COAMOXICLAV-125MG-ORAL,Augmentin Sf,Medicines,co-amoxiclav,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'co-amoxiclav',2
 MED:COAMOXICLAVTAB-625MG-TABL,CO-AMOXICLAV TAB 625MG (500/125) 21',Medicines,co-amoxiclav tab,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'co-amoxiclav tab',1
 MED:COAMOXICLAVTABLETS-125MG-TABL,Co-Amoxiclav Tablets 250/125mg (21 pack),Medicines,co-amoxiclav tablets,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'co-amoxiclav tablets',1
-MED:CODANINFUSION-SOLU,Codan Infusion Set,Medicines,codan infusion,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'codan infusion' - confirm C08 subcategory,1
-MED:COLCALCIFEROL-00IU-INJE,Colcalciferol 300 00iu Vit D3 2 X 1ml,Medicines,colcalciferol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'colcalciferol' - confirm C08 subcategory,1
-MED:COLECALCIFEROL-300.000IU-INJE,Colecalciferol,Medicines,colecalciferol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'colecalciferol' - confirm C08 subcategory,1
-MED:COMPEEDCOLD-PATC,Compeed Cold Sore,Medicines,compeed cold,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'compeed cold' - confirm C08 subcategory,1
-MED:COMPLEX-INJE,B Complex 5ml,Medicines,complex,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'complex' - confirm C08 subcategory,1
-MED:COMPOUNDSODIUM-SOLU,Compound Sodium Lactate Hartmanns Solution,Medicines,compound sodium,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'compound sodium' - confirm C08 subcategory,1
-MED:COPPERPEPTIDE-SOLU,Copper Peptide Micro Needling Infusion System 1 Box Kit,Medicines,copper peptide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'copper peptide' - confirm C08 subcategory,3
-MED:CYANOCOBALAMIN-0.1MG,Cyanocobalamin B12 100mcg x 50,Medicines,cyanocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cyanocobalamin' - confirm C08 subcategory,1
-MED:CYANOCOBALAMIN-INJE,Cyanocobalamin injection,Medicines,cyanocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cyanocobalamin' - confirm C08 subcategory,1
-MED:CYANOVITCYANOCOBAL-1MG-TABL,Cyanovit Cyanocobalamin,Medicines,cyanovit cyanocobalamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:CYCLIZINE-50MG-TABL,Cyclizine,Medicines,cyclizine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cyclizine' - confirm C08 subcategory,2
-MED:CYCLIZINE-50MG-INJE,Cyclizine,Medicines,cyclizine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cyclizine' - confirm C08 subcategory,2
-MED:CYCLIZINEHYDROCHLO-50MG-TABL,Cyclizine Hydrochloride – 50mg (30 Tablets),Medicines,cyclizine hydrochloride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cyclizine hydrochloride' - confirm C08 subcategory,1
-MED:DEPOMEDRONE-40MG-INJE,Depomedrone 40mgml Injection Non Lidocaine 1 X 1ml,Medicines,depomedrone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'depomedrone' - confirm C08 subcategory,3
-MED:DEPOMEDRONEPARALLE-40MG-INJE,Depomedrone Parallel Imported Version Reissued By Mhra Approved UK Manufacturing Licence Holder,Medicines,depomedrone parallel,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'depomedrone parallel' - confirm C08 subcategory,1
-MED:DEPONIT-10MG-PATC,Deponit 10,Medicines,deponit,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'deponit' - confirm C08 subcategory,1
-MED:DEPONIT-5MG-PATC,Deponit 5 Single Patch,Medicines,deponit,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'deponit' - confirm C08 subcategory,2
+MED:CODANINFUSION-SOLU,Codan Infusion Set,Medicines,codan infusion,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:COLCALCIFEROL-00IU-INJE,Colcalciferol 300 00iu Vit D3 2 X 1ml,Medicines,colcalciferol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'colcalciferol'; C08 subcategory left empty (acceptable),1
+MED:COLECALCIFEROL-300.000IU-INJE,Colecalciferol,Medicines,colecalciferol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:COMPEEDCOLD-PATC,Compeed Cold Sore,Medicines,compeed cold,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'compeed cold'; C08 subcategory left empty (acceptable),1
+MED:COMPLEX-INJE,B Complex 5ml,Medicines,complex,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'complex'; C08 subcategory left empty (acceptable),1
+MED:COMPOUNDSODIUM-SOLU,Compound Sodium Lactate Hartmanns Solution,Medicines,compound sodium,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'compound sodium'; C08 subcategory left empty (acceptable),1
+MED:COPPERPEPTIDE-SOLU,Copper Peptide Micro Needling Infusion System 1 Box Kit,Medicines,copper peptide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'copper peptide'; C08 subcategory left empty (acceptable),3
+MED:CYANOCOBALAMIN-0.1MG,Cyanocobalamin B12 100mcg x 50,Medicines,cyanocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:CYANOCOBALAMIN-INJE,Cyanocobalamin injection,Medicines,cyanocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:CYANOVITCYANOCOBAL-1MG-TABL,Cyanovit Cyanocobalamin,Medicines,cyanovit cyanocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:CYCLIZINE-50MG-TABL,Cyclizine,Medicines,cyclizine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cyclizine'; C08 subcategory left empty (acceptable),2
+MED:CYCLIZINE-50MG-INJE,Cyclizine,Medicines,cyclizine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cyclizine'; C08 subcategory left empty (acceptable),2
+MED:CYCLIZINEHYDROCHLO-50MG-TABL,Cyclizine Hydrochloride – 50mg (30 Tablets),Medicines,cyclizine hydrochloride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'cyclizine hydrochloride'; C08 subcategory left empty (acceptable),1
+MED:DEPOMEDRONE-40MG-INJE,Depomedrone 40mgml Injection Non Lidocaine 1 X 1ml,Medicines,depomedrone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'depomedrone',3
+MED:DEPOMEDRONEPARALLE-40MG-INJE,Depomedrone Parallel Imported Version Reissued By Mhra Approved UK Manufacturing Licence Holder,Medicines,depomedrone parallel,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'depomedrone parallel',1
+MED:DEPONIT-10MG-PATC,Deponit 10,Medicines,deponit,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'deponit'; C08 subcategory left empty (acceptable),1
+MED:DEPONIT-5MG-PATC,Deponit 5 Single Patch,Medicines,deponit,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'deponit'; C08 subcategory left empty (acceptable),2
 MED:DEXAMETHASONE-1MG-TABL,Dexamethasone,Medicines,dexamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'dexamethasone',1
 MED:DEXAMETHASONE-2MG-TABL,Dexamethasone,Medicines,dexamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'dexamethasone',1
 MED:DEXAMETHASONE-3.3MG-INJE,Dexamethasone,Medicines,dexamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'dexamethasone',2
 MED:DEXAMETHASONE-6MG2ML-INJE,Dexamethasone,Medicines,dexamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'dexamethasone',2
 MED:DEXAMETHASONE-3.8MG-INJE,Dexamethasone,Medicines,dexamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'dexamethasone',1
 MED:DEXAMETHASONETABLE-2MG-TABL,Dexamethasone Tablet 2mg x 28,Medicines,dexamethasone tablet,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'dexamethasone tablet',1
-MED:DIANETTE-2MG-TABL,Dianette,Medicines,dianette,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'dianette' - confirm C08 subcategory,1
-MED:DIPROSALIC-0.05%-OINT,Diprosalic,Medicines,diprosalic,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'diprosalic' - confirm C08 subcategory,2
-MED:DIYNADPEN-750MG-INJE,DIYNAD+ Injection Pen 750mg – 3 Months Supply (3 Injection Pens) SAVE 10%,Medicines,diynad pen,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:DOMPERIDONE-10MG-TABL,"Domperidone, 10mg, 1 x 30",Medicines,domperidone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'domperidone' - confirm C08 subcategory,2
-MED:DOMPERIDONETABS-10MG-TABL,Domperidone Tabs 10mg x 100,Medicines,domperidone tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'domperidone tabs' - confirm C08 subcategory,2
-MED:DOVOBET-OINT,Dovobet,Medicines,dovobet,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'dovobet' - confirm C08 subcategory,1
-MED:DOVONEX-OINT,Dovonex,Medicines,dovonex,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'dovonex' - confirm C08 subcategory,1
+MED:DIANETTE-2MG-TABL,Dianette,Medicines,dianette,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'dianette'; C08 subcategory left empty (acceptable),1
+MED:DIPROSALIC-0.05%-OINT,Diprosalic,Medicines,diprosalic,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'diprosalic',2
+MED:DIYNADPEN-750MG-INJE,DIYNAD+ Injection Pen 750mg – 3 Months Supply (3 Injection Pens) SAVE 10%,Medicines,diynad pen,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:DOMPERIDONE-10MG-TABL,"Domperidone, 10mg, 1 x 30",Medicines,domperidone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'domperidone'; C08 subcategory left empty (acceptable),2
+MED:DOMPERIDONETABS-10MG-TABL,Domperidone Tabs 10mg x 100,Medicines,domperidone tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'domperidone tabs'; C08 subcategory left empty (acceptable),2
+MED:DOVOBET-OINT,Dovobet,Medicines,dovobet,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'dovobet',1
+MED:DOVONEX-OINT,Dovonex,Medicines,dovonex,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'dovonex'; C08 subcategory left empty (acceptable),1
 MED:DOXYCYCLINE-50MG-CAPS,Doxycycline,Medicines,doxycycline,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'doxycycline',1
 MED:DOXYCYCLINE-100MG-CAPS,Doxycycline 100mg Capsules Pack Of 50,Medicines,doxycycline,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'doxycycline',3
 MED:DOXYCYCLINE-100MG-TABL,Vibramycin,Medicines,doxycycline,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'doxycycline',1
 MED:DOXYCYCLINECAPS-100MG-CAPS,Doxycycline Caps 100mg x 50,Medicines,doxycycline caps,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'doxycycline caps',2
 MED:DOXYCYCLINECAPSULE-100MG-CAPS,Doxycycline Capsules 100mg,Medicines,doxycycline capsules,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'doxycycline capsules',1
 MED:DOXYCYCLINECAPSULE-50MG-CAPS,Doxycycline Capsules 50mg X 28,Medicines,doxycycline capsules,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'doxycycline capsules',1
-MED:DRICLOR-SOLU,Driclor,Medicines,driclor,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'driclor' - confirm C08 subcategory,1
-MED:DRICLORALUMINIUM-SOLU,Driclor Solution Aluminium Chloride Hexahydrate 20 Ww,Medicines,driclor aluminium,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'driclor aluminium' - confirm C08 subcategory,1
-MED:EASYPODSALINE-INJE,Easypod Saline,Medicines,easypod saline,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,medicine class from 'easypod saline',1
-MED:ELIDEL-1%-CREA,Elidel,Medicines,elidel,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'elidel' - confirm C08 subcategory,2
-MED:ENSTILARCUTANEOUS-LOTI,"Enstilar Cutaneous Foam , 50mcg-g+0.5mg-g, 2 x 60g",Medicines,enstilar cutaneous,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'enstilar cutaneous' - confirm C08 subcategory,3
-MED:ERGOCALCIFEROL-INJE,Ergocalciferol Injection (10 x 1ml ampoules),Medicines,ergocalciferol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ergocalciferol' - confirm C08 subcategory,1
-MED:ERGOCALCIFEROL-300000U-INJE,Ergocalciferol Solution for Injection,Medicines,ergocalciferol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ergocalciferol' - confirm C08 subcategory,3
-MED:ERGOCALCIFEROL-300000IU-INJE,Ergocalciferol 300000 IU Soln Inj Amp X 10,Medicines,ergocalciferol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ergocalciferol' - confirm C08 subcategory,2
+MED:DRICLOR-SOLU,Driclor,Medicines,driclor,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'driclor'; C08 subcategory left empty (acceptable),1
+MED:DRICLORALUMINIUM-SOLU,Driclor Solution Aluminium Chloride Hexahydrate 20 Ww,Medicines,driclor aluminium,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'driclor aluminium'; C08 subcategory left empty (acceptable),1
+MED:EASYPODSALINE-INJE,Easypod Saline,Medicines,easypod saline,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'easypod saline'; C08 subcategory left empty (acceptable),1
+MED:ELIDEL-1%-CREA,Elidel,Medicines,elidel,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'elidel'; C08 subcategory left empty (acceptable),2
+MED:ENSTILARCUTANEOUS-LOTI,"Enstilar Cutaneous Foam , 50mcg-g+0.5mg-g, 2 x 60g",Medicines,enstilar cutaneous,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'enstilar cutaneous',3
+MED:ERGOCALCIFEROL-INJE,Ergocalciferol Injection (10 x 1ml ampoules),Medicines,ergocalciferol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:ERGOCALCIFEROL-300000U-INJE,Ergocalciferol Solution for Injection,Medicines,ergocalciferol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),3
+MED:ERGOCALCIFEROL-300000IU-INJE,Ergocalciferol 300000 IU Soln Inj Amp X 10,Medicines,ergocalciferol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),2
 MED:ERYTHROMYCIN-125MG5ML-ORAL,Erythromycin,Medicines,erythromycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'erythromycin',1
 MED:ERYTHROMYCIN-500MG-TABL,Erythromycin,Medicines,erythromycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'erythromycin',1
 MED:ERYTHROMYCIN-250MG-TABL,Erythromycin,Medicines,erythromycin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'erythromycin',1
@@ -2178,13 +2178,13 @@ MED:ERYTHROMYCINLACTOB-1000MG-INJE,Erythromycin Lactobionate Powder For Solution
 MED:ERYTHROMYCINTABLET-250MG-TABL,Erythromycin Tablets 250mg x 28,Medicines,erythromycin tablets,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'erythromycin tablets',2
 MED:ERYTHROMYCINZINC-40MG-SOLU,Erythromycin with Zinc Acetate,Medicines,erythromycin zinc,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'erythromycin zinc',1
 MED:ERYTHROMYCINZINC-12MG-SOLU,Erythromycin/Zinc 40/12mg Solution 30ml,Medicines,erythromycin/zinc,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'erythromycin/zinc',1
-MED:ERYTHROPEDPI-125MG5ML-ORAL,Erythroped Pi Sugar Free,Medicines,erythroped pi,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'erythroped pi' - confirm C08 subcategory,1
-MED:EXONAD,EXO NAD Peeling,Medicines,exo nad,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:FEXOFENADINE-120MG-TABL,Fexofenadine 120mg x 30,Medicines,fexofenadine,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:FEXOFENADINE-180MG-TABL,Fexofenadine 180mg x 30,Medicines,fexofenadine,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:FINASTERIDE-5MG-TABL,Finasteride 5mg Tabs x 28,Medicines,finasteride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'finasteride' - confirm C08 subcategory,4
-MED:FINASTERIDE-1MG-TABL,Finasteride 1mg Tabs x 28,Medicines,finasteride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'finasteride' - confirm C08 subcategory,4
-MED:FINASTERIDETAB-1MG-TABL,Finasteride Tab 1mg 28,Medicines,finasteride tab,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'finasteride tab' - confirm C08 subcategory,1
+MED:ERYTHROPEDPI-125MG5ML-ORAL,Erythroped Pi Sugar Free,Medicines,erythroped pi,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'erythroped pi',1
+MED:EXONAD,EXO NAD Peeling,Medicines,exo nad,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:FEXOFENADINE-120MG-TABL,Fexofenadine 120mg x 30,Medicines,fexofenadine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fexofenadine'; C08 subcategory left empty (acceptable),2
+MED:FEXOFENADINE-180MG-TABL,Fexofenadine 180mg x 30,Medicines,fexofenadine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fexofenadine'; C08 subcategory left empty (acceptable),2
+MED:FINASTERIDE-5MG-TABL,Finasteride 5mg Tabs x 28,Medicines,finasteride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'finasteride'; C08 subcategory left empty (acceptable),4
+MED:FINASTERIDE-1MG-TABL,Finasteride 1mg Tabs x 28,Medicines,finasteride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'finasteride'; C08 subcategory left empty (acceptable),4
+MED:FINASTERIDETAB-1MG-TABL,Finasteride Tab 1mg 28,Medicines,finasteride tab,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'finasteride tab'; C08 subcategory left empty (acceptable),1
 MED:FLUCLOXACILLIN-125MG5ML-ORAL,Flucloxacillin,Medicines,flucloxacillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'flucloxacillin',1
 MED:FLUCLOXACILLIN-250MG-CAPS,Flucloxacillin,Medicines,flucloxacillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'flucloxacillin',1
 MED:FLUCLOXACILLIN-250MG5ML-ORAL,Flucloxacillin,Medicines,flucloxacillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'flucloxacillin',1
@@ -2192,50 +2192,50 @@ MED:FLUCLOXACILLIN-500MG-CAPS,Flucloxacillin 500mg Capsules (28 capsules),Medici
 MED:FLUCLOXACILLINCAP-250MG-CAPS,Flucloxacillin Cap 250mg Pck28,Medicines,flucloxacillin cap,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'flucloxacillin cap',2
 MED:FLUCLOXACILLINCAPS-250MG-CAPS,Flucloxacillin Caps 250mg x28,Medicines,flucloxacillin capsules,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'flucloxacillin capsules',2
 MED:FLUCLOXACILLINCAPS-500MG-CAPS,Flucloxacillin Caps 500mg x28,Medicines,flucloxacillin capsules,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'flucloxacillin capsules',4
-MED:FLUCONAZOLE-150MG-CAPS,Fluconazole,Medicines,fluconazole,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fluconazole' - confirm C08 subcategory,1
-MED:FLUCONAZOLE-200MG-CAPS,Fluconazole,Medicines,fluconazole,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fluconazole' - confirm C08 subcategory,1
-MED:FLUCONAZOLE-50MG-CAPS,Fluconazole,Medicines,fluconazole,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fluconazole' - confirm C08 subcategory,1
-MED:FLUOROURACIL-5%-CREA,Efudix,Medicines,fluorouracil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fluorouracil' - confirm C08 subcategory,1
-MED:FLUOROURACIL-50MG-INJE,Fluorouracil,Medicines,fluorouracil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fluorouracil' - confirm C08 subcategory,1
-MED:FREEFLEXNACL-SOLU,Freeflex NaCl 0.9% No.1 Solution (500ml),Medicines,freeflex nacl,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'freeflex nacl' - confirm C08 subcategory,2
-MED:FREEFLEXSODIUM-INJE,FreeFlex Sodium Chloride 0.9% - 500ml,Medicines,freeflex sodium,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'freeflex sodium' - confirm C08 subcategory,1
-MED:FUSIDICACID-2%-OINT,Fucidin,Medicines,fusidic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fusidic acid' - confirm C08 subcategory,2
-MED:FUSIDICACID-20%-CREA,Fucidin 20mg/g Cream (15g),Medicines,fusidic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fusidic acid' - confirm C08 subcategory,1
-MED:FUSIDICACID-CREA,Fucidin H Cream 30g,Medicines,fusidic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fusidic acid' - confirm C08 subcategory,5
-MED:FUSIDICACID-15000MG,Fucidin Oint 2% 15g,Medicines,fusidic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fusidic acid' - confirm C08 subcategory,1
-MED:FUSIDICACID-2%-CREA,Fucidin 2 Cream 30g,Medicines,fusidic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fusidic acid' - confirm C08 subcategory,5
-MED:FUSIDICACIDBETAMET-2%-CREA,Fucibet,Medicines,fusidic acid + betamethasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'fusidic acid + betamethasone',2
-MED:GELOFUSINEECO-SOLU,Gelofusine Eco Bag,Medicines,gelofusine eco,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'gelofusine eco' - confirm C08 subcategory,1
+MED:FLUCONAZOLE-150MG-CAPS,Fluconazole,Medicines,fluconazole,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'fluconazole',1
+MED:FLUCONAZOLE-200MG-CAPS,Fluconazole,Medicines,fluconazole,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'fluconazole',1
+MED:FLUCONAZOLE-50MG-CAPS,Fluconazole,Medicines,fluconazole,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'fluconazole',1
+MED:FLUOROURACIL-5%-CREA,Efudix,Medicines,fluorouracil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fluorouracil'; C08 subcategory left empty (acceptable),1
+MED:FLUOROURACIL-50MG-INJE,Fluorouracil,Medicines,fluorouracil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fluorouracil'; C08 subcategory left empty (acceptable),1
+MED:FREEFLEXNACL-SOLU,Freeflex NaCl 0.9% No.1 Solution (500ml),Medicines,freeflex nacl,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),2
+MED:FREEFLEXSODIUM-INJE,FreeFlex Sodium Chloride 0.9% - 500ml,Medicines,freeflex sodium,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:FUSIDICACID-2%-OINT,Fucidin,Medicines,fusidic acid,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'fusidic acid',2
+MED:FUSIDICACID-20%-CREA,Fucidin 20mg/g Cream (15g),Medicines,fusidic acid,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'fusidic acid',1
+MED:FUSIDICACID-CREA,Fucidin H Cream 30g,Medicines,fusidic acid,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'fusidic acid',5
+MED:FUSIDICACID-15000MG,Fucidin Oint 2% 15g,Medicines,fusidic acid,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'fusidic acid',1
+MED:FUSIDICACID-2%-CREA,Fucidin 2 Cream 30g,Medicines,fusidic acid,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'fusidic acid',5
+MED:FUSIDICACIDBETAMET-2%-CREA,Fucibet,Medicines,fusidic acid + betamethasone,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'fusidic acid + betamethasone',2
+MED:GELOFUSINEECO-SOLU,Gelofusine Eco Bag,Medicines,gelofusine eco,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
 MED:GLUCAGON-1MG-INJE,Glucagen HypoKit 1mg with dilutent,Medicines,glucagon,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'glucagon',1
-MED:GLUCOBOOST-40%-GEL,Gluco Boost – Glucose 40% Oral Gel,Medicines,gluco boost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'gluco boost' - confirm C08 subcategory,1
-MED:GLUCOSE,Glucogel triple pack 25gr x 3,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose' - confirm C08 subcategory,1
-MED:GLUCOSE-SOLU,Glucose 5% IV 100ml x 1,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose' - confirm C08 subcategory,4
-MED:GLUCOSE-40%-GEL,Dextrogel Dextrose Glucose Oral Gel,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose' - confirm C08 subcategory,2
-MED:GLUCOSE-INJE,Glucose,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose' - confirm C08 subcategory,1
-MED:GLUCOSE-500000MG-POWD,Glucose,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose' - confirm C08 subcategory,1
-MED:GLUCOSEIV-SOLU,Glucose Iv Infusion,Medicines,glucose iv,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose iv' - confirm C08 subcategory,2
-MED:GLUCOSEORAL-40%-GEL,Glucose Oral Gel 40% 3 x25g,Medicines,glucose oral,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose oral' - confirm C08 subcategory,1
-MED:GLUTATHIONE-600MG4ML-INJE,Glutathione 600 mg/4 ml (10 Vials),Medicines,glutathione,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:GLUTATHIONE-600MG4ML-SOLU,Glutathione 600mg/4mL IV/IM,Medicines,glutathione,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:GLUTATHIONE-600MG-INJE,Glutathione 600mg 4ml Powder Solvent X One Single Vial,Medicines,glutathione,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:GLUTATHIONE-600MG-SOLU,Glutathione 600mg 4ml Iv Im,Medicines,glutathione,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:GLUTATHIONE-750MG-INJE,Glutathione 750mg 5ml,Medicines,glutathione,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:GLUTATHIONE-INJE,Glutathione Injection X 10 Amps Iv Im,Medicines,glutathione,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:GLUTATHIONEAMPOULE-600MG4ML-INJE,Glutathione Ampoules 600mg/4ml x 1,Medicines,glutathione ampoules,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:GLUTATHIONELISATHY-600MG-INJE,Glutathione Lisathyone 600mg 3ml X 10 Vials Iv Im,Medicines,glutathione lisathyone,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:GLUTATHIONETATIONI-600MG4ML-INJE,Glutathione Tationil 600mg/4ml Powder and Solvent for Solution x 10 Ampoules,Medicines,glutathione tationil,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:GLYCERYLTRINITRATE-0.2%-OINT,Glyceryl Trinitrate,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate' - confirm C08 subcategory,1
-MED:GLYCERYLTRINITRATE-SPRA,Glyceryl Trinitrate Pump Spray 200 Dose,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate' - confirm C08 subcategory,1
-MED:GLYCERYLTRINITRATE-0.4MG-SPRA,Glyceryl Trinitrate Spray,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate' - confirm C08 subcategory,2
-MED:GLYCERYLTRINITRATE-0.5MG-TABL,Glyceryl Trinitrate,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate' - confirm C08 subcategory,1
-MED:GLYCERYLTRINITRATE-0.20%-OINT,Glyceryl Trinitrate Special Short,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate' - confirm C08 subcategory,1
-MED:GRAVITYADMINISTRAT-SOLU,Gravity Solution Administration Set,Medicines,gravity administration,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'gravity administration' - confirm C08 subcategory,1
-MED:HANHEALNAD,HANHEAL NAD+ Complex,Medicines,hanheal nad+,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:HARTMANNS,Hartmanns 1000ml,Medicines,hartmanns,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hartmanns' - confirm C08 subcategory,1
-MED:HEPARINOID-0.30%-GEL,Hirudoid,Medicines,heparinoid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'heparinoid' - confirm C08 subcategory,1
-MED:HEPARINOID-GEL,Hirudoid Gel 50g,Medicines,heparinoid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'heparinoid' - confirm C08 subcategory,1
-MED:HEPARINOID-0.30%-CREA,Hirudoid,Medicines,heparinoid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'heparinoid' - confirm C08 subcategory,1
-MED:HINNAOTECHNOLOGY,HINNAO TECHNOLOGY Glutathione,Medicines,hinnao technology,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hinnao technology' - confirm C08 subcategory,2
+MED:GLUCOBOOST-40%-GEL,Gluco Boost – Glucose 40% Oral Gel,Medicines,gluco boost,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'gluco boost'; C08 subcategory left empty (acceptable),1
+MED:GLUCOSE,Glucogel triple pack 25gr x 3,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose'; C08 subcategory left empty (acceptable),1
+MED:GLUCOSE-SOLU,Glucose 5% IV 100ml x 1,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose'; C08 subcategory left empty (acceptable),4
+MED:GLUCOSE-40%-GEL,Dextrogel Dextrose Glucose Oral Gel,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose'; C08 subcategory left empty (acceptable),2
+MED:GLUCOSE-INJE,Glucose,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose'; C08 subcategory left empty (acceptable),1
+MED:GLUCOSE-500000MG-POWD,Glucose,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose'; C08 subcategory left empty (acceptable),1
+MED:GLUCOSEIV-SOLU,Glucose Iv Infusion,Medicines,glucose iv,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose iv'; C08 subcategory left empty (acceptable),2
+MED:GLUCOSEORAL-40%-GEL,Glucose Oral Gel 40% 3 x25g,Medicines,glucose oral,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose oral'; C08 subcategory left empty (acceptable),1
+MED:GLUTATHIONE-600MG4ML-INJE,Glutathione 600 mg/4 ml (10 Vials),Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:GLUTATHIONE-600MG4ML-SOLU,Glutathione 600mg/4mL IV/IM,Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:GLUTATHIONE-600MG-INJE,Glutathione 600mg 4ml Powder Solvent X One Single Vial,Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:GLUTATHIONE-600MG-SOLU,Glutathione 600mg 4ml Iv Im,Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:GLUTATHIONE-750MG-INJE,Glutathione 750mg 5ml,Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:GLUTATHIONE-INJE,Glutathione Injection X 10 Amps Iv Im,Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:GLUTATHIONEAMPOULE-600MG4ML-INJE,Glutathione Ampoules 600mg/4ml x 1,Medicines,glutathione ampoules,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:GLUTATHIONELISATHY-600MG-INJE,Glutathione Lisathyone 600mg 3ml X 10 Vials Iv Im,Medicines,glutathione lisathyone,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:GLUTATHIONETATIONI-600MG4ML-INJE,Glutathione Tationil 600mg/4ml Powder and Solvent for Solution x 10 Ampoules,Medicines,glutathione tationil,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:GLYCERYLTRINITRATE-0.2%-OINT,Glyceryl Trinitrate,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate'; C08 subcategory left empty (acceptable),1
+MED:GLYCERYLTRINITRATE-SPRA,Glyceryl Trinitrate Pump Spray 200 Dose,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate'; C08 subcategory left empty (acceptable),1
+MED:GLYCERYLTRINITRATE-0.4MG-SPRA,Glyceryl Trinitrate Spray,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate'; C08 subcategory left empty (acceptable),2
+MED:GLYCERYLTRINITRATE-0.5MG-TABL,Glyceryl Trinitrate,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate'; C08 subcategory left empty (acceptable),1
+MED:GLYCERYLTRINITRATE-0.20%-OINT,Glyceryl Trinitrate Special Short,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate'; C08 subcategory left empty (acceptable),1
+MED:GRAVITYADMINISTRAT-SOLU,Gravity Solution Administration Set,Medicines,gravity administration,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:HANHEALNAD,HANHEAL NAD+ Complex,Medicines,hanheal nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:HARTMANNS,Hartmanns 1000ml,Medicines,hartmanns,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hartmanns'; C08 subcategory left empty (acceptable),1
+MED:HEPARINOID-0.30%-GEL,Hirudoid,Medicines,heparinoid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'heparinoid'; C08 subcategory left empty (acceptable),1
+MED:HEPARINOID-GEL,Hirudoid Gel 50g,Medicines,heparinoid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'heparinoid'; C08 subcategory left empty (acceptable),1
+MED:HEPARINOID-0.30%-CREA,Hirudoid,Medicines,heparinoid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'heparinoid'; C08 subcategory left empty (acceptable),1
+MED:HINNAOTECHNOLOGY,HINNAO TECHNOLOGY Glutathione,Medicines,hinnao technology,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
 MED:HYALURONIDASE-1500U-INJE,Hyaluronidase,Medicines,hyaluronidase,,C08,Medicines & Pharmaceuticals,C08.02,Hyaluronidase,CLASSIFIED,medicine class from 'hyaluronidase',1
 MED:HYALURONIDASE-INJE,Hyaluronidase 1500 I.U. Ampoules x 10,Medicines,hyaluronidase,,C08,Medicines & Pharmaceuticals,C08.02,Hyaluronidase,CLASSIFIED,medicine class from 'hyaluronidase',6
 MED:HYALURONIDASE-1500IU-INJE,Hyaluronidase 1500 IU Hyalase x 1,Medicines,hyaluronidase,,C08,Medicines & Pharmaceuticals,C08.02,Hyaluronidase,CLASSIFIED,medicine class from 'hyaluronidase',13
@@ -2255,17 +2255,17 @@ MED:HYDROCORTISONE-1%-OINT,Hydrocortisone 1% Ointment 15g,Medicines,hydrocortiso
 MED:HYDROCORTISONECREA-1%-CREA,Hydrocortisone Cream 1% 15g,Medicines,hydrocortisone cream,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'hydrocortisone cream',4
 MED:HYDROCORTISONECREA-CREA,Hydrocortisone Cream 30g,Medicines,hydrocortisone cream,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'hydrocortisone cream',1
 MED:HYDROCORTISONESODI-100MG-INJE,Hydrocortisone Sodium Succinate (Pack of 10),Medicines,hydrocortisone sodium,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'hydrocortisone sodium',2
-MED:HYDROQUINONE-4%-CREA,Hydroquinone,Medicines,hydroquinone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroquinone' - confirm C08 subcategory,1
-MED:HYDROXOCOBALAMIN-1000MCG1ML-INJE,Hydroxocobalamin 1000mcg/1ml Inj 1 Amp,Medicines,hydroxocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroxocobalamin' - confirm C08 subcategory,1
-MED:HYDROXOCOBALAMIN-1MG-INJE,Hydroxocobalamin Inj 1mg/ml x1,Medicines,hydroxocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroxocobalamin' - confirm C08 subcategory,10
-MED:HYDROXOCOBALAMIN-INJE,Hydroxocobalamin injection B12 Injection (Pack of 5),Medicines,hydroxocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroxocobalamin' - confirm C08 subcategory,3
-MED:HYDROXOCOBALAMIN-1MG1ML-INJE,Hydroxocobalamin Solution for Injection 1mg/1ml 5 Ampoules,Medicines,hydroxocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroxocobalamin' - confirm C08 subcategory,5
-MED:HYDROXOCOBALAMINVI-INJE,Hydroxocobalamin Injection Vitamin B12,Medicines,hydroxocobalamin vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:HYDROXOCOBALAMINVI-1MG-INJE,Hydroxocobalamin Vitamin B121000mcg1ml Inj 1 Amp,Medicines,hydroxocobalamin vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:HYDROXYCHLOROQUINE-200MG-TABL,Hydroxychloroquine,Medicines,hydroxychloroquine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroxychloroquine' - confirm C08 subcategory,1
-MED:HYDROXYZINE-25MG-TABL,Hydroxyzine,Medicines,hydroxyzine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroxyzine' - confirm C08 subcategory,1
-MED:HYDROXYZINE-10MG-TABL,Hydroxyzine,Medicines,hydroxyzine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroxyzine' - confirm C08 subcategory,1
-MED:IBSAVITAMIN-TABL,IBSA Vitamin B12 x 30 Orodispersible Films,Medicines,ibsa vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
+MED:HYDROQUINONE-4%-CREA,Hydroquinone,Medicines,hydroquinone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroquinone'; C08 subcategory left empty (acceptable),1
+MED:HYDROXOCOBALAMIN-1000MCG1ML-INJE,Hydroxocobalamin 1000mcg/1ml Inj 1 Amp,Medicines,hydroxocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:HYDROXOCOBALAMIN-1MG-INJE,Hydroxocobalamin Inj 1mg/ml x1,Medicines,hydroxocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),10
+MED:HYDROXOCOBALAMIN-INJE,Hydroxocobalamin injection B12 Injection (Pack of 5),Medicines,hydroxocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),3
+MED:HYDROXOCOBALAMIN-1MG1ML-INJE,Hydroxocobalamin Solution for Injection 1mg/1ml 5 Ampoules,Medicines,hydroxocobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),5
+MED:HYDROXOCOBALAMINVI-INJE,Hydroxocobalamin Injection Vitamin B12,Medicines,hydroxocobalamin vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:HYDROXOCOBALAMINVI-1MG-INJE,Hydroxocobalamin Vitamin B121000mcg1ml Inj 1 Amp,Medicines,hydroxocobalamin vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:HYDROXYCHLOROQUINE-200MG-TABL,Hydroxychloroquine,Medicines,hydroxychloroquine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroxychloroquine'; C08 subcategory left empty (acceptable),1
+MED:HYDROXYZINE-25MG-TABL,Hydroxyzine,Medicines,hydroxyzine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroxyzine'; C08 subcategory left empty (acceptable),1
+MED:HYDROXYZINE-10MG-TABL,Hydroxyzine,Medicines,hydroxyzine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hydroxyzine'; C08 subcategory left empty (acceptable),1
+MED:IBSAVITAMIN-TABL,IBSA Vitamin B12 x 30 Orodispersible Films,Medicines,ibsa vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),2
 MED:IBUPROFEN-100MG5ML-ORAL,Ibuprofen,Medicines,ibuprofen,,C08,Medicines & Pharmaceuticals,C08.06,Anti-inflammatory Medicines,CLASSIFIED,medicine class from 'ibuprofen',1
 MED:IBUPROFEN-600MG-TABL,Ibuprofen,Medicines,ibuprofen,,C08,Medicines & Pharmaceuticals,C08.06,Anti-inflammatory Medicines,CLASSIFIED,medicine class from 'ibuprofen',1
 MED:IBUPROFEN-400MG-TABL,Ibuprofen 400mg Tablets (48 pack),Medicines,ibuprofen,,C08,Medicines & Pharmaceuticals,C08.06,Anti-inflammatory Medicines,CLASSIFIED,medicine class from 'ibuprofen',4
@@ -2275,26 +2275,26 @@ MED:IBUPROFENSF-100MG5ML-ORAL,Ibuprofen Sf,Medicines,ibuprofen sf,,C08,Medicines
 MED:IBUPROFENTABLETS-200MG-TABL,Ibuprofen Tablets BP 200mg,Medicines,ibuprofen tablets,,C08,Medicines & Pharmaceuticals,C08.06,Anti-inflammatory Medicines,CLASSIFIED,medicine class from 'ibuprofen tablets',1
 MED:IBUPROFENTABLETS-400MG-TABL,Ibuprofen Tablets BP 400mg,Medicines,ibuprofen tablets,,C08,Medicines & Pharmaceuticals,C08.06,Anti-inflammatory Medicines,CLASSIFIED,medicine class from 'ibuprofen tablets',1
 MED:IBUPROFENTABLETS-600MG-TABL,Ibuprofen Tablets 600mg x 84,Medicines,ibuprofen tablets,,C08,Medicines & Pharmaceuticals,C08.06,Anti-inflammatory Medicines,CLASSIFIED,medicine class from 'ibuprofen tablets',2
-MED:IDCLINICA-1000MG-INJE,iD CLINICA NAD+ 1000mg For Life Pen Refill,Medicines,id clinica,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'id clinica' - confirm C08 subcategory,2
-MED:IDCLINICA-2000MG6ML-INJE,iD CLINICA NAD+ID 2000mg/6ml,Medicines,id clinica,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'id clinica' - confirm C08 subcategory,1
-MED:INTRAFIX-SOLU,Intrafix 180cm Safeset Infusion Set,Medicines,intrafix,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'intrafix' - confirm C08 subcategory,1
-MED:INTRALIPIDIV-SOLU,Intralipid Iv,Medicines,intralipid iv,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'intralipid iv' - confirm C08 subcategory,1
-MED:IPRATROPIUMBROMIDE-NASA,Ipratropium Bromide,Medicines,ipratropium bromide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ipratropium bromide' - confirm C08 subcategory,1
-MED:IPRATROPIUMNEBULES-0.25MG-INHA,Ipratropium Nebules,Medicines,ipratropium nebules,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ipratropium nebules' - confirm C08 subcategory,1
-MED:IRRICLENSSODIUM-INJE,Irriclens Sodium Chloride,Medicines,irriclens sodium,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'irriclens sodium' - confirm C08 subcategory,1
-MED:IRRIPODSALINE-INJE,Irripod Saline Solution Pods 20ml,Medicines,irripod saline,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,medicine class from 'irripod saline',2
-MED:ISOTRETINOIN-20MG-CAPS,Isotretinoin,Medicines,isotretinoin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin' - confirm C08 subcategory,3
-MED:ISOTRETINOIN-10MG-CAPS,Roaccutane Caps 10mg x 30,Medicines,isotretinoin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin' - confirm C08 subcategory,3
-MED:ISOTRETINOIN-5MG-CAPS,Isotretinoin,Medicines,isotretinoin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin' - confirm C08 subcategory,1
-MED:ISOTRETINOINCAPS-10MG-CAPS,Isotretinoin Caps 10mg x 30,Medicines,isotretinoin caps,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin caps' - confirm C08 subcategory,1
-MED:ISOTRETINOINCAPS-20MG-CAPS,Isotretinoin Caps 20mg x 30,Medicines,isotretinoin caps,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin caps' - confirm C08 subcategory,1
-MED:ISOTRETINOINCAPS-5MG-CAPS,Isotretinoin Caps 5mg x 56,Medicines,isotretinoin caps,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin caps' - confirm C08 subcategory,1
-MED:ITRACONAZOLE-100MG-CAPS,Itraconazole,Medicines,itraconazole,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'itraconazole' - confirm C08 subcategory,1
-MED:IVVITAMIN-SOLU,Iv Vitamin Kit Single1,Medicines,iv vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:IVERMECTIN-CREA,Soolantra,Medicines,ivermectin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ivermectin' - confirm C08 subcategory,2
-MED:IVERMECTIN-3MG-TABL,Ivermectin,Medicines,ivermectin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ivermectin' - confirm C08 subcategory,1
-MED:KELOCOTESCAR-GEL,Kelo-Cote Scar Treatment Gel 15g,Medicines,kelo-cote scar,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'kelo-cote scar' - confirm C08 subcategory,1
-MED:LEVOCETIRIZINE-5MG-TABL,Levocetirizine,Medicines,levocetirizine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'levocetirizine' - confirm C08 subcategory,1
+MED:IDCLINICA-1000MG-INJE,iD CLINICA NAD+ 1000mg For Life Pen Refill,Medicines,id clinica,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:IDCLINICA-2000MG6ML-INJE,iD CLINICA NAD+ID 2000mg/6ml,Medicines,id clinica,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:INTRAFIX-SOLU,Intrafix 180cm Safeset Infusion Set,Medicines,intrafix,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:INTRALIPIDIV-SOLU,Intralipid Iv,Medicines,intralipid iv,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:IPRATROPIUMBROMIDE-NASA,Ipratropium Bromide,Medicines,ipratropium bromide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ipratropium bromide'; C08 subcategory left empty (acceptable),1
+MED:IPRATROPIUMNEBULES-0.25MG-INHA,Ipratropium Nebules,Medicines,ipratropium nebules,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ipratropium nebules'; C08 subcategory left empty (acceptable),1
+MED:IRRICLENSSODIUM-INJE,Irriclens Sodium Chloride,Medicines,irriclens sodium,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'irriclens sodium'; C08 subcategory left empty (acceptable),1
+MED:IRRIPODSALINE-INJE,Irripod Saline Solution Pods 20ml,Medicines,irripod saline,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'irripod saline'; C08 subcategory left empty (acceptable),2
+MED:ISOTRETINOIN-20MG-CAPS,Isotretinoin,Medicines,isotretinoin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin'; C08 subcategory left empty (acceptable),3
+MED:ISOTRETINOIN-10MG-CAPS,Roaccutane Caps 10mg x 30,Medicines,isotretinoin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin'; C08 subcategory left empty (acceptable),3
+MED:ISOTRETINOIN-5MG-CAPS,Isotretinoin,Medicines,isotretinoin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin'; C08 subcategory left empty (acceptable),1
+MED:ISOTRETINOINCAPS-10MG-CAPS,Isotretinoin Caps 10mg x 30,Medicines,isotretinoin caps,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin caps'; C08 subcategory left empty (acceptable),1
+MED:ISOTRETINOINCAPS-20MG-CAPS,Isotretinoin Caps 20mg x 30,Medicines,isotretinoin caps,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin caps'; C08 subcategory left empty (acceptable),1
+MED:ISOTRETINOINCAPS-5MG-CAPS,Isotretinoin Caps 5mg x 56,Medicines,isotretinoin caps,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'isotretinoin caps'; C08 subcategory left empty (acceptable),1
+MED:ITRACONAZOLE-100MG-CAPS,Itraconazole,Medicines,itraconazole,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'itraconazole',1
+MED:IVVITAMIN-SOLU,Iv Vitamin Kit Single1,Medicines,iv vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),2
+MED:IVERMECTIN-CREA,Soolantra,Medicines,ivermectin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'ivermectin',2
+MED:IVERMECTIN-3MG-TABL,Ivermectin,Medicines,ivermectin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'ivermectin',1
+MED:KELOCOTESCAR-GEL,Kelo-Cote Scar Treatment Gel 15g,Medicines,kelo-cote scar,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'kelo-cote scar'; C08 subcategory left empty (acceptable),1
+MED:LEVOCETIRIZINE-5MG-TABL,Levocetirizine,Medicines,levocetirizine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'levocetirizine'; C08 subcategory left empty (acceptable),1
 MED:LIDOCAINE-30000MG,LMX4 Topical Anaesthetic 4% Lidocaine 30g,Medicines,lidocaine,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine',1
 MED:LIDOCAINE-4%-CREA,LMX4 Lidocaine Cream 4% 30g,Medicines,lidocaine,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine',4
 MED:LIDOCAINE-CREA,Lmx4 4 Cream 5g Test Clone,Medicines,lidocaine,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine',6
@@ -2313,36 +2313,36 @@ MED:LIDOCAINEPRILOCAIN-CREA,Emla Pack & Dressing 5g x5,Medicines,lidocaine + pri
 MED:LIDOCAINEPRILOCAIN-30000MG-SOLU,Emla 30g,Medicines,lidocaine + prilocaine,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine + prilocaine',1
 MED:LIDOCAINEPRILOCAIN-5%-CREA,Emla 5% Cream x 5g,Medicines,lidocaine + prilocaine,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine + prilocaine',10
 MED:LIDOCAINEGLASS-INJE,Lidocaine Glass,Medicines,lidocaine glass,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine glass',7
-MED:LIDOCAINEHCL-INJE,Lidocaine HCL Braun 2% 5ml x 20,Medicines,lidocaine hcl,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine hcl',1
+MED:LIDOCAINEHCL-INJE,Lidocaine HCL Braun 2% 5ml x 20,Medicines,lidocaine hcl,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
 MED:LIDOCAINEHYDROCHLO-20MG-INJE,Lidocaine Hydrochloride Injection 1% 20mg in 2ml 1x10 ampoules,Medicines,lidocaine hydrochloride,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine hydrochloride',1
 MED:LIDOCAINEHYDROCHLO-40MG-INJE,Lidocaine Hydrochloride Injection 2% 40mg in 2ml Ampoules,Medicines,lidocaine hydrochloride,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine hydrochloride',2
 MED:LIDOCAINEHYDROCHLO-INJE,Lidocaine Hydrochloride Injection 1% 2ml x1,Medicines,lidocaine hydrochloride,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine hydrochloride',7
 MED:LIDOCAINEMEDICATED-700MG-INJE,Lidocaine Medicated Plaster,Medicines,lidocaine medicated,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine medicated',1
-MED:LIDOCAINEMINIPLASC-INJE,Lidocaine Injection Mini-Plasco 2% 10ml x 1,Medicines,lidocaine mini-plasco,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine mini-plasco',1
+MED:LIDOCAINEMINIPLASC-INJE,Lidocaine Injection Mini-Plasco 2% 10ml x 1,Medicines,lidocaine mini-plasco,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
 MED:LIDOCAINEPLASTIC-INJE,"Lidocaine Plastic, 2%, 20 x 20ml",Medicines,lidocaine plastic,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine plastic',4
 MED:LIDOCAINEPRESERVAT-INJE,Lidocaine With Preservative,Medicines,lidocaine preservative,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine preservative',2
-MED:LONGEVITYPEN,Longevity Pen Nad L Glutathione B12 2,Medicines,longevity pen,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'longevity pen' - confirm C08 subcategory,1
-MED:LORATADINE-10MG-TABL,Loratadine 10mg Tablets x30,Medicines,loratadine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'loratadine' - confirm C08 subcategory,10
-MED:LORATADINE-5MG5ML-ORAL,Loratadine,Medicines,loratadine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'loratadine' - confirm C08 subcategory,1
-MED:LORATADINETABS-10MG-TABL,Loratadine Tabs 10mg x 30,Medicines,loratadine tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'loratadine tabs' - confirm C08 subcategory,1
-MED:LORATIDINETABS-10MG-TABL,Loratidine Tabs 10mg x30,Medicines,loratidine tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'loratidine tabs' - confirm C08 subcategory,1
-MED:LOTRIDERM-0.064%-CREA,Lotriderm,Medicines,lotriderm,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'lotriderm' - confirm C08 subcategory,1
-MED:LYMECYCLINE-408MG-CAPS,Lymecycline,Medicines,lymecycline,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'lymecycline' - confirm C08 subcategory,1
-MED:LYMECYCLINE-300MG-CAPS,Tetralysal 300,Medicines,lymecycline,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'lymecycline' - confirm C08 subcategory,1
-MED:LYMECYCLINECAPS-408MG-CAPS,Lymecycline Caps 408mg x 28,Medicines,lymecycline caps,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'lymecycline caps' - confirm C08 subcategory,1
-MED:MAGNESIUMSULPH-INJE,MAGNESIUM SULPH Solution for INJ 50%,Medicines,magnesium sulph,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'magnesium sulph' - confirm C08 subcategory,1
-MED:MAGNESIUMSULPHATE-INJE,Magnesium Sulphate Inj 50% 2ml X 1,Medicines,magnesium sulphate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'magnesium sulphate' - confirm C08 subcategory,5
-MED:MEDICANAD-500MG-INJE,Medica NAD+ 500mg Vial,Medicines,medica nad+,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:MEGA-INJE,Mega V 20ml,Medicines,mega,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'mega' - confirm C08 subcategory,1
+MED:LONGEVITYPEN,Longevity Pen Nad L Glutathione B12 2,Medicines,longevity pen,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:LORATADINE-10MG-TABL,Loratadine 10mg Tablets x30,Medicines,loratadine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'loratadine'; C08 subcategory left empty (acceptable),10
+MED:LORATADINE-5MG5ML-ORAL,Loratadine,Medicines,loratadine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'loratadine'; C08 subcategory left empty (acceptable),1
+MED:LORATADINETABS-10MG-TABL,Loratadine Tabs 10mg x 30,Medicines,loratadine tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'loratadine tabs'; C08 subcategory left empty (acceptable),1
+MED:LORATIDINETABS-10MG-TABL,Loratidine Tabs 10mg x30,Medicines,loratidine tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'loratidine tabs'; C08 subcategory left empty (acceptable),1
+MED:LOTRIDERM-0.064%-CREA,Lotriderm,Medicines,lotriderm,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'lotriderm',1
+MED:LYMECYCLINE-408MG-CAPS,Lymecycline,Medicines,lymecycline,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'lymecycline',1
+MED:LYMECYCLINE-300MG-CAPS,Tetralysal 300,Medicines,lymecycline,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'lymecycline',1
+MED:LYMECYCLINECAPS-408MG-CAPS,Lymecycline Caps 408mg x 28,Medicines,lymecycline caps,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'lymecycline caps',1
+MED:MAGNESIUMSULPH-INJE,MAGNESIUM SULPH Solution for INJ 50%,Medicines,magnesium sulph,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'magnesium sulph'; C08 subcategory left empty (acceptable),1
+MED:MAGNESIUMSULPHATE-INJE,Magnesium Sulphate Inj 50% 2ml X 1,Medicines,magnesium sulphate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'magnesium sulphate'; C08 subcategory left empty (acceptable),5
+MED:MEDICANAD-500MG-INJE,Medica NAD+ 500mg Vial,Medicines,medica nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:MEGA-INJE,Mega V 20ml,Medicines,mega,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'mega'; C08 subcategory left empty (acceptable),1
 MED:MEPIVACAINE-INJE,Scandonest Cartridges 3% Plain 2.2ml x 50,Medicines,mepivacaine,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'mepivacaine',4
-MED:MESOESTETICAOX-SOLU,Mesoestetic AOX Glutathione Glutathione Supplement,Medicines,mesoestetic aox,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'mesoestetic aox' - confirm C08 subcategory,1
-MED:METARAMINOLOR-10MG-INJE,Metaraminol Solution For Injection Or Infusion,Medicines,metaraminol or,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'metaraminol or' - confirm C08 subcategory,1
-MED:METHOTREXATE-2.5MG-TABL,Methotrexate,Medicines,methotrexate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'methotrexate' - confirm C08 subcategory,1
-MED:METHYLCOBALAMIN-5MG-INJE,B12 Methylcobalamin 5mg 2ml 2,Medicines,methylcobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'methylcobalamin' - confirm C08 subcategory,1
+MED:MESOESTETICAOX-SOLU,Mesoestetic AOX Glutathione Glutathione Supplement,Medicines,mesoestetic aox,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:METARAMINOLOR-10MG-INJE,Metaraminol Solution For Injection Or Infusion,Medicines,metaraminol or,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'metaraminol or',1
+MED:METHOTREXATE-2.5MG-TABL,Methotrexate,Medicines,methotrexate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'methotrexate'; C08 subcategory left empty (acceptable),1
+MED:METHYLCOBALAMIN-5MG-INJE,B12 Methylcobalamin 5mg 2ml 2,Medicines,methylcobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
 MED:METHYLPREDNISOLONE-40MG-INJE,Depo-Medrone 40mg/ml 1ml vial,Medicines,methylprednisolone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'methylprednisolone',4
-MED:METOCLOPRAMIDE-10MG2ML-INJE,Metoclopramide,Medicines,metoclopramide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'metoclopramide' - confirm C08 subcategory,1
-MED:METOCLOPRAMIDE-10MG-TABL,Metoclopramide 10mg X28 Tablets,Medicines,metoclopramide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'metoclopramide' - confirm C08 subcategory,3
-MED:METOLOPRAMIDETABLE-10MG-TABL,Metolopramide Tablets 10mg X 28,Medicines,metolopramide tablets,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'metolopramide tablets' - confirm C08 subcategory,1
+MED:METOCLOPRAMIDE-10MG2ML-INJE,Metoclopramide,Medicines,metoclopramide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'metoclopramide'; C08 subcategory left empty (acceptable),1
+MED:METOCLOPRAMIDE-10MG-TABL,Metoclopramide 10mg X28 Tablets,Medicines,metoclopramide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'metoclopramide'; C08 subcategory left empty (acceptable),3
+MED:METOLOPRAMIDETABLE-10MG-TABL,Metolopramide Tablets 10mg X 28,Medicines,metolopramide tablets,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'metolopramide tablets'; C08 subcategory left empty (acceptable),1
 MED:METRONIDAZOLE-400MG-TABL,Metronidazole 400mg (21 Tablets),Medicines,metronidazole,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'metronidazole',2
 MED:METRONIDAZOLE-0.75%-CREA,Rozex,Medicines,metronidazole,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'metronidazole',1
 MED:METRONIDAZOLE-CREA,Rozex Cream 50g,Medicines,metronidazole,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'metronidazole',1
@@ -2356,65 +2356,65 @@ MED:METRONIDAZOLETABLE-400MG-TABL,Metronidazole Tablets - 400mg,Medicines,metron
 MED:METRONIDAZOLETABS-200MG-TABL,Metronidazole Tabs 200mg X 21,Medicines,metronidazole tabs,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'metronidazole tabs',1
 MED:METRONIDAZOLETABS-400MG-TABL,Metronidazole Tabs 400mg x21,Medicines,metronidazole tabs,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'metronidazole tabs',1
 MED:MICONAZOLEHYDROCOR-2%-CREA,Daktacort HC,Medicines,miconazole + hydrocortisone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'miconazole + hydrocortisone',2
-MED:MILDISONLIPOCREAM-1%-CREA,Mildison Lipocream,Medicines,mildison lipocream,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'mildison lipocream' - confirm C08 subcategory,1
-MED:MINIPLASCOSODIUM-INJE,Mini-Plasco Sodium Chloride Inj 10ml 1,Medicines,mini-plasco sodium,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'mini-plasco sodium' - confirm C08 subcategory,2
-MED:MINOCINMR-100MG-CAPS,"Minocin MR, 100mg, 1 x 56",Medicines,minocin mr,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minocin mr' - confirm C08 subcategory,2
-MED:MINOCYCLINE-50MG-TABL,Minocycline,Medicines,minocycline,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minocycline' - confirm C08 subcategory,1
-MED:MINOCYCLINECAPSULE-100MG-CAPS,Minocycline Capsules Mr,Medicines,minocycline capsules,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minocycline capsules' - confirm C08 subcategory,1
-MED:MINOXIDIL-5MG-TABL,Minoxidil,Medicines,minoxidil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minoxidil' - confirm C08 subcategory,1
-MED:MINOXIDIL-2.5MG-TABL,Minoxidil 2.5mg tablets Pack size 60 tablets,Medicines,minoxidil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minoxidil' - confirm C08 subcategory,2
-MED:MINOXIDIL-5%-LOTI,Regaine Extra Strength Foam For Men,Medicines,minoxidil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minoxidil' - confirm C08 subcategory,2
-MED:MINOXIDIL-SOLU,Regaine Extra Strength for Men,Medicines,minoxidil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minoxidil' - confirm C08 subcategory,3
-MED:MINOXIDILTABLETS-2.5MG-TABL,Minoxidil Tablets 2.5mg x 60,Medicines,minoxidil tablets,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minoxidil tablets' - confirm C08 subcategory,1
+MED:MILDISONLIPOCREAM-1%-CREA,Mildison Lipocream,Medicines,mildison lipocream,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'mildison lipocream',1
+MED:MINIPLASCOSODIUM-INJE,Mini-Plasco Sodium Chloride Inj 10ml 1,Medicines,mini-plasco sodium,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),2
+MED:MINOCINMR-100MG-CAPS,"Minocin MR, 100mg, 1 x 56",Medicines,minocin mr,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'minocin mr',2
+MED:MINOCYCLINE-50MG-TABL,Minocycline,Medicines,minocycline,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'minocycline',1
+MED:MINOCYCLINECAPSULE-100MG-CAPS,Minocycline Capsules Mr,Medicines,minocycline capsules,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'minocycline capsules',1
+MED:MINOXIDIL-5MG-TABL,Minoxidil,Medicines,minoxidil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minoxidil'; C08 subcategory left empty (acceptable),1
+MED:MINOXIDIL-2.5MG-TABL,Minoxidil 2.5mg tablets Pack size 60 tablets,Medicines,minoxidil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minoxidil'; C08 subcategory left empty (acceptable),2
+MED:MINOXIDIL-5%-LOTI,Regaine Extra Strength Foam For Men,Medicines,minoxidil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minoxidil'; C08 subcategory left empty (acceptable),2
+MED:MINOXIDIL-SOLU,Regaine Extra Strength for Men,Medicines,minoxidil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minoxidil'; C08 subcategory left empty (acceptable),3
+MED:MINOXIDILTABLETS-2.5MG-TABL,Minoxidil Tablets 2.5mg x 60,Medicines,minoxidil tablets,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'minoxidil tablets'; C08 subcategory left empty (acceptable),1
 MED:MOMETASONE-0.10%-OINT,Elocon,Medicines,mometasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'mometasone',1
 MED:MOMETASONE-CREA,Elocon Cream 30g,Medicines,mometasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'mometasone',1
 MED:MOMETASONE-0.10%-CREA,Elocon,Medicines,mometasone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'mometasone',1
-MED:MOXIFLOXACIN-400MG-TABL,Moxifloxacin,Medicines,moxifloxacin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'moxifloxacin' - confirm C08 subcategory,1
-MED:MUPIROCIN-2%-CREA,Bactroban,Medicines,mupirocin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'mupirocin' - confirm C08 subcategory,1
-MED:MUPIROCIN-2%-OINT,Bactroban 2% Ointment 15g,Medicines,mupirocin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'mupirocin' - confirm C08 subcategory,3
-MED:MYERS-INJE,Myers 50ml,Medicines,myers,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'myers' - confirm C08 subcategory,1
-MED:NAD-1000MG-INJE,NAD+ 1000mg Sub.Q Vial,Medicines,nad,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,7
-MED:NAD-500MG-INJE,Nad 500mg Sc 3ml Pfp 1 Kit,Medicines,nad,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:NADHOME-INJE,Nad Home Injection Kit,Medicines,nad home,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADIV-500MG-SOLU,Nad Iv 500mg,Medicines,nad iv,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADSMART-100MG-INJE,Nad Smart Strip 30 X 100mg,Medicines,nad smart,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:NAD-GEL,NAD+ 1000mg (30ml),Medicines,nad+,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NAD-1000MG-SOLU,NAD+ 1000mg Pen,Medicines,nad+,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:NAD-2000MG-INJE,NAD+ 2000mg Sub.Q Vial,Medicines,nad+,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NAD-750MG3ML-INJE,NAD+ 750mg/3ml Subcutaneous Pen x 1,Medicines,nad+,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADAT,NAD+ At Home Injecting Pen Kit,Medicines,nad+ at,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADAT-2000MG-SOLU,NAD+ At Home Kits 2000mg,Medicines,nad+ at,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADDIYNAD-750MG-INJE,NAD+ DIYNAD+ Injection Pen 750mg,Medicines,nad+ diynad+,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADPEN-500MG3ML,NAD+ Pen 2 x 500mg/3ml,Medicines,nad+ pen,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADSUPPLEMENT-2000MG6ML,NAD+ SUPPLEMENT IM 2000mg/6ml,Medicines,nad+ supplement,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADSUPPLEMENT-1000MG-SOLU,NAD+ SUPPLEMENT IV 1000mg,Medicines,nad+ supplement,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADURA-1000MG,NADura 1000mg Refill Kit,Medicines,nadura,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:NADURA-INJE,NADura +,Medicines,nadura,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADURACELLGEVITY,Nadura Cellgevity Pen 3 Months Supply,Medicines,nadura cellgevity,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:NADURALGLUTATHIONE-1500MG,Nadura L-Glutathione 1500mg Pen 3 Months Supply,Medicines,nadura l-glutathione,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:NADURAWELLNESS-750MG,Nadura Wellness Cellgevity Pen Kit (750mg NAD+ + 600mg L-Glutathione + 2mg B12),Medicines,nadura wellness,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADURAWELLNESS,Nadura Wellness Cellgevity Refill KIT,Medicines,nadura wellness,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADURAWELLNESS-1500MG,Nadura Wellness L-Glutathione 1500mg Pen Kit (1 x 3ml),Medicines,nadura wellness,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:NADURAWELLNESS-750MG3ML,Nadura Wellness L-Glutathione Pen Kit (2 x 750mg / 3ml),Medicines,nadura wellness,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NADURAWELLNESS-1000MG,Nadura Wellness NAD+1000mg Pen 3 Months Supply,Medicines,nadura wellness,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,4
-MED:NADURANAD-1000MG-INJE,NADura+ NAD Injection Pen (1 x 1000mg),Medicines,nadura+ nad,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:NADURAPEN-1000MG-INJE,NADura+ Injection Pen 1 x 1000mg ( 02/27),Medicines,nadura+ pen,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NASALSPRAY-NASA,Nasal Spray With Aloe Vera And Panthenol,Medicines,nasal spray,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'nasal spray' - confirm C08 subcategory,1
-MED:NEOCYTAMIN,Neo-Cytamin 1000 Micrograms / ml (B12),Medicines,neo-cytamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'neo-cytamin' - confirm C08 subcategory,1
-MED:NEORAL-100MG-CAPS,Neoral,Medicines,neoral,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'neoral' - confirm C08 subcategory,1
-MED:NINAVELICLASSIC-INJE,Ninaveli Classic NAD NMN (5x5ml vials),Medicines,ninaveli classic,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ninaveli classic' - confirm C08 subcategory,1
-MED:NINAVELINAD-100MG4ML-INJE,Ninaveli NAD+ NMN dual vial (100mg / 4ml),Medicines,ninaveli nad+,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:NIZORAL-2%-CREA,Nizoral,Medicines,nizoral,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'nizoral' - confirm C08 subcategory,1
-MED:NMAFORMULA-INJE,Nma Formula Ibp 50ml,Medicines,nma formula,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'nma formula' - confirm C08 subcategory,1
-MED:NYSTAFORM-CREA,Nystaform,Medicines,nystaform,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'nystaform' - confirm C08 subcategory,1
-MED:NYSTATINCHLORHEXID-CREA,Nystatin Chlorhexidene Hydrocortisone,Medicines,nystatin chlorhexidene,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'nystatin chlorhexidene' - confirm C08 subcategory,1
-MED:OMEPRAZOLEPOWDER-40MG-POWD,Omeprazole Powder For Solution For Infusion,Medicines,omeprazole powder,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'omeprazole powder' - confirm C08 subcategory,1
-MED:ONDANSETRON-4MG5ML-SOLU,Ondansetron,Medicines,ondansetron,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ondansetron' - confirm C08 subcategory,1
-MED:ONDANSETRON-8MG-TABL,Ondansetron 8mg Tabs x 10,Medicines,ondansetron,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ondansetron' - confirm C08 subcategory,2
-MED:ONDANSETRON-4MG2ML-INJE,Ondansetron Injection,Medicines,ondansetron,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ondansetron' - confirm C08 subcategory,2
-MED:ONDANSETRON-4MG-TABL,Ondansetron 4mg x 30,Medicines,ondansetron,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ondansetron' - confirm C08 subcategory,3
-MED:ORGANICALOE-99.9%-GEL,Organic Aloe Vera Gel 99.9% 100ml,Medicines,organic aloe,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'organic aloe' - confirm C08 subcategory,2
-MED:OXYTETRACYCLINE-250MG-TABL,Oxytetracycline 250mg 1 X 28,Medicines,oxytetracycline,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'oxytetracycline' - confirm C08 subcategory,2
+MED:MOXIFLOXACIN-400MG-TABL,Moxifloxacin,Medicines,moxifloxacin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'moxifloxacin',1
+MED:MUPIROCIN-2%-CREA,Bactroban,Medicines,mupirocin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'mupirocin',1
+MED:MUPIROCIN-2%-OINT,Bactroban 2% Ointment 15g,Medicines,mupirocin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'mupirocin',3
+MED:MYERS-INJE,Myers 50ml,Medicines,myers,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'myers'; C08 subcategory left empty (acceptable),1
+MED:NAD-1000MG-INJE,NAD+ 1000mg Sub.Q Vial,Medicines,nad,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),7
+MED:NAD-500MG-INJE,Nad 500mg Sc 3ml Pfp 1 Kit,Medicines,nad,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:NADHOME-INJE,Nad Home Injection Kit,Medicines,nad home,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADIV-500MG-SOLU,Nad Iv 500mg,Medicines,nad iv,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADSMART-100MG-INJE,Nad Smart Strip 30 X 100mg,Medicines,nad smart,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:NAD-GEL,NAD+ 1000mg (30ml),Medicines,nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NAD-1000MG-SOLU,NAD+ 1000mg Pen,Medicines,nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:NAD-2000MG-INJE,NAD+ 2000mg Sub.Q Vial,Medicines,nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NAD-750MG3ML-INJE,NAD+ 750mg/3ml Subcutaneous Pen x 1,Medicines,nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADAT,NAD+ At Home Injecting Pen Kit,Medicines,nad+ at,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADAT-2000MG-SOLU,NAD+ At Home Kits 2000mg,Medicines,nad+ at,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADDIYNAD-750MG-INJE,NAD+ DIYNAD+ Injection Pen 750mg,Medicines,nad+ diynad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADPEN-500MG3ML,NAD+ Pen 2 x 500mg/3ml,Medicines,nad+ pen,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADSUPPLEMENT-2000MG6ML,NAD+ SUPPLEMENT IM 2000mg/6ml,Medicines,nad+ supplement,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADSUPPLEMENT-1000MG-SOLU,NAD+ SUPPLEMENT IV 1000mg,Medicines,nad+ supplement,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADURA-1000MG,NADura 1000mg Refill Kit,Medicines,nadura,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:NADURA-INJE,NADura +,Medicines,nadura,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADURACELLGEVITY,Nadura Cellgevity Pen 3 Months Supply,Medicines,nadura cellgevity,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:NADURALGLUTATHIONE-1500MG,Nadura L-Glutathione 1500mg Pen 3 Months Supply,Medicines,nadura l-glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:NADURAWELLNESS-750MG,Nadura Wellness Cellgevity Pen Kit (750mg NAD+ + 600mg L-Glutathione + 2mg B12),Medicines,nadura wellness,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADURAWELLNESS,Nadura Wellness Cellgevity Refill KIT,Medicines,nadura wellness,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADURAWELLNESS-1500MG,Nadura Wellness L-Glutathione 1500mg Pen Kit (1 x 3ml),Medicines,nadura wellness,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:NADURAWELLNESS-750MG3ML,Nadura Wellness L-Glutathione Pen Kit (2 x 750mg / 3ml),Medicines,nadura wellness,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NADURAWELLNESS-1000MG,Nadura Wellness NAD+1000mg Pen 3 Months Supply,Medicines,nadura wellness,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),4
+MED:NADURANAD-1000MG-INJE,NADura+ NAD Injection Pen (1 x 1000mg),Medicines,nadura+ nad,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:NADURAPEN-1000MG-INJE,NADura+ Injection Pen 1 x 1000mg ( 02/27),Medicines,nadura+ pen,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NASALSPRAY-NASA,Nasal Spray With Aloe Vera And Panthenol,Medicines,nasal spray,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'nasal spray'; C08 subcategory left empty (acceptable),1
+MED:NEOCYTAMIN,Neo-Cytamin 1000 Micrograms / ml (B12),Medicines,neo-cytamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'neo-cytamin'; C08 subcategory left empty (acceptable),1
+MED:NEORAL-100MG-CAPS,Neoral,Medicines,neoral,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'neoral'; C08 subcategory left empty (acceptable),1
+MED:NINAVELICLASSIC-INJE,Ninaveli Classic NAD NMN (5x5ml vials),Medicines,ninaveli classic,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NINAVELINAD-100MG4ML-INJE,Ninaveli NAD+ NMN dual vial (100mg / 4ml),Medicines,ninaveli nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NIZORAL-2%-CREA,Nizoral,Medicines,nizoral,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'nizoral',1
+MED:NMAFORMULA-INJE,Nma Formula Ibp 50ml,Medicines,nma formula,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'nma formula'; C08 subcategory left empty (acceptable),1
+MED:NYSTAFORM-CREA,Nystaform,Medicines,nystaform,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'nystaform',1
+MED:NYSTATINCHLORHEXID-CREA,Nystatin Chlorhexidene Hydrocortisone,Medicines,nystatin chlorhexidene,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'nystatin chlorhexidene',1
+MED:OMEPRAZOLEPOWDER-40MG-POWD,Omeprazole Powder For Solution For Infusion,Medicines,omeprazole powder,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'omeprazole powder'; C08 subcategory left empty (acceptable),1
+MED:ONDANSETRON-4MG5ML-SOLU,Ondansetron,Medicines,ondansetron,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ondansetron'; C08 subcategory left empty (acceptable),1
+MED:ONDANSETRON-8MG-TABL,Ondansetron 8mg Tabs x 10,Medicines,ondansetron,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ondansetron'; C08 subcategory left empty (acceptable),2
+MED:ONDANSETRON-4MG2ML-INJE,Ondansetron Injection,Medicines,ondansetron,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ondansetron'; C08 subcategory left empty (acceptable),2
+MED:ONDANSETRON-4MG-TABL,Ondansetron 4mg x 30,Medicines,ondansetron,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ondansetron'; C08 subcategory left empty (acceptable),3
+MED:ORGANICALOE-99.9%-GEL,Organic Aloe Vera Gel 99.9% 100ml,Medicines,organic aloe,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'organic aloe'; C08 subcategory left empty (acceptable),2
+MED:OXYTETRACYCLINE-250MG-TABL,Oxytetracycline 250mg 1 X 28,Medicines,oxytetracycline,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'oxytetracycline',2
 MED:PARACETAMOL-500MG-CAPS,Paracetamol,Medicines,paracetamol,,C08,Medicines & Pharmaceuticals,C08.05,Analgesics,CLASSIFIED,medicine class from 'paracetamol',2
 MED:PARACETAMOL-250MG5ML-ORAL,Paracetamol 250mg/5ml SF Oral Suspension,Medicines,paracetamol,,C08,Medicines & Pharmaceuticals,C08.05,Analgesics,CLASSIFIED,medicine class from 'paracetamol',2
 MED:PARACETAMOL-120MG5ML-ORAL,Paracetamol 120mg5ml 500ml Sf,Medicines,paracetamol,,C08,Medicines & Pharmaceuticals,C08.05,Analgesics,CLASSIFIED,medicine class from 'paracetamol',3
@@ -2427,20 +2427,20 @@ MED:PARACETAMOLSUGAR-120MG5ML-ORAL,Paracetamol Sugar Free,Medicines,paracetamol 
 MED:PARACETAMOLSUGAR-250MG5ML-ORAL,Paracetamol Sugar Free Suspension 250mg5ml,Medicines,paracetamol sugar,,C08,Medicines & Pharmaceuticals,C08.05,Analgesics,CLASSIFIED,medicine class from 'paracetamol sugar',2
 MED:PARACETAMOLSUSP-120MG5ML-ORAL,Paracetamol Susp 120mg5ml Sf,Medicines,paracetamol susp,,C08,Medicines & Pharmaceuticals,C08.05,Analgesics,CLASSIFIED,medicine class from 'paracetamol susp',1
 MED:PARACETAMOLTABS-500MG-TABL,Paracetamol Tabs 500mg x100,Medicines,paracetamol tabs,,C08,Medicines & Pharmaceuticals,C08.05,Analgesics,CLASSIFIED,medicine class from 'paracetamol tabs',1
-MED:PASCOEVITAMIN-150MG-INJE,Pascoe Vitamin C Acorbic Acid 150mg Ml Conc Solu Inj Infusion,Medicines,pascoe vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:PENICILLINVK-250MG-TABL,Penicillin VK Tabs 250mg x 28,Medicines,penicillin vk,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'penicillin vk' - confirm C08 subcategory,1
-MED:PERCUTOLOINTMENT-OINT,Percutol ointment,Medicines,percutol ointment,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'percutol ointment' - confirm C08 subcategory,1
-MED:PHENOXYMETHYLPENIC-125MG5ML-SOLU,Phenoxymethylpenicillin,Medicines,phenoxymethylpenicillin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'phenoxymethylpenicillin' - confirm C08 subcategory,1
-MED:PHENOXYMETHYLPENIC-250MG-TABL,Phenoxymethylpenicillin,Medicines,phenoxymethylpenicillin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'phenoxymethylpenicillin' - confirm C08 subcategory,1
-MED:PHENOXYMETHYLPENIC-250MG5ML-SOLU,Phenoxymethylpenicillin,Medicines,phenoxymethylpenicillin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'phenoxymethylpenicillin' - confirm C08 subcategory,1
-MED:PHENOXYMETHYLPENIC,Phenoxymethylpenicillin Penicillin,Medicines,phenoxymethylpenicillin penicillin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'phenoxymethylpenicillin penicillin' - confirm C08 subcategory,1
-MED:PHENYLEPHRINEOR-10MG-INJE,Phenylephrine Solution For Injection Or Infusion,Medicines,phenylephrine or,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'phenylephrine or' - confirm C08 subcategory,1
-MED:POLIDOCANOL-10MG-INJE,Aethoxysklerol 10mg/ml Injection 2ml x 5,Medicines,polidocanol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'polidocanol' - confirm C08 subcategory,1
-MED:POLIDOCANOL-5MG-INJE,Aethoxysklerol 5mg/ml Injection 2ml x 5,Medicines,polidocanol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'polidocanol' - confirm C08 subcategory,1
-MED:POLIDOCANOL-INJE,Aethoxysklerol Solution For Injection L,Medicines,polidocanol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'polidocanol' - confirm C08 subcategory,3
-MED:POLYFUSORHARTMANNS-SOLU,Polyfusor H Hartmanns Solution,Medicines,polyfusor hartmanns,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'polyfusor hartmanns' - confirm C08 subcategory,1
-MED:POSIFLUSHSP-INJE,Posiflush Sp Saline 10ml,Medicines,posiflush sp,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'posiflush sp' - confirm C08 subcategory,1
-MED:PREDNISOLNETABS-1MG-TABL,Prednisolne Tabs 1mg x 28,Medicines,prednisolne tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prednisolne tabs' - confirm C08 subcategory,1
+MED:PASCOEVITAMIN-150MG-INJE,Pascoe Vitamin C Acorbic Acid 150mg Ml Conc Solu Inj Infusion,Medicines,pascoe vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:PENICILLINVK-250MG-TABL,Penicillin VK Tabs 250mg x 28,Medicines,penicillin vk,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'penicillin vk',1
+MED:PERCUTOLOINTMENT-OINT,Percutol ointment,Medicines,percutol ointment,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'percutol ointment'; C08 subcategory left empty (acceptable),1
+MED:PHENOXYMETHYLPENIC-125MG5ML-SOLU,Phenoxymethylpenicillin,Medicines,phenoxymethylpenicillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'phenoxymethylpenicillin',1
+MED:PHENOXYMETHYLPENIC-250MG-TABL,Phenoxymethylpenicillin,Medicines,phenoxymethylpenicillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'phenoxymethylpenicillin',1
+MED:PHENOXYMETHYLPENIC-250MG5ML-SOLU,Phenoxymethylpenicillin,Medicines,phenoxymethylpenicillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'phenoxymethylpenicillin',1
+MED:PHENOXYMETHYLPENIC,Phenoxymethylpenicillin Penicillin,Medicines,phenoxymethylpenicillin penicillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'phenoxymethylpenicillin penicillin',1
+MED:PHENYLEPHRINEOR-10MG-INJE,Phenylephrine Solution For Injection Or Infusion,Medicines,phenylephrine or,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'phenylephrine or',1
+MED:POLIDOCANOL-10MG-INJE,Aethoxysklerol 10mg/ml Injection 2ml x 5,Medicines,polidocanol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'polidocanol'; C08 subcategory left empty (acceptable),1
+MED:POLIDOCANOL-5MG-INJE,Aethoxysklerol 5mg/ml Injection 2ml x 5,Medicines,polidocanol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'polidocanol'; C08 subcategory left empty (acceptable),1
+MED:POLIDOCANOL-INJE,Aethoxysklerol Solution For Injection L,Medicines,polidocanol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'polidocanol'; C08 subcategory left empty (acceptable),3
+MED:POLYFUSORHARTMANNS-SOLU,Polyfusor H Hartmanns Solution,Medicines,polyfusor hartmanns,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:POSIFLUSHSP-INJE,Posiflush Sp Saline 10ml,Medicines,posiflush sp,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:PREDNISOLNETABS-1MG-TABL,Prednisolne Tabs 1mg x 28,Medicines,prednisolne tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prednisolne tabs'; C08 subcategory left empty (acceptable),1
 MED:PREDNISOLONE-2.5MG-TABL,Prednisolone,Medicines,prednisolone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'prednisolone',1
 MED:PREDNISOLONE-5MG-INJE,Prednisolone 5mg,Medicines,prednisolone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'prednisolone',1
 MED:PREDNISOLONE-5MG,Prednisolone 5mg 28s,Medicines,prednisolone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'prednisolone',1
@@ -2450,27 +2450,27 @@ MED:PREDNISOLONEEC-2.5MG-TABL,Prednisolone EC,Medicines,prednisolone ec,,C08,Med
 MED:PREDNISOLONEEC-5MG-TABL,Prednisolone Ec,Medicines,prednisolone ec,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'prednisolone ec',2
 MED:PREDNISOLONEGASTRO-5MG-TABL,Prednisolone Gastro-resistant 5mg Tablets (x 28),Medicines,prednisolone gastro-resistant,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'prednisolone gastro-resistant',1
 MED:PREDNISOLONETABS-5MG-TABL,Prednisolone Tabs 5mg x28,Medicines,prednisolone tabs,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'prednisolone tabs',1
-MED:PREDNISONLONEGASTR-2.5MG-TABL,Prednisonlone Gastro-resistant Tablets (2.5mg) 28 tablets,Medicines,prednisonlone gastro-resistant,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prednisonlone gastro-resistant' - confirm C08 subcategory,1
-MED:PREDNISONLONEGASTR-5MG-TABL,Prednisonlone Gastro-resistant Tablets (5mg) 28 tablets,Medicines,prednisonlone gastro-resistant,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prednisonlone gastro-resistant' - confirm C08 subcategory,1
+MED:PREDNISONLONEGASTR-2.5MG-TABL,Prednisonlone Gastro-resistant Tablets (2.5mg) 28 tablets,Medicines,prednisonlone gastro-resistant,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'prednisonlone gastro-resistant',1
+MED:PREDNISONLONEGASTR-5MG-TABL,Prednisonlone Gastro-resistant Tablets (5mg) 28 tablets,Medicines,prednisonlone gastro-resistant,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'prednisonlone gastro-resistant',1
 MED:PRILOCAINE-INJE,Citanest 3% with Octapressin Standard,Medicines,prilocaine,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'prilocaine',3
-MED:PROINFUSION-SOLU,Pro Infusion Derm Bacio 0.5mm (1 Piece),Medicines,pro infusion,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'pro infusion' - confirm C08 subcategory,11
-MED:PROINFUSION-25U-SOLU,Pro Infusion Derm-Bacio 25 units,Medicines,pro infusion,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'pro infusion' - confirm C08 subcategory,2
-MED:PROCHLORPERAZINE-3MG-TABL,Buccastem M,Medicines,prochlorperazine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prochlorperazine' - confirm C08 subcategory,1
-MED:PROCHLORPERAZINE-5MG-TABL,Prochlorperazine,Medicines,prochlorperazine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prochlorperazine' - confirm C08 subcategory,2
-MED:PROCHLORPERAZINEBU-3MG-TABL,Prochlorperazine Buccal,Medicines,prochlorperazine buccal,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prochlorperazine buccal' - confirm C08 subcategory,1
-MED:PROCHLORPERAZINETA-5MG-TABL,Prochlorperazine Tabs 5mg x 84,Medicines,prochlorperazine tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prochlorperazine tabs' - confirm C08 subcategory,1
-MED:PROMETHAZINE-5MG-ORAL,"Phenergan Elixir , 5mg or 5ml, 1 x 100ml",Medicines,promethazine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'promethazine' - confirm C08 subcategory,1
-MED:PROMETHAZINE-25MG-TABL,Phenergan,Medicines,promethazine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'promethazine' - confirm C08 subcategory,1
-MED:PROMETHAZINE-5MG5ML-ORAL,Phenergan Elixir,Medicines,promethazine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'promethazine' - confirm C08 subcategory,1
-MED:PROTOPICOINTMENT-0.03%-OINT,Protopic Ointment,Medicines,protopic ointment,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'protopic ointment' - confirm C08 subcategory,1
-MED:PROTOPICOINTMENT-0.1%-OINT,Protopic Ointment 0.1% 60G,Medicines,protopic ointment,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'protopic ointment' - confirm C08 subcategory,1
-MED:PROTOPICOINTMENT-0.10%-OINT,Protopic Ointment,Medicines,protopic ointment,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'protopic ointment' - confirm C08 subcategory,1
-MED:PURIHEAL,PURI HEAL REVITAL NAD+,Medicines,puri heal,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'puri heal' - confirm C08 subcategory,1
-MED:PYRIDOXINEHYDROCHL-100MG2ML-INJE,Pyridoxine Hydrochloride,Medicines,pyridoxine hydrochloride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'pyridoxine hydrochloride' - confirm C08 subcategory,1
-MED:RAPILOSEGLUCOSE-40%-GEL,Rapilose Glucose Oral,Medicines,rapilose glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'rapilose glucose' - confirm C08 subcategory,1
-MED:RETIRIDES-0.10%-CREA,Retirides,Medicines,retirides,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'retirides' - confirm C08 subcategory,1
-MED:REVIVENAD-500MG-INJE,Revive NAD+ 500mg Vial,Medicines,revive nad+,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:ROPIVACAINE-100MG-INJE,Ropivacaine 100mg Inj 5 X 10ml,Medicines,ropivacaine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ropivacaine' - confirm C08 subcategory,1
+MED:PROINFUSION-SOLU,Pro Infusion Derm Bacio 0.5mm (1 Piece),Medicines,pro infusion,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'pro infusion'; C08 subcategory left empty (acceptable),11
+MED:PROINFUSION-25U-SOLU,Pro Infusion Derm-Bacio 25 units,Medicines,pro infusion,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'pro infusion'; C08 subcategory left empty (acceptable),2
+MED:PROCHLORPERAZINE-3MG-TABL,Buccastem M,Medicines,prochlorperazine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prochlorperazine'; C08 subcategory left empty (acceptable),1
+MED:PROCHLORPERAZINE-5MG-TABL,Prochlorperazine,Medicines,prochlorperazine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prochlorperazine'; C08 subcategory left empty (acceptable),2
+MED:PROCHLORPERAZINEBU-3MG-TABL,Prochlorperazine Buccal,Medicines,prochlorperazine buccal,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prochlorperazine buccal'; C08 subcategory left empty (acceptable),1
+MED:PROCHLORPERAZINETA-5MG-TABL,Prochlorperazine Tabs 5mg x 84,Medicines,prochlorperazine tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'prochlorperazine tabs'; C08 subcategory left empty (acceptable),1
+MED:PROMETHAZINE-5MG-ORAL,"Phenergan Elixir , 5mg or 5ml, 1 x 100ml",Medicines,promethazine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'promethazine'; C08 subcategory left empty (acceptable),1
+MED:PROMETHAZINE-25MG-TABL,Phenergan,Medicines,promethazine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'promethazine'; C08 subcategory left empty (acceptable),1
+MED:PROMETHAZINE-5MG5ML-ORAL,Phenergan Elixir,Medicines,promethazine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'promethazine'; C08 subcategory left empty (acceptable),1
+MED:PROTOPICOINTMENT-0.03%-OINT,Protopic Ointment,Medicines,protopic ointment,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'protopic ointment'; C08 subcategory left empty (acceptable),1
+MED:PROTOPICOINTMENT-0.1%-OINT,Protopic Ointment 0.1% 60G,Medicines,protopic ointment,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'protopic ointment'; C08 subcategory left empty (acceptable),1
+MED:PROTOPICOINTMENT-0.10%-OINT,Protopic Ointment,Medicines,protopic ointment,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'protopic ointment'; C08 subcategory left empty (acceptable),1
+MED:PURIHEAL,PURI HEAL REVITAL NAD+,Medicines,puri heal,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:PYRIDOXINEHYDROCHL-100MG2ML-INJE,Pyridoxine Hydrochloride,Medicines,pyridoxine hydrochloride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:RAPILOSEGLUCOSE-40%-GEL,Rapilose Glucose Oral,Medicines,rapilose glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'rapilose glucose'; C08 subcategory left empty (acceptable),1
+MED:RETIRIDES-0.10%-CREA,Retirides,Medicines,retirides,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'retirides'; C08 subcategory left empty (acceptable),1
+MED:REVIVENAD-500MG-INJE,Revive NAD+ 500mg Vial,Medicines,revive nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:ROPIVACAINE-100MG-INJE,Ropivacaine 100mg Inj 5 X 10ml,Medicines,ropivacaine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ropivacaine'; C08 subcategory left empty (acceptable),1
 MED:SALBUTAMOL-0.2MG-INHA,Ventolin Accuhaler 200mcg x 1,Medicines,salbutamol,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'salbutamol',2
 MED:SALBUTAMOL-INHA,Ventolin Evohaler 200 metered doses.,Medicines,salbutamol,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'salbutamol',2
 MED:SALBUTAMOL-0.1MG-INHA,Ventolin 100mcg Evohaler,Medicines,salbutamol,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'salbutamol',2
@@ -2480,79 +2480,79 @@ MED:SALBUTAMOLINHALER-0.1MG-INHA,Salbutamol Inhaler 0.1mg metered dose ( x 200 d
 MED:SALBUTAMOLINHALER-INHA,Salbutamol Inhaler CFC Free,Medicines,salbutamol inhaler,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'salbutamol inhaler',1
 MED:SALBUTAMOLNEBULES-5MG-INHA,Salbutamol Nebules,Medicines,salbutamol nebules,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'salbutamol nebules',1
 MED:SALBUTAMOLNEBULES-2.5MG-INHA,Salbutamol Nebules,Medicines,salbutamol nebules,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'salbutamol nebules',1
-MED:SALINE-INJE,Saline 0.9% 250ml bags,Medicines,saline,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,medicine class from 'saline',3
-MED:SALINEWATER-INJE,Saline & Water,Medicines,saline water,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,medicine class from 'saline water',1
-MED:SELENIUM-INJE,Selenium 100ug 5ml,Medicines,selenium,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'selenium' - confirm C08 subcategory,1
-MED:SILICONEGEL-GEL,Dermatix silicone gel,Medicines,silicone gel,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'silicone gel' - confirm C08 subcategory,2
-MED:SILKIS-OINT,Silkis,Medicines,silkis,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'silkis' - confirm C08 subcategory,1
-MED:SILVERNITRATE,Silver Nitrate Caustic Pencil,Medicines,silver nitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'silver nitrate' - confirm C08 subcategory,1
-MED:SODIUMBICARBONATE-873000MG-INJE,Sodium Bicarbonate Inj,Medicines,sodium bicarbonate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sodium bicarbonate' - confirm C08 subcategory,1
-MED:SODIUMBICARBONATE-INJE,Sodium Bicarbonate Inj 8.4% 10ml 1,Medicines,sodium bicarbonate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sodium bicarbonate' - confirm C08 subcategory,6
-MED:SODIUMCHLORIDE-INJE,Sodium Chloride Injection 0.9% 10ml 1,Medicines,sodium chloride,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,medicine class from 'sodium chloride',50
-MED:SODIUMCHLORIDE-SOLU,Sodium Chloride Infusion 0.9% 250ml x 1,Medicines,sodium chloride,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,medicine class from 'sodium chloride',5
+MED:SALINE-INJE,Saline 0.9% 250ml bags,Medicines,saline,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'saline'; C08 subcategory left empty (acceptable),3
+MED:SALINEWATER-INJE,Saline & Water,Medicines,saline water,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'saline water'; C08 subcategory left empty (acceptable),1
+MED:SELENIUM-INJE,Selenium 100ug 5ml,Medicines,selenium,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'selenium'; C08 subcategory left empty (acceptable),1
+MED:SILICONEGEL-GEL,Dermatix silicone gel,Medicines,silicone gel,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'silicone gel'; C08 subcategory left empty (acceptable),2
+MED:SILKIS-OINT,Silkis,Medicines,silkis,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'silkis'; C08 subcategory left empty (acceptable),1
+MED:SILVERNITRATE,Silver Nitrate Caustic Pencil,Medicines,silver nitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'silver nitrate'; C08 subcategory left empty (acceptable),1
+MED:SODIUMBICARBONATE-873000MG-INJE,Sodium Bicarbonate Inj,Medicines,sodium bicarbonate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sodium bicarbonate'; C08 subcategory left empty (acceptable),1
+MED:SODIUMBICARBONATE-INJE,Sodium Bicarbonate Inj 8.4% 10ml 1,Medicines,sodium bicarbonate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sodium bicarbonate'; C08 subcategory left empty (acceptable),6
+MED:SODIUMCHLORIDE-INJE,Sodium Chloride Injection 0.9% 10ml 1,Medicines,sodium chloride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sodium chloride'; C08 subcategory left empty (acceptable),50
+MED:SODIUMCHLORIDE-SOLU,Sodium Chloride Infusion 0.9% 250ml x 1,Medicines,sodium chloride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sodium chloride'; C08 subcategory left empty (acceptable),5
 MED:SODIUMCHLORIDEBACT-INJE,Bacteriostatic Sodium Chloride 0.9% 30ml Vial,Medicines,sodium chloride (bacteriostatic),,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,medicine class from 'sodium chloride (bacteriostatic)',33
 MED:SODIUMCHLORIDEBACT-9MG,Bac-Stat 0.9% 30ml,Medicines,sodium chloride (bacteriostatic),,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,medicine class from 'sodium chloride (bacteriostatic)',1
-MED:SODIUMTETRADECYLSU-INJE,Fibrovein 0.5% 2ml amps x 5,Medicines,sodium tetradecyl sulfate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sodium tetradecyl sulfate' - confirm C08 subcategory,19
-MED:SODIUMTETRADECYLSU-14000MG-INJE,Fibrovein,Medicines,sodium tetradecyl sulfate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sodium tetradecyl sulfate' - confirm C08 subcategory,1
-MED:SOLARAZE-3%-GEL,Solaraze,Medicines,solaraze,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'solaraze' - confirm C08 subcategory,1
-MED:SPIRONOLACTONE-100MG-TABL,Spironolactone 100mg Tablets (28),Medicines,spironolactone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'spironolactone' - confirm C08 subcategory,2
-MED:SPIRONOLACTONE-50MG-TABL,Spironolactone 50mg Tablets (28),Medicines,spironolactone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'spironolactone' - confirm C08 subcategory,2
-MED:SPIRONOLACTONETABS-50MG-TABL,Spironolactone Tabs 50mg x 28,Medicines,spironolactone tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'spironolactone tabs' - confirm C08 subcategory,1
-MED:SRSBIOTINE-INJE,SRS Biotine - 20 x Ampoules,Medicines,srs biotine,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:SRSGLUTATHIONE-INJE,SRS Glutathione -5 Vials,Medicines,srs glutathione,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:STERICLENSSTERILE-INJE,Stericlens Sterile Saline,Medicines,stericlens sterile,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'stericlens sterile' - confirm C08 subcategory,1
-MED:STERILESALINE-SOLU,Sterile Saline 0.9% IV Bag 1000ml,Medicines,sterile saline,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,medicine class from 'sterile saline',7
-MED:STERILEWATER-INJE,Sterile Water,Medicines,sterile water,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sterile water' - confirm C08 subcategory,1
-MED:SUBCUTANEOUSSC-1000MG-INJE,Subcutaneous Sc Nad 1000mg,Medicines,subcutaneous sc,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'subcutaneous sc' - confirm C08 subcategory,2
-MED:SYNALAR-0.03%-CREA,Synalar,Medicines,synalar,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'synalar' - confirm C08 subcategory,1
-MED:SYNALAR-0.03%-GEL,Synalar,Medicines,synalar,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'synalar' - confirm C08 subcategory,1
-MED:TAD-600MG-INJE,Tad 600 Mg 4 Ml,Medicines,tad,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tad' - confirm C08 subcategory,1
-MED:TATIONIL-600MG4ML-INJE,Tationil 600mg/4ml 10 powder vials + 10 solvent vials 4ml,Medicines,tationil,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tationil' - confirm C08 subcategory,1
-MED:TERBINAFINE-250MG-TABL,Terbinafine,Medicines,terbinafine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'terbinafine' - confirm C08 subcategory,1
-MED:TERBINAFINETABLETS-250MG-TABL,Terbinafine Tablets 250mg x 28,Medicines,terbinafine tablets,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'terbinafine tablets' - confirm C08 subcategory,1
-MED:TERUMOSURFLO-23000MG-SOLU,Terumo Surflo Winged Infusion Set 23g Continuous Use,Medicines,terumo surflo,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'terumo surflo' - confirm C08 subcategory,1
+MED:SODIUMTETRADECYLSU-INJE,Fibrovein 0.5% 2ml amps x 5,Medicines,sodium tetradecyl sulfate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sodium tetradecyl sulfate'; C08 subcategory left empty (acceptable),19
+MED:SODIUMTETRADECYLSU-14000MG-INJE,Fibrovein,Medicines,sodium tetradecyl sulfate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sodium tetradecyl sulfate'; C08 subcategory left empty (acceptable),1
+MED:SOLARAZE-3%-GEL,Solaraze,Medicines,solaraze,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'solaraze'; C08 subcategory left empty (acceptable),1
+MED:SPIRONOLACTONE-100MG-TABL,Spironolactone 100mg Tablets (28),Medicines,spironolactone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'spironolactone'; C08 subcategory left empty (acceptable),2
+MED:SPIRONOLACTONE-50MG-TABL,Spironolactone 50mg Tablets (28),Medicines,spironolactone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'spironolactone'; C08 subcategory left empty (acceptable),2
+MED:SPIRONOLACTONETABS-50MG-TABL,Spironolactone Tabs 50mg x 28,Medicines,spironolactone tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'spironolactone tabs'; C08 subcategory left empty (acceptable),1
+MED:SRSBIOTINE-INJE,SRS Biotine - 20 x Ampoules,Medicines,srs biotine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'srs biotine'; C08 subcategory left empty (acceptable),1
+MED:SRSGLUTATHIONE-INJE,SRS Glutathione -5 Vials,Medicines,srs glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:STERICLENSSTERILE-INJE,Stericlens Sterile Saline,Medicines,stericlens sterile,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'stericlens sterile'; C08 subcategory left empty (acceptable),1
+MED:STERILESALINE-SOLU,Sterile Saline 0.9% IV Bag 1000ml,Medicines,sterile saline,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sterile saline'; C08 subcategory left empty (acceptable),7
+MED:STERILEWATER-INJE,Sterile Water,Medicines,sterile water,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,water for injections / diluent (rule 6),1
+MED:SUBCUTANEOUSSC-1000MG-INJE,Subcutaneous Sc Nad 1000mg,Medicines,subcutaneous sc,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:SYNALAR-0.03%-CREA,Synalar,Medicines,synalar,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'synalar',1
+MED:SYNALAR-0.03%-GEL,Synalar,Medicines,synalar,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'synalar',1
+MED:TAD-600MG-INJE,Tad 600 Mg 4 Ml,Medicines,tad,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tad'; C08 subcategory left empty (acceptable),1
+MED:TATIONIL-600MG4ML-INJE,Tationil 600mg/4ml 10 powder vials + 10 solvent vials 4ml,Medicines,tationil,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:TERBINAFINE-250MG-TABL,Terbinafine,Medicines,terbinafine,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'terbinafine',1
+MED:TERBINAFINETABLETS-250MG-TABL,Terbinafine Tablets 250mg x 28,Medicines,terbinafine tablets,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'terbinafine tablets',1
+MED:TERUMOSURFLO-23000MG-SOLU,Terumo Surflo Winged Infusion Set 23g Continuous Use,Medicines,terumo surflo,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
 MED:TETRACAINE-1500MG-INJE,Ametop 4% 1.5g,Medicines,tetracaine,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'tetracaine',1
 MED:TETRACAINE-4%-GEL,Ametop Pack Of 12,Medicines,tetracaine,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'tetracaine',2
-MED:TIMOLOL-EYED,TIMOLOL 0.5% 5ml eye drop,Medicines,timolol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'timolol' - confirm C08 subcategory,4
-MED:TIMOLOLEYE-EYED,Timolol Eye Drops 0.5% 5ml,Medicines,timolol eye,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'timolol eye' - confirm C08 subcategory,4
-MED:TRANEXAMICACID-500MG-INJE,Tranexamic Acid Inj 500mg 5ml x 1,Medicines,tranexamic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tranexamic acid' - confirm C08 subcategory,1
-MED:TRANEXAMICACID-500MG-TABL,Tranexamic Acid Tablets 500mg x 60,Medicines,tranexamic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tranexamic acid' - confirm C08 subcategory,2
-MED:TRANEXAMICACID-100MG-INJE,Tranexamic Acid Injection Vial,Medicines,tranexamic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tranexamic acid' - confirm C08 subcategory,1
-MED:TRAVOPROSTTIMOLOLE-0.04MG-EYED,Travoprosttimolol Eye Drops,Medicines,travoprosttimolol eye,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'travoprosttimolol eye' - confirm C08 subcategory,1
-MED:TRETINOINTRETINOIN-0.05%-CREA,Tretinoin Tretinoina Same,Medicines,tretinoin tretinoina,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tretinoin tretinoina' - confirm C08 subcategory,1
-MED:TRETINOINUSP-0.05%-CREA,Tretinoin USP,Medicines,tretinoin usp,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tretinoin usp' - confirm C08 subcategory,1
+MED:TIMOLOL-EYED,TIMOLOL 0.5% 5ml eye drop,Medicines,timolol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'timolol'; C08 subcategory left empty (acceptable),4
+MED:TIMOLOLEYE-EYED,Timolol Eye Drops 0.5% 5ml,Medicines,timolol eye,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'timolol eye'; C08 subcategory left empty (acceptable),4
+MED:TRANEXAMICACID-500MG-INJE,Tranexamic Acid Inj 500mg 5ml x 1,Medicines,tranexamic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tranexamic acid'; C08 subcategory left empty (acceptable),1
+MED:TRANEXAMICACID-500MG-TABL,Tranexamic Acid Tablets 500mg x 60,Medicines,tranexamic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tranexamic acid'; C08 subcategory left empty (acceptable),2
+MED:TRANEXAMICACID-100MG-INJE,Tranexamic Acid Injection Vial,Medicines,tranexamic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tranexamic acid'; C08 subcategory left empty (acceptable),1
+MED:TRAVOPROSTTIMOLOLE-0.04MG-EYED,Travoprosttimolol Eye Drops,Medicines,travoprosttimolol eye,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'travoprosttimolol eye'; C08 subcategory left empty (acceptable),1
+MED:TRETINOINTRETINOIN-0.05%-CREA,Tretinoin Tretinoina Same,Medicines,tretinoin tretinoina,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tretinoin tretinoina'; C08 subcategory left empty (acceptable),1
+MED:TRETINOINUSP-0.05%-CREA,Tretinoin USP,Medicines,tretinoin usp,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tretinoin usp'; C08 subcategory left empty (acceptable),1
 MED:TRIAMCINOLONE-INJE,Kenalog Vials (5 x 1ml),Medicines,triamcinolone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'triamcinolone',2
 MED:TRIAMCINOLONE-40MG-INJE,Kenalog 40mg/ml inj (1),Medicines,triamcinolone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'triamcinolone',15
 MED:TRIAMCINOLONE-10MG-INJE,Adcortyl Injection,Medicines,triamcinolone,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'triamcinolone',1
 MED:TRIAMCINOLONEACETO-40MG-INJE,Triamcinolone Acetonide Injection 40mg/ml x 1ml,Medicines,triamcinolone acetonide,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'triamcinolone acetonide',1
-MED:UCERAX-25MG-TABL,Ucerax,Medicines,ucerax,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ucerax' - confirm C08 subcategory,1
+MED:UCERAX-25MG-TABL,Ucerax,Medicines,ucerax,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ucerax'; C08 subcategory left empty (acceptable),1
 MED:VALACICLOVIR-500MG-TABL,Valaciclovir,Medicines,valaciclovir,,C08,Medicines & Pharmaceuticals,C08.04,Antivirals,CLASSIFIED,medicine class from 'valaciclovir',2
-MED:VALTREX-500MG-TABL,Valtrex,Medicines,valtrex,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'valtrex' - confirm C08 subcategory,1
-MED:VITAMIN-100MG-INJE,Vitamin B1 100mg 2ml Amp x 10,Medicines,vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:VITAMIN-1MG1ML-INJE,Vitamin B12 Hydroxocobalamin Injection 5x1mg/1ml,Medicines,vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,3
-MED:VITAMIN-150MG-SOLU,Vitamin C 150 mg/ml,Medicines,vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:VITAMIN-INJE,"Vitamin D 300,000 UI Intramuscular injection 5 x 1ml",Medicines,vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:VITAMIN-300000IU-INJE,"Vitamin D3 Injection 300,000IU x 1ml x 1",Medicines,vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,3
-MED:VITAMIN-25000MG-INJE,Vitamin C 25g Edta 50ml,Medicines,vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:VITAMIN-8000MG-INJE,Vitamin C 8g Sodium Bicarbonate 50ml,Medicines,vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:VITAMIN-300000U-INJE,Vitamin D3 Streuli 300000units,Medicines,vitamin,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:VITAMINERGOCALCIFE-INJE,Vitamin D Ergocalciferol 300000u X10 Amps Im,Medicines,vitamin ergocalciferol,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:VITAMINSBC-INJE,Vitamins B+C Intravenous High Potency Ampoule 5ml x 6 pairs,Medicines,vitamins B + C,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,11
-MED:VITAMINSBC,Pabrinex I/M,Medicines,vitamins B + C,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,2
-MED:VITAMINSBC-SOLU,Vitamins B+C Intravenous HighPotency Concentrate for solutions for Infusion 6 pairs,Medicines,vitamins B + C,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,3
-MED:VITAMINSIV-SOLU,Vitamins B + C IV High Potency Conc Sol For Inf 5ml 6x2,Medicines,vitamins iv,,C09,"IV, IM & Wellness",C09.03,Vitamin Injections,CLASSIFIED,vitamin/wellness injectable -> IV/IM & Wellness,1
-MED:WARTICON-SOLU,Warticon,Medicines,warticon,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'warticon' - confirm C08 subcategory,1
-MED:WATER-INJE,Water for Injection 10ml Mini Plasco x 1,Medicines,water,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'water' - confirm C08 subcategory,16
-MED:WATERGLASS-INJE,Water For Injection Glass,Medicines,water glass,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'water glass' - confirm C08 subcategory,2
-MED:WATERINJECTIONS-INJE,Water For Injections,Medicines,water injections,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'water injections' - confirm C08 subcategory,1
-MED:WATERPLASTIC-INJE,Water For Injection Plastic,Medicines,water plastic,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'water plastic' - confirm C08 subcategory,3
-MED:WINGEDINFUSION-19000MG-SOLU,Winged Infusion Set 19G Beige x1,Medicines,winged infusion,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'winged infusion' - confirm C08 subcategory,1
-MED:WINGEDINFUSION-21000MG-SOLU,Winged Infusion Set 21G Green x1,Medicines,winged infusion,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'winged infusion' - confirm C08 subcategory,1
-MED:WINGEDINFUSION-23000MG-SOLU,Winged Infusion Set 23G Blue x1,Medicines,winged infusion,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'winged infusion' - confirm C08 subcategory,1
-MED:WINGEDINFUSION-25000MG-SOLU,Winged Infusion Set 25G Orange x1,Medicines,winged infusion,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'winged infusion' - confirm C08 subcategory,1
-MED:YASMIN-3MG-TABL,Yasmin,Medicines,yasmin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'yasmin' - confirm C08 subcategory,1
-MED:ZOLEDRONICACID-4MG5ML-SOLU,Zoledronic Acid solution for infusion,Medicines,zoledronic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'zoledronic acid' - confirm C08 subcategory,1
-MED:ZOVIRAX-200MG-TABL,Zovirax 200mg Dispersible Tablets 25,Medicines,zovirax,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'zovirax' - confirm C08 subcategory,2
+MED:VALTREX-500MG-TABL,Valtrex,Medicines,valtrex,,C08,Medicines & Pharmaceuticals,C08.04,Antivirals,CLASSIFIED,medicine class from 'valtrex',1
+MED:VITAMIN-100MG-INJE,Vitamin B1 100mg 2ml Amp x 10,Medicines,vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:VITAMIN-1MG1ML-INJE,Vitamin B12 Hydroxocobalamin Injection 5x1mg/1ml,Medicines,vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),3
+MED:VITAMIN-150MG-SOLU,Vitamin C 150 mg/ml,Medicines,vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:VITAMIN-INJE,"Vitamin D 300,000 UI Intramuscular injection 5 x 1ml",Medicines,vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),2
+MED:VITAMIN-300000IU-INJE,"Vitamin D3 Injection 300,000IU x 1ml x 1",Medicines,vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),3
+MED:VITAMIN-25000MG-INJE,Vitamin C 25g Edta 50ml,Medicines,vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:VITAMIN-8000MG-INJE,Vitamin C 8g Sodium Bicarbonate 50ml,Medicines,vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:VITAMIN-300000U-INJE,Vitamin D3 Streuli 300000units,Medicines,vitamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:VITAMINERGOCALCIFE-INJE,Vitamin D Ergocalciferol 300000u X10 Amps Im,Medicines,vitamin ergocalciferol,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),2
+MED:VITAMINSBC-INJE,Vitamins B+C Intravenous High Potency Ampoule 5ml x 6 pairs,Medicines,vitamins B + C,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),11
+MED:VITAMINSBC,Pabrinex I/M,Medicines,vitamins B + C,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),2
+MED:VITAMINSBC-SOLU,Vitamins B+C Intravenous HighPotency Concentrate for solutions for Infusion 6 pairs,Medicines,vitamins B + C,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),3
+MED:VITAMINSIV-SOLU,Vitamins B + C IV High Potency Conc Sol For Inf 5ml 6x2,Medicines,vitamins iv,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
+MED:WARTICON-SOLU,Warticon,Medicines,warticon,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'warticon'; C08 subcategory left empty (acceptable),1
+MED:WATER-INJE,Water for Injection 10ml Mini Plasco x 1,Medicines,water,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,water for injections / diluent (rule 6),16
+MED:WATERGLASS-INJE,Water For Injection Glass,Medicines,water glass,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,water for injections / diluent (rule 6),2
+MED:WATERINJECTIONS-INJE,Water For Injections,Medicines,water injections,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,water for injections / diluent (rule 6),1
+MED:WATERPLASTIC-INJE,Water For Injection Plastic,Medicines,water plastic,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,water for injections / diluent (rule 6),3
+MED:WINGEDINFUSION-19000MG-SOLU,Winged Infusion Set 19G Beige x1,Medicines,winged infusion,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:WINGEDINFUSION-21000MG-SOLU,Winged Infusion Set 21G Green x1,Medicines,winged infusion,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:WINGEDINFUSION-23000MG-SOLU,Winged Infusion Set 23G Blue x1,Medicines,winged infusion,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:WINGEDINFUSION-25000MG-SOLU,Winged Infusion Set 25G Orange x1,Medicines,winged infusion,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
+MED:YASMIN-3MG-TABL,Yasmin,Medicines,yasmin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'yasmin'; C08 subcategory left empty (acceptable),1
+MED:ZOLEDRONICACID-4MG5ML-SOLU,Zoledronic Acid solution for infusion,Medicines,zoledronic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'zoledronic acid'; C08 subcategory left empty (acceptable),1
+MED:ZOVIRAX-200MG-TABL,Zovirax 200mg Dispersible Tablets 25,Medicines,zovirax,,C08,Medicines & Pharmaceuticals,C08.04,Antivirals,CLASSIFIED,medicine class from 'zovirax',2
 NDL:CONSUM-20G-X20,20G Mekon (x 20),"Needles, cannulas & syringes",Consumable (other),,C10,Clinical Consumables,,,CLASSIFIED,consumable 'Consumable (other)' - confirm subcategory,1
 NDL:CONSUM-20G-11MM,B Braun Introcan Safety 3 Closed Iv Catheter 20g Pink X 1 14 11mm X 32mm Gravity Flow Rate 60,"Needles, cannulas & syringes",Consumable (other),,C10,Clinical Consumables,,,CLASSIFIED,consumable 'Consumable (other)' - confirm subcategory,1
 NDL:CONSUM-22G-9MM,B Braun Introcan Safety 3 Closed Iv Catheter 22g Blue X 1 09mm X 25mm Gravity Flow Rate 35,"Needles, cannulas & syringes",Consumable (other),,C10,Clinical Consumables,,,CLASSIFIED,consumable 'Consumable (other)' - confirm subcategory,1
@@ -6392,7 +6392,7 @@ TOX:TOX-RELFYDESS-150UNITS,Relfydess 150 units (1 x 1.5ml vial),Toxin,Botulinum 
 TOX:TOX-RELFYDESS-150UNITS-10X,Relfydess 150 units (10 x 1.5ml vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,3
 TOX:TOX-XEOMIN-100UNITS,Xeomin 100 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,1
 TOX:TOX-XEOMIN-50UNITS,Xeomin 50 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,1
-VAC:VAC-ENGERIX-B-ADULT-20MCG-PFS,Engerix B 20 micrograms/1 ml Suspension for injection in pre-filled syringe x 1,Vaccine,Hepatitis B,,PARKED,Parked (phase 2),,,PARKED,vaccines parked for a later phase (owner decision),2
+VAC:VAC-ENGERIX-B-ADULT-20MCG-PFS,Engerix B 20 micrograms/1 ml Suspension for injection in pre-filled syringe x 1,Vaccine,Hepatitis B,,C08,Medicines & Pharmaceuticals,C08.VAC,Vaccines (proposed — pending JSON approval),CLASSIFIED,"vaccine -> C08, proposed new subcategory 'Vaccines' (rule 11; JSON unchanged pending approval)",2
 WGT:TRULICITY-0.75MG-PEN,TRULICITY 0.75MG/0.5ML x 4,Weight-loss medicine,dulaglutide (GLP-1),,WLM,Weight Management,,,CLASSIFIED,weight management (owner-approved standalone category),1
 WGT:TRULICITY-1.5MG-PEN,TRULICITY 1.5MG/0.5ML,Weight-loss medicine,dulaglutide (GLP-1),,WLM,Weight Management,,,CLASSIFIED,weight management (owner-approved standalone category),1
 WGT:TRULICITY-3MG-PEN,TRULICITY 3.0MG/0.5ML,Weight-loss medicine,dulaglutide (GLP-1),,WLM,Weight Management,,,CLASSIFIED,weight management (owner-approved standalone category),1

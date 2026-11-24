@@ -80,6 +80,34 @@ for (reason, v1, pid), prods in sorted(grp.items(), key=lambda kv: -len(kv[1])):
     for c in rq[rq.max_row]: c.font, c.alignment = SM, WRAP
 rq.auto_filter.ref = f"A1:E{rq.max_row}"
 
+# --- Proposed new subcategories (rule 12: report, do not change JSON until approved) ---
+import json as _json
+TX = _json.load(open(ROOT / "data/taxonomy/AestheticsProcure_Taxonomy_v1.json", encoding="utf-8"))
+approved = set()
+for c in TX["categories"]:
+    approved.add(c["id"])
+    for s in c.get("children", []):
+        approved.add(s["id"])
+        for p in s.get("product_types", []):
+            approved.add(p["id"])
+approved |= {"WLM", "PARKED", ""}
+ps_tab = wb.create_sheet("Proposed subcategories")
+head(ps_tab, ["Proposed ID", "Proposed name", "Parent", "Reason", "Products", "Example products"], [16, 34, 10, 44, 10, 56])
+prop = collections.defaultdict(list)
+for r in rows:
+    sid = r["subcategory_id"]
+    if sid and sid not in approved:
+        prop[(sid, r["subcategory"])].append(r["product"])
+reasons = {"C08.VAC": ("C08", "Vaccines have no subcategory in the approved JSON; owner rule 11 places them in C08 under a new 'Vaccines' subcategory.")}
+for (sid, sname), prods in sorted(prop.items()):
+    parent, reason = reasons.get(sid, ("", "new subcategory proposed"))
+    ps_tab.append([sid, sname, parent, reason, len(prods), " | ".join(prods[:4])])
+    for c in ps_tab[ps_tab.max_row]: c.font, c.alignment = SM, WRAP
+ps_tab.append([])
+ps_tab.append(["Also standalone:", "WLM — Weight Management", "(top-level)", "Owner-approved standalone category (not C09.07).",
+               sum(1 for r in rows if r["primary_category_id"] == "WLM"), ""])
+for c in ps_tab[ps_tab.max_row]: c.font, c.alignment = SM, WRAP
+
 # --- Notes / deviations ---
 nt = wb.create_sheet("Notes")
 notes = [
