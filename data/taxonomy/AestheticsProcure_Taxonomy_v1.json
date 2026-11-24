@@ -1,0 +1,695 @@
+{
+  "title": "AestheticsProcure Master Product Taxonomy",
+  "version": "1.0",
+  "locale": "en-GB",
+  "status": "approved main structure; Level 3 vocabulary incomplete",
+  "categories": [
+    {
+      "id": "C01",
+      "name": "Dermal Fillers",
+      "children": [
+        {
+          "id": "C01.01",
+          "name": "Hyaluronic Acid Fillers",
+          "product_types": [
+            {
+              "id": "C01.01.01",
+              "name": "Cross-linked HA Filler"
+            }
+          ]
+        },
+        {
+          "id": "C01.02",
+          "name": "Non-HA Fillers",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "Botulinum Toxins",
+      "children": [
+        {
+          "id": "C02.01",
+          "name": "Botulinum Toxin Type A",
+          "product_types": []
+        },
+        {
+          "id": "C02.02",
+          "name": "Botulinum Toxin Type B",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "Skin Rejuvenation & Regeneration",
+      "children": [
+        {
+          "id": "C03.01",
+          "name": "Skin Boosters",
+          "product_types": []
+        },
+        {
+          "id": "C03.02",
+          "name": "Polynucleotides",
+          "product_types": []
+        },
+        {
+          "id": "C03.03",
+          "name": "Collagen Biostimulators",
+          "product_types": []
+        },
+        {
+          "id": "C03.04",
+          "name": "Exosomes",
+          "product_types": []
+        },
+        {
+          "id": "C03.05",
+          "name": "Mesotherapy",
+          "product_types": []
+        },
+        {
+          "id": "C03.06",
+          "name": "PRP & PRF",
+          "product_types": []
+        },
+        {
+          "id": "C03.07",
+          "name": "Stem Cell-related Products",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "name": "Fat Dissolving & Body Contouring",
+      "children": [
+        {
+          "id": "C04.01",
+          "name": "Fat Dissolvers",
+          "product_types": []
+        },
+        {
+          "id": "C04.02",
+          "name": "Body Contouring Products",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "name": "Threads",
+      "children": [
+        {
+          "id": "C05.01",
+          "name": "PDO Threads",
+          "product_types": []
+        },
+        {
+          "id": "C05.02",
+          "name": "PLLA Threads",
+          "product_types": []
+        },
+        {
+          "id": "C05.03",
+          "name": "PCL Threads",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "name": "Skincare & Chemical Peels",
+      "children": [
+        {
+          "id": "C06.01",
+          "name": "Chemical Peels",
+          "product_types": []
+        },
+        {
+          "id": "C06.02",
+          "name": "Cleansers",
+          "product_types": []
+        },
+        {
+          "id": "C06.03",
+          "name": "Toners",
+          "product_types": []
+        },
+        {
+          "id": "C06.04",
+          "name": "Serums",
+          "product_types": []
+        },
+        {
+          "id": "C06.05",
+          "name": "Moisturisers",
+          "product_types": []
+        },
+        {
+          "id": "C06.06",
+          "name": "Exfoliators",
+          "product_types": []
+        },
+        {
+          "id": "C06.07",
+          "name": "Sun Protection",
+          "product_types": []
+        },
+        {
+          "id": "C06.08",
+          "name": "Pre-Treatment Skincare",
+          "product_types": []
+        },
+        {
+          "id": "C06.09",
+          "name": "Post-Treatment Skincare",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "name": "Hair & Scalp Treatments",
+      "children": [
+        {
+          "id": "C07.01",
+          "name": "Hair Mesotherapy",
+          "product_types": []
+        },
+        {
+          "id": "C07.02",
+          "name": "Hair Regeneration",
+          "product_types": []
+        },
+        {
+          "id": "C07.03",
+          "name": "Scalp Treatments",
+          "product_types": []
+        },
+        {
+          "id": "C07.04",
+          "name": "Hair Loss Products",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "name": "Medicines & Pharmaceuticals",
+      "children": [
+        {
+          "id": "C08.01",
+          "name": "Anaesthetics",
+          "product_types": []
+        },
+        {
+          "id": "C08.02",
+          "name": "Hyaluronidase",
+          "product_types": []
+        },
+        {
+          "id": "C08.03",
+          "name": "Antibiotics",
+          "product_types": []
+        },
+        {
+          "id": "C08.04",
+          "name": "Antivirals",
+          "product_types": []
+        },
+        {
+          "id": "C08.05",
+          "name": "Analgesics",
+          "product_types": []
+        },
+        {
+          "id": "C08.06",
+          "name": "Anti-inflammatory Medicines",
+          "product_types": []
+        },
+        {
+          "id": "C08.07",
+          "name": "Steroids",
+          "product_types": []
+        },
+        {
+          "id": "C08.08",
+          "name": "Sedation",
+          "product_types": []
+        },
+        {
+          "id": "C08.09",
+          "name": "Emergency Medicines",
+          "product_types": []
+        },
+        {
+          "id": "C08.10",
+          "name": "Diluents",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "name": "IV, IM & Wellness",
+      "children": [
+        {
+          "id": "C09.01",
+          "name": "IV Therapy",
+          "product_types": []
+        },
+        {
+          "id": "C09.02",
+          "name": "IM Therapy",
+          "product_types": []
+        },
+        {
+          "id": "C09.03",
+          "name": "Vitamin Injections",
+          "product_types": []
+        },
+        {
+          "id": "C09.04",
+          "name": "NAD+",
+          "product_types": []
+        },
+        {
+          "id": "C09.05",
+          "name": "Supplements",
+          "product_types": []
+        },
+        {
+          "id": "C09.06",
+          "name": "Wellness Products",
+          "product_types": []
+        },
+        {
+          "id": "C09.07",
+          "name": "Weight Management",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "name": "Clinical Consumables",
+      "children": [
+        {
+          "id": "C10.01",
+          "name": "Needles",
+          "product_types": []
+        },
+        {
+          "id": "C10.02",
+          "name": "Syringes",
+          "product_types": []
+        },
+        {
+          "id": "C10.03",
+          "name": "Cannulae",
+          "product_types": []
+        },
+        {
+          "id": "C10.04",
+          "name": "Dressings & Swabs",
+          "product_types": []
+        },
+        {
+          "id": "C10.05",
+          "name": "Couch Rolls",
+          "product_types": []
+        },
+        {
+          "id": "C10.06",
+          "name": "Drapes",
+          "product_types": []
+        },
+        {
+          "id": "C10.07",
+          "name": "Irrigation",
+          "product_types": []
+        },
+        {
+          "id": "C10.08",
+          "name": "Sharps Disposal",
+          "product_types": []
+        },
+        {
+          "id": "C10.09",
+          "name": "Safety Devices",
+          "product_types": []
+        },
+        {
+          "id": "C10.10",
+          "name": "Facial Aesthetics Accessories",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "name": "Infection Control & PPE",
+      "children": [
+        {
+          "id": "C11.01",
+          "name": "Gloves",
+          "product_types": []
+        },
+        {
+          "id": "C11.02",
+          "name": "Face Masks",
+          "product_types": []
+        },
+        {
+          "id": "C11.03",
+          "name": "Face Shields",
+          "product_types": []
+        },
+        {
+          "id": "C11.04",
+          "name": "Gowns",
+          "product_types": []
+        },
+        {
+          "id": "C11.05",
+          "name": "Disinfectants",
+          "product_types": []
+        },
+        {
+          "id": "C11.06",
+          "name": "Sterilisation Products",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "name": "Devices & Equipment",
+      "children": [
+        {
+          "id": "C12.01",
+          "name": "Microneedling Devices",
+          "product_types": []
+        },
+        {
+          "id": "C12.02",
+          "name": "Needle Cartridges",
+          "product_types": []
+        },
+        {
+          "id": "C12.03",
+          "name": "Plasma Pens",
+          "product_types": []
+        },
+        {
+          "id": "C12.04",
+          "name": "Laser & IPL Devices",
+          "product_types": []
+        },
+        {
+          "id": "C12.05",
+          "name": "Radiofrequency Devices",
+          "product_types": []
+        },
+        {
+          "id": "C12.06",
+          "name": "Ultrasound Devices",
+          "product_types": []
+        },
+        {
+          "id": "C12.07",
+          "name": "Diagnostic Equipment",
+          "product_types": []
+        },
+        {
+          "id": "C12.08",
+          "name": "Clinic Equipment",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "name": "Surgical & Medical Supplies",
+      "children": [
+        {
+          "id": "C13.01",
+          "name": "Scalpels",
+          "product_types": []
+        },
+        {
+          "id": "C13.02",
+          "name": "Sutures & Skin Closures",
+          "product_types": []
+        },
+        {
+          "id": "C13.03",
+          "name": "Haemostasis",
+          "product_types": []
+        },
+        {
+          "id": "C13.04",
+          "name": "Post-operative Care",
+          "product_types": []
+        },
+        {
+          "id": "C13.05",
+          "name": "Compression Garments",
+          "product_types": []
+        },
+        {
+          "id": "C13.06",
+          "name": "Rhinoplasty Supplies",
+          "product_types": []
+        },
+        {
+          "id": "C13.07",
+          "name": "Orthopaedic Supplies",
+          "product_types": []
+        },
+        {
+          "id": "C13.08",
+          "name": "First Aid",
+          "product_types": []
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "name": "Beauty & Salon Supplies",
+      "children": [
+        {
+          "id": "C14.01",
+          "name": "Semi-Permanent Makeup",
+          "product_types": []
+        },
+        {
+          "id": "C14.02",
+          "name": "Nail Products",
+          "product_types": []
+        },
+        {
+          "id": "C14.03",
+          "name": "Gel Polish",
+          "product_types": []
+        },
+        {
+          "id": "C14.04",
+          "name": "Builder Gel",
+          "product_types": []
+        },
+        {
+          "id": "C14.05",
+          "name": "Acrylics & Powders",
+          "product_types": []
+        },
+        {
+          "id": "C14.06",
+          "name": "Nail Art",
+          "product_types": []
+        },
+        {
+          "id": "C14.07",
+          "name": "Nail Tips",
+          "product_types": []
+        },
+        {
+          "id": "C14.08",
+          "name": "Files & Buffers",
+          "product_types": []
+        },
+        {
+          "id": "C14.09",
+          "name": "Beauty Tools",
+          "product_types": []
+        },
+        {
+          "id": "C14.10",
+          "name": "Suncare & Tanning",
+          "product_types": []
+        }
+      ]
+    }
+  ],
+  "navigation": [
+    {
+      "label": "Dermal Fillers",
+      "category_ids": [
+        "C01"
+      ]
+    },
+    {
+      "label": "Botulinum Toxins",
+      "category_ids": [
+        "C02"
+      ]
+    },
+    {
+      "label": "Skin Boosters",
+      "category_ids": [
+        "C03.01"
+      ]
+    },
+    {
+      "label": "Polynucleotides",
+      "category_ids": [
+        "C03.02"
+      ]
+    },
+    {
+      "label": "Biostimulators",
+      "category_ids": [
+        "C03.03"
+      ]
+    },
+    {
+      "label": "Exosomes",
+      "category_ids": [
+        "C03.04"
+      ]
+    },
+    {
+      "label": "Mesotherapy",
+      "category_ids": [
+        "C03.05",
+        "C07.01"
+      ]
+    },
+    {
+      "label": "Fat Dissolvers",
+      "category_ids": [
+        "C04.01"
+      ]
+    },
+    {
+      "label": "Threads",
+      "category_ids": [
+        "C05"
+      ]
+    },
+    {
+      "label": "Chemical Peels",
+      "category_ids": [
+        "C06.01"
+      ]
+    },
+    {
+      "label": "Skincare",
+      "category_ids": [
+        "C06.02",
+        "C06.03",
+        "C06.04",
+        "C06.05",
+        "C06.06",
+        "C06.07",
+        "C06.08",
+        "C06.09"
+      ]
+    },
+    {
+      "label": "Pharmacy",
+      "category_ids": [
+        "C08"
+      ]
+    },
+    {
+      "label": "IV & Wellness",
+      "category_ids": [
+        "C09"
+      ]
+    },
+    {
+      "label": "Consumables",
+      "category_ids": [
+        "C10"
+      ]
+    },
+    {
+      "label": "Infection Control",
+      "category_ids": [
+        "C11"
+      ]
+    },
+    {
+      "label": "Devices & Equipment",
+      "category_ids": [
+        "C12"
+      ]
+    },
+    {
+      "label": "Surgical Supplies",
+      "category_ids": [
+        "C13"
+      ]
+    },
+    {
+      "label": "Beauty & Salon",
+      "category_ids": [
+        "C14"
+      ]
+    }
+  ],
+  "facets": {
+    "treatment_area": [
+      "Lips",
+      "Face",
+      "Body"
+    ],
+    "thread_design": [
+      "Mono",
+      "Cog",
+      "Screw"
+    ]
+  },
+  "rules": [
+    "Use one primary category path per canonical product; additional navigation tags do not create duplicate products.",
+    "Use only approved IDs. Assign the deepest supported level; leave unknown levels null. Empty product_types arrays are reserved for future approval, not permission to invent types.",
+    "Classify using verified product identity, composition, intended use and official documentation; supplier category is evidence, not authoritative truth. Preserve original supplier labels and source URLs.",
+    "For overlaps prefer the specific verified product type: hair-specific mesotherapy goes to Hair Mesotherapy; botulinum toxins go to C02 even when prescription-only; hyaluronidase goes to C08. For unresolved overlaps use REVIEW_REQUIRED.",
+    "Treatment area (Lip, Face, Body) is a facet, not a primary category. Mono, Cog and Screw are thread design facets; PDO, PLLA and PCL are material categories.",
+    "Brand, manufacturer, dose, strength, volume, pack size, route, regulatory status, prescription requirements and professional eligibility are independent attributes. Never infer legal status from category.",
+    "Do not automatically overwrite canonical Product Truth with supplier data. Manufacturer or official documentation takes precedence. Keep field-level source, confidence and audit history.",
+    "Distinguish MANUFACTURER_STANDARD, SUPPLIER_SPLIT, SUPPLIER_BUNDLE and UNKNOWN. Require evidence or supplier confirmation for custom/split packs. Do not merge different variants or packs as identical offers.",
+    "Exclude unresolved or conflicting offers from automated cheapest and basket recommendations. Route conflicts to verification queue.",
+    "Do not force a classification or invent evidence. Preserve unmatched records and propose new categories separately for human approval.",
+    "Taxonomy includes future scope; inclusion does not imply supplier availability, UK authorisation or permission to sell.",
+    "Best Sellers, New Arrivals and Special Offers are collections; Training and Marketing are services, not product categories."
+  ],
+  "classification_output_example": {
+    "source_record_id": null,
+    "original_supplier_category": null,
+    "primary_category_id": null,
+    "subcategory_id": null,
+    "product_type_id": null,
+    "status": "REVIEW_REQUIRED",
+    "confidence": null,
+    "evidence_urls": [],
+    "reason": null,
+    "proposed_category": null,
+    "pack_type": "UNKNOWN",
+    "recommendation_eligible": false
+  }
+}
