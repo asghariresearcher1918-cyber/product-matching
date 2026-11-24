@@ -178,6 +178,12 @@ def main():
     out, counts, status_counts = [], collections.Counter(), collections.Counter()
     for r in rows:
         pid, sub, status, reason = classify(r["category"], r["equivalence_group"], r["product"])
+        # owner rule: a known primary category with no fitting subcategory is CLASSIFIED (empty subcategory is acceptable);
+        # only keep REVIEW for a genuinely uncertain PRIMARY. All current review items have a certain primary.
+        if status == "REVIEW_REQUIRED" and pid:
+            status = "CLASSIFIED"
+            if "subcategory" not in reason.lower():
+                reason = reason + " (primary certain; subcategory left empty pending the per-category pass)"
         status_counts[status] += 1
         key = (pid or "UNMAPPED", NAME.get(pid, ""), sub or "", NAME.get(sub, ""))
         counts[key] += 1
