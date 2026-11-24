@@ -6369,8 +6369,8 @@ SUP:SUP-ALTRIENT-LIPOSOMAL-GLUTATHIONE-450MG-450MG,Altrient Liposomal Glutathion
 SUP:SUP-ALTRIENT-LIPOSOMAL-MAGNESIUM-LTHREONATE,Altrient Liposomal Magnesium Lthreonate,Supplements,Vitamin C (oral/liposomal),,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
 SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-MINERAL-COMPLEX-138MG,Altrient Liposomal Vitamin B And Mineral Complex 138mg,Supplements,Vitamin C (oral/liposomal),,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
 SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-1000MG-1000MG,Altrient Liposomal Vitamin C 1000mg,Supplements,Vitamin C (oral/liposomal),,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
-TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Alluzience 125 Speywood units (1 x 0.625ml vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,7
-TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Alluzience 125 Speywood units (2 x 0.625ml vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,10
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Alluzience 125 Speywood units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,7
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Alluzience 125 Speywood units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,10
 TOX:TOX-AZZALURE-125SPEYWOODUNITS,Azzalure 125 Speywood units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,10
 TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Azzalure 125 Speywood units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,12
 TOX:TOX-BOCOUTURE-100UNITS,Bocouture 100 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,11
@@ -6388,8 +6388,8 @@ TOX:TOX-LETYBO-100UNITS,Letybo 100 units (1 vial),Toxin,Botulinum toxin type A,,
 TOX:TOX-LETYBO-50UNITS,Letybo 50 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,6
 TOX:TOX-NUCEIVA-100UNITS,Nuceiva 100 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,2
 TOX:TOX-NUCEIVA-100UNITS-50X,Nuceiva 100 units (50 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,1
-TOX:TOX-RELFYDESS-150UNITS,Relfydess 150 units (1 x 1.5ml vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,10
-TOX:TOX-RELFYDESS-150UNITS-10X,Relfydess 150 units (10 x 1.5ml vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,3
+TOX:TOX-RELFYDESS-150UNITS,Relfydess 150 units (100 units/ml - 1 x 1.5ml vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,10
+TOX:TOX-RELFYDESS-150UNITS-10X,Relfydess 150 units (100 units/ml - 10 x 1.5ml vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,3
 TOX:TOX-XEOMIN-100UNITS,Xeomin 100 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,1
 TOX:TOX-XEOMIN-50UNITS,Xeomin 50 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,1
 VAC:VAC-ENGERIX-B-ADULT-20MCG-PFS,Engerix B 20 micrograms/1 ml Suspension for injection in pre-filled syringe x 1,Vaccine,Hepatitis B,,C08,Medicines & Pharmaceuticals,C08.VAC,Vaccines (proposed — pending JSON approval),CLASSIFIED,"vaccine -> C08, proposed new subcategory 'Vaccines' (rule 11; JSON unchanged pending approval)",2

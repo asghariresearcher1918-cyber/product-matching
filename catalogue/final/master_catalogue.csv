@@ -6369,8 +6369,8 @@ SUP:SUP-ALTRIENT-LIPOSOMAL-GLUTATHIONE-450MG-450MG,Supplements,Vitamin C (oral/l
 SUP:SUP-ALTRIENT-LIPOSOMAL-MAGNESIUM-LTHREONATE,Supplements,Vitamin C (oral/liposomal),altrient,Altrient Liposomal Magnesium Lthreonate,,,,,,1,1,
 SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-MINERAL-COMPLEX-138MG,Supplements,Vitamin C (oral/liposomal),altrient,Altrient Liposomal Vitamin B And Mineral Complex 138mg,138mg,,,,,1,1,
 SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-1000MG-1000MG,Supplements,Vitamin C (oral/liposomal),altrient,Altrient Liposomal Vitamin C 1000mg,1000mg,,,,,1,1,
-TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Toxin,Botulinum toxin type A,Alluzience,Alluzience 125 Speywood units (1 x 0.625ml vial),1 x 0.625ml vial,Galderma,1,,reference-matched,7,7,https://www.medicines.org.uk/emc/search?q=alluzience
-TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Toxin,Botulinum toxin type A,Alluzience,Alluzience 125 Speywood units (2 x 0.625ml vials),2 x 0.625ml vials,Galderma,2,,reference-matched,10,10,https://www.medicines.org.uk/emc/search?q=alluzience
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Toxin,Botulinum toxin type A,Alluzience,Alluzience 125 Speywood units (1 vial),1 vial,Galderma,1,,reference-matched,7,7,https://www.medicines.org.uk/emc/search?q=alluzience
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Toxin,Botulinum toxin type A,Alluzience,Alluzience 125 Speywood units (2 vials),2 vials,Galderma,2,,reference-matched,10,10,https://www.medicines.org.uk/emc/search?q=alluzience
 TOX:TOX-AZZALURE-125SPEYWOODUNITS,Toxin,Botulinum toxin type A,Azzalure,Azzalure 125 Speywood units (1 vial),1 vial,Galderma,1,,reference-matched,10,10,https://www.medicines.org.uk/emc/search?q=azzalure
 TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Toxin,Botulinum toxin type A,Azzalure,Azzalure 125 Speywood units (2 vials),2 vials,Galderma,2,,reference-matched,12,12,https://www.medicines.org.uk/emc/search?q=azzalure
 TOX:TOX-BOCOUTURE-100UNITS,Toxin,Botulinum toxin type A,Bocouture,Bocouture 100 units (1 vial),1 vial,Merz,1,,reference-matched,11,11,https://www.medicines.org.uk/emc/search?q=bocouture
@@ -6388,8 +6388,8 @@ TOX:TOX-LETYBO-100UNITS,Toxin,Botulinum toxin type A,Letybo,Letybo 100 units (1 
 TOX:TOX-LETYBO-50UNITS,Toxin,Botulinum toxin type A,Letybo,Letybo 50 units (1 vial),1 vial,Hugel,1,,reference-matched,6,6,https://www.medicines.org.uk/emc/search?q=letybo
 TOX:TOX-NUCEIVA-100UNITS,Toxin,Botulinum toxin type A,Nuceiva,Nuceiva 100 units (1 vial),1 vial,Evolus,1,,reference-matched,2,2,https://www.medicines.org.uk/emc/search?q=nuceiva
 TOX:TOX-NUCEIVA-100UNITS-50X,Toxin,Botulinum toxin type A,Nuceiva,Nuceiva 100 units (50 vials),50 vials,Evolus,50,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=nuceiva
-TOX:TOX-RELFYDESS-150UNITS,Toxin,Botulinum toxin type A,Relfydess,Relfydess 150 units (1 x 1.5ml vial),1 x 1.5ml vial,Galderma,1,,reference-matched,10,10,https://www.medicines.org.uk/emc/search?q=relfydess
-TOX:TOX-RELFYDESS-150UNITS-10X,Toxin,Botulinum toxin type A,Relfydess,Relfydess 150 units (10 x 1.5ml vials),10 x 1.5ml vials,Galderma,10,,reference-matched,3,3,https://www.medicines.org.uk/emc/search?q=relfydess
+TOX:TOX-RELFYDESS-150UNITS,Toxin,Botulinum toxin type A,Relfydess,Relfydess 150 units (100 units/ml - 1 x 1.5ml vial),100 units/ml - 1 x 1.5ml vial,Galderma,1,,reference-matched,10,10,https://www.medicines.org.uk/emc/search?q=relfydess
+TOX:TOX-RELFYDESS-150UNITS-10X,Toxin,Botulinum toxin type A,Relfydess,Relfydess 150 units (100 units/ml - 10 x 1.5ml vials),100 units/ml - 10 x 1.5ml vials,Galderma,10,,reference-matched,3,3,https://www.medicines.org.uk/emc/search?q=relfydess
 TOX:TOX-XEOMIN-100UNITS,Toxin,Botulinum toxin type A,Xeomin,Xeomin 100 units (1 vial),1 vial,Merz,1,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=xeomin
 TOX:TOX-XEOMIN-50UNITS,Toxin,Botulinum toxin type A,Xeomin,Xeomin 50 units (1 vial),1 vial,Merz,1,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=xeomin
 VAC:VAC-ENGERIX-B-ADULT-20MCG-PFS,Vaccine,Hepatitis B,engerix,Engerix B 20 micrograms/1 ml Suspension for injection in pre-filled syringe x 1,,,,,,2,2,

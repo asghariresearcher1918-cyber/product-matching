@@ -1,6 +1,6 @@
 code,brand,molecule,equivalence_group,manufacturer,units_per_vial,unit_type,volume_ml,vials_per_pack,total_units,licensed_use,official_pack_sizes,note,source,status,suppliers,listings
-TOX-ALLUZIENCE-125SPEYWOODUNITS,Alluzience,abobotulinumtoxinA,Botulinum toxin type A,Galderma,125,Speywood units,0.625ml,1,,,,,https://www.medicines.org.uk/emc/search?q=alluzience,reference,7,7
-TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Alluzience,abobotulinumtoxinA,Botulinum toxin type A,Galderma,125,Speywood units,0.625ml,2,,,,,https://www.medicines.org.uk/emc/search?q=alluzience,reference,10,10
+TOX-ALLUZIENCE-125SPEYWOODUNITS,Alluzience,abobotulinumtoxinA,Botulinum toxin type A,Galderma,125,Speywood units,,1,,,,,https://www.medicines.org.uk/emc/search?q=alluzience,reference,7,7
+TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Alluzience,abobotulinumtoxinA,Botulinum toxin type A,Galderma,125,Speywood units,,2,,,,,https://www.medicines.org.uk/emc/search?q=alluzience,reference,10,10
 TOX-AZZALURE-125SPEYWOODUNITS,Azzalure,abobotulinumtoxinA,Botulinum toxin type A,Galderma,125,Speywood units,,1,,,,,https://www.medicines.org.uk/emc/search?q=azzalure,reference,10,10
 TOX-AZZALURE-125SPEYWOODUNITS-2X,Azzalure,abobotulinumtoxinA,Botulinum toxin type A,Galderma,125,Speywood units,,2,,,,,https://www.medicines.org.uk/emc/search?q=azzalure,reference,12,12
 TOX-BOCOUTURE-100UNITS,Bocouture,incobotulinumtoxinA,Botulinum toxin type A,Merz,100,units,,1,,,,,https://www.medicines.org.uk/emc/search?q=bocouture,reference,11,11

@@ -30,7 +30,7 @@ def _vials(n, vol=""):
     unit = "vials" if n not in ("1", "") else "vial"
     return f"{n} x {vol} {unit}" if vol else f"{n} {unit}"   # liquid toxins show ml/vial; powders reconstitute on use
 def toxin(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "molecule")),
-                          spec=_vials(g(r, "vials_per_pack"), g(r, "volume_ml")),
+                          spec=("100 units/ml - " if g(r, "brand") == "Relfydess" else "") + _vials(g(r, "vials_per_pack"), g(r, "volume_ml")),
                           man=g(r, "manufacturer"), pack=g(r, "vials_per_pack"), market="",
                           verified="reference-matched" if g(r, "status") == "reference" else g(r, "status"), source=g(r, "source"))
 def biostim(r): return dict(group=g(r, "equivalence_group"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "variant")),
