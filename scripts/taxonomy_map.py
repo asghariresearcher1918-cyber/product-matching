@@ -78,6 +78,21 @@ def classify(cat, grp, name):
     if has(n, "polynucleotide", "pdrn", " pn ", "pn booster", "pn pro", "pn skin", "philart", "plinest", "nucleofill", "plenhyage") and cat in ("Dermal filler", "Skin booster / PN / mesotherapy"):
         return "C03.02", None, "CLASSIFIED", "polynucleotide/PDRN signal"
 
+    # NAD+ / Glutathione (and NADH / NMN / NR) — commercial classification; legal status is a separate layer (rules 2026-11-24):
+    # topical -> skincare; oral supplement -> C09.05; injectable wellness -> C09 (NAD+ to its own C09.04). Kept as distinct substances.
+    if re.search(r"glutathione|tationil|cellgevity|lisathyone|\bnmn\b|\bnadh\b|\bnad\b|nad\+|\bnr\b|nadura", n) \
+            and not (cat == "Skin booster / PN / mesotherapy" or has(n, "skin booster", "mesotherapy", " meso ")):
+        # aesthetic NAD/glutathione skin boosters stay in C03 (handled below); this branch is for wellness/pharma/supplement use
+        if has(n, "peel", "peeling", "serum", "cream", "mask", " pad"):
+            return "C06", None, "CLASSIFIED", "topical NAD/glutathione skincare -> C06"
+        inj = has(n, "inject", "iv", "im", " sc", "sub.q", "subcut", "subcutaneous", "vial", "ampoule", " amp", "amps", "pen", "syringe", "/ml", "mg/")
+        oral = has(n, "tablet", "tabs", " caps", "capsule", "oral", "gummy", "gummies", "sachet", "strip", "lozenge", "sublingual", "supplement") and not inj
+        if oral:
+            return "C09.05", None, "CLASSIFIED", "oral NAD+/glutathione food supplement -> C09.05 (legal status handled separately)"
+        if "glutathione" in n and not re.search(r"\bnad\b|nad\+|\bnmn\b|\bnadh\b|nadura", n):
+            return "C09", "C09.06", "CLASSIFIED", "injectable glutathione, wellness -> C09 (legal status separate)"
+        return "C09", "C09.04", "CLASSIFIED", "injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)"
+
     if cat == "Toxin":
         return "C02.01", None, "CLASSIFIED", "botulinum toxin type A"      # all current toxins are type A
     if cat == "Biostimulator":
@@ -118,10 +133,6 @@ def classify(cat, grp, name):
         # rule 6: water for injections / dilution solutions -> C08.10
         if has(n, "water for injection", "sterile water", "water injection", "wfi") or (has(n, "water") and has(n, "inject")):
             return "C08", "C08.10", "CLASSIFIED", "water for injections / diluent (rule 6)"
-        # rule 4: injectable glutathione / NAD+ -> evidence of legal status/nature required -> Review Queue
-        # (word-boundary NAD so 'beNADryl' / 'fexofeNADine' are not caught)
-        if re.search(r"glutathione|tationil|cellgevity|lisathyone|\bnmn\b|\bnad\b|nad\+|nadura", n):
-            return "C08", None, "REVIEW_REQUIRED", "injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4)"
         # rule 3: vitamins of drug nature (POM/injectable, as filed under Medicines) -> C08 (may show in C09 as a secondary link)
         if has(g, "vitamin") or has(n, "colecalciferol", "cholecalciferol", "ergocalciferol", "hydroxocobalamin",
                                      "cyanocobalamin", "methylcobalamin", "pyridoxine", "ascorbic", "vitamin"):

@@ -1214,7 +1214,7 @@ FIL:KYSENSE-PRECISEFILLER-1ML-4X,Kysense Precise Filler 4 x 1ml,Dermal filler,Ky
 FIL:KYSENSE-VOLUME-1ML-4X,Kysense Volume,Dermal filler,Kysense Volume,,C01,Dermal Fillers,C01.01,Hyaluronic Acid Fillers,CLASSIFIED,HA filler (C01.01.01 cross-linked assumed; verify per product),1
 FIL:LAPIENA-CLASSIC-1X,Lapiena Classic,Dermal filler,Lapiena Classic,,C01,Dermal Fillers,C01.01,Hyaluronic Acid Fillers,CLASSIFIED,HA filler (C01.01.01 cross-linked assumed; verify per product),1
 FIL:LAPIENA-DEEP-1X,Lapiena Deep,Dermal filler,Lapiena Deep,,C01,Dermal Fillers,C01.01,Hyaluronic Acid Fillers,CLASSIFIED,HA filler (C01.01.01 cross-linked assumed; verify per product),1
-FIL:LAPIENA-NAD32-5ML-3X,Lapiena Nad 3 3 X 2 5ml,Dermal filler,Lapiena Nad 3 2,,C01,Dermal Fillers,C01.01,Hyaluronic Acid Fillers,CLASSIFIED,HA filler (C01.01.01 cross-linked assumed; verify per product),1
+FIL:LAPIENA-NAD32-5ML-3X,Lapiena Nad 3 3 X 2 5ml,Dermal filler,Lapiena Nad 3 2,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
 FIL:LAPIENA-NINETYHILO2-5ML-1X,Lapiena Ninety Hilo 1 X 2 5ml,Dermal filler,Lapiena Ninety Hilo 2,,C01,Dermal Fillers,C01.01,Hyaluronic Acid Fillers,CLASSIFIED,HA filler (C01.01.01 cross-linked assumed; verify per product),1
 FIL:LAPIENA-PNEYE-1X,The Lapiena PN Eye,Dermal filler,Lapiena Pn Eye,,C03.02,Polynucleotides,,,CLASSIFIED,polynucleotide/PDRN signal,1
 FIL:LAPIENA-RHCOLLAGEN2-5ML-1X,Lapiena Rh X Collagen 1 X 2 5ml,Dermal filler,Lapiena Rh Collagen 2,,C01,Dermal Fillers,C01.02,Non-HA Fillers,CLASSIFIED,non-HA filler,1
@@ -1989,8 +1989,8 @@ MED:ADRENALINEINJECTIO-1000U-INJE,Adrenaline Injections (1:1000units) 10 x 1ml,M
 MED:AERKIT-INJE,AER kit [POM],Medicines,aer kit,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aer kit'; C08 subcategory left empty (acceptable),1
 MED:ALDARACREAM-5%-CREA,Aldara Cream 5% x 12 sachets,Medicines,aldara cream,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'aldara cream'; C08 subcategory left empty (acceptable),2
 MED:ALPHALIPOIC-500MG-INJE,Alpha Lipoic Acid 500mg 20ml,Medicines,alpha lipoic,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'alpha lipoic'; C08 subcategory left empty (acceptable),1
-MED:ALURAGLUTATHIONE-INJE,Alura Glutathione Repair Serum 5 x 5ml,Medicines,alura glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),3
-MED:ALURAVIAL-INJE,Alura *SINGLE VIAL* Glutathione Repair Serum 1 x 5ml,Medicines,alura vial,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:ALURAGLUTATHIONE-INJE,Alura Glutathione Repair Serum 5 x 5ml,Medicines,alura glutathione,,C06,Skincare & Chemical Peels,,,CLASSIFIED,topical NAD/glutathione skincare -> C06,3
+MED:ALURAVIAL-INJE,Alura *SINGLE VIAL* Glutathione Repair Serum 1 x 5ml,Medicines,alura vial,,C06,Skincare & Chemical Peels,,,CLASSIFIED,topical NAD/glutathione skincare -> C06,1
 MED:AMINOFORMULA-INJE,Amino Formula Fcs 50ml,Medicines,amino formula,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'amino formula'; C08 subcategory left empty (acceptable),2
 MED:AMOXICILLIN-3000MG,Amoxicillin,Medicines,amoxicillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'amoxicillin',1
 MED:AMOXICILLIN-250MG-CAPS,"Amoxicillin , 250mg, 1 x 21",Medicines,amoxicillin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'amoxicillin',3
@@ -2023,7 +2023,7 @@ MED:ASPIRINTABS-75MG-TABL,Aspirin Tabs Dispersible 75mg x28,Medicines,aspirin ta
 MED:ATROPINESULPHATE-0.4MG-INJE,Atropine Sulphate Injection,Medicines,atropine sulphate,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'atropine sulphate',1
 MED:ATROPINESULPHATE-1MG-INJE,Atropine Sulphate Injection,Medicines,atropine sulphate,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'atropine sulphate',1
 MED:ATROPINESULPHATE-0.6MG-INJE,Atropine Sulphate Injection,Medicines,atropine sulphate,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'atropine sulphate',1
-MED:AURORANAD,Aurora NAD+ (1 x 5ml),Medicines,aurora nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:AURORANAD,Aurora NAD+ (1 x 5ml),Medicines,aurora nad+,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
 MED:AZELAICACID-15%-GEL,Finacea Gel 15% 30g,Medicines,azelaic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'azelaic acid'; C08 subcategory left empty (acceptable),3
 MED:AZELAICACID-20%-CREA,Skinoren - Azelaic acid,Medicines,azelaic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'azelaic acid'; C08 subcategory left empty (acceptable),2
 MED:AZELAICACID-CREA,Skinoren Cream 50g,Medicines,azelaic acid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'azelaic acid'; C08 subcategory left empty (acceptable),1
@@ -2149,7 +2149,7 @@ MED:DEXAMETHASONE-3.8MG-INJE,Dexamethasone,Medicines,dexamethasone,,C08,Medicine
 MED:DEXAMETHASONETABLE-2MG-TABL,Dexamethasone Tablet 2mg x 28,Medicines,dexamethasone tablet,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'dexamethasone tablet',1
 MED:DIANETTE-2MG-TABL,Dianette,Medicines,dianette,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'dianette'; C08 subcategory left empty (acceptable),1
 MED:DIPROSALIC-0.05%-OINT,Diprosalic,Medicines,diprosalic,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'diprosalic',2
-MED:DIYNADPEN-750MG-INJE,DIYNAD+ Injection Pen 750mg – 3 Months Supply (3 Injection Pens) SAVE 10%,Medicines,diynad pen,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:DIYNADPEN-750MG-INJE,DIYNAD+ Injection Pen 750mg – 3 Months Supply (3 Injection Pens) SAVE 10%,Medicines,diynad pen,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",2
 MED:DOMPERIDONE-10MG-TABL,"Domperidone, 10mg, 1 x 30",Medicines,domperidone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'domperidone'; C08 subcategory left empty (acceptable),2
 MED:DOMPERIDONETABS-10MG-TABL,Domperidone Tabs 10mg x 100,Medicines,domperidone tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'domperidone tabs'; C08 subcategory left empty (acceptable),2
 MED:DOVOBET-OINT,Dovobet,Medicines,dovobet,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'dovobet',1
@@ -2179,7 +2179,7 @@ MED:ERYTHROMYCINTABLET-250MG-TABL,Erythromycin Tablets 250mg x 28,Medicines,eryt
 MED:ERYTHROMYCINZINC-40MG-SOLU,Erythromycin with Zinc Acetate,Medicines,erythromycin zinc,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'erythromycin zinc',1
 MED:ERYTHROMYCINZINC-12MG-SOLU,Erythromycin/Zinc 40/12mg Solution 30ml,Medicines,erythromycin/zinc,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'erythromycin/zinc',1
 MED:ERYTHROPEDPI-125MG5ML-ORAL,Erythroped Pi Sugar Free,Medicines,erythroped pi,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'erythroped pi',1
-MED:EXONAD,EXO NAD Peeling,Medicines,exo nad,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:EXONAD,EXO NAD Peeling,Medicines,exo nad,,C06,Skincare & Chemical Peels,,,CLASSIFIED,topical NAD/glutathione skincare -> C06,1
 MED:FEXOFENADINE-120MG-TABL,Fexofenadine 120mg x 30,Medicines,fexofenadine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fexofenadine'; C08 subcategory left empty (acceptable),2
 MED:FEXOFENADINE-180MG-TABL,Fexofenadine 180mg x 30,Medicines,fexofenadine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'fexofenadine'; C08 subcategory left empty (acceptable),2
 MED:FINASTERIDE-5MG-TABL,Finasteride 5mg Tabs x 28,Medicines,finasteride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'finasteride'; C08 subcategory left empty (acceptable),4
@@ -2215,27 +2215,27 @@ MED:GLUCOSE-INJE,Glucose,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CL
 MED:GLUCOSE-500000MG-POWD,Glucose,Medicines,glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose'; C08 subcategory left empty (acceptable),1
 MED:GLUCOSEIV-SOLU,Glucose Iv Infusion,Medicines,glucose iv,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose iv'; C08 subcategory left empty (acceptable),2
 MED:GLUCOSEORAL-40%-GEL,Glucose Oral Gel 40% 3 x25g,Medicines,glucose oral,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glucose oral'; C08 subcategory left empty (acceptable),1
-MED:GLUTATHIONE-600MG4ML-INJE,Glutathione 600 mg/4 ml (10 Vials),Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:GLUTATHIONE-600MG4ML-SOLU,Glutathione 600mg/4mL IV/IM,Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:GLUTATHIONE-600MG-INJE,Glutathione 600mg 4ml Powder Solvent X One Single Vial,Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
-MED:GLUTATHIONE-600MG-SOLU,Glutathione 600mg 4ml Iv Im,Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:GLUTATHIONE-750MG-INJE,Glutathione 750mg 5ml,Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:GLUTATHIONE-INJE,Glutathione Injection X 10 Amps Iv Im,Medicines,glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:GLUTATHIONEAMPOULE-600MG4ML-INJE,Glutathione Ampoules 600mg/4ml x 1,Medicines,glutathione ampoules,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:GLUTATHIONELISATHY-600MG-INJE,Glutathione Lisathyone 600mg 3ml X 10 Vials Iv Im,Medicines,glutathione lisathyone,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:GLUTATHIONETATIONI-600MG4ML-INJE,Glutathione Tationil 600mg/4ml Powder and Solvent for Solution x 10 Ampoules,Medicines,glutathione tationil,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:GLUTATHIONE-600MG4ML-INJE,Glutathione 600 mg/4 ml (10 Vials),Medicines,glutathione,,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",1
+MED:GLUTATHIONE-600MG4ML-SOLU,Glutathione 600mg/4mL IV/IM,Medicines,glutathione,,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",1
+MED:GLUTATHIONE-600MG-INJE,Glutathione 600mg 4ml Powder Solvent X One Single Vial,Medicines,glutathione,,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",2
+MED:GLUTATHIONE-600MG-SOLU,Glutathione 600mg 4ml Iv Im,Medicines,glutathione,,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",1
+MED:GLUTATHIONE-750MG-INJE,Glutathione 750mg 5ml,Medicines,glutathione,,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",1
+MED:GLUTATHIONE-INJE,Glutathione Injection X 10 Amps Iv Im,Medicines,glutathione,,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",1
+MED:GLUTATHIONEAMPOULE-600MG4ML-INJE,Glutathione Ampoules 600mg/4ml x 1,Medicines,glutathione ampoules,,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",1
+MED:GLUTATHIONELISATHY-600MG-INJE,Glutathione Lisathyone 600mg 3ml X 10 Vials Iv Im,Medicines,glutathione lisathyone,,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",1
+MED:GLUTATHIONETATIONI-600MG4ML-INJE,Glutathione Tationil 600mg/4ml Powder and Solvent for Solution x 10 Ampoules,Medicines,glutathione tationil,,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",1
 MED:GLYCERYLTRINITRATE-0.2%-OINT,Glyceryl Trinitrate,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate'; C08 subcategory left empty (acceptable),1
 MED:GLYCERYLTRINITRATE-SPRA,Glyceryl Trinitrate Pump Spray 200 Dose,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate'; C08 subcategory left empty (acceptable),1
 MED:GLYCERYLTRINITRATE-0.4MG-SPRA,Glyceryl Trinitrate Spray,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate'; C08 subcategory left empty (acceptable),2
 MED:GLYCERYLTRINITRATE-0.5MG-TABL,Glyceryl Trinitrate,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate'; C08 subcategory left empty (acceptable),1
 MED:GLYCERYLTRINITRATE-0.20%-OINT,Glyceryl Trinitrate Special Short,Medicines,glyceryl trinitrate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'glyceryl trinitrate'; C08 subcategory left empty (acceptable),1
 MED:GRAVITYADMINISTRAT-SOLU,Gravity Solution Administration Set,Medicines,gravity administration,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
-MED:HANHEALNAD,HANHEAL NAD+ Complex,Medicines,hanheal nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:HANHEALNAD,HANHEAL NAD+ Complex,Medicines,hanheal nad+,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
 MED:HARTMANNS,Hartmanns 1000ml,Medicines,hartmanns,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'hartmanns'; C08 subcategory left empty (acceptable),1
 MED:HEPARINOID-0.30%-GEL,Hirudoid,Medicines,heparinoid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'heparinoid'; C08 subcategory left empty (acceptable),1
 MED:HEPARINOID-GEL,Hirudoid Gel 50g,Medicines,heparinoid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'heparinoid'; C08 subcategory left empty (acceptable),1
 MED:HEPARINOID-0.30%-CREA,Hirudoid,Medicines,heparinoid,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'heparinoid'; C08 subcategory left empty (acceptable),1
-MED:HINNAOTECHNOLOGY,HINNAO TECHNOLOGY Glutathione,Medicines,hinnao technology,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:HINNAOTECHNOLOGY,HINNAO TECHNOLOGY Glutathione,Medicines,hinnao technology,,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",2
 MED:HYALURONIDASE-1500U-INJE,Hyaluronidase,Medicines,hyaluronidase,,C08,Medicines & Pharmaceuticals,C08.02,Hyaluronidase,CLASSIFIED,medicine class from 'hyaluronidase',1
 MED:HYALURONIDASE-INJE,Hyaluronidase 1500 I.U. Ampoules x 10,Medicines,hyaluronidase,,C08,Medicines & Pharmaceuticals,C08.02,Hyaluronidase,CLASSIFIED,medicine class from 'hyaluronidase',6
 MED:HYALURONIDASE-1500IU-INJE,Hyaluronidase 1500 IU Hyalase x 1,Medicines,hyaluronidase,,C08,Medicines & Pharmaceuticals,C08.02,Hyaluronidase,CLASSIFIED,medicine class from 'hyaluronidase',13
@@ -2275,8 +2275,8 @@ MED:IBUPROFENSF-100MG5ML-ORAL,Ibuprofen Sf,Medicines,ibuprofen sf,,C08,Medicines
 MED:IBUPROFENTABLETS-200MG-TABL,Ibuprofen Tablets BP 200mg,Medicines,ibuprofen tablets,,C08,Medicines & Pharmaceuticals,C08.06,Anti-inflammatory Medicines,CLASSIFIED,medicine class from 'ibuprofen tablets',1
 MED:IBUPROFENTABLETS-400MG-TABL,Ibuprofen Tablets BP 400mg,Medicines,ibuprofen tablets,,C08,Medicines & Pharmaceuticals,C08.06,Anti-inflammatory Medicines,CLASSIFIED,medicine class from 'ibuprofen tablets',1
 MED:IBUPROFENTABLETS-600MG-TABL,Ibuprofen Tablets 600mg x 84,Medicines,ibuprofen tablets,,C08,Medicines & Pharmaceuticals,C08.06,Anti-inflammatory Medicines,CLASSIFIED,medicine class from 'ibuprofen tablets',2
-MED:IDCLINICA-1000MG-INJE,iD CLINICA NAD+ 1000mg For Life Pen Refill,Medicines,id clinica,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
-MED:IDCLINICA-2000MG6ML-INJE,iD CLINICA NAD+ID 2000mg/6ml,Medicines,id clinica,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:IDCLINICA-1000MG-INJE,iD CLINICA NAD+ 1000mg For Life Pen Refill,Medicines,id clinica,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",2
+MED:IDCLINICA-2000MG6ML-INJE,iD CLINICA NAD+ID 2000mg/6ml,Medicines,id clinica,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
 MED:INTRAFIX-SOLU,Intrafix 180cm Safeset Infusion Set,Medicines,intrafix,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
 MED:INTRALIPIDIV-SOLU,Intralipid Iv,Medicines,intralipid iv,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
 MED:IPRATROPIUMBROMIDE-NASA,Ipratropium Bromide,Medicines,ipratropium bromide,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ipratropium bromide'; C08 subcategory left empty (acceptable),1
@@ -2321,7 +2321,7 @@ MED:LIDOCAINEMEDICATED-700MG-INJE,Lidocaine Medicated Plaster,Medicines,lidocain
 MED:LIDOCAINEMINIPLASC-INJE,Lidocaine Injection Mini-Plasco 2% 10ml x 1,Medicines,lidocaine mini-plasco,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
 MED:LIDOCAINEPLASTIC-INJE,"Lidocaine Plastic, 2%, 20 x 20ml",Medicines,lidocaine plastic,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine plastic',4
 MED:LIDOCAINEPRESERVAT-INJE,Lidocaine With Preservative,Medicines,lidocaine preservative,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'lidocaine preservative',2
-MED:LONGEVITYPEN,Longevity Pen Nad L Glutathione B12 2,Medicines,longevity pen,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:LONGEVITYPEN,Longevity Pen Nad L Glutathione B12 2,Medicines,longevity pen,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
 MED:LORATADINE-10MG-TABL,Loratadine 10mg Tablets x30,Medicines,loratadine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'loratadine'; C08 subcategory left empty (acceptable),10
 MED:LORATADINE-5MG5ML-ORAL,Loratadine,Medicines,loratadine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'loratadine'; C08 subcategory left empty (acceptable),1
 MED:LORATADINETABS-10MG-TABL,Loratadine Tabs 10mg x 30,Medicines,loratadine tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'loratadine tabs'; C08 subcategory left empty (acceptable),1
@@ -2332,10 +2332,10 @@ MED:LYMECYCLINE-300MG-CAPS,Tetralysal 300,Medicines,lymecycline,,C08,Medicines &
 MED:LYMECYCLINECAPS-408MG-CAPS,Lymecycline Caps 408mg x 28,Medicines,lymecycline caps,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'lymecycline caps',1
 MED:MAGNESIUMSULPH-INJE,MAGNESIUM SULPH Solution for INJ 50%,Medicines,magnesium sulph,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'magnesium sulph'; C08 subcategory left empty (acceptable),1
 MED:MAGNESIUMSULPHATE-INJE,Magnesium Sulphate Inj 50% 2ml X 1,Medicines,magnesium sulphate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'magnesium sulphate'; C08 subcategory left empty (acceptable),5
-MED:MEDICANAD-500MG-INJE,Medica NAD+ 500mg Vial,Medicines,medica nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:MEDICANAD-500MG-INJE,Medica NAD+ 500mg Vial,Medicines,medica nad+,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
 MED:MEGA-INJE,Mega V 20ml,Medicines,mega,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'mega'; C08 subcategory left empty (acceptable),1
 MED:MEPIVACAINE-INJE,Scandonest Cartridges 3% Plain 2.2ml x 50,Medicines,mepivacaine,,C08,Medicines & Pharmaceuticals,C08.01,Anaesthetics,CLASSIFIED,medicine class from 'mepivacaine',4
-MED:MESOESTETICAOX-SOLU,Mesoestetic AOX Glutathione Glutathione Supplement,Medicines,mesoestetic aox,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:MESOESTETICAOX-SOLU,Mesoestetic AOX Glutathione Glutathione Supplement,Medicines,mesoestetic aox,,C09.05,Supplements,,,CLASSIFIED,oral NAD+/glutathione food supplement -> C09.05 (legal status handled separately),1
 MED:METARAMINOLOR-10MG-INJE,Metaraminol Solution For Injection Or Infusion,Medicines,metaraminol or,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'metaraminol or',1
 MED:METHOTREXATE-2.5MG-TABL,Methotrexate,Medicines,methotrexate,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'methotrexate'; C08 subcategory left empty (acceptable),1
 MED:METHYLCOBALAMIN-5MG-INJE,B12 Methylcobalamin 5mg 2ml 2,Medicines,methylcobalamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
@@ -2373,37 +2373,37 @@ MED:MOXIFLOXACIN-400MG-TABL,Moxifloxacin,Medicines,moxifloxacin,,C08,Medicines &
 MED:MUPIROCIN-2%-CREA,Bactroban,Medicines,mupirocin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'mupirocin',1
 MED:MUPIROCIN-2%-OINT,Bactroban 2% Ointment 15g,Medicines,mupirocin,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'mupirocin',3
 MED:MYERS-INJE,Myers 50ml,Medicines,myers,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'myers'; C08 subcategory left empty (acceptable),1
-MED:NAD-1000MG-INJE,NAD+ 1000mg Sub.Q Vial,Medicines,nad,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),7
-MED:NAD-500MG-INJE,Nad 500mg Sc 3ml Pfp 1 Kit,Medicines,nad,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
-MED:NADHOME-INJE,Nad Home Injection Kit,Medicines,nad home,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADIV-500MG-SOLU,Nad Iv 500mg,Medicines,nad iv,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADSMART-100MG-INJE,Nad Smart Strip 30 X 100mg,Medicines,nad smart,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
-MED:NAD-GEL,NAD+ 1000mg (30ml),Medicines,nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NAD-1000MG-SOLU,NAD+ 1000mg Pen,Medicines,nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
-MED:NAD-2000MG-INJE,NAD+ 2000mg Sub.Q Vial,Medicines,nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NAD-750MG3ML-INJE,NAD+ 750mg/3ml Subcutaneous Pen x 1,Medicines,nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADAT,NAD+ At Home Injecting Pen Kit,Medicines,nad+ at,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADAT-2000MG-SOLU,NAD+ At Home Kits 2000mg,Medicines,nad+ at,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADDIYNAD-750MG-INJE,NAD+ DIYNAD+ Injection Pen 750mg,Medicines,nad+ diynad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADPEN-500MG3ML,NAD+ Pen 2 x 500mg/3ml,Medicines,nad+ pen,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADSUPPLEMENT-2000MG6ML,NAD+ SUPPLEMENT IM 2000mg/6ml,Medicines,nad+ supplement,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADSUPPLEMENT-1000MG-SOLU,NAD+ SUPPLEMENT IV 1000mg,Medicines,nad+ supplement,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADURA-1000MG,NADura 1000mg Refill Kit,Medicines,nadura,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
-MED:NADURA-INJE,NADura +,Medicines,nadura,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADURACELLGEVITY,Nadura Cellgevity Pen 3 Months Supply,Medicines,nadura cellgevity,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
-MED:NADURALGLUTATHIONE-1500MG,Nadura L-Glutathione 1500mg Pen 3 Months Supply,Medicines,nadura l-glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
-MED:NADURAWELLNESS-750MG,Nadura Wellness Cellgevity Pen Kit (750mg NAD+ + 600mg L-Glutathione + 2mg B12),Medicines,nadura wellness,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADURAWELLNESS,Nadura Wellness Cellgevity Refill KIT,Medicines,nadura wellness,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADURAWELLNESS-1500MG,Nadura Wellness L-Glutathione 1500mg Pen Kit (1 x 3ml),Medicines,nadura wellness,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
-MED:NADURAWELLNESS-750MG3ML,Nadura Wellness L-Glutathione Pen Kit (2 x 750mg / 3ml),Medicines,nadura wellness,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NADURAWELLNESS-1000MG,Nadura Wellness NAD+1000mg Pen 3 Months Supply,Medicines,nadura wellness,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),4
-MED:NADURANAD-1000MG-INJE,NADura+ NAD Injection Pen (1 x 1000mg),Medicines,nadura+ nad,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
-MED:NADURAPEN-1000MG-INJE,NADura+ Injection Pen 1 x 1000mg ( 02/27),Medicines,nadura+ pen,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NAD-1000MG-INJE,NAD+ 1000mg Sub.Q Vial,Medicines,nad,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",7
+MED:NAD-500MG-INJE,Nad 500mg Sc 3ml Pfp 1 Kit,Medicines,nad,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",2
+MED:NADHOME-INJE,Nad Home Injection Kit,Medicines,nad home,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADIV-500MG-SOLU,Nad Iv 500mg,Medicines,nad iv,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADSMART-100MG-INJE,Nad Smart Strip 30 X 100mg,Medicines,nad smart,,C09.05,Supplements,,,CLASSIFIED,oral NAD+/glutathione food supplement -> C09.05 (legal status handled separately),2
+MED:NAD-GEL,NAD+ 1000mg (30ml),Medicines,nad+,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NAD-1000MG-SOLU,NAD+ 1000mg Pen,Medicines,nad+,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",2
+MED:NAD-2000MG-INJE,NAD+ 2000mg Sub.Q Vial,Medicines,nad+,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NAD-750MG3ML-INJE,NAD+ 750mg/3ml Subcutaneous Pen x 1,Medicines,nad+,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADAT,NAD+ At Home Injecting Pen Kit,Medicines,nad+ at,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADAT-2000MG-SOLU,NAD+ At Home Kits 2000mg,Medicines,nad+ at,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADDIYNAD-750MG-INJE,NAD+ DIYNAD+ Injection Pen 750mg,Medicines,nad+ diynad+,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADPEN-500MG3ML,NAD+ Pen 2 x 500mg/3ml,Medicines,nad+ pen,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADSUPPLEMENT-2000MG6ML,NAD+ SUPPLEMENT IM 2000mg/6ml,Medicines,nad+ supplement,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADSUPPLEMENT-1000MG-SOLU,NAD+ SUPPLEMENT IV 1000mg,Medicines,nad+ supplement,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADURA-1000MG,NADura 1000mg Refill Kit,Medicines,nadura,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",2
+MED:NADURA-INJE,NADura +,Medicines,nadura,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADURACELLGEVITY,Nadura Cellgevity Pen 3 Months Supply,Medicines,nadura cellgevity,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",2
+MED:NADURALGLUTATHIONE-1500MG,Nadura L-Glutathione 1500mg Pen 3 Months Supply,Medicines,nadura l-glutathione,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",2
+MED:NADURAWELLNESS-750MG,Nadura Wellness Cellgevity Pen Kit (750mg NAD+ + 600mg L-Glutathione + 2mg B12),Medicines,nadura wellness,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADURAWELLNESS,Nadura Wellness Cellgevity Refill KIT,Medicines,nadura wellness,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADURAWELLNESS-1500MG,Nadura Wellness L-Glutathione 1500mg Pen Kit (1 x 3ml),Medicines,nadura wellness,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",2
+MED:NADURAWELLNESS-750MG3ML,Nadura Wellness L-Glutathione Pen Kit (2 x 750mg / 3ml),Medicines,nadura wellness,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NADURAWELLNESS-1000MG,Nadura Wellness NAD+1000mg Pen 3 Months Supply,Medicines,nadura wellness,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",4
+MED:NADURANAD-1000MG-INJE,NADura+ NAD Injection Pen (1 x 1000mg),Medicines,nadura+ nad,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",2
+MED:NADURAPEN-1000MG-INJE,NADura+ Injection Pen 1 x 1000mg ( 02/27),Medicines,nadura+ pen,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
 MED:NASALSPRAY-NASA,Nasal Spray With Aloe Vera And Panthenol,Medicines,nasal spray,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'nasal spray'; C08 subcategory left empty (acceptable),1
 MED:NEOCYTAMIN,Neo-Cytamin 1000 Micrograms / ml (B12),Medicines,neo-cytamin,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'neo-cytamin'; C08 subcategory left empty (acceptable),1
 MED:NEORAL-100MG-CAPS,Neoral,Medicines,neoral,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'neoral'; C08 subcategory left empty (acceptable),1
-MED:NINAVELICLASSIC-INJE,Ninaveli Classic NAD NMN (5x5ml vials),Medicines,ninaveli classic,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
-MED:NINAVELINAD-100MG4ML-INJE,Ninaveli NAD+ NMN dual vial (100mg / 4ml),Medicines,ninaveli nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:NINAVELICLASSIC-INJE,Ninaveli Classic NAD NMN (5x5ml vials),Medicines,ninaveli classic,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
+MED:NINAVELINAD-100MG4ML-INJE,Ninaveli NAD+ NMN dual vial (100mg / 4ml),Medicines,ninaveli nad+,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
 MED:NIZORAL-2%-CREA,Nizoral,Medicines,nizoral,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'nizoral',1
 MED:NMAFORMULA-INJE,Nma Formula Ibp 50ml,Medicines,nma formula,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'nma formula'; C08 subcategory left empty (acceptable),1
 MED:NYSTAFORM-CREA,Nystaform,Medicines,nystaform,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'nystaform',1
@@ -2465,11 +2465,11 @@ MED:PROMETHAZINE-5MG5ML-ORAL,Phenergan Elixir,Medicines,promethazine,,C08,Medici
 MED:PROTOPICOINTMENT-0.03%-OINT,Protopic Ointment,Medicines,protopic ointment,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'protopic ointment'; C08 subcategory left empty (acceptable),1
 MED:PROTOPICOINTMENT-0.1%-OINT,Protopic Ointment 0.1% 60G,Medicines,protopic ointment,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'protopic ointment'; C08 subcategory left empty (acceptable),1
 MED:PROTOPICOINTMENT-0.10%-OINT,Protopic Ointment,Medicines,protopic ointment,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'protopic ointment'; C08 subcategory left empty (acceptable),1
-MED:PURIHEAL,PURI HEAL REVITAL NAD+,Medicines,puri heal,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:PURIHEAL,PURI HEAL REVITAL NAD+,Medicines,puri heal,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
 MED:PYRIDOXINEHYDROCHL-100MG2ML-INJE,Pyridoxine Hydrochloride,Medicines,pyridoxine hydrochloride,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,vitamin of drug nature -> C08 (secondary display in C09; rule 3),1
 MED:RAPILOSEGLUCOSE-40%-GEL,Rapilose Glucose Oral,Medicines,rapilose glucose,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'rapilose glucose'; C08 subcategory left empty (acceptable),1
 MED:RETIRIDES-0.10%-CREA,Retirides,Medicines,retirides,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'retirides'; C08 subcategory left empty (acceptable),1
-MED:REVIVENAD-500MG-INJE,Revive NAD+ 500mg Vial,Medicines,revive nad+,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:REVIVENAD-500MG-INJE,Revive NAD+ 500mg Vial,Medicines,revive nad+,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
 MED:ROPIVACAINE-100MG-INJE,Ropivacaine 100mg Inj 5 X 10ml,Medicines,ropivacaine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'ropivacaine'; C08 subcategory left empty (acceptable),1
 MED:SALBUTAMOL-0.2MG-INHA,Ventolin Accuhaler 200mcg x 1,Medicines,salbutamol,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'salbutamol',2
 MED:SALBUTAMOL-INHA,Ventolin Evohaler 200 metered doses.,Medicines,salbutamol,,C08,Medicines & Pharmaceuticals,C08.09,Emergency Medicines,CLASSIFIED,medicine class from 'salbutamol',2
@@ -2499,15 +2499,15 @@ MED:SPIRONOLACTONE-100MG-TABL,Spironolactone 100mg Tablets (28),Medicines,spiron
 MED:SPIRONOLACTONE-50MG-TABL,Spironolactone 50mg Tablets (28),Medicines,spironolactone,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'spironolactone'; C08 subcategory left empty (acceptable),2
 MED:SPIRONOLACTONETABS-50MG-TABL,Spironolactone Tabs 50mg x 28,Medicines,spironolactone tabs,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'spironolactone tabs'; C08 subcategory left empty (acceptable),1
 MED:SRSBIOTINE-INJE,SRS Biotine - 20 x Ampoules,Medicines,srs biotine,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'srs biotine'; C08 subcategory left empty (acceptable),1
-MED:SRSGLUTATHIONE-INJE,SRS Glutathione -5 Vials,Medicines,srs glutathione,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:SRSGLUTATHIONE-INJE,SRS Glutathione -5 Vials,Medicines,srs glutathione,,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",1
 MED:STERICLENSSTERILE-INJE,Stericlens Sterile Saline,Medicines,stericlens sterile,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'stericlens sterile'; C08 subcategory left empty (acceptable),1
 MED:STERILESALINE-SOLU,Sterile Saline 0.9% IV Bag 1000ml,Medicines,sterile saline,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'sterile saline'; C08 subcategory left empty (acceptable),7
 MED:STERILEWATER-INJE,Sterile Water,Medicines,sterile water,,C08,Medicines & Pharmaceuticals,C08.10,Diluents,CLASSIFIED,water for injections / diluent (rule 6),1
-MED:SUBCUTANEOUSSC-1000MG-INJE,Subcutaneous Sc Nad 1000mg,Medicines,subcutaneous sc,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),2
+MED:SUBCUTANEOUSSC-1000MG-INJE,Subcutaneous Sc Nad 1000mg,Medicines,subcutaneous sc,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",2
 MED:SYNALAR-0.03%-CREA,Synalar,Medicines,synalar,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'synalar',1
 MED:SYNALAR-0.03%-GEL,Synalar,Medicines,synalar,,C08,Medicines & Pharmaceuticals,C08.07,Steroids,CLASSIFIED,medicine class from 'synalar',1
 MED:TAD-600MG-INJE,Tad 600 Mg 4 Ml,Medicines,tad,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'tad'; C08 subcategory left empty (acceptable),1
-MED:TATIONIL-600MG4ML-INJE,Tationil 600mg/4ml 10 powder vials + 10 solvent vials 4ml,Medicines,tationil,,C08,Medicines & Pharmaceuticals,,,REVIEW_REQUIRED,injectable glutathione/NAD+ - confirm legal status & nature with evidence (rule 4),1
+MED:TATIONIL-600MG4ML-INJE,Tationil 600mg/4ml 10 powder vials + 10 solvent vials 4ml,Medicines,tationil,,C09,"IV, IM & Wellness",C09.04,NAD+,CLASSIFIED,"injectable NAD+/NADH/NMN/NR, wellness -> C09.04 (kept distinct; legal status separate)",1
 MED:TERBINAFINE-250MG-TABL,Terbinafine,Medicines,terbinafine,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'terbinafine',1
 MED:TERBINAFINETABLETS-250MG-TABL,Terbinafine Tablets 250mg x 28,Medicines,terbinafine tablets,,C08,Medicines & Pharmaceuticals,C08.03,Antibiotics,CLASSIFIED,medicine class from 'terbinafine tablets',1
 MED:TERUMOSURFLO-23000MG-SOLU,Terumo Surflo Winged Infusion Set 23g Continuous Use,Medicines,terumo surflo,,C10,Clinical Consumables,C10.02,Syringes,CLASSIFIED,injection/infusion consumable or device flush -> C10 (not a medicine),1
@@ -4475,7 +4475,7 @@ SKN:DR-LEVY-EYE-MAGICIAN,Dr LEVY - Eye Magician,"Skincare, haircare & peels",Eye
 SKN:DR-LEVY-EYE-BOOSTER-CONCENTRATE-15ML,Dr Levy Eye Booster Concentrate 15ml,"Skincare, haircare & peels",Eye care,,C06,Skincare & Chemical Peels,,,CLASSIFIED,skincare type not determined from the name (primary certain; subcategory left empty pending the per-category pass),1
 SKN:DR-LEVY-PERFECT-EYE-ROUTINE,Dr Levy The Perfect Eye Routine Gift Set,"Skincare, haircare & peels",Eye care,,C06,Skincare & Chemical Peels,,,CLASSIFIED,skincare type not determined from the name (primary certain; subcategory left empty pending the per-category pass),1
 SKN:ENLIGHTEN-BRIGHTENING-EYE-CREAM,Enlighten Brightening Eye Cream,"Skincare, haircare & peels",Eye care,,C06,Skincare & Chemical Peels,C06.05,Moisturisers,CLASSIFIED,moisturiser,1
-SKN:EXOBLANC-NMN-EYE-CREAM-30ML,Exoblanc NMN eye cream (30ml),"Skincare, haircare & peels",Eye care,,C06,Skincare & Chemical Peels,C06.05,Moisturisers,CLASSIFIED,moisturiser,2
+SKN:EXOBLANC-NMN-EYE-CREAM-30ML,Exoblanc NMN eye cream (30ml),"Skincare, haircare & peels",Eye care,,C06,Skincare & Chemical Peels,,,CLASSIFIED,topical NAD/glutathione skincare -> C06,2
 SKN:EYE-BRIGHTENING-CREME-GBL-15G,Eye Brightening Creme 15 G 05 Oz Gbl,"Skincare, haircare & peels",Eye care,,C06,Skincare & Chemical Peels,,,CLASSIFIED,skincare type not determined from the name (primary certain; subcategory left empty pending the per-category pass),2
 SKN:EYE-CONTOUR,Eye Contour R,"Skincare, haircare & peels",Eye care,,C06,Skincare & Chemical Peels,,,CLASSIFIED,skincare type not determined from the name (primary certain; subcategory left empty pending the per-category pass),1
 SKN:EYE-RECOVER-MASK-15X-5G,Eye-Recover Mask 15x5g,"Skincare, haircare & peels",Eye care,,C06,Skincare & Chemical Peels,,,CLASSIFIED,skincare type not determined from the name (primary certain; subcategory left empty pending the per-category pass),1
@@ -6365,7 +6365,7 @@ SUP:SUP-HARLEY-STREET-RED-RESTORATIVE-MOISTURE-DR,Harley Street Red Restorative 
 SUP:SUP-VITAMIN-B12-LIPOSOMAL-LIQUID-STRAWBERRY-14,"Vitamin B12, Liposomal Liquid Sachets. Strawberry - 14 pk",Supplements,Vitamin / mineral,,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
 SUP:SUP-VITAMIN-D3-K2-LIPOSOMAL-LIQUID-MIXED,"Vitamin D3+K2, Liposomal Liquid Sachets Mixed Berry - 14pk",Supplements,Vitamin / mineral,,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
 SUP:SUP-VITAMIN-LIPOSOMAL-LIQUID-CITRUS-ORANGE-14P,"Vitamin C, Liposomal Liquid Sachets Citrus Orange - 14pk",Supplements,Vitamin C (oral/liposomal),,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
-SUP:SUP-ALTRIENT-LIPOSOMAL-GLUTATHIONE-450MG-450MG,Altrient Liposomal Glutathione 450mg,Supplements,Vitamin C (oral/liposomal),,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
+SUP:SUP-ALTRIENT-LIPOSOMAL-GLUTATHIONE-450MG-450MG,Altrient Liposomal Glutathione 450mg,Supplements,Vitamin C (oral/liposomal),,C09,"IV, IM & Wellness",C09.06,Wellness Products,CLASSIFIED,"injectable glutathione, wellness -> C09 (legal status separate)",1
 SUP:SUP-ALTRIENT-LIPOSOMAL-MAGNESIUM-LTHREONATE,Altrient Liposomal Magnesium Lthreonate,Supplements,Vitamin C (oral/liposomal),,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
 SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-MINERAL-COMPLEX-138MG,Altrient Liposomal Vitamin B And Mineral Complex 138mg,Supplements,Vitamin C (oral/liposomal),,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
 SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-1000MG-1000MG,Altrient Liposomal Vitamin C 1000mg,Supplements,Vitamin C (oral/liposomal),,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
