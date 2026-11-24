@@ -6369,21 +6369,21 @@ SUP:SUP-ALTRIENT-LIPOSOMAL-GLUTATHIONE-450MG-450MG,Altrient Liposomal Glutathion
 SUP:SUP-ALTRIENT-LIPOSOMAL-MAGNESIUM-LTHREONATE,Altrient Liposomal Magnesium Lthreonate,Supplements,Vitamin C (oral/liposomal),,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
 SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-MINERAL-COMPLEX-138MG,Altrient Liposomal Vitamin B And Mineral Complex 138mg,Supplements,Vitamin C (oral/liposomal),,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
 SUP:SUP-ALTRIENT-LIPOSOMAL-VITAMIN-1000MG-1000MG,Altrient Liposomal Vitamin C 1000mg,Supplements,Vitamin C (oral/liposomal),,C09.05,Supplements,,,CLASSIFIED,oral supplement,1
-TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Alluzience 125 Speywood units (1 x 0.625ml vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,8
-TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Alluzience 125 Speywood units (2 x 0.625ml vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,9
-TOX:TOX-AZZALURE-125SPEYWOODUNITS,Azzalure 125 Speywood units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,11
-TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Azzalure 125 Speywood units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,11
-TOX:TOX-BOCOUTURE-100UNITS,Bocouture 100 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,13
-TOX:TOX-BOCOUTURE-100UNITS-2X,Bocouture 100 units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,2
-TOX:TOX-BOCOUTURE-50UNITS,Bocouture 50 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,13
-TOX:TOX-BOCOUTURE-50UNITS-2X,Bocouture 50 units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,2
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS,Alluzience 125 Speywood units (1 x 0.625ml vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,7
+TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Alluzience 125 Speywood units (2 x 0.625ml vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,10
+TOX:TOX-AZZALURE-125SPEYWOODUNITS,Azzalure 125 Speywood units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,10
+TOX:TOX-AZZALURE-125SPEYWOODUNITS-2X,Azzalure 125 Speywood units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,12
+TOX:TOX-BOCOUTURE-100UNITS,Bocouture 100 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,11
+TOX:TOX-BOCOUTURE-100UNITS-2X,Bocouture 100 units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,4
+TOX:TOX-BOCOUTURE-50UNITS,Bocouture 50 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,11
+TOX:TOX-BOCOUTURE-50UNITS-2X,Bocouture 50 units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,4
 TOX:TOX-BOTOX-100UNITS,Botox 100 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,14
 TOX:TOX-BOTOX-200UNITS,Botox 200 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,10
 TOX:TOX-BOTOX-50UNITS,Botox 50 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,12
 TOX:TOX-BOTOX-50UNITS-50X,Botox 50 units (50 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,1
 TOX:TOX-DYSPORT-300UNITS,Dysport 300 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,5
-TOX:TOX-DYSPORT-500UNITS,Dysport 500 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,9
-TOX:TOX-DYSPORT-500UNITS-2X,Dysport 500 units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,6
+TOX:TOX-DYSPORT-500UNITS,Dysport 500 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,6
+TOX:TOX-DYSPORT-500UNITS-2X,Dysport 500 units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,9
 TOX:TOX-LETYBO-100UNITS,Letybo 100 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,2
 TOX:TOX-LETYBO-50UNITS,Letybo 50 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,6
 TOX:TOX-NUCEIVA-100UNITS,Nuceiva 100 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,2

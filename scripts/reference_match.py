@@ -131,8 +131,10 @@ def run(cfg, refnames):
             lido = (not neg) and bool(re.search(r"lidocaine|\blido\b|\+\s*lido|with lido", tl))
         base_n, vol = pack_vol(best["pack"])
         packn, pack_src = pack_count(tl), "title"
-        if packn is None and re.search(r"\btwin\b", tl):   # 'Twin Vial' = 2 vials
-            packn, pack_src = 2, "title (twin)"
+        if packn is None and re.search(r"\b(?:twin|dual|double)\b", tl):   # 'Twin / Dual / Double' pack = 2 vials
+            packn, pack_src = 2, "title (twin/dual)"
+        if packn is None and re.search(r"\bsingle\b|\b1\s*(?:x\s*)?vials?\b", tl):  # explicit single = 1 vial
+            packn, pack_src = 1, "title (single)"
         if packn is None and m.get("id"):                 # owner rule: read the whole page, then the image, before defaulting
             packn = pack_from_doc(page_text(m["id"]).lower(), rb); pack_src = "page"   # only trust a pack beside THIS brand
             if packn is None:
