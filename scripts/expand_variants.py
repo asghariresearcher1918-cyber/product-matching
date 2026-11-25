@@ -23,6 +23,8 @@ def main():
 
     out, expanded = [], 0
     for r in rows:
+        if r.get("opt_price") or r.get("opt_sku"):           # already an expanded option row -> keep (idempotent)
+            out.append(r); continue
         vs = [v for v in page_variants(r.get("id", "")) if v.get("pack")]
         packs = {v["pack"] for v in vs}
         if len(packs) < 2:                                   # no real option dropdown -> keep the row as-is
