@@ -51,14 +51,17 @@ def listing_index():
 
 
 _SKU_JUNK = {"price", "none", "view", "login", "call", "instock", "qty", "add", "yes", "no", "sale", "new", "stock"}
+_GAUGE = re.compile(r"^\d{1,2}\s?g$", re.I)           # '30G' = needle gauge, not a SKU
+_PENCE = re.compile(r"£\s?(\d{1,4}\.\d{2})\b")        # a real price almost always carries pence (£90.00, £126.50)
+_THRESH = re.compile(r"(?:free|over|spend|orders?|delivery|shipping|p&p|postage)\s*£?\s?\d", re.I)
 
 
 def _clean_codes(txt):
     out = []
     for c in _CODE.findall(txt):
         cl = c.lower().strip(".-_/")
-        if cl in _SKU_JUNK or not re.search(r"\d", c):   # a real code has a digit and is not a junk word
-            continue
+        if cl in _SKU_JUNK or _GAUGE.match(c) or not re.search(r"\d", c) or len(re.sub(r"\D", "", c)) < 2:
+            continue                                   # real code: has >=2 digits, not junk/gauge
         if c not in out:
             out.append(c)
     return out
@@ -76,9 +79,9 @@ def extract(pid):
     comm = codes[1] if len(codes) > 1 else ""
     price = ""
     if not _LOGIN.search(txt):
-        for m in _PRICE.finditer(txt):
-            v = float(m.group(1))
-            if v >= 1:                      # ignore £0.00 placeholders / masked prices
+        for m in _PENCE.finditer(txt):                 # only trust £ values with pence, and not a delivery threshold
+            before = txt[max(0, m.start() - 24):m.start()]
+            if float(m.group(1)) >= 1 and not _THRESH.search(before):
                 price = "£" + m.group(1); break
     return sku, comm, price
 
