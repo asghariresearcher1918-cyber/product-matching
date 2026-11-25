@@ -46,7 +46,8 @@ def listing_index():
                 continue
             idx[f"{tag}:{code}"].append({"id": m.get("id", ""), "url": m.get("url", ""),
                                          "supplier": m.get("supplier", ""), "title": m.get("title", ""),
-                                         "confidence": m.get("confidence", "")})
+                                         "confidence": m.get("confidence", ""),
+                                         "opt_price": m.get("opt_price", ""), "opt_sku": m.get("opt_sku", "")})
     return idx
 
 
@@ -131,7 +132,7 @@ def main():
         price = ""
         if not pom:
             for l in idx.get(uid, []):
-                _s, _c, pr = extract(l["id"])
+                pr = ("£" + l["opt_price"]) if l.get("opt_price") else extract(l["id"])[2]   # structured option price first
                 if pr:
                     price = pr; break
         crumb = f'{want} {label}' + (f' › {t["subcategory"]} ({t["subcategory_id"]})' if t["subcategory"] else "")
@@ -153,6 +154,10 @@ def main():
         nameref = src if src.startswith("http") else "pharmacy consensus"
         for l in sorted(idx.get(uid, []), key=lambda l: l["supplier"]):
             sku, comm, price = extract(l["id"])
+            if l.get("opt_sku"):
+                sku = l["opt_sku"]              # structured option SKU/price beat the page-scraped guess
+            if l.get("opt_price"):
+                price = "£" + l["opt_price"]
             if pom:
                 price = ""                      # POM price is login-gated -> not public
             ls.append([t["product"], l["supplier"], l["title"], sku, comm, "Yes (POM)" if pom else "No",

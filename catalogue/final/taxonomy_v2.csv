@@ -1929,13 +1929,13 @@ DEV:MOISTSENSE-CAPACITIVE-MOISTURE-SENSOR,Moistsense Capacitive Moisture Sensor,
 DEV:AUTOCLAVE-STERILISATION-POUCHES-200PCS,Autoclave Sterilisation Pouches - (135mm x 260mm) 200pcs,Devices & equipment,Steriliser / autoclave,,C12,Devices & Equipment,,,CLASSIFIED,device 'Steriliser / autoclave',1
 FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Alidya (anti-lipodystrophy) (5 x 10ml vials),Fat dissolving,Anti-lipodystrophic (cellulite),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,6
 FAT:FAT-AQUALYX-AQUALYX,Aqualyx (1 x 8ml vial),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,7
-FAT:FAT-AQUALYX-AQUALYX-10X,Aqualyx (10 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,10
+FAT:FAT-AQUALYX-AQUALYX-10X,Aqualyx (10 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,11
 FAT:FAT-AQUALYX-AQUALYX-5X,Aqualyx (5 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-KABELLINE-KABELLINE-5X,Kabelline (5 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-DESOFACE-DESOFACE,DesoFace (1 x 10ml vial),Fat dissolving,Deoxycholic acid 0.5%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,4
-FAT:FAT-DESOFACE-DESOFACE-5X,DesoFace (5 x 10ml vials),Fat dissolving,Deoxycholic acid 0.5%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,6
+FAT:FAT-DESOFACE-DESOFACE-5X,DesoFace (5 x 10ml vials),Fat dissolving,Deoxycholic acid 0.5%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,7
 FAT:FAT-DESOBODY-DESOBODY,DesoBody (1 x 10ml vial),Fat dissolving,Deoxycholic acid 1.25%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
-FAT:FAT-DESOBODY-DESOBODY-5X,DesoBody (5 x 10ml vials),Fat dissolving,Deoxycholic acid 1.25%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,7
+FAT:FAT-DESOBODY-DESOBODY-5X,DesoBody (5 x 10ml vials),Fat dissolving,Deoxycholic acid 1.25%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,8
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Lemon Bottle (1 x 10ml vial),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,8
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-10X,Lemon Bottle (10 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Lemon Bottle (5 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,9
@@ -1952,9 +1952,9 @@ FAT:FAT-MESOSCULPT-C71,MesoSculpt C71 (1 x 1ml vial),Fat dissolving,Mesotherapy 
 FAT:FAT-MESOESTETIC-CPROF221LIPOLYTIC-5X,Mesoestetic C.Prof 221 Lipolytic (5 x 10ml vials),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-INNO-TDS-DRAININGPPC,Inno-TDS Draining PPC (1 x 5ml vial),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-INNO-TDS-DRAININGPPC-4X,Inno-TDS Draining PPC (4 x 5ml vials),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
-FAT:FAT-LIPO-LAB-PPC,Lipo Lab PPC (1 x 10ml vial),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,3
-FAT:FAT-LIPO-LAB-PPC-10X,Lipo Lab PPC (10 x 10ml vials),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,5
-FAT:FAT-LIPO-LAB-VLINE,Lipo Lab V-Line (1 x 10ml vial),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
+FAT:FAT-LIPO-LAB-PPC,Lipo Lab PPC (1 x 10ml vial),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,4
+FAT:FAT-LIPO-LAB-PPC-10X,Lipo Lab PPC (10 x 10ml vials),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,6
+FAT:FAT-LIPO-LAB-PPC-5X,Lipo Lab PPC (5 x 10ml vials),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-LIPO-LAB-VLINE-5X,Lipo Lab V-Line (5 x 10ml vials),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,4
 FAT:MYFILLERREVITALIZESLIM-10ML-1X,Myfiller Revitalize Slim,Fat dissolving,Phosphatidylcholine + deoxycholate (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 MED:ABIOGENDIBASE-INJE,Abiogen Dibase 300000 1ml X 2amps 2,Medicines,abiogen dibase,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'abiogen dibase'; C08 subcategory left empty (acceptable),1
