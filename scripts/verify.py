@@ -28,9 +28,6 @@ RULES = {
 }
 OUTLIER_LO = 0.4
 
-OPTION = re.compile(r"select an option|choose an option|choose option|pack size|select option|drop.?down|"
-                    r"1 vial.*(?:5|10) vial|single.*(?:pack of|/ ?\d+ ?vial)|options?:", re.I)
-
 
 def head(ws, cols, widths):
     ws.append(cols)
@@ -69,12 +66,11 @@ def main():
             psrc = pm.group(2) if pm else "?"
             sku, _c, price = extract(m.get("id", ""))
             pv = float(price[1:]) if price.startswith("£") else None
-            opt = bool(OPTION.search(page_text(m.get("id", ""))))
             listings[uid].append(dict(title=m.get("title", ""), supplier=m.get("supplier", ""), url=m.get("url", ""),
-                                      pack=packn, psrc=psrc, price=pv, option=opt))
+                                      pack=packn, psrc=psrc, price=pv))
 
     # ---- run checks per product (category membership via taxonomy_v2) ----
-    checklist, flags, options = [], [], []
+    checklist, flags = [], []
     tax = {r["uid"]: r for r in csv.DictReader(open(FINAL / "taxonomy_v2.csv", encoding="utf-8"))}
     members = [uid for uid in prods if top_of(tax.get(uid, {}).get("primary_category_id", "")) == want]
 
@@ -100,9 +96,6 @@ def main():
             if why:
                 issues.append((l, why))
                 flags.append((p["product"], l["supplier"], l["title"], " ; ".join(why), l["url"]))
-            # SOFT note (does NOT fail the product): option pages to spot-check (separate URLs usually already cover them)
-            if l["option"]:
-                options.append((p["product"], l["supplier"], l["title"], l["url"]))
         checklist.append((p["product"], len(ls), len(issues), "OK" if not issues else "REVIEW"))
 
     # ---- workbook ----
@@ -116,22 +109,24 @@ def main():
         cl.cell(row=cl.max_row, column=4).fill = PatternFill("solid", fgColor="C6EFCE" if st == "OK" else "FFC7CE")
     cl.auto_filter.ref = f"A1:D{cl.max_row}"
 
-    rv = wb.create_sheet("Review (must fix)")
-    head(rv, ["Source", "Product / title", "Supplier", "Why (rule triggered)", "Link"], [14, 40, 18, 56, 34])
-    for src, mt, title, sup, dec, url in review:
-        rv.append([src, title, sup, dec, url]); _style(rv, url, LINK, SM, WRAP)
-    for name, sup, title, why, url in flags:
-        rv.append(["verify", title + f"  [{name}]", sup, why, url]); _style(rv, url, LINK, SM, WRAP)
-    rv.auto_filter.ref = f"A1:E{rv.max_row}"
+    def action_for(reason):
+        r = (reason or "").lower()
+        if any(k in r for k in ("accessory", "banner", "marketing")): return "EXCLUDE — not a product"
+        if any(k in r for k in ("bundle", "multi-item", "kit")): return "SPLIT/EXCLUDE — it is a bundle/kit"
+        if "price per vial" in r: return "CHECK — likely a bundle/kit or the wrong pack; confirm real pack"
+        if "volume" in r and "conflict" in r: return "CONFIRM the real vial size and pack"
+        if "plural" in r: return "CONFIRM how many vials are in the pack"
+        if "assumed" in r: return "CONFIRM — single vial or a multipack?"
+        if "variant mismatch" in r: return "FIX — assign to the correct variant (e.g. face vs body)"
+        return "Review"
 
-    op = wb.create_sheet("Options to spot-check")
-    head(op, ["Product", "Supplier", "Listing title", "Link"], [40, 18, 40, 34])
-    for name, sup, title, url in options:
-        op.append([name, sup, title, url])
-        for c in op[op.max_row]: c.font, c.alignment = SM, WRAP
-        if str(url).startswith("http"):
-            c = op.cell(row=op.max_row, column=4); c.hyperlink = url; c.font = LINK
-    op.auto_filter.ref = f"A1:D{op.max_row}"
+    rv = wb.create_sheet("Review (must fix)")
+    head(rv, ["Product / listing", "Supplier", "What is wrong", "➡ What to do", "Open page"], [40, 18, 50, 40, 30])
+    for src, mt, title, sup, dec, url in review:
+        rv.append([title, sup, dec, action_for(dec), url]); _style(rv, url, LINK, SM, WRAP)
+    for name, sup, title, why, url in flags:
+        rv.append([title + f"  [{name}]", sup, why, action_for(why), url]); _style(rv, url, LINK, SM, WRAP)
+    rv.auto_filter.ref = f"A1:E{rv.max_row}"
 
     out = ROOT / f"output/verify_{re.sub(r'[^a-z0-9]+','_',rule['label'].lower()).strip('_')}.xlsx"
     wb.save(out)
