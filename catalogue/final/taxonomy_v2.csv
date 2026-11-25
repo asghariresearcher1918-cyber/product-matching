@@ -1927,36 +1927,35 @@ DEV:OBSERV-VISOR-POLARISATION,Observ Visor Polarisation,Devices & equipment,Skin
 DEV:PURE-TONE-DERMA-VU-PHOTOGRAPHIC-SKIN,Pure Tone Derma Vu Photographic Skin Analysis Machine,Devices & equipment,Skin analysis / imaging,,C12,Devices & Equipment,C12.07,Diagnostic Equipment,CLASSIFIED,from 'Skin analysis / imaging',1
 DEV:MOISTSENSE-CAPACITIVE-MOISTURE-SENSOR,Moistsense Capacitive Moisture Sensor,Devices & equipment,Skin analysis / imaging,,C12,Devices & Equipment,C12.07,Diagnostic Equipment,CLASSIFIED,from 'Skin analysis / imaging',1
 DEV:AUTOCLAVE-STERILISATION-POUCHES-200PCS,Autoclave Sterilisation Pouches - (135mm x 260mm) 200pcs,Devices & equipment,Steriliser / autoclave,,C12,Devices & Equipment,,,CLASSIFIED,device 'Steriliser / autoclave',1
-FAT:FAT-ALIDYA-ANTILIPODYSTROPHY,Alidya (anti-lipodystrophy) (1 x 10ml vial),Fat dissolving,Anti-lipodystrophic (cellulite),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
-FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Alidya (anti-lipodystrophy) (5 x 10ml vials),Fat dissolving,Anti-lipodystrophic (cellulite),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,5
-FAT:FAT-AQUALYX-AQUALYX,Aqualyx (1 x 8ml vial),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,8
+FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Alidya (anti-lipodystrophy) (5 x 10ml vials),Fat dissolving,Anti-lipodystrophic (cellulite),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,6
+FAT:FAT-AQUALYX-AQUALYX,Aqualyx (1 x 8ml vial),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,7
 FAT:FAT-AQUALYX-AQUALYX-10X,Aqualyx (10 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,10
 FAT:FAT-AQUALYX-AQUALYX-5X,Aqualyx (5 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
-FAT:FAT-AQUALYX-AQUALYX-8X,Aqualyx (8 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
-FAT:FAT-KABELLINE-KABELLINE,Kabelline (1 x 8ml vial),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
-FAT:FAT-DESOFACE-DESOFACE,DesoFace (1 x 10ml vial),Fat dissolving,Deoxycholic acid 0.5%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,5
-FAT:FAT-DESOFACE-DESOFACE-5X,DesoFace (5 x 10ml vials),Fat dissolving,Deoxycholic acid 0.5%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,5
-FAT:FAT-DESOBODY-DESOBODY,DesoBody (1 x 10ml vial),Fat dissolving,Deoxycholic acid 1.25%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
-FAT:FAT-DESOBODY-DESOBODY-5X,DesoBody (5 x 10ml vials),Fat dissolving,Deoxycholic acid 1.25%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,6
+FAT:FAT-KABELLINE-KABELLINE-5X,Kabelline (5 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
+FAT:FAT-DESOFACE-DESOFACE,DesoFace (1 x 10ml vial),Fat dissolving,Deoxycholic acid 0.5%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,4
+FAT:FAT-DESOFACE-DESOFACE-5X,DesoFace (5 x 10ml vials),Fat dissolving,Deoxycholic acid 0.5%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,6
+FAT:FAT-DESOBODY-DESOBODY,DesoBody (1 x 10ml vial),Fat dissolving,Deoxycholic acid 1.25%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
+FAT:FAT-DESOBODY-DESOBODY-5X,DesoBody (5 x 10ml vials),Fat dissolving,Deoxycholic acid 1.25%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,7
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Lemon Bottle (1 x 10ml vial),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,8
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-10X,Lemon Bottle (10 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Lemon Bottle (5 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,9
 FAT:FAT-PINE-BOTTLE-PINEBOTTLE-5X,Pine Bottle (5 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
-FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,The Skinny Bottle (1 x 10ml vial),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,3
-FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,The Skinny Bottle (5 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
+FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,The Skinny Bottle (1 x 10ml vial),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
+FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,The Skinny Bottle (5 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,3
 FAT:FAT-BCN-ADIPO-FORTE-5X,BCN Adipo Forte (5 x 10ml vials),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-CINCELAR-PLUS-5X,Cincelar Plus (5 x 8ml vials),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
-FAT:FAT-DR.-LIPO-PLUSBODY,Dr. Lipo Plus (Body) (1 x 10ml vial),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,6
-FAT:FAT-DR.-LIPO-PLUSBODY-10X,Dr. Lipo Plus (Body) (10 x 10ml vials),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
-FAT:FAT-DR.-LIPO-VLINE,Dr. Lipo V-Line (1 x 10ml vial),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
-FAT:FAT-DR.-LIPO-VLINE-10X,Dr. Lipo V-Line (10 x 10ml vials),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
+FAT:FAT-DR.-LIPO-PLUSBODY,Dr. Lipo Plus (Body) (1 x 10ml vial),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,4
+FAT:FAT-DR.-LIPO-PLUSBODY-10X,Dr. Lipo Plus (Body) (10 x 10ml vials),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
+FAT:FAT-DR.-LIPO-VLINE,Dr. Lipo V-Line (1 x 5ml vial),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,3
+FAT:FAT-DR.-LIPO-VLINE-10X,Dr. Lipo V-Line (10 x 5ml vials),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
 FAT:FAT-MESOSCULPT-C71,MesoSculpt C71 (1 x 1ml vial),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-MESOESTETIC-CPROF221LIPOLYTIC-5X,Mesoestetic C.Prof 221 Lipolytic (5 x 10ml vials),Fat dissolving,Mesotherapy lipolytic,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
-FAT:FAT-INNO-TDS-DRAININGPPC,Inno-TDS Draining PPC (1 x 5ml vial),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
+FAT:FAT-INNO-TDS-DRAININGPPC,Inno-TDS Draining PPC (1 x 5ml vial),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
+FAT:FAT-INNO-TDS-DRAININGPPC-4X,Inno-TDS Draining PPC (4 x 5ml vials),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-LIPO-LAB-PPC,Lipo Lab PPC (1 x 10ml vial),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,3
 FAT:FAT-LIPO-LAB-PPC-10X,Lipo Lab PPC (10 x 10ml vials),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,5
-FAT:FAT-LIPO-LAB-VLINE,Lipo Lab V-Line (1 x 10ml vial),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
-FAT:FAT-LIPO-LAB-VLINE-5X,Lipo Lab V-Line (5 x 10ml vials),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,3
+FAT:FAT-LIPO-LAB-VLINE,Lipo Lab V-Line (1 x 10ml vial),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
+FAT:FAT-LIPO-LAB-VLINE-5X,Lipo Lab V-Line (5 x 10ml vials),Fat dissolving,Phosphatidylcholine (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,4
 FAT:MYFILLERREVITALIZESLIM-10ML-1X,Myfiller Revitalize Slim,Fat dissolving,Phosphatidylcholine + deoxycholate (PPC),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 MED:ABIOGENDIBASE-INJE,Abiogen Dibase 300000 1ml X 2amps 2,Medicines,abiogen dibase,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'abiogen dibase'; C08 subcategory left empty (acceptable),1
 MED:ACDA-INJE,ACD-A 500ml x12,Medicines,acd-a,,C08,Medicines & Pharmaceuticals,,,CLASSIFIED,medicine 'acd-a'; C08 subcategory left empty (acceptable),1
@@ -6377,9 +6376,9 @@ TOX:TOX-BOCOUTURE-100UNITS,Bocouture 100 units (1 vial),Toxin,Botulinum toxin ty
 TOX:TOX-BOCOUTURE-100UNITS-2X,Bocouture 100 units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,4
 TOX:TOX-BOCOUTURE-50UNITS,Bocouture 50 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,11
 TOX:TOX-BOCOUTURE-50UNITS-2X,Bocouture 50 units (2 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,4
-TOX:TOX-BOTOX-100UNITS,Botox 100 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,14
+TOX:TOX-BOTOX-100UNITS,Botox 100 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,12
 TOX:TOX-BOTOX-200UNITS,Botox 200 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,10
-TOX:TOX-BOTOX-50UNITS,Botox 50 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,12
+TOX:TOX-BOTOX-50UNITS,Botox 50 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,11
 TOX:TOX-BOTOX-50UNITS-50X,Botox 50 units (50 vials),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,1
 TOX:TOX-DYSPORT-300UNITS,Dysport 300 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,5
 TOX:TOX-DYSPORT-500UNITS,Dysport 500 units (1 vial),Toxin,Botulinum toxin type A,,C02.01,Botulinum Toxin Type A,,,CLASSIFIED,botulinum toxin type A,6

@@ -140,9 +140,6 @@ TOX:TOX-RELFYDESS-150UNITS,Toxin,Healthxchange,Relfydess™▼ (relabotulinumtox
 TOX:TOX-RELFYDESS-150UNITS,Toxin,Church Pharmacy,Relfydess,https://store.churchpharmacy.co.uk/product/relfydess-123994,high
 TOX:TOX-RELFYDESS-150UNITS-10X,Toxin,Church Pharmacy,Relfydess (Pack of 10),https://store.churchpharmacy.co.uk/product/relfydess-pack-of-10-123995,high
 TOX:TOX-XEOMIN-50UNITS,Toxin,Church Pharmacy,Xeomin 50u - Single Pack - Botulinum Toxin Type A - (Not approved for aesthetic use. Please refer to EMC),https://store.churchpharmacy.co.uk/product/xeomin-50u-single-pack-botulinum-toxin-type-a-119395,high
-TOX:TOX-BOTOX-100UNITS,Toxin,MedFX,Botox Botulinum Toxin Type A Vials (100 units),https://www.medfx.co.uk/facial-aesthetics/toxins/600010--botox-botulinum-toxin-type-a-vials/,rule
-TOX:TOX-BOTOX-50UNITS,Toxin,MedFX,Botox Botulinum Toxin Type A Vials (50 units),https://www.medfx.co.uk/facial-aesthetics/toxins/600011--botox-botulinum-toxin-type-a-vials/,rule
-TOX:TOX-BOTOX-100UNITS,Toxin,MedFX,Botox Botulinum Toxin Type A Vials,https://www.medfx.co.uk/facial-aesthetics/toxins/600013--botox-botulinum-toxin-type-a-vials/,rule
 TOX:TOX-DYSPORT-500UNITS,Toxin,MedFX,Dysport,https://www.medfx.co.uk/facial-aesthetics/toxins/600020--dysport/,rule
 TOX:TOX-ALLUZIENCE-125SPEYWOODUNITS-2X,Toxin,MedFX,Alluzience 2x125 Units Twin Pack.,https://www.medfx.co.uk/facial-aesthetics/toxins/600028--alluzience-2x125-units-twin-pack/,high
 TOX:TOX-BOCOUTURE-50UNITS,Toxin,MedFX,Bocouture Neurotoxin Type A 50 units,https://www.medfx.co.uk/facial-aesthetics/toxins/600032--bocouture-neurotoxin-type-a-50-units/,rule
@@ -3890,13 +3887,13 @@ BIO:BIO-HARMONYCA-125-LIDO-2X,Biostimulator,MedFX,HArmonyCa,https://www.medfx.co
 BIO:BIO-SCULPTRA-3675MG-2X,Biostimulator,MedFX,Sculptra,https://www.medfx.co.uk/facial-aesthetics/fillers/600600--sculptra/,high
 BIO:BIO-SCULPTRA-3675MG-2X,Biostimulator,MedFX,Sculptra*,https://www.medfx.co.uk/facial-aesthetics/fillers/600602--sculptra-promotion-pack/,high
 BIO:BIO-RADIESSE-15ML,Biostimulator,MedFX,Radiesse + 1.5cc,https://www.medfx.co.uk/facial-aesthetics/fillers/600905--radiesse--1.5cc/,high
-FAT:FAT-INNO-TDS-DRAININGPPC,Fat dissolving,Church Pharmacy,innotds draining ppc injectable,https://store.churchpharmacy.co.uk/product/innotds-draining-ppc-injectable-105251,high
+FAT:FAT-INNO-TDS-DRAININGPPC-4X,Fat dissolving,Church Pharmacy,innotds draining ppc injectable,https://store.churchpharmacy.co.uk/product/innotds-draining-ppc-injectable-105251,high
 FAT:FAT-AQUALYX-AQUALYX-10X,Fat dissolving,John Bannon Pharmacy,Aqualyx 8ml Vial x 10,https://www.johnbannonpharmacy.co.uk/products/aqualyx-aqualyx-8ml-vial-x-10.html,high
 FAT:FAT-DESOBODY-DESOBODY-5X,Fat dissolving,John Bannon Pharmacy,DesoBody 1.25% 10ml x 5,https://www.johnbannonpharmacy.co.uk/products/love-cosmedical-desobody-125-10ml-x-5.html,high
 FAT:FAT-DESOFACE-DESOFACE-5X,Fat dissolving,John Bannon Pharmacy,DesoFace 0.5% x 10ml x 5,https://www.johnbannonpharmacy.co.uk/products/love-cosmedical-desoface-05-x-10ml-x-5.html,high
 FAT:FAT-AQUALYX-AQUALYX-10X,Fat dissolving,Moda Pharmacy,Aqualyx 8ml x 10,https://www.modapharmacy.co.uk/product/aqualyx-8ml-x-10,high
-FAT:FAT-DESOBODY-DESOBODY,Fat dissolving,Moda Pharmacy,Desobody 1.25% 10ML 5'S,https://www.modapharmacy.co.uk/product/desobody-125-10ml-5s,high
-FAT:FAT-DESOFACE-DESOFACE,Fat dissolving,Moda Pharmacy,Desoface 0.5% 10ML 5's,https://www.modapharmacy.co.uk/product/desoface-05-10ml-5s,high
+FAT:FAT-DESOBODY-DESOBODY-5X,Fat dissolving,Moda Pharmacy,Desobody 1.25% 10ML 5'S,https://www.modapharmacy.co.uk/product/desobody-125-10ml-5s,high
+FAT:FAT-DESOFACE-DESOFACE-5X,Fat dissolving,Moda Pharmacy,Desoface 0.5% 10ML 5's,https://www.modapharmacy.co.uk/product/desoface-05-10ml-5s,high
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Fat dissolving,Aesthetic Pharma,Lemonbottle,https://www.aestheticpharma.co.uk/product/804,rule
 FAT:FAT-AQUALYX-AQUALYX-10X,Fat dissolving,Aesthetic Pharma,Aqualyx 10 x 8ml,https://www.aestheticpharma.co.uk/product/466,high
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Fat dissolving,Smile Pharma,LEMON BOTTLE Complete Injection Kit for Face and Body,https://smilepharma.co.uk/product/lemon-bottle-complete-injection-kit-for-face-and-body/,review
@@ -3917,7 +3914,6 @@ FAT:FAT-AQUALYX-AQUALYX-10X,Fat dissolving,MyPharmacyspace,Aqualyx 10 x 8ml,http
 FAT:FAT-DESOFACE-DESOFACE,Fat dissolving,MyPharmacyspace,Desoface,https://mypharmacyspace.co.uk/products/desoface,rule
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Fat dissolving,MyPharmacyspace,LemonBottle 5 vials x 10ml,https://mypharmacyspace.co.uk/products/lemon-bottle-5-vials-x-10ml,high
 FAT:FAT-DESOBODY-DESOBODY-5X,Fat dissolving,MyPharmacyspace,Desobody 5 x 10ml,https://mypharmacyspace.co.uk/products/desobody,high
-FAT:FAT-AQUALYX-AQUALYX-8X,Fat dissolving,LPG Clinics Wholesale,Aqualyx (10mlx8),https://www.lpgclinicswholesale.com/product/aqualyx-10mlx8/,high
 FAT:FAT-CINCELAR-PLUS-5X,Fat dissolving,LPG Clinics Wholesale,Cincelar Plus + 5 x 8ml,https://www.lpgclinicswholesale.com/product/cincelar-plus-5-x-8ml/,high*
 FAT:FAT-LIPO-LAB-PPC-10X,Fat dissolving,LPG Clinics Wholesale,Lipo Lab Phosphatidylcholine 10ml x 10,https://www.lpgclinicswholesale.com/product/lipo-lab-phosphatidylcholine-10ml-x-10/,high
 FAT:FAT-LIPO-LAB-VLINE-5X,Fat dissolving,LPG Clinics Wholesale,Lipo Lab V-Line 5 x 10ml,https://www.lpgclinicswholesale.com/product/lipo-lab-v-line-5-x-10ml/,high
@@ -3929,10 +3925,10 @@ FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Fat dissolving,LPG Clinics Wholesale,Lemonbo
 FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,Fat dissolving,LPG Clinics Wholesale,The Skinny Bottle 5 x 10ml,https://www.lpgclinicswholesale.com/product/the-skinny-bottle-fat-dissolver/,high*
 FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,Fat dissolving,LPG Clinics Wholesale,The Skinny Bottle 1 x 10ml,https://www.lpgclinicswholesale.com/product/skinny-bottle-1x10ml/,high*
 FAT:FAT-AQUALYX-AQUALYX,Fat dissolving,LPG Clinics Wholesale,Aqualyx Single Vial (1 x 8ml),https://www.lpgclinicswholesale.com/product/aqualyx-single-vial-1x8ml/,high
-FAT:FAT-KABELLINE-KABELLINE,Fat dissolving,LPG Clinics Wholesale,Kabelline,https://www.lpgclinicswholesale.com/product/kabelline/,high
+FAT:FAT-KABELLINE-KABELLINE-5X,Fat dissolving,LPG Clinics Wholesale,Kabelline,https://www.lpgclinicswholesale.com/product/kabelline/,high
 FAT:FAT-DR.-LIPO-PLUSBODY-10X,Fat dissolving,LPG Clinics Wholesale,Dr. Lipo + Body (10 x 10ml),https://www.lpgclinicswholesale.com/product/dr-lipo/,high*
-FAT:FAT-DR.-LIPO-PLUSBODY-10X,Fat dissolving,LPG Clinics Wholesale,Dr. Lipo + V Face (10 x 5ml),https://www.lpgclinicswholesale.com/product/dr-lipo-v/,high*
-FAT:FAT-DR.-LIPO-PLUSBODY,Fat dissolving,LPG Clinics Wholesale,Dr. Lipo + V Face Single vial 1 x 5ml,https://www.lpgclinicswholesale.com/product/dr-lipo-v-face-single-vial-1-x-5ml/,high*
+FAT:FAT-DR.-LIPO-VLINE-10X,Fat dissolving,LPG Clinics Wholesale,Dr. Lipo + V Face (10 x 5ml),https://www.lpgclinicswholesale.com/product/dr-lipo-v/,high*
+FAT:FAT-DR.-LIPO-VLINE,Fat dissolving,LPG Clinics Wholesale,Dr. Lipo + V Face Single vial 1 x 5ml,https://www.lpgclinicswholesale.com/product/dr-lipo-v-face-single-vial-1-x-5ml/,high*
 FAT:FAT-DR.-LIPO-PLUSBODY,Fat dissolving,LPG Clinics Wholesale,Dr. Lipo+ Body Single vial 1 x 10ml,https://www.lpgclinicswholesale.com/product/dr-lipo-body-single-vial-1-x-10ml/,high*
 FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Fat dissolving,Two Face Aesthetics,Alidya Anti Lipodystrophic Agents - 5pcs,https://www.twofaceaesthetics.com/products/alidya-anti-lipodystrophic-agents-5pcs,high
 FAT:FAT-AQUALYX-AQUALYX,Fat dissolving,Two Face Aesthetics,Aqualyx Fat Dissolver – 8ml Vial,https://www.twofaceaesthetics.com/products/aqualyx-fat-dissolver-8ml-vial,high
@@ -3952,10 +3948,9 @@ FAT:FAT-AQUALYX-AQUALYX-5X,Fat dissolving,Wimpole Fillers,Aqualyx (Half) (5 x 8m
 FAT:FAT-AQUALYX-AQUALYX-10X,Fat dissolving,Wimpole Fillers,Aqualyx (10 x 8ml) Vial,https://wimpolefillers.co.uk/product/aqualyx-10-x-8ml/,high
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Fat dissolving,IGO Aesthetics,lemonbottle solution,https://igoaesthetics.com/products/lemonbottle-solution,high
 FAT:FAT-PINE-BOTTLE-PINEBOTTLE-5X,Fat dissolving,IGO Aesthetics,Pine Bottle 5 x 10ml,https://igoaesthetics.com/products/pine-bottle-5-x-10ml,high*
-FAT:FAT-DR.-LIPO-PLUSBODY,Fat dissolving,IGO Aesthetics,dr lipo v 1x 5ml,https://igoaesthetics.com/products/dr-lipo-v-1x-5ml,high*
+FAT:FAT-DR.-LIPO-VLINE,Fat dissolving,IGO Aesthetics,dr lipo v 1x 5ml,https://igoaesthetics.com/products/dr-lipo-v-1x-5ml,high*
 FAT:FAT-DR.-LIPO-PLUSBODY,Fat dissolving,IGO Aesthetics,dr lipo body,https://igoaesthetics.com/products/dr-lipo-body,rule
 FAT:FAT-LIPO-LAB-PPC-10X,Fat dissolving,IGO Aesthetics,Lipo Lab 10x 10ml,https://igoaesthetics.com/products/lipo-lab-10x-10ml,high
-FAT:FAT-AQUALYX-AQUALYX-8X,Fat dissolving,IGO Aesthetics,Aqualyx Fat Dissolver 8 x 10ml,https://igoaesthetics.com/products/aqualyx-10ml-x-8,high
 FAT:FAT-AQUALYX-AQUALYX,Fat dissolving,IGO Aesthetics,Aqualyx Single Vial (1 x 8ml),https://igoaesthetics.com/products/aqualyx-single-vial-1-x-8ml,high
 FAT:FAT-AQUALYX-AQUALYX-10X,Fat dissolving,Kiss Aesthetics Wholesale,AQUALYX (10 x 8ml),https://kissaestheticswholesale.com/product/aqualyx-10-x-8ml/,high
 FAT:FAT-DESOBODY-DESOBODY-5X,Fat dissolving,Kiss Aesthetics Wholesale,Deso Body,https://kissaestheticswholesale.com/product/deso-body/,high
@@ -3973,9 +3968,8 @@ FAT:FAT-AQUALYX-AQUALYX-10X,Fat dissolving,Herts & Essex Supplies,Aqualyx 10x8ml
 FAT:FAT-DR.-LIPO-VLINE-10X,Fat dissolving,Herts & Essex Supplies,Dr. Lipo Plus V-Line | Professional Facial Contouring 5ml x 10 vials,https://www.hesupplies.co.uk/products/dr-lipo-plus-v-line-professional-facial-contouring-5ml-x-10-vials,high*
 FAT:FAT-DR.-LIPO-PLUSBODY,Fat dissolving,Herts & Essex Supplies,Dr. Lipo Plus | Professional Body Contouring,https://www.hesupplies.co.uk/products/dr-lipo-plus-professional-body-contouring,rule
 FAT:FAT-DESOFACE-DESOFACE-5X,Fat dissolving,Ask Pharmacy,desoface 0 5 10ml x 5,https://ask-pharmacy.co.uk/product/desoface-0-5-10ml-x-5/,high
-FAT:FAT-LIPO-LAB-VLINE,Fat dissolving,Ask Pharmacy,lipolab v line,https://ask-pharmacy.co.uk/product/lipolab-v-line/,high
+FAT:FAT-LIPO-LAB-VLINE-5X,Fat dissolving,Ask Pharmacy,lipolab v line,https://ask-pharmacy.co.uk/product/lipolab-v-line/,high
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Fat dissolving,Ask Pharmacy,lemon bottle 10ml x 5 vials,https://ask-pharmacy.co.uk/product/lemon-bottle-10ml-x-5-vials/,high
-FAT:FAT-AQUALYX-AQUALYX,Fat dissolving,Ask Pharmacy,aqualyx vials,https://ask-pharmacy.co.uk/product/aqualyx-vials/,high
 FAT:FAT-AQUALYX-AQUALYX,Fat dissolving,Ask Pharmacy,aqualyx vials single vial 1 x 8ml,https://ask-pharmacy.co.uk/product/aqualyx-vials-single-vial-1-x-8ml/,high
 FAT:FAT-DESOFACE-DESOFACE,Fat dissolving,Ask Pharmacy,desoface single vial 1 x 10ml,https://ask-pharmacy.co.uk/product/desoface-single-vial-1-x-10ml/,high
 FAT:FAT-LIPO-LAB-PPC,Fat dissolving,Ask Pharmacy,lipolab single vial 1 x 10ml,https://ask-pharmacy.co.uk/product/lipolab-single-vial-1-x-10ml/,high
@@ -3984,8 +3978,8 @@ FAT:MYFILLERREVITALIZESLIM-10ML-1X,Fat dissolving,Ask Pharmacy,myfiller revitali
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-10X,Fat dissolving,Ask Pharmacy,lemon bottle injection kit,https://ask-pharmacy.co.uk/product/lemon-bottle-injection-kit/,high
 FAT:FAT-DESOBODY-DESOBODY-5X,Fat dissolving,Ask Pharmacy,desobody 1 25 10ml x 5,https://ask-pharmacy.co.uk/product/desobody-1-25-10ml-x-5/,rule
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Fat dissolving,Ask Pharmacy,lemon bottle 10ml x 1 vial,https://ask-pharmacy.co.uk/product/lemon-bottle-10ml-x-1-vial/,high
-FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,Fat dissolving,Ask Pharmacy,the skinny bottle,https://ask-pharmacy.co.uk/product/the-skinny-bottle/,high*
-FAT:FAT-ALIDYA-ANTILIPODYSTROPHY,Fat dissolving,Ask Pharmacy,alidya,https://ask-pharmacy.co.uk/product/alidya/,high
+FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,Fat dissolving,Ask Pharmacy,the skinny bottle,https://ask-pharmacy.co.uk/product/the-skinny-bottle/,high*
+FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Fat dissolving,Ask Pharmacy,alidya,https://ask-pharmacy.co.uk/product/alidya/,high
 FAT:FAT-DR.-LIPO-PLUSBODY,Fat dissolving,Herts & Essex Supplies,Dr. Lipo Plus | Professional Body Contouring 1 x 10ml (Single Vial),https://www.hesupplies.co.uk/products/dr-lipo-plus-professional-body-contouring-1-x-10ml-single-vial,high*
 FAT:FAT-DR.-LIPO-VLINE,Fat dissolving,Herts & Essex Supplies,Dr. Lipo Plus V-Line | Professional Facial Contouring 1 x 5ml (Single Vial),https://www.hesupplies.co.uk/products/dr-lipo-plus-v-line-professional-facial-contouring-1-x-5ml-single-vial,high*
 FAT:FAT-DESOFACE-DESOFACE,Fat dissolving,MyPharmacyspace,Desoface (on prescription),https://mypharmacyspace.co.uk/products/desoface-on-prescription,rule

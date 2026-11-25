@@ -1927,36 +1927,35 @@ DEV:OBSERV-VISOR-POLARISATION,Devices & equipment,Skin analysis / imaging,Observ
 DEV:PURE-TONE-DERMA-VU-PHOTOGRAPHIC-SKIN,Devices & equipment,Skin analysis / imaging,Pure,Pure Tone Derma Vu Photographic Skin Analysis Machine,machine / device,,,,,1,1,
 DEV:MOISTSENSE-CAPACITIVE-MOISTURE-SENSOR,Devices & equipment,Skin analysis / imaging,moistsense,Moistsense Capacitive Moisture Sensor,machine / device,,,,,1,1,
 DEV:AUTOCLAVE-STERILISATION-POUCHES-200PCS,Devices & equipment,Steriliser / autoclave,Autoclave,Autoclave Sterilisation Pouches - (135mm x 260mm) 200pcs,machine / device,,,,,1,1,
-FAT:FAT-ALIDYA-ANTILIPODYSTROPHY,Fat dissolving,Anti-lipodystrophic (cellulite),Alidya,Alidya (anti-lipodystrophy) (1 x 10ml vial),1 x 10ml vial,Mastelli,1,,reference-matched,1,1,
-FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Fat dissolving,Anti-lipodystrophic (cellulite),Alidya,Alidya (anti-lipodystrophy) (5 x 10ml vials),5 x 10ml vials,Mastelli,5,,reference-matched,5,5,
-FAT:FAT-AQUALYX-AQUALYX,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (1 x 8ml vial),1 x 8ml vial,Marllor / Ghimja,1,,reference-matched,7,8,
+FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Fat dissolving,Anti-lipodystrophic (cellulite),Alidya,Alidya (anti-lipodystrophy) (5 x 10ml vials),5 x 10ml vials,Mastelli,5,,reference-matched,6,6,
+FAT:FAT-AQUALYX-AQUALYX,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (1 x 8ml vial),1 x 8ml vial,Marllor / Ghimja,1,,reference-matched,7,7,
 FAT:FAT-AQUALYX-AQUALYX-10X,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (10 x 8ml vials),10 x 8ml vials,Marllor / Ghimja,10,,reference-matched,10,10,
 FAT:FAT-AQUALYX-AQUALYX-5X,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (5 x 8ml vials),5 x 8ml vials,Marllor / Ghimja,5,,reference-matched,1,1,
-FAT:FAT-AQUALYX-AQUALYX-8X,Fat dissolving,Deoxycholic acid,Aqualyx,Aqualyx (8 x 8ml vials),8 x 8ml vials,Marllor / Ghimja,8,,reference-matched,2,2,
-FAT:FAT-KABELLINE-KABELLINE,Fat dissolving,Deoxycholic acid,Kabelline,Kabelline (1 x 8ml vial),1 x 8ml vial,Kabelline (Korea),1,,reference-matched,1,1,
-FAT:FAT-DESOFACE-DESOFACE,Fat dissolving,Deoxycholic acid 0.5%,DesoFace,DesoFace (1 x 10ml vial),1 x 10ml vial,Deso (Korea),1,,reference-matched,4,5,
-FAT:FAT-DESOFACE-DESOFACE-5X,Fat dissolving,Deoxycholic acid 0.5%,DesoFace,DesoFace (5 x 10ml vials),5 x 10ml vials,Deso (Korea),5,,reference-matched,5,5,
-FAT:FAT-DESOBODY-DESOBODY,Fat dissolving,Deoxycholic acid 1.25%,DesoBody,DesoBody (1 x 10ml vial),1 x 10ml vial,Deso (Korea),1,,reference-matched,2,2,
-FAT:FAT-DESOBODY-DESOBODY-5X,Fat dissolving,Deoxycholic acid 1.25%,DesoBody,DesoBody (5 x 10ml vials),5 x 10ml vials,Deso (Korea),5,,reference-matched,6,6,
+FAT:FAT-KABELLINE-KABELLINE-5X,Fat dissolving,Deoxycholic acid,Kabelline,Kabelline (5 x 8ml vials),5 x 8ml vials,Kabelline (Korea),5,,reference-matched,1,1,
+FAT:FAT-DESOFACE-DESOFACE,Fat dissolving,Deoxycholic acid 0.5%,DesoFace,DesoFace (1 x 10ml vial),1 x 10ml vial,Deso (Korea),1,,reference-matched,3,4,
+FAT:FAT-DESOFACE-DESOFACE-5X,Fat dissolving,Deoxycholic acid 0.5%,DesoFace,DesoFace (5 x 10ml vials),5 x 10ml vials,Deso (Korea),5,,reference-matched,6,6,
+FAT:FAT-DESOBODY-DESOBODY,Fat dissolving,Deoxycholic acid 1.25%,DesoBody,DesoBody (1 x 10ml vial),1 x 10ml vial,Deso (Korea),1,,reference-matched,1,1,
+FAT:FAT-DESOBODY-DESOBODY-5X,Fat dissolving,Deoxycholic acid 1.25%,DesoBody,DesoBody (5 x 10ml vials),5 x 10ml vials,Deso (Korea),5,,reference-matched,7,7,
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Fat dissolving,Lecithin / proprietary,Lemon Bottle,Lemon Bottle (1 x 10ml vial),1 x 10ml vial,Lemon Bottle (Korea),1,,reference-matched,8,8,
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-10X,Fat dissolving,Lecithin / proprietary,Lemon Bottle,Lemon Bottle (10 x 10ml vials),10 x 10ml vials,Lemon Bottle (Korea),10,,reference-matched,1,1,
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Fat dissolving,Lecithin / proprietary,Lemon Bottle,Lemon Bottle (5 x 10ml vials),5 x 10ml vials,Lemon Bottle (Korea),5,,reference-matched,7,9,
 FAT:FAT-PINE-BOTTLE-PINEBOTTLE-5X,Fat dissolving,Lecithin / proprietary,Pine Bottle,Pine Bottle (5 x 10ml vials),5 x 10ml vials,Pine Bottle,5,,reference-matched,2,2,
-FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,Fat dissolving,Lecithin / proprietary,The Skinny Bottle,The Skinny Bottle (1 x 10ml vial),1 x 10ml vial,The Skinny Bottle,1,,reference-matched,3,3,
-FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,Fat dissolving,Lecithin / proprietary,The Skinny Bottle,The Skinny Bottle (5 x 10ml vials),5 x 10ml vials,The Skinny Bottle,5,,reference-matched,2,2,
+FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,Fat dissolving,Lecithin / proprietary,The Skinny Bottle,The Skinny Bottle (1 x 10ml vial),1 x 10ml vial,The Skinny Bottle,1,,reference-matched,2,2,
+FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,Fat dissolving,Lecithin / proprietary,The Skinny Bottle,The Skinny Bottle (5 x 10ml vials),5 x 10ml vials,The Skinny Bottle,5,,reference-matched,3,3,
 FAT:FAT-BCN-ADIPO-FORTE-5X,Fat dissolving,Mesotherapy lipolytic,BCN Adipo,BCN Adipo Forte (5 x 10ml vials),5 x 10ml vials,Institute BCN,5,,reference-matched,1,1,
 FAT:FAT-CINCELAR-PLUS-5X,Fat dissolving,Mesotherapy lipolytic,Cincelar,Cincelar Plus (5 x 8ml vials),5 x 8ml vials,Cincelar,5,,reference-matched,1,1,
-FAT:FAT-DR.-LIPO-PLUSBODY,Fat dissolving,Mesotherapy lipolytic,Dr. Lipo,Dr. Lipo Plus (Body) (1 x 10ml vial),1 x 10ml vial,Dr. Lipo,1,,reference-matched,3,6,
-FAT:FAT-DR.-LIPO-PLUSBODY-10X,Fat dissolving,Mesotherapy lipolytic,Dr. Lipo,Dr. Lipo Plus (Body) (10 x 10ml vials),10 x 10ml vials,Dr. Lipo,10,,reference-matched,1,2,
-FAT:FAT-DR.-LIPO-VLINE,Fat dissolving,Mesotherapy lipolytic,Dr. Lipo,Dr. Lipo V-Line (1 x 10ml vial),1 x 10ml vial,Dr. Lipo,1,,reference-matched,1,1,
-FAT:FAT-DR.-LIPO-VLINE-10X,Fat dissolving,Mesotherapy lipolytic,Dr. Lipo,Dr. Lipo V-Line (10 x 10ml vials),10 x 10ml vials,Dr. Lipo,10,,reference-matched,1,1,
+FAT:FAT-DR.-LIPO-PLUSBODY,Fat dissolving,Mesotherapy lipolytic,Dr. Lipo,Dr. Lipo Plus (Body) (1 x 10ml vial),1 x 10ml vial,Dr. Lipo,1,,reference-matched,3,4,
+FAT:FAT-DR.-LIPO-PLUSBODY-10X,Fat dissolving,Mesotherapy lipolytic,Dr. Lipo,Dr. Lipo Plus (Body) (10 x 10ml vials),10 x 10ml vials,Dr. Lipo,10,,reference-matched,1,1,
+FAT:FAT-DR.-LIPO-VLINE,Fat dissolving,Mesotherapy lipolytic,Dr. Lipo,Dr. Lipo V-Line (1 x 5ml vial),1 x 5ml vial,Dr. Lipo,1,,reference-matched,3,3,
+FAT:FAT-DR.-LIPO-VLINE-10X,Fat dissolving,Mesotherapy lipolytic,Dr. Lipo,Dr. Lipo V-Line (10 x 5ml vials),10 x 5ml vials,Dr. Lipo,10,,reference-matched,2,2,
 FAT:FAT-MESOSCULPT-C71,Fat dissolving,Mesotherapy lipolytic,MesoSculpt,MesoSculpt C71 (1 x 1ml vial),1 x 1ml vial,MesoSculpt,1,,reference-matched,1,1,
 FAT:FAT-MESOESTETIC-CPROF221LIPOLYTIC-5X,Fat dissolving,Mesotherapy lipolytic,Mesoestetic,Mesoestetic C.Prof 221 Lipolytic (5 x 10ml vials),5 x 10ml vials,Mesoestetic,5,,reference-matched,1,1,
-FAT:FAT-INNO-TDS-DRAININGPPC,Fat dissolving,Phosphatidylcholine (PPC),Inno-TDS,Inno-TDS Draining PPC (1 x 5ml vial),1 x 5ml vial,Innoaesthetics,1,,reference-matched,2,2,
+FAT:FAT-INNO-TDS-DRAININGPPC,Fat dissolving,Phosphatidylcholine (PPC),Inno-TDS,Inno-TDS Draining PPC (1 x 5ml vial),1 x 5ml vial,Innoaesthetics,1,,reference-matched,1,1,
+FAT:FAT-INNO-TDS-DRAININGPPC-4X,Fat dissolving,Phosphatidylcholine (PPC),Inno-TDS,Inno-TDS Draining PPC (4 x 5ml vials),4 x 5ml vials,Innoaesthetics,4,,reference-matched,1,1,
 FAT:FAT-LIPO-LAB-PPC,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab PPC (1 x 10ml vial),1 x 10ml vial,Lipo Lab (Korea),1,,reference-matched,2,3,
 FAT:FAT-LIPO-LAB-PPC-10X,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab PPC (10 x 10ml vials),10 x 10ml vials,Lipo Lab (Korea),10,,reference-matched,5,5,
-FAT:FAT-LIPO-LAB-VLINE,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab V-Line (1 x 10ml vial),1 x 10ml vial,Lipo Lab (Korea),1,,reference-matched,2,2,
-FAT:FAT-LIPO-LAB-VLINE-5X,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab V-Line (5 x 10ml vials),5 x 10ml vials,Lipo Lab (Korea),5,,reference-matched,3,3,
+FAT:FAT-LIPO-LAB-VLINE,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab V-Line (1 x 10ml vial),1 x 10ml vial,Lipo Lab (Korea),1,,reference-matched,1,1,
+FAT:FAT-LIPO-LAB-VLINE-5X,Fat dissolving,Phosphatidylcholine (PPC),Lipo Lab,Lipo Lab V-Line (5 x 10ml vials),5 x 10ml vials,Lipo Lab (Korea),5,,reference-matched,4,4,
 FAT:MYFILLERREVITALIZESLIM-10ML-1X,Fat dissolving,Phosphatidylcholine + deoxycholate (PPC),Myfiller Revitalize Slim,Myfiller Revitalize Slim,1 x 10ml vial,not named,1,,NO - confirm,1,1,
 MED:ABIOGENDIBASE-INJE,Medicines,abiogen dibase,abiogen dibase,Abiogen Dibase 300000 1ml X 2amps 2,injection,,,vitamin/IV,,1,1,https://www.medicines.org.uk/emc/search?q=abiogen
 MED:ACDA-INJE,Medicines,acd-a,ACD-A,ACD-A 500ml x12,injection,,,injectable/emergency,,1,1,https://www.medicines.org.uk/emc/search?q=acd-a
@@ -6377,9 +6376,9 @@ TOX:TOX-BOCOUTURE-100UNITS,Toxin,Botulinum toxin type A,Bocouture,Bocouture 100 
 TOX:TOX-BOCOUTURE-100UNITS-2X,Toxin,Botulinum toxin type A,Bocouture,Bocouture 100 units (2 vials),2 vials,Merz,2,,reference-matched,4,4,https://www.medicines.org.uk/emc/search?q=bocouture
 TOX:TOX-BOCOUTURE-50UNITS,Toxin,Botulinum toxin type A,Bocouture,Bocouture 50 units (1 vial),1 vial,Merz,1,,reference-matched,11,11,https://www.medicines.org.uk/emc/search?q=bocouture
 TOX:TOX-BOCOUTURE-50UNITS-2X,Toxin,Botulinum toxin type A,Bocouture,Bocouture 50 units (2 vials),2 vials,Merz,2,,reference-matched,4,4,https://www.medicines.org.uk/emc/search?q=bocouture
-TOX:TOX-BOTOX-100UNITS,Toxin,Botulinum toxin type A,Botox,Botox 100 units (1 vial),1 vial,Allergan / AbbVie,1,,reference-matched,13,14,https://www.medicines.org.uk/emc/search?q=botox
+TOX:TOX-BOTOX-100UNITS,Toxin,Botulinum toxin type A,Botox,Botox 100 units (1 vial),1 vial,Allergan / AbbVie,1,,reference-matched,12,12,https://www.medicines.org.uk/emc/search?q=botox
 TOX:TOX-BOTOX-200UNITS,Toxin,Botulinum toxin type A,Botox,Botox 200 units (1 vial),1 vial,Allergan / AbbVie,1,,reference-matched,10,10,https://www.medicines.org.uk/emc/search?q=botox
-TOX:TOX-BOTOX-50UNITS,Toxin,Botulinum toxin type A,Botox,Botox 50 units (1 vial),1 vial,Allergan / AbbVie,1,,reference-matched,12,12,https://www.medicines.org.uk/emc/search?q=botox
+TOX:TOX-BOTOX-50UNITS,Toxin,Botulinum toxin type A,Botox,Botox 50 units (1 vial),1 vial,Allergan / AbbVie,1,,reference-matched,11,11,https://www.medicines.org.uk/emc/search?q=botox
 TOX:TOX-BOTOX-50UNITS-50X,Toxin,Botulinum toxin type A,Botox,Botox 50 units (50 vials),50 vials,Allergan / AbbVie,50,,reference-matched,1,1,https://www.medicines.org.uk/emc/search?q=botox
 TOX:TOX-DYSPORT-300UNITS,Toxin,Botulinum toxin type A,Dysport,Dysport 300 units (1 vial),1 vial,Ipsen / Galderma,1,,reference-matched,5,5,https://www.medicines.org.uk/emc/search?q=dysport
 TOX:TOX-DYSPORT-500UNITS,Toxin,Botulinum toxin type A,Dysport,Dysport 500 units (1 vial),1 vial,Ipsen / Galderma,1,,reference-matched,6,6,https://www.medicines.org.uk/emc/search?q=dysport

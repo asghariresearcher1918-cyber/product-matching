@@ -34,8 +34,10 @@ BUNDLE = re.compile(r"\bfree\b|get 1|get one|\+ ?1 ?x|buy 1 get|bundle|worth £|
 _PACK_STRICT = (r"box of\s*(\d+)", r"pack of\s*(\d+)",
                 r"(\d+)\s*x\s*\d+(?:\.\d+)?\s*ml",     # 10 x 8ml / 10x8ml
                 r"ml\s*x\s*(\d+)",                      # 8ml x 10 / 10mlx8
-                r"\b(\d+)\s*(?:vials?|pcs|pieces|syringes?)\b")  # 10 vials
+                r"\b(\d+)\s*(?:vials?|pcs|pieces|syringes?|amp(?:oule|s)?|bottles?|tabs?|tablets?)\b",  # 10 vials / 5 pcs
+                r"\b(\d+)\s*['’]?s\b")                  # 5's / 5'S / 5s  (pack-count shorthand)
 _PACK_LOOSE = (r"\bx\s*(\d+)\b", r"(\d+)\s*x\b")        # generic x10 / 10x (titles only)
+_PLURAL_VIALS = re.compile(r"\bvials\b|\bampoules\b|\bsyringes\b|\bbottles\b")  # plural -> must be >1
 
 
 _PACK_EXPLICIT = (r"box contents?:?\s*(\d+)\s*vials?", r"box of\s*(\d+)", r"pack of\s*(\d+)",
@@ -54,10 +56,11 @@ def pack_count(text, strict=False):
     return None
 
 
-def pack_from_doc(text, brand):
+def pack_from_doc(text, brand, vol=""):
     """Read the pack from a product PAGE or image where the text may list many other products (supplier price-lists).
     Only trust a pack token that sits next to THIS product's own brand name, so 'relfydess pack of 10' on the same
-    page can't be mis-read as this product's pack. Returns None if the brand's own window states no pack."""
+    page can't be mis-read as this product's pack. As a last resort, a volume-anchored 'N x <this product's ml>'
+    anywhere on the page is accepted (it names THIS product's own size). Returns None if nothing reliable is found."""
     bl = brand.lower()
     pats = _PACK_EXPLICIT + _PACK_STRICT
     usage = re.compile(r"divide|split|reconstitut|dissolv|draw up|mix|inject|per session|each area")
@@ -70,6 +73,11 @@ def pack_from_doc(text, brand):
                 before = window[max(0, mm.start() - 40):mm.start()]   # skip usage text ("divide into 3 syringes")
                 if 1 <= n <= 60 and not usage.search(before):
                     return n
+    if vol:                                              # volume-anchored fallback: 'N x 10ml' = this product's own size
+        v = re.escape(re.sub(r"\s*ml\b", "", vol.lower()))
+        hits = {int(x) for x in re.findall(r"(\d+)\s*x\s*" + v + r"\s*ml\b", text) if 2 <= int(x) <= 60}
+        if len(hits) == 1:
+            return hits.pop()
     return None
 
 
@@ -136,11 +144,25 @@ def run(cfg, refnames):
         if packn is None and re.search(r"\bsingle\b|\b1\s*(?:x\s*)?vials?\b", tl):  # explicit single = 1 vial
             packn, pack_src = 1, "title (single)"
         if packn is None and m.get("id"):                 # owner rule: read the whole page, then the image, before defaulting
-            packn = pack_from_doc(page_text(m["id"]).lower(), rb); pack_src = "page"   # only trust a pack beside THIS brand
+            packn = pack_from_doc(page_text(m["id"]).lower(), rb, best.get("volume", "")); pack_src = "page"   # pack beside THIS brand / this size
             if packn is None:
-                packn = pack_from_doc((image_text(m["id"]) or "").lower(), rb); pack_src = "image(OCR)"
+                packn = pack_from_doc((image_text(m["id"]) or "").lower(), rb, best.get("volume", "")); pack_src = "image(OCR)"
         if packn is None:
             packn, pack_src = base_n, "assumed (not stated)"
+        # owner rule: a plural ('vials'/'ampoules'...) with no readable count means pack > 1 but unknown -> do NOT default
+        # to a single vial; send to review so we never mis-group a multipack as a single.
+        if (cfg["kind"] in ("fat", "toxin", "biostim") and packn <= 1 and pack_src == "assumed (not stated)"
+                and _PLURAL_VIALS.search(tl) and not re.search(r"\bsingle\b|\b1\s*x\b|\b1\s*vial\b", tl)):
+            maps.append(dict(m, code="", brand=rb, matched="review-pack",
+                             decision=f"title says '{_PLURAL_VIALS.search(tl).group(0)}' (plural) but the pack size is not readable from the title/page/image - confirm pack")); continue
+        # owner rule: a volume in the title that conflicts with the reference volume means the listing is inconsistent
+        # (e.g. 'Aqualyx (10mlx8)' vs the 8ml reference) -> confirm in review, do not force a pack/volume.
+        if cfg["kind"] == "fat" and best.get("volume"):
+            tvol = re.search(r"(\d+(?:\.\d+)?)\s*ml", tl)
+            rvol = re.search(r"(\d+(?:\.\d+)?)", best["volume"])
+            if tvol and rvol and tvol.group(1) != rvol.group(1):
+                maps.append(dict(m, code="", brand=rb, matched="review-volume",
+                                 decision=f"title volume {tvol.group(1)}ml conflicts with the reference {rvol.group(1)}ml - confirm size/pack")); continue
         if "kit" in best["product_name"].lower():
             packn = base_n; pack_src = "reference (kit)"  # a Kit is a fixed bundle - take its pack from the reference
         name = best["product_name"]

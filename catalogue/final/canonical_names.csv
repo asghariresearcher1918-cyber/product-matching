@@ -1638,37 +1638,36 @@ BIO:BIO-STICOL-VOLUME,StiCol Volume (1 x 365mg),LPG Clinics Wholesale
 BIO:BIO-PLLACELL-100MG,Pllacell 1x100mg Vial,Ask Pharmacy
 BIO:BIO-PINKLLA-100MG,PiNkLLA with PN 100mg,LPG Clinics Wholesale
 BIO:BIO-OLIDIA-365MG,Olidia PLLA Poly L Lactic Acid,Ask Pharmacy
-FAT:FAT-INNO-TDS-DRAININGPPC,Inno-TDS Draining PPC 5ml,Dr. Adams Pharmacy
+FAT:FAT-INNO-TDS-DRAININGPPC-4X,Innotds Draining Ppc Injectable,Church Pharmacy
 FAT:FAT-AQUALYX-AQUALYX-10X,Aqualyx (10 x 8ml) Vial,Wimpole Fillers
 FAT:FAT-DESOBODY-DESOBODY-5X,DesoBody 1.25% 10ml x 5,John Bannon Pharmacy
 FAT:FAT-DESOFACE-DESOFACE-5X,DesoFace 0.5% x 10ml x 5,John Bannon Pharmacy
-FAT:FAT-DESOBODY-DESOBODY,Desobody 1.25% 10ML 5'S,Moda Pharmacy
-FAT:FAT-DESOFACE-DESOFACE,Desoface 0.5% 10ML 5's,Moda Pharmacy
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Lemon Bottle 1x10ml (1 Vial only),Wimpole Fillers
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Lemon Bottle 5x10ml Vial,Wimpole Fillers
 FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Alidya Anti LipoDystrophic Agents (5 x 340mg + 5 x 10ml) Vial,Wimpole Fillers
+FAT:FAT-INNO-TDS-DRAININGPPC,Inno-TDS Draining PPC 5ml,Dr. Adams Pharmacy
 FAT:FAT-LIPO-LAB-PPC-10X,Lipo Lab PPC 10x10ml,Herts & Essex Supplies
 FAT:FAT-LIPO-LAB-VLINE-5X,LipoLab V Line 5 x 10ml,Herts & Essex Supplies
 FAT:FAT-MESOESTETIC-CPROF221LIPOLYTIC-5X,Mesoestetic C.Prof 221 Lipolytic Solution (5 x 10ml),Dr. Adams Pharmacy
-FAT:FAT-AQUALYX-AQUALYX-8X,Aqualyx (10mlx8),LPG Clinics Wholesale
+FAT:FAT-DESOFACE-DESOFACE,Desoface Single Vial 1 X 10ml,Ask Pharmacy
 FAT:FAT-CINCELAR-PLUS-5X,Cincelar Plus + 5 x 8ml,LPG Clinics Wholesale
 FAT:FAT-MESOSCULPT-C71,MesoSculpt C71 – 1 X 1ML,LPG Clinics Wholesale
 FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,The Skinny Bottle Fat Dissolving (5 x 10ml) UK | Full Box,Herts & Essex Supplies
 FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,The Skinny Bottle Fat Dissolving (1 x 10ml) UK | Single Vial,Herts & Essex Supplies
 FAT:FAT-AQUALYX-AQUALYX,Aqualyx (1 x 8ml) Vial,Wimpole Fillers
-FAT:FAT-KABELLINE-KABELLINE,Kabelline,LPG Clinics Wholesale
-FAT:FAT-DR.-LIPO-PLUSBODY-10X,Dr. Lipo + V Face (10 x 5ml),LPG Clinics Wholesale
+FAT:FAT-KABELLINE-KABELLINE-5X,Kabelline,LPG Clinics Wholesale
+FAT:FAT-DR.-LIPO-PLUSBODY-10X,Dr. Lipo + Body (10 x 10ml),LPG Clinics Wholesale
+FAT:FAT-DR.-LIPO-VLINE-10X,Dr. Lipo Plus V-Line | Professional Facial Contouring 5ml x 10 vials,Herts & Essex Supplies
+FAT:FAT-DR.-LIPO-VLINE,Dr. Lipo Plus V-Line | Professional Facial Contouring 1 x 5ml,Herts & Essex Supplies
 FAT:FAT-DR.-LIPO-PLUSBODY,Dr. Lipo Plus | Professional Body Contouring 1 x 10ml,Herts & Essex Supplies
+FAT:FAT-DESOBODY-DESOBODY,DESOBODY Fat Dissolver,Two Face Aesthetics
 FAT:FAT-LIPO-LAB-PPC,Lipolab Single Vial 1 X 10ml,Ask Pharmacy
-FAT:FAT-LIPO-LAB-VLINE,Lipolab V Line,Ask Pharmacy
+FAT:FAT-LIPO-LAB-VLINE,Lipo Lab V-Line,Two Face Aesthetics
 FAT:FAT-BCN-ADIPO-FORTE-5X,BCN Adipo Forte (5 x 10ml) Vial,Wimpole Fillers
 FAT:FAT-AQUALYX-AQUALYX-5X,Aqualyx (5 x 8ml) Vial,Wimpole Fillers
 FAT:FAT-PINE-BOTTLE-PINEBOTTLE-5X,Pine Bottle Fat Dissolver (5 x 10ml Vials),Herts & Essex Supplies
-FAT:FAT-DR.-LIPO-VLINE-10X,Dr. Lipo Plus V-Line | Professional Facial Contouring 5ml x 10 vials,Herts & Essex Supplies
 FAT:MYFILLERREVITALIZESLIM-10ML-1X,Myfiller Revitalize Slim,Ask Pharmacy
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-10X,Lemon Bottle Injection Kit,Ask Pharmacy
-FAT:FAT-ALIDYA-ANTILIPODYSTROPHY,Alidya,Ask Pharmacy
-FAT:FAT-DR.-LIPO-VLINE,Dr. Lipo Plus V-Line | Professional Facial Contouring 1 x 5ml,Herts & Essex Supplies
 THR:CROQUIS-COG-21G-110MM-NEE-6PCS,Croquis Barbed Cutting 2b Needle PDO Threads 21g 60mm 110mm,Church Pharmacy
 THR:CROQUIS-COG-21G-150MM-NEE-6PCS,Croquis Barbed Cutting 2b Needle PDO Threads 21g 90mm 150mm,Church Pharmacy
 THR:CROQUIS-COG-23G-110MM-NEE-6PCS,Croquis Barbed Cutting 2b Needle PDO Threads 23g 60mm 110mm,Church Pharmacy

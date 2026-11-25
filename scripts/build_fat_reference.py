@@ -22,7 +22,7 @@ add("Lipo Lab", "Lipo Lab V-Line", PPC, "Lipo Lab (Korea)", "10ml", ["v-line", "
 add("Lipo Lab", "Lipo Lab PPC", PPC, "Lipo Lab (Korea)", "10ml", ["ppc"], "https://www.lipolab.co.kr", default="yes", variant="PPC (body)")
 add("DesoFace", "DesoFace", "Deoxycholic acid 0.5%", "Deso (Korea)", "10ml", ["desoface", "deso face"], "https://deso.co.kr", default="yes")
 add("DesoBody", "DesoBody", "Deoxycholic acid 1.25%", "Deso (Korea)", "10ml", ["desobody", "deso body"], "https://deso.co.kr", default="yes")
-add("Dr. Lipo", "Dr. Lipo V-Line", LIPO, "Dr. Lipo", "10ml", ["v-line", "v line", "vline", "facial"], "", variant="V-Line")
+add("Dr. Lipo", "Dr. Lipo V-Line", LIPO, "Dr. Lipo", "5ml", ["v-line", "v line", "vline", "v face", "v-face", "face", "facial", "lipo v"], "", variant="V-Line (face)")
 add("Dr. Lipo", "Dr. Lipo Plus (Body)", LIPO, "Dr. Lipo", "10ml", ["body", "plus"], "", default="yes", variant="Body")
 add("Kabelline", "Kabelline", DCA, "Kabelline (Korea)", "8ml", [], "", default="yes")
 add("The Skinny Bottle", "The Skinny Bottle", PROP, "The Skinny Bottle", "10ml", [], "", default="yes")

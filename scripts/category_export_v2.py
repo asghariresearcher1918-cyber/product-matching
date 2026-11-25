@@ -186,6 +186,27 @@ def main():
             rv.append([t["product"], p.get("equivalence_group", "") or t["subcategory"], " ; ".join(why),
                        p.get("brand", "") or "— no brand —", p.get("suppliers", ""), p.get("listings", "")])
             for c in rv[rv.max_row]: c.font, c.alignment = SM, WRAP
+    # listing-level review rows (pack/volume/bundle conflicts that could not be auto-resolved) from this category's maps
+    STEM_V2 = {"toxin": "C02", "filler": "C01", "booster": "C03", "biostim": "C03", "fat": "C04", "thread": "C05",
+               "weight": "WLM", "medicine": "C08", "skincare": "C06", "needle": "C10", "consumable": "C10",
+               "device": "C12", "bty": "C14", "sup": "C09", "vac": "C08"}
+    for stem, _tag in MAPS:
+        if STEM_V2.get(stem) != want:
+            continue
+        p = FINAL / f"{stem}_listing_map.csv"
+        if not p.exists():
+            continue
+        for m in csv.DictReader(open(p, encoding="utf-8")):
+            if not str(m.get("matched", "")).startswith("review"):
+                continue
+            flagged += 1
+            rv.append([m.get("title", ""), m.get("matched", ""), m.get("decision", "") or "confirm this listing",
+                       m.get("supplier", ""), "", "listing needs a human decision"])
+            for c in rv[rv.max_row]: c.font, c.alignment = SM, WRAP
+            u = m.get("url", "")
+            if u.startswith("http"):
+                c = rv.cell(row=rv.max_row, column=1); c.hyperlink = u; c.font = LINK
+
     if not flagged:
         rv.append(["(nothing to review — every product matched a reference)", "", "", "", "", ""])
         for c in rv[rv.max_row]: c.font, c.alignment = SM, WRAP
