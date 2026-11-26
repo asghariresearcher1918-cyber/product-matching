@@ -1639,11 +1639,11 @@ BIO:BIO-PLLACELL-100MG,Pllacell 1x100mg Vial,Ask Pharmacy
 BIO:BIO-PINKLLA-100MG,PiNkLLA with PN 100mg,LPG Clinics Wholesale
 BIO:BIO-OLIDIA-365MG,Olidia PLLA Poly L Lactic Acid,Ask Pharmacy
 FAT:FAT-INNO-TDS-DRAININGPPC-4X,Innotds Draining Ppc Injectable,Church Pharmacy
-FAT:FAT-AQUALYX-AQUALYX-10X,Aqualyx (10 x 8ml) Vial,Wimpole Fillers
+FAT:FAT-AQUALYX-AQUALYX-10X,Aqualyx (10 x 8ml Vials),Smile Pharma
 FAT:FAT-DESOBODY-DESOBODY-5X,DesoBody 1.25% 10ml x 5,John Bannon Pharmacy
 FAT:FAT-DESOFACE-DESOFACE-5X,DesoFace 0.5% x 10ml x 5,John Bannon Pharmacy
-FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Lemon Bottle 1x10ml (1 Vial only),Wimpole Fillers
-FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Lemon Bottle 5x10ml Vial,Wimpole Fillers
+FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Lemon Bottle – Fat Dissolve (1 x 10ml Vial SINGLE),Smile Pharma
+FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Lemon Bottle - Fat Dissolve (5 x 10ml Vial PACK 5),Smile Pharma
 FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Alidya Anti LipoDystrophic Agents (5 x 340mg + 5 x 10ml) Vial,Wimpole Fillers
 FAT:FAT-INNO-TDS-DRAININGPPC,Inno-TDS Draining PPC 5ml,Dr. Adams Pharmacy
 FAT:FAT-LIPO-LAB-PPC-10X,Lipo Lab (10 x 10ml),Two Face Aesthetics
@@ -1667,7 +1667,6 @@ FAT:FAT-BCN-ADIPO-FORTE-5X,BCN Adipo Forte (5 x 10ml) Vial,Wimpole Fillers
 FAT:FAT-AQUALYX-AQUALYX-5X,Aqualyx (5 x 8ml) Vial,Wimpole Fillers
 FAT:FAT-PINE-BOTTLE-PINEBOTTLE-5X,Pine Bottle Fat Dissolver (5 x 10ml Vials),Herts & Essex Supplies
 FAT:MYFILLERREVITALIZESLIM-10ML-1X,Myfiller Revitalize Slim,Ask Pharmacy
-FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-10X,Lemon Bottle Injection Kit,Ask Pharmacy
 THR:CROQUIS-COG-21G-110MM-NEE-6PCS,Croquis Barbed Cutting 2b Needle PDO Threads 21g 60mm 110mm,Church Pharmacy
 THR:CROQUIS-COG-21G-150MM-NEE-6PCS,Croquis Barbed Cutting 2b Needle PDO Threads 21g 90mm 150mm,Church Pharmacy
 THR:CROQUIS-COG-23G-110MM-NEE-6PCS,Croquis Barbed Cutting 2b Needle PDO Threads 23g 60mm 110mm,Church Pharmacy
@@ -5104,6 +5103,7 @@ NDL:SYRING-1ML-X12,BD Microfine 1ml syringe with 0.33mm(29G) x 12.7mm needle,Aes
 NDL:SYRING-0.5ML,FMS Micro Syringe 32g 0.5ml,Kiss Aesthetics Wholesale
 NDL:MICRON-6MM,Fillmed Nanosoft Microneedles 0.6mm,Aesthetic Pharma
 NDL:SYRING-0.3ML,FMS Micro Syringe 32g 0.3ml,Kiss Aesthetics Wholesale
+NDL:CONSUM-LEMON,LEMON BOTTLE Complete Injection Kit for Face and Body,Smile Pharma
 NDL:SYRING-5ML-LUER-LOCK-X100,Unifix 5ml Luer Lock Syringe x100,Smile Pharma
 NDL:HYPODE-FMS-X10,FMS Needles 0.5ml (pack of 10),Smile Pharma
 NDL:HYPODE-FMS-X100,FMS Needles 0.3ml (box of 100),Smile Pharma
@@ -5213,6 +5213,7 @@ NDL:MICROC-23G-X50,Venofix Butterfly Cannula 23g Blue Box Of 50,Ask Pharmacy
 NDL:SYRING-SYRINGE,Syringe Divider,Ask Pharmacy
 NDL:SYRING-LUER-LOCK-X10,Luer Lock Syringe Connectors X 10 2,Ask Pharmacy
 NDL:MICROC-21G-X50,Venofix Butterfly Cannula 21g Green X 50,Ask Pharmacy
+NDL:MICROC-LEMON,Lemon Bottle Injection Kit,Ask Pharmacy
 NDL:MICROC-90MM,Softfill Precision Micro Cannulas 14g X 90mm,Ask Pharmacy
 NDL:MICROC-23G-50MM-X24,Jbp Nanocannula 23g 50mm X 24 Pieces,Ask Pharmacy
 NDL:SYRING-2ML-X100,Bd Emerald 2ml Syringes Box Of 100,Ask Pharmacy

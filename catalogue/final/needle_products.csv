@@ -3,6 +3,7 @@ CONSUM-8MM-X10,Consumable (other),,8mm,0.3ml,,10,BD,1,1
 CONSUM-DERMAQUA-X50,Consumable (other),,,,,50,Dermaqual,1,2
 CONSUM-HYALURON,Consumable (other),,,,,1,Hyaluron,1,1
 CONSUM-HYDRA,Consumable (other),,,,,1,Hydra,1,1
+CONSUM-LEMON,Consumable (other),,,,,1,Lemon,2,2
 CONSUM-20G-11MM,Consumable (other),20G,11mm,,,1,B. Braun,1,1
 CONSUM-20G-32MM,Consumable (other),20G,32mm,,,1,BD,1,1
 CONSUM-20G-X20,Consumable (other),20G,,,,20,20G,1,1
@@ -206,6 +207,7 @@ MICROC-CAROCELL,Microcannula,,,,,1,Carocelle,1,1
 MICROC-FLUSH,Microcannula,,,,,1,Flush,1,1
 MICROC-FMS,Microcannula,,,1ml,,1,FMS,1,1
 MICROC-JBPNANOS,Microcannula,,,,,1,JBP (Nanosoft),1,1
+MICROC-LEMON,Microcannula,,,,,1,Lemon,1,1
 MICROC-NEO,Microcannula,,,,,1,NEO,1,2
 MICROC-TERUMO,Microcannula,,,1ml,luer slip,1,Terumo,1,1
 MICROC-WIQO,Microcannula,,,,,1,WIQO,1,1

@@ -27,6 +27,18 @@ CATS = [
  dict(kind="fat", ref="fat.csv", lmap="fat_listing_map.csv", prod="fat_products.csv", tag="FAT", prefix="FAT"),
  dict(kind="biostim", ref="biostim.csv", lmap="biostim_listing_map.csv", prod="biostim_products.csv", tag="BIO", prefix="BIO"),
 ]
+def _load_listing_fixes():
+    """Human-confirmed per-listing facts (id -> {pack, volume_ml}) the engine could not resolve on its own.
+    These win over the auto-read and skip the review routing - they are the owner's decisions from the review queue."""
+    p = ROOT / "data/listing_fixes.csv"
+    out = {}
+    if p.exists():
+        for r in csv.DictReader(open(p, encoding="utf-8")):
+            out[r["id"]] = r
+    return out
+
+
+LISTING_FIXES = _load_listing_fixes()
 ACCESSORY = re.compile(r"roller banner|\bbanner\b|poster|sticker|lanyard|t-?shirt|brochure|leaflet|display stand|shelf", re.I)
 BUNDLE = re.compile(r"\bfree\b|get 1|get one|\+ ?1 ?x|buy 1 get|bundle|worth £|multibuy", re.I)
 
@@ -138,6 +150,7 @@ def run(cfg, refnames):
             neg = re.search(r"non[\s-]*lido|without\s+lido|w/?o\s+lido|no\s+lido", tl)
             lido = (not neg) and bool(re.search(r"lidocaine|\blido\b|\+\s*lido|with lido", tl))
         base_n, vol = pack_vol(best["pack"])
+        fix = LISTING_FIXES.get(m.get("id", ""))             # owner-confirmed fact for this listing (highest priority)
         packn, pack_src = pack_count(tl), "title"
         if packn is None and re.search(r"\b(?:twin|dual|double)\b", tl):   # 'Twin / Dual / Double' pack = 2 vials
             packn, pack_src = 2, "title (twin/dual)"
@@ -149,15 +162,20 @@ def run(cfg, refnames):
                 packn = pack_from_doc((image_text(m["id"]) or "").lower(), rb, best.get("volume", "")); pack_src = "image(OCR)"
         if packn is None:
             packn, pack_src = base_n, "assumed (not stated)"
+        if fix:                                              # owner-confirmed pack/volume -> use it, skip all review routing
+            if fix.get("pack"):
+                packn, pack_src = int(fix["pack"]), "owner-confirmed"
+            if fix.get("volume_ml"):
+                vol = re.sub(r"ml$", "", fix["volume_ml"])
         # owner rule: a plural ('vials'/'ampoules'...) with no readable count means pack > 1 but unknown -> do NOT default
         # to a single vial; send to review so we never mis-group a multipack as a single.
-        if (cfg["kind"] in ("fat", "toxin", "biostim") and packn <= 1 and pack_src == "assumed (not stated)"
+        if (not fix and cfg["kind"] in ("fat", "toxin", "biostim") and packn <= 1 and pack_src == "assumed (not stated)"
                 and _PLURAL_VIALS.search(tl) and not re.search(r"\bsingle\b|\b1\s*x\b|\b1\s*vial\b", tl)):
             maps.append(dict(m, code="", brand=rb, matched="review-pack",
                              decision=f"title says '{_PLURAL_VIALS.search(tl).group(0)}' (plural) but the pack size is not readable from the title/page/image - confirm pack")); continue
         # owner rule: a volume in the title that conflicts with the reference volume means the listing is inconsistent
         # (e.g. 'Aqualyx (10mlx8)' vs the 8ml reference) -> confirm in review, do not force a pack/volume.
-        if cfg["kind"] == "fat" and best.get("volume"):
+        if not fix and cfg["kind"] == "fat" and best.get("volume"):
             tvol = re.search(r"(\d+(?:\.\d+)?)\s*ml", tl)
             rvol = re.search(r"(\d+(?:\.\d+)?)", best["volume"])
             if tvol and rvol and tvol.group(1) != rvol.group(1):

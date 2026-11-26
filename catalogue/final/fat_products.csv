@@ -1,7 +1,7 @@
 code,brand,variant,active_agent,equivalence_group,manufacturer,volume_ml,vials_per_pack,agent_verified,suppliers,listings,note
 FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Alidya,,Anti-lipodystrophic (cellulite),Anti-lipodystrophic (cellulite),Mastelli,10ml,5,yes (reference),6,6,
 FAT-AQUALYX-AQUALYX,Aqualyx,,Deoxycholic acid,Deoxycholic acid,Marllor / Ghimja,8ml,1,yes (reference),7,7,
-FAT-AQUALYX-AQUALYX-10X,Aqualyx,,Deoxycholic acid,Deoxycholic acid,Marllor / Ghimja,8ml,10,yes (reference),11,11,
+FAT-AQUALYX-AQUALYX-10X,Aqualyx,,Deoxycholic acid,Deoxycholic acid,Marllor / Ghimja,8ml,10,yes (reference),13,13,
 FAT-AQUALYX-AQUALYX-5X,Aqualyx,,Deoxycholic acid,Deoxycholic acid,Marllor / Ghimja,8ml,5,yes (reference),1,1,
 FAT-KABELLINE-KABELLINE-5X,Kabelline,,Deoxycholic acid,Deoxycholic acid,Kabelline (Korea),8ml,5,yes (reference),1,1,
 FAT-DESOFACE-DESOFACE,DesoFace,,Deoxycholic acid 0.5%,Deoxycholic acid 0.5%,Deso (Korea),10ml,1,yes (reference),3,4,
@@ -9,8 +9,7 @@ FAT-DESOFACE-DESOFACE-5X,DesoFace,,Deoxycholic acid 0.5%,Deoxycholic acid 0.5%,D
 FAT-DESOBODY-DESOBODY,DesoBody,,Deoxycholic acid 1.25%,Deoxycholic acid 1.25%,Deso (Korea),10ml,1,yes (reference),1,1,
 FAT-DESOBODY-DESOBODY-5X,DesoBody,,Deoxycholic acid 1.25%,Deoxycholic acid 1.25%,Deso (Korea),10ml,5,yes (reference),8,8,
 FAT-LEMON-BOTTLE-LEMONBOTTLE,Lemon Bottle,,Lecithin / proprietary,Lecithin / proprietary,Lemon Bottle (Korea),10ml,1,yes (reference),8,8,
-FAT-LEMON-BOTTLE-LEMONBOTTLE-10X,Lemon Bottle,,Lecithin / proprietary,Lecithin / proprietary,Lemon Bottle (Korea),10ml,10,yes (reference),1,1,
-FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Lemon Bottle,,Lecithin / proprietary,Lecithin / proprietary,Lemon Bottle (Korea),10ml,5,yes (reference),7,9,
+FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Lemon Bottle,,Lecithin / proprietary,Lecithin / proprietary,Lemon Bottle (Korea),10ml,5,yes (reference),7,7,
 FAT-PINE-BOTTLE-PINEBOTTLE-5X,Pine Bottle,,Lecithin / proprietary,Lecithin / proprietary,Pine Bottle,10ml,5,yes (reference),2,2,
 FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,The Skinny Bottle,,Lecithin / proprietary,Lecithin / proprietary,The Skinny Bottle,10ml,1,yes (reference),2,2,
 FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,The Skinny Bottle,,Lecithin / proprietary,Lecithin / proprietary,The Skinny Bottle,10ml,5,yes (reference),3,3,

@@ -1929,7 +1929,7 @@ DEV:MOISTSENSE-CAPACITIVE-MOISTURE-SENSOR,Moistsense Capacitive Moisture Sensor,
 DEV:AUTOCLAVE-STERILISATION-POUCHES-200PCS,Autoclave Sterilisation Pouches - (135mm x 260mm) 200pcs,Devices & equipment,Steriliser / autoclave,,C12,Devices & Equipment,,,CLASSIFIED,device 'Steriliser / autoclave',1
 FAT:FAT-ALIDYA-ANTILIPODYSTROPHY-5X,Alidya (anti-lipodystrophy) (5 x 10ml vials),Fat dissolving,Anti-lipodystrophic (cellulite),,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,6
 FAT:FAT-AQUALYX-AQUALYX,Aqualyx (1 x 8ml vial),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,7
-FAT:FAT-AQUALYX-AQUALYX-10X,Aqualyx (10 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,11
+FAT:FAT-AQUALYX-AQUALYX-10X,Aqualyx (10 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,13
 FAT:FAT-AQUALYX-AQUALYX-5X,Aqualyx (5 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-KABELLINE-KABELLINE-5X,Kabelline (5 x 8ml vials),Fat dissolving,Deoxycholic acid,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-DESOFACE-DESOFACE,DesoFace (1 x 10ml vial),Fat dissolving,Deoxycholic acid 0.5%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,4
@@ -1937,8 +1937,7 @@ FAT:FAT-DESOFACE-DESOFACE-5X,DesoFace (5 x 10ml vials),Fat dissolving,Deoxycholi
 FAT:FAT-DESOBODY-DESOBODY,DesoBody (1 x 10ml vial),Fat dissolving,Deoxycholic acid 1.25%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
 FAT:FAT-DESOBODY-DESOBODY-5X,DesoBody (5 x 10ml vials),Fat dissolving,Deoxycholic acid 1.25%,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,8
 FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE,Lemon Bottle (1 x 10ml vial),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,8
-FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-10X,Lemon Bottle (10 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,1
-FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Lemon Bottle (5 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,9
+FAT:FAT-LEMON-BOTTLE-LEMONBOTTLE-5X,Lemon Bottle (5 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,7
 FAT:FAT-PINE-BOTTLE-PINEBOTTLE-5X,Pine Bottle (5 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
 FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE,The Skinny Bottle (1 x 10ml vial),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,2
 FAT:FAT-THE-SKINNY-BOTTLE-THESKINNYBOTTLE-5X,The Skinny Bottle (5 x 10ml vials),Fat dissolving,Lecithin / proprietary,,C04.01,Fat Dissolvers,,,CLASSIFIED,fat dissolver,3
@@ -2563,6 +2562,7 @@ NDL:CONSUM-8MM-X10,Bd micro fine+ Demi 0.3ml 1/2u 8mm - 10pcs,"Needles, cannulas
 NDL:CONSUM-DERMAQUA-X50,Dermaqual Cannumed X50,"Needles, cannulas & syringes",Consumable (other),,C10,Clinical Consumables,,,CLASSIFIED,consumable 'Consumable (other)' - confirm subcategory,2
 NDL:CONSUM-HYALURON,Hyaluron Pen,"Needles, cannulas & syringes",Consumable (other),,C10,Clinical Consumables,,,CLASSIFIED,consumable 'Consumable (other)' - confirm subcategory,1
 NDL:CONSUM-HYDRA,Hydra Stamp,"Needles, cannulas & syringes",Consumable (other),,C10,Clinical Consumables,,,CLASSIFIED,consumable 'Consumable (other)' - confirm subcategory,1
+NDL:CONSUM-LEMON,LEMON BOTTLE Complete Injection Kit for Face and Body,"Needles, cannulas & syringes",Consumable (other),,C10,Clinical Consumables,,,CLASSIFIED,consumable 'Consumable (other)' - confirm subcategory,2
 NDL:CONSUM-28G-5MM,Mylife Safety Lancets 28G 1.5mm,"Needles, cannulas & syringes",Consumable (other),,C10,Clinical Consumables,,,CLASSIFIED,consumable 'Consumable (other)' - confirm subcategory,1
 NDL:CONSUM-30G,Mylife Safety Lancets Comfort 30G 1.2mm,"Needles, cannulas & syringes",Consumable (other),,C10,Clinical Consumables,,,CLASSIFIED,consumable 'Consumable (other)' - confirm subcategory,3
 NDL:CONSUM-31G-4MM,The Quatron 31g 4mm,"Needles, cannulas & syringes",Consumable (other),,C10,Clinical Consumables,,,CLASSIFIED,consumable 'Consumable (other)' - confirm subcategory,1
@@ -2788,6 +2788,7 @@ NDL:MICROC-25G-70MM-X24,JBP Nanocannula 25G 70mm x 24,"Needles, cannulas & syrin
 NDL:MICROC-23G-50MM-X24,Jbp Nanocannula 23g 50mm X 24 Pieces,"Needles, cannulas & syringes",Microcannula,,C10,Clinical Consumables,C10.03,Cannulae,CLASSIFIED,from 'Microcannula',1
 NDL:MICROC-27G-50MM-X24,Silk Cannula 27G x 50mm (x 24),"Needles, cannulas & syringes",Microcannula,,C10,Clinical Consumables,C10.03,Cannulae,CLASSIFIED,from 'Microcannula',3
 NDL:MICROC-23G-50MM,SoftFil Precision MicroCannula & Sharp needle 23G x 50mm XL,"Needles, cannulas & syringes",Microcannula,,C10,Clinical Consumables,C10.03,Cannulae,CLASSIFIED,from 'Microcannula',4
+NDL:MICROC-LEMON,Lemon Bottle Injection Kit,"Needles, cannulas & syringes",Microcannula,,C10,Clinical Consumables,C10.03,Cannulae,CLASSIFIED,from 'Microcannula',1
 NDL:MICROC-23G-40MM,MINT Micro Cannula 23G 40mm x1,"Needles, cannulas & syringes",Microcannula,,C10,Clinical Consumables,C10.03,Cannulae,CLASSIFIED,from 'Microcannula',1
 NDL:MICROC-29G-38MM,Mono Screw 29g 38mm,"Needles, cannulas & syringes",Microcannula,,C10,Clinical Consumables,C10.03,Cannulae,CLASSIFIED,from 'Microcannula',1
 NDL:MICROC-100MM-X50,MAGICALIFT Cannula 14G 100mm x 50,"Needles, cannulas & syringes",Microcannula,,C10,Clinical Consumables,C10.03,Cannulae,CLASSIFIED,from 'Microcannula',1
