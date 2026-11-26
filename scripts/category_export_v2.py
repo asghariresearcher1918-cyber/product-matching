@@ -193,7 +193,19 @@ def main():
                     price = pr; break
         crumb = f'{want} {label}' + (f' › {t["subcategory"]} ({t["subcategory_id"]})' if t["subcategory"] else "")
         if p.get("pack"):
-            qty = p["pack"]                                  # branded: matcher already read name+page+image
+            base = str(p["pack"])
+            nq = qty_of(t["product"])                        # owner rule: an explicit count in the NAME is primary
+            if nq:
+                qty = nq
+                if nq != base:
+                    qty_conflicts.append((t["product"], f"PACK — name says {nq}, catalogue had {base}; using name",
+                                          (idx.get(uid, [{}])[0] or {}).get("url", "")))
+            elif base == "1" and re.search(r"tablet|capsule|\bcaps?\b|\bclone\b|oral", t["product"], re.I):
+                qty = ""                                      # oral solid, pack not stated in name or page -> do not guess
+                qty_conflicts.append((t["product"], "QTY not stated in name/page — confirm pack size",
+                                      (idx.get(uid, [{}])[0] or {}).get("url", "")))
+            else:
+                qty = base                                   # branded pen/vial: matcher read name+page+image
         else:
             qty, qnote = qty_confirm(t["product"], [l["id"] for l in idx.get(uid, [])])
             if qnote:

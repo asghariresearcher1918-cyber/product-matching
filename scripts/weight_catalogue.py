@@ -80,11 +80,21 @@ def strength(canon, rt, t):
 
 
 def pack(title, pid):
-    for src, t in (("title", title.lower()), ("page", page_text(pid).lower())):
-        m = re.search(r"\b(\d{1,2})\s*doses?\b|\bx\s*(\d{1,2})\b|\(\s*(\d{1,2})\s*\)|\b(\d{1,2})\s*(?:pens?|tablets?|caps?|x\s*30)\b|1\s*x\s*30", t)
+    """Units per pack, read from the NAME first then the whole PAGE (owner rule).
+    'A x B' (e.g. '1 x 30') = B units per pack; 'N tablets/caps', '(N)', "N's", 'pack of N', 'x N' and 'N pens'
+    are the per-pack count. Tablet/paren/'s' counts are restricted to 2-3 digits so a strength ('3mg') or a
+    once-daily dose ('1 tablet') is never mistaken for the pack size. Returns (qty, how)."""
+    for src, t in (("title", (title or "").lower()), ("page", page_text(pid).lower())):
+        m = re.search(r"\b(\d{1,3})\s*x\s*(\d{1,3})\b", t)          # 'A x B' -> B units per pack ('1 x 30' = 30)
         if m:
-            g = next((x for x in m.groups() if x), None)
-            if g: return int(g), f"pack from {src}"
+            return int(m.group(2)), f"pack from {src} (1x{m.group(2)})"
+        for rx in (r"(\d{2,3})\s*(?:film-coated\s*)?(?:tablets?|caps?|capsules?)\b",
+                   r"pack of\s*(\d{1,3})", r"box of\s*(\d{1,3})", r"\((\d{2,3})\)",
+                   r"\b(\d{2,3})\s*[’']s\b", r"\bx\s*(\d{1,3})\b",
+                   r"\b(\d{1,2})\s*(?:pre-?filled pens?|pens?|doses?)\b"):
+            m = re.search(rx, t)
+            if m and 1 <= int(m.group(1)) <= 500:
+                return int(m.group(1)), f"pack from {src}"
     return 1, "pack not stated - assumed 1 (owner rule)"
 
 
@@ -119,13 +129,22 @@ def main():
         maps.append(dict(r, code=c, brand=canon, group=grp, decision=f"{mol}; {st or 'single strength'}mg; {rt}; {how}", confidence=conf))
         src = EMC + canon.lower() if not emc else f"https://www.medicines.org.uk/emc/product/{emc}"
         prods.setdefault(c, dict(code=c, brand=canon, molecule=mol, drug_class=cls, equivalence_group=grp, route=rt, strength_mg=st,
-                                 licence=lic, vials_or_pens_per_pack=pk, note=bnote, source=src, suppliers=set(), listings=0))
+                                 licence=lic, vials_or_pens_per_pack=pk, pack_how=how, note=bnote, source=src, suppliers=set(), listings=0))
+        # pack: across all listings of this code, an EVIDENCED count beats the assumed-1 default; two different
+        # evidenced counts are a genuine conflict -> keep the first and annotate (owner must confirm).
+        cur, curhow = prods[c]["vials_or_pens_per_pack"], prods[c]["pack_how"]
+        if pk != cur:
+            cur_assumed, new_assumed = "assumed" in curhow, "assumed" in how
+            if cur_assumed and not new_assumed:
+                prods[c]["vials_or_pens_per_pack"], prods[c]["pack_how"] = pk, how
+            elif not cur_assumed and not new_assumed and pk > cur:
+                prods[c]["pack_how"] = curhow + f" | NOTE: another listing shows {pk} ({how}) - confirm"
         prods[c]["suppliers"].add(r["supplier"]); prods[c]["listings"] += 1
     for p in prods.values(): p["suppliers"] = len(p["suppliers"])
     out = ROOT / "catalogue/final"; out.mkdir(parents=True, exist_ok=True)
     pc = ["code", "brand", "molecule", "drug_class", "equivalence_group", "route", "strength_mg", "licence", "vials_or_pens_per_pack", "suppliers", "listings", "note", "source"]
     with open(out / "weight_products.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=pc); w.writeheader(); w.writerows(sorted(prods.values(), key=lambda p: (p["molecule"], p["brand"], p["code"])))
+        w = csv.DictWriter(f, fieldnames=pc, extrasaction="ignore"); w.writeheader(); w.writerows(sorted(prods.values(), key=lambda p: (p["molecule"], p["brand"], p["code"])))
     with open(out / "weight_listing_map.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["id", "supplier", "title", "url", "brand", "group", "code", "confidence", "decision", "page_status"], extrasaction="ignore")
         w.writeheader(); w.writerows(maps)
