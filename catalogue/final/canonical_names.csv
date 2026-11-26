@@ -199,8 +199,8 @@ FIL:REVANESSE-CONTOUR-2ML-2X,Revanesse Contour 2 X 12ml,ACRE Pharmacy
 FIL:REVANESSE-KISS-2ML-2X,Revanesse Kiss 2 X 12ml,ACRE Pharmacy
 FIL:REVANESSE-ULTRA-2ML-2X,Revanesse Ultra 2 X 12ml,ACRE Pharmacy
 FIL:REVANESSE-SHAPE-2ML-2X,Revanesse Shape 2 X 12ml,ACRE Pharmacy
-FIL:PERFECTHA-SUBSKIN3-1ML-LIDO-3X,Perfectha Subskin Lido 1ml 3,ACRE Pharmacy
-FIL:PERFECTHA-DEEP1-1ML-LIDO-1X,Perfectha Deep Lido 1ml 1,ACRE Pharmacy
+FIL:PERFECTHA-SUBSKIN3-1ML-LIDO-3X,Perfectha Subskin Lido 1ml,ACRE Pharmacy
+FIL:PERFECTHA-DEEP1-1ML-LIDO-1X,Perfectha Deep Lido 1ml,ACRE Pharmacy
 FIL:MAILI-PRECISE4SYRINGES1-1ML-4X,Maili Precise 1ml X 4 Syringes 1,ACRE Pharmacy
 FIL:MAILI-DEFINE4SYRINGES1-1ML-4X,Maili Define 1ml X 4 Syringes 1,ACRE Pharmacy
 FIL:MAILI-VOLUME4SYRINGES1-1ML-4X,Maili Volume 1ml X 4 Syringes 1,ACRE Pharmacy
@@ -215,7 +215,7 @@ FIL:EPTQ-S100-1ML-LIDO-1X,Eptq S100 Lidocaine 1x11ml,ACRE Pharmacy
 FIL:UTHSUBQ-04-1ML-LIDO-1X,Uth Subq 04 Lidocaine 1x1ml,ACRE Pharmacy
 FIL:UTHFINE-02-1ML-LIDO-1X,UTH Fine 02 + Lidocaine (1x1ml),Moda Pharmacy
 FIL:UTHDEEP-03-1ML-LIDO-1X,UTH Deep 03 + Lidocaine (1x1ml),Moda Pharmacy
-FIL:SAYPHA-FILLER1-1ML-LIDO-1X,Saypha Filler Lido 1ml 1,ACRE Pharmacy
+FIL:SAYPHA-FILLER1-1ML-LIDO-1X,Saypha Filler Lido 1ml,ACRE Pharmacy
 FIL:FILLER-RESTYLANE-EYELIGHT-LIDO,Restylane Eyelight (1 x 0.5ml) Inj.,Wimpole Fillers
 FIL:FILLER-BELOTERO-UNSPECIFIED-LIDO,Belotero Contour Lips Lido (1x0.6ml),Moda Pharmacy
 FIL:ALIAXIN-SVNOVAT-1ML-2X,Aliaxin Sv 2 X 11ml,ACRE Pharmacy
@@ -667,10 +667,10 @@ FIL:REGENOVUE-FINE15OFFER-1X,Regenovue Fine 15 Box Offer Clone,Ask Pharmacy
 FIL:LUXFILL-PLUSDEEP-1ML-1X,Luxfill Plus Deep 1 X 1ml,Ask Pharmacy
 FIL:LUXFILL-PLUSFINE-1ML-1X,Luxfill Plus Fine 1 X 1ml Clone,Ask Pharmacy
 FIL:ILLUMA-PNSKINBOOSTER2-5ML-2X,Illuma PN Skin Booster 2 X 2 5ml,Ask Pharmacy
-FIL:KAIRAX-DEEP2-1ML-1X,Kairax Deep 1x1ml 2,Ask Pharmacy
-FIL:LUMIFIL-LITE2-1ML-LIDO-1X,Lumifil Lite With Lidocaine 1x1ml 2,Ask Pharmacy
-FIL:LUMIFIL-LITE3-1ML-LIDO-1X,Lumifil Lite With Lidocaine 1x1ml 3,Ask Pharmacy
-FIL:LUMIFIL-KISS2-1ML-LIDO-1X,Lumifil Kiss With Lidocaine 1x1ml 2,Ask Pharmacy
+FIL:KAIRAX-DEEP2-1ML-1X,Kairax Deep 1x1ml,Ask Pharmacy
+FIL:LUMIFIL-LITE2-1ML-LIDO-1X,Lumifil Lite With Lidocaine 1x1ml,Ask Pharmacy
+FIL:LUMIFIL-LITE3-1ML-LIDO-1X,Lumifil Lite With Lidocaine 1x1ml,Ask Pharmacy
+FIL:LUMIFIL-KISS2-1ML-LIDO-1X,Lumifil Kiss With Lidocaine 1x1ml,Ask Pharmacy
 FIL:LEMON-FILLCONTOUR-1ML-1X,Lemon Fill Contour 1 X 1ml,Ask Pharmacy
 FIL:LEMON-FILLFINE-1ML-1X,Lemon Fill Fine 1 X 1ml,Ask Pharmacy
 FIL:LEMON-FILLKISS-1ML-1X,Lemon Fill Kiss 1 X 1ml,Ask Pharmacy
@@ -1522,7 +1522,7 @@ BST:ASCE+-DERMA-SIGNAL-5ML,Asce Derma Signal Kit Srlv 20mg 5ml,Ask Pharmacy
 BST:ASCE+-EXOSOMES-PLUS-20MG,Exosomes Asce Plus Hrlv 20mg,Ask Pharmacy
 BST:MEDISCO-HYALURONIC-ACID,Medisco Skin Booster Hyaluronic Acid Single Vial,Ask Pharmacy
 BST:STAYVE-DERMAWHITE-LIGHT,Stayve Dermawhite Ampoule No 1 Light,Ask Pharmacy
-BST:LUMI-PN-FACE-5ML-X2,Lumi PN Face 1 X 2 5ml 2,Ask Pharmacy
+BST:LUMI-PN-FACE-5ML-X2,Lumi PN Face 1 X 2 5ml,Ask Pharmacy
 BST:LUMI-PN-EYES-5ML,Lumi PN Eyes 1 X 1 5ml,Ask Pharmacy
 BST:LUMI-PN-DUO,Lumi PN Duo Box Sophia Bailey Edition,Ask Pharmacy
 BST:NATURAL-MESO-JTN-4MM-32G-X10,Natural Meso Needle Jtn 32g X 4mm Pack Of 10,Ask Pharmacy
@@ -1534,9 +1534,9 @@ BST:PRP-PRF-KIT-BIOTIN-VACUUM,Biotin Prp Vacuum Blood Collection Tubes With Anti
 BST:PRP-PRF-KIT-VACUUM-BLOOD-10ML,Premium Grade 10 Ml Prp Vacuum Blood Collection Tubes Containing Acd,Ask Pharmacy
 BST:PRP-PRF-KIT-ADDITIVE-VACUUM,Prf No Additive Vacuum Blood Collection Tubes 2,Ask Pharmacy
 BST:PINK-DROP,Pink Drop,Ask Pharmacy
-BST:ARES-HB-4ML,Ares Hb Single Vial 4ml 2,Ask Pharmacy
+BST:ARES-HB-4ML,Ares Hb Single Vial 4ml,Ask Pharmacy
 BST:ARES-AA-ANTI-4ML-X4,Ares Aa Anti Age 4 X 4ml Mesotherapy,Ask Pharmacy
-BST:ULTI-PRO-JUST-1ML,Ulti Pro Just Eyes 1x1 1ml 2,Ask Pharmacy
+BST:ULTI-PRO-JUST-1ML,Ulti Pro Just Eyes 1x1 1ml,Ask Pharmacy
 BST:LUMI-BRIGHT-5ML,Lumi Meso Bright 1x5ml Single Vial,Ask Pharmacy
 BST:LUMI-ELITE-5ML,Lumi Meso Elite 1x5ml Single Vial,Ask Pharmacy
 BST:LUMI-TOX-5ML,Lumi Meso Tox 1x5ml Single Vial,Ask Pharmacy
@@ -1914,7 +1914,7 @@ MED:MEPIVACAINE-INJE,Scandonest Cartridges 3% Plain 2.2ml x 50,John Bannon Pharm
 MED:PRILOCAINE-INJE,Citanest 3% with Octapressin Standard,MedFX
 MED:ANESTADENT-INJE,"Anestadent 4% w/v and 1:100,000 Solution for Injection",MedFX
 MED:ARTICAINEADRENALIN-INJE,"Septanest 4% Articaine Anaesthetic 1:100,000",MedFX
-MED:SODIUMCHLORIDE-INJE,Sodium Chloride Injection 0.9% 10ml 1,John Bannon Pharmacy
+MED:SODIUMCHLORIDE-INJE,Sodium Chloride Injection 0.9% 10ml,John Bannon Pharmacy
 MED:WATER-INJE,Water for Injection 10ml Mini Plasco x 1,John Bannon Pharmacy
 MED:PREDNISOLONE-5MG-INJE,Prednisolone 5mg,MedFX
 MED:PREDNISOLONE-5MG-TABL,Prednisolone 5mg Soluble Tablets Pk30,MedFX
@@ -2106,7 +2106,7 @@ MED:SALBUTAMOLNEBULES-2.5MG-INHA,Salbutamol Nebules,Church Pharmacy
 MED:SILKIS-OINT,Silkis,Church Pharmacy
 MED:SILVERNITRATE,Silver Nitrate Caustic Pencil,Church Pharmacy
 MED:AZELAICACID-20%-CREA,Skinoren - Azelaic acid,Church Pharmacy
-MED:SODIUMBICARBONATE-INJE,Sodium Bicarbonate Inj 8.4% 10ml 1,John Bannon Pharmacy
+MED:SODIUMBICARBONATE-INJE,Sodium Bicarbonate Inj 8.4% 10ml,John Bannon Pharmacy
 MED:SOLARAZE-3%-GEL,Solaraze,Church Pharmacy
 MED:IVERMECTIN-CREA,Soolantra,Church Pharmacy
 MED:SPIRONOLACTONE-50MG-TABL,Spironolactone 50mg Tablets (28),Aesthetic Pharma
@@ -2240,7 +2240,7 @@ MED:METOLOPRAMIDETABLE-10MG-TABL,Metolopramide Tablets 10mg X 28,John Bannon Pha
 MED:METRONIDAZOLEGEL-0.75%-GEL,Metronidazole Gel 0.75% 30g,John Bannon Pharmacy
 MED:METRONIDAZOLETABS-200MG-TABL,Metronidazole Tabs 200mg X 21,John Bannon Pharmacy
 MED:METRONIDAZOLETABS-400MG-TABL,Metronidazole Tabs 400mg x21,John Bannon Pharmacy
-MED:MINIPLASCOSODIUM-INJE,Mini-Plasco Sodium Chloride Inj 10ml 1,John Bannon Pharmacy
+MED:MINIPLASCOSODIUM-INJE,Mini-Plasco Sodium Chloride Inj 5ml x1,John Bannon Pharmacy
 MED:MINOXIDILTABLETS-2.5MG-TABL,Minoxidil Tablets 2.5mg x 60,John Bannon Pharmacy
 MED:NAD-750MG3ML-INJE,NAD+ 750mg/3ml Subcutaneous Pen x 1,John Bannon Pharmacy
 MED:ONDANSETRON-8MG-TABL,Ondansetron 8mg Tabs x 10,John Bannon Pharmacy
@@ -2375,7 +2375,7 @@ MED:VITAMIN-8000MG-INJE,Vitamin C 8g Sodium Bicarbonate 50ml,Ask Pharmacy
 MED:VITAMIN-25000MG-INJE,Vitamin C 25g Edta 50ml,Ask Pharmacy
 MED:GLUTATHIONE-750MG-INJE,Glutathione 750mg 5ml,Ask Pharmacy
 MED:ALPHALIPOIC-500MG-INJE,Alpha Lipoic Acid 500mg 20ml,Ask Pharmacy
-MED:METHYLCOBALAMIN-5MG-INJE,B12 Methylcobalamin 5mg 2ml 2,Ask Pharmacy
+MED:METHYLCOBALAMIN-5MG-INJE,B12 Methylcobalamin 5mg 2ml,Ask Pharmacy
 MED:NADHOME-INJE,Nad Home Injection Kit,Ask Pharmacy
 MED:CLINDAMYCINTRETINO-INJE,Treclin,Ask Pharmacy
 MED:NADIV-500MG-SOLU,Nad Iv 500mg,Ask Pharmacy
@@ -3251,7 +3251,7 @@ SKN:COMPLEXION-SMOOTHING-CLARIFYING-PROGRAM,Complexion Smoothing And Clarifying 
 SKN:COMPLEXION-CLEARING-MASQUE-GBL-85G,Complexion Clearing Masque 85g Gbl,ACRE Pharmacy
 SKN:COMPLEXION-CLEARING-MASQUE-GBL-540G,Complexion Clearing Masque 540g Gbl,ACRE Pharmacy
 SKN:BROADSPECTRUM-SUNSCREEN-SPF50-INTL-118G,Broadspectrum Sunscreen Spf50 118g Intl,ACRE Pharmacy
-SKN:COMPLEX-13-27ML,Complex A 27ml 13,ACRE Pharmacy
+SKN:COMPLEX-13-27ML,Complex A 27ml,ACRE Pharmacy
 SKN:BRIGHTALIVE-GBL-50ML,Brightalive 50ml Gbl,ACRE Pharmacy
 SKN:CALMING-TONER-GBL-180ML,Calming Toner 180ml Gbl,ACRE Pharmacy
 SKN:COMPLEXION-CLARIFYING-SERUM-GBL-50ML,Complexion Clarifying Serum 50ml Gbl,ACRE Pharmacy
@@ -4270,7 +4270,7 @@ SKN:LEMON-BOTTLE-MASTER-CREAM-30ML,Lemon Bottle Master Cream 1 X 30ml,Ask Pharma
 SKN:JALUPRO-FACE-MASK,Jalupro Face Mask Pack Of 5,Ask Pharmacy
 SKN:JALUPRO-FACE-MASK-11,Jalupro Face Mask Pack Of 11,Ask Pharmacy
 SKN:PURI-LIPS-BALM,Puri Lips Balm,Ask Pharmacy
-SKN:WIQO-PRX-PLUS-5X-4ML,Wiqo Prx Plus 5x4ml 2,Ask Pharmacy
+SKN:WIQO-PRX-PLUS-5X-4ML,Wiqo Prx Plus 5x4ml,Ask Pharmacy
 SKN:AMIKO-CMCA-PEEL,Amiko Cmca Peel,Ask Pharmacy
 SKN:ASCE-PLUS-EXOBALM-20ML,Asce Plus Exobalm 20ml,Ask Pharmacy
 SKN:ASCE-PLUS-SOOTHING-GEL-MASK,Asce Plus Soothing Gel Mask,Ask Pharmacy
@@ -4883,21 +4883,21 @@ NDL:LUERAD-BAXTER,Baxter Luer Lock To Luer Lok Connectors,Church Pharmacy
 NDL:SYRING-20ML,BD Luer-Lok Syringes 20ml Plastipak (300629) -120,Healthxchange
 NDL:SYRING-30ML,Omnifix 30 Ml Luer Syringe,Church Pharmacy
 NDL:SYRING-50ML,BD Luer-Lok Syringes 50ml Plastipak (300865) -60,Healthxchange
-NDL:HYPODE-22G-25MM,Bd Black Microlance 22g X 25mm 1,Church Pharmacy
+NDL:HYPODE-22G-25MM,Bd Black Microlance 22g X 25mm,Church Pharmacy
 NDL:HYPODE-22G-30MM,Bd Black Microlance 22g X 30mm 1 14,Church Pharmacy
-NDL:HYPODE-23G-30MM-X30,Bd Blue Microlance 23 G X 30 Mm 1,Church Pharmacy
+NDL:HYPODE-23G-30MM-X30,"Sterican Blue 23 G x 30 mm (1 ¼"")",Church Pharmacy
 NDL:FILTER-18G-12MM,Bd Blunt Fill Needle 18g 1 12 12mm X 40mm,Church Pharmacy
 NDL:FILTER-18G-40MM,Bd Blunt Fill Needles 18g X 40mm With 45 Bevel Cut And Filter,Church Pharmacy
-NDL:HYPODE-26G-10MM-X10,Bd Brown Microlance 26 G X 10 Mm 38,Church Pharmacy
+NDL:HYPODE-26G-10MM-X10,Bd Brown Microlance 26 G X 10 Mm,Church Pharmacy
 NDL:HYPODE-26G-13MM-X13,Bd Brown Microlance 26 G X 13 Mm,Church Pharmacy
-NDL:HYPODE-26G-16MM-X16,Bd Brown Microlance 26 G X 16 Mm 58,Church Pharmacy
-NDL:HYPODE-19G-40MM-X40,Bd Cream Microlance 19 G X 40 Mm 1,Church Pharmacy
-NDL:HYPODE-19G-25MM,Bd Cream Microlance 19g X 25mm 1,Church Pharmacy
+NDL:HYPODE-26G-16MM-X16,Bd Brown Microlance 26 G X 16 Mm,Church Pharmacy
+NDL:HYPODE-19G-40MM-X40,Bd Cream Microlance 19 G X 40 Mm,Church Pharmacy
+NDL:HYPODE-19G-25MM,Bd Cream Microlance 19g X 25mm,Church Pharmacy
 NDL:HYPODE-20G-90MM,Bd Dark Yellow 20g X 90mm Spinal Needles,Church Pharmacy
 NDL:SYRING-100ML,Bd Emerald 100ml Hypodermic Luer Syringes,Church Pharmacy
-NDL:HYPODE-21G-16MM-X16,Bd Green Microlance 21g X 16 Mm 58,Church Pharmacy
-NDL:HYPODE-21G-40MM-X40,Bd Green Microlance 21g X 40 Mm 1,Church Pharmacy
-NDL:HYPODE-21G-50MM-X50,Bd Green Microlance 21g X 50 Mm 2,Church Pharmacy
+NDL:HYPODE-21G-16MM-X16,Bd Green Microlance 21g X 16 Mm,Church Pharmacy
+NDL:HYPODE-21G-40MM-X40,Bd Green Microlance 21g X 40 Mm,Church Pharmacy
+NDL:HYPODE-21G-50MM-X50,Bd Green Microlance 21g X 50 Mm,Church Pharmacy
 NDL:HYPODE-27G-13MM-X13,Bd Grey Microlance 27 G X 13 Mm,Church Pharmacy
 NDL:INSULI-03ML,Hypodermic 03ml Insulin Syringe With Preattached Needle 30g X 8mm,Church Pharmacy
 NDL:INSULI-03ML-X100,Bd Microfine 03ml Insulin Syringe With Needle 30g X 8mm Box Of 100 Needles Disposable Isolation Single Gown Filtering Face Single Mask,Church Pharmacy
@@ -4908,16 +4908,16 @@ NDL:INSULI-10ML,Bd Microfine 10ml Insulin Syringe With Needle 29g X 127mm,Church
 NDL:INSULI-1ML-X10,Bd Microfine 1ml Insulin Syringe With Needle 30g X 8mm Pack Of 10,Church Pharmacy
 NDL:HYPODE-24G,Bd Microlance Hypo Needle 24g X 1,Church Pharmacy
 NDL:HYPODE-22G-X2,Bd Microlance Needle Iii 22g X 2,Church Pharmacy
-NDL:HYPODE-25G-16MM-X16,Bd Orange Microlance 25 G X 16 Mm 58,Church Pharmacy
-NDL:HYPODE-25G-25MM-X25,Bd Orange Microlance 25 G X 25 Mm 1,Church Pharmacy
+NDL:HYPODE-25G-16MM-X16,Bd Orange Microlance 25 G X 16 Mm,Church Pharmacy
+NDL:HYPODE-25G-25MM-X25,Bd Orange Microlance 25 G X 25 Mm,Church Pharmacy
 NDL:HYPODE-18G-90MM,Bd Pink 18g X 90mm Spinal Needle,Church Pharmacy
-NDL:HYPODE-18G-50MM-X50,Bd Pink Microlance 18 G X 50 Mm 2,Church Pharmacy
+NDL:HYPODE-18G-50MM-X50,Bd Pink Microlance 18 G X 50 Mm,Church Pharmacy
 NDL:SYRING-50ML-LUER-LOCK,BD Plastipak 50ml Luer Lock Syringe,Church Pharmacy
 NDL:HYPODE-21G-X15,Bd Vacutainer Multisample Needles 21g X 15 Green,Church Pharmacy
 NDL:CONSUM-21G,Bd Vacutainer Push Button Blood Collection Set 21g 178mm Green,Church Pharmacy
 NDL:CONSUM-20G-32MM,Bd Venflon Pro Peripheral Iv Catheter With Injection Port 20g X 32mm Pink,Church Pharmacy
 NDL:INSULI-BD,Embecta VIVA Insulin Pen Needles 31G x 5mm,Church Pharmacy
-NDL:HYPODE-40MM-X40,Bd White Microlance 16 G X 40 Mm 1,Church Pharmacy
+NDL:HYPODE-40MM-X40,Bd White Microlance 16 G X 40 Mm,Church Pharmacy
 NDL:HYPODE-30G-13MM-X13,Bd Yellow Microlance 30g X 13 Mm,Church Pharmacy
 NDL:MICROC-24G,Intraliponeedle 24G X 10cm x 1,John Bannon Pharmacy
 NDL:SYRING-CENTRIFU,Centrifuge 2x5 Syringes Training Exclusive,Church Pharmacy
@@ -4952,21 +4952,21 @@ NDL:MICROC-18G-70MM,Silkann Dermal Fat Transfer Cannula 18g Utw X 70mm,Church Ph
 NDL:MICROC-20G-60MM,Silkann Dermal Fat Transfer Cannula 20g Utw X 60mm,Church Pharmacy
 NDL:ELECTR-STAINLES,Stainless Onepiece Needles F3s,Church Pharmacy
 NDL:ELECTR-STEREX,Sterex Insulated Two Piece Needles F31 Short,Church Pharmacy
-NDL:HYPODE-21G-25MM-X25,Sterican Green 21 G X 25 Mm 1,Church Pharmacy
+NDL:HYPODE-21G-25MM-X25,Sterican Green 21 G X 25 Mm,Church Pharmacy
 NDL:HYPODE-27G-12MM-X12,Sterican Grey 27 G X 12 Mm,Church Pharmacy
-NDL:HYPODE-27G-40MM-X40,Sterican Grey 27 G X 40 Mm 1,Church Pharmacy
+NDL:HYPODE-27G-40MM-X40,Sterican Grey 27 G X 40 Mm,Church Pharmacy
 NDL:HYPODE-30G-X5,Sterican Yellow 30g X 05 Needle,Church Pharmacy
 NDL:MICROC-TERUMO,Terumo 1ml Luer Slip Tip,Church Pharmacy
 NDL:SYRING-20ML-LUER-LOCK,BD Luer Lock Disposable Syringes 20ml,Church Pharmacy
 NDL:SYRING-25ML-LUER-LOCK,Terumo 25 Ml Luer Lock Syringe,Church Pharmacy
 NDL:HYPODE-19G-38MM,Terumo Cream Needles 19g X 38mm 1 12,Church Pharmacy
-NDL:MICROC-27G-16MM-X16,Terumo Grey 27 G X 16 Mm 58,Church Pharmacy
-NDL:MICROC-27G-19MM-X19,Terumo Grey 27 G X 19 Mm 34,Church Pharmacy
+NDL:MICROC-27G-16MM-X16,Terumo Grey 27 G X 16 Mm,Church Pharmacy
+NDL:MICROC-27G-19MM-X19,Terumo Grey 27 G X 19 Mm,Church Pharmacy
 NDL:HYPODE-26G-13MM-X12,Terumo Needles Brown 26g X 12 045 X 13mm,Church Pharmacy
-NDL:MICROC-25G-25MM-X25,Terumo Orange 25 G X 25 Mm 1,Church Pharmacy
+NDL:MICROC-25G-25MM-X25,Terumo Orange 25 G X 25 Mm,Church Pharmacy
 NDL:HYPODE-18G-38MM,"BD Microlance 3 Needles 18g x 1.5"" x 100",Moda Pharmacy
 NDL:CONSUM-31G-4MM,The Quatron 31g 4mm,Church Pharmacy
-NDL:MICROC-30G-19MM,Tsk Csh Closedtip Single Side Hole Cannulae 30g X 19mm 34,Church Pharmacy
+NDL:MICROC-30G-19MM,Tsk Csh Closedtip Single Side Hole Cannulae 30g X 19mm,Church Pharmacy
 NDL:HYPODE-34G-9MM,TSK the invisible needle lds needle (34g x 9mm),Wimpole Fillers
 NDL:MICROC-30G,Ultra Safety Plus Twist 30g Short,Church Pharmacy
 NDL:NEEDLE-VAKU-X8,Vaku 8 Needle Holder Nonsterile,Church Pharmacy
@@ -5211,7 +5211,7 @@ NDL:INSULI-5ML-X10,Fms Microfine 0 5ml 32g 8 Mm Insulin Needles 10 Needles,Ask P
 NDL:HYPODE-25G-X3,Bd Microlance 3 Needles 25g 1 Orange,Ask Pharmacy
 NDL:MICROC-23G-X50,Venofix Butterfly Cannula 23g Blue Box Of 50,Ask Pharmacy
 NDL:SYRING-SYRINGE,Syringe Divider,Ask Pharmacy
-NDL:SYRING-LUER-LOCK-X10,Luer Lock Syringe Connectors X 10 2,Ask Pharmacy
+NDL:SYRING-LUER-LOCK-X10,Luer Lock Syringe Connectors X 10,Ask Pharmacy
 NDL:MICROC-21G-X50,Venofix Butterfly Cannula 21g Green X 50,Ask Pharmacy
 NDL:MICROC-LEMON,Lemon Bottle Injection Kit,Ask Pharmacy
 NDL:MICROC-90MM,Softfill Precision Micro Cannulas 14g X 90mm,Ask Pharmacy
@@ -5888,7 +5888,7 @@ CON:CLEANI-SPIRIGEL-COMPLETE-HAND-GEL-500ML,Spirigel complete hand gel 500ml,MyP
 CON:ANTISE-SRS-SANITISER-SPRAY-100ML,Srs Sanitiser Spray 100ml,MyPharmacyspace
 CON:GAUZES-STERETS-PRE-INJECTION-SWABS,Sterets pre injection swabs,MyPharmacyspace
 CON:CONSUM-TISEPT-SACHETS-25ML,Tisept Sachets 25ml,MyPharmacyspace
-CON:CONSUM-TSK-CANNULA-27GX-38MM,Tsk Cannula 27gx38mm 1,MyPharmacyspace
+CON:CONSUM-TSK-CANNULA-27GX-38MM,Tsk Cannula 27gx38mm,MyPharmacyspace
 CON:CONSUM-CARD-TRAYS,Card trays,MyPharmacyspace
 CON:CONSUM-WITCH-HAZEL-200ML,Witch hazel 200ml,MyPharmacyspace
 CON:DRESSI-WOUNDCARE-OPT,Woundcare pack opt I,MyPharmacyspace
@@ -6022,8 +6022,8 @@ CON:DRAPEC-ESSENTIALS-BED-ROLL-20-CLONE-P51,Essentials Bed Roll 20 Clone,Ask Pha
 CON:IVBLOO-GIVING-SET,Giving Set,Ask Pharmacy
 CON:TOURNI-TOURNIQUET,Tourniquet,Ask Pharmacy
 CON:DRESSI-TEGADERM-FILM-DRESSING-6CMX-7CM,Tegaderm Film Dressing 6cmx7cm,Ask Pharmacy
-CON:IVBLOO-SAFETY-BLOOD-COLLECTION-SET-HOLDER-23G,Safety Blood Collection Set Holder 23g X 3 4,Ask Pharmacy
-CON:BLADES-INSTRAPAC-SCALPEL-NO-10-STAINLESS-P10,Instrapac Disposable Scalpel No 10 Stainless Steel Blade Pack Of 10 2,Ask Pharmacy
+CON:IVBLOO-SAFETY-BLOOD-COLLECTION-SET-HOLDER-23G,Safety Blood Collection Set Holder 23g X 3,Ask Pharmacy
+CON:BLADES-INSTRAPAC-SCALPEL-NO-10-STAINLESS-P10,Instrapac Disposable Scalpel No 10 Stainless Steel Blade Pack Of 10,Ask Pharmacy
 CON:APPLIC-MEDIK8-RE-USABLE,Medik8 re-usable,Healthxchange
 CON:CONSUM-MEDIK8-REUSEABLE-BAMBOO-COTTON-16,Medik8 Reuseable Bamboo Cotton x 16,Healthxchange
 CON:CONSUM-POTENZA-NEP,Potenza NEP (5),Healthxchange

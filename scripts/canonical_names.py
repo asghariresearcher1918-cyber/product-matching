@@ -40,6 +40,9 @@ def clean(t):
     t = re.sub(r"\s+", " ", t)
     t = LEAD.sub("", TRAIL.sub("", t)).strip()
     t = re.sub(r"\s+[|/,-]\s*$", "", t).strip()
+    # drop a redundant trailing number that follows a complete pack/size phrase (a shop's duplicate-listing suffix,
+    # e.g. '... pack of 10 2' -> '... pack of 10'); the real pack is already captured, the lone trailing int is noise.
+    t = re.sub(r"((?:pack|box)\s+of\s+\d+|\bx\s*\d+|\d+\s*(?:ml|g|cm|mm|pcs|pieces?))\s+\d{1,2}\s*$", r"\1", t, flags=re.I).strip()
     return t
 
 

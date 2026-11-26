@@ -285,7 +285,7 @@ CON:BLADES-STERILE-SCALPEL-NO-14-BLADE,Clinic consumables & PPE,Blade / scalpel,
 CON:BLADES-STERILE-STITCH-CUTTER-BLADES,Clinic consumables & PPE,Blade / scalpel,,Sterile Stitch Cutter Blades,,,,,,1,1,
 CON:BLADES-SURGICAL-BLADE-REMOVERS,Clinic consumables & PPE,Blade / scalpel,,Surgical Blade Removers Sterile,,,,,,1,1,
 CON:BLADES-SWANNMORTON-BLADE-CS-24-AVAILABLE-P100,Clinic consumables & PPE,Blade / scalpel,,Swannmorton Blade Cs Sterile 24,,,100,,,1,1,
-CON:BLADES-INSTRAPAC-SCALPEL-NO-10-STAINLESS-P10,Clinic consumables & PPE,Blade / scalpel,Instrapac,Instrapac Disposable Scalpel No 10 Stainless Steel Blade Pack Of 10 2,,,10,,,1,2,
+CON:BLADES-INSTRAPAC-SCALPEL-NO-10-STAINLESS-P10,Clinic consumables & PPE,Blade / scalpel,Instrapac,Instrapac Disposable Scalpel No 10 Stainless Steel Blade Pack Of 10,,,10,,,1,2,
 CON:BLADES-SWANN-MORTON-SURGICAL-BLADE-REMOVER,Clinic consumables & PPE,Blade / scalpel,Swann-Morton,Swann Morton Non-Sterile Surgical Blade Remover Unit,,,,,,1,1,
 CON:CLEANI-BP-WATER-INJECTION-10ML,Clinic consumables & PPE,Cleaning / solution,,BP Sterile Water for Injection (1 x 10ml),10ml,,,,,1,1,
 CON:CLEANI-CARE-SURGICAL-SPIRIT-BP-200ML-P200,Clinic consumables & PPE,Cleaning / solution,,Care Surgical Spirit Bp,200ml,,200,,,1,1,
@@ -458,7 +458,7 @@ CON:CONSUM-SURGICAL-SKIN-MARKER,Clinic consumables & PPE,Consumable (other),,Sur
 CON:CONSUM-TISEPT-SACHETS-25ML,Clinic consumables & PPE,Consumable (other),,Tisept Sachets 25ml,25ml,,,,,1,1,
 CON:CONSUM-TONDAUS-SURGICAL-SKIN-MARKER-WHITE,Clinic consumables & PPE,Consumable (other),,Tondaus Surgical Skin Marker - White,,,,,,1,1,
 CON:CONSUM-TOXIN-VIAL-CAP-OPENER,Clinic consumables & PPE,Consumable (other),,Toxin Vial Cap Opener,,,,,,1,1,
-CON:CONSUM-TSK-CANNULA-27GX-38MM,Clinic consumables & PPE,Consumable (other),,Tsk Cannula 27gx38mm 1,38mm,,,,,1,1,
+CON:CONSUM-TSK-CANNULA-27GX-38MM,Clinic consumables & PPE,Consumable (other),,Tsk Cannula 27gx38mm,38mm,,,,,1,1,
 CON:CONSUM-UENO-FACE-COVERING,Clinic consumables & PPE,Consumable (other),,Ueno Face Covering Single,,,1,,,1,1,
 CON:CONSUM-UNDER-ACTIVE-THYROID-SELF-TEST-HOME,Clinic consumables & PPE,Consumable (other),,Under-Active Thyroid Self Test Home Kit,,,,,,1,1,
 CON:CONSUM-UNTITLED-NOV7-13-30,Clinic consumables & PPE,Consumable (other),,Untitled Nov7_13 30,,,,,,1,1,
@@ -877,7 +877,7 @@ CON:IVBLOO-BD-VACUTAINER-SAFETYLOK-BLOOD-COL-23G-P50,Clinic consumables & PPE,IV
 CON:IVBLOO-BD-VACUTAINER-SAFETYLOK-BLOOD-COL-23G-P25,Clinic consumables & PPE,IV & blood collection,,Bd Vacutainer Safetylok Blood Collection Wing Set 23g 178mm With Preattached Holder Bull Dog Blue,23g,,25,,,1,1,
 CON:IVBLOO-BD-VACUTAINER-HOLDER-BULLDOG-P250,Clinic consumables & PPE,IV & blood collection,,Bd Vacutainer Single Use Holder Bulldog Holder,,,250,,,1,1,
 CON:IVBLOO-GIVING-SET,Clinic consumables & PPE,IV & blood collection,,Giving Set,,,,,,1,1,
-CON:IVBLOO-SAFETY-BLOOD-COLLECTION-SET-HOLDER-23G,Clinic consumables & PPE,IV & blood collection,,Safety Blood Collection Set Holder 23g X 3 4,23g,,,,,1,1,
+CON:IVBLOO-SAFETY-BLOOD-COLLECTION-SET-HOLDER-23G,Clinic consumables & PPE,IV & blood collection,,Safety Blood Collection Set Holder 23g X 3,23g,,,,,1,1,
 CON:IVBLOO-B-BRAUN-INTRAFIX-PRIMELINE-GRAVI-4062981L-P100,Clinic consumables & PPE,IV & blood collection,B. Braun,B Braun Intrafix Primeline Gravity Iv Set,4062981l,,100,,,1,1,
 CON:PAPERT-ALVITA-TISSUES-WHITE-P150,Clinic consumables & PPE,Paper / towel / tissue,,Alvita Tissues White 2ply,,,150,,,1,1,
 CON:PAPERT-C-FOLD-HAND-TOWEL-WHITE,Clinic consumables & PPE,Paper / towel / tissue,,"C-Fold Hand Towel 1 ply, White",,,0,,,1,1,
@@ -1227,7 +1227,7 @@ FIL:KAIRAX-DEEP-1X,Dermal filler,Kairax Deep,Kairax,Kairax Deep,,not named,1,,br
 FIL:KAIRAX-DEEP-1ML-1X,Dermal filler,Kairax Deep,Kairax,Kairax Deep 1 x 1 ml,1 x 1ml,not named,1,,brand page only,3,3,supplier page
 FIL:KAIRAX-DEEP-LIDO-1X,Dermal filler,Kairax Deep,Kairax,Kairax Deep with Lidocaine,with lidocaine,not named,1,,brand page only,1,1,supplier page
 FIL:KAIRAX-DEEP1-11ML-1X,Dermal filler,Kairax Deep 1,Kairax,Kairax Deep Dermal Filler (1.1.1ml),1 x 1.1ml,not named,1,,brand page only,1,1,supplier page
-FIL:KAIRAX-DEEP2-1ML-1X,Dermal filler,Kairax Deep 2,Kairax,Kairax Deep 1x1ml 2,1 x 1ml,not named,1,,brand page only,1,1,supplier page
+FIL:KAIRAX-DEEP2-1ML-1X,Dermal filler,Kairax Deep 2,Kairax,Kairax Deep 1x1ml,1 x 1ml,not named,1,,brand page only,1,1,supplier page
 FIL:KAIRAX-ENHANCE45-2ML-1X,Dermal filler,Kairax Enhance 45,Kairax,Kairax Enhance 45 2ml,1 x 2ml,not named,1,,brand page only,6,6,supplier page
 FIL:KAIRAX-ENHANCE45OFFICIALONLINE-1X,Dermal filler,Kairax Enhance 45 Official Online,Kairax,Kairax Enhance 45 Training with FREE Box,,not named,1,,brand page only,1,1,supplier page
 FIL:KAIRAX-ENHANCEICE-1X,Dermal filler,Kairax Enhance Ice,Kairax,Kairax Enhance Ice Pack,,not named,1,,brand page only,1,1,supplier page
@@ -1270,7 +1270,7 @@ FIL:LUMIFIL-2025BRANDEDROLLERBANNER-1X,Dermal filler,Lumifil 2025 Branded Roller
 FIL:LUMIFIL-ICE-1X,Dermal filler,Lumifil Ice,Lumifil,LUMIFIL ICE PACK,,not named,1,,brand page only,1,1,supplier page
 FIL:LUMIFIL-KISS-10ML-1X,Dermal filler,Lumifil Kiss,Lumifil,Lumifil Kiss 1.0ml,1 x 1.0ml,not named,1,,brand page only,1,1,supplier page
 FIL:LUMIFIL-KISS-1ML-LIDO-1X,Dermal filler,Lumifil Kiss,Lumifil,Lumifil Kiss with Lido.(1X1ml) Inj.,1 x 1ml with lidocaine,not named,1,,brand page only,2,2,supplier page
-FIL:LUMIFIL-KISS2-1ML-LIDO-1X,Dermal filler,Lumifil Kiss 2,Lumifil,Lumifil Kiss With Lidocaine 1x1ml 2,1 x 1ml with lidocaine,not named,1,,brand page only,1,1,supplier page
+FIL:LUMIFIL-KISS2-1ML-LIDO-1X,Dermal filler,Lumifil Kiss 2,Lumifil,Lumifil Kiss With Lidocaine 1x1ml,1 x 1ml with lidocaine,not named,1,,brand page only,1,1,supplier page
 FIL:LUMIFIL-LMAX-1X,Dermal filler,Lumifil L Max,Lumifil,⁠lumifil L Max Dermal Filler,,not named,1,,brand page only,1,1,supplier page
 FIL:LUMIFIL-LKISS-LIDO-1X,Dermal filler,Lumifil L-Kiss,Lumifil,LUMIFIL L-KISS with Lidocaine,with lidocaine,not named,1,,brand page only,5,5,supplier page
 FIL:LUMIFIL-LKISS-1ML-1X,Dermal filler,Lumifil L-Kiss,Lumifil,LUMIFIL L-Kiss - 1 x 1ml,1 x 1ml,not named,1,,brand page only,1,1,supplier page
@@ -1281,8 +1281,7 @@ FIL:LUMIFIL-LMAX-LIDO-1X,Dermal filler,Lumifil L-Max,Lumifil,LUMIFIL L-MAX with 
 FIL:LUMIFIL-LMAX-1ML-1X,Dermal filler,Lumifil L-Max,Lumifil,LUMIFIL L-Max - 1 x 1ml,1 x 1ml,not named,1,,brand page only,1,1,supplier page
 FIL:LUMIFIL-LITE-1ML-1X,Dermal filler,Lumifil Lite,Lumifil,LUMIFIL Lite - 1 x 1ml,1 x 1ml,not named,1,,brand page only,2,2,supplier page
 FIL:LUMIFIL-LITE-1ML-LIDO-1X,Dermal filler,Lumifil Lite,Lumifil,Lumifil Lite with Lido.(1X1ml) Inj.,1 x 1ml with lidocaine,not named,1,,brand page only,1,1,supplier page
-FIL:LUMIFIL-LITE2-1ML-LIDO-1X,Dermal filler,Lumifil Lite 2,Lumifil,Lumifil Lite With Lidocaine 1x1ml 2,1 x 1ml with lidocaine,not named,1,,brand page only,1,1,supplier page
-FIL:LUMIFIL-LITE3-1ML-LIDO-1X,Dermal filler,Lumifil Lite 3,Lumifil,Lumifil Lite With Lidocaine 1x1ml 3,1 x 1ml with lidocaine,not named,1,,brand page only,1,1,supplier page
+FIL:LUMIFIL-LITE3-1ML-LIDO-1X,Dermal filler,Lumifil Lite 3,Lumifil,Lumifil Lite With Lidocaine 1x1ml,1 x 1ml with lidocaine,not named,1,,brand page only,1,2,supplier page
 FIL:LUMIFIL-MAX-10ML-1X,Dermal filler,Lumifil Max,Lumifil,Lumifil Max 1.0ml,1 x 1.0ml,not named,1,,brand page only,1,1,supplier page
 FIL:LUMIFIL-MAX-1ML-LIDO-1X,Dermal filler,Lumifil Max,Lumifil,Lumifil Max with Lido.(1X1ml) Inj.,1 x 1ml with lidocaine,not named,1,,brand page only,2,2,supplier page
 FIL:LUMIFIL-MIXMATCH570-LIDO-1X,Dermal filler,Lumifil Mix Match 5 70,Lumifil,LUMIFIL Mix & Match | 5 For £70,with lidocaine,not named,1,,brand page only,1,1,supplier page
@@ -1398,7 +1397,7 @@ FIL:OUYE-SUBQPLUS-1X,Dermal filler,Ouye Subq Plus,Ouye,OUYE SubQ plus,,not named
 FIL:PERFECT-LINEVOLUMEBODY-0ML-1X,Dermal filler,Perfect Line Volume Body,Perfect,Perfect Line Volume Body 10ml,1 x 0ml,not named,1,,brand page only,1,1,supplier page
 FIL:PERFECTHA-DEEP-1ML-1X,Dermal filler,Perfectha Deep,Perfectha,Perfectha Deep 1ml,1 x 1ml,Sinclair,1,,yes,2,2,manufacturer IFU
 FIL:PERFECTHA-DEEP-1ML-LIDO-1X,Dermal filler,Perfectha Deep,Perfectha,Perfectha Deep with Lidocaine (1 x 1ml),1 x 1ml with lidocaine,Sinclair,1,,yes,2,2,manufacturer IFU
-FIL:PERFECTHA-DEEP1-1ML-LIDO-1X,Dermal filler,Perfectha Deep 1,Perfectha,Perfectha Deep Lido 1ml 1,1 x 1ml with lidocaine,Sinclair,1,,yes,1,2,manufacturer IFU
+FIL:PERFECTHA-DEEP1-1ML-LIDO-1X,Dermal filler,Perfectha Deep 1,Perfectha,Perfectha Deep Lido 1ml,1 x 1ml with lidocaine,Sinclair,1,,yes,1,2,manufacturer IFU
 FIL:PERFECTHA-DERM-1ML-1X,Dermal filler,Perfectha Derm,Perfectha,Perfectha Derm,1 x 1ml,Sinclair,1,,yes,1,1,manufacturer IFU
 FIL:PERFECTHA-DERM-1ML-LIDO-1X,Dermal filler,Perfectha Derm,Perfectha,Perfectha Derm Lidocaine 1ml,1 x 1ml with lidocaine,Sinclair,1,,yes,2,2,manufacturer IFU
 FIL:PERFECTHA-FINEFINELINES-1ML-1X,Dermal filler,Perfectha Fine Finelines,Perfectha,Perfectha Fine Finelines,1 x 1ml,Sinclair,1,,yes,1,1,manufacturer IFU
@@ -1408,7 +1407,7 @@ FIL:PERFECTHA-SUBSKIN-1ML-LIDO-3X,Dermal filler,Perfectha Sub Skin,Perfectha,Per
 FIL:PERFECTHA-SUBSUBSKIN-1ML-3X,Dermal filler,Perfectha Sub Subskin,Perfectha,Perfectha Sub Subskin,3 x 1ml,Sinclair,3,,yes,1,1,manufacturer IFU
 FIL:PERFECTHA-SUBSUBSKIN-1ML-LIDO-3X,Dermal filler,Perfectha Sub Subskin,Perfectha,Perfectha Sub Subskin Lidocaine,3 x 1ml with lidocaine,Sinclair,3,,yes,1,1,manufacturer IFU
 FIL:PERFECTHA-SUBSKIN-1ML-3X,Dermal filler,Perfectha Subskin,Perfectha,Perfectha Subskin 3 x 1ml,3 x 1ml,Sinclair,3,,yes,2,2,manufacturer IFU
-FIL:PERFECTHA-SUBSKIN3-1ML-LIDO-3X,Dermal filler,Perfectha Subskin 3,Perfectha,Perfectha Subskin Lido 1ml 3,3 x 1ml with lidocaine,Sinclair,3,,yes,1,2,manufacturer IFU
+FIL:PERFECTHA-SUBSKIN3-1ML-LIDO-3X,Dermal filler,Perfectha Subskin 3,Perfectha,Perfectha Subskin Lido 1ml,3 x 1ml with lidocaine,Sinclair,3,,yes,1,2,manufacturer IFU
 FIL:PILNEST-EYE-1X,Dermal filler,Pilnest Eye,Pilnest,Pilnest Eye,,not named,1,,brand page only,1,1,supplier page
 FIL:PRODERMIS-DEEP-1X,Dermal filler,Prodermis Deep,Prodermis,Prodermis Deep,,not named,1,,brand page only,1,1,supplier page
 FIL:PRODERMIS-PROSCULPTDEEP-1X,Dermal filler,Prodermis Prosculpt Deep,Prodermis,Prodermis — PROSCULPT Deep,,not named,1,,brand page only,1,1,supplier page
@@ -1530,7 +1529,7 @@ FIL:RRSHYALIFT-75PROACTIVE-03ML-1X,Dermal filler,Rrs Hyalift 75 Proactive,Rrs Hy
 FIL:SAYPHA-FILLER-1ML-1X,Dermal filler,Saypha Filler,Saypha,Saypha Filler 1ml,1 x 1ml,Croma,1,,yes,1,2,https://www.croma.at
 FIL:SAYPHA-FILLER-1ML-LIDO-1X,Dermal filler,Saypha Filler,Saypha,Saypha Filler Lidocaine (1x1ml),1 x 1ml with lidocaine,Croma,1,,yes,4,5,https://www.croma.at
 FIL:SAYPHA-FILLER-LIDO-1X,Dermal filler,Saypha Filler,Saypha,Saypha Filler without Lidocaine,with lidocaine,Croma,1,,yes,1,2,https://www.croma.at
-FIL:SAYPHA-FILLER1-1ML-LIDO-1X,Dermal filler,Saypha Filler 1,Saypha,Saypha Filler Lido 1ml 1,1 x 1ml with lidocaine,Croma,1,,yes,1,2,https://www.croma.at
+FIL:SAYPHA-FILLER1-1ML-LIDO-1X,Dermal filler,Saypha Filler 1,Saypha,Saypha Filler Lido 1ml,1 x 1ml with lidocaine,Croma,1,,yes,1,2,https://www.croma.at
 FIL:SAYPHA-LIPS-1ML-LIDO-1X,Dermal filler,Saypha Lips,Saypha,Saypha Lips with Lidocaine 1ml,1 x 1ml with lidocaine,Croma,1,,yes,3,4,https://www.croma.at
 FIL:SAYPHA-RICH-1X,Dermal filler,Saypha Rich,Saypha,Croma Saypha Rich,,Croma,1,,yes,2,3,https://www.croma.at
 FIL:SAYPHA-RICH-1ML-1X,Dermal filler,Saypha Rich,Saypha,Saypha Rich 1ml,1 x 1ml,Croma,1,,yes,3,3,https://www.croma.at
@@ -2371,7 +2370,7 @@ MED:MEPIVACAINE-INJE,Medicines,mepivacaine,Scandonest; Scandonest Cartridges; sc
 MED:MESOESTETICAOX-SOLU,Medicines,mesoestetic aox,Mesoestetic AOX Glutathi,Mesoestetic AOX Glutathione Glutathione Supplement,solution,,,vitamin/IV,,1,1,https://www.medicines.org.uk/emc/search?q=mesoestetic
 MED:METARAMINOLOR-10MG-INJE,Medicines,metaraminol or,metaraminol solution for,Metaraminol Solution For Injection Or Infusion,10mg injection,,,vitamin/IV,,1,1,https://www.medicines.org.uk/emc/search?q=metaraminol
 MED:METHOTREXATE-2.5MG-TABL,Medicines,methotrexate,methotrexate,Methotrexate,2.5mg tablet,,,oral,,1,1,https://www.medicines.org.uk/emc/search?q=methotrexate
-MED:METHYLCOBALAMIN-5MG-INJE,Medicines,methylcobalamin,b,B12 Methylcobalamin 5mg 2ml 2,5mg injection,,,vitamin/IV,,1,1,https://www.medicines.org.uk/emc/search?q=methylcobalamin
+MED:METHYLCOBALAMIN-5MG-INJE,Medicines,methylcobalamin,b,B12 Methylcobalamin 5mg 2ml,5mg injection,,,vitamin/IV,,1,1,https://www.medicines.org.uk/emc/search?q=methylcobalamin
 MED:METHYLPREDNISOLONE-40MG-INJE,Medicines,methylprednisolone,Depo-Medrone; Depo-Medrone with Lidoca,Depo-Medrone 40mg/ml 1ml vial,40mg injection,,,injectable/emergency,,2,4,https://www.medicines.org.uk/emc/search?q=methylprednisolone
 MED:METOCLOPRAMIDE-10MG2ML-INJE,Medicines,metoclopramide,Metoclopramide,Metoclopramide,10mg/2ml injection,,,other,,1,1,https://www.medicines.org.uk/emc/search?q=metoclopramide
 MED:METOCLOPRAMIDE-10MG-TABL,Medicines,metoclopramide,maxolon; metoclopramide,Metoclopramide 10mg X28 Tablets,10mg tablet,,,oral,,2,3,https://www.medicines.org.uk/emc/search?q=metoclopramide
@@ -2390,7 +2389,7 @@ MED:METRONIDAZOLETABS-200MG-TABL,Medicines,metronidazole tabs,Metronidazole Tabs
 MED:METRONIDAZOLETABS-400MG-TABL,Medicines,metronidazole tabs,Metronidazole Tabs,Metronidazole Tabs 400mg x21,400mg tablet,,,oral,,1,1,https://www.medicines.org.uk/emc/search?q=metronidazole
 MED:MICONAZOLEHYDROCOR-2%-CREA,Medicines,miconazole + hydrocortisone,Daktacort HC; daktacort,Daktacort HC,2% cream,,,topical/eye,,1,2,https://www.medicines.org.uk/emc/search?q=miconazole
 MED:MILDISONLIPOCREAM-1%-CREA,Medicines,mildison lipocream,mildison lipocream,Mildison Lipocream,1% cream,,,topical/eye,,1,1,https://www.medicines.org.uk/emc/search?q=mildison
-MED:MINIPLASCOSODIUM-INJE,Medicines,mini-plasco sodium,Mini-Plasco Sodium Chlor,Mini-Plasco Sodium Chloride Inj 10ml 1,injection,,,injectable/emergency,,1,2,https://www.medicines.org.uk/emc/search?q=mini-plasco
+MED:MINIPLASCOSODIUM-INJE,Medicines,mini-plasco sodium,Mini-Plasco Sodium Chlor,Mini-Plasco Sodium Chloride Inj 5ml x1,injection,,,injectable/emergency,,1,2,https://www.medicines.org.uk/emc/search?q=mini-plasco
 MED:MINOCINMR-100MG-CAPS,Medicines,minocin mr,"Minocin MR,; minocin mr","Minocin MR, 100mg, 1 x 56",100mg capsule,,,oral,,1,2,https://www.medicines.org.uk/emc/search?q=minocin
 MED:MINOCYCLINE-50MG-TABL,Medicines,minocycline,minocycline,Minocycline,50mg tablet,,,oral,,1,1,https://www.medicines.org.uk/emc/search?q=minocycline
 MED:MINOCYCLINECAPSULE-100MG-CAPS,Medicines,minocycline capsules,minocycline capsules mr,Minocycline Capsules Mr,100mg capsule,,,oral,,1,1,https://www.medicines.org.uk/emc/search?q=minocycline
@@ -2520,8 +2519,8 @@ MED:SILICONEGEL-GEL,Medicines,silicone gel,Dermatix silicone gel; dermatix,Derma
 MED:SILKIS-OINT,Medicines,silkis,silkis,Silkis,ointment,,,topical/eye,,1,1,https://www.medicines.org.uk/emc/search?q=silkis
 MED:SILVERNITRATE,Medicines,silver nitrate,silver nitrate caustic p,Silver Nitrate Caustic Pencil,,,,topical/eye,,1,1,https://www.medicines.org.uk/emc/search?q=silver
 MED:SODIUMBICARBONATE-873000MG-INJE,Medicines,sodium bicarbonate,Sodium Bicarbonate Inj,Sodium Bicarbonate Inj,873000mg injection,,,injectable/emergency,,1,1,https://www.medicines.org.uk/emc/search?q=sodium
-MED:SODIUMBICARBONATE-INJE,Medicines,sodium bicarbonate,Sodium Bicarbonate; Sodium Bicarbonate Inj; sodium bicarbonate,Sodium Bicarbonate Inj 8.4% 10ml 1,injection,,,injectable/emergency,,3,6,https://www.medicines.org.uk/emc/search?q=sodium
-MED:SODIUMCHLORIDE-INJE,Medicines,sodium chloride,Sodium Chloride; Sodium Chloride I.V; Sodium Chloride IV Plast; Sodium Chloride Inj,Sodium Chloride Injection 0.9% 10ml 1,injection,,,injectable/emergency,,12,50,https://www.medicines.org.uk/emc/search?q=sodium
+MED:SODIUMBICARBONATE-INJE,Medicines,sodium bicarbonate,Sodium Bicarbonate; Sodium Bicarbonate Inj; sodium bicarbonate,Sodium Bicarbonate Inj 8.4% 10ml,injection,,,injectable/emergency,,3,6,https://www.medicines.org.uk/emc/search?q=sodium
+MED:SODIUMCHLORIDE-INJE,Medicines,sodium chloride,Sodium Chloride; Sodium Chloride I.V; Sodium Chloride IV Plast; Sodium Chloride Inj,Sodium Chloride Injection 0.9% 10ml,injection,,,injectable/emergency,,12,50,https://www.medicines.org.uk/emc/search?q=sodium
 MED:SODIUMCHLORIDE-SOLU,Medicines,sodium chloride,Sodium Chloride; Sodium Chloride Infusion; Sodium chloride Intraven,Sodium Chloride Infusion 0.9% 250ml x 1,solution,,,vitamin/IV,,2,5,https://www.medicines.org.uk/emc/search?q=sodium
 MED:SODIUMCHLORIDEBACT-INJE,Medicines,sodium chloride (bacteriostatic),BAC-STAT Bacteriostatic ; Bac-Stat; Bacteriostatic; Bacteriostatic Saline,Bacteriostatic Sodium Chloride 0.9% 30ml Vial,injection,,,injectable/emergency,,11,33,https://www.medicines.org.uk/emc/search?q=sodium
 MED:SODIUMCHLORIDEBACT-9MG,Medicines,sodium chloride (bacteriostatic),Bac-Stat,Bac-Stat 0.9% 30ml,9mg,,,other,,1,1,https://www.medicines.org.uk/emc/search?q=sodium
@@ -2611,13 +2610,13 @@ NDL:HYPODE-100,"Needles, cannulas & syringes",Hypodermic needle,100,100 x ReMed 
 NDL:HYPODE-32G-5MM,"Needles, cannulas & syringes",Hypodermic needle,4Sure,4sure Pen Needles 32G 5mm 100s,32G 5mm,,1,,,2,3,
 NDL:HYPODE-32G-4MM,"Needles, cannulas & syringes",Hypodermic needle,4Sure; BD; GlucoRx; Novo Nordisk; Penfine; TSK,"TSK Sharp Needles STERiJECT PRE Regular Hub TSKiD Standard 32G x 4mm (3/16"")",32G 4mm,,1,,,5,9,
 NDL:HYPODE-30G-4MM-X100,"Needles, cannulas & syringes",Hypodermic needle,Antonmove; TSK,TSK STERiJECT Needles 30G x 4mm x 100,30G 4mm x100,,100,,,4,5,
-NDL:HYPODE-21G-25MM-X25,"Needles, cannulas & syringes",Hypodermic needle,B. Braun,Sterican Green 21 G X 25 Mm 1,21G 25mm x25,,25,,,1,1,
+NDL:HYPODE-21G-25MM-X25,"Needles, cannulas & syringes",Hypodermic needle,B. Braun,Sterican Green 21 G X 25 Mm,21G 25mm x25,,25,,,1,1,
 NDL:HYPODE-27G-12MM-X12,"Needles, cannulas & syringes",Hypodermic needle,B. Braun,Sterican Grey 27 G X 12 Mm,27G 12mm x12,,12,,,1,2,
-NDL:HYPODE-27G-40MM-X40,"Needles, cannulas & syringes",Hypodermic needle,B. Braun,Sterican Grey 27 G X 40 Mm 1,27G 40mm x40,,40,,,1,1,
+NDL:HYPODE-27G-40MM-X40,"Needles, cannulas & syringes",Hypodermic needle,B. Braun,Sterican Grey 27 G X 40 Mm,27G 40mm x40,,40,,,1,1,
 NDL:HYPODE-30G-X5,"Needles, cannulas & syringes",Hypodermic needle,B. Braun,Sterican Yellow 30g X 05 Needle,30G x5,,5,,,1,1,
 NDL:HYPODE-23G-25MM,"Needles, cannulas & syringes",Hypodermic needle,B. Braun; BD,"BD Microlance 3 Needles Blue 23g x 1"" x 100",23G 25mm,,1,,,5,6,
-NDL:HYPODE-23G-30MM-X30,"Needles, cannulas & syringes",Hypodermic needle,B. Braun; BD,Bd Blue Microlance 23 G X 30 Mm 1,23G 30mm x30,,30,,,1,3,
-NDL:HYPODE-21G-40MM-X40,"Needles, cannulas & syringes",Hypodermic needle,B. Braun; BD,Bd Green Microlance 21g X 40 Mm 1,21G 40mm x40,,40,,,1,2,
+NDL:HYPODE-21G-40MM-X40,"Needles, cannulas & syringes",Hypodermic needle,B. Braun; BD,Bd Green Microlance 21g X 40 Mm,21G 40mm x40,,40,,,1,2,
+NDL:HYPODE-23G-30MM-X30,"Needles, cannulas & syringes",Hypodermic needle,B. Braun; BD,"Sterican Blue 23 G x 30 mm (1 ¼"")",23G 30mm x30,,30,,,1,3,
 NDL:HYPODE-BD-X3,"Needles, cannulas & syringes",Hypodermic needle,BD,BD 0.3 Needles,x3,,3,,,1,1,
 NDL:HYPODE-BD-X5,"Needles, cannulas & syringes",Hypodermic needle,BD,BD 0.5 Needles,x5,,5,,,1,1,
 NDL:HYPODE-23G-6MM,"Needles, cannulas & syringes",Hypodermic needle,BD,"BD Eclipse safety needle with smartslip technology 23G x 1"" (0.6mm x 25mm)",23G 6mm,,1,,,1,1,
@@ -2651,16 +2650,16 @@ NDL:HYPODE-25G-5MM-X100,"Needles, cannulas & syringes",Hypodermic needle,BD,"BD 
 NDL:HYPODE-18G-40MM-X40,"Needles, cannulas & syringes",Hypodermic needle,BD,"BD Pink Microlance 18 G x 40 mm (1.5"")",18G 40mm x40,,40,,,1,1,
 NDL:HYPODE-21G-51MM-X100,"Needles, cannulas & syringes",Hypodermic needle,BD,BD microlance 3 21g x 2 inch - 100pcs,21G 51mm x100,,100,,,1,1,
 NDL:HYPODE-BD,"Needles, cannulas & syringes",Hypodermic needle,BD,BD microlance 30gx0.5″ YELLOW needles,,,1,,,1,6,
-NDL:HYPODE-22G-25MM,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Black Microlance 22g X 25mm 1,22G 25mm,,1,,,1,1,
+NDL:HYPODE-22G-25MM,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Black Microlance 22g X 25mm,22G 25mm,,1,,,1,1,
 NDL:HYPODE-22G-30MM,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Black Microlance 22g X 30mm 1 14,22G 30mm,,1,,,1,1,
-NDL:HYPODE-26G-10MM-X10,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Brown Microlance 26 G X 10 Mm 38,26G 10mm x10,,10,,,1,1,
+NDL:HYPODE-26G-10MM-X10,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Brown Microlance 26 G X 10 Mm,26G 10mm x10,,10,,,1,1,
 NDL:HYPODE-26G-13MM-X13,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Brown Microlance 26 G X 13 Mm,26G 13mm x13,,13,,,1,1,
-NDL:HYPODE-26G-16MM-X16,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Brown Microlance 26 G X 16 Mm 58,26G 16mm x16,,16,,,1,1,
-NDL:HYPODE-19G-40MM-X40,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Cream Microlance 19 G X 40 Mm 1,19G 40mm x40,,40,,,1,1,
-NDL:HYPODE-19G-25MM,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Cream Microlance 19g X 25mm 1,19G 25mm,,1,,,1,1,
+NDL:HYPODE-26G-16MM-X16,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Brown Microlance 26 G X 16 Mm,26G 16mm x16,,16,,,1,1,
+NDL:HYPODE-19G-40MM-X40,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Cream Microlance 19 G X 40 Mm,19G 40mm x40,,40,,,1,1,
+NDL:HYPODE-19G-25MM,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Cream Microlance 19g X 25mm,19G 25mm,,1,,,1,1,
 NDL:HYPODE-20G-90MM,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Dark Yellow 20g X 90mm Spinal Needles,20G 90mm,,1,,,1,2,
-NDL:HYPODE-21G-16MM-X16,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Green Microlance 21g X 16 Mm 58,21G 16mm x16,,16,,,1,1,
-NDL:HYPODE-21G-50MM-X50,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Green Microlance 21g X 50 Mm 2,21G 50mm x50,,50,,,1,1,
+NDL:HYPODE-21G-16MM-X16,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Green Microlance 21g X 16 Mm,21G 16mm x16,,16,,,1,1,
+NDL:HYPODE-21G-50MM-X50,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Green Microlance 21g X 50 Mm,21G 50mm x50,,50,,,1,1,
 NDL:HYPODE-27G-13MM-X13,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Grey Microlance 27 G X 13 Mm,27G 13mm x13,,13,,,1,2,
 NDL:HYPODE-29G-7MM-X12,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Microfine 1ml 29g X 12 7mm 0 33mm Orange Needles,29G 7mm 1ml x12,,12,,,1,1,
 NDL:HYPODE-30G-8MM-X10,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Microfine+ U40 0.5ml 8mm 30g - 10pcs,30G 8mm 0.5ml x10,,10,,,2,2,
@@ -2668,12 +2667,12 @@ NDL:HYPODE-23G-30MM,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Micro
 NDL:HYPODE-25G-X3,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Microlance 3 Needles 25g 1 Orange,25G x3,,3,,,1,1,
 NDL:HYPODE-24G,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Microlance Hypo Needle 24g X 1,24G,,1,,,1,1,
 NDL:HYPODE-22G-X2,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Microlance Needle Iii 22g X 2,22G x2,,2,,,1,1,
-NDL:HYPODE-25G-16MM-X16,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Orange Microlance 25 G X 16 Mm 58,25G 16mm x16,,16,,,1,1,
-NDL:HYPODE-25G-25MM-X25,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Orange Microlance 25 G X 25 Mm 1,25G 25mm x25,,25,,,1,1,
+NDL:HYPODE-25G-16MM-X16,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Orange Microlance 25 G X 16 Mm,25G 16mm x16,,16,,,1,1,
+NDL:HYPODE-25G-25MM-X25,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Orange Microlance 25 G X 25 Mm,25G 25mm x25,,25,,,1,1,
 NDL:HYPODE-18G-90MM,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Pink 18g X 90mm Spinal Needle,18G 90mm,,1,,,1,1,
-NDL:HYPODE-18G-50MM-X50,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Pink Microlance 18 G X 50 Mm 2,18G 50mm x50,,50,,,1,1,
+NDL:HYPODE-18G-50MM-X50,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Pink Microlance 18 G X 50 Mm,18G 50mm x50,,50,,,1,1,
 NDL:HYPODE-21G-X15,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Vacutainer Multisample Needles 21g X 15 Green,21G x15,,15,,,1,1,
-NDL:HYPODE-40MM-X40,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd White Microlance 16 G X 40 Mm 1,40mm x40,,40,,,1,1,
+NDL:HYPODE-40MM-X40,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd White Microlance 16 G X 40 Mm,40mm x40,,40,,,1,1,
 NDL:HYPODE-30G-13MM-X13,"Needles, cannulas & syringes",Hypodermic needle,BD,Bd Yellow Microlance 30g X 13 Mm,30G 13mm x13,,13,,,1,2,
 NDL:HYPODE-25G,"Needles, cannulas & syringes",Hypodermic needle,BD,Microlance 25g,25G,,1,,,1,1,
 NDL:HYPODE-18G-50MM,"Needles, cannulas & syringes",Hypodermic needle,BD,Microlance Hypodermic Needle 18g x 50mm Pink Short,18G 50mm,,1,,,1,1,
@@ -2876,14 +2875,14 @@ NDL:MICROC-38MM,"Needles, cannulas & syringes",Microcannula,TSK,TSK Steriglide C
 NDL:MICROC-50MM,"Needles, cannulas & syringes",Microcannula,TSK,TSK Steriglide Cannula 25gx50mm,50mm,,1,,,1,2,
 NDL:MICROC-27G-25MM-X20,"Needles, cannulas & syringes",Microcannula,TSK,TSK Steriglide Cannula 27G x 25mm x20,27G 25mm x20,,20,,,2,2,
 NDL:MICROC-27G-50MM-X20,"Needles, cannulas & syringes",Microcannula,TSK,TSK Steriglide Cannula 27G x 50mm x 20,27G 50mm x20,,20,,,4,4,
-NDL:MICROC-30G-19MM,"Needles, cannulas & syringes",Microcannula,TSK,Tsk Csh Closedtip Single Side Hole Cannulae 30g X 19mm 34,30G 19mm,,1,,,1,1,
+NDL:MICROC-30G-19MM,"Needles, cannulas & syringes",Microcannula,TSK,Tsk Csh Closedtip Single Side Hole Cannulae 30g X 19mm,30G 19mm,,1,,,1,1,
 NDL:MICROC-30G-13MM-X100,"Needles, cannulas & syringes",Microcannula,TSK,Tsk Low Dead Space 30g X 13mm Pack Of 100,30G 13mm x100,,100,,,1,2,
 NDL:MICROC-33G-13MM-X100,"Needles, cannulas & syringes",Microcannula,TSK,Tsk Low Dead Space 33g X 13mm Pack Of 100,33G 13mm x100,,100,,,1,2,
 NDL:MICROC-33G-9MM-X100,"Needles, cannulas & syringes",Microcannula,TSK,Tsk Low Dead Space 33g X 9mm Pack Of 100,33G 9mm x100,,100,,,1,2,
 NDL:MICROC-TERUMO,"Needles, cannulas & syringes",Microcannula,Terumo,Terumo 1ml Luer Slip Tip,1ml luer slip,,1,,,1,1,
-NDL:MICROC-27G-16MM-X16,"Needles, cannulas & syringes",Microcannula,Terumo,Terumo Grey 27 G X 16 Mm 58,27G 16mm x16,,16,,,1,1,
-NDL:MICROC-27G-19MM-X19,"Needles, cannulas & syringes",Microcannula,Terumo,Terumo Grey 27 G X 19 Mm 34,27G 19mm x19,,19,,,1,1,
-NDL:MICROC-25G-25MM-X25,"Needles, cannulas & syringes",Microcannula,Terumo,Terumo Orange 25 G X 25 Mm 1,25G 25mm x25,,25,,,1,1,
+NDL:MICROC-27G-16MM-X16,"Needles, cannulas & syringes",Microcannula,Terumo,Terumo Grey 27 G X 16 Mm,27G 16mm x16,,16,,,1,1,
+NDL:MICROC-27G-19MM-X19,"Needles, cannulas & syringes",Microcannula,Terumo,Terumo Grey 27 G X 19 Mm,27G 19mm x19,,19,,,1,1,
+NDL:MICROC-25G-25MM-X25,"Needles, cannulas & syringes",Microcannula,Terumo,Terumo Orange 25 G X 25 Mm,25G 25mm x25,,25,,,1,1,
 NDL:MICROC-22G-25MM-X100,"Needles, cannulas & syringes",Microcannula,Terumo,Terumo Versatus Winged And Ported Iv Cannula 22g Blue 1 Inch Pack Of 100,22G 25mm x100,,100,,,1,1,
 NDL:MICROC-30G,"Needles, cannulas & syringes",Microcannula,Ultra,Ultra Safety Plus Twist 30g Short,30G,,1,,,1,1,
 NDL:MICROC-21G,"Needles, cannulas & syringes",Microcannula,Venofix,Venofix A 21G Butterfly Cannula,21G,,1,,,1,1,
@@ -2988,7 +2987,7 @@ NDL:SYRING-GLUCAGEN,"Needles, cannulas & syringes",Syringe,Glucagen,GlucaGen Hyp
 NDL:SYRING-GLUCORX,"Needles, cannulas & syringes",Syringe,GlucoRx,GlucoRX FinePoint 4mm/32mm,4mm,,1,,,1,1,
 NDL:SYRING-JUVAPEN,"Needles, cannulas & syringes",Syringe,Juvapen,Juvapen Refill Kit,,,1,,,1,1,
 NDL:SYRING-2ML-X3,"Needles, cannulas & syringes",Syringe,Kiara,Kiara Reju 2 2 Ml X 3 Syringes,2ml x3,,3,,,1,1,
-NDL:SYRING-LUER-LOCK-X10,"Needles, cannulas & syringes",Syringe,LUER,Luer Lock Syringe Connectors X 10 2,luer lock x10,,10,,,1,2,
+NDL:SYRING-LUER-LOCK-X10,"Needles, cannulas & syringes",Syringe,LUER,Luer Lock Syringe Connectors X 10,luer lock x10,,10,,,1,2,
 NDL:SYRING-2.5ML-LUER-LOCK,"Needles, cannulas & syringes",Syringe,LUER; Terumo,Terumo Luer Lock Syringe 2.5ml (Box 100),2.5ml luer lock,,1,,,3,3,
 NDL:SYRING-5ML-LUER-LOCK-X100,"Needles, cannulas & syringes",Syringe,Luerlock; Unifix,Unifix 5ml Luer Lock Syringe x100,5ml luer lock x100,,100,,,2,2,
 NDL:SYRING-5ML-LUER-SLIP,"Needles, cannulas & syringes",Syringe,Medicina,Medicina Iv 5ml Luer Slip Syringes,5ml luer slip,,1,,,1,1,
@@ -3350,7 +3349,7 @@ BST:ARES-AO-ANTI-4ML-X4,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Are
 BST:ARES-ANTI-AGE-4ML-X4,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Ares,ARES Anti-Age 4 x 4 ml,4 x 4ml,Ares,4,,,1,1,
 BST:ARES-AA-ANTI-4ML-X4,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Ares,Ares Aa Anti Age 4 X 4ml Mesotherapy,4 x 4ml,Ares,4,,,1,1,
 BST:ARES-HB-HAIR-4ML-X4,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Ares,Ares HB Hair Booster 4 x 4 ml,4 x 4ml,Ares,4,,,1,1,
-BST:ARES-HB-4ML,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Ares,Ares Hb Single Vial 4ml 2,1 x 4ml,Ares,1,,,1,1,
+BST:ARES-HB-4ML,Skin booster / PN / mesotherapy,Mesotherapy cocktail,Ares,Ares Hb Single Vial 4ml,1 x 4ml,Ares,1,,,1,1,
 BST:BCN-AMINO-ACIDS-2ML-X10,Skin booster / PN / mesotherapy,Mesotherapy cocktail,BCN,BCN Amino Acids (10 x 2ml) amps.,10 x 2ml,Institute BCN,10,,,1,1,
 BST:BCN-ARGIRELINE-2ML-X10,Skin booster / PN / mesotherapy,Mesotherapy cocktail,BCN,BCN Argireline (10 x 2ml) amps.,10 x 2ml,Institute BCN,10,,,1,1,
 BST:BCN-ARTICHOKE-EXTRACT-5ML-X10,Skin booster / PN / mesotherapy,Mesotherapy cocktail,BCN,BCN Artichoke Extract (10 x 5ml) amps.,10 x 5ml,Institute BCN,10,,,1,1,
@@ -3764,7 +3763,7 @@ BST:LUMI-FACE-POLYNUCLEOTIDES-2ML-X2,Skin booster / PN / mesotherapy,Polynucleot
 BST:LUMI-FACE-POLYNUCLEOTIDE,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Lumi,Lumi Face Polynucleotide Skin Booster UK,,,1,,,1,1,
 BST:LUMI-PN-DUO,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Lumi,Lumi PN Duo Box Sophia Bailey Edition,,,1,,,1,1,
 BST:LUMI-PN-EYES-5ML,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Lumi,Lumi PN Eyes 1 X 1 5ml,1 x 5ml,,1,,,1,1,
-BST:LUMI-PN-FACE-5ML-X2,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Lumi,Lumi PN Face 1 X 2 5ml 2,2 x 5ml,,2,,,1,1,
+BST:LUMI-PN-FACE-5ML-X2,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Lumi,Lumi PN Face 1 X 2 5ml,2 x 5ml,,2,,,1,1,
 BST:LUMI-EYES-DERMAREN-POLYNUCLEOTIDE-1ML,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Lumi Eyes,Dermaren Lumi Eyes (1 x 1ml) UK | Polynucleotide Eye Booster,1 x 1ml,Lumi,1,,,1,1,
 BST:LUMI-EYES-DERMAREN-PRO-X10,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Lumi Eyes,Dermaren Lumi Eyes Pro x10 Bundle,10 x,Lumi,10,,,1,1,
 BST:LUMI-EYES-DERMAREN-X10-X10,Skin booster / PN / mesotherapy,Polynucleotide / PDRN,Lumi Eyes,Dermaren Lumi Eyes x10 Bundle,10 x,Lumi,10,,,1,1,
@@ -4015,7 +4014,7 @@ BST:TSK-NEEDLES-HUB-4MM-33G,Skin booster / PN / mesotherapy,Skin booster / mesot
 BST:TEOXANE-RHA-TOPICAL-4ML-X4,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Teoxane,Teoxane RHA Topical Skin Booster (4 x 4ml),4 x 4ml,,4,,,1,1,
 BST:TESORO-COLLAGEN-5ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Tesoro,TESORO Collagen Skin Booster,1 x 5ml,,1,,,1,1,
 BST:THE-PILLA-365MG,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),The,The Pilla 365mg Vial X1,1 x 365mgml,,1,,,1,2,
-BST:ULTI-PRO-JUST-1ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Ulti,Ulti Pro Just Eyes 1x1 1ml 2,1 x 1ml,,1,,,1,1,
+BST:ULTI-PRO-JUST-1ML,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Ulti,Ulti Pro Just Eyes 1x1 1ml,1 x 1ml,,1,,,1,1,
 BST:ULTRACOL-100MG,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Ultracol,Ultracol 100 (1 x 100mg) Vial,1 x 100mgml,,1,,,1,1,
 BST:ULTRACOL-200MG,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),Ultracol,Ultracol 200 (1 x 200mg) Vial,1 x 200mgml,,1,,,1,1,
 BST:V-TECH-SERUM-5ML-X3,Skin booster / PN / mesotherapy,Skin booster / mesotherapy (other),V,V Tech Serum 3x5ml Vials,3 x 5ml,,3,,,1,1,
@@ -5207,7 +5206,7 @@ SKN:CLINICAL-COVER-UP-5T-40ML,"Skincare, haircare & peels",Other skincare,Clinic
 SKN:CNC-COLLAGEN,"Skincare, haircare & peels",Other skincare,Cnc,Cnc Collagen,,,,,,1,1,
 SKN:CNC-POWDER-SOFT-30G,"Skincare, haircare & peels",Other skincare,Cnc,Cnc Powder Soft,30g,,,,,1,1,
 SKN:CNC-POWDER-STEM-CELL-HERBA-AVAILABLE-30G,"Skincare, haircare & peels",Other skincare,Cnc,Cnc Powder Stem Cell Herba,30g,,,,,1,1,
-SKN:COMPLEX-13-27ML,"Skincare, haircare & peels",Other skincare,Complex,Complex A 27ml 13,27ml,,,,,1,2,
+SKN:COMPLEX-13-27ML,"Skincare, haircare & peels",Other skincare,Complex,Complex A 27ml,27ml,,,,,1,2,
 SKN:COMPLEXION-RENEWAL-PADS-60CT-GBL,"Skincare, haircare & peels",Other skincare,Complexion,Complexion Renewal Pads 60ct Gbl,,,,,,1,2,
 SKN:COMPLEXION-SMOOTHING-CLARIFYING-PROGRAM,"Skincare, haircare & peels",Other skincare,Complexion,Complexion Smoothing And Clarifying Program,,,,,,1,2,
 SKN:CONCUR-ANTI-POLLUTION-FLUID,"Skincare, haircare & peels",Other skincare,Concur,Concur Anti-Pollution Fluid,,,,,,1,1,
@@ -5816,7 +5815,7 @@ SKN:WIQO-SMOOTHING-FACE-FLUID-30ML,"Skincare, haircare & peels",Other skincare,W
 SKN:WIQO-SMOOTHING-FLUID-30ML,"Skincare, haircare & peels",Other skincare,WiQo,WiQo Smoothing Fluid (1 x 30ml tube),30ml,,,,,1,1,
 SKN:WIQO-STARTER,"Skincare, haircare & peels",Other skincare,WiQo,WiQo Starter Bundle,,,,,,1,1,
 SKN:WIQO-THERAPY-BOX,"Skincare, haircare & peels",Other skincare,WiQo,WiQo Therapy Box,,,,,,1,1,
-SKN:WIQO-PRX-PLUS-5X-4ML,"Skincare, haircare & peels",Other skincare,WiQo,Wiqo Prx Plus 5x4ml 2,4ml,,,,,1,2,
+SKN:WIQO-PRX-PLUS-5X-4ML,"Skincare, haircare & peels",Other skincare,WiQo,Wiqo Prx Plus 5x4ml,4ml,,,,,1,2,
 SKN:WITCH-HAZEL,"Skincare, haircare & peels",Other skincare,Witch,Witch Hazel,,,,,,1,1,
 SKN:YOUTH-COMPLEX-30G,"Skincare, haircare & peels",Other skincare,Youth,Youth Complex 30g,30g,,,,,1,1,
 SKN:YOUTH-INTENSIVE-CREME,"Skincare, haircare & peels",Other skincare,Youth,Youth Intensive Creme,,,,,,1,1,
