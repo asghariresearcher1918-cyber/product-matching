@@ -181,7 +181,7 @@ def main():
     rows_out, qty_conflicts = [], []
     for uid, t in sorted(tax.items(), key=lambda kv: (kv[1]["subcategory_id"], kv[1]["product"])):
         p = prods.get(uid, {})
-        brand = p.get("brand", "") or "— no brand —"
+        brand = p.get("brand", "") or "non brand"
         src = (p.get("source", "") or "").strip()
         sups = sorted({l["supplier"] for l in idx.get(uid, []) if l["supplier"]})
         nameref = src if src.startswith("http") else ("pharmacy consensus: " + ", ".join(sups) if sups else "pharmacy consensus")
@@ -268,7 +268,7 @@ def main():
         if why:
             flagged += 1
             rv.append([t["product"], p.get("equivalence_group", "") or t["subcategory"], " ; ".join(why),
-                       p.get("brand", "") or "— no brand —", p.get("suppliers", ""), p.get("listings", "")])
+                       p.get("brand", "") or "non brand", p.get("suppliers", ""), p.get("listings", "")])
             for c in rv[rv.max_row]: c.font, c.alignment = SM, WRAP
     # pack-quantity conflicts between the name and the page (owner rule: read both, 100% agreement or report)
     for name, note, url in qty_conflicts:
