@@ -103,6 +103,19 @@ def vol_of(*texts):
     return ""
 
 
+def qty_of(name):
+    """Pack quantity read from the product/title when the DB has no vials_per_pack (consumables etc.):
+    'First Aid Kit 110 Piece' -> 110, '(125pcs)' -> 125, 'Pack of 50' -> 50, "10's" -> 10. Avoids blade/person numbers."""
+    for rx in (r"pack of\s*(\d+)", r"box of\s*(\d+)", r"(\d+)\s*(?:pieces?|pcs|ct\b|count|pairs?|sheets?|wipes?|swabs?|rolls?|tabs?|tablets?|caps?|sachets?)\b",
+               r"\b(\d+)\s*['’]s\b", r"(\d+)\s*pack\b", r"x\s*(\d+)\b"):
+        m = re.search(rx, name or "", re.I)
+        if m:
+            n = int(m.group(1))
+            if 2 <= n <= 10000:
+                return str(n)
+    return ""
+
+
 def main():
     target = sys.argv[1]
     want = target if target.startswith("C") or target == "WLM" else next((k for k, (lbl, _ic) in TOP.items() if lbl == target), None)
@@ -136,7 +149,7 @@ def main():
                 if pr:
                     price = pr; break
         crumb = f'{want} {label}' + (f' › {t["subcategory"]} ({t["subcategory_id"]})' if t["subcategory"] else "")
-        ps.append([t["product"], crumb, brand, vol_of(p.get("key_spec", ""), t["product"]), p.get("pack", ""),
+        ps.append([t["product"], crumb, brand, vol_of(p.get("key_spec", ""), t["product"]), p.get("pack", "") or qty_of(t["product"]),
                    "Yes (POM)" if pom else "No", p.get("suppliers", ""), p.get("listings", ""), price, nameref])
         for c in ps[ps.max_row]: c.font, c.alignment = SM, WRAP
         if nameref.startswith("http"):
