@@ -184,8 +184,8 @@ def main():
             why.append("active agent not stated — confirm with supplier")
         if "not a" in grp:
             why.append("grouped separately — confirm placement")
-        if man in ("", "not stated", "not named", "korea", "unknown"):
-            why.append("no manufacturer/importer — name from pharmacy consensus")
+        if want in ("C01", "C02", "C03", "C04") and man in ("", "not stated", "not named", "korea", "unknown"):
+            why.append("no manufacturer/importer — name from pharmacy consensus")   # only for branded injectables
         if why:
             flagged += 1
             rv.append([t["product"], p.get("equivalence_group", "") or t["subcategory"], " ; ".join(why),
