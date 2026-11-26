@@ -210,8 +210,12 @@ def main():
             qty, qnote = qty_confirm(t["product"], [l["id"] for l in idx.get(uid, [])])
             if qnote:
                 qty_conflicts.append((t["product"], qnote, (idx.get(uid, [{}])[0] or {}).get("url", "")))
+        rx = "Yes (POM)" if pom else "No"
+        if pom and re.search(r"\botc\b|pharmacy only|\bp[\s-]medicine|over[\s-]the[\s-]counter",
+                             f'{p.get("verified","")} {p.get("market","")} {p.get("man","")}', re.I):
+            rx = "No — Pharmacy (P) medicine"       # OTC/P item inside a POM category (e.g. Alli 60mg orlistat)
         ps.append([t["product"], crumb, brand, vol_of(p.get("key_spec", ""), t["product"]), qty,
-                   "Yes (POM)" if pom else "No", p.get("suppliers", ""), p.get("listings", ""), price, nameref])
+                   rx, p.get("suppliers", ""), p.get("listings", ""), price, nameref])
         for c in ps[ps.max_row]: c.font, c.alignment = SM, WRAP
         if nameref.startswith("http"):
             c = ps.cell(row=ps.max_row, column=10); c.hyperlink = nameref; c.font = LINK
