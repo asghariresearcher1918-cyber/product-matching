@@ -86,9 +86,29 @@ def pack_of(title, pid):
     return ""
 
 
+# Known real brands for clinic consumables/PPE. A consumable gets a brand ONLY if one of these appears in its
+# title; otherwise it is 'non brand' (owner rule: a real reference brand or nothing — never a generic first word
+# like 'Cold', 'Disposable', 'Sterile', 'Gauze'). Extend during the Clinical Consumables category review.
+KNOWN_BRANDS = {
+    "clinell": "Clinell", "clinisept": "Clinisept+", "sharpsguard": "Sharpsguard", "instrapac": "Instrapac",
+    "tegaderm": "Tegaderm", "vicryl": "Vicryl", "micropore": "Micropore", "transpore": "Transpore",
+    "macom": "Macom", "hibiscrub": "Hibiscrub", "hibiwash": "Hibiwash", "hydrex": "Hydrex", "mikrozid": "Mikrozid",
+    "timesco": "Timesco", "unodent": "UnoDent", "mepore": "Mepore", "opsite": "Opsite", "urgoclean": "Urgoclean",
+    "micro-touch": "Micro-Touch", "microtouch": "Micro-Touch", "medipal": "Medipal", "dettol": "Dettol",
+    "sterex": "Sterex", "spectricept": "Spectricept", "mediwipe": "Mediwipe", "koolpak": "Koolpak",
+    "azowipe": "Azowipe", "unigloves": "Unigloves", "polyco": "Polyco", "shermond": "Shermond", "nitile": "",
+    "softalind": "Softalind", "kimtech": "Kimtech", "premier": "Premier", "topper": "Topper", "mepilex": "Mepilex",
+    "steriwipe": "Steriwipe", "cliniwipe": "Cliniwipe", "medicom": "Medicom", "aquacel": "Aquacel",
+    "vernacare": "Vernacare", "swann-morton": "Swann-Morton", "swann morton": "Swann-Morton", "braun": "B. Braun",
+}
+
+
 def brand_of(t):
-    w = re.sub(r"[^A-Za-z0-9&+ -]", " ", t).split()
-    return (w[0] if w else "")
+    tl = t.lower()
+    for key, disp in KNOWN_BRANDS.items():
+        if disp and re.search(r"\b" + re.escape(key) + r"\b", tl):
+            return disp
+    return ""
 
 
 def namecore(title, brand, extra_skip=()):
@@ -123,23 +143,25 @@ def main():
             maps.append(dict(r, code="", sub="", brand="", decision="no title", confidence="review")); continue
         tl = title.lower()
         sub = subtype(title)
-        brand = brand_of(title)
+        raw = (re.sub(r"[^A-Za-z0-9&+ -]", " ", title).split() or [""])[0]   # first word: stable code identity only
+        brand = brand_of(title)                                             # DISPLAY brand: a real brand, else ''
         size = size_of(tl) or size_of(page_text(r["id"])[:400])
         pack = pack_of(title, r["id"])            # units per pack (name first, then page) - owner rule
         if sub == "Gloves":  # spec-based: material+size+colour, brand an attribute
             mat, sz, col, pf = glove_spec(tl)
             spec = " ".join(x for x in [mat, sz, col, pf] if x)
-            code = slug("GLOVE", mat, sz, col, pf) if (mat or sz) else slug("GLOVE", namecore(title, brand)[:20])
-            desc = f"Gloves; {spec or '?'}; brand {brand}"
+            code = slug("GLOVE", mat, sz, col, pf) if (mat or sz) else slug("GLOVE", namecore(title, raw)[:20])
+            desc = f"Gloves; {spec or '?'}" + (f"; brand {brand}" if brand else "")
             name = spec
             key_brand = brand
         else:
-            core = namecore(title, brand)
+            core = namecore(title, raw)
             # pack is part of a consumable's identity: a 4-pack and a 2-pack of the same item are different products.
             # only a real multipack (>=2) splits the code; single/unstated units keep the base code (no 'P1' noise).
+            # code uses the raw first word (stable identity) so fixing the DISPLAY brand never shifts uids.
             multipack = f"P{pack}" if (pack and int(pack) >= 2) else ""
-            code = slug(re.sub(r"[^A-Z]", "", sub.upper())[:6] or "CONS", brand[:14], core[:30], size, multipack)
-            desc = f"{sub}; {brand} {core}; {size or 'size?'}" + (f"; pack of {pack}" if pack else "")
+            code = slug(re.sub(r"[^A-Z]", "", sub.upper())[:6] or "CONS", raw[:14], core[:30], size, multipack)
+            desc = f"{sub}; {(brand + ' ') if brand else ''}{core}; {size or 'size?'}" + (f"; pack of {pack}" if pack else "")
             name = core
             key_brand = brand
         if not code:

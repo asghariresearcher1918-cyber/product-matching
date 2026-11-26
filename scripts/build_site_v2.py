@@ -70,21 +70,25 @@ def build_data():
         name = display_name(name, qty)                                 # distinguish pack variants of the same item
         nsup = int(r["suppliers"])
         offers = {sk: [] for sk in sorted(members.get(uid, []))}
+        supplier_names = ", ".join(supnames[sk] for sk in sorted(members.get(uid, [])) if sk in supnames) or "—"
+        cat_label = f'{disp}' + (f" › {sub}" if sub else "")
         made = f" Made by {r['manufacturer']}." if r["manufacturer"] else ""
-        avail = (f"Compared across {nsup} suppliers in our catalogue." if nsup > 1
-                 else "Currently listed by a single supplier (price comparison turns on when a second supplier carries it).")
-        desc = f"{name} — {disp}" + (f" › {sub}" if sub else "") + f".{made} {avail}"
-        details = [["Brand", r["brand"]], ["Manufacturer", r["manufacturer"]],
-                   ["Taxonomy", crumb], ["Primary category", f'{top} {TOP.get(top,["",""])[0]}'],
-                   ["Subcategory", f'{subid} {sub}'.strip()],
-                   ["Size (volume / strength)", size], ["Pack (units per pack)", qty],
-                   ["Supplier category (as listed)", t["supplier_category"]],
-                   ["Suppliers (our catalogue)", str(nsup)]]
-        if pom:
-            details.append(["Legal", "Prescription-only (POM) — price shown to verified professionals only"])
+        avail_txt = ("Compared across %d suppliers in our catalogue." % nsup if nsup > 1
+                     else "Currently listed by a single supplier (price comparison turns on when a second supplier carries it).")
+        desc = f"{name} — {disp}" + (f" › {sub}" if sub else "") + f".{made} {avail_txt}"
+        # fixed product-page layout (owner spec): these seven rows always shown, in this order; Size left blank when
+        # the product has no volume/strength; Official reference appended when a licence/SmPC link exists.
+        details = [
+            ["Category", cat_label],
+            ["Brand", r["brand"] or "non brand"],
+            ["Size (volume / strength)", size],
+            ["Pack (units per pack)", qty],
+            ["Supplier", supplier_names],
+            ["Prescription", "Required" if pom else "Not required"],
+            ["Availability", "In stock" if nsup >= 1 else "Out of stock"],
+        ]
         if r["source"].startswith("http"):
             details.append(["Official reference", r["source"]])
-        details = [[k, v] for k, v in details if v]
         PRODUCTS[pkey(uid)] = {"name": name, "pack": pack_label(size, qty), "size": size, "qty": qty,
                                "category": disp, "group": sub or t["primary_category"],
                                "pom": pom, "suppliers": nsup, "defaultQty": 1, "offers": offers,
@@ -129,10 +133,10 @@ def main():
   function esc(s){ return (s==null?'':String(s)).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
   function buildAbout(p){
     var h='<div class="pa-title">About this product</div>';
-    if(p.desc) h+='<p class="pa-desc">'+esc(p.desc)+'</p>';
     if(p.details&&p.details.length){ h+='<dl class="pa-details">';
       p.details.forEach(function(d){ var v=(d[0]==='Official reference')?'<a href="'+esc(d[1])+'" target="_blank" rel="noopener">View official source ↗</a>':esc(d[1]);
-        h+='<dt>'+esc(d[0])+'</dt><dd>'+v+'</dd>'; }); h+='</dl>'; }
+        h+='<dt>'+esc(d[0])+'</dt><dd>'+(v===''?'—':v)+'</dd>'; }); h+='</dl>'; }
+    if(p.desc){ h+='<div class="pa-sec">Description</div><p class="pa-desc">'+esc(p.desc)+'</p>'; }
     if(p.examples&&p.examples.length){ h+='<div class="pa-examples"><div class="pa-ex-label">Listed by suppliers as</div><ul>'+
       p.examples.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div>'; }
     return h;
@@ -143,6 +147,7 @@ def main():
   .p-about{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:18px 20px;margin-top:18px;}
   .pa-title{font-family:var(--font-display);font-size:18px;font-weight:600;margin-bottom:10px;}
   .pa-desc{margin:0 0 14px;color:var(--ink-soft);max-width:68ch;}
+  .pa-sec{font-weight:600;color:var(--ink-faint);margin:16px 0 6px;text-transform:uppercase;letter-spacing:.04em;font-size:11px;}
   .pa-details{display:grid;grid-template-columns:max-content 1fr;gap:7px 20px;margin:0;font-size:14px;}
   .pa-details dt{color:var(--ink-faint);font-weight:600;}
   .pa-details dd{margin:0;color:var(--ink);min-width:0;word-break:break-word;}
