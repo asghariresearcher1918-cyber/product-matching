@@ -214,9 +214,18 @@ def main():
     for m in csv.DictReader(open(FINAL / "master_listing_index.csv", encoding="utf-8")):
         supcat.setdefault(m["uid"], m.get("supplier_category", "") or "")
 
+    # owner taxonomy corrections (uid -> primary/subcategory), highest priority
+    fixes = {}
+    fp = ROOT / "data/taxonomy_fixes.csv"
+    if fp.exists():
+        fixes = {r["uid"]: r for r in csv.DictReader(open(fp, encoding="utf-8"))}
+
     out, counts, status_counts = [], collections.Counter(), collections.Counter()
     for r in rows:
         pid, sub, status, reason = classify(r["category"], r["equivalence_group"], r["product"])
+        fx = fixes.get(r["uid"])
+        if fx:
+            pid, sub, status, reason = fx["primary_category_id"], fx.get("subcategory_id", ""), "CLASSIFIED", "owner taxonomy fix: " + fx.get("note", "")
         # owner rule: a known primary category with no fitting subcategory is CLASSIFIED (empty subcategory is acceptable).
         # Keep REVIEW only for genuine decisions that need evidence (e.g. glutathione/NAD+ legal status, rule 4).
         genuine = any(k in reason.lower() for k in ("rule 4", "legal status", "evidence"))
