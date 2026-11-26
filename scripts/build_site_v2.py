@@ -5,6 +5,8 @@ breadcrumb (primary category > subcategory) and its taxonomy IDs. Prices still p
 Usage: python -I scripts/build_site_v2.py <prototype.html>"""
 import collections, csv, json, re, sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pack_size import size_of, resolve_pack, pack_label
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = Path(sys.argv[1])
@@ -34,7 +36,9 @@ def sslug(s): return re.sub(r"[^a-z0-9]+", "", s.lower())[:24] or "sup"
 def pkey(uid): return re.sub(r"[^A-Za-z0-9]+", "_", uid).strip("_")
 
 
-def main():
+def build_data():
+    """Build the PRODUCTS and SUPPLIERS front-end objects from the master catalogue + v2 taxonomy.
+    Shared by the full site build (main) and the data-only patcher, so pack/size are defined once."""
     prods = {r["uid"]: r for r in csv.DictReader(open(ROOT / "catalogue/final/master_catalogue.csv", encoding="utf-8"))}
     tax = {r["uid"]: r for r in csv.DictReader(open(ROOT / "catalogue/final/taxonomy_v2.csv", encoding="utf-8"))}
 
@@ -61,6 +65,8 @@ def main():
         pom = top in POM_TOP
         name = (r["product"] or uid).strip()
         pack = r["key_spec"]
+        size = size_of(r["key_spec"], name) or (r["key_spec"] or "")   # volume / strength
+        qty, _packflag = resolve_pack(name, r["pack"])                 # units per pack (owner rule: name-first)
         nsup = int(r["suppliers"])
         offers = {sk: [] for sk in sorted(members.get(uid, []))}
         made = f" Made by {r['manufacturer']}." if r["manufacturer"] else ""
@@ -69,7 +75,8 @@ def main():
         desc = f"{name} — {disp}" + (f" › {sub}" if sub else "") + f".{made} {avail}"
         details = [["Brand", r["brand"]], ["Manufacturer", r["manufacturer"]],
                    ["Taxonomy", crumb], ["Primary category", f'{top} {TOP.get(top,["",""])[0]}'],
-                   ["Subcategory", f'{subid} {sub}'.strip()], ["Pack size", pack],
+                   ["Subcategory", f'{subid} {sub}'.strip()],
+                   ["Size (volume / strength)", size], ["Pack (units per pack)", qty],
                    ["Supplier category (as listed)", t["supplier_category"]],
                    ["Suppliers (our catalogue)", str(nsup)]]
         if pom:
@@ -77,10 +84,15 @@ def main():
         if r["source"].startswith("http"):
             details.append(["Official reference", r["source"]])
         details = [[k, v] for k, v in details if v]
-        PRODUCTS[pkey(uid)] = {"name": name, "pack": "", "category": disp, "group": sub or t["primary_category"],
+        PRODUCTS[pkey(uid)] = {"name": name, "pack": pack_label(size, qty), "size": size, "qty": qty,
+                               "category": disp, "group": sub or t["primary_category"],
                                "pom": pom, "suppliers": nsup, "defaultQty": 1, "offers": offers,
                                "desc": desc, "details": details, "examples": examples.get(uid, [])}
+    return PRODUCTS, SUPPLIERS
 
+
+def main():
+    PRODUCTS, SUPPLIERS = build_data()
     html = SRC.read_text(encoding="utf-8")
     js_sup = "var SUPPLIERS = " + json.dumps(SUPPLIERS, ensure_ascii=False) + ";"
     js_prd = "var PRODUCTS = " + json.dumps(PRODUCTS, ensure_ascii=False, separators=(",", ":")) + ";"
