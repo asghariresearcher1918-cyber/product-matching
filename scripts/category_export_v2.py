@@ -103,17 +103,60 @@ def vol_of(*texts):
     return ""
 
 
-def qty_of(name):
-    """Pack quantity read from the product/title when the DB has no vials_per_pack (consumables etc.):
-    'First Aid Kit 110 Piece' -> 110, '(125pcs)' -> 125, 'Pack of 50' -> 50, "10's" -> 10. Avoids blade/person numbers."""
-    for rx in (r"pack of\s*(\d+)", r"box of\s*(\d+)", r"(\d+)\s*(?:pieces?|pcs|ct\b|count|pairs?|sheets?|wipes?|swabs?|rolls?|tabs?|tablets?|caps?|sachets?)\b",
-               r"\b(\d+)\s*['’]s\b", r"(\d+)\s*pack\b", r"x\s*(\d+)\b"):
-        m = re.search(rx, name or "", re.I)
+_QTY = (r"pack of\s*(\d+)", r"box of\s*(\d+)", r"contains?\s*(\d+)", r"quantity[:\s]*(\d+)",
+        r"(\d+)\s*(?:pieces?|pcs|ct\b|count|pairs?|sheets?|wipes?|swabs?|rolls?|tabs?|tablets?|caps?|sachets?)\b",
+        r"\b(\d+)\s*['’]s\b", r"(\d+)\s*pack\b", r"x\s*(\d+)\b")
+
+
+def _qty_scan(text):
+    for rx in _QTY:
+        m = re.search(rx, text or "", re.I)
         if m:
             n = int(m.group(1))
             if 2 <= n <= 10000:
                 return str(n)
     return ""
+
+
+def qty_of(name):
+    """Pack quantity from the product/title. 'pack of N'/'box of N' count from 1 (explicit single), others from 2."""
+    for rx, mn in ((r"pack of\s*(\d+)", 1), (r"box of\s*(\d+)", 1),
+                   (r"(\d+)\s*(?:pieces?|pcs|ct\b|count|pairs?|sheets?|wipes?|swabs?|rolls?|tabs?|tablets?|caps?|sachets?)\b", 2),
+                   (r"\b(\d+)\s*['’]s\b", 2), (r"(\d+)\s*pack\b", 2), (r"x\s*(\d+)\b", 2)):
+        m = re.search(rx, name or "", re.I)
+        if m and mn <= int(m.group(1)) <= 10000:
+            return str(int(m.group(1)))
+    return ""
+
+
+_QTY_STRONG = (r"pack of\s*(\d+)", r"box of\s*(\d+)", r"contains?\s*(\d+)", r"quantity[:\s]*(\d+)",
+               r"(\d+)\s*(?:pieces?|pcs|swabs?|wipes?|sheets?|pairs?|rolls?|sachets?)\b")
+
+
+def _qty_page(text):
+    """Only STRONG pack phrases on the page (pack of/box of/contains/N pieces) - avoids stray numbers like weights,
+    delivery thresholds and prices that a loose scan would grab."""
+    for rx in _QTY_STRONG:
+        m = re.search(rx, text or "", re.I)
+        if m:
+            n = int(m.group(1))
+            if 2 <= n <= 10000:
+                return str(n)
+    return ""
+
+
+def qty_confirm(name, ids):
+    """Owner rule (all categories): read the pack from the NAME, then CONFIRM against the whole PAGE. Agreement -> 100%
+    certain. Conflict -> report. Name silent -> leave blank (do NOT guess from a page scan that can grab unrelated
+    numbers). Returns (qty, conflict_note)."""
+    nq = qty_of(name)
+    if not nq:
+        return "", ""
+    for i in ids:
+        pq = _qty_page(page_text(i))
+        if pq and pq != nq:
+            return nq, f"QTY CONFLICT — name says {nq}, page says {pq}; confirm"
+    return nq, ""
 
 
 def main():
@@ -134,7 +177,7 @@ def main():
               "Suppliers", "Listings", "Public price (if shown)", "Name reference (name source)"],
          [38, 34, 18, 12, 10, 12, 10, 9, 16, 40])
     pom = want in POM_TOP
-    rows_out = []
+    rows_out, qty_conflicts = [], []
     for uid, t in sorted(tax.items(), key=lambda kv: (kv[1]["subcategory_id"], kv[1]["product"])):
         p = prods.get(uid, {})
         brand = p.get("brand", "") or "— no brand —"
@@ -149,7 +192,13 @@ def main():
                 if pr:
                     price = pr; break
         crumb = f'{want} {label}' + (f' › {t["subcategory"]} ({t["subcategory_id"]})' if t["subcategory"] else "")
-        ps.append([t["product"], crumb, brand, vol_of(p.get("key_spec", ""), t["product"]), p.get("pack", "") or qty_of(t["product"]),
+        if p.get("pack"):
+            qty = p["pack"]                                  # branded: matcher already read name+page+image
+        else:
+            qty, qnote = qty_confirm(t["product"], [l["id"] for l in idx.get(uid, [])])
+            if qnote:
+                qty_conflicts.append((t["product"], qnote, (idx.get(uid, [{}])[0] or {}).get("url", "")))
+        ps.append([t["product"], crumb, brand, vol_of(p.get("key_spec", ""), t["product"]), qty,
                    "Yes (POM)" if pom else "No", p.get("suppliers", ""), p.get("listings", ""), price, nameref])
         for c in ps[ps.max_row]: c.font, c.alignment = SM, WRAP
         if nameref.startswith("http"):
@@ -204,6 +253,13 @@ def main():
             rv.append([t["product"], p.get("equivalence_group", "") or t["subcategory"], " ; ".join(why),
                        p.get("brand", "") or "— no brand —", p.get("suppliers", ""), p.get("listings", "")])
             for c in rv[rv.max_row]: c.font, c.alignment = SM, WRAP
+    # pack-quantity conflicts between the name and the page (owner rule: read both, 100% agreement or report)
+    for name, note, url in qty_conflicts:
+        flagged += 1
+        rv.append([name, "pack quantity", note, "", "", "name vs page conflict"])
+        for c in rv[rv.max_row]: c.font, c.alignment = SM, WRAP
+        if str(url).startswith("http"):
+            c = rv.cell(row=rv.max_row, column=1); c.hyperlink = url; c.font = LINK
     # listing-level review rows (pack/volume/bundle conflicts that could not be auto-resolved) from this category's maps
     STEM_V2 = {"toxin": "C02", "filler": "C01", "booster": "C03", "biostim": "C03", "fat": "C04", "thread": "C05",
                "weight": "WLM", "medicine": "C08", "skincare": "C06", "needle": "C10", "consumable": "C10",
