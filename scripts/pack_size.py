@@ -49,6 +49,16 @@ def resolve_pack(name, catalogue_pack):
     return cp, ""
 
 
+def display_name(name, qty):
+    """Append '(pack of N)' to a product name when it is a real multipack and the name does not already carry the
+    count, so two pack variants of the same item are distinguishable (owner rule: pack belongs in the name)."""
+    name = name or ""
+    q = str(qty or "")
+    if q and q not in ("", "1") and q not in name and not re.search(r"\(.*pack.*\)", name, re.I):
+        return f"{name} (pack of {q})"
+    return name
+
+
 def pack_label(size, qty):
     """Short human label for a product subtitle: 'size · pack of N'. A single-unit pack adds no 'pack of 1' noise."""
     bits = []

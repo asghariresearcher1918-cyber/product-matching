@@ -6,7 +6,7 @@ Usage: python -I scripts/build_site_v2.py <prototype.html>"""
 import collections, csv, json, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from pack_size import size_of, resolve_pack, pack_label
+from pack_size import size_of, resolve_pack, pack_label, display_name
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = Path(sys.argv[1])
@@ -67,6 +67,7 @@ def build_data():
         pack = r["key_spec"]
         size = size_of(r["key_spec"], name) or (r["key_spec"] or "")   # volume / strength
         qty, _packflag = resolve_pack(name, r["pack"])                 # units per pack (owner rule: name-first)
+        name = display_name(name, qty)                                 # distinguish pack variants of the same item
         nsup = int(r["suppliers"])
         offers = {sk: [] for sk in sorted(members.get(uid, []))}
         made = f" Made by {r['manufacturer']}." if r["manufacturer"] else ""

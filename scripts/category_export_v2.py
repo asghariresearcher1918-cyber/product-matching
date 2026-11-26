@@ -15,6 +15,7 @@ except Exception:
     def page_text(_i): return ""
     def labelled_fields(_t): return {}
 from build_site_v2 import TOP, POM_TOP, top_of
+from pack_size import display_name
 
 ROOT = Path(__file__).resolve().parent.parent
 FINAL = ROOT / "catalogue/final"
@@ -214,7 +215,7 @@ def main():
         if pom and re.search(r"\botc\b|pharmacy only|\bp[\s-]medicine|over[\s-]the[\s-]counter",
                              f'{p.get("verified","")} {p.get("market","")} {p.get("man","")}', re.I):
             rx = "No — Pharmacy (P) medicine"       # OTC/P item inside a POM category (e.g. Alli 60mg orlistat)
-        ps.append([t["product"], crumb, brand, vol_of(p.get("key_spec", ""), t["product"]), qty,
+        ps.append([display_name(t["product"], qty), crumb, brand, vol_of(p.get("key_spec", ""), t["product"]), qty,
                    rx, p.get("suppliers", ""), p.get("listings", ""), price, nameref])
         for c in ps[ps.max_row]: c.font, c.alignment = SM, WRAP
         if nameref.startswith("http"):

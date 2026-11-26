@@ -69,6 +69,23 @@ def size_of(t):
     return re.sub(r"\s+", "", m.group(0).lower()) if m else ""
 
 
+def pack_of(title, pid):
+    """Units per pack, read from the NAME first then the whole PAGE (owner rule: 100% certainty, never guessed).
+    Shops state it as 'Size: 1 x 4', 'Size - pack of 2', 'pack of N', 'N pcs', etc. 'A x B' = B units per pack."""
+    for src in (title, page_text(pid)):
+        t = (src or "").lower()
+        m = re.search(r"size\s*[:\-]?\s*(\d{1,4})\s*x\s*(\d{1,4})", t) or re.search(r"\b(\d{1,4})\s*x\s*(\d{1,4})\b", t)
+        if m:
+            return str(int(m.group(2)))
+        m = re.search(r"pack of\s*(\d{1,4})|box of\s*(\d{1,4})|size\s*[:\-]?\s*(\d{2,4})\s*(?:pcs|pieces?|pack)", t)
+        if m:
+            return str(int(next(g for g in m.groups() if g)))
+        m = re.search(r"\b(\d{1,4})\s*(?:pcs|pieces?|pairs?|sheets?|wipes?|swabs?|rolls?|sachets?|['’]s)\b", t)
+        if m and 2 <= int(m.group(1)) <= 10000:
+            return str(int(m.group(1)))
+    return ""
+
+
 def brand_of(t):
     w = re.sub(r"[^A-Za-z0-9&+ -]", " ", t).split()
     return (w[0] if w else "")
@@ -108,6 +125,7 @@ def main():
         sub = subtype(title)
         brand = brand_of(title)
         size = size_of(tl) or size_of(page_text(r["id"])[:400])
+        pack = pack_of(title, r["id"])            # units per pack (name first, then page) - owner rule
         if sub == "Gloves":  # spec-based: material+size+colour, brand an attribute
             mat, sz, col, pf = glove_spec(tl)
             spec = " ".join(x for x in [mat, sz, col, pf] if x)
@@ -117,20 +135,23 @@ def main():
             key_brand = brand
         else:
             core = namecore(title, brand)
-            code = slug(re.sub(r"[^A-Z]", "", sub.upper())[:6] or "CONS", brand[:14], core[:30], size)
-            desc = f"{sub}; {brand} {core}; {size or 'size?'}"
+            # pack is part of a consumable's identity: a 4-pack and a 2-pack of the same item are different products.
+            # only a real multipack (>=2) splits the code; single/unstated units keep the base code (no 'P1' noise).
+            multipack = f"P{pack}" if (pack and int(pack) >= 2) else ""
+            code = slug(re.sub(r"[^A-Z]", "", sub.upper())[:6] or "CONS", brand[:14], core[:30], size, multipack)
+            desc = f"{sub}; {brand} {core}; {size or 'size?'}" + (f"; pack of {pack}" if pack else "")
             name = core
             key_brand = brand
         if not code:
             maps.append(dict(r, code="", sub=sub, brand=brand, decision="could not parse - review", confidence="review")); continue
         conf = "high" if (sub != "Consumable (other)" and (name or size)) else ("rule" if sub != "Consumable (other)" else "partial")
         maps.append(dict(r, code=code, sub=sub, brand=key_brand, decision=desc, confidence=conf))
-        p = prods.setdefault(code, dict(code=code, subtype=sub, name=name, size=size, brands=set(), suppliers=set(), listings=0))
+        p = prods.setdefault(code, dict(code=code, subtype=sub, name=name, size=size, pack=pack, brands=set(), suppliers=set(), listings=0))
         p["brands"].add(key_brand); p["suppliers"].add(r["supplier"]); p["listings"] += 1
     for p in prods.values():
         p["supplier_n"] = len(p["suppliers"]); p["brands"] = "; ".join(sorted(b for b in p["brands"] if b)[:6]); p["suppliers"] = len(p["suppliers"])
     out = ROOT / "catalogue/final"; out.mkdir(parents=True, exist_ok=True)
-    pc = ["code", "subtype", "name", "size", "brands", "supplier_n", "listings"]
+    pc = ["code", "subtype", "name", "size", "pack", "brands", "supplier_n", "listings"]
     with open(out / "consumable_products.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=pc, extrasaction="ignore"); w.writeheader()
         w.writerows(sorted(prods.values(), key=lambda p: (p["subtype"], p["code"])))

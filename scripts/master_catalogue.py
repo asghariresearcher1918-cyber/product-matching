@@ -66,7 +66,7 @@ def needle(r): return dict(group=g(r, "subtype"), brand=g(r, "brands"), product=
                            spec=join(g(r, "gauge"), g(r, "length"), g(r, "volume"), g(r, "luer"), "x" + g(r, "pack") if g(r, "pack") not in ("", "1") else ""),
                            man="", pack=g(r, "pack"), market="", verified="", source="")
 def consumable(r): return dict(group=g(r, "subtype"), brand=g(r, "brands"), product=join(g(r, "subtype"), g(r, "name")),
-                               spec=g(r, "size"), man="", pack="", market="", verified="", source="")
+                               spec=g(r, "size"), man="", pack=g(r, "pack"), market="", verified="", source="")
 def device(r): return dict(group=g(r, "subtype"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "name")),
                            spec=g(r, "kind"), man="", pack="", market="", verified="", source="")
 def simple(r): return dict(group=g(r, "subtype"), brand=g(r, "brand"), product=join(g(r, "brand"), g(r, "name")),
