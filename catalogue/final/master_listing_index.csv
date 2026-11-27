@@ -9741,7 +9741,7 @@ CON:CONTAI-DISPOTRAY-TRAY-LINERS-WHITE-146MM,Clinic consumables & PPE,MedFX,"Dis
 CON:CONTAI-DISPOTRAY-TRAY-LINERS-WHITE-190MM,Clinic consumables & PPE,MedFX,DispoTray Tray Liners 290 x 190mm White,https://www.medfx.co.uk/consumables/tray-liner/cud010--dispotray-liners-290-x-190mm-white/,high
 CON:CONTAI-TRAY-LINING-PAPER-UNCOATED-275MM,Clinic consumables & PPE,MedFX,"Tray Lining Paper (Tray Liners) - Uncoated 275mm x 175mm (11"" x 7"")",https://www.medfx.co.uk/consumables/tray-liner/cud060--tray-lining-paper--uncoated-275-x-175mm/,high
 CON:CONTAI-TRAY-LINING-PAPER-UNCOATED-275MM,Clinic consumables & PPE,MedFX,"Tray Lining Paper (Tray Liners) - Uncoated 275mm x 175mm (11"" x 7"")",https://www.medfx.co.uk/consumables/tray-liner/cud070--tray-lining-paper-tray-liners--uncoated-275mm-x-175mm-11-x-7/,high
-CON:DRESSI-DRESSING,Clinic consumables & PPE,MedFX,Dressing Pack - Sterile,https://www.medfx.co.uk/cpr--first-aid/plasters--bandages/ccs610--dressing-pack--sterile/,rule
+CON:DRESSI-DRESSING-P3,Clinic consumables & PPE,MedFX,Dressing Pack - Sterile,https://www.medfx.co.uk/cpr--first-aid/plasters--bandages/ccs610--dressing-pack--sterile/,rule
 CON:DRESSI-WATERPROOF-PLASTERS-4CM,Clinic consumables & PPE,MedFX,Waterproof Plasters 4cm x 4cm,https://www.medfx.co.uk/cpr--first-aid/plasters--bandages/nfe110---waterproof-plasters-4cm-x-4cm/,high
 CON:DRESSI-WATERPROOF-PLASTER-7CM,Clinic consumables & PPE,MedFX,Waterproof Plaster 7cm x 2cm,https://www.medfx.co.uk/cpr--first-aid/plasters--bandages/nfe111---waterproof-plaster-7cm-x-2cm/,high
 CON:CONSUM-GTN-GLYCERYL-TRINITRATE-SUBLINGUAL,Clinic consumables & PPE,MedFX,GTN - Glyceryl Trinitrate Sublingual Spray,https://www.medfx.co.uk/cpr--first-aid/cardiac/aen010--gtn--glyceryl-trinitrate-sublingual-spray/,partial
@@ -9893,7 +9893,7 @@ CON:PAPERT-ALVITA-TISSUES-WHITE-P150,Clinic consumables & PPE,Church Pharmacy,al
 CON:DRESSI-AMETOP-DISPENSING-TUBES-24-FLEXIGRID-15G,Clinic consumables & PPE,Church Pharmacy,ametop dispensing pack 12x 15g tubes and 24 flexigrid dressings,https://store.churchpharmacy.co.uk/product/ametop-dispensing-pack-12x-15g-tubes-and-24-flexigrid-dressings-102269,high
 CON:DIAGNO-AQ-ENDOTEST-50ML,Clinic consumables & PPE,Church Pharmacy,aq endotest,https://store.churchpharmacy.co.uk/product/aq-endotest-117274,high
 CON:DRESSI-AQUACEL-NONADHESIVE-FOAM-DRESSINGS-5CM-P10,Clinic consumables & PPE,Church Pharmacy,aquacel nonadhesive foam dressings 5cm x 5cm,https://store.churchpharmacy.co.uk/product/aquacel-nonadhesive-foam-dressings-5cm-x-5cm-121664,high
-CON:FIRSTA-ASTROPLAST-MICRO-TRAVEL-FIRST-AID,Clinic consumables & PPE,Church Pharmacy,astroplast micro travel first aid kit,https://store.churchpharmacy.co.uk/product/astroplast-micro-travel-first-aid-kit-116813,high
+CON:FIRSTA-ASTROPLAST-MICRO-TRAVEL-FIRST-AID-P6,Clinic consumables & PPE,Church Pharmacy,astroplast micro travel first aid kit,https://store.churchpharmacy.co.uk/product/astroplast-micro-travel-first-aid-kit-116813,high
 CON:ANTISE-AZO-WIPES-P200,Clinic consumables & PPE,Church Pharmacy,azo wipes,https://store.churchpharmacy.co.uk/product/azo-wipes-9564,high
 CON:IVBLOO-B-BRAUN-INTRAFIX-PRIMELINE-GRAVI-4062981L-P100,Clinic consumables & PPE,Church Pharmacy,b braun intrafix primeline gravity iv set,https://store.churchpharmacy.co.uk/product/b-braun-intrafix-primeline-gravity-iv-set-115664,high
 CON:ANTISE-BABY-WIPES-FRAGRANCE,Clinic consumables & PPE,Church Pharmacy,baby wipes fragrance free,https://store.churchpharmacy.co.uk/product/baby-wipes-fragrance-free-117320,high
@@ -10456,7 +10456,7 @@ CON:CONSUM-HEALGEN-ANTIGEN-COVID-19-LATERAL,Clinic consumables & PPE,Dr. Adams P
 CON:CONSUM-MULTI-DRUG-TEST-KIT,Clinic consumables & PPE,Dr. Adams Pharmacy,Multi Drug Test Kit,https://www.dradamspharmacy.co.uk/products/view/454,partial
 CON:GLOVE-NITRILE-M,Clinic consumables & PPE,Dr. Adams Pharmacy,Nitrile Gloves (Medium),https://www.dradamspharmacy.co.uk/products/view/448,high
 CON:CONSUM-STREP-TESTS,Clinic consumables & PPE,Dr. Adams Pharmacy,Strep A Tests,https://www.dradamspharmacy.co.uk/products/view/451,partial
-CON:ANTISE-100-RESMED-DISINFECTION-SWABS,Clinic consumables & PPE,Skin On You,100 x ResMed Disinfection Swabs,https://skinonyou.com/shop/100-x-resmed-disinfection-swabs/,high
+CON:ANTISE-100-RESMED-DISINFECTION-SWABS-P100,Clinic consumables & PPE,Skin On You,100 x ResMed Disinfection Swabs,https://skinonyou.com/shop/100-x-resmed-disinfection-swabs/,high
 CON:ANTISE-COPY-CLINISEPT-AFTERCARE-100ML,Clinic consumables & PPE,AestheticSource,copy of clinisept aftercare 100ml,https://www.aestheticsource.com/products/copy-of-clinisept-aftercare-100ml,high
 CON:ANTISE-CLINISEPT-SKIN-PUMP-BOTTLE-490ML,Clinic consumables & PPE,AestheticSource,"Clinisept+ Skin Pump Bottle, 490ml",https://www.aestheticsource.com/products/copy-of-clinisept-prep-procedure-pump-bottle-500ml-1,high
 CON:CONSUM-RESTORE-PHA-RENEWAL-PADS,Clinic consumables & PPE,AestheticSource,Restore PHA Renewal Pads,https://www.aestheticsource.com/products/neostrata%C2%AE-restore-pha-renewal-pads,partial
@@ -10536,13 +10536,13 @@ CON:CONTAI-500MM-GRADUATED-KIDNEY-DISH-1PCS-500MM,Clinic consumables & PPE,Two F
 CON:ANTISE-CLINISEPT-AFTERCARE-100ML,Clinic consumables & PPE,Two Face Aesthetics,Clinisept+ Aftercare 100ml,https://www.twofaceaesthetics.com/products/clinisept-aftercare-100ml,high
 CON:ANTISE-CLINISEPT-PREP-PROCEDURE-500ML,Clinic consumables & PPE,Two Face Aesthetics,clinisept prep procedure 500ml,https://www.twofaceaesthetics.com/products/clinisept-prep-procedure-500ml,high
 CON:GOWNAP-DISPOSABLE-APRONS-WHITE-200,Clinic consumables & PPE,Two Face Aesthetics,Disposable Aprons -White- 200,https://www.twofaceaesthetics.com/products/disposable-aprons-white-16-micron-x-100,high
-CON:PAPERT-DISPOSABLE-BIB-FACE-TISSUE,Clinic consumables & PPE,Two Face Aesthetics,Disposable Bib/Face Tissue (Black),https://www.twofaceaesthetics.com/products/disposable-bib-face-tissue-black,high
+CON:PAPERT-DISPOSABLE-BIB-FACE-TISSUE-P250,Clinic consumables & PPE,Two Face Aesthetics,Disposable Bib/Face Tissue (Black),https://www.twofaceaesthetics.com/products/disposable-bib-face-tissue-black,high
 CON:GLOVE-NITRILE,Clinic consumables & PPE,Two Face Aesthetics,Disposable Nitrile Gloves,https://www.twofaceaesthetics.com/products/disposable-nitrile-gloves-s-case,high
 CON:DRESSI-FINEPORE-SURGICAL-TAPE-25CMX9-1M-9.1M,Clinic consumables & PPE,Two Face Aesthetics,Finepore Surgical Tape 1.25cmx9.1m - 1 pcs,https://www.twofaceaesthetics.com/products/finepore-surgical-tape-1-25cmx9-1m-1-pcs,high
 CON:FACEMA-FLUID-RESISTANT-SURGICAL-FACE-MASKS-P50,Clinic consumables & PPE,Two Face Aesthetics,Fluid Resistant Surgical Face Masks Type IIR (Box of 50 Masks),https://www.twofaceaesthetics.com/products/fluid-resistant-surgical-face-masks-type-iir-box-of-50-masks-wondo,high
 CON:GAUZES-GAUZE-SWABS-10X-100PCS-10CM-P100,Clinic consumables & PPE,Two Face Aesthetics,Gauze Swabs - 10x10cm 100pcs,https://www.twofaceaesthetics.com/products/gauze-swabs-10x10cm-100pcs,high
 CON:GAUZES-GAUZE-SWABS-5X-100PCS-5CM-P100,Clinic consumables & PPE,Two Face Aesthetics,Gauze Swabs - 5x5cm 100pcs,https://www.twofaceaesthetics.com/products/gauze-swabs-5x5cm-100pcs,high
-CON:CONSUM-ICE-GLOBES-PINK,Clinic consumables & PPE,Two Face Aesthetics,ice globes pink,https://www.twofaceaesthetics.com/products/ice-globes-pink,partial
+CON:CONSUM-ICE-GLOBES-PINK-P2,Clinic consumables & PPE,Two Face Aesthetics,ice globes pink,https://www.twofaceaesthetics.com/products/ice-globes-pink,partial
 CON:HOTCOL-INSTANT-ICE,Clinic consumables & PPE,Two Face Aesthetics,Instant Ice Pack,https://www.twofaceaesthetics.com/products/instant-ice-pack,high
 CON:DRESSI-INSTRAPAC-DRESSING-SCISSORS-BLUNT-13CM,Clinic consumables & PPE,Two Face Aesthetics,Instrapac Dressing Scissors 13cm Blunt/Blunt,https://www.twofaceaesthetics.com/products/instrapac-dressing-scissors-13cm-blunt-blunt,high
 CON:DRESSI-INSTRAPAC-DRESSING-SCISSORS-SHARP-13CM,Clinic consumables & PPE,Two Face Aesthetics,Instrapac Dressing Scissors 13cm Sharp/Sharp,https://www.twofaceaesthetics.com/products/instrapac-dressing-scissors-13cm-sharp-sharp,high
@@ -10659,8 +10659,8 @@ CON:BLADES-STERILE-SCALPEL-NO-14-BLADE,Clinic consumables & PPE,Ask Pharmacy,ste
 CON:CONSUM-STAINLESS-STEEL-GRADUATED-SURGICAL-HANDL,Clinic consumables & PPE,Ask Pharmacy,stainless steel graduated surgical handle no 3,https://ask-pharmacy.co.uk/product/stainless-steel-graduated-surgical-handle-no-3/,partial
 CON:GLOVE-CLEAR-POWDER-EXAMINA,Clinic consumables & PPE,Ask Pharmacy,gloves clear powder free examination gloves,https://ask-pharmacy.co.uk/product/gloves-clear-powder-free-examination-gloves/,high
 CON:GLOVE-NITRILE-M-BLACK,Clinic consumables & PPE,Ask Pharmacy,black nitrile gloves medium,https://ask-pharmacy.co.uk/product/black-nitrile-gloves-medium/,high
-CON:DRESSI-DRESSIT-DRESSING-SMALL-MEDIUM-CLONE,Clinic consumables & PPE,Ask Pharmacy,dressit sterile dressing pack small medium clone,https://ask-pharmacy.co.uk/product/dressit-sterile-dressing-pack-small-medium-clone/,high
-CON:DRESSI-DRESSIT-DRESSING-LARGE-CLONE,Clinic consumables & PPE,Ask Pharmacy,dressit sterile dressing pack large clone,https://ask-pharmacy.co.uk/product/dressit-sterile-dressing-pack-large-clone/,high
+CON:DRESSI-DRESSIT-DRESSING-SMALL-MEDIUM-CLONE-P10,Clinic consumables & PPE,Ask Pharmacy,dressit sterile dressing pack small medium clone,https://ask-pharmacy.co.uk/product/dressit-sterile-dressing-pack-small-medium-clone/,high
+CON:DRESSI-DRESSIT-DRESSING-LARGE-CLONE-P10,Clinic consumables & PPE,Ask Pharmacy,dressit sterile dressing pack large clone,https://ask-pharmacy.co.uk/product/dressit-sterile-dressing-pack-large-clone/,high
 CON:DRAPEC-TORK-COUCH-ROLL-ADVANCED-WHITE-48CM,Clinic consumables & PPE,Ask Pharmacy,tork couch roll advanced white 2 ply 48cm 19 x 56m,https://ask-pharmacy.co.uk/product/tork-couch-roll-advanced-white-2-ply-48cm-19-x-56m/,high
 CON:DRAPEC-ESSENTIALS-BED-ROLL-20-CLONE,Clinic consumables & PPE,Ask Pharmacy,essentials bed roll 20 clone,https://ask-pharmacy.co.uk/product/essentials-bed-roll-20-clone/,high
 CON:IVBLOO-GIVING-SET,Clinic consumables & PPE,Ask Pharmacy,giving set,https://ask-pharmacy.co.uk/product/giving-set/,high

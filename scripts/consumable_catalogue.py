@@ -88,20 +88,36 @@ def _pack_from_text(s):
     return ""
 
 
+def _pack_from_desc(text):
+    """An EXPLICIT pack statement in the product's own description, e.g. 'This pack contains: 1x Ice Pack',
+    'each box contains 10 swabs', 'contains 2 x'. These phrases are product-specific, so they are safe to read
+    from the description (related/cross-sell products are already cut from page_text)."""
+    t = text or ""
+    m = re.search(r"(?:this |each |per )?(?:pack|box|case|kit|bag|carton|pouch)\s+contains?[:\-\s]*(\d{1,4})\s*x?\b", t, re.I)
+    if m and 1 <= int(m.group(1)) <= 10000:
+        return str(int(m.group(1)))
+    m = re.search(r"\bcontains?[:\-\s]*(\d{1,4})\s*x\b", t, re.I)
+    if m and 1 <= int(m.group(1)) <= 10000:
+        return str(int(m.group(1)))
+    return ""
+
+
 def pack_of(title, pid):
-    """Units per pack (owner rule: 100% certainty, never guessed). Read from the NAME first (trustworthy), then
-    ONLY from the product's OWN labelled Size/Pack/Quantity field on the page — never a raw full-page scan, which
-    would grab counts from cross-sell / related products (e.g. 'Needles (box of 100)' on an ice-pack page)."""
+    """Units per pack (owner rule: read name + the product's own description/page, 100% certainty, never guessed).
+    Order: (1) the NAME; (2) the product's own labelled Size/Pack/Quantity field; (3) an EXPLICIT 'pack/box contains
+    N' statement in the description. Never a loose full-page scan — related/cross-sell products are cut from
+    page_text, and only product-specific phrases are trusted, so other products' counts can't leak in."""
     pk = _pack_from_text(title)
     if pk:
         return pk
-    lf = labelled_fields(page_text(pid))
+    txt = page_text(pid)
+    lf = labelled_fields(txt)
     for key in ("size", "pack size", "pack", "quantity", "qty", "pack quantity"):
         if lf.get(key):
             pk = _pack_from_text(lf[key])
             if pk:
                 return pk
-    return ""
+    return _pack_from_desc(txt)
 
 
 # Known real brands for clinic consumables/PPE. A consumable gets a brand ONLY if one of these appears in its
@@ -187,6 +203,8 @@ def main():
         conf = "high" if (sub != "Consumable (other)" and (name or size)) else ("rule" if sub != "Consumable (other)" else "partial")
         maps.append(dict(r, code=code, sub=sub, brand=key_brand, decision=desc, confidence=conf))
         p = prods.setdefault(code, dict(code=code, subtype=sub, name=name, size=size, pack=pack, brands=set(), suppliers=set(), listings=0))
+        if pack and not p.get("pack"):          # an evidenced pack from any listing beats a blank one for the same item
+            p["pack"] = pack
         p["brands"].add(key_brand); p["suppliers"].add(r["supplier"]); p["listings"] += 1
     for p in prods.values():
         p["supplier_n"] = len(p["suppliers"]); p["brands"] = "; ".join(sorted(b for b in p["brands"] if b)[:6]); p["suppliers"] = len(p["suppliers"])

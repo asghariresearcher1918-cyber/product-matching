@@ -5277,7 +5277,7 @@ CON:CONTAI-DISPOTRAY-TRAY-LINERS-BLUE-190MM,DispoTray Tray Liners 290 x 190mm Bl
 CON:CONTAI-DISPOTRAY-TRAY-LINERS-WHITE-146MM,"DispoTray Tray Liners 190 x 146mm (7.5"" x 5 7/8"") White",MedFX
 CON:CONTAI-DISPOTRAY-TRAY-LINERS-WHITE-190MM,DispoTray Tray Liners 290 x 190mm White,MedFX
 CON:CONTAI-TRAY-LINING-PAPER-UNCOATED-275MM,"Tray Lining Paper - Uncoated 275mm x 175mm (11"" x 7"")",MedFX
-CON:DRESSI-DRESSING,Dressing Pack - Sterile,MedFX
+CON:DRESSI-DRESSING-P3,Dressing Pack - Sterile,MedFX
 CON:DRESSI-WATERPROOF-PLASTERS-4CM,Waterproof Plasters 4cm x 4cm,MedFX
 CON:DRESSI-WATERPROOF-PLASTER-7CM,Waterproof Plaster 7cm x 2cm,MedFX
 CON:CONSUM-GTN-GLYCERYL-TRINITRATE-SUBLINGUAL,GTN - Glyceryl Trinitrate Sublingual Spray,MedFX
@@ -5400,7 +5400,7 @@ CON:PAPERT-ALVITA-TISSUES-WHITE-P150,Alvita Tissues White 2ply,Church Pharmacy
 CON:DRESSI-AMETOP-DISPENSING-TUBES-24-FLEXIGRID-15G,Ametop Dispensing Pack 12x 15g Tubes And 24 Flexigrid Dressings,Church Pharmacy
 CON:DIAGNO-AQ-ENDOTEST-50ML,Aq Endotest,Church Pharmacy
 CON:DRESSI-AQUACEL-NONADHESIVE-FOAM-DRESSINGS-5CM-P10,Aquacel Nonadhesive Foam Dressings 5cm X 5cm,Church Pharmacy
-CON:FIRSTA-ASTROPLAST-MICRO-TRAVEL-FIRST-AID,Astroplast Micro Travel First Aid Kit,Church Pharmacy
+CON:FIRSTA-ASTROPLAST-MICRO-TRAVEL-FIRST-AID-P6,Astroplast Micro Travel First Aid Kit,Church Pharmacy
 CON:ANTISE-AZO-WIPES-P200,Azo Wipes,Church Pharmacy
 CON:IVBLOO-B-BRAUN-INTRAFIX-PRIMELINE-GRAVI-4062981L-P100,B Braun Intrafix Primeline Gravity Iv Set,Church Pharmacy
 CON:ANTISE-BABY-WIPES-FRAGRANCE,Baby Wipes Fragrance Free,Church Pharmacy
@@ -5841,7 +5841,7 @@ CON:CONSUM-FLOWFLEX-LATERAL-FLOW-TESTS-SINGLES,Flowflex Lateral Flow Tests singl
 CON:CONSUM-HEALGEN-ANTIGEN-COVID-19-LATERAL,Healgen Antigen Covid-19 Lateral Flow Test Single Pack,Dr. Adams Pharmacy
 CON:CONSUM-MULTI-DRUG-TEST-KIT,Multi Drug Test Kit,Dr. Adams Pharmacy
 CON:CONSUM-STREP-TESTS,Strep A Tests,Dr. Adams Pharmacy
-CON:ANTISE-100-RESMED-DISINFECTION-SWABS,100 x ResMed Disinfection Swabs,Skin On You
+CON:ANTISE-100-RESMED-DISINFECTION-SWABS-P100,100 x ResMed Disinfection Swabs,Skin On You
 CON:ANTISE-COPY-CLINISEPT-AFTERCARE-100ML,Copy Of Clinisept Aftercare 100ml,AestheticSource
 CON:ANTISE-CLINISEPT-SKIN-PUMP-BOTTLE-490ML,"Clinisept+ Skin Pump Bottle, 490ml",AestheticSource
 CON:CONSUM-RESTORE-PHA-RENEWAL-PADS,Restore PHA Renewal Pads,AestheticSource
@@ -5897,12 +5897,12 @@ CON:CONTAI-500MM-GRADUATED-KIDNEY-DISH-1PCS-500MM,500mm Graduated Kidney Dish - 
 CON:ANTISE-CLINISEPT-AFTERCARE-100ML,Clinisept+ Aftercare 100ml,Two Face Aesthetics
 CON:ANTISE-CLINISEPT-PREP-PROCEDURE-500ML,Clinisept Prep Procedure 500ml,Two Face Aesthetics
 CON:GOWNAP-DISPOSABLE-APRONS-WHITE-200,Disposable Aprons -White- 200,Two Face Aesthetics
-CON:PAPERT-DISPOSABLE-BIB-FACE-TISSUE,Disposable Bib/Face Tissue,Two Face Aesthetics
+CON:PAPERT-DISPOSABLE-BIB-FACE-TISSUE-P250,Disposable Bib/Face Tissue,Two Face Aesthetics
 CON:DRESSI-FINEPORE-SURGICAL-TAPE-25CMX9-1M-9.1M,Finepore Surgical Tape 1.25cmx9.1m - 1 pcs,Two Face Aesthetics
 CON:FACEMA-FLUID-RESISTANT-SURGICAL-FACE-MASKS-P50,Fluid Resistant Surgical Face Masks Type IIR (Box of 50 Masks),Two Face Aesthetics
 CON:GAUZES-GAUZE-SWABS-10X-100PCS-10CM-P100,Gauze Swabs - 10x10cm 100pcs,Two Face Aesthetics
 CON:GAUZES-GAUZE-SWABS-5X-100PCS-5CM-P100,Gauze Swabs - 5x5cm 100pcs,Two Face Aesthetics
-CON:CONSUM-ICE-GLOBES-PINK,Ice Globes Pink,Two Face Aesthetics
+CON:CONSUM-ICE-GLOBES-PINK-P2,Ice Globes Pink,Two Face Aesthetics
 CON:DRESSI-INSTRAPAC-DRESSING-SCISSORS-BLUNT-13CM,Instrapac Dressing Scissors 13cm Blunt/Blunt,Two Face Aesthetics
 CON:DRESSI-INSTRAPAC-DRESSING-SCISSORS-SHARP-13CM,Instrapac Dressing Scissors 13cm Sharp/Sharp,Two Face Aesthetics
 CON:DRESSI-INSTRAPAC-DRESSING-SCISSORS-SHARP-BLUNT,"Instrapac Dressing Scissors 5"" Sharp/Blunt Disposable - 1pcs",Two Face Aesthetics
@@ -5988,8 +5988,8 @@ CON:CONSUM-AZZALURE-BOTTLE-OPENER,Azzalure Bottle Opener,Ask Pharmacy
 CON:BLADES-STERILE-SCALPEL-NO-14-BLADE,Sterile Disposable Scalpel No 14 Blade With Polystyrene Handle X 10,Ask Pharmacy
 CON:CONSUM-STAINLESS-STEEL-GRADUATED-SURGICAL-HANDL,Stainless Steel Graduated Surgical Handle No 3,Ask Pharmacy
 CON:GLOVE-CLEAR-POWDER-EXAMINA,Gloves Clear Powder Free Examination Gloves,Ask Pharmacy
-CON:DRESSI-DRESSIT-DRESSING-SMALL-MEDIUM-CLONE,Dressit Sterile Dressing Pack Small Medium Clone,Ask Pharmacy
-CON:DRESSI-DRESSIT-DRESSING-LARGE-CLONE,Dressit Sterile Dressing Pack Large Clone,Ask Pharmacy
+CON:DRESSI-DRESSIT-DRESSING-SMALL-MEDIUM-CLONE-P10,Dressit Sterile Dressing Pack Small Medium Clone,Ask Pharmacy
+CON:DRESSI-DRESSIT-DRESSING-LARGE-CLONE-P10,Dressit Sterile Dressing Pack Large Clone,Ask Pharmacy
 CON:DRAPEC-TORK-COUCH-ROLL-ADVANCED-WHITE-48CM,Tork Couch Roll Advanced White 2 Ply 48cm 19 X 56m,Ask Pharmacy
 CON:DRAPEC-ESSENTIALS-BED-ROLL-20-CLONE,Essentials Bed Roll 20 Clone,Ask Pharmacy
 CON:IVBLOO-GIVING-SET,Giving Set,Ask Pharmacy

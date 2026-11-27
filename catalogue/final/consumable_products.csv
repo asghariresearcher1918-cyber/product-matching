@@ -1,5 +1,5 @@
 code,subtype,name,size,pack,brands,supplier_n,listings
-ANTISE-100-RESMED-DISINFECTION-SWABS,Antiseptic / skin prep / wipe,ResMed Disinfection Swabs,,,,1,1
+ANTISE-100-RESMED-DISINFECTION-SWABS-P100,Antiseptic / skin prep / wipe,ResMed Disinfection Swabs,,100,,1,1
 ANTISE-ACRIFLEX-25-30G,Antiseptic / skin prep / wipe,25,30g,,,1,1
 ANTISE-ALCAGEL-VIRUCIDAL-HAND-SANITISER-PUMP-500ML,Antiseptic / skin prep / wipe,virucidal hand sanitiser pump,500ml,,,1,1
 ANTISE-ALCOHOL-FREE-ANTISEPTIC-WIPES-P10,Antiseptic / skin prep / wipe,Antiseptic Wipes,,10,,1,1
@@ -50,7 +50,7 @@ ANTISE-CLINISEPT-PODIATRY-100ML,Antiseptic / skin prep / wipe,Podiatry,100ml,,Cl
 ANTISE-CLINISEPT-PODIATRY-250ML,Antiseptic / skin prep / wipe,Podiatry,250ml,,Clinisept+,1,1
 ANTISE-CLINISEPT-PODIATRY-500ML,Antiseptic / skin prep / wipe,Podiatry,500ml,,Clinisept+,1,1
 ANTISE-CLINISEPT-PODIATRY-5L-P5,Antiseptic / skin prep / wipe,Podiatry,5l,5,Clinisept+,1,1
-ANTISE-CLINISEPT-PREP-PROCEDURE-500ML,Antiseptic / skin prep / wipe,prep procedure,500ml,,Clinisept+,1,1
+ANTISE-CLINISEPT-PREP-PROCEDURE-500ML,Antiseptic / skin prep / wipe,prep procedure,500ml,1,Clinisept+,1,1
 ANTISE-CLINISEPT-SKIN,Antiseptic / skin prep / wipe,Skin,,,Clinisept+,1,1
 ANTISE-CLINISEPT-SKIN-100ML,Antiseptic / skin prep / wipe,Skin,100ml,,Clinisept+,9,10
 ANTISE-CLINISEPT-SKIN-490ML,Antiseptic / skin prep / wipe,skin,490ml,,Clinisept+,10,11
@@ -92,7 +92,7 @@ ANTISE-HYDREX-SURGICAL-SCRUB-ANTISEPTIC-SKIN-500ML,Antiseptic / skin prep / wipe
 ANTISE-MEDIPAL-DISINFECTANT-WIPES-240-P240,Antiseptic / skin prep / wipe,Disinfectant Wipes 240,,240,Medipal,1,1
 ANTISE-MEDIPAL-DISINFECTANT-WIPES-50-P50,Antiseptic / skin prep / wipe,Disinfectant Wipes 50,,50,Medipal,1,1
 ANTISE-MEDIPAL-DISINFECTANT-WIPES-TUB-350-P350,Antiseptic / skin prep / wipe,Disinfectant Wipes Tub 350,,350,Medipal,1,1
-ANTISE-MEDIPRO-70-ALCOHOL-HAND-SANITISER-500ML,Antiseptic / skin prep / wipe,70 Alcohol Hand Sanitiser,500ml,,,1,1
+ANTISE-MEDIPRO-70-ALCOHOL-HAND-SANITISER-500ML,Antiseptic / skin prep / wipe,70 Alcohol Hand Sanitiser,500ml,1,,1,1
 ANTISE-MIKROZID-ALCOHOL-WIPES-JUMBO,Antiseptic / skin prep / wipe,alcohol wipes Jumbo,,,Mikrozid,1,1
 ANTISE-MIKROZID-ALCOHOL-WIPES-JUMBO-REFILL,Antiseptic / skin prep / wipe,alcohol wipes Jumbo Refill,,,Mikrozid,1,1
 ANTISE-MIKROZID-SENSITIVE-WIPES-PREMIUM-ALCOHO,Antiseptic / skin prep / wipe,sensitive wipes premium Alcohol,,,Mikrozid,1,1
@@ -107,7 +107,7 @@ ANTISE-NATRASAN-DISINFECTING-SKIN-SANITISER-500ML,Antiseptic / skin prep / wipe,
 ANTISE-NEW-FORMULATION-ALCOHOL-HARD-SURFA,Antiseptic / skin prep / wipe,Formulation Alcohol Hard Surface,,,,1,2
 ANTISE-NEW-FORMULATION-ALCOHOL-HARD-SURFA-1L,Antiseptic / skin prep / wipe,Formulation Alcohol Hard Surface,1l,,,1,1
 ANTISE-NEW-FORMULATION-SURFACE-DISINFECTA,Antiseptic / skin prep / wipe,Formulation Surface Disinfectant Wipes,,,,1,2
-ANTISE-PAL-CLEAN-PROTECT-HANDS-SURFACE,Antiseptic / skin prep / wipe,Clean Protect Hands Surface,,,,1,1
+ANTISE-PAL-CLEAN-PROTECT-HANDS-SURFACE,Antiseptic / skin prep / wipe,Clean Protect Hands Surface,,1,,1,1
 ANTISE-PDI-SANI-CLOTH-WIPES-UNIVERSAL,Antiseptic / skin prep / wipe,Sani Cloth Wipes Universal,,,,1,2
 ANTISE-PRE-INJECTION-70-IPA-ALCOHOL-SWABS,Antiseptic / skin prep / wipe,70 IPA Alcohol Swabs,,,,1,1
 ANTISE-PRE-INJECTION-SKIN-CLEANING-SWABS,Antiseptic / skin prep / wipe,skin cleaning swabs,,,,1,1
@@ -173,7 +173,7 @@ CLEANI-NUTRISON-WATER-OPTRI-BOTTLE-1000ML,Cleaning / solution,Water Optri Bottle
 CLEANI-PRISTINE-PEARL-HAND-SOAP,Cleaning / solution,pearl hand soap,,,,1,1
 CLEANI-PURIFIED-WATER,Cleaning / solution,Water,,,,1,1
 CLEANI-PURIFIED-WATER-5L-P5,Cleaning / solution,water,5l,5,,1,1
-CLEANI-SIMPLE-SOLUTION-GRAVITY-ADMINISTRATIO,Cleaning / solution,Solution Gravity Administration Set,,,,2,2
+CLEANI-SIMPLE-SOLUTION-GRAVITY-ADMINISTRATIO,Cleaning / solution,Solution Gravity Administration Set,,1,,2,2
 CLEANI-SIMPLY-PROTECT-HAND-GEL-100ML,Cleaning / solution,Protect Hand Gel,100ml,,,1,1
 CLEANI-SPIRIGEL-COMPLETE-HAND-GEL-500ML,Cleaning / solution,complete hand gel,500ml,,,1,1
 CLEANI-STERILE-WATER-INJECTION-AMPOULE-10ML,Cleaning / solution,Water Injection Ampoule,10ml,,,2,3
@@ -185,7 +185,7 @@ COMPRE-ELSET-3A-COMPRESSION-BANDAGE-15CMX6M-6M,Compression garment,3a compressio
 COMPRE-MACOM-CRYSTAL-SMOOTH-TALL-XS,Compression garment,Crystal Smooth Tall XS,,,Macom,1,1
 COMPRE-MACOM-CRYSTALSMOOTH-LONG-SLEEPWEAR-S,Compression garment,crystalsmooth long sleepwear set,,,Macom,1,2
 COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-LONG-L,Compression garment,crystalsmooth signature long length,,,Macom,1,4
-COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-REGULA,Compression garment,crystalsmooth signature regular length,,,Macom,1,4
+COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-REGULA,Compression garment,crystalsmooth signature regular length,,1,Macom,1,4
 COMPRE-MACOM-WAIST-SCULPTOR-XXL-BLACK,Compression garment,Waist Sculptor XXL Black,,,Macom,1,1
 COMPRE-MACOM-WAIST-SCULPTOR-XXSMALL-BLACK,Compression garment,Waist Sculptor XXSmall Black,,,Macom,1,1
 COMPRE-MACOM-WAISTSCULPTOR-BLACK-SLIMMING-C,Compression garment,waistsculptor black slimming corset,,,Macom,1,2
@@ -247,15 +247,15 @@ CONSUM-GENTLO-GROUND-PAD,Consumable (other),ground pad,,1,,1,1
 CONSUM-GLASS-DROPPER-10ML,Consumable (other),dropper,10ml,,,1,1
 CONSUM-GTN-GLYCERYL-TRINITRATE-SUBLINGUAL,Consumable (other),Glyceryl Trinitrate Sublingual Spray,,,,1,1
 CONSUM-HALO-WOMENS-MATERNITY-WEAR-NECK,Consumable (other),womens maternity wear neck,,1,,1,12
-CONSUM-HEALGEN-ANTIGEN-COVID-19-LATERAL,Consumable (other),Antigen Covid 19 Lateral,,,,1,1
+CONSUM-HEALGEN-ANTIGEN-COVID-19-LATERAL,Consumable (other),Antigen Covid 19 Lateral,,1,,1,1
 CONSUM-HYALURON-PEN-AMPOULES-3ML,Consumable (other),pen ampoules,3ml,,,1,1
 CONSUM-HYDROGEN-PEROXIDE-200ML,Consumable (other),peroxide,200ml,,,1,1
-CONSUM-ICE-GLOBES-PINK,Consumable (other),globes pink,,,,1,1
+CONSUM-ICE-GLOBES-PINK-P2,Consumable (other),globes pink,,2,,1,1
 CONSUM-INDERMA-ANTI-BACTERIAL-SPRAY-118ML,Consumable (other),Anti Bacterial Spray,118ml,,,1,1
 CONSUM-INSTRAPAC-ADSON-FORCEPS-TOOTHED,Consumable (other),Adson Forceps Toothed,,,Instrapac,1,1
 CONSUM-INSTRAPAC-ADSON-FORCEPS-TOOTHED-12.5CM,Consumable (other),Adson Forceps Toothed,12.5cm,,Instrapac,1,1
 CONSUM-INSTRAPAC-HALSTED-MOSQUITO-ARTERY-FORCEP-12.5CM,Consumable (other),Halsted Mosquito Artery Forceps,12.5cm,,Instrapac,1,2
-CONSUM-INSTRAPAC-MCINDOE-TOOTHED-FORCEPS,Consumable (other),Mcindoe Toothed Forceps,,,Instrapac,1,1
+CONSUM-INSTRAPAC-MCINDOE-TOOTHED-FORCEPS,Consumable (other),Mcindoe Toothed Forceps,,1,Instrapac,1,1
 CONSUM-INTRASITE-GEL-APPLIPAK-25G,Consumable (other),gel applipak,25g,,,1,1
 CONSUM-IRIS-STITCH-SCISSORS-CURVED,Consumable (other),Stitch Scissors Curved,,,,1,1
 CONSUM-IRIS-STITCH-SCISSORS-STRAIGHT,Consumable (other),Stitch Scissors Straight,,,,1,1
@@ -351,7 +351,7 @@ CONSUM-TIMESCO-TOURNICLIP-PINK,Consumable (other),Tourniclip Pink,,,Timesco,1,1
 CONSUM-TIMESCO-TOURNICLIP-PURPLE,Consumable (other),Tourniclip Purple,,,Timesco,1,1
 CONSUM-TIMESCO-TOURNICLIP-RED,Consumable (other),Tourniclip Red,,,Timesco,1,1
 CONSUM-TISEPT-SACHETS-25ML,Consumable (other),sachets,25ml,,,1,1
-CONSUM-TONDAUS-SURGICAL-SKIN-MARKER-WHITE,Consumable (other),Surgical Skin Marker White,,,,1,1
+CONSUM-TONDAUS-SURGICAL-SKIN-MARKER-WHITE,Consumable (other),Surgical Skin Marker White,,1,,1,1
 CONSUM-TOXIN-VIAL-CAP-OPENER,Consumable (other),vial cap opener,,,,1,1
 CONSUM-TSK-CANNULA-27GX-38MM,Consumable (other),cannula 27gx,38mm,,,1,1
 CONSUM-UENO-FACE-COVERING,Consumable (other),face covering,,1,,1,1
@@ -374,7 +374,7 @@ CONSUM-WHITE-FACIAL-MARKING-PENCIL,Consumable (other),Facial Marking Pencil,,1,,
 CONSUM-WHITE-PENCIL-MARK-UP-INJECTING,Consumable (other),pencil mark up injecting,,,,1,1
 CONSUM-WISDOM-INTERDENTAL-CLEAN-BETWEEN-BRUS-P20,Consumable (other),interdental clean between brushes,,20,,1,1
 CONSUM-WITCH-HAZEL-200ML,Consumable (other),hazel,200ml,,,1,1
-CONTAI-500MM-GRADUATED-KIDNEY-DISH-1PCS-500MM,Container / tray / bowl,Graduated Kidney Dish 1pcs,500mm,,,1,1
+CONTAI-500MM-GRADUATED-KIDNEY-DISH-1PCS-500MM,Container / tray / bowl,Graduated Kidney Dish 1pcs,500mm,1,,1,1
 CONTAI-COSMETIC-JAR-LID-10ML,Container / tray / bowl,jar lid,10ml,,,1,1
 CONTAI-COSMETIC-JAR-LID-6ML,Container / tray / bowl,jar lid,6ml,,,1,1
 CONTAI-DISPOSABLE-BOWL,Container / tray / bowl,Bowl,,,,1,1
@@ -439,17 +439,17 @@ DRESSI-CONCEPT-SMALL-DRESSING,Dressing / tape / suture,small dressing,,1,,1,1
 DRESSI-CRINX-CONFORM-BANDAGE-35M-35M,Dressing / tape / suture,conform bandage 35m,35m,,,1,1
 DRESSI-CRINX-CONFORM-BANDAGE-35MX-5CM,Dressing / tape / suture,conform bandage 35mx,5cm,,,1,1
 DRESSI-DEPENDAPLAST-WASHPROOF-SPOT-PLASTERS-100-2.2CM,Dressing / tape / suture,Washproof Spot Plasters 100,2.2cm,,,1,1
-DRESSI-DRESSING,Dressing / tape / suture,,,,,1,1
-DRESSI-DRESSIT-DRESSING-LARGE-CLONE,Dressing / tape / suture,dressing large clone,,,,1,1
-DRESSI-DRESSIT-DRESSING-SMALL-MEDIUM-CLONE,Dressing / tape / suture,dressing small medium clone,,,,1,1
+DRESSI-DRESSING-P3,Dressing / tape / suture,,,3,,1,1
+DRESSI-DRESSIT-DRESSING-LARGE-CLONE-P10,Dressing / tape / suture,dressing large clone,,10,,1,1
+DRESSI-DRESSIT-DRESSING-SMALL-MEDIUM-CLONE-P10,Dressing / tape / suture,dressing small medium clone,,10,,1,1
 DRESSI-DRUG-TARIFF-DRESSING-SPEC-10,Dressing / tape / suture,Tariff Dressing spec 10,,,,1,1
 DRESSI-EASIGRIP-ELASTICATED-TUBULAR-SUPPORT-BA-05M,Dressing / tape / suture,elasticated tubular support bandage,05m,,,1,4
-DRESSI-FINEPORE-SURGICAL-TAPE-25CMX9-1M-9.1M,Dressing / tape / suture,Surgical Tape 25cmx9 1m,9.1m,,,1,1
+DRESSI-FINEPORE-SURGICAL-TAPE-25CMX9-1M-9.1M,Dressing / tape / suture,Surgical Tape 25cmx9 1m,9.1m,1,,1,1
 DRESSI-FLUDROXYCORTID-TAPE-7.5CM,Dressing / tape / suture,Tape,7.5cm,,,2,2
 DRESSI-GRANUFLEX-DRESSING-10CM-P10,Dressing / tape / suture,dressing,10cm,10,,1,1
-DRESSI-INSTRAPAC-DRESSING-SCISSORS-BLUNT-13CM,Dressing / tape / suture,Dressing Scissors Blunt,13cm,,Instrapac,1,1
-DRESSI-INSTRAPAC-DRESSING-SCISSORS-SHARP-13CM,Dressing / tape / suture,Dressing Scissors Sharp,13cm,,Instrapac,1,1
-DRESSI-INSTRAPAC-DRESSING-SCISSORS-SHARP-BLUNT,Dressing / tape / suture,Dressing Scissors Sharp Blunt,,,Instrapac,1,1
+DRESSI-INSTRAPAC-DRESSING-SCISSORS-BLUNT-13CM,Dressing / tape / suture,Dressing Scissors Blunt,13cm,1,Instrapac,1,1
+DRESSI-INSTRAPAC-DRESSING-SCISSORS-SHARP-13CM,Dressing / tape / suture,Dressing Scissors Sharp,13cm,1,Instrapac,1,1
+DRESSI-INSTRAPAC-DRESSING-SCISSORS-SHARP-BLUNT,Dressing / tape / suture,Dressing Scissors Sharp Blunt,,1,Instrapac,1,1
 DRESSI-INSTRAPAC-FINE-SUTURE-PLUS,Dressing / tape / suture,Fine Suture Plus,,,Instrapac,1,1
 DRESSI-INSTRAPAC-HALSEY-FINE-SUTURE,Dressing / tape / suture,Halsey Fine Suture,,,Instrapac,1,1
 DRESSI-JELONET-DRESSING-10CM-P10,Dressing / tape / suture,dressing,10cm,10,,1,1
@@ -549,13 +549,13 @@ FACEMA-SPLASH-RESISTANT-PROCEDURE-MASK-TYPE,Face mask / respirator,Resistant Pro
 FACEMA-SURGICAL-FACE-MASKS-50,Face mask / respirator,Face Masks 50,,,,1,1
 FACEMA-SURGICAL-FACE-MASKS-TYPE-IIR,Face mask / respirator,Face Masks Type IIR,,,,1,1
 FACEMA-UNODENT-FACE-MASKS-IIR-EAR,Face mask / respirator,Face Masks IIR Ear,,,UnoDent,1,1
-FIRSTA-ASTROPLAST-MICRO-TRAVEL-FIRST-AID,First aid,micro travel first aid,,,,1,1
-FIRSTA-FIRST-AID-KIT,First aid,Aid Kit,,,,1,1
+FIRSTA-ASTROPLAST-MICRO-TRAVEL-FIRST-AID-P6,First aid,micro travel first aid,,6,,1,1
+FIRSTA-FIRST-AID-KIT,First aid,Aid Kit,,1,,1,1
 FIRSTA-FIRST-AID-KIT-10-PERSON,First aid,Aid Kit 10 Person,,,,1,1
 FIRSTA-FIRST-AID-KIT-110-PIECE-P110,First aid,Aid Kit 110 Piece,,110,,1,1
 FIRSTA-FIRST-AID-KIT-20-PERSON,First aid,Aid Kit 20 Person,,,,2,2
 FIRSTA-FIRST-AID-KIT-210-PIECE-P210,First aid,Aid Kit 210 Piece,,210,,1,1
-FIRSTA-WORKPLACE-FIRST-AID-KIT-LARGE,First aid,first aid kit large,,,,1,1
+FIRSTA-WORKPLACE-FIRST-AID-KIT-LARGE,First aid,first aid kit large,,1,,1,1
 GAUZES-COTTON-GAUZE-SWABS-10CM,Gauze / swab / cotton,Gauze Swabs,10cm,,,1,1
 GAUZES-COTTON-WOOL-BALLS-WHITE-P100,Gauze / swab / cotton,wool balls white,,100,,1,1
 GAUZES-COTTON-WOOL-COSMETIC-SQUARE-PADS-P50,Gauze / swab / cotton,wool cosmetic square pads,,50,,1,1
@@ -638,26 +638,26 @@ GLOVE-LATEX-M-WHITE-PD,Gloves,latex M white PD,,100,,1,1
 GLOVE-LATEX-S,Gloves,latex S,,,,2,2
 GLOVE-LATEX-S-WHITE,Gloves,latex S white,,100,,1,1
 GLOVE-LATEX-S-WHITE-PD,Gloves,latex S white PD,,100,,1,1
-GLOVE-M,Gloves,M,,,Micro-Touch,3,9
+GLOVE-M,Gloves,M,,20,Micro-Touch,3,9
 GLOVE-NITRILE,Gloves,nitrile,,,,4,9
 GLOVE-NITRILE-BLACK,Gloves,nitrile black,,,,2,4
 GLOVE-NITRILE-BLUE,Gloves,nitrile blue,,200,,3,4
-GLOVE-NITRILE-L,Gloves,nitrile L,,,UnoDent,6,12
-GLOVE-NITRILE-L-BLACK,Gloves,nitrile L black,,,,5,6
-GLOVE-NITRILE-L-BLUE,Gloves,nitrile L blue,,,Premier,5,8
+GLOVE-NITRILE-L,Gloves,nitrile L,,100,UnoDent,6,12
+GLOVE-NITRILE-L-BLACK,Gloves,nitrile L black,,100,,5,6
+GLOVE-NITRILE-L-BLUE,Gloves,nitrile L blue,,100,Premier,5,8
 GLOVE-NITRILE-L-WHITE,Gloves,nitrile L white,,100,,1,1
-GLOVE-NITRILE-M,Gloves,nitrile M,,,Micro-Touch; UnoDent,7,10
-GLOVE-NITRILE-M-BLACK,Gloves,nitrile M black,,,,8,10
-GLOVE-NITRILE-M-BLUE,Gloves,nitrile M blue,,,Premier,6,8
+GLOVE-NITRILE-M,Gloves,nitrile M,,100,Micro-Touch; UnoDent,7,10
+GLOVE-NITRILE-M-BLACK,Gloves,nitrile M black,,100,,8,10
+GLOVE-NITRILE-M-BLUE,Gloves,nitrile M blue,,100,Premier,6,8
 GLOVE-NITRILE-M-WHITE,Gloves,nitrile M white,,100,,1,1
-GLOVE-NITRILE-S,Gloves,nitrile S,,,Micro-Touch; UnoDent,6,11
-GLOVE-NITRILE-S-BLACK,Gloves,nitrile S black,,,,6,7
-GLOVE-NITRILE-S-BLUE,Gloves,nitrile S blue,,,Premier,6,7
+GLOVE-NITRILE-S,Gloves,nitrile S,,100,Micro-Touch; UnoDent,6,11
+GLOVE-NITRILE-S-BLACK,Gloves,nitrile S black,,100,,6,7
+GLOVE-NITRILE-S-BLUE,Gloves,nitrile S blue,,100,Premier,6,7
 GLOVE-NITRILE-S-WHITE,Gloves,nitrile S white,,100,,1,1
 GLOVE-NITRILE-XL-BLACK,Gloves,nitrile XL black,,100,,1,1
 GLOVE-NITRILE-XL-BLUE,Gloves,nitrile XL blue,,100,,1,1
 GLOVE-POLYISOPRENE,Gloves,polyisoprene,,,,1,2
-GLOVE-S,Gloves,S,,,Micro-Touch,5,9
+GLOVE-S,Gloves,S,,20,Micro-Touch,5,9
 GLOVE-UNIGLOVES-IN-PEARL-P,Gloves,,,,Unigloves,1,1
 GLOVE-VINYL,Gloves,vinyl,,50,,2,5
 GLOVE-VINYL-L,Gloves,vinyl L,,,,1,1
@@ -718,13 +718,13 @@ HEADFA-ROUND-CAP-ELASTIC-LIGHT-BLUE,Head / face PPE,Cap Elastic Light Blue,,,,1,
 HEADFA-SURGICAL-CAP-ADJUSTABLE-TIES-LIGHT,Head / face PPE,Cap Adjustable Ties Light,,,,1,1
 HEADFA-SURGICAL-HAT-BLUE,Head / face PPE,Hat Blue,,,,1,1
 HEADFA-TECMAN-FACE-SHIELD-VISOR,Head / face PPE,Face Shield Visor,,,,1,1
-HEADFA-VISORS-FRAME-12-FACE-SHIELDS,Head / face PPE,Frame 12 Face Shields,,,,1,2
+HEADFA-VISORS-FRAME-12-FACE-SHIELDS,Head / face PPE,Frame 12 Face Shields,,1,,1,2
 HOTCOL-1NEED-PRO-MICRONEEDLING-DEVICE-PACKA,Hot / cold pack,PRO Microneedling Device Package,,1,,1,1
 HOTCOL-COLD-GEL-ICE-PACKS-P2,Hot / cold pack,Gel Ice Packs,,2,,1,1
 HOTCOL-COLD-GEL-ICE-PACKS-P4,Hot / cold pack,gel ice packs,,4,,1,1
 HOTCOL-COLDBAG,Hot / cold pack,,,,,1,1
 HOTCOL-HOT-COLD,Hot / cold pack,cold,,,,1,1
-HOTCOL-INSTANT-ICE,Hot / cold pack,Ice,,,,2,2
+HOTCOL-INSTANT-ICE,Hot / cold pack,Ice,,1,,2,2
 HOTCOL-INSTANT-ICE-100G,Hot / cold pack,Ice,100g,,,1,1
 HOTCOL-KOOLPAK-COMPACT-INSTANT-ICE-13X-13CM,Hot / cold pack,Compact Instant Ice 13x,13cm,,Koolpak,1,1
 HOTCOL-KOOLPAK-REUSABLE-HOT-COLD-123X-14CM,Hot / cold pack,Reusable Hot Cold 123x,14cm,,Koolpak,1,1
@@ -754,7 +754,7 @@ PAPERT-DISPENSER-REFLEX-ROLL-TOWELS-BLUE,Paper / towel / tissue,Reflex Roll Towe
 PAPERT-DISPENSER-STANDARD,Paper / towel / tissue,Standard,,,,1,1
 PAPERT-DISPENSER-WHITE-TORK-SINGLEFOLD-HAND,Paper / towel / tissue,White Tork Singlefold Hand,,,,1,1
 PAPERT-DISPENSERS-TORK-MINI-CENTREFEED-558000,Paper / towel / tissue,tork mini centrefeed 558000,,,,1,1
-PAPERT-DISPOSABLE-BIB-FACE-TISSUE,Paper / towel / tissue,Bib Face Tissue,,,,1,1
+PAPERT-DISPOSABLE-BIB-FACE-TISSUE-P250,Paper / towel / tissue,Bib Face Tissue,,250,,1,1
 PAPERT-FACIAL-TISSUES-WHITE,Paper / towel / tissue,Tissues White,,,,1,1
 PAPERT-HYGIENE-ROLL,Paper / towel / tissue,Roll,,,,1,1
 PAPERT-HYGIENE-ROLL-WHITE,Paper / towel / tissue,Roll White,,,,1,1
@@ -794,7 +794,7 @@ SHARPS-SHARPSAFE-SHARPS-BIN-045LITRE,Sharps / clinical waste,sharps bin,045litre
 SHARPS-SHARPSAFE-SHARPS-BIN-TRAVEL-02LITRE,Sharps / clinical waste,sharps bin travel,02litre,,,1,1
 SHARPS-SHARPSGUARD-CYTO-SHARPS-BIN-2.5LITRE,Sharps / clinical waste,Cyto Sharps Bin,2.5litre,,Sharpsguard,1,1
 SHARPS-SHARPSGUARD-CYTO-SHARPS-BIN-5LITRE,Sharps / clinical waste,Cyto Sharps Bin,5litre,,Sharpsguard,2,2
-SHARPS-SHARPSGUARD-CYTO-SHARPS-BIN-7LITRE,Sharps / clinical waste,Cyto Sharps Bin,7litre,,Sharpsguard,1,1
+SHARPS-SHARPSGUARD-CYTO-SHARPS-BIN-7LITRE,Sharps / clinical waste,Cyto Sharps Bin,7litre,1,Sharpsguard,1,1
 SHARPS-SHARPSGUARD-ECO-YELLOW-75-3.75L,Sharps / clinical waste,eco yellow 75,3.75l,,Sharpsguard,1,1
 SHARPS-SHARPSGUARD-ORANGE-375-SHARPS-BIN-375LITRE,Sharps / clinical waste,orange 375 sharps bin,375litre,1,Sharpsguard,1,1
 SHARPS-SHARPSGUARD-ORANGE-LTR-SHARPS-BIN,Sharps / clinical waste,Orange Ltr Sharps Bin,,,Sharpsguard,1,2
@@ -806,13 +806,13 @@ SHARPS-SHARPSGUARD-YELLOW-5L,Sharps / clinical waste,yellow,5l,,Sharpsguard,1,2
 SHARPS-SHARPSGUARD-YELLOW-LTR-SHARPS-BIN,Sharps / clinical waste,Yellow Ltr Sharps Bin,,,Sharpsguard,3,4
 SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-0.3LITRE,Sharps / clinical waste,Yellow Sharps Bin,0.3litre,,Sharpsguard,1,1
 SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-1.0LITRE,Sharps / clinical waste,yellow Sharps Bin,1.0litre,1,Sharpsguard,1,1
-SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-1L,Sharps / clinical waste,Yellow Sharps Bin,1l,,Sharpsguard,1,1
-SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-2.5L,Sharps / clinical waste,Yellow Sharps Bin,2.5l,,Sharpsguard,1,1
-SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-5L,Sharps / clinical waste,Yellow Sharps Bin,5l,,Sharpsguard,1,1
-SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-7L,Sharps / clinical waste,Yellow Sharps Bin,7l,,Sharpsguard,1,1
+SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-1L,Sharps / clinical waste,Yellow Sharps Bin,1l,1,Sharpsguard,1,1
+SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-2.5L,Sharps / clinical waste,Yellow Sharps Bin,2.5l,1,Sharpsguard,1,1
+SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-5L,Sharps / clinical waste,Yellow Sharps Bin,5l,1,Sharpsguard,1,1
+SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-7L,Sharps / clinical waste,Yellow Sharps Bin,7l,1,Sharpsguard,1,1
 SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-7LITRE,Sharps / clinical waste,yellow Sharps Bin,7litre,1,Sharpsguard,1,1
 SHARPS-YELLOW-CLINICAL-WASTE-BAGS-SMALL-20L,Sharps / clinical waste,Clinical Waste Bags Small,20l,,,1,1
-SHARPS-YELLOW-HEAVY-DUTY-CLINICAL-WASTE-90L,Sharps / clinical waste,Heavy Duty Clinical Waste,90l,,,1,1
+SHARPS-YELLOW-HEAVY-DUTY-CLINICAL-WASTE-90L,Sharps / clinical waste,Heavy Duty Clinical Waste,90l,1,,1,1
 SHARPS-YELLOW-LTR-SHARPS-BIN,Sharps / clinical waste,ltr Sharps Bin,,,,1,4
 SHARPS-YELLOW-MEDIUM-DUTY-CLINICAL-WASTE-90L,Sharps / clinical waste,Medium Duty Clinical Waste,90l,,,1,1
 SHARPS-YELLOW-SHARPS-BIN-0.5L,Sharps / clinical waste,Sharps Bin,0.5l,,,1,1
@@ -820,4 +820,4 @@ TOURNI-TOURNICLIP-TOURNIQUET-PINK,Tourniquet,Tourniquet Pink,,,,1,1
 TOURNI-TOURNIQUET,Tourniquet,,,,,1,1
 TOURNI-TOURNIQUET-ADULT-BAND-ROLL-25,Tourniquet,Adult Band Roll 25,,,,1,1
 TOURNI-TOURNIQUET-ADULT-BAND-ROLL-25-460MM,Tourniquet,Adult Band Roll 25,460mm,,,1,1
-TOURNI-TOURNIQUET-BAND-TYPE-ROLL-25,Tourniquet,Band Type Roll 25,,,,1,1
+TOURNI-TOURNIQUET-BAND-TYPE-ROLL-25,Tourniquet,Band Type Roll 25,,1,,1,1
