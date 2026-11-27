@@ -195,9 +195,17 @@ def slug(*p):
     return re.sub(r"-+", "-", re.sub(r"[^A-Za-z0-9.%]+", "-", s).strip("-")).upper()
 
 
+def _dropped():
+    """Listing ids to exclude — a page that the shop has silently repointed to a DIFFERENT product (so its name,
+    pack, image all belong to the wrong item). Confirmed by review; see data/listing_drop.csv."""
+    p = ROOT / "data/listing_drop.csv"
+    return {r["id"] for r in csv.DictReader(open(p, encoding="utf-8"))} if p.exists() else set()
+
+
 def main():
+    drop = _dropped()
     rows = [r for r in csv.DictReader(open(ROOT / "output/all_products_categorised.csv", encoding="utf-8"))
-            if r["category"] == "Clinic consumables & PPE" and r["scope"] == "Phase 1"]
+            if r["category"] == "Clinic consumables & PPE" and r["scope"] == "Phase 1" and r["id"] not in drop]
     maps, prods = [], {}
     for r in rows:
         title = r["title"] if not r["title"].isdigit() else (r["page_title"] or r["title"])
