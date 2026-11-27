@@ -158,7 +158,8 @@
     border-bottom:1px solid var(--border);font-size:14.5px;
   }
   .autocomplete button:last-child{border-bottom:none;}
-  .autocomplete button:hover{background:var(--surface-alt);}
+  .autocomplete button:hover,
+  .autocomplete button.active{background:var(--surface-alt);}
   .autocomplete .ac-name{font-weight:600;}
   .autocomplete .ac-pack{color:var(--ink-faint);font-size:12.5px;}
   .hero-link{display:inline-block;margin-top:16px;font-size:13.5px;color:var(--accent);text-decoration:none;font-weight:600;}
@@ -1330,26 +1331,42 @@
     renderResults(document.getElementById('heroSearch').value);
     showView('results');
   });
+  var acMatches = [], acIndex = -1;                 // current autocomplete suggestions + highlighted row (-1 = none)
+  function acHighlight(){
+    var btns = document.getElementById('heroAutocomplete').querySelectorAll('button');
+    btns.forEach(function(b,i){ b.classList.toggle('active', i===acIndex); });
+    if(acIndex>=0 && btns[acIndex]) btns[acIndex].scrollIntoView({block:'nearest'});
+  }
   document.getElementById('heroSearch').addEventListener('keydown', function(e){
-    if(e.key==='Enter'){ renderResults(this.value); showView('results'); hideAutocomplete(); }
+    var box = document.getElementById('heroAutocomplete');
+    var open = !box.classList.contains('hidden') && acMatches.length;
+    if(e.key==='ArrowDown' && open){ e.preventDefault(); acIndex = Math.min(acIndex+1, acMatches.length-1); acHighlight(); return; }
+    if(e.key==='ArrowUp' && open){ e.preventDefault(); acIndex = Math.max(acIndex-1, -1); acHighlight(); return; }
+    if(e.key==='Escape'){ hideAutocomplete(); return; }
+    if(e.key==='Enter'){
+      if(open && acIndex>=0){ var k=acMatches[acIndex]; hideAutocomplete(); openProduct(k); }  // open the highlighted product
+      else { renderResults(this.value); showView('results'); hideAutocomplete(); }             // otherwise run a full search
+    }
   });
   document.getElementById('heroSearch').addEventListener('input', function(){
     var q = this.value.trim().toLowerCase();
     var box = document.getElementById('heroAutocomplete');
     if(!q){ hideAutocomplete(); return; }
-    var matches = matchProducts(q).slice(0, 8);   // show the 8 best-ranked suggestions
-    if(matches.length===0){ hideAutocomplete(); return; }
+    acMatches = matchProducts(q).slice(0, 8);      // show the 8 best-ranked suggestions
+    acIndex = -1;
+    if(acMatches.length===0){ hideAutocomplete(); return; }
     box.innerHTML = '';
-    matches.forEach(function(k){
+    acMatches.forEach(function(k){
       var p = PRODUCTS[k];
       var btn = document.createElement('button');
       btn.innerHTML = '<div class="ac-name">'+p.name+'</div><div class="ac-pack">'+p.pack+'</div>';
+      btn.addEventListener('mouseenter', function(){ acIndex = acMatches.indexOf(k); acHighlight(); });
       btn.addEventListener('click', function(){ hideAutocomplete(); openProduct(k); });
       box.appendChild(btn);
     });
     box.classList.remove('hidden');
   });
-  function hideAutocomplete(){ document.getElementById('heroAutocomplete').classList.add('hidden'); }
+  function hideAutocomplete(){ document.getElementById('heroAutocomplete').classList.add('hidden'); acIndex = -1; }
   document.addEventListener('click', function(e){
     if(!e.target.closest('.search-box')) hideAutocomplete();
   });
