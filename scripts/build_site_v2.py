@@ -65,6 +65,13 @@ def build_data():
     MAPS = [("toxin", "TOX"), ("filler", "FIL"), ("booster", "BST"), ("biostim", "BIO"), ("fat", "FAT"),
             ("thread", "THR"), ("weight", "WGT"), ("medicine", "MED"), ("skincare", "SKN"), ("needle", "NDL"),
             ("consumable", "CON"), ("device", "DEV"), ("bty", "BTY"), ("sup", "SUP"), ("vac", "VAC")]
+    # embedded base64 thumbnails (data URIs) so images show inside the claude.ai preview, which blocks external CDN
+    # images; built by scripts/build_thumbs.py.
+    thumbs = {}
+    tj = ROOT / "catalogue/final/thumbs.json"
+    if tj.exists():
+        import json as _json
+        thumbs = _json.loads(tj.read_text())
     uid_images = {}
     for stem, tag in MAPS:
         p = ROOT / f"catalogue/final/{stem}_listing_map.csv"
@@ -119,7 +126,7 @@ def build_data():
                                "category": disp, "group": sub or t["primary_category"],
                                "pom": pom, "suppliers": nsup, "defaultQty": 1, "offers": offers,
                                "desc": desc, "details": details, "examples": examples.get(uid, []),
-                               "images": uid_images.get(uid, [])}
+                               "images": uid_images.get(uid, []), "thumb": thumbs.get(uid, "")}
     return PRODUCTS, SUPPLIERS
 
 
