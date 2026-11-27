@@ -53,6 +53,32 @@ def build_data():
     SUPPLIERS = {sk: {"name": nm, "delivery": 0, "freeOver": 0, "pro": False, "speed": "TBC", "speedDays": 2,
                       "remoteExtraDays": 0, "rating": 0, "reviewCount": 0, "reviews": []} for sk, nm in sorted(supnames.items())}
 
+    # product uid -> image URLs (referenced straight from the pharmacy CDN; one listing's own gallery = distinct
+    # angles, de-duplicated — we do NOT merge every supplier's near-duplicate photo).
+    imgurl = {}
+    imgcsv = ROOT / "catalogue/final/listing_images.csv"
+    if imgcsv.exists():
+        for r in csv.DictReader(open(imgcsv, encoding="utf-8")):
+            u = [x for x in (r.get("image_urls") or "").split("|") if x.startswith("http")]
+            if u:
+                imgurl[r["id"]] = u
+    MAPS = [("toxin", "TOX"), ("filler", "FIL"), ("booster", "BST"), ("biostim", "BIO"), ("fat", "FAT"),
+            ("thread", "THR"), ("weight", "WGT"), ("medicine", "MED"), ("skincare", "SKN"), ("needle", "NDL"),
+            ("consumable", "CON"), ("device", "DEV"), ("bty", "BTY"), ("sup", "SUP"), ("vac", "VAC")]
+    uid_images = {}
+    for stem, tag in MAPS:
+        p = ROOT / f"catalogue/final/{stem}_listing_map.csv"
+        if not p.exists():
+            continue
+        for m in csv.DictReader(open(p, encoding="utf-8")):
+            code = m.get("code", "")
+            if not code:
+                continue
+            uid = f"{tag}:{code}"
+            u = imgurl.get(m.get("id", ""))
+            if u and uid not in uid_images:                # first listing that has images = the product's gallery
+                uid_images[uid] = u[:4]
+
     PRODUCTS = {}
     for uid, r in prods.items():
         t = tax.get(uid)
@@ -92,7 +118,8 @@ def build_data():
         PRODUCTS[pkey(uid)] = {"name": name, "pack": pack_label(size, qty), "size": size, "qty": qty,
                                "category": disp, "group": sub or t["primary_category"],
                                "pom": pom, "suppliers": nsup, "defaultQty": 1, "offers": offers,
-                               "desc": desc, "details": details, "examples": examples.get(uid, [])}
+                               "desc": desc, "details": details, "examples": examples.get(uid, []),
+                               "images": uid_images.get(uid, [])}
     return PRODUCTS, SUPPLIERS
 
 
@@ -133,6 +160,9 @@ def main():
   function esc(s){ return (s==null?'':String(s)).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
   function buildAbout(p){
     var h='<div class="pa-title">About this product</div>';
+    if(p.images&&p.images.length){ h+='<div class="pa-gallery">'+p.images.map(function(u,i){
+      return '<img src="'+esc(u)+'" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"'+(i===0?' class="main"':'')+'>';
+    }).join('')+'</div>'; }
     if(p.details&&p.details.length){ h+='<dl class="pa-details">';
       p.details.forEach(function(d){ var v=(d[0]==='Official reference')?'<a href="'+esc(d[1])+'" target="_blank" rel="noopener">View official source ↗</a>':esc(d[1]);
         h+='<dt>'+esc(d[0])+'</dt><dd>'+(v===''?'—':v)+'</dd>'; }); h+='</dl>'; }
@@ -148,6 +178,10 @@ def main():
   .pa-title{font-family:var(--font-display);font-size:18px;font-weight:600;margin-bottom:10px;}
   .pa-desc{margin:0 0 14px;color:var(--ink-soft);max-width:68ch;}
   .pa-sec{font-weight:600;color:var(--ink-faint);margin:16px 0 6px;text-transform:uppercase;letter-spacing:.04em;font-size:11px;}
+  .pa-gallery{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
+  .pa-gallery img{width:84px;height:84px;object-fit:contain;background:#fff;border:1px solid var(--border);border-radius:8px;padding:4px;}
+  .pa-gallery img.main{width:180px;height:180px;}
+  @media(max-width:520px){.pa-gallery img.main{width:140px;height:140px;}}
   .pa-details{display:grid;grid-template-columns:max-content 1fr;gap:7px 20px;margin:0;font-size:14px;}
   .pa-details dt{color:var(--ink-faint);font-weight:600;}
   .pa-details dd{margin:0;color:var(--ink);min-width:0;word-break:break-word;}
