@@ -217,6 +217,11 @@
   .section-head p{color:var(--ink-soft);margin:0;font-size:14.5px;}
 
   .chips{display:flex;flex-wrap:wrap;gap:9px;}
+  .cat-bar-label{font-weight:600;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);margin:18px 0 8px;}
+  .cat-bar{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin;}
+  .cat-bar::-webkit-scrollbar{height:5px;}
+  .cat-bar::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px;}
+  .cat-bar .chip{white-space:nowrap;flex:none;}
   .chip{
     background:var(--surface);border:1px solid var(--border-strong);border-radius:100px;padding:9px 15px;
     font-size:13.5px;cursor:pointer;color:var(--ink);font-family:inherit;
@@ -616,6 +621,24 @@
             <input type="text" id="heroSearch" placeholder="Search a product, e.g. REVOLAX Deep" autocomplete="off">
             <button class="btn btn-primary" id="heroSearchBtn">Compare prices</button>
             <div class="autocomplete hidden" id="heroAutocomplete"></div>
+          </div>
+          <div class="cat-bar-label">Shop by category</div>
+          <div class="cat-bar">
+            <button class="chip" data-cat="Dermal Fillers">Dermal Fillers</button>
+            <button class="chip" data-cat="Botulinum Toxins">Botulinum Toxins</button>
+            <button class="chip" data-cat="Skin Rejuvenation & Regeneration">Skin Rejuvenation &amp; Regeneration</button>
+            <button class="chip" data-cat="Fat Dissolving & Body Contouring">Fat Dissolving &amp; Body Contouring</button>
+            <button class="chip" data-cat="Threads">Threads</button>
+            <button class="chip" data-cat="Skincare & Chemical Peels">Skincare &amp; Chemical Peels</button>
+            <button class="chip" data-cat="Hair & Scalp Treatments">Hair &amp; Scalp Treatments</button>
+            <button class="chip" data-cat="Pharmacy (Medicines)">Pharmacy (Medicines)</button>
+            <button class="chip" data-cat="IV, IM & Wellness">IV, IM &amp; Wellness</button>
+            <button class="chip" data-cat="Clinical Consumables">Clinical Consumables</button>
+            <button class="chip" data-cat="Infection Control & PPE">Infection Control &amp; PPE</button>
+            <button class="chip" data-cat="Devices & Equipment">Devices &amp; Equipment</button>
+            <button class="chip" data-cat="Surgical & Medical Supplies">Surgical &amp; Medical Supplies</button>
+            <button class="chip" data-cat="Beauty & Salon Supplies">Beauty &amp; Salon Supplies</button>
+            <button class="chip" data-cat="Weight Management">Weight Management</button>
           </div>
           <a href="#" class="hero-link" data-action="verify">Verified professional? Unlock lower supplier prices →</a>
         </div>
