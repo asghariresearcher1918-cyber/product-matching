@@ -35,7 +35,15 @@ _PRICE = re.compile(r"£\s?(\d{1,4}(?:\.\d{2})?)")
 
 
 def listing_index():
-    """uid -> [ {id,url,supplier,title,confidence} ]"""
+    """uid -> [ {id,url,supplier,title,confidence,image} ]. image = this listing's own product-image URL (so two
+    same-named listings from different suppliers can be told apart visually)."""
+    img = {}
+    p = FINAL / "listing_images.csv"
+    if p.exists():
+        for r in csv.DictReader(open(p, encoding="utf-8")):
+            u = [x for x in (r.get("image_urls") or "").split("|") if x.startswith("http")]
+            if u:
+                img[r["id"]] = u[0]
     idx = collections.defaultdict(list)
     for stem, tag in MAPS:
         p = FINAL / f"{stem}_listing_map.csv"
@@ -48,7 +56,8 @@ def listing_index():
             idx[f"{tag}:{code}"].append({"id": m.get("id", ""), "url": m.get("url", ""),
                                          "supplier": m.get("supplier", ""), "title": m.get("title", ""),
                                          "confidence": m.get("confidence", ""),
-                                         "opt_price": m.get("opt_price", ""), "opt_sku": m.get("opt_sku", "")})
+                                         "opt_price": m.get("opt_price", ""), "opt_sku": m.get("opt_sku", ""),
+                                         "image": img.get(m.get("id", ""), "")})
     return idx
 
 
@@ -229,8 +238,8 @@ def main():
     # ---------- Listings per product (enhanced: SKU, code, link, price, prescription) ----------
     ls = wb.create_sheet("Listings per product")
     head(ls, ["Product", "Pharmacy", "Listing title", "Qty / pack", "SKU / product code", "Commercial code", "Prescription",
-              "Public price", "Product link (click)", "Match confidence", "Name reference"],
-         [30, 18, 34, 10, 18, 16, 11, 11, 40, 13, 34])
+              "Public price", "Product link (click)", "Match confidence", "Name reference", "Image (click)"],
+         [30, 18, 34, 10, 18, 16, 11, 11, 40, 13, 34, 14])
     for uid, t, p, qty in rows_out:
         src = (p.get("source", "") or "").strip()
         nameref = src if src.startswith("http") else "pharmacy consensus"
@@ -245,13 +254,15 @@ def main():
             # per-listing pack: an explicit count in this listing's own title wins, else the product's pack
             lqty = qty_of(l["title"]) or str(qty or "")
             ls.append([t["product"], l["supplier"], l["title"], lqty, sku, comm, "Yes (POM)" if pom else "No",
-                       price, "open", l["confidence"], nameref])
+                       price, "open", l["confidence"], nameref, "view image" if l.get("image") else ""])
             for c in ls[ls.max_row]: c.font, c.alignment = SM, WRAP
             if l["url"].startswith("http"):
                 c = ls.cell(row=ls.max_row, column=9); c.hyperlink = l["url"]; c.value = l["url"]; c.font = LINK
             if nameref.startswith("http"):
                 c = ls.cell(row=ls.max_row, column=11); c.hyperlink = nameref; c.font = LINK
-    ls.auto_filter.ref = f"A1:K{ls.max_row}"
+            if l.get("image"):     # this pharmacy's OWN product photo — tells apart same-named listings
+                c = ls.cell(row=ls.max_row, column=12); c.hyperlink = l["image"]; c.font = LINK
+    ls.auto_filter.ref = f"A1:L{ls.max_row}"
 
     # ---------- For your review (flagged items for owner decision) ----------
     rv = wb.create_sheet("For your review")
