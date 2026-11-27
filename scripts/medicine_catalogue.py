@@ -8,6 +8,7 @@ Usage: python -I scripts/medicine_catalogue.py"""
 import collections, csv, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from droplist import dropped
 from page_facts import page_text
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
@@ -125,7 +126,7 @@ def main():
     cats = {"Medicine - injectable / anaesthetic / emergency": "injectable/emergency", "Medicine - oral": "oral",
             "Medicine - topical / eye / other": "topical/eye", "Vitamin & IV therapy": "vitamin/IV", "Medicine (form not stated)": "other"}
     rows = [r for r in csv.DictReader(open(ROOT / "output/all_products_categorised.csv", encoding="utf-8"))
-            if r["category"] in cats and r["scope"] == "Phase 1"]
+            if r["category"] in cats and r["scope"] == "Phase 1" and r["id"] not in dropped()]
     maps, prods = [], {}
     for r in rows:
         title = r["title"] if not r["title"].isdigit() else (r["page_title"] or r["title"])

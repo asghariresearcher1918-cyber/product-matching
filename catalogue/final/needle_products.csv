@@ -1,7 +1,6 @@
 code,subtype,gauge,length,volume,luer,pack,brands,supplier_n,listings
 CONSUM-8MM-X10,Consumable (other),,8mm,0.3ml,,10,BD,1,1
 CONSUM-DERMAQUA-X50,Consumable (other),,,,,50,Dermaqual,1,2
-CONSUM-HYALURON,Consumable (other),,,,,1,Hyaluron,1,1
 CONSUM-HYDRA,Consumable (other),,,,,1,Hydra,1,1
 CONSUM-LEMON,Consumable (other),,,,,1,Lemon,2,2
 CONSUM-20G-11MM,Consumable (other),20G,11mm,,,1,B. Braun,1,1
