@@ -175,8 +175,8 @@ def main():
     # ---------- Products ----------
     ps = wb.active; ps.title = "Products"
     head(ps, ["Product", "Taxonomy (primary › sub)", "Brand", "Volume", "Qty / pack", "Prescription",
-              "Suppliers", "Listings", "Public price (if shown)", "Name reference (name source)"],
-         [38, 34, 18, 12, 10, 12, 10, 9, 16, 40])
+              "Suppliers", "Listings", "Public price (if shown)", "Name reference (name source)", "Product link (click)"],
+         [38, 34, 18, 12, 10, 12, 10, 9, 16, 40, 40])
     pom = want in POM_TOP
     rows_out, qty_conflicts = [], []
     for uid, t in sorted(tax.items(), key=lambda kv: (kv[1]["subcategory_id"], kv[1]["product"])):
@@ -215,20 +215,23 @@ def main():
         if pom and re.search(r"\botc\b|pharmacy only|\bp[\s-]medicine|over[\s-]the[\s-]counter",
                              f'{p.get("verified","")} {p.get("market","")} {p.get("man","")}', re.I):
             rx = "No — Pharmacy (P) medicine"       # OTC/P item inside a POM category (e.g. Alli 60mg orlistat)
+        plink = next((l["url"] for l in idx.get(uid, []) if (l.get("url") or "").startswith("http")), "")
         ps.append([display_name(t["product"], qty), crumb, brand, vol_of(p.get("key_spec", ""), t["product"]), qty,
-                   rx, p.get("suppliers", ""), p.get("listings", ""), price, nameref])
+                   rx, p.get("suppliers", ""), p.get("listings", ""), price, nameref, plink])
         for c in ps[ps.max_row]: c.font, c.alignment = SM, WRAP
         if nameref.startswith("http"):
             c = ps.cell(row=ps.max_row, column=10); c.hyperlink = nameref; c.font = LINK
-        rows_out.append((uid, t, p))
-    ps.auto_filter.ref = f"A1:J{ps.max_row}"
+        if plink:
+            c = ps.cell(row=ps.max_row, column=11); c.hyperlink = plink; c.value = plink; c.font = LINK
+        rows_out.append((uid, t, p, qty))
+    ps.auto_filter.ref = f"A1:K{ps.max_row}"
 
     # ---------- Listings per product (enhanced: SKU, code, link, price, prescription) ----------
     ls = wb.create_sheet("Listings per product")
-    head(ls, ["Product", "Pharmacy", "Listing title", "SKU / product code", "Commercial code", "Prescription",
+    head(ls, ["Product", "Pharmacy", "Listing title", "Qty / pack", "SKU / product code", "Commercial code", "Prescription",
               "Public price", "Product link (click)", "Match confidence", "Name reference"],
-         [30, 18, 34, 18, 16, 11, 11, 40, 13, 34])
-    for uid, t, p in rows_out:
+         [30, 18, 34, 10, 18, 16, 11, 11, 40, 13, 34])
+    for uid, t, p, qty in rows_out:
         src = (p.get("source", "") or "").strip()
         nameref = src if src.startswith("http") else "pharmacy consensus"
         for l in sorted(idx.get(uid, []), key=lambda l: l["supplier"]):
@@ -239,21 +242,23 @@ def main():
                 price = "£" + l["opt_price"]
             if pom:
                 price = ""                      # POM price is login-gated -> not public
-            ls.append([t["product"], l["supplier"], l["title"], sku, comm, "Yes (POM)" if pom else "No",
+            # per-listing pack: an explicit count in this listing's own title wins, else the product's pack
+            lqty = qty_of(l["title"]) or str(qty or "")
+            ls.append([t["product"], l["supplier"], l["title"], lqty, sku, comm, "Yes (POM)" if pom else "No",
                        price, "open", l["confidence"], nameref])
             for c in ls[ls.max_row]: c.font, c.alignment = SM, WRAP
             if l["url"].startswith("http"):
-                c = ls.cell(row=ls.max_row, column=8); c.hyperlink = l["url"]; c.value = l["url"]; c.font = LINK
+                c = ls.cell(row=ls.max_row, column=9); c.hyperlink = l["url"]; c.value = l["url"]; c.font = LINK
             if nameref.startswith("http"):
-                c = ls.cell(row=ls.max_row, column=10); c.hyperlink = nameref; c.font = LINK
-    ls.auto_filter.ref = f"A1:J{ls.max_row}"
+                c = ls.cell(row=ls.max_row, column=11); c.hyperlink = nameref; c.font = LINK
+    ls.auto_filter.ref = f"A1:K{ls.max_row}"
 
     # ---------- For your review (flagged items for owner decision) ----------
     rv = wb.create_sheet("For your review")
     head(rv, ["Product", "Equivalence / subcategory", "Why flagged (please decide)", "Brand", "Suppliers", "Listings"],
          [38, 28, 50, 18, 10, 9])
     flagged = 0
-    for uid, t, p in rows_out:
+    for uid, t, p, _qty in rows_out:
         grp = (p.get("equivalence_group", "") or "").lower()
         man = (p.get("manufacturer", "") or "").strip().lower()
         why = []
