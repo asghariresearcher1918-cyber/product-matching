@@ -539,6 +539,8 @@
     justify-content:center;font-size:19px;flex:none;
   }
   .cat-icon.lg{width:56px;height:56px;border-radius:14px;font-size:26px;}
+  .thumb{width:40px;height:40px;border-radius:11px;object-fit:contain;background:#fff;border:1px solid var(--border);padding:3px;flex:none;}
+  .thumb.lg{width:56px;height:56px;border-radius:14px;}
   .toast{
     position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);
     padding:12px 20px;border-radius:100px;font-size:13.5px;font-weight:600;z-index:80;box-shadow:0 8px 24px rgba(0,0,0,.25);
@@ -1044,10 +1046,18 @@
     var map = {"Dermal Fillers": "🧴", "Botulinum Toxins": "💉", "Skin Rejuvenation & Regeneration": "✨", "Fat Dissolving & Body Contouring": "🫧", "Threads": "🧵", "Skincare & Chemical Peels": "🧪", "Hair & Scalp Treatments": "💆", "Pharmacy (Medicines)": "💊", "IV, IM & Wellness": "💧", "Clinical Consumables": "🧰", "Infection Control & PPE": "🧤", "Devices & Equipment": "🔌", "Surgical & Medical Supplies": "🩹", "Beauty & Salon Supplies": "💅", "Weight Management": "⚖️"};
     return map[cat] || '📦';
   }
+  function thumbHTML(p, cls){
+    cls = cls || '';
+    if(p.images && p.images.length){
+      return '<img class="thumb '+cls+'" src="'+esc(p.images[0])+'" loading="lazy" referrerpolicy="no-referrer" '+
+             'onerror="this.replaceWith(Object.assign(document.createElement(\'div\'),{className:\'cat-icon '+cls+'\',textContent:\''+categoryIcon(p.category)+'\'}))">';
+    }
+    return '<div class="cat-icon '+cls+'">'+categoryIcon(p.category)+'</div>';
+  }
 
   function fmt(pence){ return '£' + (pence/100).toFixed(2); }
   function pomLock(key){ return !!(PRODUCTS[key] && PRODUCTS[key].pom && !state.verified); }
-  function priceCell(key,best){ return pomLock(key) ? '🔒 Login' : priceCell(k,best); }
+  function priceCell(key,best){ return pomLock(key) ? '🔒 Login' : (best?fmt(best.unit):'—'); }
 
   function eligibleSuppliers(productKey){
     var offers = PRODUCTS[productKey].offers;
@@ -1208,7 +1218,7 @@
       var card = document.createElement('button');
       card.className = 'popular-card';
       card.innerHTML =
-        '<div class="cat-icon lg" style="margin-bottom:10px;">'+categoryIcon(p.category)+'</div>'+
+        '<div style="margin-bottom:10px;">'+thumbHTML(p,'lg')+'</div>'+
         '<div class="pc-cat">'+p.category+'</div>'+
         '<div class="pc-name">'+p.name+'</div>'+
         '<div class="pc-pack">'+p.pack+'</div>'+
@@ -1323,7 +1333,7 @@
       var row = document.createElement('button');
       row.className = 'result-row';
       row.innerHTML =
-        '<div style="display:flex;align-items:center;gap:12px;"><div class="cat-icon">'+categoryIcon(p.category)+'</div>'+
+        '<div style="display:flex;align-items:center;gap:12px;">'+thumbHTML(p,'')+
         '<div><div class="rr-name">'+p.name+'</div><div class="rr-meta">'+p.pack+' · '+p.category+'</div></div></div>'+
         '<div class="rr-price"><div class="rr-from">from</div><div class="rr-amt">'+priceCell(k,best)+'</div></div>';
       row.addEventListener('click', function(){ openProduct(k); });
@@ -1610,7 +1620,7 @@
       var row = document.createElement('div');
       row.className = 'basket-item';
       row.innerHTML =
-        '<div class="cat-icon">'+categoryIcon(p.category)+'</div>'+
+        thumbHTML(p,'')+
         '<div class="bi-info"><div class="bi-name">'+p.name+'</div><div class="bi-meta">'+p.pack+' · qty '+qty+'</div>'+
         '<select class="bi-select">'+options+'</select>'+
         (state.manualAssignment[pk] ? '<button class="bi-auto-link">Reset to auto-optimise</button>' : '')+

@@ -145,7 +145,7 @@ def main():
         "  function fmt(pence){ return '£' + (pence/100).toFixed(2); }",
         "  function fmt(pence){ return '£' + (pence/100).toFixed(2); }\n"
         "  function pomLock(key){ return !!(PRODUCTS[key] && PRODUCTS[key].pom && !state.verified); }\n"
-        "  function priceCell(key,best){ return pomLock(key) ? '🔒 Login' : (best?fmt(best.unit):'—'); }")
+        "  function priceCell(key,best){ return pomLock(key) ? '🔒 Login' : (best ? fmt(best.unit) : '—'); }")
     html = html.replace("(best?fmt(best.unit):'—')", "priceCell(k,best)")
     html = html.replace("' offer'+(offerCount===1?'':'s')+'", "' supplier'+(offerCount===1?'':'s')+'")
     html = html.replace(
