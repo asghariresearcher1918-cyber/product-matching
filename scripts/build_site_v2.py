@@ -66,13 +66,15 @@ def build_data():
             ("thread", "THR"), ("weight", "WGT"), ("medicine", "MED"), ("skincare", "SKN"), ("needle", "NDL"),
             ("consumable", "CON"), ("device", "DEV"), ("bty", "BTY"), ("sup", "SUP"), ("vac", "VAC")]
     # embedded base64 thumbnails (data URIs) so images show inside the claude.ai preview, which blocks external CDN
-    # images; built by scripts/build_thumbs.py.
-    thumbs = {}
-    tj = ROOT / "catalogue/final/thumbs.json"
-    if tj.exists():
-        import json as _json
-        thumbs = _json.loads(tj.read_text())
+    # images. Per-LISTING thumbnails (build_listing_thumbs.py) let each supplier show its OWN photo in a product's
+    # comparison, so same-named brand-less listings can be told apart.
+    import json as _json
+    lthumbs = {}
+    ltj = ROOT / "catalogue/final/listing_thumbs.json"
+    if ltj.exists():
+        lthumbs = _json.loads(ltj.read_text())
     uid_images = {}
+    uid_supthumb = collections.defaultdict(dict)       # uid -> {supplier_slug: data-URI of that supplier's photo}
     for stem, tag in MAPS:
         p = ROOT / f"catalogue/final/{stem}_listing_map.csv"
         if not p.exists():
@@ -85,6 +87,10 @@ def build_data():
             u = imgurl.get(m.get("id", ""))
             if u and uid not in uid_images:                # first listing that has images = the product's gallery
                 uid_images[uid] = u[:4]
+            th = lthumbs.get(m.get("id", ""))
+            sk = sslug(m.get("supplier", ""))
+            if th and sk and sk not in uid_supthumb[uid]:  # first thumb per supplier for this product
+                uid_supthumb[uid][sk] = th
 
     PRODUCTS = {}
     for uid, r in prods.items():
@@ -122,11 +128,14 @@ def build_data():
         ]
         if r["source"].startswith("http"):
             details.append(["Official reference", r["source"]])
+        _sth = uid_supthumb.get(uid, {})
         PRODUCTS[pkey(uid)] = {"name": name, "pack": pack_label(size, qty), "size": size, "qty": qty,
                                "category": disp, "group": sub or t["primary_category"],
                                "pom": pom, "suppliers": nsup, "defaultQty": 1, "offers": offers,
                                "desc": desc, "details": details, "examples": examples.get(uid, []),
-                               "images": uid_images.get(uid, []), "thumb": thumbs.get(uid, "")}
+                               "images": uid_images.get(uid, []),
+                               "supThumbs": _sth}      # per-supplier photos; the product thumb is derived JS-side
+                                                       # (first value) so a big data-URI is never stored twice
     return PRODUCTS, SUPPLIERS
 
 
