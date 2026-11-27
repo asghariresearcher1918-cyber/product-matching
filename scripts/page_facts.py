@@ -54,16 +54,19 @@ def labelled_fields(text):
 
 
 def image_text(pid):
-    """OCR of the cached main product image (result cached next to it as .ocr.txt)."""
-    imgs = glob.glob(str(ROOT / f"cache/*/{pid}.img.*"))
-    imgs = [i for i in imgs if not i.endswith(".ocr.txt")]
-    if not imgs: return ""
-    cache = Path(imgs[0] + ".ocr.txt")
-    if cache.exists(): return cache.read_text()
-    try:
-        t = subprocess.run(["tesseract", imgs[0], "-", "--psm", "11"], capture_output=True, text=True, timeout=60).stdout
-    except Exception:
-        t = ""
-    t = " ".join(t.split())
-    cache.write_text(t)
-    return t
+    """OCR of EVERY cached product image (all angles), concatenated. Each image's OCR is cached next to it as
+    .ocr.txt so re-reads are free. Owner rule: read the text on the product images in every angle provided."""
+    imgs = sorted(i for i in glob.glob(str(ROOT / f"cache/*/{pid}.img.*")) if not i.endswith(".ocr.txt"))
+    out = []
+    for img in imgs:
+        cache = Path(img + ".ocr.txt")
+        if cache.exists():
+            out.append(cache.read_text()); continue
+        try:
+            t = subprocess.run(["tesseract", img, "-", "--psm", "11"], capture_output=True, text=True, timeout=60).stdout
+        except Exception:
+            t = ""
+        t = " ".join(t.split())
+        cache.write_text(t)
+        out.append(t)
+    return "  ".join(x for x in out if x)

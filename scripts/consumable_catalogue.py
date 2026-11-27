@@ -9,7 +9,7 @@ Usage: python -I scripts/consumable_catalogue.py"""
 import collections, csv, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from page_facts import page_text, labelled_fields
+from page_facts import page_text, labelled_fields, image_text
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
@@ -69,16 +69,31 @@ def size_of(t):
     return re.sub(r"\s+", "", m.group(0).lower()) if m else ""
 
 
-_NOT_DIM = r"(?!\s*(?:cm|mm|m\b|\"|inch|ml|mcg|mg|kg|g\b))"   # a dimension/volume, not a pack ('10 x 10cm', '5 x 5cm')
+_DIM_UNIT = ("cm", "mm", "inch", '"', "in")                                  # a 2D size -> NOT a pack
+_VOL_UNIT = ("ml", "l", "litre", "litres", "liter", "g", "kg", "mg", "mcg", "oz")  # 'A x B<vol>' -> A units of size B
 
 
 def _pack_from_text(s):
-    """Units per pack from a short, product-specific string. 'A x B' = B per pack (unless B is a dimension/volume);
+    """Units per pack from a short, product-specific string.
+      'A x B'            -> B per pack            (e.g. '1 x 4' = 4)
+      'A x B<vol unit>'  -> A units of size B     (e.g. '1 x 5l' = 1 bottle, '2 x 1.25ml' = 2 vials)
+      'A x B<dim unit>'  -> a 2D size, no pack    (e.g. '10 x 10cm')
     also 'pack of N', 'box of N', 'N pcs/pieces/...'. Empty when no reliable count is present."""
     t = (s or "").lower()
-    m = re.search(r"(?<![\d.])(\d{1,4})\s*x\s*(\d{1,4})(?![.\d])" + _NOT_DIM, t)
-    if m and 1 <= int(m.group(2)) <= 10000:
-        return str(int(m.group(2)))
+    m = re.search(r"(?<![\d.])(\d{1,4})\s*x\s*(\d{1,4}(?:\.\d+)?)(?!\d)(?!\s*x\s*\d)\s*([a-z\"]{0,6})", t)
+    if m:
+        a, b, unit = m.group(1), m.group(2), (m.group(3) or "").strip().rstrip(".")
+        if unit.startswith("x"):
+            unit = "cm"                                  # trailing 'x' = another dimension follows -> treat as a size
+        n = None
+        if unit in _DIM_UNIT:
+            n = None                                     # dimensions -> not a pack
+        elif unit in _VOL_UNIT:
+            n = int(a)                                   # A units, each of size B<vol>
+        elif "." not in b:
+            n = int(b)                                   # bare 'A x B' -> B per pack
+        if n is not None and 1 <= n <= 100000:
+            return str(n)
     m = re.search(r"(?:pack of|box of)\s*(\d{1,4})", t)
     if m and 1 <= int(m.group(1)) <= 10000:
         return str(int(m.group(1)))
@@ -88,25 +103,38 @@ def _pack_from_text(s):
     return ""
 
 
+_UNIT_NOUN = (r"ice ?packs?|packs?|vials?|units?|pieces?|pcs|swabs?|wipes?|gloves?|pairs?|sheets?|dressings?|"
+              r"plasters?|sachets?|rolls?|syringes?|needles?|cannulas?|applicators?|spatulas?|bibs?|aprons?|"
+              r"gowns?|masks?|caps?|drapes?|tips?|tablets?|capsules?|bottles?|tubes?|ampoules?|amps?|strips?")
+
+
 def _pack_from_desc(text):
-    """An EXPLICIT pack statement in the product's own description, e.g. 'This pack contains: 1x Ice Pack',
-    'each box contains 10 swabs', 'contains 2 x'. These phrases are product-specific, so they are safe to read
-    from the description (related/cross-sell products are already cut from page_text)."""
+    """An EXPLICIT pack statement in the product's own description / specifications / product details, e.g.
+    'This pack contains: 1x Ice Pack', 'each box contains 10 swabs', 'contains 2 x', 'quantity: 100', 'pack of 25',
+    '50 x wipes'. Product-specific phrases only (related/cross-sell is already cut from the page), so other
+    products' counts can't leak in. Delivery/footer boilerplate ('orders over £50') carries none of these."""
     t = text or ""
-    m = re.search(r"(?:this |each |per )?(?:pack|box|case|kit|bag|carton|pouch)\s+contains?[:\-\s]*(\d{1,4})\s*x?\b", t, re.I)
-    if m and 1 <= int(m.group(1)) <= 10000:
-        return str(int(m.group(1)))
-    m = re.search(r"\bcontains?[:\-\s]*(\d{1,4})\s*x\b", t, re.I)
-    if m and 1 <= int(m.group(1)) <= 10000:
-        return str(int(m.group(1)))
+    pats = [
+        r"(?:this |each |per )?(?:pack|box|case|kit|bag|carton|pouch|tub|dispenser)\s+(?:contains?|of)[:\-\s]*(\d{1,4})\s*x?\b",
+        r"\bcontains?[:\-\s]*(\d{1,4})\s*x\b",
+        r"\b(?:pack size|pack quantity|quantity|qty|units? per (?:pack|box)|no\.? per (?:pack|box))[:\-\s]*(\d{1,4})\b",
+        r"\b(\d{1,4})\s*x\s*(?:" + _UNIT_NOUN + r")\b",
+        r"\b(\d{1,4})\s*(?:" + _UNIT_NOUN + r")\s+per\s+(?:pack|box|case)\b",
+        r"(?:pack of|box of|case of)\s*(\d{1,4})\b",
+    ]
+    for rx in pats:
+        m = re.search(rx, t, re.I)
+        if m and 1 <= int(m.group(1)) <= 100000:
+            return str(int(m.group(1)))
     return ""
 
 
 def pack_of(title, pid):
-    """Units per pack (owner rule: read name + the product's own description/page, 100% certainty, never guessed).
-    Order: (1) the NAME; (2) the product's own labelled Size/Pack/Quantity field; (3) an EXPLICIT 'pack/box contains
-    N' statement in the description. Never a loose full-page scan — related/cross-sell products are cut from
-    page_text, and only product-specific phrases are trusted, so other products' counts can't leak in."""
+    """Units per pack (owner rule: read EVERYTHING on the product's own page — name, the text/numbers under it,
+    the description, specifications, directions and product details, and the product images — 100% certainty,
+    never guessed; related/recommended products are never read). Order of trust:
+      (1) the NAME; (2) the product's own labelled Size/Pack/Quantity field; (3) an explicit 'pack contains N' /
+      'quantity: N' / 'N x <unit>' statement anywhere in the page text; (4) the same, read off the product images (OCR)."""
     pk = _pack_from_text(title)
     if pk:
         return pk
@@ -117,7 +145,7 @@ def pack_of(title, pid):
             pk = _pack_from_text(lf[key])
             if pk:
                 return pk
-    return _pack_from_desc(txt)
+    return _pack_from_desc(txt) or _pack_from_desc(image_text(pid))
 
 
 # Known real brands for clinic consumables/PPE. A consumable gets a brand ONLY if one of these appears in its
