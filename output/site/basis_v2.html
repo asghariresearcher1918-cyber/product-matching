@@ -1302,10 +1302,19 @@
     }
     return 0;
   }
+  var _CATSET = null;
+  function _categories(){
+    if(!_CATSET){ _CATSET={}; Object.keys(PRODUCTS).forEach(function(k){ _CATSET[(PRODUCTS[k].category||'').toLowerCase()]=1; }); }
+    return _CATSET;
+  }
   function matchProducts(query){
     query = (query||'').trim().toLowerCase();
     var keys = Object.keys(PRODUCTS);
     if(!query) return keys;
+    if(_categories()[query]){                 // a category chip -> list every product in that category (A→Z)
+      return keys.filter(function(k){ return (PRODUCTS[k].category||'').toLowerCase()===query; })
+                 .sort(function(a,b){ return PRODUCTS[a].name.localeCompare(PRODUCTS[b].name); });
+    }
     var scored = [];
     for(var i=0;i<keys.length;i++){
       var p = PRODUCTS[keys[i]];
