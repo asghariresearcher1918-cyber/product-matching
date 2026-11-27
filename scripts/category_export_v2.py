@@ -253,7 +253,7 @@ def main():
                 price = ""                      # POM price is login-gated -> not public
             # per-listing pack: an explicit count in this listing's own title wins, else the product's pack
             lqty = qty_of(l["title"]) or str(qty or "")
-            ls.append([t["product"], l["supplier"], l["title"], lqty, sku, comm, "Yes (POM)" if pom else "No",
+            ls.append([display_name(t["product"], qty), l["supplier"], l["title"], lqty, sku, comm, "Yes (POM)" if pom else "No",
                        price, "open", l["confidence"], nameref, "view image" if l.get("image") else ""])
             for c in ls[ls.max_row]: c.font, c.alignment = SM, WRAP
             if l["url"].startswith("http"):
@@ -283,7 +283,7 @@ def main():
             why.append("no manufacturer/importer — name from pharmacy consensus")   # only for branded injectables
         if why:
             flagged += 1
-            rv.append([t["product"], p.get("equivalence_group", "") or t["subcategory"], " ; ".join(why),
+            rv.append([display_name(t["product"], _qty), p.get("equivalence_group", "") or t["subcategory"], " ; ".join(why),
                        p.get("brand", "") or "non brand", p.get("suppliers", ""), p.get("listings", "")])
             for c in rv[rv.max_row]: c.font, c.alignment = SM, WRAP
     # pack-quantity conflicts between the name and the page (owner rule: read both, 100% agreement or report)
