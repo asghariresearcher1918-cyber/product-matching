@@ -9,7 +9,7 @@ Usage: python -I scripts/consumable_catalogue.py"""
 import collections, csv, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from page_facts import page_text
+from page_facts import page_text, labelled_fields
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
@@ -69,20 +69,38 @@ def size_of(t):
     return re.sub(r"\s+", "", m.group(0).lower()) if m else ""
 
 
+_NOT_DIM = r"(?!\s*(?:cm|mm|m\b|\"|inch|ml|mcg|mg|kg|g\b))"   # a dimension/volume, not a pack ('10 x 10cm', '5 x 5cm')
+
+
+def _pack_from_text(s):
+    """Units per pack from a short, product-specific string. 'A x B' = B per pack (unless B is a dimension/volume);
+    also 'pack of N', 'box of N', 'N pcs/pieces/...'. Empty when no reliable count is present."""
+    t = (s or "").lower()
+    m = re.search(r"(?<![\d.])(\d{1,4})\s*x\s*(\d{1,4})(?![.\d])" + _NOT_DIM, t)
+    if m and 1 <= int(m.group(2)) <= 10000:
+        return str(int(m.group(2)))
+    m = re.search(r"(?:pack of|box of)\s*(\d{1,4})", t)
+    if m and 1 <= int(m.group(1)) <= 10000:
+        return str(int(m.group(1)))
+    m = re.search(r"\b(\d{1,4})\s*(?:pcs|pieces?|pairs?|sheets?|wipes?|swabs?|rolls?|sachets?|['’]s)\b", t)
+    if m and 2 <= int(m.group(1)) <= 10000:
+        return str(int(m.group(1)))
+    return ""
+
+
 def pack_of(title, pid):
-    """Units per pack, read from the NAME first then the whole PAGE (owner rule: 100% certainty, never guessed).
-    Shops state it as 'Size: 1 x 4', 'Size - pack of 2', 'pack of N', 'N pcs', etc. 'A x B' = B units per pack."""
-    for src in (title, page_text(pid)):
-        t = (src or "").lower()
-        m = re.search(r"size\s*[:\-]?\s*(\d{1,4})\s*x\s*(\d{1,4})", t) or re.search(r"\b(\d{1,4})\s*x\s*(\d{1,4})\b", t)
-        if m:
-            return str(int(m.group(2)))
-        m = re.search(r"pack of\s*(\d{1,4})|box of\s*(\d{1,4})|size\s*[:\-]?\s*(\d{2,4})\s*(?:pcs|pieces?|pack)", t)
-        if m:
-            return str(int(next(g for g in m.groups() if g)))
-        m = re.search(r"\b(\d{1,4})\s*(?:pcs|pieces?|pairs?|sheets?|wipes?|swabs?|rolls?|sachets?|['’]s)\b", t)
-        if m and 2 <= int(m.group(1)) <= 10000:
-            return str(int(m.group(1)))
+    """Units per pack (owner rule: 100% certainty, never guessed). Read from the NAME first (trustworthy), then
+    ONLY from the product's OWN labelled Size/Pack/Quantity field on the page — never a raw full-page scan, which
+    would grab counts from cross-sell / related products (e.g. 'Needles (box of 100)' on an ice-pack page)."""
+    pk = _pack_from_text(title)
+    if pk:
+        return pk
+    lf = labelled_fields(page_text(pid))
+    for key in ("size", "pack size", "pack", "quantity", "qty", "pack quantity"):
+        if lf.get(key):
+            pk = _pack_from_text(lf[key])
+            if pk:
+                return pk
     return ""
 
 

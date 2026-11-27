@@ -5247,21 +5247,21 @@ NDL:MICROC-27G-50MM-X25,"TSK CSH Cannula 27G x 50mm (2""), 1 x 25",Church Pharma
 NDL:SYRING-30ML-LUER-SLIP-X60,BD Luer Slip Syringes 30ml x 60,John Bannon Pharmacy
 NDL:MICROC-JBPNANOS,FILLMED Nanosoft BTE DE 30 Units FM,MedFX
 NDL:MICROC-CAROCELL,Carocelle Lycopene & Resveratrol,MedFX
-CON:SHARPS-SHARPS-CAPACITY-0.35L-P8,Sharps Box 0.35L Capacity,MedFX
-CON:SHARPS-YELLOW-SHARPS-BIN-0.5L-P27,Yellow Sharps Bin 0.5L,MedFX
-CON:SHARPS-INSAFE-SHARPS-CONTAINER-P10,InSafe Sharps Container,MedFX
+CON:SHARPS-SHARPS-CAPACITY-0.35L,Sharps Box 0.35L Capacity,MedFX
+CON:SHARPS-YELLOW-SHARPS-BIN-0.5L,Yellow Sharps Bin 0.5L,MedFX
+CON:SHARPS-INSAFE-SHARPS-CONTAINER,InSafe Sharps Container,MedFX
 CON:SHARPS-INSAFE-ACCESSORIES-SHARPS-BASE,inSafe Accessories Sharps Box Base,MedFX
-CON:SHARPS-SHARPSAFE-GREY-YELLOW-LID-CLEAR-0.2L-P79,Sharpsafe 0.2L Grey UK Yellow Lid Clear opening,MedFX
+CON:SHARPS-SHARPSAFE-GREY-YELLOW-LID-CLEAR-0.2L,Sharpsafe 0.2L Grey UK Yellow Lid Clear opening,MedFX
 CON:GAUZES-STERILE-COTTON-WOOL-ROLLS-NO,Sterile Cotton Wool Rolls No 2,MedFX
 CON:GAUZES-COTTON-WOOL-PELLETS-NO-DIAMETER-5.5MM,"Cotton Wool Pellets No. 2, diameter 5.5mm",MedFX
 CON:PAPERT-DISPENSER-WHITE-TORK-SINGLEFOLD-HAND,Dispenser - White for Tork Singlefold Hand Towel (CAV210). (553000),MedFX
-CON:PAPERT-DISPENSERS-TORK-MINI-CENTREFEED-558000-P174,Dispensers Tork Mini Centrefeed 558000,MedFX
-CON:PAPERT-DISPENSER-STANDARD-P239,Dispenser - Standard M-Box (559000),MedFX
+CON:PAPERT-DISPENSERS-TORK-MINI-CENTREFEED-558000,Dispensers Tork Mini Centrefeed 558000,MedFX
+CON:PAPERT-DISPENSER-STANDARD,Dispenser - Standard M-Box (559000),MedFX
 CON:PAPERT-DISPENSER-REFLEX-ROLL-TOWELS-BLUE,Dispenser for Reflex Roll Towels Blue (473133),MedFX
-CON:PAPERT-FACIAL-TISSUES-WHITE-P100,"Facial Tissues 2 ply, White",MedFX
+CON:PAPERT-FACIAL-TISSUES-WHITE,"Facial Tissues 2 ply, White",MedFX
 CON:ANTISE-FLAT-TISSUE-WHITE,"Flat Pack Tissue 2 ply, White",MedFX
-CON:GAUZES-NON-WOVEN-SWABS-7.5CM-P27,"Non Woven Swabs 7.5cm x 7.5cm, Non-Sterile, 8-ply",MedFX
-CON:GAUZES-NON-WOVEN-SWABS-5CM-P27,"Non Woven Swabs 5cm x 5cm, Non-Sterile, 8-ply",MedFX
+CON:GAUZES-NON-WOVEN-SWABS-7.5CM,"Non Woven Swabs 7.5cm x 7.5cm, Non-Sterile, 8-ply",MedFX
+CON:GAUZES-NON-WOVEN-SWABS-5CM,"Non Woven Swabs 5cm x 5cm, Non-Sterile, 8-ply",MedFX
 CON:GAUZES-TOPPER-SWABS-7.5CM-P8,Topper 8 Swabs 7.5cm x 7.5cm,MedFX
 CON:GAUZES-TOPPER-SWABS-10CM-P8,Topper 8 Swabs 10cm x 10cm,MedFX
 CON:GAUZES-TOPPER-12-SWABS-5CM-P12,Topper 12 Swabs 5cm x 5cm,MedFX
@@ -5269,33 +5269,30 @@ CON:GAUZES-TOPPER-12-SWABS-7.5CM-P12,Topper 12 Swabs 7.5cm x 7.5cm,MedFX
 CON:GAUZES-TOPPER-12-SWABS-10CM-P12,Topper 12 Swabs 10cm x 10cm,MedFX
 CON:GAUZES-GAUZE-SWABS-10CM,"Gauze Swabs 10cm x 10cm, 8 ply",MedFX
 CON:PAPERT-C-FOLD-HAND-TOWEL-WHITE,"C-Fold Hand Towel 1 ply, White",MedFX
-CON:PAPERT-C-FOLD-HAND-TOWEL-WHITE-P295,"C-Fold Hand Towel 2 ply, White",MedFX
 CON:PAPERT-Z-FOLD-HAND-TOWEL-BLUE,"Z-Fold Hand Towel 1 ply, Blue",MedFX
-CON:CONSUM-PLASTIC-CUPS-SQUAT-WHITE-180ML-P12,Plastic Cups Squat 180ml White,MedFX
+CON:CONSUM-PLASTIC-CUPS-SQUAT-WHITE-180ML,Plastic Cups Squat 180ml White,MedFX
 CON:PAPERT-TORK-MINI-JUMBO-TOILET-PAPER,Tork Mini Jumbo Toilet Paper Roll White T2 (110163),MedFX
 CON:PAPERT-TORK-SOFT-MINI-JUMBO-TOILET,Tork Soft Mini Jumbo Toilet Paper Roll White T2 (110254),MedFX
 CON:PAPERT-TOILET-TISSUE-ROLLS-WHITE,"Toilet Tissue Rolls 2 ply, White",MedFX
 CON:DRAPEC-COUCH-ROLL-BLUE-40M-40M,"Couch Roll (10”) – 2 ply, Blue 40m",MedFX
-CON:DRAPEC-COUCH-ROLL-BLUE-40M-40M-P9,"Couch Roll (20”) – 2 ply, Blue 40m",MedFX
-CON:PAPERT-ROLL-TOWEL-WHITE-P125,"Roll Towel (10”) - 2 ply, White",MedFX
+CON:PAPERT-ROLL-TOWEL-WHITE,"Roll Towel (10”) - 2 ply, White",MedFX
 CON:PAPERT-TORK-PERFORATED-HYGIENE-ROLLS-WHITE,Tork Perforated Hygiene Rolls White C1 2 ply (150226),MedFX
 CON:PAPERT-ROLL-TOWEL-REFLEX-WIPING-PAPER,"Roll Towel Reflex Wiping Paper Plus - 2 ply, White (473474)",MedFX
-CON:DRAPEC-COUCH-ROLL-WHITE-20-40M-40M-P27,"Couch Roll White 20"" - 2-Ply - 40m",MedFX
+CON:DRAPEC-COUCH-ROLL-WHITE-20-40M-40M,"Couch Roll White 20"" - 2-Ply - 40m",MedFX
 CON:CONTAI-DISPOTRAY-TRAY-LINERS-BLUE-190MM,DispoTray Tray Liners 290 x 190mm Blue,MedFX
-CON:CONTAI-DISPOTRAY-TRAY-LINERS-WHITE-146MM-P50,"DispoTray Tray Liners 190 x 146mm (7.5"" x 5 7/8"") White",MedFX
-CON:CONTAI-DISPOTRAY-TRAY-LINERS-WHITE-190MM-P12,DispoTray Tray Liners 290 x 190mm White,MedFX
-CON:CONTAI-TRAY-LINING-PAPER-UNCOATED-275MM-P250,"Tray Lining Paper - Uncoated 275mm x 175mm (11"" x 7"")",MedFX
-CON:CONTAI-TRAY-LINING-PAPER-UNCOATED-275MM-P27,"Tray Lining Paper - Uncoated 275mm x 175mm (11"" x 7"")",MedFX
+CON:CONTAI-DISPOTRAY-TRAY-LINERS-WHITE-146MM,"DispoTray Tray Liners 190 x 146mm (7.5"" x 5 7/8"") White",MedFX
+CON:CONTAI-DISPOTRAY-TRAY-LINERS-WHITE-190MM,DispoTray Tray Liners 290 x 190mm White,MedFX
+CON:CONTAI-TRAY-LINING-PAPER-UNCOATED-275MM,"Tray Lining Paper - Uncoated 275mm x 175mm (11"" x 7"")",MedFX
 CON:DRESSI-DRESSING,Dressing Pack - Sterile,MedFX
 CON:DRESSI-WATERPROOF-PLASTERS-4CM,Waterproof Plasters 4cm x 4cm,MedFX
 CON:DRESSI-WATERPROOF-PLASTER-7CM,Waterproof Plaster 7cm x 2cm,MedFX
-CON:CONSUM-GTN-GLYCERYL-TRINITRATE-SUBLINGUAL-P12,GTN - Glyceryl Trinitrate Sublingual Spray,MedFX
-CON:ANTISE-FAST-AID-PRE-INJECTION-SWABS-P27,Fast Aid Pre-Injection Swabs – 70% IPA Alcohol,MedFX
-CON:DRAPEC-WRAPAROUND-CLEAR-FILM-P152,WrapAround Clear Film,MedFX
-CON:DRAPEC-WRAPAROUND-BLUE-FILM-P152,WrapAround Blue Film,MedFX
-CON:GOWNAP-PATIENT-APRON-DISPENSER-TABLE-MOUNTED-P210,Patient Apron Dispenser Table mounted,MedFX
-CON:GOWNAP-ANTIMICROBIAL-BIB-DISPENSER-11-ROLL-P135,Antimicrobial Bib Dispenser for 11” Roll Apron,MedFX
-CON:GOWNAP-APRON-DISPENSER-FLAT-WALL-MOUNTABLE-P32,Apron Dispenser for Flat Pack Apron - Wall Mountable,MedFX
+CON:CONSUM-GTN-GLYCERYL-TRINITRATE-SUBLINGUAL,GTN - Glyceryl Trinitrate Sublingual Spray,MedFX
+CON:ANTISE-FAST-AID-PRE-INJECTION-SWABS,Fast Aid Pre-Injection Swabs – 70% IPA Alcohol,MedFX
+CON:DRAPEC-WRAPAROUND-CLEAR-FILM,WrapAround Clear Film,MedFX
+CON:DRAPEC-WRAPAROUND-BLUE-FILM,WrapAround Blue Film,MedFX
+CON:GOWNAP-PATIENT-APRON-DISPENSER-TABLE-MOUNTED,Patient Apron Dispenser Table mounted,MedFX
+CON:GOWNAP-ANTIMICROBIAL-BIB-DISPENSER-11-ROLL,Antimicrobial Bib Dispenser for 11” Roll Apron,MedFX
+CON:GOWNAP-APRON-DISPENSER-FLAT-WALL-MOUNTABLE,Apron Dispenser for Flat Pack Apron - Wall Mountable,MedFX
 CON:BIB-SIMPLEX-PLUS-BIBS-BLUE-54CM,Simplex Plus Bibs Blue - 59 x 54cm,MedFX
 CON:BIB-TENA-BIBS,TENA Disposable Bibs,MedFX
 CON:GOWNAP-PATIENT-PLASTIC-APRONS-WHITE,Patient Plastic Aprons White,MedFX
@@ -5327,70 +5324,68 @@ CON:GLOVE-NITRILE-L,Ultraflex Pink Nitrile Glove Powder Free (Box 100) - Large,S
 CON:GLOVE-NITRILE-S-BLACK,Black Disposable Nitrile Exam Gloves X100 Small,LPG Clinics Wholesale
 CON:GLOVE-NITRILE-M-BLACK,MediPro Black Nitrile Gloves- Box of 100 - Medium,Smile Pharma
 CON:GLOVE-NITRILE-L-BLACK,Black Disposable Nitrile Exam Gloves x100 Large,LPG Clinics Wholesale
-CON:ANTISE-HAND-DISINFECTANT-RUB-TOTTLE-CLIP-P50,Hand Disinfectant Rub Tottle Clip,MedFX
-CON:CLEANI-PRISTINE-PEARL-HAND-SOAP-P12,Pristine Pearl Hand Soap,MedFX
-CON:ANTISE-CLINELL-HAND-SANITISING-GEL-CLIP-P10,Clinell Hand Sanitising Gel With Clip,MedFX
-CON:ANTISE-HIBIWASH-BOTTLE-500ML-P10,Hibiwash 500ml UK Bottle,MedFX
+CON:ANTISE-HAND-DISINFECTANT-RUB-TOTTLE-CLIP,Hand Disinfectant Rub Tottle Clip,MedFX
+CON:CLEANI-PRISTINE-PEARL-HAND-SOAP,Pristine Pearl Hand Soap,MedFX
+CON:ANTISE-CLINELL-HAND-SANITISING-GEL-CLIP,Clinell Hand Sanitising Gel With Clip,MedFX
+CON:ANTISE-HIBIWASH-BOTTLE-500ML,Hibiwash 500ml UK Bottle,MedFX
 CON:ANTISE-HIBIWASH-BOTTLE-5LITRE,Hibiwash 5 Litre UK Bottle,MedFX
-CON:DRAPEC-WRAPAROUND-TUBE-SLEEVE-LARGE-STRIPS-P10,WrapAround Tube Sleeve - Large Strips,MedFX
-CON:DRAPEC-EQUIPMENT-PROTECTION-HEADREST-COVER-WHIT-P50,Equipment Protection Headrest Cover - White,MedFX
+CON:DRAPEC-WRAPAROUND-TUBE-SLEEVE-LARGE-STRIPS,WrapAround Tube Sleeve - Large Strips,MedFX
+CON:DRAPEC-EQUIPMENT-PROTECTION-HEADREST-COVER-WHIT,Equipment Protection Headrest Cover - White,MedFX
 CON:DRESSI-BARRIER-TUBLEX-LENGTH-ADHESIVE-TAPE-31CM,"Barrier Tublex, Length 31cm with Adhesive Tape",MedFX
 CON:DRESSI-BARRIER-TUBLEX-LENGTH-ADHESIVE-TAPE-90CM,"Barrier Tublex, Length 90cm with Adhesive Tape",MedFX
-CON:FACEMA-COM-FIT-SUPER-HIGH-FILTRATION-FACE-P50,Com-Fit Super High Filtration Face Mask - Ear Loop - Blue,MedFX
+CON:FACEMA-COM-FIT-SUPER-HIGH-FILTRATION-FACE,Com-Fit Super High Filtration Face Mask - Ear Loop - Blue,MedFX
 CON:FACEMA-FACE-MASK-DISPENSER-TRANSPARENT,Face Mask Dispenser - Transparent,MedFX
 CON:FACEMA-UNODENT-FACE-MASKS-IIR-EAR,UnoDent Face Masks IIR - Ear Loops,MedFX
 CON:FACEMA-SPLASH-RESISTANT-PROCEDURE-MASK-TYPE,"Splash Resistant Procedure Mask, Type IIR, Ear Loops, White",MedFX
-CON:CLEANI-PURIFIED-WATER-P10,Purified Water,MedFX
-CON:ANTISE-SURFACE-DISINFECTANT-SPRAY-ECONOMY-REF-P10,Surface Disinfectant Spray Economy Refill,MedFX
-CON:ANTISE-MILTON-SOLUTION-P10,Milton Solution,MedFX
-CON:ANTISE-NEW-FORMULATION-ALCOHOL-HARD-SURFA-P5,NEW Formulation Alcohol-Free Hard Surface Disinfectant Spray Economy Refill,MedFX
-CON:ANTISE-NEW-FORMULATION-ALCOHOL-HARD-SURFA-P9,NEW Formulation Alcohol-Free Hard Surface Disinfectant Spray With Trigger,MedFX
-CON:ANTISE-NEW-FORMULATION-ALCOHOL-HARD-SURFA-1L-P10,NEW Formulation Alcohol-Free Hard Surface Disinfectant Spray 1L Trigger Spray,MedFX
-CON:ANTISE-AZOWIPE-70-IPA-DISINFECTANT-WIPES-200MM-P200,AzoWipe 70% IPA Disinfectant Wipes Size: 200 x 200mm,MedFX
-CON:ANTISE-AZOWIPETTE-70-IPA-DISINFECTANT-WIPES-180MM-P180,AzoWipette 70% IPA Disinfectant Wipes Size: 130 x 180mm,MedFX
-CON:ANTISE-AZOWIPE-EQUIPMENT-70-IPA-DISINFECTANT-200MM-P200,AzoWipe Equipment 70% IPA Disinfectant Wipes Size: 200 x 200mm,MedFX
-CON:ANTISE-MIKROZID-ALCOHOL-WIPES-JUMBO-P200,mikrozid alcohol free wipes Jumbo,MedFX
+CON:CLEANI-PURIFIED-WATER,Purified Water,MedFX
+CON:ANTISE-SURFACE-DISINFECTANT-SPRAY-ECONOMY-REF,Surface Disinfectant Spray Economy Refill,MedFX
+CON:ANTISE-MILTON-SOLUTION,Milton Solution,MedFX
+CON:ANTISE-NEW-FORMULATION-ALCOHOL-HARD-SURFA,NEW Formulation Alcohol-Free Hard Surface Disinfectant Spray Economy Refill,MedFX
+CON:ANTISE-NEW-FORMULATION-ALCOHOL-HARD-SURFA-1L,NEW Formulation Alcohol-Free Hard Surface Disinfectant Spray 1L Trigger Spray,MedFX
+CON:ANTISE-AZOWIPE-70-IPA-DISINFECTANT-WIPES-200MM,AzoWipe 70% IPA Disinfectant Wipes Size: 200 x 200mm,MedFX
+CON:ANTISE-AZOWIPETTE-70-IPA-DISINFECTANT-WIPES-180MM,AzoWipette 70% IPA Disinfectant Wipes Size: 130 x 180mm,MedFX
+CON:ANTISE-AZOWIPE-EQUIPMENT-70-IPA-DISINFECTANT-200MM,AzoWipe Equipment 70% IPA Disinfectant Wipes Size: 200 x 200mm,MedFX
+CON:ANTISE-MIKROZID-ALCOHOL-WIPES-JUMBO,mikrozid alcohol free wipes Jumbo,MedFX
 CON:ANTISE-MIKROZID-ALCOHOL-WIPES-JUMBO-REFILL,mikrozid alcohol free wipes Jumbo Refill Pack,MedFX
-CON:ANTISE-MIKROZID-SENSITIVE-WIPES-PREMIUM-ALCOHO-P200,mikrozid sensitive wipes premium Alcohol-Free,MedFX
-CON:ANTISE-SEPTALKAN-WIPES-FLOW-ALCOHOL-P50,Septalkan Wipes Flow Pack - Alcohol-free,MedFX
-CON:ANTISE-SURFACE-DISINFECTANT-WIPES-JUMBO-P200,Surface Disinfectant Wipes - Jumbo size,MedFX
-CON:CONSUM-CAVIWIPES-FLAT-P45,CaviWipes - Flat Pack,MedFX
-CON:ANTISE-CLINELL-UNIVERSAL-WIPES-P5,Clinell Universal Wipes,MedFX
+CON:ANTISE-MIKROZID-SENSITIVE-WIPES-PREMIUM-ALCOHO,mikrozid sensitive wipes premium Alcohol-Free,MedFX
+CON:ANTISE-SEPTALKAN-WIPES-FLOW-ALCOHOL,Septalkan Wipes Flow Pack - Alcohol-free,MedFX
+CON:ANTISE-SURFACE-DISINFECTANT-WIPES-JUMBO,Surface Disinfectant Wipes - Jumbo size,MedFX
+CON:CONSUM-CAVIWIPES-FLAT,CaviWipes - Flat Pack,MedFX
+CON:ANTISE-CLINELL-UNIVERSAL-WIPES,Clinell Universal Wipes,MedFX
 CON:ANTISE-CLINELL-UNIVERSAL-WIPES-TUB-REFILL,Clinell Universal Wipes Tub Refill Pack (for Tub 225),MedFX
-CON:ANTISE-SURFACE-DISINFECTANT-WIPES-JUMBO-REFIL-P200,Surface Disinfectant Wipes - Jumbo size Refill Pack,MedFX
-CON:ANTISE-CLINELL-UNIVERSAL-IN-WIPES-LARGE-27.5CM-P27,"Clinell Universal 2-In-1 Wipes - Large, 20 x 27.5cm",MedFX
+CON:ANTISE-SURFACE-DISINFECTANT-WIPES-JUMBO-REFIL,Surface Disinfectant Wipes - Jumbo size Refill Pack,MedFX
+CON:ANTISE-CLINELL-UNIVERSAL-IN-WIPES-LARGE-27.5CM,"Clinell Universal 2-In-1 Wipes - Large, 20 x 27.5cm",MedFX
 CON:ANTISE-CLINELL-UNIVERSAL-WIPES-EXTRA-HEAVY,Clinell Universal Wipes Extra Heavy,MedFX
-CON:ANTISE-MIKROZID-WIPES-JUMBO-REFILL-220-P220,mikrozid wipes jumbo refill 220 Refill,MedFX
-CON:ANTISE-NEW-FORMULATION-SURFACE-DISINFECTA-P12,NEW Formulation Surface Disinfectant Wipes - Alcohol-free Refill Pack - Apple,MedFX
-CON:ANTISE-NEW-FORMULATION-SURFACE-DISINFECTA-P50,NEW Formulation Surface Disinfectant Wipes - Alcohol-free Apple,MedFX
-CON:ANTISE-MIKROZID-WIPES-JUMBO-220-TUB-P220,mikrozid wipes jumbo 220 Tub,MedFX
+CON:ANTISE-MIKROZID-WIPES-JUMBO-REFILL-220,mikrozid wipes jumbo refill 220 Refill,MedFX
+CON:ANTISE-NEW-FORMULATION-SURFACE-DISINFECTA,NEW Formulation Surface Disinfectant Wipes - Alcohol-free Refill Pack - Apple,MedFX
+CON:ANTISE-MIKROZID-WIPES-JUMBO-220-TUB,mikrozid wipes jumbo 220 Tub,MedFX
 CON:CONTAI-GALLIPOTS-60ML,Gallipots 60ml Sterile,MedFX
-CON:GAUZES-STERILE-GAUZE-SWABS-BP-7.5CM-P5,"Sterile Gauze Swabs BP 7.5cm x 7.5cm, 8 Ply",MedFX
+CON:GAUZES-STERILE-GAUZE-SWABS-BP-7.5CM,"Sterile Gauze Swabs BP 7.5cm x 7.5cm, 8 Ply",MedFX
 CON:GOWNAP-DISPOSABLE-SURGICAL-GOWNS-SPECIAL-PLUS,Disposable Surgical Gowns - Sterile Special Plus Size M (22.D2171.00),MedFX
-CON:GOWNAP-DISPOSABLE-SURGICAL-GOWNS-ONE-ELASTICATED-P10,"Disposable Surgical Gowns - Sterile One Size, with elasticated wrists (22.D1004.00)",MedFX
-CON:DRAPEC-DISPOSABLE-IMPLANTOLOGY-KITS-DENTSET-DENT-P150,Disposable Implantology Kits - Sterile Dentset Dental Drape Kit,MedFX
+CON:GOWNAP-DISPOSABLE-SURGICAL-GOWNS-ONE-ELASTICATED,"Disposable Surgical Gowns - Sterile One Size, with elasticated wrists (22.D1004.00)",MedFX
+CON:DRAPEC-DISPOSABLE-IMPLANTOLOGY-KITS-DENTSET-DENT,Disposable Implantology Kits - Sterile Dentset Dental Drape Kit,MedFX
 CON:DRAPEC-DISPOSABLE-SURGERY-DRAPES-ADHESIVE-BLUE-75CM,Disposable Surgery Drapes with adhesive - Sterile 50 x 75cm (12T1253) Blue,MedFX
 CON:DRAPEC-DISPOSABLE-SURGERY-DRAPES-ADHESIVE-BLUE-90CM,Disposable Surgery Drapes with adhesive - Sterile 75 x 90cm (12T1254) Blue,MedFX
-CON:DRAPEC-DISPOSABLE-SURGERY-DRAPES-BLUE-150CM-P10,Disposable Surgery Drapes - Sterile 100 x 150cm (12T1265) Blue,MedFX
+CON:DRAPEC-DISPOSABLE-SURGERY-DRAPES-BLUE-150CM,Disposable Surgery Drapes - Sterile 100 x 150cm (12T1265) Blue,MedFX
 CON:DRAPEC-MAYO-TABLE-COVER-120CM,Mayo Table Cover - Sterile 80 x 120cm,MedFX
-CON:DRAPEC-DRAPE-WATERPROOF-LIGHT-BLUE-50CM-P50,Drape - Waterproof - Light Blue 50 x 50cm Sterile,MedFX
-CON:DRAPEC-DRAPE-WATERPROOF-LIGHT-BLUE-75CM-P50,Drape - Waterproof - Light Blue 50 x 75cm Sterile,MedFX
-CON:DRAPEC-DRAPE-WATERPROOF-LIGHT-BLUE-90CM-P50,Drape - Waterproof - Light Blue 75 x 90cm Sterile,MedFX
-CON:DRAPEC-DRAPE-WATERPROOF-LIGHT-BLUE-150CM-P50,Drape - Waterproof - Light Blue 100 x 150cm Sterile,MedFX
-CON:DRAPEC-COMPLETE-DRAPE-KIT-P3,Complete Drape Kit - Sterile,MedFX
+CON:DRAPEC-DRAPE-WATERPROOF-LIGHT-BLUE-50CM,Drape - Waterproof - Light Blue 50 x 50cm Sterile,MedFX
+CON:DRAPEC-DRAPE-WATERPROOF-LIGHT-BLUE-75CM,Drape - Waterproof - Light Blue 50 x 75cm Sterile,MedFX
+CON:DRAPEC-DRAPE-WATERPROOF-LIGHT-BLUE-90CM,Drape - Waterproof - Light Blue 75 x 90cm Sterile,MedFX
+CON:DRAPEC-DRAPE-WATERPROOF-LIGHT-BLUE-150CM,Drape - Waterproof - Light Blue 100 x 150cm Sterile,MedFX
+CON:DRAPEC-COMPLETE-DRAPE-KIT,Complete Drape Kit - Sterile,MedFX
 CON:GOWNAP-SURGICAL-GOWN-KIT,Surgical Gown Kit - Sterile,MedFX
-CON:HEADFA-SURGICAL-CAP-ADJUSTABLE-TIES-LIGHT-P10,Surgical Cap with Adjustable Ties - Light Blue (30.M0005.00),MedFX
+CON:HEADFA-SURGICAL-CAP-ADJUSTABLE-TIES-LIGHT,Surgical Cap with Adjustable Ties - Light Blue (30.M0005.00),MedFX
 CON:HEADFA-ROUND-CAP-ELASTIC-LIGHT-BLUE,Round Cap with Elastic - Light Blue (10.M0007.00),MedFX
-CON:HEADFA-SURGICAL-HAT-BLUE-P50,Surgical Hat Blue,MedFX
-CON:DRESSI-MICROPORE-TAPE-1M-1.25CM-P50,Micropore Medical Tape 1.25cm x 9.1m,MedFX
-CON:DRESSI-KALTOSTAT-DRESSING-5CM-P50,Kaltostat Sterile Dressing 5cm x 5cm,MedFX
+CON:HEADFA-SURGICAL-HAT-BLUE,Surgical Hat Blue,MedFX
+CON:DRESSI-MICROPORE-TAPE-1M-1.25CM,Micropore Medical Tape 1.25cm x 9.1m,MedFX
+CON:DRESSI-KALTOSTAT-DRESSING-5CM,Kaltostat Sterile Dressing 5cm x 5cm,MedFX
 CON:DRESSI-MICROPORE-TAPE-5M-1.25CM,Micropore Tape 1.25cm x 5m,MedFX
-CON:DRESSI-MICROPORE-TAPE-5M-2.5CM-P50,Micropore Tape 2.5cm x 5m,MedFX
-CON:DRESSI-TRANSPORE-TAPE-14M-9.14M-P50,Transpore Tape 9.14m x 2.5cm,MedFX
-CON:DRESSI-MICROPOROUS-TAPE-10M-2.5CM-P10,Microporous Tape 2.5cm x 10m,MedFX
+CON:DRESSI-MICROPORE-TAPE-5M-2.5CM,Micropore Tape 2.5cm x 5m,MedFX
+CON:DRESSI-TRANSPORE-TAPE-14M-9.14M,Transpore Tape 9.14m x 2.5cm,MedFX
+CON:DRESSI-MICROPOROUS-TAPE-10M-2.5CM,Microporous Tape 2.5cm x 10m,MedFX
 CON:CONTAI-FLOWFUSOR-BOTTLE,Flowfusor Bottle,MedFX
 CON:HOTCOL-COLDBAG,Coldbag,MedFX
-CON:HOTCOL-INSTANT-ICE-100G-P50,Instant Ice Pack 100g,MedFX
+CON:HOTCOL-INSTANT-ICE-100G,Instant Ice Pack 100g,MedFX
 CON:CONSUM-DISPOSABLE-PREP-RAZOR,Disposable Prep Razor,MedFX
 CON:BLADES-NON-STERILE-SURGICAL-BLADE-REMOVER,Non-Sterile Surgical Blade Remover (5505),MedFX
 CON:BLADES-CYGNETIC-HANDLE,Cygnetic Handle,MedFX
@@ -5399,21 +5394,17 @@ CON:BLADES-STERILE-STITCH-CUTTER-BLADES,Sterile Stitch Cutter Blades,MedFX
 CON:BLADES-SURGICAL-BLADE-REMOVERS,Surgical Blade Removers Sterile,MedFX
 CON:DRESSI-VICRYL-RAPIDE-SUTURE-BRAIDED-UNDYED-75CM,"Vicryl Rapide Suture - Braided, Undyed, Absorbable W9923. Length: 75cm, Gauge: 3/0",MedFX
 CON:DRESSI-VICRYL-SUTURE-COATED-ABSORBABLE-BRAID-45CM,"Vicryl Suture, Coated - Absorbable, Braided, Undyed W9437. Length: 45cm, Gauge: 4/0",MedFX
-CON:DRESSI-VICRYL-SUTURE-COATED-ABSORBABLE-BRAID-45CM-P50,"Vicryl Suture, Coated - Absorbable, Braided, Violet W9471. Length: 45cm, Gauge: 4/0",MedFX
-CON:DRESSI-VICRYL-SUTURE-COATED-ABSORBABLE-BRAID-75CM-P10,"Vicryl Suture, Coated - Absorbable, Braided, Undyed W9730. Length: 75cm, Gauge: 3/0",MedFX
-CON:DRESSI-VICRYL-RAPIDE-SUTURE-BRAIDED-UNDYED-45CM-P50,"Vicryl Rapide Suture - Braided, Undyed, Absorbable W9927. Length: 45cm, Gauge: 3/0",MedFX
-CON:DRESSI-VICRYL-RAPIDE-SUTURE-BRAIDED-UNDYED-45CM-P10,"Vicryl Rapide Suture - Braided, Undyed, Absorbable W9935. Length: 45cm, Gauge: 3/0",MedFX
-CON:DRESSI-VICRYL-RAPIDE-SUTURE-BRAIDED-UNDYED-75CM-P50,"Vicryl Rapide Suture - Braided, Undyed, Absorbable W9931. Length: 75cm, Gauge: 3/0",MedFX
-CON:DRESSI-VICRYL-RAPIDE-SUTURE-BRAIDED-UNDYED-75CM-P10,"Vicryl Rapide Suture - Braided, Undyed, Absorbable W9940. Length: 75cm, Gauge: 3/0",MedFX
+CON:DRESSI-VICRYL-SUTURE-COATED-ABSORBABLE-BRAID-75CM,"Vicryl Suture, Coated - Absorbable, Braided, Undyed W9730. Length: 75cm, Gauge: 3/0",MedFX
+CON:DRESSI-VICRYL-RAPIDE-SUTURE-BRAIDED-UNDYED-45CM,"Vicryl Rapide Suture - Braided, Undyed, Absorbable W9927. Length: 45cm, Gauge: 3/0",MedFX
 CON:CONSUM-BODY-FLUID-CLEAN-UP-KIT,Body Fluid Clean Up Kit,MedFX
-CON:CONSUM-ACETONE-50ML-P50,Acetone,Church Pharmacy
+CON:CONSUM-ACETONE-50ML,Acetone,Church Pharmacy
 CON:ANTISE-ALCAGEL-VIRUCIDAL-HAND-SANITISER-PUMP-500ML,Alcagel Virucidal Hand Sanitiser With Pump 500ml,Church Pharmacy
-CON:ANTISE-ALCOHOLFREE-ANTISEPTIC-MOIST-WIPES-14CM-P14,Alcoholfree Antiseptic Moist Wipes 14 X 14 Cm,Church Pharmacy
+CON:ANTISE-ALCOHOLFREE-ANTISEPTIC-MOIST-WIPES-14CM-P100,Alcoholfree Antiseptic Moist Wipes 14 X 14 Cm,Church Pharmacy
 CON:DRESSI-ALLEVYN-ADHESIVE-DRESSINGS-125CM-P10,Allevyn Adhesive Dressings 125cm X 125cm,Church Pharmacy
 CON:DRESSI-ALLEVYN-NONADHESIVE-DRESSINGS-5CM-P10,Allevyn Nonadhesive Dressings 5cm X 5cm,Church Pharmacy
 CON:PAPERT-ALVITA-TISSUES-WHITE-P150,Alvita Tissues White 2ply,Church Pharmacy
 CON:DRESSI-AMETOP-DISPENSING-TUBES-24-FLEXIGRID-15G,Ametop Dispensing Pack 12x 15g Tubes And 24 Flexigrid Dressings,Church Pharmacy
-CON:DIAGNO-AQ-ENDOTEST-50ML-P50,Aq Endotest,Church Pharmacy
+CON:DIAGNO-AQ-ENDOTEST-50ML,Aq Endotest,Church Pharmacy
 CON:DRESSI-AQUACEL-NONADHESIVE-FOAM-DRESSINGS-5CM-P10,Aquacel Nonadhesive Foam Dressings 5cm X 5cm,Church Pharmacy
 CON:FIRSTA-ASTROPLAST-MICRO-TRAVEL-FIRST-AID,Astroplast Micro Travel First Aid Kit,Church Pharmacy
 CON:ANTISE-AZO-WIPES-P200,Azo Wipes,Church Pharmacy
@@ -5421,7 +5412,7 @@ CON:IVBLOO-B-BRAUN-INTRAFIX-PRIMELINE-GRAVI-4062981L-P100,B Braun Intrafix Prime
 CON:ANTISE-BABY-WIPES-FRAGRANCE,Baby Wipes Fragrance Free,Church Pharmacy
 CON:APPLIC-BD-CHLORAPREP-FREPP-APPLICATOR,Bd Chloraprep Frepp Applicator,Church Pharmacy
 CON:APPLIC-BD-CHLORAPREP-SEPP-APPLICATOR-P200,Bd Chloraprep Sepp Applicator,Church Pharmacy
-CON:IVBLOO-BD-VACUTAINER-PLASMA-SEPARATOR-TU-8ML-P100,Bd Vacutainer Plasma Separator Tubes,Church Pharmacy
+CON:IVBLOO-BD-VACUTAINER-PLASMA-SEPARATOR-TU-8ML,Bd Vacutainer Plasma Separator Tubes,Church Pharmacy
 CON:IVBLOO-BD-VACUTAINER-SAFETYLOK-BLOOD-COL-21G-P50,Bd Vacutainer Safetylok Blood Collection Wing Set 21g 178mm Green,Church Pharmacy
 CON:IVBLOO-BD-VACUTAINER-SAFETYLOK-BLOOD-COL-21G-P25,Bd Vacutainer Safetylok Blood Collection Wing Set 21g 178mm With Preattached Holder Bull Dog Green,Church Pharmacy
 CON:IVBLOO-BD-VACUTAINER-SAFETYLOK-BLOOD-COL-23G-P50,Bd Vacutainer Safetylok Blood Collection Wing Set 23g 178mm Tube Blue,Church Pharmacy
@@ -5431,33 +5422,33 @@ CON:DIAGNO-BERRCOM-NONCONTACT-INFRARED-THERMOMETE,Berrcom Noncontact Infrared Th
 CON:GLOVE-NITRILE-XL-BLACK,Black Nitrile Gloves Powder Free Xlarge,Church Pharmacy
 CON:ANTISE-BLEPHACLEAN-PRESERVATIVE-EYE-WIPES-P20,Blephaclean Preservative Free Eye Wipes,Church Pharmacy
 CON:GLOVE-VINYL-M-BLUE-PD,Blue Vinyl Powdered Medium Gloves,Church Pharmacy
-CON:CONDUC-CAM-CARE-CLEAR-CONDUCTION-ECG-150G-P150,Cam Care Clear Conduction Ecg Gel,Church Pharmacy
-CON:CONDUC-CAMCARE-ULTRASOUND-GEL-250ML-P250,Camcare Ultrasound Gel,Church Pharmacy
-CON:CLEANI-CARE-SURGICAL-SPIRIT-BP-200ML-P200,Care Surgical Spirit Bp,Church Pharmacy
+CON:CONDUC-CAM-CARE-CLEAR-CONDUCTION-ECG-150G,Cam Care Clear Conduction Ecg Gel,Church Pharmacy
+CON:CONDUC-CAMCARE-ULTRASOUND-GEL-250ML,Camcare Ultrasound Gel,Church Pharmacy
+CON:CLEANI-CARE-SURGICAL-SPIRIT-BP-200ML,Care Surgical Spirit Bp,Church Pharmacy
 CON:DIAGNO-CARESENS-PRO-TEST-STRIPS-1604M-P50,Caresens Pro Test Strips,Church Pharmacy
-CON:CLEANI-CAREX-ALOE-VERA-ANTIBACTERIAL-HANDWA-250ML-P250,Carex Aloe Vera Antibacterial Handwash,Church Pharmacy
-CON:CLEANI-CAREX-ANTIBACTERIAL-ORIGINAL-PH-BALA-250ML-P250,Carex Antibacterial Original Ph Balanced Handwash,Church Pharmacy
-CON:PAPERT-CENTREFEED-BLUE-ROLL-150M-150M-P150,Centrefeed 2 Ply Blue Roll 1 X 150m,Church Pharmacy
+CON:CLEANI-CAREX-ALOE-VERA-ANTIBACTERIAL-HANDWA-250ML,Carex Aloe Vera Antibacterial Handwash,Church Pharmacy
+CON:CLEANI-CAREX-ANTIBACTERIAL-ORIGINAL-PH-BALA-250ML,Carex Antibacterial Original Ph Balanced Handwash,Church Pharmacy
+CON:PAPERT-CENTREFEED-BLUE-ROLL-150M-150M,Centrefeed 2 Ply Blue Roll 1 X 150m,Church Pharmacy
 CON:CONDUC-CLEAR-ULTRASOUND-GEL-REFILL-BOTTLE-5LITRE-P5,Clear Ultrasound Gel With Refill Bottle,Church Pharmacy
 CON:CONSUM-CLEARBLUE-RAPID-DETECTION-PREGNANCY-TEST-P2,Clearblue Rapid Detection Pregnancy Test,Church Pharmacy
 CON:ANTISE-CLINELL-UNIVERSAL-SANITISING-WIPES-P200,Clinell Universal Sanitising Wipes,Church Pharmacy
 CON:SHARPS-CLINICAL-WASTE-YELLOW-990MM-P25,Clinical Waste Yellow,Church Pharmacy
 CON:DRESSI-CLINIFAST-BLUE-TUBULAR-BANDAGE-5M-75CM,Clinifast Blue Tubular Bandage 75cm X 5m,Church Pharmacy
-CON:ANTISE-CLINISEPT-MOUTHWASH-400ML-P400,Clinisept Mouthwash 400ml,Church Pharmacy
-CON:ANTISE-CLINISEPT-SKIN-100ML-P100,Clinisept+ Skin 100ml,Church Pharmacy
-CON:ANTISE-CLINISEPT-SKIN-490ML-P500,Clinisept Skin 490ml,Church Pharmacy
-CON:CONSUM-CLINISOOTHE-SKIN-PURIFIER-DROPPER-BOTTLE-250ML-P250,Clinisoothe Skin Purifier Dropper Bottle,Church Pharmacy
-CON:CONSUM-CLINISOOTHE-SKIN-PURIFIER-FACIAL-SPRAY-100ML-P100,Clinisoothe Skin Purifier Facial Spray,Church Pharmacy
+CON:ANTISE-CLINISEPT-MOUTHWASH-400ML,Clinisept Mouthwash 400ml,Church Pharmacy
+CON:ANTISE-CLINISEPT-SKIN-100ML,Clinisept+ Skin 100ml,Moda Pharmacy
+CON:ANTISE-CLINISEPT-SKIN-490ML,Clinisept+ Skin 490ml,Moda Pharmacy
+CON:CONSUM-CLINISOOTHE-SKIN-PURIFIER-DROPPER-BOTTLE-250ML,Clinisoothe Skin Purifier Dropper Bottle,Church Pharmacy
+CON:CONSUM-CLINISOOTHE-SKIN-PURIFIER-FACIAL-SPRAY-100ML,Clinisoothe Skin Purifier Facial Spray,Church Pharmacy
 CON:HOTCOL-COLD-GEL-ICE-PACKS-P4,Cold Gel Ice Packs,Church Pharmacy
 CON:CONSUM-COMFEEL-PLUS-TRANSPARENT-AVAILABLE-ON-7CM-P10,Comfeel Plus Transparent 5 X 7cm,Church Pharmacy
 CON:DRESSI-CONCEPT-SMALL-DRESSING,Concept Small Dressing Pack Sterile,Church Pharmacy
 CON:PAPERT-CONTRACT-320-SHEET-TOILET-ROLLS-P320,Contract 4 X 320 Sheet Toilet Rolls 2ply,Church Pharmacy
-CON:ANTISE-CORSODYL-ALCOHOL-MOUTHWASH-300ML-P300,Corsodyl Alcohol Free Mouthwash,Church Pharmacy
+CON:ANTISE-CORSODYL-ALCOHOL-MOUTHWASH-300ML,Corsodyl Alcohol Free Mouthwash,Church Pharmacy
 CON:APPLIC-COTTON-BUDS-PAPER-STEM-P100,Cotton Buds Paper Stem,Church Pharmacy
 CON:APPLIC-COTTON-BUDS-BUD-LONG-WOODEN-P100,Cotton Buds Single Bud Long Wooden Shaft,Church Pharmacy
 CON:GAUZES-COTTON-WOOL-BALLS-WHITE-P100,Cotton Wool Balls White,Church Pharmacy
 CON:GAUZES-COTTON-WOOL-COSMETIC-SQUARE-PADS-P50,Cotton Wool Cosmetic Square Pads,Church Pharmacy
-CON:GAUZES-COTTON-WOOL-ROLL-350G-P350,Cotton Wool Roll,Church Pharmacy
+CON:GAUZES-COTTON-WOOL-ROLL-350G,Cotton Wool Roll,Church Pharmacy
 CON:GAUZES-COTTON-WOOL-ROUND-COSMETIC-PADS-P100,Cotton Wool Round Cosmetic Pads,Church Pharmacy
 CON:CONSUM-COVID19-FLOWFLEX-SARSCOV2-ANTIGEN-RAPI,Covid19 Flowflex Sarscov2 Antigen Rapid Test Selftesting 1 X 1,Church Pharmacy
 CON:CONSUM-COVID19-FLOWFLEX-SARSCOV2-ANTIGEN-RAPI-P5,Covid19 Flowflex Sarscov2 Antigen Rapid Test Selftesting 1 X 5,Church Pharmacy
@@ -5465,20 +5456,20 @@ CON:GAUZES-COVID19-PCR-SWAB-TEST-KIT,Covid19 Pcr Swab Test Kit Fittofly Service,
 CON:CONSUM-CP-DIARY,Cp Clinic Diary,Church Pharmacy
 CON:DRESSI-CRINX-CONFORM-BANDAGE-35M-35M,Crinx Conform Bandage 35m X 75cm,Church Pharmacy
 CON:DRESSI-CRINX-CONFORM-BANDAGE-35MX-5CM,Crinx Conform Bandage 35mx5cm,Church Pharmacy
-CON:GOWNAP-CYKLOKAPRON-5ML-P5,Cyklokapron,Church Pharmacy
+CON:GOWNAP-CYKLOKAPRON-5ML,Cyklokapron,Church Pharmacy
 CON:CONSUM-DERMABOND-MINI-TOPICAL-SKIN-ADHESIVE,Dermabond Mini Topical Skin Adhesive,Church Pharmacy
-CON:CLEANI-DERMOL-HAND-WASH-200ML-P200,Dermol Hand Wash,Church Pharmacy
-CON:CONSUM-DETTOL-ANTIBACTERIAL-SOAP-TWIN-100G-P100,Dettol Antibacterial Soap Twin Pack,Church Pharmacy
-CON:ANTISE-DETTOL-DISINFECTANT-LIQUID-LAVENDER-O-500ML-P500,Dettol Disinfectant Liquid Lavender Orange,Church Pharmacy
-CON:ANTISE-DETTOL-DISINFECTANT-LIQUID-SEA-MINERA-500ML-P500,Dettol Disinfectant Liquid Sea Minerals,Church Pharmacy
+CON:CLEANI-DERMOL-HAND-WASH-200ML,Dermol Hand Wash,Church Pharmacy
+CON:CONSUM-DETTOL-ANTIBACTERIAL-SOAP-TWIN-100G,Dettol Antibacterial Soap Twin Pack,Church Pharmacy
+CON:ANTISE-DETTOL-DISINFECTANT-LIQUID-LAVENDER-O-500ML,Dettol Disinfectant Liquid Lavender Orange,Church Pharmacy
+CON:ANTISE-DETTOL-DISINFECTANT-LIQUID-SEA-MINERA-500ML,Dettol Disinfectant Liquid Sea Minerals,Church Pharmacy
 CON:DIAGNO-DIGITAL-THERMOMETER,Digital Thermometer,Church Pharmacy
 CON:GOWNAP-DISPOSABLE-APRON-FLAT-BLUE-46-P46,Disposable Apron Flat Pack Blue 27 X 46,Church Pharmacy
 CON:GOWNAP-DISPOSABLE-APRON-FLAT-WHITE-46-P46,Disposable Apron Flat Pack White 27 X 46,Church Pharmacy
 CON:GOWNAP-DISPOSABLE-APRON-ON-ROLL-BLUE-P46,Disposable Apron On A Roll Blue 27 X 46,Church Pharmacy
 CON:GOWNAP-DISPOSABLE-APRON-ON-ROLL-WHITE-P46,Disposable Apron On A Roll White 27 X 46,Church Pharmacy
 CON:GOWNAP-DISPOSABLE-WHITE-APRON-FLAT-1X600-P600,Disposable White Apron Flat Pack 1x600,Church Pharmacy
-CON:CONSUM-DISTILLED-WITCH-HAZEL-200ML-P200,Distilled Witch Hazel,Church Pharmacy
-CON:CONSUM-DRUG-DENATURING-KIT-250ML-P250,Drug Denaturing Kit,Church Pharmacy
+CON:CONSUM-DISTILLED-WITCH-HAZEL-200ML,Distilled Witch Hazel,Church Pharmacy
+CON:CONSUM-DRUG-DENATURING-KIT-250ML,Drug Denaturing Kit,Church Pharmacy
 CON:ANTISE-DRY-WIPES-P30,Dry Wipes,Church Pharmacy
 CON:CONSUM-DUODERM-EXTRA-THIN-S162-15CM-P10,Duoderm Extra Thin 15cm X 15cm S162,Church Pharmacy
 CON:CONSUM-DUODERM-EXTRA-THIN-S160-75CM-P5,Duoderm Extra Thin 75cm X 75cm S160,Church Pharmacy
@@ -5489,7 +5480,7 @@ CON:HEADFA-FACE-SHIELD-SPLASH-GUARD,Face Shield Splash Guard,Church Pharmacy
 CON:FACEMA-FLUIDPROTECT-ANTIFOG-SURGICAL-FACE-MASKS-P50,Fluidprotect Antifog Surgical Face Masks With Ties Orange Type Iir,Church Pharmacy
 CON:FACEMA-FLUIDPROTECT-SURGICAL-FACE-MASKS-VISOR-P25,Fluidprotect Surgical Face Masks With Visor Ties Orange Type Iir,Church Pharmacy
 CON:GAUZES-FOAM-SWABSTICKS-P250,Foam Swabsticks,Church Pharmacy
-CON:CONTAI-GALLIPOT-60ML-P60,Gallipot,Church Pharmacy
+CON:CONTAI-GALLIPOT-60ML,Gallipot Sterile 60ml x 1,John Bannon Pharmacy
 CON:GAUZES-GAUZE-PAD-SWAB-5CMX-5CM-P100,Gauze Pad Swab 5cmx5cm 12ply,Church Pharmacy
 CON:GAUZES-GAUZE-PAD-SWAB-BP-5CMX-5CM-P100,Gauze Pad Swab Bp 5cmx5cm 8ply,Church Pharmacy
 CON:GAUZES-GAUZE-PAD-SWAB-BPC-75CMX-75CM-P100,Gauze Pad Swab Bpc 75cmx75cm 8ply,Church Pharmacy
@@ -5499,25 +5490,25 @@ CON:GAUZES-GAUZE-SWABS-75CMX-75CM-P100,Gauze Swabs Non Sterile 75cmx75cm 12 Ply,
 CON:GAUZES-GAUZE-SWABS-75X-75CM-P5,Gauze Swabs Sterile 75x75cm 8ply,Church Pharmacy
 CON:CONSUM-GENERAL-AESTHETICS-STARTER-P16,General Aesthetics Starter Pack,Church Pharmacy
 CON:CONSUM-GENTLO-GROUND-PAD,Gentlo Ground Pad,Church Pharmacy
-CON:CONSUM-GLASS-DROPPER-10ML-P10,Glass Dropper,Church Pharmacy
+CON:CONSUM-GLASS-DROPPER-10ML,Glass Dropper,Church Pharmacy
 CON:DRESSI-GRANUFLEX-DRESSING-10CM-P10,Granuflex Dressing 10 X 10 Cm,Church Pharmacy
 CON:CONSUM-HALO-WOMENS-MATERNITY-WEAR-NECK,Halo Womens Maternity Wear V Neck Top Black Extra Large,Church Pharmacy
-CON:ANTISE-HIBIWASH-ANTIMICROBIAL-SKIN-CLEANSER-FO-500ML-P500,Hibiwash Antimicrobial Skin Cleanser Formally Hibiscrub,Church Pharmacy
+CON:ANTISE-HIBIWASH-ANTIMICROBIAL-SKIN-CLEANSER-FO-500ML,Hibiwash Antimicrobial Skin Cleanser Formally Hibiscrub,Church Pharmacy
 CON:ANTISE-HS-ALCOHOL-PREP-PADS-P200,Hs Alcohol Prep Pads,Church Pharmacy
-CON:ANTISE-HYDREX-CHLORHEX-IN-SPIRIT-CLEAR-600ML-P600,Hydrex Chlorhex In Spirit Clear Antimicrobial Skin Disinfectant,Church Pharmacy
-CON:ANTISE-HYDREX-HS-HARD-SURFACE-TRIGGER-500ML-P500,Hydrex Hs Hard Surface Trigger Spray,Church Pharmacy
-CON:ANTISE-HYDREX-PINK-TRIGGER-ANTIMICROBIAL-SKI-500ML-P500,Hydrex Pink Trigger Antimicrobial Skin Disinfectant,Church Pharmacy
-CON:ANTISE-HYDREX-SPRAY-PINK-ANTIMICROBIAL-SKIN-200ML-P200,Hydrex Spray Pink Antimicrobial Skin Disinfectant,Church Pharmacy
-CON:ANTISE-HYDREX-SURGICAL-SCRUB-ANTISEPTIC-SKIN-500ML-P500,Hydrex Surgical Scrub Antiseptic Skin Disinfectant,Church Pharmacy
-CON:CONSUM-HYDROGEN-PEROXIDE-200ML-P200,Hydrogen Peroxide,Church Pharmacy
+CON:ANTISE-HYDREX-CHLORHEX-IN-SPIRIT-CLEAR-600ML,Hydrex Chlorhex In Spirit Clear Antimicrobial Skin Disinfectant,Church Pharmacy
+CON:ANTISE-HYDREX-HS-HARD-SURFACE-TRIGGER-500ML,Hydrex Hs Hard Surface Trigger Spray,Church Pharmacy
+CON:ANTISE-HYDREX-PINK-TRIGGER-ANTIMICROBIAL-SKI-500ML,Hydrex Pink Trigger Antimicrobial Skin Disinfectant,Church Pharmacy
+CON:ANTISE-HYDREX-SPRAY-PINK-ANTIMICROBIAL-SKIN-200ML,Hydrex Spray Pink Antimicrobial Skin Disinfectant,Church Pharmacy
+CON:ANTISE-HYDREX-SURGICAL-SCRUB-ANTISEPTIC-SKIN-500ML,Hydrex Surgical Scrub Antiseptic Skin Disinfectant,Church Pharmacy
+CON:CONSUM-HYDROGEN-PEROXIDE-200ML,Hydrogen Peroxide,Church Pharmacy
 CON:CONTAI-INSTRUMENT-TRAY-200MM,Instrument Tray 200mm,Church Pharmacy
-CON:CONSUM-INTRASITE-GEL-APPLIPAK-25G-P25,Intrasite Gel Applipak,Church Pharmacy
-CON:CONSUM-JAN-MARINI-SAMPLE-POTS-P25,Jan Marini Sample Pots,Church Pharmacy
+CON:CONSUM-INTRASITE-GEL-APPLIPAK-25G,Intrasite Gel Applipak,Church Pharmacy
+CON:CONSUM-JAN-MARINI-SAMPLE-POTS-P15,Jan Marini Sample Pots,Church Pharmacy
 CON:DRESSI-JELONET-DRESSING-10CM-P10,Jelonet Dressing 10cm X 10cm,Church Pharmacy
 CON:DRESSI-JELONET-DRESSING-5CM-P50,Jelonet Dressing 5cm X 5cm,Church Pharmacy
 CON:APPLIC-JOHNSON-COTTON-BUDS-330L-P100,Johnson Johnson Cotton Buds,Church Pharmacy
-CON:CONSUM-K-JELLY-82G-P82,K Y Jelly,Church Pharmacy
-CON:CONSUM-KAI-DERMAL-CURETTE-200-DIAMETER-P20,Kai Disposable Dermal Curette 200 Diameter,Church Pharmacy
+CON:CONSUM-K-JELLY-82G,K Y Jelly,Church Pharmacy
+CON:CONSUM-KAI-DERMAL-CURETTE-200-DIAMETER,Kai Disposable Dermal Curette 200 Diameter,Church Pharmacy
 CON:CONSUM-KALTOSTAT-5X-5CM-P10,Kaltostat 5x5cm,Church Pharmacy
 CON:CONSUM-KERRAPED-ALL-PURPOSE-BOOT-LARGE,Kerraped All Purpose Boot Large,Church Pharmacy
 CON:CONTAI-KIDNEY-BOWL-PLASTIC,Kidney Bowl Plastic,Church Pharmacy
@@ -5533,8 +5524,8 @@ CON:GLOVE-LATEX-L-WHITE-PD,Latex Gloves Powdered White Large,Church Pharmacy
 CON:GLOVE-LATEX-M-WHITE-PD,Latex Gloves Powdered White Medium,Church Pharmacy
 CON:GLOVE-LATEX-S-WHITE-PD,Latex Gloves Powdered White Small,Church Pharmacy
 CON:CONSUM-LEUKOSTRIP-SKIN-CLOSURE-STRIPS-AVAILABLE-13MM-P6,Leukostrip Skin Closure Strips Sterile 13mm X 102mm,Church Pharmacy
-CON:DRESSI-LMX4-CREAM-DRESSINGS-5G-P5,Lmx4 4 Cream 1 X 5g With 2 Dressings,Church Pharmacy
-CON:DRESSI-LMX4-CREAM-24-DRESSINGS-5G-P5,Lmx4 4 Cream 12 X 5g With 24 Dressings,Church Pharmacy
+CON:DRESSI-LMX4-CREAM-DRESSINGS-5G,Lmx4 4 Cream 1 X 5g With 2 Dressings,Church Pharmacy
+CON:DRESSI-LMX4-CREAM-24-DRESSINGS-5G,Lmx4 4 Cream 12 X 5g With 24 Dressings,Church Pharmacy
 CON:CONSUM-LONG-HANDLED-SPONGELONG,Long Handled Spongelong,Church Pharmacy
 CON:PAPERT-LUXURY-WHITE-FACIAL-TISSUES-P100,Luxury White 2 Ply Facial Tissues,Church Pharmacy
 CON:COMPRE-MACOM-CRYSTALSMOOTH-LONG-SLEEPWEAR-S,Macom Crystalsmooth Long Sleepwear Set Black Only L UK Size 14,Church Pharmacy
@@ -5544,7 +5535,7 @@ CON:COMPRE-MACOM-WAISTSCULPTOR-BLACK-SLIMMING-C-4012M,Macom Waistsculptor Black 
 CON:COMPRE-MACOM-WAISTSCULPTOR-BLACK-SLIMMING-C,Macom Waistsculptor Black Slimming Corset XS Waist 2327,Church Pharmacy
 CON:COMPRE-MACOM-WAISTSCULPTOR-CLAY-SLIMMING-CO,Macom Waistsculptor Clay Slimming Corset XS Waist 2327,Church Pharmacy
 CON:COMPRE-MACOM-WAISTSCULPTOR-CLAY-SLIMMING-CO-4012CM,Macom Waistsculptor Clay Slimming Corset M Waist 3135,Church Pharmacy
-CON:CONSUM-MAGICOOL-BODY-FACE-COOLER-75ML-P75,Magicool Body Face Cooler,Church Pharmacy
+CON:CONSUM-MAGICOOL-BODY-FACE-COOLER-75ML,Magicool Body Face Cooler,Church Pharmacy
 CON:FACEMA-MEDICAL-GRADE-FFP3-N99-FILTERING-P20,Medical Grade Ffp3 N99 Filtering Face Mask With Valve Pack Of 20,Church Pharmacy
 CON:FACEMA-MEDICAL-GRADE-N99FFP3-FILTERING-FACE,Medical Grade N99ffp3 Filtering Face Mask With Valve Single Mask,Church Pharmacy
 CON:CONSUM-MEDIPORE-PAD-10CM-P25,Medipore Pad 10cm X 15cm,Church Pharmacy
@@ -5559,17 +5550,17 @@ CON:DRESSI-MEPORE-FILM-ADHESIVE-DRESSING-6X-7CM-P10,Mepore Film Adhesive Dressin
 CON:DRESSI-MEPORE-DRESSING-10CM-P40,Mepore Sterile Dressing 10cm X 11cm,Church Pharmacy
 CON:DRESSI-MEPORE-ULTRA-DRESSING-7X-8CM-P60,Mepore Ultra Dressing 7x8cm,Church Pharmacy
 CON:GAUZES-MESOFT-WOVEN-SWABS-10CM-P100,Mesoft Non Woven Non Sterile Swabs 10cm X 10cm,Church Pharmacy
-CON:CLEANI-METHYLATED-SPIRIT-SURFACE-CLEANING-AVAILA-600ML-P600,Methylated Spirit Surface Cleaning,Church Pharmacy
-CON:CONSUM-METHYLATED-SPIRITS-MINERALISED-500ML-P500,Methylated Spirits Mineralised,Church Pharmacy
+CON:CLEANI-METHYLATED-SPIRIT-SURFACE-CLEANING-AVAILA-600ML,Methylated Spirit Surface Cleaning,Church Pharmacy
+CON:CONSUM-METHYLATED-SPIRITS-MINERALISED-500ML,Methylated Spirits Mineralised,Church Pharmacy
 CON:DRESSI-MICROPORE-TAPE-5M-25CM,Micropore Tape 25cm X 5m,Church Pharmacy
 CON:DRESSI-MICROPORE-TAPE-5M-5CM,Micropore Tape 5cm x 5m,Church Pharmacy
 CON:CONSUM-MIDSTREAM-PREGNANCY-TEST,Midstream Single Pregnancy Test,Church Pharmacy
-CON:ANTISE-MILTON-ANTIBACTERIAL-SURFACE-SPRAY-500ML-P500,Milton Antibacterial Surface Spray 500ml,Church Pharmacy
+CON:ANTISE-MILTON-ANTIBACTERIAL-SURFACE-SPRAY-500ML,Milton Antibacterial Surface Spray 500ml,Church Pharmacy
 CON:ANTISE-MILTON-STERILISING-FLUID-1L,Milton Sterilising Fluid,Church Pharmacy
 CON:DRAPEC-MINI-PAPER-PROCEDURAL-DRAPES-60CM-P2,Mini Sterile Paper Procedural Drapes 60 X 60cm,Church Pharmacy
 CON:CONSUM-MOSQUITO-ARTERY-FORCEPS,Mosquito Artery Forceps,Church Pharmacy
 CON:CONSUM-NATRASAN-ADDITIONAL-TRIGGER-SPRAY,Natrasan Additional Trigger Spray,John Bannon Pharmacy
-CON:ANTISE-NATRASAN-DISINFECTING-SKIN-SANITISER-500ML-P500,Natrasan Disinfecting Skin Sanitiser,Church Pharmacy
+CON:ANTISE-NATRASAN-DISINFECTING-SKIN-SANITISER-500ML,Natrasan Disinfecting Skin Sanitiser,Church Pharmacy
 CON:GLOVE-NITRILE-BLUE,Nitrile Gloves Powder Free Blue Mediumpack Of 200,Church Pharmacy
 CON:GLOVE-NITRILE-L-WHITE,Nitrile Gloves Powder Free White Large,Church Pharmacy
 CON:GLOVE-NITRILE-M-WHITE,Nitrile Gloves Powder Free White Medium,Church Pharmacy
@@ -5582,12 +5573,12 @@ CON:GOWNAP-NONMEDICAL-ISOLATION-GOWN-LARGE,Nonmedical Isolation Gown Large,Churc
 CON:CONSUM-NORMASOL-SALINE-09-SACHETS-25ML-P9,Normasol Sterile Saline 09 Sachets,Church Pharmacy
 CON:DRESSI-NURSE-IT-DRESSING,Nurse IT Dressing Pack Sterile M/L,Church Pharmacy
 CON:DRESSI-NURSE-IT-DRESSING-P10,Nurse It Sterile Dressing Pack S/M,Church Pharmacy
-CON:CONSUM-ODOR-EATERS-FOOT-SHOE-AVAILABLE-150ML-P150,Odor Eaters Foot Shoe,Church Pharmacy
+CON:CONSUM-ODOR-EATERS-FOOT-SHOE-AVAILABLE-150ML,Odor Eaters Foot Shoe,Church Pharmacy
 CON:DIAGNO-ONETOUCH-SELECT-PLUS-TEST-STRIPS-P50,Onetouch Select Plus Test Strips 1 X 50,Church Pharmacy
 CON:DRESSI-OPSITE-IV3000-DRESSING-6CM-P100,Opsite Iv3000 Dressing 6cm X 7cm,Church Pharmacy
 CON:DRESSI-OPSITE-PLUS-DRESSING-5CM-P25,Opsite Plus Dressing 65 X 5cm,Church Pharmacy
 CON:DRESSI-OPSITE-PLUS-DRESSING-85CM-P20,Opsite Plus Dressing 85cm X 95cm,Church Pharmacy
-CON:DRESSI-OPSITE-SPRAY-DRESSING-100ML-P100,Opsite Spray Dressing,Church Pharmacy
+CON:DRESSI-OPSITE-SPRAY-DRESSING-100ML,Opsite Spray Dressing,Church Pharmacy
 CON:CONSUM-OVERSHOES-BLUE-14,Overshoes Blue 14,Church Pharmacy
 CON:CONSUM-OVERSHOES-BLUE-16,Overshoes Blue 16,Church Pharmacy
 CON:PAPERT-PCA-SKIN-LOGO-TISSUE-PAPER-P25,Pca Skin Logo Tissue Paper,Church Pharmacy
@@ -5601,7 +5592,7 @@ CON:GLOVE-ARM-LENGTH-GLOVES-BL,Premier Disposable Arm Length Gloves Blue One Pac
 CON:GAUZES-PREMIER-NONSTERILE-NW-SWABS-10CM,Premier Nonsterile Nw 10cm X 10cm Swabs,Church Pharmacy
 CON:DRESSI-PREMIER-WOUND-CARE-OPTION-PLUS-P50,Premier Wound Care Pack Option 2 Plus,Church Pharmacy
 CON:DRESSI-PREMIER-YELLOW-POLY-BAG-ADH-P200,Premier Yellow Disposable Poly Bag Adh Tape,Church Pharmacy
-CON:DRESSI-PRONTOSAN-WOUND-GEL-50ML-P50,Prontosan Wound Gel X,Church Pharmacy
+CON:DRESSI-PRONTOSAN-WOUND-GEL-50ML,Prontosan Wound Gel X,Church Pharmacy
 CON:GOWNAP-PROTECTIVE-WHITE-COVERALL,Protective White Coverall Single,Church Pharmacy
 CON:ANTISE-PUMP-DISPENSER-DEVICE-HIBISCRUB,Pump Dispenser Device Hibiscrub,Church Pharmacy
 CON:CONSUM-PUREHOLD-LEVER-ANTIBACTERIAL-DOOR-HANDL,Purehold Lever Antibacterial Door Handle Cover Rtd,Church Pharmacy
@@ -5611,23 +5602,23 @@ CON:CLEANI-PURIFIED-WATER-5L-P5,Purified Water,Church Pharmacy
 CON:CONSUM-RAPID-COVID19-ANTIBODY-DIAGNOSTIC-KI-P10,Rapid Covid19 Antibody Diagnostic Kit 1x10,Church Pharmacy
 CON:CONSUM-RAPID-COVID19-ANTIBODY-DIAGNOSTIC-TE,Rapid Covid19 Antibody Diagnostic Test 1x1,Church Pharmacy
 CON:CONSUM-RAPID-COVID19-ANTIGEN-TEST,Rapid Covid19 Antigen Test 1 X 1,Church Pharmacy
-CON:CONSUM-RAPILOSE-ORAL-GLUCOSE-TOLERANCE-TEST-300ML-P300,Rapilose Oral Glucose Tolerance Test,Church Pharmacy
+CON:CONSUM-RAPILOSE-ORAL-GLUCOSE-TOLERANCE-TEST-300ML,Rapilose Oral Glucose Tolerance Test,Church Pharmacy
 CON:DRESSI-ROCIALLE-SUTURE-BRONZE-STANDARD-50-P50,Rocialle Suture Pack Bronze Standard Pack Of 50 Available Only On Request,Church Pharmacy
 CON:ANTISE-SAFE-SOUND-ALCOHOL-PREP-PADS-P50,Safe Sound Alcohol Prep Pads,Church Pharmacy
 CON:ANTISE-SANI-CLOTH-ACTIVE-ALCOHOL-WIPES-P200,Sani Cloth Active Alcohol Free Wipes,Church Pharmacy
-CON:ANTISE-SAVLON-ANTISEPTIC-30G-P30,Savlon Antiseptic,Church Pharmacy
+CON:ANTISE-SAVLON-ANTISEPTIC-30G,Savlon Antiseptic,Church Pharmacy
 CON:DRESSI-SCANPOR-MICROPOROUS-ADH-TAPE-5M-125CM,Scanpor Microporous Adh Tape 125cm X 5m,Church Pharmacy
 CON:DRESSI-SCANPOR-MICROPOROUS-ADH-TAPE-5M-25CM,Scanpor Microporous Adh Tape 25cm X 5m,Church Pharmacy
 CON:DRESSI-SCANPOR-MICROPOROUS-ADH-TAPE-5M-5CM,Scanpor Microporous Adh Tape 5cm X 5m,Church Pharmacy
 CON:CONSUM-SCHOLL-CORN-FOAM-CUSHIONS-P9,Scholl Corn Foam Cushions,Church Pharmacy
-CON:CONSUM-SCHOLL-FLIGHT-SOCKS-DVT-PREVENTION-P2,Scholl Flight Socks For Dvt Prevention Black Size 9512,Church Pharmacy
+CON:CONSUM-SCHOLL-FLIGHT-SOCKS-DVT-PREVENTION,Scholl Flight Socks For Dvt Prevention Black Size 9512,Church Pharmacy
 CON:CONSUM-SCHOLL-FLIGHT-SOCKS-SHEER-658-P2,Scholl Flight Socks Sheer 658,Church Pharmacy
 CON:SHARPS-SHARPSAFE-SHARPS-BIN-TRAVEL-02LITRE,Sharpsafe 02 Litre Sharps Bin Travel Size,Church Pharmacy
 CON:SHARPS-SHARPSAFE-SHARPS-BIN-045LITRE,Sharpsafe 045 Litre Sharps Bin,Church Pharmacy
 CON:SHARPS-SHARPSGUARD-ORANGE-375-SHARPS-BIN-375LITRE,Sharpsguard Orange 375 Sharps Bin 375 Litre Orange Lid,Church Pharmacy
 CON:SHARPS-SHARPSGUARD-ORANGE-SHARPS-BIN-LID-7LITRE,Sharpsguard Orange 7 Sharps Bin 7 Litre Orange Lid,Church Pharmacy
 CON:SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-1.0LITRE,SHARPSGUARD yellow 1 - Sharps Bin 1.0 litre,Church Pharmacy
-CON:SHARPS-SHARPSGUARD-YELLOW-11-SHARPS-BIN-11.5LITRE-P11,SHARPSGUARD yellow 11.5 - Sharps Bin 11.5 litre,Church Pharmacy
+CON:SHARPS-SHARPSGUARD-YELLOW-11-SHARPS-BIN-11.5LITRE,SHARPSGUARD yellow 11.5 - Sharps Bin 11.5 litre,Church Pharmacy
 CON:SHARPS-SHARPSGUARD-YELLOW-22-SHARPS-BIN,SHARPSGUARD yellow 22 - Sharps Bin 22 litres,Church Pharmacy
 CON:SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-7LITRE,SHARPSGUARD yellow 7 - Sharps Bin 7 litre,Church Pharmacy
 CON:CONSUM-SILKEN-COTTON-SQUARES-P4,Silken Cotton Squares 4 X 4,Church Pharmacy
@@ -5637,19 +5628,19 @@ CON:CONSUM-SKIN-MARKING-RED-PENCIL-LIP,Skin Marking Red Pencil Lip,Church Pharma
 CON:CONSUM-SKIN-MARKING-SOFT-WHITE-PENCIL,Skin Marking Soft White Pencil,Church Pharmacy
 CON:CONSUM-SKIN-MARKING-SOFT-WHITE-TWIST,Skin Marking Soft White Twist Pencil,Church Pharmacy
 CON:DRESSI-SORBSAN-RIBBON-PROBE-CAVITY-DRESSING-40CM-P5,Sorbsan Ribbon With Probe Cavity Dressing 40cm X 1g,Church Pharmacy
-CON:CONSUM-SPECTRICEPT-CARE-HAND-100ML-P100,Spectricept Care Hand 100ml,Church Pharmacy
-CON:CONSUM-SPECTRICEPT-CARE-HAND-500ML-P500,Spectricept Care Hand,Church Pharmacy
-CON:CONSUM-SPECTRICEPT-CARE-HAND-250MLE-250ML-P250,Spectricept Care Hand 250mle,Church Pharmacy
-CON:PAPERT-SPECTRICEPT-CARE-HAND-DISPENSER-1000MLE-1000ML-P1000,Spectricept Care Hand Dispenser 1000mle,Church Pharmacy
-CON:PAPERT-SPECTRICEPT-CARE-HAND-DISPENSER-REFILL-1000ML-P1000,Spectricept Care Hand Dispenser Refill 1000mle,Church Pharmacy
-CON:CONSUM-SPECTRICEPT-CARE-SKIN-500ML-P500,Spectricept Care Skin,Church Pharmacy
-CON:CONSUM-SPECTRICEPT-SURFACE-750ML-P750,Spectricept Surface,Church Pharmacy
+CON:CONSUM-SPECTRICEPT-CARE-HAND-100ML,Spectricept Care Hand 100ml,Church Pharmacy
+CON:CONSUM-SPECTRICEPT-CARE-HAND-500ML,Spectricept Care Hand,Church Pharmacy
+CON:CONSUM-SPECTRICEPT-CARE-HAND-250MLE-250ML,Spectricept Care Hand 250mle,Church Pharmacy
+CON:PAPERT-SPECTRICEPT-CARE-HAND-DISPENSER-1000MLE-1000ML,Spectricept Care Hand Dispenser 1000mle,Church Pharmacy
+CON:PAPERT-SPECTRICEPT-CARE-HAND-DISPENSER-REFILL-1000ML,Spectricept Care Hand Dispenser Refill 1000mle,Church Pharmacy
+CON:CONSUM-SPECTRICEPT-CARE-SKIN-500ML,Spectricept Care Skin,Church Pharmacy
+CON:CONSUM-SPECTRICEPT-SURFACE-750ML,Spectricept Surface,Church Pharmacy
 CON:CONSUM-SPECULAR-OTOSCOPE-DIAMETER-ADAPTOR-500-35MM,Specular Otoscope 35mm Diameter With Adaptor Disposable 1 Single 500,Church Pharmacy
 CON:PAPERT-STEREX-ALOE-VERA-GEL-PUMP-1L,Sterex Aloe Vera Gel Pump Dispenser,Church Pharmacy
-CON:ANTISE-STEREX-STERICLEANSE-DISINFECTANT-HAND-100ML-P100,Sterex Stericleanse Disinfectant Hand Gel,Church Pharmacy
+CON:ANTISE-STEREX-STERICLEANSE-DISINFECTANT-HAND-100ML,Sterex Stericleanse Disinfectant Hand Gel,Church Pharmacy
 CON:CONSUM-STEREX-STERITANE-ECONOMY-4L-P4,Sterex Steritane Economy,Church Pharmacy
-CON:PAPERT-STEREX-STERITANE-PUMP-DISPENSER-250ML-P250,Sterex Steritane Pump Dispenser,Church Pharmacy
-CON:CONSUM-STEREX-STERITANE-REFILL-500ML-P500,Sterex Steritane Refill,Church Pharmacy
+CON:PAPERT-STEREX-STERITANE-PUMP-DISPENSER-250ML,Sterex Steritane Pump Dispenser,Church Pharmacy
+CON:CONSUM-STEREX-STERITANE-REFILL-500ML,Sterex Steritane Refill,Church Pharmacy
 CON:CONSUM-STEREX-TWEEZERS-OC-POINTED,Sterex Tweezers Oc Pointed,Church Pharmacy
 CON:CONSUM-STEREX-TWEEZERS-SLANTED-AVAILABLE-ON,Sterex Tweezers Slanted,Church Pharmacy
 CON:DRESSI-STERILE-DRESSING-SPEC-10,Sterile Dressing Pack Spec 10,Church Pharmacy
@@ -5662,7 +5653,7 @@ CON:CLEANI-STERILE-WATER-IRRIGATION-1L,Sterile Water For Irrigation,Church Pharm
 CON:DRESSI-STERISTRIP-12MM-P6,Steristrip 12mm X 100mm,Church Pharmacy
 CON:DRESSI-STERISTRIP-3MM-P5,Steristrip 3mm X 75mm,Church Pharmacy
 CON:CONSUM-STIEFEL-RING-CURETTE-7MM-P10,Stiefel 7mm Ring Curette,Church Pharmacy
-CON:ANTISE-SUDOCREM-ANTISEPTIC-400G-P400,Sudocrem Antiseptic,Church Pharmacy
+CON:ANTISE-SUDOCREM-ANTISEPTIC-400G,Sudocrem Antiseptic,Church Pharmacy
 CON:BLADES-SWANNMORTON-BLADE-CS-24-AVAILABLE-P100,Swannmorton Blade Cs Sterile 24,Church Pharmacy
 CON:DRESSI-TEGADERM-ABSORBANT-DRESSING-76CM-P10,Tegaderm Absorbant Dressing 76cm X 95cm,Church Pharmacy
 CON:DRESSI-TEGADERM-ALGINATE-DRESSING-5CM-P10,Tegaderm Alginate Dressing 5cm X 5cm,Church Pharmacy
@@ -5681,7 +5672,7 @@ CON:GAUZES-TOPPER-GAUZE-SWABS-75CM-P5,Topper 8 Sterile 75cm X 75cm Gauze Swabs,C
 CON:CONSUM-TOXIN-VIAL-CAP-OPENER,Toxin Vial Cap Opener,Church Pharmacy
 CON:DRESSI-TRANSPORE-TAPE-5M-25CM,Transpore Tape 25cm X 5m,Church Pharmacy
 CON:CONSUM-UENO-FACE-COVERING,Ueno Face Covering Single,Church Pharmacy
-CON:CONDUC-ULTRASOUND-GEL-SACHET-CLEAR-20ML-P20,Ultrasound Gel 20ml Sachet Clear,Church Pharmacy
+CON:CONDUC-ULTRASOUND-GEL-SACHET-CLEAR-20ML,Ultrasound Gel 20ml Sachet Clear,Church Pharmacy
 CON:CONDUC-ULTRASOUND-GEL-REFILL-BOTTLE-5LITRE-P5,Ultrasound Gel With Refill Bottle,Church Pharmacy
 CON:DIAGNO-UNISTIK3-GENTLE-LANCET-30G-P100,Unistik3 Gentle 30g Lancet,Church Pharmacy
 CON:DRESSI-UNMEDICATED-DRESSING-PROPAX-MEDIUM-10CM,Unmedicated Sterile Dressing Propax Medium 10cm X 8cm,Church Pharmacy
@@ -5689,10 +5680,10 @@ CON:DRESSI-URGOCLEAN-AG-PAD-DRESSINGS-10CM-P10,Urgoclean Ag Pad Dressings 10cm X
 CON:DRESSI-URGOCLEAN-PAD-DRESSING-10CM-P10,Urgoclean Pad Dressing 10cm X 10cm,Church Pharmacy
 CON:DRESSI-URGOCLEAN-ROPE-DRESSINGS-25CM-P5,Urgoclean Rope Dressings 25cm X 40cm,Church Pharmacy
 CON:DRESSI-URGOCLEAN-ROPE-DRESSINGS-5CM-P5,Urgoclean Rope Dressings 5cm X 40cm,Church Pharmacy
-CON:CONSUM-UROTAINER-SOLUTIO-CITRIC-ACID-TWIN-30ML-P30,Urotainer Solutio R Citric Acid Twin,Church Pharmacy
-CON:GAUZES-VANTAGE-COTTON-WOOL-ROLL-100G-P100,Vantage Cotton Wool Roll 100g,Church Pharmacy
-CON:ANTISE-VIDENE-ALCOHOLIC-TINCTURE-PREOP-SKIN-500ML-P500,Videne Alcoholic Tincture Preop Skin Disinfectant,Church Pharmacy
-CON:ANTISE-VIDENE-ANTISEPTIC-SKIN-DISINFECTANT-200ML-P200,Videne Antiseptic Skin Disinfectant,Church Pharmacy
+CON:CONSUM-UROTAINER-SOLUTIO-CITRIC-ACID-TWIN-30ML,Urotainer Solutio R Citric Acid Twin,Church Pharmacy
+CON:GAUZES-VANTAGE-COTTON-WOOL-ROLL-100G,Vantage Cotton Wool Roll 100g,Church Pharmacy
+CON:ANTISE-VIDENE-ALCOHOLIC-TINCTURE-PREOP-SKIN-500ML,Videne Alcoholic Tincture Preop Skin Disinfectant,Church Pharmacy
+CON:ANTISE-VIDENE-ANTISEPTIC-SKIN-DISINFECTANT-200ML,Videne Antiseptic Skin Disinfectant,Church Pharmacy
 CON:ANTISE-VIDENE-SURGICAL-SCRUB-ANTISEPTIC-DISI-500ML,Videne Surgical Scrub Antiseptic Disinfectant,Church Pharmacy
 CON:GLOVE-VINYL-L-BLUE,Blue Shield Vinyl Gloves (100) – Large,LPG Clinics Wholesale
 CON:GLOVE-VINYL-M-BLUE,Blue Shield Vinyl Gloves Medium (100),LPG Clinics Wholesale
@@ -5704,26 +5695,26 @@ CON:GLOVE-VINYL-L-WHITE-PD,Vinyl Gloves Powdered White Large,Church Pharmacy
 CON:GLOVE-VINYL-M-WHITE-PD,Vinyl Gloves Powdered White Medium,Church Pharmacy
 CON:GLOVE-VINYL-S-WHITE-PD,Vinyl Gloves Powdered White Small,Church Pharmacy
 CON:GLOVE-VINYL-L-BLUE-PD,Vinyl Powdered Examination Gloves Blue Large,Church Pharmacy
-CON:CLEANI-WINDOW-GLASS-CLEANING-750ML-P750,Window And Glass Cleaning,Church Pharmacy
+CON:CLEANI-WINDOW-GLASS-CLEANING-750ML,Window And Glass Cleaning,Church Pharmacy
 CON:CONSUM-WISDOM-INTERDENTAL-CLEAN-BETWEEN-BRUS-P20,Wisdom Interdental Clean Between Brushes,Church Pharmacy
-CON:FIRSTA-WORKPLACE-FIRST-AID-KIT-LARGE-P3,Workplace First Aid Kit Large,Church Pharmacy
+CON:FIRSTA-WORKPLACE-FIRST-AID-KIT-LARGE,Workplace First Aid Kit Large,Church Pharmacy
 CON:DRESSI-XUPAD-ABSORBENT-DRESSING-PADS-20CM-P15,Xupad Absorbent Dressing Pads 20cm X 20cm,Church Pharmacy
-CON:ANTISE-ZOFLORA-CONCENTRATED-DISINFECTANT-ASSO-120ML-P120,Zoflora Concentrated Disinfectant 120ml Assorted Frangrances,Church Pharmacy
-CON:GAUZES-TOPPER-GAUZE-SWABS-7.5CM-P7,Topper 8 Gauze Swabs Sterile (7.5 x 7.5cm | 5 x 20),Fox Pharma
+CON:ANTISE-ZOFLORA-CONCENTRATED-DISINFECTANT-ASSO-120ML,Zoflora Concentrated Disinfectant 120ml Assorted Frangrances,Church Pharmacy
+CON:GAUZES-TOPPER-GAUZE-SWABS-7.5CM-P20,Topper 8 Gauze Swabs Sterile (7.5 x 7.5cm | 5 x 20),Fox Pharma
 CON:CONSUM-VIAL-PLIERS,Vial Pliers,Fox Pharma
-CON:PAPERT-CENTREFEED-BLUE-ROLL-P108,Centrefeed 2 Ply Blue Roll,Fox Pharma
+CON:PAPERT-CENTREFEED-BLUE-ROLL,Centrefeed 2 Ply Blue Roll,Fox Pharma
 CON:CONSUM-AESTHETICS-KIT-BAG,Aesthetics Kit Bag,Fox Pharma
 CON:GAUZES-TOPPER-GAUZE-SWABS-10CM-P40,Topper 8 Gauze Swabs Sterile (10 x 10cm | 5 x 40),Fox Pharma
 CON:CONSUM-PRACTITIONER-STARTER-KIT,Practitioner Starter Kit,Fox Pharma
-CON:APPLIC-WOODEN-SPATULAS-P100,Wooden Spatulas (x 100),Fox Pharma
+CON:APPLIC-WOODEN-SPATULAS,Wooden Spatulas (x 100),Fox Pharma
 CON:ANTISE-CLINELL-UNIVERSAL-ANTI-BACTERIAL-SANIT,Clinell Universal Anti-bacterial Sanitising Wipes (x 200),Moda Pharmacy
 CON:ANTISE-CLINISEPT-CLEANSING-ANTIMICROBIAL-SKIN-C-490ML,Clinisept+ Cleansing Antimicrobial Skin Care (490ml),Fox Pharma
 CON:ANTISE-CLINISEPT-SKIN-CLEANSING-ANTIMICROBIAL-A-100ML,Clinisept+ Skin Cleansing Antimicrobial Aftercare (100ml),Fox Pharma
 CON:IVBLOO-BD-VACUTAINER-SAFETY-LOK-BLOOD-23G,"BD Vacutainer Safety Lok Blood Set 23G x 7""Tubing",Fox Pharma
 CON:CONDUC-ANAGEL-ULTRASOUND-GEL-500ML,Anagel Ultrasound Gel (500ml),Fox Pharma
-CON:DRAPEC-WHITE-COUCH-ROLL-P108,White Couch Roll,Fox Pharma
+CON:DRAPEC-WHITE-COUCH-ROLL,White Couch Roll,Fox Pharma
 CON:GAUZES-FABRIC-GAUZE-SWABS,Fabric Gauze Swabs,Fox Pharma
-CON:ANTISE-PRE-INJECTION-70-IPA-ALCOHOL-SWABS-P100,Pre-injection 70% IPA Alcohol Swabs (x 100),Fox Pharma
+CON:ANTISE-PRE-INJECTION-70-IPA-ALCOHOL-SWABS,Pre-injection 70% IPA Alcohol Swabs (x 100),Fox Pharma
 CON:SHARPS-SHARPS-BIN-3L,Sharps Bin 3L,Fox Pharma
 CON:GLOVE-200-GLOVES,Sonic 200 Gloves (x 200),Fox Pharma
 CON:CONSUM-ISOCLEAN-HYPOCHLOROUS-SPRAY,ISOCLEAN Hypochlorous Spray,Fox Pharma
@@ -5735,9 +5726,9 @@ CON:CONSUM-SKIN-MARKING-PENCIL,Skin Marking Pencil,Fox Pharma
 CON:ANTISE-CLINELL-SANITISING-WIPES-40-P40,Clinell Sanitising Wipes Pack Of 40,ACRE Pharmacy
 CON:SHARPS-PURPLE-SHARPS-BIN-1L,Purple Sharps Bin 1l,ACRE Pharmacy
 CON:GLOVE-VINYL-XL,Sterile Powder Free Vinyl Gloves XL Pack Of 50,ACRE Pharmacy
-CON:GAUZES-GAUZE-SWABS-10X-100-10CM-P10,Gauze Swabs 10x10cm 8ply 100,ACRE Pharmacy
+CON:GAUZES-GAUZE-SWABS-10X-100-10CM,Gauze Swabs 10x10cm 8ply 100,ACRE Pharmacy
 CON:GAUZES-JJ-TOPPER-GAUZE-SWABS-TIED-10CM-P40,Jj Topper 8 Gauze Swabs Sterile 10 X 10cm Tied 5 X 40,ACRE Pharmacy
-CON:GAUZES-JJ-TOPPER-GAUZE-SWABS-50-75CM-P7,Jj Topper 8 Gauze Swabs Sterile 75 X 75cm X 50 2ply,ACRE Pharmacy
+CON:GAUZES-JJ-TOPPER-GAUZE-SWABS-50-75CM,Jj Topper 8 Gauze Swabs Sterile 75 X 75cm X 50 2ply,ACRE Pharmacy
 CON:CONSUM-SKIN-ANALYSIS-CARRY-BAG,Skin Analysis Carry Bag,ACRE Pharmacy
 CON:GLOVE-VINYL,Gloves Vinyl Powder Free Examination Gloves,Ask Pharmacy
 CON:CONSUM-VIRUSTATIC-SHIELD,Virustatic Shield,ACRE Pharmacy
@@ -5746,10 +5737,8 @@ CON:SHARPS-SHARPSGUARD-YELLOW-1L,Sharpsguard 1l Yellow,ACRE Pharmacy
 CON:SHARPS-PURPLE-SHARPS-BIN-5L,Purple Sharps Bin 5l,ACRE Pharmacy
 CON:ANTISE-CLINISEPT-TRIGGER-SPRAY,Clinisept Trigger Spray,ACRE Pharmacy
 CON:ANTISE-CLINISEPT-SKIN-PUMP,Clinisept-Skin Pump.,Wimpole Fillers
-CON:ANTISE-CLINISEPT-SKIN-490ML,Clinisept+ Skin 490ml,Moda Pharmacy
-CON:ANTISE-CLINISEPT-SKIN-100ML,Clinisept+ Skin 100ml,Moda Pharmacy
 CON:DRAPEC-ADHESIVE-DRAPE-75CM,Adhesive Drape 75cm x 90cm,John Bannon Pharmacy
-CON:ANTISE-AZO-WIPE-HARD-SURFACE-BACTERICIDAL-P220,Azo Wipe Hard Surface Bactericidal Wipes x200,John Bannon Pharmacy
+CON:ANTISE-AZO-WIPE-HARD-SURFACE-BACTERICIDAL,Azo Wipe Hard Surface Bactericidal Wipes x200,John Bannon Pharmacy
 CON:CONSUM-BAXTER-RAPIDFILL-CONNECTOR-X1,Baxter Rapidfill Connector x1,John Bannon Pharmacy
 CON:ANTISE-CLINELL-UNIVERSAL-SANITISING-WIPES-200,Clinell Universal Sanitising Wipes x 200,John Bannon Pharmacy
 CON:ANTISE-CLINELL-UNIVERSAL-SPRAY-500ML,Clinell Universal Spray 500ml,John Bannon Pharmacy
@@ -5764,7 +5753,6 @@ CON:HEADFA-FACE-VISOR,Face Visor,John Bannon Pharmacy
 CON:FIRSTA-FIRST-AID-KIT-10-PERSON,First Aid Kit - 10 Person HSE,John Bannon Pharmacy
 CON:FIRSTA-FIRST-AID-KIT-20-PERSON,First Aid Kit - 20 Person HSE,John Bannon Pharmacy
 CON:DRESSI-FLUDROXYCORTID-TAPE-7.5CM,Fludroxycortide Tape 7.5cm x 50cm,John Bannon Pharmacy
-CON:CONTAI-GALLIPOT-60ML,Gallipot Sterile 60ml x 1,John Bannon Pharmacy
 CON:GAUZES-GAUZE-SWABS-10X-X100-10CM,Gauze Swabs Non Sterile 10x10cm 8 ply x100,John Bannon Pharmacy
 CON:ANTISE-HAND-SANITISER-PUMP-500ML,Hand Sanitiser 500ml with pump,John Bannon Pharmacy
 CON:ANTISE-HIBISCRUB-DISPENSING-PUMP,Hibiscrub Dispensing Pump,John Bannon Pharmacy
@@ -5777,7 +5765,7 @@ CON:CONSUM-INSTRAPAC-HALSTED-MOSQUITO-ARTERY-FORCEP-12.5CM,Instrapac Halsted Mos
 CON:CONSUM-IRIS-STITCH-SCISSORS-CURVED,"Iris Stitch Scissors 4.5"" Curved Disposable",John Bannon Pharmacy
 CON:CONSUM-IRIS-STITCH-SCISSORS-STRAIGHT,"Iris Stitch Scissors 4.5"" Straight Disposable",John Bannon Pharmacy
 CON:HOTCOL-KOOLPAK-COMPACT-INSTANT-ICE-13X-13CM,Koolpak Compact Instant Ice Pack - Single Use 13x13cm 120g,John Bannon Pharmacy
-CON:HOTCOL-KOOLPAK-REUSABLE-HOT-COLD-123X-14CM-P14,Koolpak Reusable Hot & Cold Pack 123x14cm,John Bannon Pharmacy
+CON:HOTCOL-KOOLPAK-REUSABLE-HOT-COLD-123X-14CM,Koolpak Reusable Hot & Cold Pack 123x14cm,John Bannon Pharmacy
 CON:GLOVE-LATEX-L,Latex Powder Free Gloves - Large x100,John Bannon Pharmacy
 CON:GLOVE-LATEX-M,Latex Powder Free Gloves - Medium x100,John Bannon Pharmacy
 CON:GLOVE-LATEX-S,Latex Powder Free Gloves - Small x100,John Bannon Pharmacy
@@ -5785,16 +5773,16 @@ CON:DRESSI-MICROPORE-TAPE-5CMX5M-5M,Micropore Tape 2.5cmx5m,John Bannon Pharmacy
 CON:PAPERT-MILLIGRAFT-ADIPOSE-TISSUE-STEM-CELL,MilliGraft - Adipose Tissue Stem Cell Collection and Injection,John Bannon Pharmacy
 CON:GLOVE-NITRILE,Nitrile Powder Free Gloves Pink L x 100,John Bannon Pharmacy
 CON:GAUZES-NON-WOVEN-SWABS-10X-10CM,Non Woven Swabs Non Sterile 4ply 10x10cm,John Bannon Pharmacy
-CON:GAUZES-NON-WOVEN-SWABS-5X-X5-PACKS-7.5CM-P7,Non-Woven Swabs Sterile 4 ply 7.5x7.5cm x5 packs of 5,John Bannon Pharmacy
+CON:GAUZES-NON-WOVEN-SWABS-5X-X5-PACKS-7.5CM,Non-Woven Swabs Sterile 4 ply 7.5x7.5cm x5 packs of 5,John Bannon Pharmacy
 CON:GLOVE-IT-DRESSING-X10,Nurse It Dressing Pack x10,John Bannon Pharmacy
 CON:HEADFA-PLEATED-MOB-CAPS-BLUE-100-P100,Pleated Mob Caps Blue - pack of 100,John Bannon Pharmacy
-CON:ANTISE-PRE-INJECTION-SWABS-70-ALCOHOL-X100-P100,Pre-injection Swabs 70% Alcohol x100,John Bannon Pharmacy
+CON:ANTISE-PRE-INJECTION-SWABS-70-ALCOHOL-X100,Pre-injection Swabs 70% Alcohol x100,John Bannon Pharmacy
 CON:APPLIC-PREMIER-ADULT-TONGUE-DEPRESSOR-X100,Premier Adult Tongue Depressor x100,John Bannon Pharmacy
 CON:ANTISE-SANITEZ-HAND-SANITIZER-60ML,Sanitez Hand sanitizer x 60ml,John Bannon Pharmacy
 CON:CLEANI-SIMPLY-PROTECT-HAND-GEL-100ML,Simply Protect Hand Gel 100ml,John Bannon Pharmacy
 CON:CLEANI-STEROWASH-EYE-WASH-SOLUTION-500ML,Sterowash Eye Wash Solution 500ml,John Bannon Pharmacy
 CON:CLEANI-SURGICAL-SPIRIT-200ML,Surgical Spirit 200ml,John Bannon Pharmacy
-CON:DRESSI-SUTURE-REMOVAL-P7,Suture Removal Pack,John Bannon Pharmacy
+CON:DRESSI-SUTURE-REMOVAL,Suture Removal Pack,John Bannon Pharmacy
 CON:TOURNI-TOURNIQUET-ADULT-BAND-ROLL-25,Tourniquet Single Use Adult Band - Roll of 25,John Bannon Pharmacy
 CON:DRESSI-UNPERFORATED-WASHPROOF-SPOT-PLASTERS-X100-2.2CM,Unperforated Washproof Spot Plasters 2.2cm x100,John Bannon Pharmacy
 CON:DRESSI-VERSATIS-MEDICATED-PLASTER-700MG-30,Versatis Medicated Plaster 700mg x 30,John Bannon Pharmacy
@@ -5817,51 +5805,49 @@ CON:SHARPS-SHARPS-BIN-LITRES-YELLOW,Sharps Bin 7 Litres Yellow,Aesthetic Pharma
 CON:SHARPS-SHARPS-BIN-YELLOW-1LITRE,Sharps Bin 1 Litre Yellow,Aesthetic Pharma
 CON:CONSUM-SKIN-MARKER-WHITE,Skin Marker White,Aesthetic Pharma
 CON:ANTISE-PRE-INJECTION-SKIN-CLEANING-SWABS,Pre-injection skin cleaning swabs,Aesthetic Pharma
-CON:SHARPS-SHARPSGUARD-YELLOW-LTR-SHARPS-BIN-P100,Sharpsguard Yellow 5 Ltr Sharps Bin,Smile Pharma
-CON:SHARPS-SHARPSGUARD-ORANGE-LTR-SHARPS-BIN-P100,Sharpsguard Orange 2.5 Ltr Sharps Bin,Smile Pharma
-CON:PAPERT-HYGIENE-ROLL-P100,Hygiene Roll,Smile Pharma
-CON:ANTISE-CLINISEPT-SKIN-100ML-P7,Clinisept+ Skin (100ml Spray Bottle),Smile Pharma
-CON:SHARPS-SHARPSGUARD-CYTO-SHARPS-BIN-5LITRE-P100,Sharpsguard Cyto 5 Litre Sharps Bin,Smile Pharma
-CON:SHARPS-SHARPSGUARD-CYTO-SHARPS-BIN-2.5LITRE-P100,Sharpsguard Cyto 2.5 Litre Sharps Bin,Smile Pharma
+CON:SHARPS-SHARPSGUARD-YELLOW-LTR-SHARPS-BIN,Sharpsguard Yellow 5 Ltr Sharps Bin,Smile Pharma
+CON:SHARPS-SHARPSGUARD-ORANGE-LTR-SHARPS-BIN,Sharpsguard Orange 2.5 Ltr Sharps Bin,Smile Pharma
+CON:PAPERT-HYGIENE-ROLL,Hygiene Roll,Smile Pharma
+CON:SHARPS-SHARPSGUARD-CYTO-SHARPS-BIN-5LITRE,Sharpsguard Cyto 5 Litre Sharps Bin,Smile Pharma
+CON:SHARPS-SHARPSGUARD-CYTO-SHARPS-BIN-2.5LITRE,Sharpsguard Cyto 2.5 Litre Sharps Bin,Smile Pharma
 CON:GAUZES-MEDISAVE-PRE-INJECTION-SWABS-P100,Medisave Pre-Injection Swabs (Box of 100),Smile Pharma
-CON:ANTISE-CLINISEPT-AFTERCARE-SKIN-490ML-P7,Clinisept+ Aftercare Skin (490ml bottle),Smile Pharma
-CON:CONSUM-VASELINE-ALOE-LIP-THERAPY-20G-P100,Vaseline Aloe Lip Therapy (20g Tin),Smile Pharma
-CON:GOWNAP-PREMIER-PLASTIC-APRONS-ROLL-PINK-P100,Premier Disposable Plastic Aprons Roll - Pink x 200,Smile Pharma
-CON:ANTISE-PDI-SANI-CLOTH-WIPES-UNIVERSAL-P200,PDI Sani Cloth Wipes - Universal Disinfectant Wipes x 200 [CANISTER],Smile Pharma
-CON:GAUZES-NON-WOVEN-SWABS-200-5CM-P5,Non-Woven Swabs - 5cm x 5cm 4 Ply x 200,Smile Pharma
-CON:HOTCOL-INSTANT-ICE-P100,Instant Ice Pack,Smile Pharma
-CON:ANTISE-HYDREX-PINK-SPRAY-200ML-P100,Hydrex Pink Spray - 200ml,Smile Pharma
-CON:GAUZES-GAUZE-SWABS-100-5CM-P100,Gauze Swabs: 5 x 5cm 8 Ply x 100,Smile Pharma
-CON:CONSUM-VASELINE-ROSY-LIP-THERAPY-20G-P100,Vaseline Rosy Lip Therapy (20g Tin),Smile Pharma
+CON:ANTISE-CLINISEPT-AFTERCARE-SKIN-490ML,Clinisept+ Aftercare Skin (490ml bottle),Smile Pharma
+CON:CONSUM-VASELINE-ALOE-LIP-THERAPY-20G,Vaseline Aloe Lip Therapy (20g Tin),Smile Pharma
+CON:GOWNAP-PREMIER-PLASTIC-APRONS-ROLL-PINK,Premier Disposable Plastic Aprons Roll - Pink x 200,Smile Pharma
+CON:ANTISE-PDI-SANI-CLOTH-WIPES-UNIVERSAL,PDI Sani Cloth Wipes - Universal Disinfectant Wipes x 200 [CANISTER],Smile Pharma
+CON:GAUZES-NON-WOVEN-SWABS-200-5CM,Non-Woven Swabs - 5cm x 5cm 4 Ply x 200,Smile Pharma
+CON:HOTCOL-INSTANT-ICE,Instant Ice Pack,Smile Pharma
+CON:ANTISE-HYDREX-PINK-SPRAY-200ML,Hydrex Pink Spray - 200ml,Smile Pharma
+CON:GAUZES-GAUZE-SWABS-100-5CM,Gauze Swabs: 5 x 5cm 8 Ply x 100,Smile Pharma
+CON:CONSUM-VASELINE-ROSY-LIP-THERAPY-20G,Vaseline Rosy Lip Therapy (20g Tin),Smile Pharma
 CON:GOWNAP-DISPOSABLE-POLYTHENE-APRONS-100-10MU-P100,Disposable Polythene Aprons - Pack Of 100 - 10MU - Blue,Smile Pharma
-CON:ANTISE-PDI-SANI-CLOTH-WIPES-UNIVERSAL-P267,PDI Sani Cloth Wipes - Universal Disinfectant Wipes x 225,Smile Pharma
-CON:GAUZES-COTTON-GAUZE-SWABS-10CM-P100,Cotton Gauze Swabs: 10 x 10cm 8 Ply (Box 100),Smile Pharma
-CON:ANTISE-CLINELL-UNIVERSAL-SANITISING-WIPES-225-P100,Clinell Universal Sanitising Wipes x 225,Smile Pharma
-CON:ANTISE-HAND-SANITISER-GEL-500ML-P7,Hand Sanitiser Gel - 500ml,Smile Pharma
-CON:CLEANI-SIMPLE-SOLUTION-GRAVITY-ADMINISTRATIO-P100,Simple Solution Gravity Administration Set - Non-Vented - Single,Smile Pharma
-CON:FACEMA-SURGICAL-FACE-MASKS-50-P50,Surgical Face Masks x 50,Smile Pharma
+CON:GAUZES-COTTON-GAUZE-SWABS-10CM,Cotton Gauze Swabs: 10 x 10cm 8 Ply (Box 100),Smile Pharma
+CON:ANTISE-CLINELL-UNIVERSAL-SANITISING-WIPES-225,Clinell Universal Sanitising Wipes x 225,Smile Pharma
+CON:ANTISE-HAND-SANITISER-GEL-500ML,Hand Sanitiser Gel - 500ml,Smile Pharma
+CON:CLEANI-SIMPLE-SOLUTION-GRAVITY-ADMINISTRATIO,Simple Solution Gravity Administration Set - Non-Vented - Single,Smile Pharma
+CON:FACEMA-SURGICAL-FACE-MASKS-50,Surgical Face Masks x 50,Smile Pharma
 CON:ANTISE-MEDIPAL-DISINFECTANT-WIPES-50-P50,Medipal Disinfectant Wipes - Pack of 50,Smile Pharma
 CON:ANTISE-CLINELL-UNIVERSAL-WIPES-60-P60,Clinell Universal Wipes - Pack of 60 Wipes,Smile Pharma
-CON:TOURNI-TOURNIQUET-ADULT-BAND-ROLL-25-460MM-P100,Tourniquet Single Use Adult Band (460mm x 25mm) - Roll of 25,Smile Pharma
-CON:PAPERT-HYGIENE-ROLL-WHITE-P100,Hygiene Roll - White,Smile Pharma
-CON:ANTISE-CLINELL-UNIVERSAL-SANITISING-WIPES-100-P100,Clinell Universal Sanitising Wipes x 100,Smile Pharma
+CON:TOURNI-TOURNIQUET-ADULT-BAND-ROLL-25-460MM,Tourniquet Single Use Adult Band (460mm x 25mm) - Roll of 25,Smile Pharma
+CON:PAPERT-HYGIENE-ROLL-WHITE,Hygiene Roll - White,Smile Pharma
+CON:ANTISE-CLINELL-UNIVERSAL-SANITISING-WIPES-100,Clinell Universal Sanitising Wipes x 100,Smile Pharma
 CON:CONSUM-VIAL-OPENER,Vial Opener - Pack of 1,Smile Pharma
-CON:TOURNI-TOURNICLIP-TOURNIQUET-PINK-P100,Tourniclip Tourniquet Pink,Smile Pharma
+CON:TOURNI-TOURNICLIP-TOURNIQUET-PINK,Tourniclip Tourniquet Pink,Smile Pharma
 CON:SHARPS-YELLOW-MEDIUM-DUTY-CLINICAL-WASTE-90L,Yellow Medium Duty Clinical Waste Bags - Large 90L - Roll of 25,Smile Pharma
 CON:CONSUM-WHITE-FACIAL-MARKING-PENCIL,White Facial Marking Pencil - Pack of 1,Smile Pharma
-CON:CONSUM-NELSONS-ARNICA-COOLING-GEL-30G-P100,Nelsons Arnica Cooling Gel 30g,Smile Pharma
+CON:CONSUM-NELSONS-ARNICA-COOLING-GEL-30G,Nelsons Arnica Cooling Gel 30g,Smile Pharma
 CON:HOTCOL-SMILE-PHARMA-ICE,SMILE PHARMA ICE PACK - Pack of 1,Smile Pharma
 CON:HOTCOL-SMILE-PHARMA-ICE-P5,SMILE PHARMA ICE PACK - Pack of 5,Smile Pharma
-CON:ANTISE-CLINELL-SURFACE-UNIVERSAL-SPRAY-500ML-P100,Clinell Surface - Universal Spray - 500ml,Smile Pharma
-CON:GAUZES-NON-GAUZE-SWABS-7.5CM-P7,Non Sterile Gauze Swabs 7.5 x 7.5cm 8ply (Pack of 200),Smile Pharma
+CON:ANTISE-CLINELL-SURFACE-UNIVERSAL-SPRAY-500ML,Clinell Surface - Universal Spray - 500ml,Smile Pharma
+CON:GAUZES-NON-GAUZE-SWABS-7.5CM-P200,Non Sterile Gauze Swabs 7.5 x 7.5cm 8ply (Pack of 200),Smile Pharma
 CON:ANTISE-CLINELL-ALCOHOL-CHLORHEXIDINE-SKIN-WIP,Clinell Alcohol 2% Chlorhexidine Skin Wipes x 200,Dr. Adams Pharmacy
 CON:ANTISE-CLINELL-UNIVERSAL-WIPES-CW200,Clinell Universal Wipes CW200,Dr. Adams Pharmacy
-CON:FACEMA-DISPOSABLE-PINK-FACE-MASKS-PROTECTIVE-P50,Disposable Pink Face Masks Protective,Dr. Adams Pharmacy
+CON:FACEMA-DISPOSABLE-PINK-FACE-MASKS-PROTECTIVE,Disposable Pink Face Masks Protective,Dr. Adams Pharmacy
 CON:CONSUM-FLOWFLEX-LATERAL-FLOW-TESTS-SINGLES,Flowflex Lateral Flow Tests singles,Dr. Adams Pharmacy
 CON:CONSUM-HEALGEN-ANTIGEN-COVID-19-LATERAL,Healgen Antigen Covid-19 Lateral Flow Test Single Pack,Dr. Adams Pharmacy
 CON:CONSUM-MULTI-DRUG-TEST-KIT,Multi Drug Test Kit,Dr. Adams Pharmacy
 CON:CONSUM-STREP-TESTS,Strep A Tests,Dr. Adams Pharmacy
-CON:ANTISE-100-RESMED-DISINFECTION-SWABS-P100,100 x ResMed Disinfection Swabs,Skin On You
+CON:ANTISE-100-RESMED-DISINFECTION-SWABS,100 x ResMed Disinfection Swabs,Skin On You
 CON:ANTISE-COPY-CLINISEPT-AFTERCARE-100ML,Copy Of Clinisept Aftercare 100ml,AestheticSource
 CON:ANTISE-CLINISEPT-SKIN-PUMP-BOTTLE-490ML,"Clinisept+ Skin Pump Bottle, 490ml",AestheticSource
 CON:CONSUM-RESTORE-PHA-RENEWAL-PADS,Restore PHA Renewal Pads,AestheticSource
@@ -5902,9 +5888,8 @@ CON:GAUZES-NON-WOVEN-GAUZE-SWABS-P200,Non woven gauze swabs (pack of 200),MyPhar
 CON:GAUZES-NON-WOVEN-GAUZE-SWABS-P100,Non woven gauze swabs (pack of 100),MyPharmacyspace
 CON:CONSUM-PPE-BUNDLE,PPE Bundle,MyPharmacyspace
 CON:CONSUM-INDERMA-ANTI-BACTERIAL-SPRAY-118ML,Inderma Anti-Bacterial Spray 118ml,MyPharmacyspace
-CON:ANTISE-CLINELL-UNIVERSAL-WIPES,Clinell Universal wipes,MyPharmacyspace
 CON:APPLIC-APPLICATION-SPATULA-LARGE,Application Spatula Large,MyPharmacyspace
-CON:CONSUM-SURE-SIGN-MENOPAUSE-FSH-RAPID-P2,Sure Sign Menopause FSH Rapid Test,MyPharmacyspace
+CON:CONSUM-SURE-SIGN-MENOPAUSE-FSH-RAPID,Sure Sign Menopause FSH Rapid Test,MyPharmacyspace
 CON:CONSUM-SURE-SIGN-VITAMIN-TEST,Sure Sign Vitamin D Test,MyPharmacyspace
 CON:CONSUM-SURE-SIGN-IRON-DEFICIENCY-FERRITIN,Sure Sign Iron Deficiency Ferritin Test,MyPharmacyspace
 CON:DIAGNO-SURESIGN-UTI-URINARY-TRACT-INFECTION,Suresign UTI Urinary tract Infection Test strips (3 strips),MyPharmacyspace
@@ -5917,20 +5902,19 @@ CON:FIRSTA-FIRST-AID-KIT,First Aid Kit,LPG Clinics Wholesale
 CON:CONTAI-500MM-GRADUATED-KIDNEY-DISH-1PCS-500MM,500mm Graduated Kidney Dish - 1pcs,Two Face Aesthetics
 CON:ANTISE-CLINISEPT-AFTERCARE-100ML,Clinisept+ Aftercare 100ml,Two Face Aesthetics
 CON:ANTISE-CLINISEPT-PREP-PROCEDURE-500ML,Clinisept Prep Procedure 500ml,Two Face Aesthetics
-CON:GOWNAP-DISPOSABLE-APRONS-WHITE-200-P100,Disposable Aprons -White- 200,Two Face Aesthetics
-CON:PAPERT-DISPOSABLE-BIB-FACE-TISSUE-P500,Disposable Bib/Face Tissue,Two Face Aesthetics
+CON:GOWNAP-DISPOSABLE-APRONS-WHITE-200,Disposable Aprons -White- 200,Two Face Aesthetics
+CON:PAPERT-DISPOSABLE-BIB-FACE-TISSUE,Disposable Bib/Face Tissue,Two Face Aesthetics
 CON:DRESSI-FINEPORE-SURGICAL-TAPE-25CMX9-1M-9.1M,Finepore Surgical Tape 1.25cmx9.1m - 1 pcs,Two Face Aesthetics
 CON:FACEMA-FLUID-RESISTANT-SURGICAL-FACE-MASKS-P50,Fluid Resistant Surgical Face Masks Type IIR (Box of 50 Masks),Two Face Aesthetics
 CON:GAUZES-GAUZE-SWABS-10X-100PCS-10CM-P100,Gauze Swabs - 10x10cm 100pcs,Two Face Aesthetics
 CON:GAUZES-GAUZE-SWABS-5X-100PCS-5CM-P100,Gauze Swabs - 5x5cm 100pcs,Two Face Aesthetics
 CON:CONSUM-ICE-GLOBES-PINK,Ice Globes Pink,Two Face Aesthetics
-CON:HOTCOL-INSTANT-ICE,Instant Ice Pack,Two Face Aesthetics
 CON:DRESSI-INSTRAPAC-DRESSING-SCISSORS-BLUNT-13CM,Instrapac Dressing Scissors 13cm Blunt/Blunt,Two Face Aesthetics
 CON:DRESSI-INSTRAPAC-DRESSING-SCISSORS-SHARP-13CM,Instrapac Dressing Scissors 13cm Sharp/Sharp,Two Face Aesthetics
 CON:DRESSI-INSTRAPAC-DRESSING-SCISSORS-SHARP-BLUNT,"Instrapac Dressing Scissors 5"" Sharp/Blunt Disposable - 1pcs",Two Face Aesthetics
-CON:DRESSI-INSTRAPAC-FINE-SUTURE-PLUS-P7,Instrapac Fine Suture Pack Plus,Two Face Aesthetics
+CON:DRESSI-INSTRAPAC-FINE-SUTURE-PLUS,Instrapac Fine Suture Pack Plus,Two Face Aesthetics
 CON:CONSUM-INSTRAPAC-MCINDOE-TOOTHED-FORCEPS,Instrapac Mcindoe Toothed Forceps,Two Face Aesthetics
-CON:CONTAI-INSTRUMENT-TRAY-SOLID-BASE-270X150X-30MM,Instrument Tray - Solid Base 270x150x30mm,Two Face Aesthetics
+CON:CONTAI-INSTRUMENT-TRAY-SOLID-BASE-270X150X-30MM-P150,Instrument Tray - Solid Base 270x150x30mm,Two Face Aesthetics
 CON:ANTISE-MEDIPRO-70-ALCOHOL-HAND-SANITISER-500ML,MediPro 70% Alcohol Hand Sanitiser 500ml With Pump,Two Face Aesthetics
 CON:GAUZES-MEDISAVE-PRE-INJECTION-SWABS-100PCS-P100,Medisave Pre Injection Swabs 100pcs,Two Face Aesthetics
 CON:DRESSI-MEPORE-ADHESIVE-SURGICAL-DRESSING-6X-7CM-P60,Mepore Adhesive Surgical Dressing 6x7cm - 60pcs,Two Face Aesthetics
@@ -5940,7 +5924,6 @@ CON:SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-1L,Sharpsguard Yellow Sharps Bin 1L,Two
 CON:SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-2.5L,Sharpsguard Yellow Sharps Bin 2.5L,Two Face Aesthetics
 CON:SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-5L,Sharpsguard Yellow Sharps Bin 5L,Two Face Aesthetics
 CON:SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-7L,Sharpsguard Yellow Sharps Bin 7L,Two Face Aesthetics
-CON:CLEANI-SIMPLE-SOLUTION-GRAVITY-ADMINISTRATIO,Simple Solution Gravity Administration Set - Non-Vented - Single,Two Face Aesthetics
 CON:BLADES-SWANN-MORTON-SURGICAL-BLADE-REMOVER,Swann Morton Non-Sterile Surgical Blade Remover Unit,Two Face Aesthetics
 CON:CONSUM-TONDAUS-SURGICAL-SKIN-MARKER-WHITE,Tondaus Surgical Skin Marker - White,Two Face Aesthetics
 CON:TOURNI-TOURNIQUET-BAND-TYPE-ROLL-25,Tourniquet Single Use - Band Type Roll of 25,Two Face Aesthetics
@@ -5948,20 +5931,19 @@ CON:ANTISE-UNIWIPE-CLINICAL-DISINFECTANT-MIDI-WIP-P100,Uniwipe Clinical Disinfec
 CON:CONSUM-VACUETTE-TUBE-50PCS-4ML-P50,Vacuette Tube 4ml 50pcs,Two Face Aesthetics
 CON:SHARPS-YELLOW-HEAVY-DUTY-CLINICAL-WASTE-90L,Yellow Heavy Duty Clinical Waste Bags - 90L Large - 1 Roll of 25,Two Face Aesthetics
 CON:CONSUM-HYALURON-PEN-AMPOULES-3ML,Hyaluron Pen Ampoules 0 3ml X 5,Two Face Aesthetics
-CON:SHARPS-SHARPSGUARD-CYTO-SHARPS-BIN-5LITRE,Sharpsguard Cyto 5 Litre Sharps Bin,Two Face Aesthetics
 CON:CONDUC-ANAGEL-ULTRASOUND-GEL-BOTTLE-250ML,Anagel Ultrasound Gel 250ml Bottle,Two Face Aesthetics
 CON:CONSUM-DISPOSABLE-MULTI-NEEDLE,Disposable Multi Needle,Two Face Aesthetics
 CON:CONSUM-TIMESCO-TOURNICLIP-PINK,Timesco Tourniclip Pink,Two Face Aesthetics
-CON:DRAPEC-WHITE-COUCH-ROLL-20-40M-40M-P51,"White Couch Roll 20"" - 2ply - 40m x 500mm",Two Face Aesthetics
+CON:DRAPEC-WHITE-COUCH-ROLL-20-40M-40M,"White Couch Roll 20"" - 2ply - 40m x 500mm",Two Face Aesthetics
 CON:SHARPS-DANIELS-POUDS-TRAY-SHARPS-BIN,Daniels POUDS Tray 2.5 Sharps Bin Bracket,Two Face Aesthetics
-CON:ANTISE-ALCOHOL-PRE-INJECTION-SWABS-100-P100,Alcohol Pre-Injection Swabs x 100,Two Face Aesthetics
+CON:ANTISE-ALCOHOL-PRE-INJECTION-SWABS-100,Alcohol Pre-Injection Swabs x 100,Two Face Aesthetics
 CON:ANTISE-CLINELL-WIPES-UNIVERSAL-SANITISING-ANT,Clinell Wipes Universal Sanitising Anti-Bacterial x 200,Two Face Aesthetics
 CON:ANTISE-HIBIWASH-ANTIMICROBIAL-SKIN-CLEANSER-500ML,Hibiwash 500ml Antimicrobial Skin Cleanser,Two Face Aesthetics
-CON:APPLIC-WOODEN-TONGUE-DEPRESSORS-X100-P100,Wooden Tongue depressors x100,Two Face Aesthetics
-CON:APPLIC-HIVE-BROW-LIP-SPATULAS-P200,Hive disposable brow & lip spatulas (200),Two Face Aesthetics
+CON:APPLIC-WOODEN-TONGUE-DEPRESSORS-X100,Wooden Tongue depressors x100,Two Face Aesthetics
+CON:APPLIC-HIVE-BROW-LIP-SPATULAS,Hive disposable brow & lip spatulas (200),Two Face Aesthetics
 CON:APPLIC-HAIR-OILS-APPLICATOR-MASSAGER,Hair Oils applicator and massager,Two Face Aesthetics
 CON:CONSUM-MICROBLADING-SKIN-MARKER-PEN-SPMU,Microblading Skin Marker Pen - SPMU Permanent Makeup Outliner - Double Ended,Two Face Aesthetics
-CON:DRESSI-DEPENDAPLAST-WASHPROOF-SPOT-PLASTERS-100-2.2CM-P2,Dependaplast Washproof Spot Plasters - 2.2cm x 100,Two Face Aesthetics
+CON:DRESSI-DEPENDAPLAST-WASHPROOF-SPOT-PLASTERS-100-2.2CM,Dependaplast Washproof Spot Plasters - 2.2cm x 100,Two Face Aesthetics
 CON:CONSUM-TIMESCO-TOURNICLIP-BLUE,Timesco Tourniclip Blue,Two Face Aesthetics
 CON:CONSUM-TIMESCO-TOURNICLIP-GREEN,Timesco Tourniclip Green,Two Face Aesthetics
 CON:CONSUM-TIMESCO-TOURNICLIP-PURPLE,Timesco Tourniclip Purple,Two Face Aesthetics
@@ -5979,31 +5961,28 @@ CON:CONSUM-IRON-DEFICIENCY-SELF-TEST-HOME,Iron Deficiency Self Test Home Kit,Two
 CON:CONSUM-UNDER-ACTIVE-THYROID-SELF-TEST-HOME,Under-Active Thyroid Self Test Home Kit,Two Face Aesthetics
 CON:CONSUM-VAGINAL-INFECTION-SELF-TEST-HOME,Vaginal Infection Self Test Home Kit,Two Face Aesthetics
 CON:ANTISE-HIBISCRUB-ANTIMICROBIAL-SKIN-CLEANSER-125ML,Hibiscrub 125ml Antimicrobial Skin Cleanser,Two Face Aesthetics
-CON:ANTISE-HYDREX-PINK-SPRAY-200ML,Hydrex Pink Spray 200ml,Two Face Aesthetics
 CON:ANTISE-HIBIWASH-ANTIMICROBIAL-SKIN-CLEANSER-250ML,Hibiwash 250ml Antimicrobial Skin Cleanser,Two Face Aesthetics
 CON:DRESSI-OLIVE-DRESSING-HEMA-GEL-POLISH,Olive Dressing Hema Free Gel Polish by Glitterbels,Two Face Aesthetics
-CON:SHARPS-SHARPSGUARD-YELLOW-LTR-SHARPS-BIN,Sharpsguard Yellow 5 Ltr Sharps Bin,Wimpole Fillers
 CON:CONTAI-GRADUATED-KIDNEY-DISH-250MM,Graduated Kidney Dish – 250mm,Kiss Aesthetics Wholesale
 CON:ANTISE-CLINELL-UNIVERSAL-SANITISING-WIPES-40,Clinell Universal Sanitising Wipes x 40,Kiss Aesthetics Wholesale
 CON:ANTISE-MEDIPAL-DISINFECTANT-WIPES-240-P240,Medipal Disinfectant Wipes – Pack of 240,Kiss Aesthetics Wholesale
 CON:ANTISE-MEDIPAL-DISINFECTANT-WIPES-TUB-350-P350,Medipal Disinfectant Wipes – Tub of 350 wipes,Kiss Aesthetics Wholesale
-CON:GAUZES-GAUZE-SWABS-100-5CM,Gauze Swabs: 5 x 5cm 8 ply x 100,Kiss Aesthetics Wholesale
-CON:GAUZES-GAUZE-SWABS-100-10CM-P10,Gauze Swabs: 10 x 10cm 8 ply x 100,Kiss Aesthetics Wholesale
+CON:GAUZES-GAUZE-SWABS-100-10CM,Gauze Swabs: 10 x 10cm 8 ply x 100,Kiss Aesthetics Wholesale
 CON:DRESSI-MICROPORE-SURGICAL-TAPE-14M-2.5CM,Micropore Surgical Tape 2.5cm x 9.14m - Single,Kiss Aesthetics Wholesale
-CON:FACEMA-SURGICAL-FACE-MASKS-TYPE-IIR-P50,Surgical Face Masks - Type IIR Certified x 50,Kiss Aesthetics Wholesale
+CON:FACEMA-SURGICAL-FACE-MASKS-TYPE-IIR,Surgical Face Masks - Type IIR Certified x 50,Kiss Aesthetics Wholesale
 CON:BIB-DENTAL-BIBS-PINK-P125,Dental Bibs Pink (125pcs),Kiss Aesthetics Wholesale
 CON:BIB-DENTAL-BIBS-BLACK-P125,Dental Bibs Black (125pcs),Kiss Aesthetics Wholesale
 CON:ANTISE-CLINISEPT-SKIN-SPRAY-100ML,Clinisept+ Skin 100ml Spray,Kiss Aesthetics Wholesale
 CON:CONSUM-CALLIPERS-GOLDEN-RATIO,Callipers - Golden Ratio,Kiss Aesthetics Wholesale
 CON:ANTISE-ALCOHOL-SWABS-100-P100,Alcohol Swabs Box Of 100,Ask Pharmacy
 CON:FACEMA-FACE-MASKS-PPE-50-P50,Face Masks Ppe Box Of 50,Ask Pharmacy
-CON:ANTISE-ALCOHOL-WIPES-P125,Alcohol Wipes,Ask Pharmacy
+CON:ANTISE-ALCOHOL-WIPES,Alcohol Wipes,Ask Pharmacy
 CON:CONSUM-WHITE-PENCIL-MARK-UP-INJECTING,White Pencil Mark Up Pencil For Injecting,Ask Pharmacy
 CON:CONSUM-DERMABLADING-BLADES-NO-10,Dermablading Disposable Blades No 10,Ask Pharmacy
 CON:CONSUM-EASI-TRANS-SPLITTER-DIVIDER,Easi Trans Ml Splitter Divider,Ask Pharmacy
-CON:GOWNAP-DISPOSABLE-POLYTHENE-APRONS-P100,Disposable Polythene Aprons,Ask Pharmacy
+CON:GOWNAP-DISPOSABLE-POLYTHENE-APRONS,Disposable Polythene Aprons,Ask Pharmacy
 CON:SHARPS-SHARPS-BIN,Sharps Bin,Ask Pharmacy
-CON:GAUZES-GAUZE-10CM-P10,Gauze 10 X 10cm,Ask Pharmacy
+CON:GAUZES-GAUZE-10CM,Gauze 10 X 10cm,Ask Pharmacy
 CON:ANTISE-CLINISEPT,Clinisept,Ask Pharmacy
 CON:CONSUM-DERMABLADING-FACIAL-TREATMENT-SET-KITS,Dermablading Facial Treatment Set Kits,Ask Pharmacy
 CON:GLOVE-VITREX-EXAMINATION,Gloves Vitrex Medical Examination Gloves 2,Ask Pharmacy
@@ -6018,7 +5997,7 @@ CON:GLOVE-CLEAR-POWDER-EXAMINA,Gloves Clear Powder Free Examination Gloves,Ask P
 CON:DRESSI-DRESSIT-DRESSING-SMALL-MEDIUM-CLONE,Dressit Sterile Dressing Pack Small Medium Clone,Ask Pharmacy
 CON:DRESSI-DRESSIT-DRESSING-LARGE-CLONE,Dressit Sterile Dressing Pack Large Clone,Ask Pharmacy
 CON:DRAPEC-TORK-COUCH-ROLL-ADVANCED-WHITE-48CM,Tork Couch Roll Advanced White 2 Ply 48cm 19 X 56m,Ask Pharmacy
-CON:DRAPEC-ESSENTIALS-BED-ROLL-20-CLONE-P51,Essentials Bed Roll 20 Clone,Ask Pharmacy
+CON:DRAPEC-ESSENTIALS-BED-ROLL-20-CLONE,Essentials Bed Roll 20 Clone,Ask Pharmacy
 CON:IVBLOO-GIVING-SET,Giving Set,Ask Pharmacy
 CON:TOURNI-TOURNIQUET,Tourniquet,Ask Pharmacy
 CON:DRESSI-TEGADERM-FILM-DRESSING-6CMX-7CM,Tegaderm Film Dressing 6cmx7cm,Ask Pharmacy
@@ -6031,38 +6010,37 @@ CON:CONSUM-POTENZA-NEUTRAL-ELECTRODE-PAD-CABLE,Potenza Neutral Electrode Pad Cab
 CON:CONSUM-VASELINE-250G,Vaseline 250 g,Healthxchange
 CON:CONSUM-ALLSKIN-MED-RENEWAL-PADS,ALLSKIN | MED Renewal Pads,AesthetiCare
 CON:HOTCOL-1NEED-PRO-MICRONEEDLING-DEVICE-PACKA,1NEED PRO Microneedling Device Package Kit,Church Pharmacy
-CON:CONSUM-ACCU-CHEK-INSTANT-CONTROL-2.5ML-P2,Accu-Chek Instant Control,Church Pharmacy
-CON:ANTISE-ACRIFLEX-25-30G-P30,"Acriflex , 0.25%, 1 x 30g",Church Pharmacy
+CON:CONSUM-ACCU-CHEK-INSTANT-CONTROL-2.5ML,Accu-Chek Instant Control,Church Pharmacy
+CON:ANTISE-ACRIFLEX-25-30G,"Acriflex , 0.25%, 1 x 30g",Church Pharmacy
 CON:CONSUM-ACTIVA-CLASS-THIGH-LENGTH-STOCKING,Activa Class 1 Thigh Length Stocking Closed Toe ),Church Pharmacy
 CON:ANTISE-ALCOHOL-PREP-PADS-0983M-P200,Alcohol Prep Pads,Church Pharmacy
-CON:CONDUC-ANAGEL-ULTRASOUND-GEL-250ML-P250,Anagel Ultrasound Gel 250ml,Church Pharmacy
-CON:CONSUM-AQ-ENDO-TEST-TESTOSTERONE-HORMONE-50ML-P50,"AQ Endo-Test, 1 x 50ml testosterone hormone rebalancing serum",Church Pharmacy
+CON:CONDUC-ANAGEL-ULTRASOUND-GEL-250ML,Anagel Ultrasound Gel 250ml,Church Pharmacy
+CON:CONSUM-AQ-ENDO-TEST-TESTOSTERONE-HORMONE-50ML,"AQ Endo-Test, 1 x 50ml testosterone hormone rebalancing serum",Church Pharmacy
 CON:IVBLOO-BD-VACUTAINER-SAFETY-LOK-BLOOD-21G-P25,"BD Vacutainer Safety-Lok Blood Collection Wing Set 21G 178mm with Pre-attached Holder Green, 1 x 25",Church Pharmacy
-CON:ANTISE-BIOGUARD-ALCOHOL-HAND-SANITISER-GEL-100ML-P100,Bioguard Alcohol Hand Sanitiser Gel,Church Pharmacy
-CON:ANTISE-BIOGUARD-ALCOHOL-HAND-SANITISER-GEL-500ML-P500,Bioguard Alcohol Hand Sanitiser Gel with Pump,Church Pharmacy
+CON:ANTISE-BIOGUARD-ALCOHOL-HAND-SANITISER-GEL-100ML,Bioguard Alcohol Hand Sanitiser Gel,Church Pharmacy
+CON:ANTISE-BIOGUARD-ALCOHOL-HAND-SANITISER-GEL-500ML,Bioguard Alcohol Hand Sanitiser Gel with Pump,Church Pharmacy
 CON:CONSUM-CAMPOMATS-1NEED-PRO-MICRONEEDLING-CONSEN,Campomats 1NEED PRO Microneedling Consent Form,Church Pharmacy
-CON:ANTISE-CAREX-ALOE-VERA-ANTIBACTERIAL-HAND-50ML-P50,Carex Aloe Vera Antibacterial Hand Sanitiser Gel,Church Pharmacy
+CON:ANTISE-CAREX-ALOE-VERA-ANTIBACTERIAL-HAND-50ML,Carex Aloe Vera Antibacterial Hand Sanitiser Gel,Church Pharmacy
 CON:ANTISE-CLINISEPT-MOUTHWASH-5L-P5,Clinisept+ Mouthwash,Church Pharmacy
-CON:ANTISE-CLINISEPT-MOUTHWASH-100ML-P100,Clinisept+ Mouthwash,Church Pharmacy
-CON:ANTISE-CLINISEPT-PODIATRY-100ML-P100,Clinisept+ Podiatry,Church Pharmacy
-CON:ANTISE-CLINISEPT-PODIATRY-250ML-P250,Clinisept+ Podiatry,Church Pharmacy
-CON:ANTISE-CLINISEPT-PODIATRY-500ML-P500,Clinisept+ Podiatry,Church Pharmacy
+CON:ANTISE-CLINISEPT-MOUTHWASH-100ML,Clinisept+ Mouthwash,Church Pharmacy
+CON:ANTISE-CLINISEPT-PODIATRY-100ML,Clinisept+ Podiatry,Church Pharmacy
+CON:ANTISE-CLINISEPT-PODIATRY-250ML,Clinisept+ Podiatry,Church Pharmacy
+CON:ANTISE-CLINISEPT-PODIATRY-500ML,Clinisept+ Podiatry,Church Pharmacy
 CON:ANTISE-CLINISEPT-PODIATRY-5L-P5,Clinisept+ Podiatry,Church Pharmacy
 CON:HOTCOL-COLD-GEL-ICE-PACKS-P2,Cold Gel Ice Packs,Church Pharmacy
-CON:GAUZES-COTTON-WOOL-ROLL-500G-P500,Cotton Wool Roll,Church Pharmacy
-CON:ANTISE-DETTOL-ALOE-VERA-ANTIBACTERIAL-HAND-50ML-P50,Dettol Aloe Vera Antibacterial Hand Sanitiser Gel,Church Pharmacy
+CON:GAUZES-COTTON-WOOL-ROLL-500G,Cotton Wool Roll,Church Pharmacy
+CON:ANTISE-DETTOL-ALOE-VERA-ANTIBACTERIAL-HAND-50ML,Dettol Aloe Vera Antibacterial Hand Sanitiser Gel,Church Pharmacy
 CON:FIRSTA-FIRST-AID-KIT-110-PIECE-P110,First Aid Kit 110 Piece,Church Pharmacy
 CON:FIRSTA-FIRST-AID-KIT-210-PIECE-P210,First Aid Kit 210 Piece,Church Pharmacy
-CON:ANTISE-HIBIWASH-ANTIMICROBIAL-SKIN-CLEANSER-250ML-P250,Hibiwash Antimicrobial Skin Cleanser,Church Pharmacy
 CON:DRESSI-JELONET-MINOR-BURNS-DRESSING-5CM-P5,Jelonet Minor Burns Dressing 5cm x 5cm,Church Pharmacy
 CON:APPLIC-JOHNSON-COTTON-BUDS-P200,Johnson & Johnson Cotton Buds,Church Pharmacy
 CON:CONSUM-KANJI-WOMENS-MATERNITY-PANTS-SIDE,Kanji Womens Maternity Pants With Side Pockets,Church Pharmacy
 CON:DRESSI-KENDALL-AMD-ANTIMICROBIAL-FOAM-DRESSIN-P25,Kendall AMD Antimicrobial Foam Dressing,Church Pharmacy
 CON:CONSUM-MIDSTREAM-PREGNANCY-TEST-TWIN-0689M-P2,Midstream Pregnancy Test - Twin Pack,Church Pharmacy
 CON:CONSUM-NON-MEDICAL-CAP-P10,Non-Medical Cap,Church Pharmacy
-CON:CLEANI-NUTRISON-WATER-OPTRI-BOTTLE-1000ML-P1000,Nutrison Sterile Water Optri Bottle,Church Pharmacy
-CON:CONSUM-PREPT-GO-100ML-P100,Prept Go,Church Pharmacy
-CON:CONSUM-PREPT-PRO-500ML-P500,Prept Pro,Church Pharmacy
+CON:CLEANI-NUTRISON-WATER-OPTRI-BOTTLE-1000ML,Nutrison Sterile Water Optri Bottle,Church Pharmacy
+CON:CONSUM-PREPT-GO-100ML,Prept Go,Church Pharmacy
+CON:CONSUM-PREPT-PRO-500ML,Prept Pro,Church Pharmacy
 CON:ANTISE-ALCOHOL-FREE-ANTISEPTIC-WIPES-P10,Alcohol-free Antiseptic Wipes,Church Pharmacy
 CON:SHARPS-SHARPSGUARD-YELLOW-SHARPS-BIN-0.3LITRE,SHARPSGUARD 0.3 Litre Yellow Sharps Bin,Church Pharmacy
 CON:CONSUM-SHORE-MENS-ROUND-NECK-TOP,Shore Mens Round Neck Top,Church Pharmacy
@@ -6070,7 +6048,7 @@ CON:CONSUM-SILEX-COVID-SELF-TEST,Silex Covid Self-Test Pack,Church Pharmacy
 CON:CONSUM-SKIN-MARKER-FINE-TIP,Skin Marker Fine Tip,Church Pharmacy
 CON:CONSUM-SKIN-MARKER-REGULAR-TIP,Skin Marker Regular Tip,Church Pharmacy
 CON:DRESSI-SORBSAN-RIBBON-40CM-P5,"Sorbsan Ribbon 40cm x 1g, 1 x 5 (Expiry: 18-12-2026)",Church Pharmacy
-CON:CONSUM-SPECTRICEPT-CARE-SKIN-250ML-P250,Spectricept Care+ Skin,Church Pharmacy
+CON:CONSUM-SPECTRICEPT-CARE-SKIN-250ML,Spectricept Care+ Skin,Church Pharmacy
 CON:DRESSI-STERILE-DRESSING-SPEC-10-P12,Sterile Dressing Pack Spec 10,Church Pharmacy
 CON:DRESSI-STERILE-DRESSING-SPEC-35,Sterile Dressing Pack Spec 35,Church Pharmacy
 CON:CONSUM-STERILE-FINE-LINE-SKIN-MARKER,Sterile Fine Line Skin Marker,Church Pharmacy
@@ -6083,13 +6061,12 @@ CON:ANTISE-CLINELL-UNIVERSAL-WIPES-CLIP-50,Clinell Universal Wipes Clip Pack x 5
 CON:CONSUM-DR-ADAMS-PHARMACY,613,Dr. Adams Pharmacy
 CON:DRESSI-BANDAGES,Bandages,MedFX
 CON:CONSUM-KAPOFF-TOXIN-VIAL-CAP-OPENER,Kapoff Toxin Vial Cap Opener,MedFX
-CON:CONSUM-MARKING-UP-PENCIL-WHITE-P8,Marking Up Pencil - White,MedFX
+CON:CONSUM-MARKING-UP-PENCIL-WHITE,Marking Up Pencil - White,MedFX
 CON:CONSUM-CRYSTAL-SMOOTH-CYCLING-SHORTS-SMALL,Crystal Smooth L/W Cycling Shorts Small,MedFX
 CON:CONSUM-CRYSTAL-SMOOTH-CYCLING-SHORTS,Crystal Smooth H/W Cycling Shorts S,MedFX
 CON:COMPRE-MACOM-CRYSTAL-SMOOTH-TALL-XS,Macom Crystal Smooth H/W Tall XS Black,MedFX
 CON:COMPRE-MACOM-WAIST-SCULPTOR-XXSMALL-BLACK,Macom Waist Sculptor XXSmall Black,MedFX
 CON:COMPRE-MACOM-WAIST-SCULPTOR-XXL-BLACK,Macom Waist Sculptor XXL Black,MedFX
-CON:ANTISE-CLINISEPT-SKIN-490ML-P27,Clinisept+ Skin 490ml,MedFX
 CON:ANTISE-PUMP-CLINISEPT-SKIN-490ML,Pump For Clinisept+ Skin 490ml 490ml,MedFX
 CON:GOWNAP-BIBS-APRONS,Bibs & Aprons,MedFX
 DEV:COUCH-HYGIENE-ROLL-PLY-WHITE,"Couch/Hygiene Roll (20”) – 2 ply, White",MedFX
