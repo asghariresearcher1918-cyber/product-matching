@@ -1261,14 +1261,44 @@
 
   /* ---------------- SEARCH / RESULTS ---------------- */
   var lastQuery = '';
+  function _lev(a,b){                       // bounded Levenshtein for close-spelling matches
+    if(a===b) return 0;
+    var m=a.length, n=b.length; if(!m) return n; if(!n) return m; if(Math.abs(m-n)>2) return 9;
+    var prev=[],cur=[],i,j; for(j=0;j<=n;j++) prev[j]=j;
+    for(i=1;i<=m;i++){ cur[0]=i;
+      for(j=1;j<=n;j++){ cur[j]=Math.min(prev[j]+1, cur[j-1]+1, prev[j-1]+(a[i-1]===b[j-1]?0:1)); }
+      for(j=0;j<=n;j++) prev[j]=cur[j];
+    }
+    return prev[n];
+  }
+  function _scoreMatch(name, q){
+    // owner's ranking: (1) name/word STARTS with the query, (2) name CONTAINS it, (3) close spelling (fuzzy).
+    if(name===q) return 1000;
+    if(name.indexOf(q)===0) return 900;                       // whole name starts with the word
+    var words = name.split(/[^a-z0-9+]+/).filter(Boolean);
+    if(words.indexOf(q)>-1) return 820;                       // query is a whole word in the name
+    for(var i=0;i<words.length;i++){ if(words[i].length>q.length && words[i].indexOf(q)===0) return 760; } // a word starts with it
+    var idx = name.indexOf(q);
+    if(idx>0) return 600 - Math.min(idx,180);                 // contained somewhere (earlier position ranks higher)
+    if(q.length>=3){                                          // close spelling to any word in the name
+      var best=9; for(var j=0;j<words.length;j++){ var d=_lev(words[j], q); if(d<best) best=d; }
+      var tol = q.length>=6?2:1;
+      if(best<=tol) return 260 - best*30;
+    }
+    return 0;
+  }
   function matchProducts(query){
     query = (query||'').trim().toLowerCase();
     var keys = Object.keys(PRODUCTS);
     if(!query) return keys;
-    return keys.filter(function(k){
-      var p = PRODUCTS[k];
-      return p.name.toLowerCase().indexOf(query)>-1 || p.category.toLowerCase().indexOf(query)>-1;
-    });
+    var scored = [];
+    for(var i=0;i<keys.length;i++){
+      var p = PRODUCTS[keys[i]];
+      var s = _scoreMatch(p.name.toLowerCase(), query);
+      if(s>0) scored.push([keys[i], s]);
+    }
+    scored.sort(function(a,b){ return b[1]-a[1] || PRODUCTS[a[0]].name.localeCompare(PRODUCTS[b[0]].name); });
+    return scored.map(function(x){ return x[0]; });
   }
 
   function renderResults(query){
@@ -1307,7 +1337,7 @@
     var q = this.value.trim().toLowerCase();
     var box = document.getElementById('heroAutocomplete');
     if(!q){ hideAutocomplete(); return; }
-    var matches = matchProducts(q);
+    var matches = matchProducts(q).slice(0, 8);   // show the 8 best-ranked suggestions
     if(matches.length===0){ hideAutocomplete(); return; }
     box.innerHTML = '';
     matches.forEach(function(k){
