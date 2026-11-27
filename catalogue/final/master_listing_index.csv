@@ -836,7 +836,7 @@ FIL:FILLER-REVOLAX-DEEP,Dermal filler,Smile Pharma,revolaxdeep,https://smilephar
 FIL:FILLER-TEOSYAL-PURESENSEREDENSITYI-LIDO-2X,Dermal filler,Smile Pharma,Teosyal Puresense Redensity 1 (2 x 1ml),https://smilepharma.co.uk/product/teosyal-puresense-redensity-1-2-x-1ml/,high
 FIL:FILLER-TEOSYAL-PURESENSEREDENSITYII-LIDO-2X,Dermal filler,Smile Pharma,Teosyal Puresense Redensity 2 (2 x 1ml),https://smilepharma.co.uk/product/teosyal-puresense-redensity-2-2-x-1ml/,high
 FIL:FILLER-RESTYLANE-KYSSE-LIDO,Dermal filler,Smile Pharma,Restylane Kysse Dermal Filler,https://smilepharma.co.uk/product/restylane-kysse-dermal-filler/,rule
-FIL:FILLER-RESTYLANE-REFYNE-LIDO-2X,Dermal filler,Smile Pharma,Restylane Refyne Dermal Filler,https://smilepharma.co.uk/product/restylane-refyne-dermal-filler/,rule
+FIL:FILLER-RESTYLANE-REFYNE-LIDO,Dermal filler,Smile Pharma,Restylane Refyne Dermal Filler,https://smilepharma.co.uk/product/restylane-refyne-dermal-filler/,rule
 FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO,Dermal filler,Smile Pharma,Belotero Lips Contour with Lidocaine (0.6ml),https://smilepharma.co.uk/product/belotero-lips-contour-with-lidocaine-0-6ml/,rule
 FIL:FILLER-TEOSYAL-RHA1-2X,Dermal filler,Smile Pharma,Teosyal RHA 1 (2 x 1ml),https://smilepharma.co.uk/product/teosyal-rha-2-dermal-filler/,high
 FIL:EPTQ-EPITIQUES300-11ML-1X,Dermal filler,Smile Pharma,Epitique EPTQ S300 (1 x 1.1ml),https://smilepharma.co.uk/product/epitique-eptq-s300-1-x-1-1ml/,high*
@@ -2017,11 +2017,11 @@ FIL:ADVANCED-FILLERNORMALSKIN-1X,Dermal filler,MedFX,Advanced Filler Normal Skin
 FIL:TARGETED-LIPFILLER-1X,Dermal filler,MedFX,Targeted Lip Filler,https://www.medfx.co.uk/facial-aesthetics/cosmeceuticals/670676--targeted-lip-filler/,rule
 FIL:COLLAGEN-EYEFILLER-1X,Dermal filler,MedFX,Collagen Eye Filler,https://www.medfx.co.uk/facial-aesthetics/cosmeceuticals/691142--protocol-collagen-eye-filler/,rule
 FIL:FILLER-BELOTERO-SOFT-LIDO,Dermal filler,MedFX,Belotero Soft with Lidocaine,https://www.medfx.co.uk/facial-aesthetics/fillers/600053--belotero-soft-with-lidocaine/,rule
-FIL:FILLER-BELOTERO-BALANCE-LIDO-10X,Dermal filler,MedFX,Belotero Balance with Lidocaine,https://www.medfx.co.uk/facial-aesthetics/fillers/600054--belotero-balance-with-lidocaine/,rule
+FIL:FILLER-BELOTERO-BALANCE-LIDO,Dermal filler,MedFX,Belotero Balance with Lidocaine,https://www.medfx.co.uk/facial-aesthetics/fillers/600054--belotero-balance-with-lidocaine/,rule
 FIL:FILLER-BELOTERO-INTENSE-LIDO,Dermal filler,MedFX,Belotero Intense with Lidocaine,https://www.medfx.co.uk/facial-aesthetics/fillers/600055--belotero-intense-with-lidocaine/,rule
 FIL:FILLER-BELOTERO-VOLUME-LIDO-2X,Dermal filler,MedFX,Belotero Volume with Lidocaine,https://www.medfx.co.uk/facial-aesthetics/fillers/600056--belotero-volume-with-lidocaine/,rule
 FIL:FILLER-BELOTERO-LIPSSHAPE-LIDO,Dermal filler,MedFX,Belotero+ Lips Shape,https://www.medfx.co.uk/facial-aesthetics/fillers/600057--belotero-lips-shape/,rule
-FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO-2X,Dermal filler,MedFX,Belotero+ Lips Contour,https://www.medfx.co.uk/facial-aesthetics/fillers/600058--belotero-lips-contour/,rule
+FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO,Dermal filler,MedFX,Belotero+ Lips Contour,https://www.medfx.co.uk/facial-aesthetics/fillers/600058--belotero-lips-contour/,rule
 FIL:FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT-LIDO,Dermal filler,MedFX,Restylane Skinboosters Vital Light Lidocaine 1ml (D16),https://www.medfx.co.uk/facial-aesthetics/fillers/600200--restylane-skinboosters-vital-light-lidocaine-1ml-d16/,rule
 FIL:FILLER-RESTYLANE-SKINBOOSTERSVITAL-LIDO,Dermal filler,MedFX,Restylane Skinboosters Vital Lidocaine 1ml (D16),https://www.medfx.co.uk/facial-aesthetics/fillers/600201--restylane-skinboosters-vital-lidocaine-1ml-d16/,rule
 FIL:FILLER-RESTYLANE-ORIGINAL-LIDO,Dermal filler,MedFX,Restylane Classyc Lidocaine 1ml (D16),https://www.medfx.co.uk/facial-aesthetics/fillers/600207--restylane-classic-lidocaine-1ml-d16/,rule
@@ -2042,9 +2042,9 @@ FIL:FILLER-JUVEDERM-VOLIFT-LIDO-2X,Dermal filler,MedFX,Juvederm Volift with Lido
 FIL:FILLER-JUVEDERM-VOLBELLA-LIDO-2X,Dermal filler,MedFX,Juvederm Volbella with Lidocaine,https://www.medfx.co.uk/facial-aesthetics/fillers/600278--juvederm-volbella-with-lidocaine/,rule
 FIL:FILLER-JUVEDERM-VOLIFTRETOUCH-LIDO-2X,Dermal filler,MedFX,Juvederm Volift Retouch Dermal Filler,https://www.medfx.co.uk/facial-aesthetics/fillers/600279--juvederm-volift-retouch-dermal-filler/,rule
 FIL:NEWGYN-1X,Dermal filler,MedFX,NewGyn,https://www.medfx.co.uk/facial-aesthetics/fillers/600404--newgyn/,partial - check line/size
-FIL:FILLER-REVOLAX-DEEP-LIDO-10X,Dermal filler,MedFX,Revolax Deep With Lidocaine 1.1ml,https://www.medfx.co.uk/facial-aesthetics/fillers/600420--revolax-deep-with-lidocaine-1.1ml/,rule
-FIL:FILLER-REVOLAX-SUBQ-LIDO-10X,Dermal filler,MedFX,Revolax Sub-Q With Lidocaine 1.1ml,https://www.medfx.co.uk/facial-aesthetics/fillers/600421--revolax-subq-with-lidocaine-1.1ml/,rule
-FIL:FILLER-REVOLAX-FINE-LIDO-10X,Dermal filler,MedFX,Revolax Fine With Lidocaine 1.1ml,https://www.medfx.co.uk/facial-aesthetics/fillers/600422--revolax-fine-with-lidocaine-1.1ml/,rule
+FIL:FILLER-REVOLAX-DEEP-LIDO,Dermal filler,MedFX,Revolax Deep With Lidocaine 1.1ml,https://www.medfx.co.uk/facial-aesthetics/fillers/600420--revolax-deep-with-lidocaine-1.1ml/,rule
+FIL:FILLER-REVOLAX-SUBQ-LIDO,Dermal filler,MedFX,Revolax Sub-Q With Lidocaine 1.1ml,https://www.medfx.co.uk/facial-aesthetics/fillers/600421--revolax-subq-with-lidocaine-1.1ml/,rule
+FIL:FILLER-REVOLAX-FINE-LIDO,Dermal filler,MedFX,Revolax Fine With Lidocaine 1.1ml,https://www.medfx.co.uk/facial-aesthetics/fillers/600422--revolax-fine-with-lidocaine-1.1ml/,rule
 FIL:FILLMED-ARTFILLERLIPSSOFT-1X,Dermal filler,MedFX,FILLMED Art Filler Lips Soft,https://www.medfx.co.uk/facial-aesthetics/fillers/600694--fillmed-art-filler-lips-soft/,rule
 FIL:FILLMED-ARTFILLERFINELINES-1X,Dermal filler,MedFX,FILLMED Art Filler Fine Lines,https://www.medfx.co.uk/facial-aesthetics/fillers/600701--fillmed-art-filler-fine-lines/,rule
 FIL:FILLMED-ARTFILLERLIPS-1X,Dermal filler,MedFX,FILLMED Art Filler Lips,https://www.medfx.co.uk/facial-aesthetics/fillers/600702--fillmed-art-filler-lips/,rule
@@ -2640,7 +2640,7 @@ BST:BST-SUNEKOS-1200-2X,Skin booster / PN / mesotherapy,Smile Pharma,SUNEKOS 120
 BST:SOSUM-SOFT-3ML,Skin booster / PN / mesotherapy,Smile Pharma,sosum soft skin booster 1x3ml ce,https://smilepharma.co.uk/product/sosum-soft-skin-booster-1x3ml-ce/,rule
 BST:DERMAREN-LUMI-NAJU-2.5ML,Skin booster / PN / mesotherapy,Smile Pharma,Dermaren Lumi Naju - Skin Booster,https://smilepharma.co.uk/product/dermaren-lumi-naju-skin-booster/,high
 BST:LEMON-BOTTLE-SKIN-BOO-REBOOT-STEP-3ML-X6,Skin booster / PN / mesotherapy,Smile Pharma,Lemon Bottle REBOOT 3-Step Skin Booster System (6 x 3ml),https://smilepharma.co.uk/product/lemon-bottle-reboot-skin-booster/,high
-BST:BST-JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,Smile Pharma,Jalupro Classic - Skin Booster,https://smilepharma.co.uk/product/jalupro-classic-skin-booster/,rule
+BST:BST-JALUPRO-CLASSIC-2X,Skin booster / PN / mesotherapy,Smile Pharma,Jalupro Classic - Skin Booster,https://smilepharma.co.uk/product/jalupro-classic-skin-booster/,rule
 BST:BST-SEVENTY-HYAL-2000-3X,Skin booster / PN / mesotherapy,Smile Pharma,Seventy Hyal 2000 (3 x 2ml),https://smilepharma.co.uk/product/seventy-hyal-2000-3-x-2ml/,high
 BST:PURASOMES-SGC100-GLOW-5ML,Skin booster / PN / mesotherapy,Smile Pharma,Purasomes SGC100+ Skin Glow Complex (Single Vial),https://smilepharma.co.uk/product/purasomes-sgc100-skin-glow-complex-single/,rule
 BST:LUMI-PRO-2ML,Skin booster / PN / mesotherapy,Smile Pharma,LUMI-PRO Skin Booster (Single pack – 1 x 2ml),https://smilepharma.co.uk/product/lumi-pro-skin-booster-single-pack-1-x-2ml/,high
@@ -4196,8 +4196,8 @@ THR:SILHOUETTESOFT-CONE-2PCS,PDO threads,Healthxchange,Silhouette Soft Suture Co
 THR:SILHOUETTESOFT-CONE-2PCS,PDO threads,Healthxchange,Silhouette Soft Suture Cones 16 (5 Packs of 2 Sutures),https://www.healthxchange.com/products/silhouette-soft-suture-cones-16-5-packs-of-2-sutures,high
 THR:SILHOUETTESOFT-CONE-2PCS,PDO threads,Healthxchange,Silhouette Soft Suture Cones 8 (5 Packs of 2 Sutures),https://www.healthxchange.com/products/silhouette-soft-suture-cones-8-5-packs-of-2-sutures,high
 THR:CROMACONTOUREL-COG-18G-100MM-16PCS,PDO threads,John Bannon Pharmacy,Croma Countourel Ultra+ 18G 100mm L x 16,https://www.johnbannonpharmacy.co.uk/products/croma-croma-countourel-ultra-18g-100mm-l-x-16-1.html,high
-THR:CROMAPRINCESS-COG-19G-100MM-0PCS,PDO threads,MedFX,Croma Princess Threads Anchor 19g 100mm,https://www.medfx.co.uk/facial-aesthetics/microneedling/601102--croma-princess-threads-anchor-19g-100mm/,high
-THR:CROMAPRINCESS-MONO-29G-40MM-100PCS,PDO threads,MedFX,Croma Princess Threads 29g Basic 40mm,https://www.medfx.co.uk/facial-aesthetics/threads/601100--croma-princess-threads-29g-basic-40mm/,high
+THR:CROMAPRINCESS-COG-19G-100MM-1PCS,PDO threads,MedFX,Croma Princess Threads Anchor 19g 100mm,https://www.medfx.co.uk/facial-aesthetics/microneedling/601102--croma-princess-threads-anchor-19g-100mm/,rule
+THR:CROMAPRINCESS-MONO-29G-40MM-1PCS,PDO threads,MedFX,Croma Princess Threads 29g Basic 40mm,https://www.medfx.co.uk/facial-aesthetics/threads/601100--croma-princess-threads-29g-basic-40mm/,rule
 WGT:ALLI-60MG-ORAL,Weight-loss medicine,Church Pharmacy,alli,https://store.churchpharmacy.co.uk/product/alli-102260,high (dose from page)
 WGT:MOUNJARO-10MG-PEN,Weight-loss medicine,Church Pharmacy,mounjaro kwikpen 10mg prefilled pen,https://store.churchpharmacy.co.uk/product/mounjaro-kwikpen-10mg-prefilled-pen-121466,high
 WGT:MOUNJARO-12.5MG-PEN,Weight-loss medicine,Church Pharmacy,mounjaro kwikpen 125mg prefilled pen,https://store.churchpharmacy.co.uk/product/mounjaro-kwikpen-125mg-prefilled-pen-121607,high

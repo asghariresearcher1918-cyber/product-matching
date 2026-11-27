@@ -993,12 +993,10 @@ FIL:BELLAST-PRIMEULTRA-1ML-LIDO-1X,Dermal filler,Bellast Prime Ultra,Bellast,Bel
 FIL:FILLER-BELOTERO-UNSPECIFIED,Dermal filler,Belotero,Belotero,Belotero (unspecified) (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-UNSPECIFIED-LIDO,Dermal filler,Belotero,Belotero,Belotero (unspecified) with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,2,6,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-BALANCE,Dermal filler,Belotero,Belotero,Belotero Balance (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,4,5,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-BALANCE-LIDO,Dermal filler,Belotero,Belotero,Belotero Balance with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,11,13,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-BALANCE-LIDO-10X,Dermal filler,Belotero,Belotero,Belotero Balance with lidocaine (10 x 1ml with lidocaine),10 x 1ml with lidocaine,Merz,10,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-BALANCE-LIDO,Dermal filler,Belotero,Belotero,Belotero Balance with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,12,14,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-INTENSE,Dermal filler,Belotero,Belotero,Belotero Intense (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,4,5,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-INTENSE-LIDO,Dermal filler,Belotero,Belotero,Belotero Intense with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Merz,1,,reference-matched,12,15,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO,Dermal filler,Belotero,Belotero,Belotero Lips Contour (1 x 0.6ml with lidocaine),1 x 0.6ml with lidocaine,Merz,1,,reference-matched,10,11,https://merz-aesthetics.co.uk/belotero/
-FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO-2X,Dermal filler,Belotero,Belotero,Belotero Lips Contour (2 x 0.6ml with lidocaine),2 x 0.6ml with lidocaine,Merz,2,,reference-matched,1,1,https://merz-aesthetics.co.uk/belotero/
+FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO,Dermal filler,Belotero,Belotero,Belotero Lips Contour (1 x 0.6ml with lidocaine),1 x 0.6ml with lidocaine,Merz,1,,reference-matched,11,12,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-LIPSSHAPE-LIDO,Dermal filler,Belotero,Belotero,Belotero Lips Shape (1 x 0.6ml with lidocaine),1 x 0.6ml with lidocaine,Merz,1,,reference-matched,11,12,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-REVIVE,Dermal filler,Belotero,Belotero,Belotero Revive (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,9,10,https://merz-aesthetics.co.uk/belotero/
 FIL:FILLER-BELOTERO-SOFT,Dermal filler,Belotero,Belotero,Belotero Soft (1 x 1ml),1 x 1ml,Merz,1,,reference-matched,3,4,https://merz-aesthetics.co.uk/belotero/
@@ -1444,8 +1442,7 @@ FIL:FILLER-RESTYLANE-EYELIGHT-LIDO,Dermal filler,Restylane,Restylane,Restylane E
 FIL:FILLER-RESTYLANE-KYSSE-LIDO,Dermal filler,Restylane,Restylane,Restylane Kysse (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,17,19,https://www.restylane.co.uk
 FIL:FILLER-RESTYLANE-LYFT,Dermal filler,Restylane,Restylane,Restylane Lyft (1 x 1ml),1 x 1ml,Galderma,1,,reference-matched,2,2,https://www.restylane.co.uk
 FIL:FILLER-RESTYLANE-LYFT-LIDO,Dermal filler,Restylane,Restylane,Restylane Lyft with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,16,18,https://www.restylane.co.uk
-FIL:FILLER-RESTYLANE-REFYNE-LIDO,Dermal filler,Restylane,Restylane,Restylane Refyne (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,16,18,https://www.restylane.co.uk
-FIL:FILLER-RESTYLANE-REFYNE-LIDO-2X,Dermal filler,Restylane,Restylane,Restylane Refyne (2 x 1ml with lidocaine),2 x 1ml with lidocaine,Galderma,2,,reference-matched,1,1,https://www.restylane.co.uk
+FIL:FILLER-RESTYLANE-REFYNE-LIDO,Dermal filler,Restylane,Restylane,Restylane Refyne (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,17,19,https://www.restylane.co.uk
 FIL:FILLER-RESTYLANE-SKINBOOSTERSVITAL,Dermal filler,Restylane,Restylane,Restylane Skinboosters Vital (1 x 1ml),1 x 1ml,Galderma,1,,reference-matched,1,1,https://www.restylane.co.uk
 FIL:FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT,Dermal filler,Restylane,Restylane,Restylane Skinboosters Vital Light (1 x 1ml),1 x 1ml,Galderma,1,,reference-matched,1,2,https://www.restylane.co.uk
 FIL:FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT-LIDO,Dermal filler,Restylane,Restylane,Restylane Skinboosters Vital Light with lidocaine (1 x 1ml with lidocaine),1 x 1ml with lidocaine,Galderma,1,,reference-matched,11,13,https://www.restylane.co.uk
@@ -1485,14 +1482,11 @@ FIL:REVOFIL-ULTRA-1X,Dermal filler,Revofil Ultra,Revofil,Revofil Ultra,,Dexlevo 
 FIL:REVOFIL-ULTRASYR-1ML-1X,Dermal filler,Revofil Ultra Syr,Revofil,Revofil Ultra (2 x 1ml syr.),1 x 1ml,Dexlevo (Korea),1,,brand page only,1,1,manufacturer IFU
 FIL:FILLER-REVOLAX-UNSPECIFIED,Dermal filler,Revolax,Revolax,Revolax (unspecified) (1 x 1.1ml),1 x 1.1ml,Across (Korea),1,,reference-matched,2,2,https://www.revolax.co.uk
 FIL:FILLER-REVOLAX-DEEP,Dermal filler,Revolax,Revolax,Revolax Deep (1 x 1.1ml),1 x 1.1ml,Across (Korea),1,,reference-matched,6,6,https://www.revolax.co.uk
-FIL:FILLER-REVOLAX-DEEP-LIDO,Dermal filler,Revolax,Revolax,Revolax Deep with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,10,12,https://www.revolax.co.uk
-FIL:FILLER-REVOLAX-DEEP-LIDO-10X,Dermal filler,Revolax,Revolax,Revolax Deep with lidocaine (10 x 1.1ml with lidocaine),10 x 1.1ml with lidocaine,Across (Korea),10,,reference-matched,1,1,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-DEEP-LIDO,Dermal filler,Revolax,Revolax,Revolax Deep with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,11,13,https://www.revolax.co.uk
 FIL:FILLER-REVOLAX-FINE,Dermal filler,Revolax,Revolax,Revolax Fine (1 x 1.1ml),1 x 1.1ml,Across (Korea),1,,reference-matched,6,6,https://www.revolax.co.uk
-FIL:FILLER-REVOLAX-FINE-LIDO,Dermal filler,Revolax,Revolax,Revolax Fine with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,10,12,https://www.revolax.co.uk
-FIL:FILLER-REVOLAX-FINE-LIDO-10X,Dermal filler,Revolax,Revolax,Revolax Fine with lidocaine (10 x 1.1ml with lidocaine),10 x 1.1ml with lidocaine,Across (Korea),10,,reference-matched,1,1,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-FINE-LIDO,Dermal filler,Revolax,Revolax,Revolax Fine with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,11,13,https://www.revolax.co.uk
 FIL:FILLER-REVOLAX-SUBQ,Dermal filler,Revolax,Revolax,Revolax Sub-Q (1 x 1.1ml),1 x 1.1ml,Across (Korea),1,,reference-matched,5,5,https://www.revolax.co.uk
-FIL:FILLER-REVOLAX-SUBQ-LIDO,Dermal filler,Revolax,Revolax,Revolax Sub-Q with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,10,12,https://www.revolax.co.uk
-FIL:FILLER-REVOLAX-SUBQ-LIDO-10X,Dermal filler,Revolax,Revolax,Revolax Sub-Q with lidocaine (10 x 1.1ml with lidocaine),10 x 1.1ml with lidocaine,Across (Korea),10,,reference-matched,1,1,https://www.revolax.co.uk
+FIL:FILLER-REVOLAX-SUBQ-LIDO,Dermal filler,Revolax,Revolax,Revolax Sub-Q with lidocaine (1 x 1.1ml with lidocaine),1 x 1.1ml with lidocaine,Across (Korea),1,,reference-matched,11,13,https://www.revolax.co.uk
 FIL:RHA-1-1ML-2X,Dermal filler,Rha 1,Rha,RHA 1 (2x1ml),2 x 1ml,not named,2,,brand page only,1,1,supplier page
 FIL:RHA-1-1ML-1X,Dermal filler,Rha 1,Rha,RHA 1 Single (1x1ml),1 x 1ml,not named,1,,brand page only,1,1,supplier page
 FIL:RHAKISS-07ML-2X,Dermal filler,Rha Kiss,Rha Kiss,RHA KISS 2 X 0.7ml,2 x 0.7ml,not named,2,,brand page only,1,1,supplier page
@@ -2986,7 +2980,7 @@ THR:GENERICPCL-MONO-30G-25MM-10PCS,PDO threads,PCL mono,Generic PCL,PDO Thread M
 THR:CROMACONTOUREL-COG-19G-90MM-16PCS,PDO threads,PDO cog/barbed,Croma Contourel,Croma Countourel Barbed 19G 90mm W x 16,19G 90MM x16,Croma,16,,yes,1,1,
 THR:CROMACONTOUREL-COG-19G-100MM-16PCS,PDO threads,PDO cog/barbed,Croma Contourel,Croma Countourel Ultra 19G 100mm L x 16,19G 100MM x16,Croma,16,,yes,1,1,
 THR:CROMACONTOUREL-COG-18G-100MM-16PCS,PDO threads,PDO cog/barbed,Croma Contourel,Croma Countourel Ultra+ 18G 100mm L x 16,18G 100MM x16,Croma,16,,yes,1,3,
-THR:CROMAPRINCESS-COG-19G-100MM-0PCS,PDO threads,PDO cog/barbed,Croma Princess,Croma Princess Threads Anchor 19g 100mm,19G 100MM x0,Croma,0,,yes,1,1,
+THR:CROMAPRINCESS-COG-19G-100MM-1PCS,PDO threads,PDO cog/barbed,Croma Princess,Croma Princess Threads Anchor 19g 100mm,19G 100MM x1,Croma,1,,yes,1,1,
 THR:CROMAPRINCESS-COG-18G-100MM-12PCS,PDO threads,PDO cog/barbed,Croma Princess,Princess Anchor Plus 18g X 100mm C,18G 100MM x12,Croma,12,,yes,1,1,
 THR:CROMAPRINCESS-COG-23G-90MM-12PCS,PDO threads,PDO cog/barbed,Croma Princess,Princess Lift PDO Barb 23g 90mm,23G 90MM x12,Croma,12,,yes,1,1,
 THR:CROMAPRINCESS-COG-23G-60MM-12PCS,PDO threads,PDO cog/barbed,Croma Princess,Princess Lift PDO Barb Threads 23g 60mm Blue Grip,23G 60MM x12,Croma,12,,yes,1,1,
@@ -3054,7 +3048,7 @@ THR:ULTRAV-COG-26G-90MM-10PCS,PDO threads,PDO cog/barbed,Ultra V,Ultra V-PDO Tor
 THR:ULTRAV-COG-29G-50MM-10PCS,PDO threads,PDO cog/barbed,Ultra V,Ultra V-PDO Tornado 29G 38/50mm (10×1),29G 50MM x10,Ultra V Line (Korea),10,,yes,1,2,
 THR:DEFINISSE-DOUBLE-NEEDLE-23CM-NEE-6PCS,PDO threads,PDO double-needle,Definisse,Definisse Double Needle Thread 23cm,23CM needle x6,Relife,6,,yes,2,3,
 THR:DEFINISSE-DOUBLE-NEEDLE-12CM-NEE-6PCS,PDO threads,PDO double-needle,Definisse,Definisse Double Needle Threads 12cm,12CM needle x6,Relife,6,,yes,2,3,
-THR:CROMAPRINCESS-MONO-29G-40MM-100PCS,PDO threads,PDO mono,Croma Princess,Croma Princess Threads 29g Basic 40mm,29G 40MM x100,Croma,100,,yes,1,1,
+THR:CROMAPRINCESS-MONO-29G-40MM-1PCS,PDO threads,PDO mono,Croma Princess,Croma Princess Threads 29g Basic 40mm,29G 40MM x1,Croma,1,,yes,1,1,
 THR:CROMAPRINCESS-MONO-29G-40MM-50PCS,PDO threads,PDO mono,Croma Princess,Princess Lift PDO Basic 29g 40mm Pink Grip,29G 40MM x50,Croma,50,,yes,1,1,
 THR:CROMAPRINCESS-MONO-27G-60MM-50PCS,PDO threads,PDO mono,Croma Princess,Princess Lift PDO Basic Threads 27g 60mm Grey Grip,27G 60MM x50,Croma,50,,yes,1,1,
 THR:CROMAPRINCESS-MONO-29G-50MM-50PCS,PDO threads,PDO mono,Croma Princess,Princess Lift PDO Basic Threads 29g 50mm Pink Grip,29G 50MM x50,Croma,50,,yes,1,1,
@@ -3153,9 +3147,9 @@ THR:SPRINGTHREAD-COG-NEE-6PCS,PDO threads,PLLA cog/barbed,SpringThread,SpringThr
 THR:SPRINGTHREAD-COG-NO--6PCS,PDO threads,PLLA cog/barbed,SpringThread,SpringThread Face Thread WITHOUT needles x 6,no-needle x6,Promoitalia,6,,yes,1,1,
 THR:SILHOUETTESOFT-CONE-2PCS,PDO threads,PLLA/PLGA cone,Silhouette Soft,Silhouette Soft 12 Cones (5 packs x 2 units),x2,Sinclair,2,,yes,3,8,
 BST:AMINO-FORMULA-FBP-50ML,Skin booster / PN / mesotherapy,Amino-acid skin booster,Amino,Amino Formula Fbp 50ml,1 x 50ml,,1,,,1,1,
-BST:BST-JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (1 x 3ml),1 x 3ml,,1,,reference-matched,5,9,
+BST:BST-JALUPRO-CLASSIC,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (1 x 3ml),1 x 3ml,,1,,reference-matched,5,8,
 BST:BST-JALUPRO-CLASSIC-11X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (11 x 3ml),11 x 3ml,,11,,reference-matched,2,3,
-BST:BST-JALUPRO-CLASSIC-2X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (2 x 3ml),2 x 3ml,,2,,reference-matched,11,12,
+BST:BST-JALUPRO-CLASSIC-2X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (2 x 3ml),2 x 3ml,,2,,reference-matched,12,13,
 BST:BST-JALUPRO-CLASSIC-3X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (3 x 3ml),3 x 3ml,,3,,reference-matched,2,3,
 BST:BST-JALUPRO-CLASSIC-5X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (5 x 3ml),5 x 3ml,,5,,reference-matched,1,2,
 BST:BST-JALUPRO-CLASSIC-6X,Skin booster / PN / mesotherapy,Amino-acid skin booster,Jalupro,Jalupro Classic (6 x 3ml),6 x 3ml,,6,,reference-matched,7,8,

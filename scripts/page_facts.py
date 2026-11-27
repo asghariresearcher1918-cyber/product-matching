@@ -10,8 +10,16 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
-RELATED = re.compile(r"you may also like|you might also like|related products|customers also (bought|viewed)|frequently bought|recently viewed|"
-                     r"similar products|bestseller|people also bought|complete the look", re.I)
+RELATED = re.compile(
+    r"you may also (?:like|need|enjoy)|you might also (?:like|need|enjoy)|related products?|related items?|"
+    r"customers also (?:bought|viewed|liked)|customers who bought|frequently bought together|often bought together|"
+    r"recently viewed|similar products?|similar items?|bestsellers?|best ?sellers?|people also bought|"
+    r"complete the look|complete your (?:order|routine)|recommended for you|we (?:also )?recommend|"
+    r"our recommendations|you may be interested|pairs well with|goes well with|shop the range|shop more|more from|"
+    r"other products|trending( now)?|top sellers|add[- ]?ons?|more in this (?:category|range)|related categories|"
+    # 'Recommended' / 'Recommended products' as a carousel heading, but NOT 'recommended dose/use/for ...' in prose
+    r"recommended(?:\s+products?)?(?!\s+(?:dose|dosage|use|usage|for|to|that|daily|treatment|amount|storage|interval|number|frequency|time|period|age|by|when|if|that))",
+    re.I)
 LABELS = r"size and care info|box contents|pack contents|contents|pack size|size|product options?|quantity|qty|presentation|sku|product code|quickfind code"
 
 

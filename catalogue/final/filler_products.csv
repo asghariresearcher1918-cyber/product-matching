@@ -58,12 +58,10 @@ BELLAST-PRIMEULTRA-1ML-LIDO-1X,Bellast,Prime Ultra,Bellast Prime Ultra,not named
 FILLER-BELOTERO-UNSPECIFIED,Belotero,(unspecified),Belotero,Merz,yes,1,no,1,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-UNSPECIFIED-LIDO,Belotero,(unspecified),Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),2,6,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-BALANCE,Belotero,Balance,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),4,5,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-BALANCE-LIDO,Belotero,Balance,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),11,13,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-BALANCE-LIDO-10X,Belotero,Balance,Belotero,Merz,yes,1,yes,10,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
+FILLER-BELOTERO-BALANCE-LIDO,Belotero,Balance,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),12,14,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-INTENSE,Belotero,Intense,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),4,5,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-INTENSE-LIDO,Belotero,Intense,Belotero,Merz,yes,1,yes,1,UK/std,yes (reference),12,15,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-LIPSCONTOUR-LIDO,Belotero,Lips Contour,Belotero,Merz,yes,0.6,yes,1,UK/std,yes (reference),10,11,https://merz-aesthetics.co.uk/belotero/
-FILLER-BELOTERO-LIPSCONTOUR-LIDO-2X,Belotero,Lips Contour,Belotero,Merz,yes,0.6,yes,2,UK/std,yes (reference),1,1,https://merz-aesthetics.co.uk/belotero/
+FILLER-BELOTERO-LIPSCONTOUR-LIDO,Belotero,Lips Contour,Belotero,Merz,yes,0.6,yes,1,UK/std,yes (reference),11,12,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-LIPSSHAPE-LIDO,Belotero,Lips Shape,Belotero,Merz,yes,0.6,yes,1,UK/std,yes (reference),11,12,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-REVIVE,Belotero,Revive,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),9,10,https://merz-aesthetics.co.uk/belotero/
 FILLER-BELOTERO-SOFT,Belotero,Soft,Belotero,Merz,yes,1,no,1,UK/std,yes (reference),3,4,https://merz-aesthetics.co.uk/belotero/
@@ -529,8 +527,7 @@ FILLER-RESTYLANE-EYELIGHT-LIDO,Restylane,Eyelight,Restylane,Galderma,yes,0.5,yes
 FILLER-RESTYLANE-KYSSE-LIDO,Restylane,Kysse,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),17,19,https://www.restylane.co.uk
 FILLER-RESTYLANE-LYFT,Restylane,Lyft,Restylane,Galderma,yes,1,no,1,UK/std,yes (reference),2,2,https://www.restylane.co.uk
 FILLER-RESTYLANE-LYFT-LIDO,Restylane,Lyft,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),16,18,https://www.restylane.co.uk
-FILLER-RESTYLANE-REFYNE-LIDO,Restylane,Refyne,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),16,18,https://www.restylane.co.uk
-FILLER-RESTYLANE-REFYNE-LIDO-2X,Restylane,Refyne,Restylane,Galderma,yes,1,yes,2,UK/std,yes (reference),1,1,https://www.restylane.co.uk
+FILLER-RESTYLANE-REFYNE-LIDO,Restylane,Refyne,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),17,19,https://www.restylane.co.uk
 FILLER-RESTYLANE-SKINBOOSTERSVITAL,Restylane,Skinboosters Vital,Restylane,Galderma,yes,1,no,1,UK/std,yes (reference),1,1,https://www.restylane.co.uk
 FILLER-RESTYLANE-SKINBOOSTERSVITAL-LIDO,Restylane,Skinboosters Vital,Restylane,Galderma,yes,1,yes,1,UK/std,yes (reference),14,16,https://www.restylane.co.uk
 FILLER-RESTYLANE-SKINBOOSTERSVITALLIGHT,Restylane,Skinboosters Vital Light,Restylane,Galderma,yes,1,no,1,UK/std,yes (reference),1,2,https://www.restylane.co.uk
@@ -571,14 +568,11 @@ REVOFIL-ULTRA-1X,Revofil,Ultra,Revofil Ultra,Dexlevo (Korea),yes,,no,1,UK/std,br
 REVOFIL-ULTRASYR-1ML-1X,Revofil,Ultra Syr,Revofil Ultra Syr,Dexlevo (Korea),yes,1,no,1,UK/std,brand page only,1,1,manufacturer IFU
 FILLER-REVOLAX-UNSPECIFIED,Revolax,(unspecified),Revolax,Across (Korea),yes,1.1,no,1,UK/std,yes (reference),2,2,https://www.revolax.co.uk
 FILLER-REVOLAX-DEEP,Revolax,Deep,Revolax,Across (Korea),yes,1.1,no,1,UK/std,yes (reference),6,6,https://www.revolax.co.uk
-FILLER-REVOLAX-DEEP-LIDO,Revolax,Deep,Revolax,Across (Korea),yes,1.1,yes,1,UK/std,yes (reference),10,12,https://www.revolax.co.uk
-FILLER-REVOLAX-DEEP-LIDO-10X,Revolax,Deep,Revolax,Across (Korea),yes,1.1,yes,10,UK/std,yes (reference),1,1,https://www.revolax.co.uk
+FILLER-REVOLAX-DEEP-LIDO,Revolax,Deep,Revolax,Across (Korea),yes,1.1,yes,1,UK/std,yes (reference),11,13,https://www.revolax.co.uk
 FILLER-REVOLAX-FINE,Revolax,Fine,Revolax,Across (Korea),yes,1.1,no,1,UK/std,yes (reference),6,6,https://www.revolax.co.uk
-FILLER-REVOLAX-FINE-LIDO,Revolax,Fine,Revolax,Across (Korea),yes,1.1,yes,1,UK/std,yes (reference),10,12,https://www.revolax.co.uk
-FILLER-REVOLAX-FINE-LIDO-10X,Revolax,Fine,Revolax,Across (Korea),yes,1.1,yes,10,UK/std,yes (reference),1,1,https://www.revolax.co.uk
+FILLER-REVOLAX-FINE-LIDO,Revolax,Fine,Revolax,Across (Korea),yes,1.1,yes,1,UK/std,yes (reference),11,13,https://www.revolax.co.uk
 FILLER-REVOLAX-SUBQ,Revolax,Sub-Q,Revolax,Across (Korea),yes,1.1,no,1,UK/std,yes (reference),5,5,https://www.revolax.co.uk
-FILLER-REVOLAX-SUBQ-LIDO,Revolax,Sub-Q,Revolax,Across (Korea),yes,1.1,yes,1,UK/std,yes (reference),10,12,https://www.revolax.co.uk
-FILLER-REVOLAX-SUBQ-LIDO-10X,Revolax,Sub-Q,Revolax,Across (Korea),yes,1.1,yes,10,UK/std,yes (reference),1,1,https://www.revolax.co.uk
+FILLER-REVOLAX-SUBQ-LIDO,Revolax,Sub-Q,Revolax,Across (Korea),yes,1.1,yes,1,UK/std,yes (reference),11,13,https://www.revolax.co.uk
 RHA-1-1ML-1X,Rha,1,Rha 1,not named,yes,1,no,1,UK/std,brand page only,1,1,supplier page
 RHA-1-1ML-2X,Rha,1,Rha 1,not named,yes,1,no,2,UK/std,brand page only,1,1,supplier page
 RHAKISS-07ML-1X,Rha Kiss,,Rha Kiss,not named,yes,0.7,no,1,UK/std,brand page only,1,1,supplier page

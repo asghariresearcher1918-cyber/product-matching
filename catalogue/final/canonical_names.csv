@@ -310,7 +310,6 @@ FIL:VOLIFIL-SUBQMAX-11ML-1X,VOLIFIL SUB-Q 1.1ml next generation dermal filler,Sm
 FIL:VOLIFIL-CLASSICLITEFINE-1ML-1X,VOLIFIL CLASSIC 1ml next generation dermal filler,Smile Pharma
 FIL:FILLER-REVOLAX-FINE,Revolax Fine 1 1ml,Ask Pharmacy
 FIL:FILLER-REVOLAX-DEEP,Revolax Deep Q 1 1ml Clone,Ask Pharmacy
-FIL:FILLER-RESTYLANE-REFYNE-LIDO-2X,Restylane Refyne Dermal Filler,Smile Pharma
 FIL:EPTQ-EPITIQUES300-11ML-1X,Epitique EPTQ S300 (1 x 1.1ml),Smile Pharma
 FIL:FILLER-STYLAGE-HYDROMAX,Stylage Bi-Soft HydroMax (1 x 1ml) Inj.,Wimpole Fillers
 FIL:ILLUMA-HYDROBOOSTER3-2ML-3X,iLLUMA Hydro Booster - 2ml x 3 Syringes,Smile Pharma
@@ -753,12 +752,7 @@ FIL:CROMA-FAREWELLPUFFYEYES-1X,Croma Farewell Puffy Eyes,MedFX
 FIL:CROMA-PUREHA-1X,Croma PureHA,MedFX
 FIL:ADVANCED-FILLERNORMALSKIN-1X,Advanced Filler Normal Skin,MedFX
 FIL:COLLAGEN-EYEFILLER-1X,Collagen Eye Filler,MedFX
-FIL:FILLER-BELOTERO-BALANCE-LIDO-10X,Belotero Balance with Lidocaine,MedFX
-FIL:FILLER-BELOTERO-LIPSCONTOUR-LIDO-2X,Belotero+ Lips Contour,MedFX
 FIL:NEWGYN-1X,NewGyn,MedFX
-FIL:FILLER-REVOLAX-DEEP-LIDO-10X,Revolax Deep With Lidocaine 1.1ml,MedFX
-FIL:FILLER-REVOLAX-SUBQ-LIDO-10X,Revolax Sub-Q With Lidocaine 1.1ml,MedFX
-FIL:FILLER-REVOLAX-FINE-LIDO-10X,Revolax Fine With Lidocaine 1.1ml,MedFX
 FIL:FILLMED-ARTFILLERLIPSSOFT-1X,FILLMED Art Filler Lips Soft,MedFX
 FIL:CROMA-PHILART-1X,Croma PhilArt,MedFX
 BST:PURASOMES-HSC50-HAIR-5ML,Purasomes HSC50+ Hair &amp; Scalp Complex,Smile Pharma
@@ -1836,8 +1830,8 @@ THR:GENERICPDO-COG-18G-100MM-4PCS,PDO Thread Cog 12d W 18g 100mm 4pcs,Ask Pharma
 THR:GENERICPDO-COG-19G-100MM-4PCS,PDO Thread Cog 12d Bc 19g 100mm 4pcs,Ask Pharmacy
 THR:GENERICPDO-MONO-27G-50MM-50PCS,PDO Thread Mono 27g 50mm 50pcs 10x5pcs,Ask Pharmacy
 THR:GENERICPDO-MONO-29G-38MM-10PCS,PDO Thread Mono 29g 38mm 1 X 10 Pack,Ask Pharmacy
-THR:CROMAPRINCESS-COG-19G-100MM-0PCS,Croma Princess Threads Anchor 19g 100mm,MedFX
-THR:CROMAPRINCESS-MONO-29G-40MM-100PCS,Croma Princess Threads 29g Basic 40mm,MedFX
+THR:CROMAPRINCESS-COG-19G-100MM-1PCS,Croma Princess Threads Anchor 19g 100mm,MedFX
+THR:CROMAPRINCESS-MONO-29G-40MM-1PCS,Croma Princess Threads 29g Basic 40mm,MedFX
 WGT:ALLI-60MG-ORAL,Alli,Church Pharmacy
 WGT:MOUNJARO-10MG-PEN,Mounjaro Kwikpen 10mg/0.6ml 2.4ml x 1,John Bannon Pharmacy
 WGT:MOUNJARO-12.5MG-PEN,Mounjaro Kwikpen 12.5mg/0.6ml 2.4ml x 1,John Bannon Pharmacy
