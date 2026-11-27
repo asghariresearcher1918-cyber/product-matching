@@ -54,19 +54,24 @@ def labelled_fields(text):
 
 
 def image_text(pid):
-    """OCR of EVERY cached product image (all angles), concatenated. Each image's OCR is cached next to it as
-    .ocr.txt so re-reads are free. Owner rule: read the text on the product images in every angle provided."""
-    imgs = sorted(i for i in glob.glob(str(ROOT / f"cache/*/{pid}.img.*")) if not i.endswith(".ocr.txt"))
+    """Text OCR'd from EVERY product image (all angles), concatenated. fetch_images.py caches each image's OCR as
+    a '<pid>.img.N.<ext>.ocr.txt' sidecar and may delete the heavy image to save disk, so read those sidecars
+    directly; if an image is still present without a sidecar, OCR it once as a fallback. Owner rule: read the text
+    on the product images in every angle provided."""
     out = []
-    for img in imgs:
-        cache = Path(img + ".ocr.txt")
-        if cache.exists():
-            out.append(cache.read_text()); continue
+    for txt in sorted(glob.glob(str(ROOT / f"cache/*/{pid}.img.*.ocr.txt"))):
+        try:
+            out.append(Path(txt).read_text())
+        except Exception:
+            pass
+    if out:
+        return "  ".join(x for x in out if x)
+    for img in sorted(i for i in glob.glob(str(ROOT / f"cache/*/{pid}.img.*")) if not i.endswith(".ocr.txt")):
         try:
             t = subprocess.run(["tesseract", img, "-", "--psm", "11"], capture_output=True, text=True, timeout=60).stdout
         except Exception:
             t = ""
         t = " ".join(t.split())
-        cache.write_text(t)
+        Path(img + ".ocr.txt").write_text(t)
         out.append(t)
     return "  ".join(x for x in out if x)
