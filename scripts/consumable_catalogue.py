@@ -45,10 +45,13 @@ SUBTYPES = [
 GLOVE_MAT = [("nitrile", r"nitrile"), ("latex", r"latex"), ("vinyl", r"vinyl"), ("polyisoprene", r"polyisoprene|biogel")]
 SIZES = [("XS", r"\bx-?small\b|\bxs\b"), ("S", r"\bsmall\b|\bs/m\b"), ("M", r"\bmedium\b|\bmed\b"),
          ("L", r"\blarge\b"), ("XL", r"\bx-?large\b|\bxl\b")]
-NOISE = {"the", "with", "for", "and", "buy", "uk", "new", "disposable", "sterile", "non", "sterile)", "box", "pack",
-         "of", "ml", "x", "each", "per", "ce", "pcs", "pieces", "clinic", "medical", "professional", "stock", "item",
-         "vat", "payable", "zero", "prescription", "appropriate", "training", "required", "free", "single", "use",
-         "ply", "colour", "color", "size", "pack)", "ltd", "quality", "value"}
+# Only genuine SHOP noise is stripped from the grouping core. Identity-bearing tokens are KEPT (owner rule): the
+# packaging / size / count that make two products different — pack, box, pcs, pieces, ml, x, single, ply — and the
+# attributes sterile / non-sterile / disposable. So a single vial and a pack of vials, or a 2-ply and 3-ply, group
+# apart; same packaging groups together.
+NOISE = {"the", "with", "for", "and", "buy", "uk", "new", "of", "each", "per", "ce", "clinic", "medical",
+         "professional", "stock", "item", "vat", "payable", "zero", "prescription", "appropriate", "training",
+         "required", "free", "use", "colour", "color", "size", "ltd", "quality", "value"}
 
 
 def subtype(t):
@@ -190,10 +193,13 @@ def brand_of(t):
 
 
 def namecore(title, brand, extra_skip=()):
+    # The core is NOT a guess: it keeps the product's identity tokens — size, pack, count, ply, sterile/non-sterile,
+    # disposable — and drops only shop noise. Size/pack/count are therefore preserved, so different packaging groups
+    # apart. Parentheses are kept when they carry a word/unit (e.g. '(30 Capsules)', '(50ml)'); a parenthesis that is
+    # only a shop SKU/code (e.g. '(0221)') is dropped.
     t = re.sub(r"[®™©]", " ", title)
-    t = re.sub(r"\(.*?\)", " ", t)
-    t = re.sub(r"\d+(?:\.\d+)?\s*(ml|l|litre|g|cm|mm|x|ply|pack|box)\b", " ", t, flags=re.I)
-    t = re.sub(r"[^A-Za-z0-9 ]", " ", t)
+    t = re.sub(r"\(\s*\d{2,}\s*\)", " ", t)                 # drop bare-code parentheses like '(0221)', keep '(30 caps)'
+    t = re.sub(r"[^A-Za-z0-9 ]", " ", t)                    # split on punctuation, keep words + numbers (size/pack/count)
     skip = NOISE | set(extra_skip)
     bw = set(re.sub(r"[^a-z0-9 ]", " ", brand.lower()).split())
     keep = []
@@ -202,7 +208,7 @@ def namecore(title, brand, extra_skip=()):
         if wl in bw or wl in skip or len(w) <= 1: continue
         if wl in [k.lower() for k in keep]: continue
         keep.append(w)
-        if len(keep) >= 4: break
+        if len(keep) >= 8: break                            # was 4; keep more so identity tokens are not truncated away
     return " ".join(keep)
 
 
