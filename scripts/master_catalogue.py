@@ -139,7 +139,12 @@ def main():
     with open(FINAL / "master_catalogue.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=COLS); w.writeheader(); w.writerows(master)
 
-    # unified listing index
+    # unified listing index. Authoritative titles restored from the cached page (data/title_overrides.csv) replace
+    # the scraper-damaged ones here, so the display name canonical_names.py derives carries the right punctuation.
+    tov = {}
+    tp = ROOT / "data/title_overrides.csv"
+    if tp.exists():
+        tov = {r["id"]: r["title"] for r in csv.DictReader(open(tp, encoding="utf-8")) if r.get("title")}
     idx = []
     for fn, cat, tag in MAPS:
         p = FINAL / fn
@@ -147,7 +152,8 @@ def main():
         for r in csv.DictReader(open(p, encoding="utf-8")):
             if not r.get("code"): continue
             idx.append({"uid": f"{tag}:{r['code']}", "category": cat, "supplier": r.get("supplier", ""),
-                        "listing_title": r.get("title", ""), "url": r.get("url", ""), "confidence": r.get("confidence", "")})
+                        "listing_title": tov.get(r.get("id", ""), r.get("title", "")),
+                        "url": r.get("url", ""), "confidence": r.get("confidence", "")})
     with open(FINAL / "master_listing_index.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["uid", "category", "supplier", "listing_title", "url", "confidence"]); w.writeheader(); w.writerows(idx)
 
