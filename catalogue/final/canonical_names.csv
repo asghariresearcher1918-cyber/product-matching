@@ -5347,27 +5347,36 @@ CON:CONTAI-FLOWFUSOR-BOTTLE,Flowfusor Bottle,MedFX
 CON:HOTCOL-COLDBAG,ColdBag,MedFX
 CON:HOTCOL-INSTANT-ICE-100G,Instant Ice Pack 100g,MedFX
 CON:CONSUM-DISPOSABLE-PREP-RAZOR,Disposable Prep Razor,MedFX
-CON:BLADES-SCALPEL-BLADES-64,Scalpel Blades #64,MedFX
-CON:BLADES-SCALPEL-BLADES-69,Scalpel Blades #69,MedFX
-CON:BLADES-SCALPEL-BLADES-RED-CARBON-STEEL,"Scalpel Blades - Red, Sterile, Carbon Steel No. 15T Blue (0292)",MedFX
-CON:BLADES-SCALPEL-BLADES-RED-STAINLESS-STEEL,"Scalpel Blades - Red, Sterile, Stainless Steel, Fine No. SM65 (5905)",MedFX
+CON:BLADES-SCALPEL-BLADES-64-NO.-64,Scalpel Blades #64,MedFX
+CON:BLADES-SCALPEL-BLADES-69-NO.-69,Scalpel Blades #69,MedFX
+CON:BLADES-SCALPEL-BLADES-RED-CARBON-STEEL-NO.-10,"Scalpel Blades - Red, Sterile, Carbon Steel No. 10 (0201)",MedFX
+CON:BLADES-SCALPEL-BLADES-RED-CARBON-STEEL-NO.-15C,"Scalpel Blades - Red, Sterile, Carbon Steel No. 15C (0221)",MedFX
+CON:BLADES-SCALPEL-BLADES-RED-CARBON-STEEL-NO.-11,"Scalpel Blades - Red, Sterile, Carbon Steel No. 11 (0203)",MedFX
+CON:BLADES-SCALPEL-BLADES-RED-CARBON-STEEL-NO.-12,"Scalpel Blades - Red, Sterile, Carbon Steel No. 12 (0204)",MedFX
+CON:BLADES-SCALPEL-BLADES-RED-CARBON-STEEL-NO.-15,"Scalpel Blades - Red, Sterile, Carbon Steel No. 15 (0205)",MedFX
+CON:BLADES-SCALPEL-BLADES-RED-CARBON-STEEL-NO.-15T,"Scalpel Blades - Red, Sterile, Carbon Steel No. 15T Blue (0292)",MedFX
+CON:BLADES-SCALPEL-BLADES-RED-STAINLESS-STEEL-NO.-SM64,"Scalpel Blades - Red, Sterile Stainless Steel, Fine No. SM64 (5904)",MedFX
+CON:BLADES-SCALPEL-BLADES-RED-STAINLESS-STEEL-NO.-SM65,"Scalpel Blades - Red, Sterile, Stainless Steel, Fine No. SM65 (5905)",MedFX
+CON:BLADES-SCALPEL-BLADES-RED-STAINLESS-STEEL-NO.-SM67,"Scalpel Blades - Red,Sterile, Stainless Steel, Fine No. SM67 (5907)",MedFX
+CON:BLADES-SCALPEL-BLADES-RED-STAINLESS-STEEL-NO.-SM68,"Scalpel Blades - Red, Sterile, Stainless Steel, Fine No. SM68 (5908)",MedFX
+CON:BLADES-SCALPEL-BLADES-RED-STAINLESS-STEEL-NO.-SM69,"Scalpel Blades - Red, Sterile, Stainless Steel, Fine No. SM69",MedFX
 CON:BLADES-NON-STERILE-SURGICAL-BLADE-REMOVER,Non-Sterile Surgical Blade Remover (5505),MedFX
-CON:BLADES-SCALPEL-HANDLE-NO,Scalpel Handle No.3,MedFX
-CON:BLADES-STRAIGHT-ROUND-SCALPEL-HANDLE-NO,Straight Round Scalpel Handle No.5,MedFX
+CON:BLADES-SCALPEL-HANDLE-NO-NO.-3,Scalpel Handle No.3,MedFX
+CON:BLADES-STRAIGHT-ROUND-SCALPEL-HANDLE-NO-NO.-5,Straight Round Scalpel Handle No.5,MedFX
 CON:BLADES-SCALPEL-HANDLE-ANGLED-ROUND,Scalpel Handle 5 Angled Round,MedFX
 CON:BLADES-SCALPEL-HANDLE-MICRO-SURGICAL,Scalpel Handle Micro-Surgical,MedFX
-CON:BLADES-SCALPEL-HANDLE-NO-SF1-FINE,Scalpel Handle No. SF1 - for fine blades,MedFX
+CON:BLADES-SCALPEL-HANDLE-NO-SF1-FINE-NO.-SF1,Scalpel Handle No. SF1 - for fine blades,MedFX
 CON:BLADES-CYGNETIC-HANDLE,Cygnetic Handle,MedFX
 CON:BLADES-SCALPEL-HANDLE-STAINLESS-STEEL-B3,"Scalpel Handle, Stainless Steel B3 (0923)",MedFX
-CON:BLADES-DISPOSABLE-SCALPELS-NO-10-P10,Disposable Scalpels No. 10 (0501),MedFX
-CON:BLADES-DISPOSABLE-SCALPELS-NO-11,Disposable Scalpels No. 11 (0503),MedFX
-CON:BLADES-DISPOSABLE-SCALPELS-NO-14,Disposable Scalpels No. 14 (0519),MedFX
-CON:BLADES-DISPOSABLE-SCALPELS-NO-10R-GUARDS,Disposable Scalpels No.10R with Guards (6690),MedFX
+CON:BLADES-DISPOSABLE-SCALPELS-NO-10-NO.-10-P10,Disposable Scalpels No. 10 (0501),MedFX
+CON:BLADES-DISPOSABLE-SCALPELS-NO-11-NO.-11,Disposable Scalpels No. 11 (0503),MedFX
+CON:BLADES-DISPOSABLE-SCALPELS-NO-14-NO.-14,Disposable Scalpels No. 14 (0519),MedFX
+CON:BLADES-DISPOSABLE-SCALPELS-NO-10R-GUARDS-NO.-10R,Disposable Scalpels No.10R with Guards (6690),MedFX
 CON:BLADES-CYGNETIC-BLADE-15,Cygnetic Blade 15,MedFX
 CON:BLADES-STERILE-STITCH-CUTTER-BLADES,Sterile Stitch Cutter Blades,MedFX
-CON:BLADES-SCALPEL-HANDLE-STAINLESS-STEEL-NO,"Scalpel Handle, Stainless Steel No. 3",MedFX
+CON:BLADES-SCALPEL-HANDLE-STAINLESS-STEEL-NO-NO.-3,"Scalpel Handle, Stainless Steel No. 3",MedFX
 CON:BLADES-SURGICAL-BLADE-REMOVERS,Surgical Blade Removers Sterile,MedFX
-CON:BLADES-DISPOSABLE-SCALPELS-NO-15-P10,Disposable Scalpels No. 15 (0505),MedFX
+CON:BLADES-DISPOSABLE-SCALPELS-NO-15-NO.-15-P10,Disposable Scalpels No. 15 (0505),MedFX
 CON:DRESSI-VICRYL-RAPIDE-SUTURE-BRAIDED-UNDYED-75CM,"Vicryl Rapide Suture - Braided, Undyed, Absorbable W9923. Length: 75cm, Gauge: 3/0",MedFX
 CON:DRESSI-VICRYL-SUTURE-COATED-ABSORBABLE-BRAID-45CM,"Vicryl Suture, Coated - Absorbable, Braided, Undyed W9437. Length: 45cm, Gauge: 4/0",MedFX
 CON:DRESSI-VICRYL-SUTURE-COATED-ABSORBABLE-BRAID-75CM,"Vicryl Suture, Coated - Absorbable, Braided, Undyed W9730. Length: 75cm, Gauge: 3/0",MedFX
@@ -5638,8 +5647,8 @@ CON:DRESSI-STERI-STRIP-3MM-P5,Steri-Strip 3mm x 75mm,Church Pharmacy
 CON:CONSUM-STIEFEL-RING-CURETTE-7MM-P10,Stiefel 7mm Ring Curette,Church Pharmacy
 CON:ANTISE-SUDOCREM-ANTISEPTIC-CREAM-400G,Sudocrem Antiseptic Cream,Church Pharmacy
 CON:BLADES-SWANN-MORTON-BLADE-CS-24-AVAILABLE-P100,Swann-Morton Blade CS Sterile 24,Church Pharmacy
-CON:BLADES-SWANN-MORTON-SCALPEL-NO-10-P10,Swann-Morton Disposable Scalpel No 10,Church Pharmacy
-CON:BLADES-SWANN-MORTON-SCALPEL-NO-15-P10,Swann-Morton Disposable Scalpel No 15,Church Pharmacy
+CON:BLADES-SWANN-MORTON-SCALPEL-NO-10-NO.-10-P10,Swann-Morton Disposable Scalpel No 10,Church Pharmacy
+CON:BLADES-SWANN-MORTON-SCALPEL-NO-15-NO.-15-P10,Swann-Morton Disposable Scalpel No 15,Church Pharmacy
 CON:DRESSI-TEGADERM-ABSORBANT-DRESSING-7.6CM-P10,Tegaderm Absorbant Dressing 7.6cm x 9.5cm,Church Pharmacy
 CON:DRESSI-TEGADERM-ALGINATE-DRESSING-5CM-P10,Tegaderm Alginate Dressing 5cm x 5cm,Church Pharmacy
 CON:DRESSI-TEGADERM-DRESSINGS-PAD-5CM-P50,Tegaderm Dressings + Pad 5cm x 7 cm,Church Pharmacy
@@ -5765,8 +5774,8 @@ CON:ANTISE-PRE-INJECTION-SWABS-70-ALCOHOL-X100-P100,Pre-injection Swabs 70% Alco
 CON:APPLIC-PREMIER-ADULT-TONGUE-DEPRESSOR-X100-P100,Premier Adult Tongue Depressor x100,John Bannon Pharmacy
 CON:ANTISE-SANITEZ-HAND-SANITIZER-60ML,Sanitez Hand sanitizer x 60ml,John Bannon Pharmacy
 CON:CLEANI-SIMPLY-PROTECT-HAND-GEL-100ML,Simply Protect Hand Gel 100ml,John Bannon Pharmacy
-CON:BLADES-STERILE-DISP-SCALPEL-NO-14-P10,Sterile Disp Scalpel No. 14 Blade with Polystyrene Handle x10,John Bannon Pharmacy
-CON:BLADES-STERILE-DISP-SCALPEL-NO-15-P10,Sterile Disp Scalpel No. 15 Blade with Polystyrene Handle x10,John Bannon Pharmacy
+CON:BLADES-STERILE-DISP-SCALPEL-NO-14-NO.-14-P10,Sterile Disp Scalpel No. 14 Blade with Polystyrene Handle x10,John Bannon Pharmacy
+CON:BLADES-STERILE-DISP-SCALPEL-NO-15-NO.-15-P10,Sterile Disp Scalpel No. 15 Blade with Polystyrene Handle x10,John Bannon Pharmacy
 CON:CLEANI-STEROWASH-EYE-WASH-SOLUTION-500ML,Sterowash Eye Wash Solution 500ml,John Bannon Pharmacy
 CON:CLEANI-SURGICAL-SPIRIT-200ML,Surgical Spirit 200ml,John Bannon Pharmacy
 CON:DRESSI-SUTURE-REMOVAL,Suture Removal Pack,John Bannon Pharmacy
@@ -5860,9 +5869,9 @@ CON:CONSUM-SILVER-GLOSS-PIPETTE,Silver gloss pipette,MyPharmacyspace
 CON:CONSUM-SKIN-MARKER-PENCIL,Skin marker pencil,MyPharmacyspace
 CON:CLEANI-SPIRIGEL-COMPLETE-HAND-GEL-500ML,Spirigel complete hand gel 500ml,MyPharmacyspace
 CON:GAUZES-STERETS-PRE-INJECTION-SWABS,Sterets pre injection swabs,MyPharmacyspace
-CON:BLADES-SWANN-MORETON-SCALPEL-NO-11,Swann-moreton scalpel no.11,MyPharmacyspace
-CON:BLADES-SWANN-MORTON-SCALPEL-NO-10,Swann-morton scalpel no.10,MyPharmacyspace
-CON:BLADES-SWANN-MORTON-SCALPEL-NO-14,Swann-morton scalpel no.14,MyPharmacyspace
+CON:BLADES-SWANN-MORETON-SCALPEL-NO-11-NO.-11,Swann-moreton scalpel no.11,MyPharmacyspace
+CON:BLADES-SWANN-MORTON-SCALPEL-NO-10-NO.-10,Swann-morton scalpel no.10,MyPharmacyspace
+CON:BLADES-SWANN-MORTON-SCALPEL-NO-14-NO.-14,Swann-morton scalpel no.14,MyPharmacyspace
 CON:CONSUM-CARD-TRAYS,Card trays,MyPharmacyspace
 CON:CONSUM-WITCH-HAZEL-200ML,Witch hazel 200ml,MyPharmacyspace
 CON:DRESSI-WOUNDCARE-OPT,Woundcare pack opt I,MyPharmacyspace
@@ -5977,7 +5986,7 @@ CON:HOTCOL-LIP-ICE-PACKS,Lip Ice Packs,Ask Pharmacy
 CON:DIAGNO-FOREHEAD-CONTACT-THERMOMETER,Forehead Non Contact Thermometer,Ask Pharmacy
 CON:CONSUM-LIP-INJECTOR-PAIN-TOOL,Lip Injector Pain Tool,Ask Pharmacy
 CON:CONSUM-AZZALURE-BOTTLE-OPENER,Azzalure Bottle Opener,Ask Pharmacy
-CON:BLADES-STERILE-SCALPEL-NO-14-BLADE-P10,Sterile Disposable Scalpel No 14 Blade With Polystyrene Handle X 10,Ask Pharmacy
+CON:BLADES-STERILE-SCALPEL-NO-14-BLADE-NO.-14-P10,Sterile Disposable Scalpel No 14 Blade With Polystyrene Handle X 10,Ask Pharmacy
 CON:CONSUM-STAINLESS-STEEL-GRADUATED-SURGICAL-HANDL,Stainless Steel Graduated Surgical Handle No 3,Ask Pharmacy
 CON:GLOVE-CLEAR-POWDER-EXAMINA,Gloves Clear Powder Free Examination Gloves,Ask Pharmacy
 CON:DRESSI-DRESSIT-DRESSING-SMALL-MEDIUM-CLONE-P10,Dressit Sterile Dressing Pack Small Medium Clone,Ask Pharmacy
@@ -5988,7 +5997,7 @@ CON:IVBLOO-GIVING-SET,Giving Set,Ask Pharmacy
 CON:TOURNI-TOURNIQUET,Tourniquet,Ask Pharmacy
 CON:DRESSI-TEGADERM-FILM-DRESSING-6CMX-7CM,Tegaderm Film Dressing 6cmx7cm,Ask Pharmacy
 CON:IVBLOO-SAFETY-BLOOD-COLLECTION-SET-HOLDER-23G-P3,Safety Blood Collection Set Holder 23g X 3,Ask Pharmacy
-CON:BLADES-INSTRAPAC-SCALPEL-NO-10-STAINLESS-P10,Instrapac Disposable Scalpel No 10 Stainless Steel Blade Pack Of 10,Ask Pharmacy
+CON:BLADES-INSTRAPAC-SCALPEL-NO-10-STAINLESS-NO.-10-P10,Instrapac Disposable Scalpel No 10 Stainless Steel Blade Pack Of 10,Ask Pharmacy
 CON:APPLIC-MEDIK8-RE-USABLE,Medik8 re-usable,Healthxchange
 CON:CONSUM-MEDIK8-REUSEABLE-BAMBOO-COTTON-16-P16,Medik8 Reuseable Bamboo Cotton x 16,Healthxchange
 CON:CONSUM-POTENZA-NEP,Potenza NEP (5),Healthxchange

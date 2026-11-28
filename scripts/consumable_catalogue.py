@@ -225,6 +225,13 @@ def _title_overrides():
     return {r["id"]: r["title"] for r in csv.DictReader(open(p, encoding="utf-8"))} if p.exists() else {}
 
 
+def blade_spec(title):
+    # a scalpel BLADE/handle's identity is its number ('No. 10', 'No. 15C', 'No. SM64', '#64'); without it every
+    # blade size collapses into one product. Return a compact 'No. X' token that goes into the code and display size.
+    m = re.search(r"(?:no\.?\s*|#)\s*([A-Za-z]{0,2}\d{1,3}[A-Za-z]?)\b", title, re.I)
+    return ("No. " + m.group(1).upper()) if m else ""
+
+
 def garment_size(title):
     # a compression garment's SIZE is its fit, not a volume: letter size + waist range (inches) or UK dress size.
     # This becomes part of the code so XS/S/M/L/XL are distinct products (otherwise they merge into one).
@@ -260,6 +267,8 @@ def main():
         brand = brand_of(title)                                             # DISPLAY brand: a real brand, else ''
         if sub == "Compression garment":
             size = garment_size(title)                # fit, not volume -> keeps XS/S/M/L distinct
+        elif sub == "Blade / scalpel":
+            size = blade_spec(title)                  # blade number -> keeps No.10/11/15/15C/SM64… distinct
         else:
             size = size_of(tl) or size_of(page_text(r["id"])[:400])
         pack = pack_of(title, r["id"])            # units per pack (name first, then page) - owner rule
