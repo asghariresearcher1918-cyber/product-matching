@@ -27,7 +27,8 @@ def image_urls_fast(html):
         u = _norm(u)
         if not IMG_RE.search(re.sub(r"\?.*$", "", u)):
             return
-        if re.search(r"/(logo|icon|sprite|payment|badge|flag|avatar|banner)", u, re.I):
+        if re.search(r"/(logo|icon|sprite|payment|badge|flag|avatar|banner)|/_next/static|"
+                     r"(visa|mastercard|maestro|amex|paypal|apple[-_]?pay|google[-_]?pay)", u, re.I):
             return
         # filename-based placeholders: a shop logo / coming-soon / no-image used in place of a product photo
         if re.search(r"(logo|placeholder|coming[-_]?soon|no[-_]?image|default[-_]?image|image[-_]?coming)", u.rsplit("/",1)[-1], re.I):

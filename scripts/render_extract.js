@@ -47,7 +47,7 @@ function csvEsc(s){ s = (s==null?'':String(s)); return /[",\n]/.test(s) ? '"'+s.
           // price: first £ amount greater than zero
           let price=''; for(const m of (document.body.innerText||'').matchAll(/£\s?(\d{1,4}(?:\.\d{2})?)/g)){ if(parseFloat(m[1])>0){ price=m[1]; break; } }
           // image: og:image > largest product-context img (exclude logos/banners/awards)
-          const bad=/logo|sprite|icon|placeholder|payment|award|banner|badge|flag|rating|star|trustpilot/i;
+          const bad=/logo|sprite|icon|placeholder|payment|award|banner|badge|flag|rating|star|trustpilot|visa|mastercard|maestro|amex|paypal|apple-?pay|google-?pay|\/_next\/static/i;
           let image = pick(['meta[property="og:image"]']);
           if(image && bad.test(image)) image='';
           if(!image){ let best=null,area=0; const scope=document.querySelector('main, .product, [class*="product"]')||document; for(const im of (scope.querySelectorAll?scope.querySelectorAll('img'):document.querySelectorAll('img'))){ const s=im.currentSrc||im.src||''; if(!/^https?:/.test(s)||bad.test(s)) continue; const a=(im.naturalWidth||im.width||0)*(im.naturalHeight||im.height||0); if(a>area){area=a;best=s;} } if(best)image=best; }
