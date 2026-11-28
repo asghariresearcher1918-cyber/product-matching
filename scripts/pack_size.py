@@ -22,13 +22,29 @@ def size_of(*texts):
 def qty_from_name(name):
     """Explicit units-per-pack stated in the NAME. 'pack of N'/'box of N' count from 1 (explicit single); other
     forms count from 2 so a lone '1' is not mistaken for a pack size. Empty when the name states no count."""
+    # a count stated inside parentheses is the authoritative pack, and beats a model number in the name
+    # (e.g. 'Heliocare 360° Capsules (30 Capsules)' -> 30, not 360).
+    mp = re.search(r"\(\s*(?:pack of\s*)?(\d{1,4})\s*(?:caps?|capsules?|tabs?|tablets?|pcs|pieces?|sachets?|"
+                   r"amps?|ampoules?|vials?|wipes?|swabs?|sheets?|pairs?|pack)\b[^)]*\)", name or "", re.I)
+    if mp and 1 <= int(mp.group(1)) <= 10000:
+        return str(int(mp.group(1)))
+    # explicit pack markers (pack/box of N, 'x N', 'N pack') are checked BEFORE a bare 'N caps/tabs/…', because that
+    # bare number is often a strength, not a count ('Amoxicillin 500 Caps X 21' = 21 of 500mg, not 500).
     for rx, mn in ((r"pack of\s*(\d+)", 1), (r"box of\s*(\d+)", 1),
-                   (r"(\d+)\s*(?:pieces?|pcs|ct\b|count|pairs?|sheets?|wipes?|swabs?|rolls?|tabs?|tablets?|caps?|sachets?)\b", 2),
-                   (r"\b(\d+)\s*['’]s\b", 2), (r"(\d+)\s*pack\b", 2), (r"x\s*(\d+)\b", 2)):
+                   (r"x\s*(\d+)\b", 2), (r"(\d+)\s*pack\b", 2), (r"\b(\d+)\s*['’]s\b", 2),
+                   (r"(\d+)\s*(?:pieces?|pcs|ct\b|count|pairs?|sheets?|wipes?|swabs?|rolls?|tabs?|tablets?|caps?|capsules?|sachets?|amps?|ampoules?|ampules?|vials?)\b", 2)):
         m = re.search(rx, name or "", re.I)
         if m and mn <= int(m.group(1)) <= 10000:
             return str(int(m.group(1)))
     if single_pack(name):      # an EXPLICIT single ('single mask', '(single ...)', 'pack of 1') = a pack of 1
+        return "1"
+    # a lone 'x1' / 'x 1' that is NOT part of an 'A x B' and NOT a size ('x 1ml') = one unit (owner: explicit single)
+    if re.search(r"(?<!\d)x\s*1\b(?!\s*(?:ml|mg|g|kg|mcg|cm|mm|m|l|litre|iu|units?|oz|%|\.))", name or "", re.I) \
+            and not re.search(r"\d\s*x\s*1\b", name or ""):
+        return "1"
+    # '1 amp' / '1 vial' / '1 piece' / '1 x 1 (pack)' = one unit (explicit single)
+    if re.search(r"\b1\s*(?:amp|ampoule|ampule|vial|piece|unit|applicator|pen)s?\b", name or "", re.I) \
+            or re.search(r"\b1\s*x\s*1\b(?!\s*\d|\s*\.|\s*(?:ml|mg|g|cm|mm|m|l|iu))", name or "", re.I):
         return "1"
     return ""
 
