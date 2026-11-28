@@ -5412,10 +5412,10 @@ CON:GLOVE-VINYL-M-BLUE-PD,Blue Vinyl Powdered Medium Gloves,Church Pharmacy
 CON:CONDUC-CAM-CARE-CLEAR-CONDUCTION-ECG-150G,Cam Care Clear Conduction Ecg Gel,Church Pharmacy
 CON:CONDUC-CAMCARE-ULTRASOUND-GEL-250ML,Camcare Ultrasound Gel,Church Pharmacy
 CON:CLEANI-CARE-SURGICAL-SPIRIT-BP-200ML,Care Surgical Spirit Bp,Church Pharmacy
-CON:DIAGNO-CARESENS-PRO-TEST-STRIPS-1604M-P50,Caresens Pro Test Strips,Church Pharmacy
+CON:DIAGNO-CARESENS-PRO-TEST-STRIPS-P50,Caresens Pro Test Strips,Church Pharmacy
 CON:CLEANI-CAREX-ALOE-VERA-ANTIBACTERIAL-HANDWA-250ML,Carex Aloe Vera Antibacterial Handwash,Church Pharmacy
 CON:CLEANI-CAREX-ANTIBACTERIAL-ORIGINAL-PH-BALA-250ML,Carex Antibacterial Original Ph Balanced Handwash,Church Pharmacy
-CON:PAPERT-CENTREFEED-BLUE-ROLL-150M-150M-P150,Centrefeed 2 Ply Blue Roll 1 X 150m,Church Pharmacy
+CON:PAPERT-CENTREFEED-BLUE-ROLL-150M-P150,Centrefeed 2 Ply Blue Roll 1 X 150m,Church Pharmacy
 CON:CONDUC-CLEAR-ULTRASOUND-GEL-REFILL-BOTTLE-5LITRE,Clear Ultrasound Gel With Refill Bottle,Church Pharmacy
 CON:CONSUM-CLEARBLUE-RAPID-DETECTION-PREGNANCY-TEST-P2,Clearblue Rapid Detection Pregnancy Test,Church Pharmacy
 CON:ANTISE-CLINELL-UNIVERSAL-SANITISING-WIPES-P200,Clinell Universal Sanitising Wipes,Church Pharmacy
@@ -5462,7 +5462,7 @@ CON:CONSUM-DUODERM-EXTRA-THIN-S162-15CM-P10,Duoderm Extra Thin 15cm X 15cm S162,
 CON:CONSUM-DUODERM-EXTRA-THIN-S160-75CM-P5,Duoderm Extra Thin 75cm X 75cm S160,Church Pharmacy
 CON:CONSUM-DUODERM-XTHIN-SPOTS-38CM-P10,Duoderm Xthin Spots 44 X 38cm,Church Pharmacy
 CON:DRESSI-EASIGRIP-ELASTICATED-TUBULAR-SUPPORT-BA-05M,Easigrip Elasticated Tubular Support Bandage Size D 05m,Church Pharmacy
-CON:COMPRE-ELSET-3A-COMPRESSION-BANDAGE-15CMX6M-6M,Elset 3a Compression Bandage 15cmx6m,Church Pharmacy
+CON:COMPRE-ELSET-3A-COMPRESSION-BANDAGE-15CMX6M,Elset 3A Compression Bandage 15CMX6M,Church Pharmacy
 CON:HEADFA-FACE-SHIELD-SPLASH-GUARD,Face Shield Splash Guard,Church Pharmacy
 CON:FACEMA-FLUIDPROTECT-ANTIFOG-SURGICAL-FACE-MASKS-P50,Fluidprotect Antifog Surgical Face Masks With Ties Orange Type Iir,Church Pharmacy
 CON:FACEMA-FLUIDPROTECT-SURGICAL-FACE-MASKS-VISOR-P25,Fluidprotect Surgical Face Masks With Visor Ties Orange Type Iir,Church Pharmacy
@@ -5515,13 +5515,22 @@ CON:DRESSI-LMX4-CREAM-DRESSINGS-5G,Lmx4 4 Cream 1 X 5g With 2 Dressings,Church P
 CON:DRESSI-LMX4-CREAM-24-DRESSINGS-5G-P12,Lmx4 4 Cream 12 X 5g With 24 Dressings,Church Pharmacy
 CON:CONSUM-LONG-HANDLED-SPONGELONG,Long Handled Spongelong,Church Pharmacy
 CON:PAPERT-LUXURY-WHITE-FACIAL-TISSUES-P100,Luxury White 2 Ply Facial Tissues,Church Pharmacy
-CON:COMPRE-MACOM-CRYSTALSMOOTH-LONG-SLEEPWEAR-S,Macom Crystalsmooth Long Sleepwear Set Black Only L UK Size 14,Church Pharmacy
-CON:COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-LONG-L,Macom Crystalsmooth The Signature Long Length Black Only L UK Size 14,Church Pharmacy
-CON:COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-REGULA,Macom Crystalsmooth The Signature Regular Length Black XS UK Size 8 Calf Length Leggings Designed With Smart Fibre Technology To Be Anticellulite And Microcirculation,Church Pharmacy
-CON:COMPRE-MACOM-WAISTSCULPTOR-BLACK-SLIMMING-C-4012M,Macom Waistsculptor Black Slimming Corset M Waist 3135,Church Pharmacy
-CON:COMPRE-MACOM-WAISTSCULPTOR-BLACK-SLIMMING-C,Macom Waistsculptor Black Slimming Corset XS Waist 2327,Church Pharmacy
-CON:COMPRE-MACOM-WAISTSCULPTOR-CLAY-SLIMMING-CO,Macom Waistsculptor Clay Slimming Corset XS Waist 2327,Church Pharmacy
-CON:COMPRE-MACOM-WAISTSCULPTOR-CLAY-SLIMMING-CO-4012CM,Macom Waistsculptor Clay Slimming Corset M Waist 3135,Church Pharmacy
+CON:COMPRE-MACOM-CRYSTALSMOOTH-LONG-SLEEPWEAR-S-L-UK-SIZE-14,Macom CRYSTALSMOOTH Long Sleepwear Set L (UK Size 14),Church Pharmacy
+CON:COMPRE-MACOM-CRYSTALSMOOTH-LONG-SLEEPWEAR-S-M-UK-SIZE-12,Macom CRYSTALSMOOTH Long Sleepwear Set M (UK Size 12),Church Pharmacy
+CON:COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-LONG-L-L-UK-SIZE-14,Macom CRYSTALSMOOTH The Signature - Long Length L (UK Size 14),Church Pharmacy
+CON:COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-LONG-L-M-UK-SIZE-12,Macom CRYSTALSMOOTH The Signature - Long Length M (UK Size 12),Church Pharmacy
+CON:COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-LONG-L-S-UK-SIZE-10,Macom CRYSTALSMOOTH The Signature - Long Length S (UK Size 10),Church Pharmacy
+CON:COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-LONG-L-XS-UK-SIZE-8,Macom CRYSTALSMOOTH The Signature - Long Length XS (UK Size 8),Church Pharmacy
+CON:COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-REGULA-M-UK-SIZE-12,Macom CRYSTALSMOOTH The Signature - Regular Length M (UK Size 12),Church Pharmacy
+CON:COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-REGULA-S-UK-SIZE-10,Macom CRYSTALSMOOTH The Signature - Regular Length S (UK Size 10),Church Pharmacy
+CON:COMPRE-MACOM-CRYSTALSMOOTH-SIGNATURE-REGULA-XS-UK-SIZE-8,Macom CRYSTALSMOOTH The Signature - Regular Length XS (UK Size 8),Church Pharmacy
+CON:COMPRE-MACOM-WAISTSCULPTOR-BLACK-SLIMMING-C-M-WAIST-31-35-IN,Macom WAISTSCULPTOR Black Slimming Corset M (Waist: 31-35),Church Pharmacy
+CON:COMPRE-MACOM-WAISTSCULPTOR-BLACK-SLIMMING-C-XS-WAIST-23-27-IN,Macom WAISTSCULPTOR Black Slimming Corset XS (Waist: 23-27),Church Pharmacy
+CON:COMPRE-MACOM-WAISTSCULPTOR-BLACK-SLIMMING-C-XS-WAIST-24-27-IN,Macom WAISTSCULPTOR Black Slimming Corset XS (Waist: 24-27),Church Pharmacy
+CON:COMPRE-MACOM-WAISTSCULPTOR-CLAY-SLIMMING-CO-L-WAIST-35-39-IN,Macom WAISTSCULPTOR Clay Slimming Corset L (Waist: 35-39),Church Pharmacy
+CON:COMPRE-MACOM-WAISTSCULPTOR-CLAY-SLIMMING-CO-M-WAIST-31-35-IN,Macom WAISTSCULPTOR Clay Slimming Corset M (Waist: 31-35),Church Pharmacy
+CON:COMPRE-MACOM-WAISTSCULPTOR-CLAY-SLIMMING-CO-S-WAIST-27-31-IN,Macom WAISTSCULPTOR Clay Slimming Corset S (Waist: 27-31),Church Pharmacy
+CON:COMPRE-MACOM-WAISTSCULPTOR-CLAY-SLIMMING-CO-XS-WAIST-23-27-IN,Macom WAISTSCULPTOR Clay Slimming Corset XS (Waist: 23-27),Church Pharmacy
 CON:CONSUM-MAGICOOL-BODY-FACE-COOLER-75ML,Magicool Body Face Cooler,Church Pharmacy
 CON:FACEMA-MEDICAL-GRADE-FFP3-N99-FILTERING-P20,Medical Grade Ffp3 N99 Filtering Face Mask With Valve Pack Of 20,Church Pharmacy
 CON:FACEMA-MEDICAL-GRADE-N99FFP3-FILTERING-FACE,Medical Grade N99ffp3 Filtering Face Mask With Valve Single Mask,Church Pharmacy
@@ -5993,7 +6002,7 @@ CON:HOTCOL-1NEED-PRO-MICRONEEDLING-DEVICE-PACKA,1NEED PRO Microneedling Device P
 CON:CONSUM-ACCU-CHEK-INSTANT-CONTROL-2.5ML-P2,Accu-Chek Instant Control,Church Pharmacy
 CON:ANTISE-ACRIFLEX-25-30G,"Acriflex , 0.25%, 1 x 30g",Church Pharmacy
 CON:CONSUM-ACTIVA-CLASS-THIGH-LENGTH-STOCKING,Activa Class 1 Thigh Length Stocking Closed Toe ),Church Pharmacy
-CON:ANTISE-ALCOHOL-PREP-PADS-0983M-P200,Alcohol Prep Pads,Church Pharmacy
+CON:ANTISE-ALCOHOL-PREP-PADS-P200,Alcohol Prep Pads,Church Pharmacy
 CON:CONDUC-ANAGEL-ULTRASOUND-GEL-250ML,Anagel Ultrasound Gel 250ml,Church Pharmacy
 CON:CONSUM-AQ-ENDO-TEST-TESTOSTERONE-HORMONE-50ML,"AQ Endo-Test, 1 x 50ml testosterone hormone rebalancing serum",Church Pharmacy
 CON:IVBLOO-BD-VACUTAINER-SAFETY-LOK-BLOOD-21G-P25,"BD Vacutainer Safety-Lok Blood Collection Wing Set 21G 178mm with Pre-attached Holder Green, 1 x 25",Church Pharmacy
@@ -6017,7 +6026,7 @@ CON:DRESSI-JELONET-MINOR-BURNS-DRESSING-5CM-P5,Jelonet Minor Burns Dressing 5cm 
 CON:APPLIC-JOHNSON-COTTON-BUDS-P200,Johnson & Johnson Cotton Buds,Church Pharmacy
 CON:CONSUM-KANJI-WOMENS-MATERNITY-PANTS-SIDE,Kanji Womens Maternity Pants With Side Pockets,Church Pharmacy
 CON:DRESSI-KENDALL-AMD-ANTIMICROBIAL-FOAM-DRESSIN-P25,Kendall AMD Antimicrobial Foam Dressing,Church Pharmacy
-CON:CONSUM-MIDSTREAM-PREGNANCY-TEST-TWIN-0689M-P2,Midstream Pregnancy Test - Twin Pack,Church Pharmacy
+CON:CONSUM-MIDSTREAM-PREGNANCY-TEST-TWIN-P2,Midstream Pregnancy Test - Twin Pack,Church Pharmacy
 CON:CONSUM-NON-MEDICAL-CAP-P10,Non-Medical Cap,Church Pharmacy
 CON:CLEANI-NUTRISON-WATER-OPTRI-BOTTLE-1000ML,Nutrison Sterile Water Optri Bottle,Church Pharmacy
 CON:CONSUM-PREPT-GO-100ML,Prept Go,Church Pharmacy

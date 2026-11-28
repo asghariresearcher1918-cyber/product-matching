@@ -65,7 +65,13 @@ def glove_spec(t):
 
 
 def size_of(t):
-    m = re.search(r"(\d+(?:\.\d+)?)\s*(ml|l|litre|g|cm|mm|m)\b", t, re.I) or re.search(r"(\d+)\s*x\s*(\d+)\s*cm", t, re.I)
+    # read a size from text, but reject metre values >=100: those are SKUs / style codes (e.g. "4012M", "0983M" from
+    # an image filename), never a real length. Genuine roll/tape/bandage lengths ("5m", "40m", "6m") stay valid.
+    for m in re.finditer(r"(\d+(?:\.\d+)?)\s*(ml|l|litre|g|cm|mm|m)\b", t, re.I):
+        if m.group(2).lower() == "m" and float(m.group(1)) >= 100:
+            continue
+        return re.sub(r"\s+", "", m.group(0).lower())
+    m = re.search(r"(\d+)\s*x\s*(\d+)\s*cm", t, re.I)
     return re.sub(r"\s+", "", m.group(0).lower()) if m else ""
 
 
@@ -202,20 +208,50 @@ def _dropped():
     return {r["id"] for r in csv.DictReader(open(p, encoding="utf-8"))} if p.exists() else set()
 
 
+def _title_overrides():
+    # authoritative titles restored from the cached product page (og:title), where the scraped title had lost
+    # punctuation (parentheses, colon, hyphen in a range). Keyed by listing id. See data/title_overrides.csv.
+    p = ROOT / "data/title_overrides.csv"
+    return {r["id"]: r["title"] for r in csv.DictReader(open(p, encoding="utf-8"))} if p.exists() else {}
+
+
+def garment_size(title):
+    # a compression garment's SIZE is its fit, not a volume: letter size + waist range (inches) or UK dress size.
+    # This becomes part of the code so XS/S/M/L/XL are distinct products (otherwise they merge into one).
+    t = title
+    m = re.search(r"\b(xxs|xs|xl|xxl|s|m|l)\b\s*(?:\(|waist|uk\b)", t, re.I)
+    letter = m.group(1).upper() if m else ""
+    rg = re.search(r"waist[:\s]*\(?\s*(\d{2})\s*-\s*(\d{2})", t, re.I) or re.search(r"waist[:\s]*(\d{2})(\d{2})\b", t, re.I)
+    uk = re.search(r"uk size[:\s]*(\d+)", t, re.I)
+    if rg:
+        spec = f"Waist {rg.group(1)}-{rg.group(2)} in"
+    elif uk:
+        spec = f"UK Size {uk.group(1)}"
+    else:
+        spec = ""
+    return (f"{letter} · {spec}" if letter and spec else (letter or spec))
+
+
 def main():
     drop = _dropped()
+    overrides = _title_overrides()
     rows = [r for r in csv.DictReader(open(ROOT / "output/all_products_categorised.csv", encoding="utf-8"))
             if r["category"] == "Clinic consumables & PPE" and r["scope"] == "Phase 1" and r["id"] not in drop]
     maps, prods = [], {}
     for r in rows:
         title = r["title"] if not r["title"].isdigit() else (r["page_title"] or r["title"])
+        if r["id"] in overrides:                      # restore the authoritative, punctuation-complete title
+            title = overrides[r["id"]]; r = dict(r, title=title)
         if not title.strip():
             maps.append(dict(r, code="", sub="", brand="", decision="no title", confidence="review")); continue
         tl = title.lower()
         sub = subtype(title)
         raw = (re.sub(r"[^A-Za-z0-9&+ -]", " ", title).split() or [""])[0]   # first word: stable code identity only
         brand = brand_of(title)                                             # DISPLAY brand: a real brand, else ''
-        size = size_of(tl) or size_of(page_text(r["id"])[:400])
+        if sub == "Compression garment":
+            size = garment_size(title)                # fit, not volume -> keeps XS/S/M/L distinct
+        else:
+            size = size_of(tl) or size_of(page_text(r["id"])[:400])
         pack = pack_of(title, r["id"])            # units per pack (name first, then page) - owner rule
         if sub == "Gloves":  # spec-based: material+size+colour, brand an attribute
             mat, sz, col, pf = glove_spec(tl)
