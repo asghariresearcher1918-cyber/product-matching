@@ -273,10 +273,13 @@ def main():
         brand = brand_of(title)                                             # DISPLAY brand: a real brand, else ''
         if sub == "Compression garment":
             size = garment_size(title)                # fit, not volume -> keeps XS/S/M/L distinct
+            code_spec = size
         elif sub == "Blade / scalpel":
-            size = blade_spec(title)                  # blade number -> keeps No.10/11/15/15C/SM64… distinct
+            size = ""                                 # the blade number lives in the NAME, not the size subtitle
+            code_spec = blade_spec(title)             # but it DOES distinguish the product in the code
         else:
             size = size_of(tl) or size_of(page_text(r["id"])[:400])
+            code_spec = size
         pack = pack_of(title, r["id"])            # units per pack (name first, then page) - owner rule
         if sub == "Gloves":  # spec-based: material+size+colour, brand an attribute
             mat, sz, col, pf = glove_spec(tl)
@@ -291,7 +294,7 @@ def main():
             # only a real multipack (>=2) splits the code; single/unstated units keep the base code (no 'P1' noise).
             # code uses the raw first word (stable identity) so fixing the DISPLAY brand never shifts uids.
             multipack = f"P{pack}" if (pack and int(pack) >= 2) else ""
-            code = slug(re.sub(r"[^A-Z]", "", sub.upper())[:6] or "CONS", raw[:14], core[:30], size, multipack)
+            code = slug(re.sub(r"[^A-Z]", "", sub.upper())[:6] or "CONS", raw[:14], core[:30], code_spec, multipack)
             desc = f"{sub}; {(brand + ' ') if brand else ''}{core}; {size or 'size?'}" + (f"; pack of {pack}" if pack else "")
             name = core
             key_brand = brand

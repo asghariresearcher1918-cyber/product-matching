@@ -28,6 +28,9 @@ _DESC_PATS = [
     r"(?:this |each |per )?(?:pack|box|case|kit|bag|carton|pouch|tub|dispenser)\s+(?:contains?|of)[:\-\s]*(\d{1,4})\s*x?\b",
     r"\bcontains?[:\-\s]*(\d{1,4})\s*x\b",
     r"\b(?:pack size|pack quantity|quantity|qty|units? per (?:pack|box)|no\.? per (?:pack|box))[:\-\s]*(\d{1,4})\b",
+    r"[\(\[]\s*(?:box|pack|case|tub)\s*(\d{1,4})\s*[\)\]]",                       # '( Box 10 )' / '[Pack 25]'
+    r"\b(?:box|pack|case|tub)\s+(\d{1,4})\b(?!\s*(?:cm|mm|ml|l|g|kg|mcg|m|oz|in|x))",  # 'Box 100', 'Pack 25'
+    r"\b(\d{1,4})\s*per\s*(?:box|pack|case)\b",                                   # '100 per box'
     r"\b(\d{1,4})\s*x\s*(?:" + _UNIT_NOUN + r")\b",
     r"\b(\d{1,4})\s*(?:" + _UNIT_NOUN + r")\s+per\s+(?:pack|box|case)\b",
     r"(?:pack of|box of|case of|roll of|set of)\s*(\d{1,4})\b",
