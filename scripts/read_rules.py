@@ -61,6 +61,53 @@ def _pack_from_field(key, val):
     return ""
 
 
+# the actual selling-unit words a page may use — shown verbatim, never normalised to a generic 'pack' (owner rule).
+_CONTAINERS = ("box", "pack", "case", "carton", "roll", "set", "bag", "pouch", "kit", "tub", "dispenser",
+               "sleeve", "tray", "canister", "bucket", "drum", "reel", "cassette")
+_CONT_RX = "|".join(c + "(?:es|s)?" for c in _CONTAINERS)
+_NOUN_RX = (r"pcs|pieces?|units?|wipes?|swabs?|sheets?|sachets?|tablets?|caps?|capsules?|gloves?|pairs?|strips?|"
+            r"ampoules?|amps?|vials?|dressings?|plasters?|applicators?|spatulas?|syringes?|needles?|cannulas?|blades?")
+_NESTED_RX = re.compile(r"\b(box|case|carton|drum)(?:es|s)?\b[^.\n]{0,18}?\b(\d{1,4})\s*(packs?|boxes?|strips?|cards?|sachets?|trays?)\b", re.I)
+
+
+def _sing(w):
+    w = w.lower()
+    return w[:-2] if w.endswith("es") and w[:-2] in _CONTAINERS else (w[:-1] if w.endswith("s") else w)
+
+
+def _unit_qty(text):
+    """First packaging statement in text -> (qty, unit word as written). Keeps the real word (box/pack/case/roll…)."""
+    if not text:
+        return "", ""
+    m = re.search(r"[\(\[]?\s*(" + _CONT_RX + r")\s*(?:of\s+)?(\d{1,4})\b", text, re.I)          # 'Box of 10' / '( Box 10 )'
+    if m and 1 <= int(m.group(2)) <= 100000:
+        return m.group(2), _sing(m.group(1))
+    m = re.search(r"\b(\d{1,4})\s*(?:per|/)\s*(" + _CONT_RX + r")\b", text, re.I)                  # '100 per box'
+    if m and 1 <= int(m.group(1)) <= 100000:
+        return m.group(1), _sing(m.group(2))
+    m = re.search(r"\b(\d{1,4})\s*(" + _NOUN_RX + r")\b", text, re.I)                              # '100 wipes', '30 tablets'
+    if m and 2 <= int(m.group(1)) <= 100000:
+        return m.group(1), m.group(2).lower()
+    return "", ""
+
+
+def read_packaging(title, pid):
+    """Owner rule: read the pack AND its real unit word from the product's own page. Returns (qty, unit, nested_note).
+    The unit is the word the shop used (box/pack/case/roll/… or a content noun); '' when only a bare count is given.
+    nested_note is set when the page states two levels (e.g. 'box of 20 packs') so it is never flattened silently."""
+    for src in ([title] if title else []) + ([page_text(pid)] if pid else []):
+        q, u = _unit_qty(src)
+        if q:
+            nested = ""
+            if pid:
+                mn = _NESTED_RX.search(page_text(pid))
+                if mn:
+                    nested = f"{mn.group(1).lower()} of {mn.group(2)} {mn.group(3).lower()}"
+            return q, u, nested
+    q = read_pack(title, pid)                    # falls through to labelled field / description / OCR (number only)
+    return q, "", ""
+
+
 def read_pack(title, pid):
     """Units per pack by the owner rule (name -> labelled field -> description -> image OCR). '' when not stated."""
     pk = qty_from_name(title)                              # 1. NAME (shared rule, same everywhere)

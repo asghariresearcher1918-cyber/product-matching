@@ -85,23 +85,45 @@ def resolve_pack(name, catalogue_pack):
     return cp, ""
 
 
-def display_name(name, qty):
-    """Append '(pack of N)' to a product name when it is a real multipack and the name does not already carry the
-    count, so two pack variants of the same item are distinguishable (owner rule: pack belongs in the name)."""
+def display_name(name, qty, unit=""):
+    """Append the pack to a product name when it is a real multipack and the name does not already carry the count,
+    so two pack variants of the same item are distinguishable — using the shop's real unit word ('(Box of 10)'),
+    never an invented 'pack' (owner rule)."""
     name = name or ""
     q = str(qty or "")
-    if q and q not in ("", "1") and q not in name and not re.search(r"\(.*pack.*\)", name, re.I):
-        return f"{name} (pack of {q})"
+    if q and q not in ("", "1") and q not in name \
+            and not re.search(r"\(\s*(?:box|pack|case|carton|roll|set|bag|tub|kit)\b", name, re.I):
+        pp = pack_phrase(q, unit)
+        tail = pp if (unit or "").lower() in _CONTAINER_WORDS else (f"x{q}" if not unit else pp)
+        return f"{name} ({tail})"
     return name
 
 
-def pack_label(size, qty):
-    """Short human label for a product subtitle: 'size · pack of N'. A single-unit pack adds no 'pack of 1' noise."""
+_CONTAINER_WORDS = {"box", "pack", "case", "carton", "roll", "set", "bag", "pouch", "kit", "tub", "dispenser",
+                    "sleeve", "tray", "canister", "bucket", "drum", "reel", "cassette"}
+
+
+def pack_phrase(qty, unit=""):
+    """The pack shown with the SHOP'S OWN unit word (owner rule: never invent a unit).
+      container word -> 'Box of 10' / 'Case of 36'; content noun -> '100 wipes'; bare count -> '10' (no invented word);
+      a lone '1' with no word -> 'single unit'."""
+    q = str(qty or "")
+    if not q:
+        return ""
+    u = (unit or "").lower()
+    if u in _CONTAINER_WORDS:
+        return f"{u.title()} of {q}"
+    if u:
+        return f"{q} {u}"
+    return "single unit" if q == "1" else q
+
+
+def pack_label(size, qty, unit=""):
+    """Short product subtitle: 'size · <pack phrase>', using the real packaging word."""
     bits = []
     if size:
         bits.append(size)
-    if qty and str(qty) not in ("", "1"):
-        bits.append(f"pack of {qty}")
-    elif str(qty) == "1" and not size:
-        bits.append("single unit")
+    pp = pack_phrase(qty, unit)
+    if pp and not (pp == "single unit" and size):
+        bits.append(pp)
     return " · ".join(bits)

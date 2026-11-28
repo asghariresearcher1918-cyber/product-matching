@@ -7,7 +7,7 @@ import collections, csv, json, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pack_size import size_of, resolve_pack, pack_label, display_name
-from read_rules import read_pack, read_size
+from read_rules import read_pack, read_size, read_packaging
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = Path(sys.argv[1])
@@ -120,14 +120,14 @@ def build_data():
             if size:
                 break
         size = size or size_of(r["key_spec"]) or (r["key_spec"] or "")
-        qty = ""
+        qty = ""; unit = ""
         for _lid in (_lids or [None]):
-            qty = read_pack(name, _lid)                 # owner rule: name -> labelled field -> description -> OCR
+            qty, unit, _nested = read_packaging(name, _lid)   # owner rule: pack + the shop's real unit word (box/pack/case…)
             if qty:
                 break
         if not qty:
             qty, _ = resolve_pack(name, r["pack"])      # fall back to the matched catalogue pack (branded pen/vial/syringe)
-        name = display_name(name, qty)                                 # distinguish pack variants of the same item
+        name = display_name(name, qty, unit)                           # distinguish pack variants of the same item
         nsup = int(r["suppliers"])
         offers = {sk: [] for sk in sorted(members.get(uid, []))}
         supplier_names = ", ".join(supnames[sk] for sk in sorted(members.get(uid, [])) if sk in supnames) or "—"
@@ -150,7 +150,7 @@ def build_data():
         if r["source"].startswith("http"):
             details.append(["Official reference", r["source"]])
         _sth = uid_supthumb.get(uid, {})
-        PRODUCTS[pkey(uid)] = {"name": name, "pack": pack_label(size, qty), "size": size, "qty": qty,
+        PRODUCTS[pkey(uid)] = {"name": name, "pack": pack_label(size, qty, unit), "size": size, "qty": qty,
                                "category": disp, "group": sub or t["primary_category"],
                                "pom": pom, "suppliers": nsup, "defaultQty": 1, "offers": offers,
                                "desc": desc, "details": details, "examples": examples.get(uid, []),

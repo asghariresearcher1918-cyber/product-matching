@@ -15,8 +15,8 @@ except Exception:
     def page_text(_i): return ""
     def labelled_fields(_t): return {}
 from build_site_v2 import TOP, POM_TOP, top_of
-from pack_size import display_name, resolve_pack
-from read_rules import read_pack
+from pack_size import display_name, resolve_pack, pack_phrase
+from read_rules import read_pack, read_packaging
 
 ROOT = Path(__file__).resolve().parent.parent
 FINAL = ROOT / "catalogue/final"
@@ -205,9 +205,9 @@ def main():
         crumb = f'{want} {label}' + (f' › {t["subcategory"]} ({t["subcategory_id"]})' if t["subcategory"] else "")
         # PACK by the ONE shared owner rule (read_rules), identical to the website: name -> labelled Size/Pack field
         # -> description -> image OCR, read from the product's own listing page(s); then the matched catalogue pack.
-        qty = ""
+        qty = ""; unit = ""
         for l in idx.get(uid, [])[:4]:
-            qty = read_pack(t["product"], l.get("id", ""))
+            qty, unit, _nested = read_packaging(t["product"], l.get("id", ""))  # pack + the shop's real unit word
             if qty:
                 break
         base = str(p.get("pack") or "")
@@ -224,7 +224,8 @@ def main():
                              f'{p.get("verified","")} {p.get("market","")} {p.get("man","")}', re.I):
             rx = "No — Pharmacy (P) medicine"       # OTC/P item inside a POM category (e.g. Alli 60mg orlistat)
         plink = next((l["url"] for l in idx.get(uid, []) if (l.get("url") or "").startswith("http")), "")
-        ps.append([display_name(t["product"], qty), crumb, brand, vol_of(p.get("key_spec", ""), t["product"]), qty,
+        ps.append([display_name(t["product"], qty, unit), crumb, brand, vol_of(p.get("key_spec", ""), t["product"]),
+                   pack_phrase(qty, unit) or qty,
                    rx, p.get("suppliers", ""), p.get("listings", ""), price, nameref, plink])
         for c in ps[ps.max_row]: c.font, c.alignment = SM, WRAP
         if nameref.startswith("http"):
@@ -251,8 +252,9 @@ def main():
             if pom:
                 price = ""                      # POM price is login-gated -> not public
             # per-listing pack: an explicit count in this listing's own title wins, else the product's pack
-            lqty = qty_of(l["title"]) or str(qty or "")
-            ls.append([display_name(t["product"], qty), l["supplier"], l["title"], lqty, sku, comm, "Yes (POM)" if pom else "No",
+            lq, lu, _ = read_packaging(l["title"], l.get("id", ""))   # this listing's own pack + real unit word
+            lqty = pack_phrase(lq, lu) if lq else (pack_phrase(qty, unit) or str(qty or ""))
+            ls.append([display_name(t["product"], qty, unit), l["supplier"], l["title"], lqty, sku, comm, "Yes (POM)" if pom else "No",
                        price, "open", l["confidence"], nameref, "view image" if l.get("image") else ""])
             for c in ls[ls.max_row]: c.font, c.alignment = SM, WRAP
             if l["url"].startswith("http"):
