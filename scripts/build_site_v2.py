@@ -7,6 +7,7 @@ import collections, csv, json, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pack_size import size_of, resolve_pack, pack_label, display_name
+from read_rules import read_pack, read_size
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = Path(sys.argv[1])
@@ -74,6 +75,7 @@ def build_data():
     if ltj.exists():
         lthumbs = _json.loads(ltj.read_text())
     uid_images = {}
+    uid_lids = {}                                       # uid -> [listing ids] (to read pack/size by the owner rule)
     uid_supthumb = collections.defaultdict(dict)       # uid -> {supplier_slug: index into THUMBS pool}
     thumb_pool = {}                                    # data-URI -> index (dedupe: identical photos stored once)
     for stem, tag in MAPS:
@@ -85,6 +87,7 @@ def build_data():
             if not code:
                 continue
             uid = f"{tag}:{code}"
+            uid_lids.setdefault(uid, []).append(m.get("id", ""))   # listing ids, to read pack/size by the owner rule
             u = imgurl.get(m.get("id", ""))
             if u and uid not in uid_images:                # first listing that has images = the product's gallery
                 uid_images[uid] = u[:4]
@@ -108,8 +111,20 @@ def build_data():
         pom = top in POM_TOP
         name = (r["product"] or uid).strip()
         pack = r["key_spec"]
-        size = size_of(r["key_spec"], name) or (r["key_spec"] or "")   # volume / strength
-        qty, _packflag = resolve_pack(name, r["pack"])                 # units per pack (owner rule: name-first)
+        # SIZE and PACK are read by the ONE shared owner rule (read_rules), identically for every category, from the
+        # product's own listing page(s) — not per-category guesses. First listing that states a value wins.
+        _lids = [x for x in uid_lids.get(uid, []) if x][:4]
+        size = ""
+        for _lid in (_lids or [None]):
+            size = read_size(name, _lid)
+            if size:
+                break
+        size = size or size_of(r["key_spec"]) or (r["key_spec"] or "")
+        qty = ""
+        for _lid in (_lids or [None]):
+            qty = read_pack(name, _lid)
+            if qty:
+                break
         name = display_name(name, qty)                                 # distinguish pack variants of the same item
         nsup = int(r["suppliers"])
         offers = {sk: [] for sk in sorted(members.get(uid, []))}
