@@ -10,6 +10,7 @@ import collections, csv, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from page_facts import page_text, labelled_fields, image_text
+from pack_size import single_pack
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
@@ -100,8 +101,11 @@ def _pack_from_text(s):
             n = int(b)                                   # bare 'A x B' -> B per pack
         if n is not None and 1 <= n <= 100000:
             return str(n)
-    m = re.search(r"(?:pack of|box of)\s*(\d{1,4})", t)
+    m = re.search(r"(?:pack|box|roll|set|bag|case|carton|tub|tube)\s+of\s*(\d{1,4})", t)
     if m and 1 <= int(m.group(1)) <= 10000:
+        return str(int(m.group(1)))
+    m = re.search(r"(?<![\d.])x\s*(\d{1,4})\b(?!\s*(?:cm|mm|ml|l|g|kg|mcg|mg|oz|inch|in|x|\.))", t)  # trailing 'x N' = N units
+    if m and 2 <= int(m.group(1)) <= 10000:
         return str(int(m.group(1)))
     m = re.search(r"\b(\d{1,4})\s*(?:pcs|pieces?|pairs?|sheets?|wipes?|swabs?|rolls?|sachets?|['’]s)\b", t)
     if m and 2 <= int(m.group(1)) <= 10000:
@@ -151,7 +155,13 @@ def pack_of(title, pid):
             pk = _pack_from_text(lf[key])
             if pk:
                 return pk
-    return _pack_from_desc(txt) or _pack_from_desc(image_text(pid))
+    pk = _pack_from_desc(txt) or _pack_from_desc(image_text(pid))
+    if pk:
+        return pk
+    # explicit 'single' = a pack of 1 (name, the labelled Size/Pack field, or the page) — owner rule
+    if single_pack(title, lf.get("size", ""), lf.get("pack", ""), lf.get("pack size", ""), txt[:600]):
+        return "1"
+    return ""
 
 
 # Known real brands for clinic consumables/PPE. A consumable gets a brand ONLY if one of these appears in its

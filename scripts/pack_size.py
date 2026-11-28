@@ -28,7 +28,27 @@ def qty_from_name(name):
         m = re.search(rx, name or "", re.I)
         if m and mn <= int(m.group(1)) <= 10000:
             return str(int(m.group(1)))
+    if single_pack(name):      # an EXPLICIT single ('single mask', '(single ...)', 'pack of 1') = a pack of 1
+        return "1"
     return ""
+
+
+# "single" as an explicit pack of 1 — but only when it counts the ITEM ('single mask', 'single pack', '(single …)',
+# 'pack of 1'), never when it describes usage ('single use', 'single dose', 'single patient', 'single application').
+_SINGLE = re.compile(r"\bpack of 1\b|\bbox of 1\b|\(?\s*single\s+"
+                     r"(?:mask|respirator|pack|unit|piece|item|vial|tube|bottle|sachet|wipe|dressing|applicator|"
+                     r"pair|roll|sheet|cartridge|syringe)s?\b", re.I)
+_SINGLE_USE = re.compile(r"\bsingle[\s-]*(?:use|dose|patient|application)\b", re.I)
+
+
+def single_pack(*texts):
+    for t in texts:
+        if not t:
+            continue
+        s = _SINGLE_USE.sub(" ", t)          # strip usage descriptors ('single use/dose/…') first, then look for
+        if _SINGLE.search(s):                # an explicit single ITEM ('single mask', '(single …)', 'pack of 1')
+            return True
+    return False
 
 
 def resolve_pack(name, catalogue_pack):

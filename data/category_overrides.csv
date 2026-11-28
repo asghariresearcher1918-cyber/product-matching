@@ -1459,17 +1459,22 @@ R10322,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: ad
 R10342,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R10443,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
 R10497,Medicine - injectable / anaesthetic / emergency,re-filed from Devices: adrenaline auto-injector (emergency medicine)
-R07685,Biostimulator,"HArmonyCa (Harmony CA) hybrid - filed with biostimulators"
-R07727,Biostimulator,"HArmonyCa (Harmony CA) hybrid - filed with biostimulators"
+R07685,Biostimulator,HArmonyCa (Harmony CA) hybrid - filed with biostimulators
+R07727,Biostimulator,HArmonyCa (Harmony CA) hybrid - filed with biostimulators
 R06372,Skin booster / polynucleotide / mesotherapy,"Doublyx Evo = non-crosslinked HA booster (Xcelens), not a biostimulator"
 R06484,Skin booster / polynucleotide / mesotherapy,"Linerase Hydro = HA booster (Mastelli), not a biostimulator"
-R09498,Skin booster / polynucleotide / mesotherapy,"Linerase Hydro = HA booster"
-A01580,Skin booster / polynucleotide / mesotherapy,"Linerase Hydro = HA booster"
-R09500,Skin booster / polynucleotide / mesotherapy,"Linerase Hydro + PN bundle"
-R09509,Skin booster / polynucleotide / mesotherapy,"Remedium PDRN + Linerase Hydro bundle"
-R09522,Skin booster / polynucleotide / mesotherapy,"Mastelli Plinest + Linerase Hydro bundle"
+R09498,Skin booster / polynucleotide / mesotherapy,Linerase Hydro = HA booster
+A01580,Skin booster / polynucleotide / mesotherapy,Linerase Hydro = HA booster
+R09500,Skin booster / polynucleotide / mesotherapy,Linerase Hydro + PN bundle
+R09509,Skin booster / polynucleotide / mesotherapy,Remedium PDRN + Linerase Hydro bundle
+R09522,Skin booster / polynucleotide / mesotherapy,Mastelli Plinest + Linerase Hydro bundle
 R06388,"Skincare, haircare & peels","Elysiha Eyes = topical PDRN/HA/collagen serum (Caromed Italia), not injectable"
 R06389,"Skincare, haircare & peels","Elysiha Face = topical PDRN/HA/collagen serum (Caromed Italia), not injectable"
-R05939,"Needles, cannulas & syringes","Lemon Bottle injection kit = syringes+needles only (not solution) - owner 2026-11-26"
-R07931,"Needles, cannulas & syringes","Lemon Bottle starter pack = injection consumables - owner"
-R10368,"Needles, cannulas & syringes","lemon bottle injection kit = consumables - owner"
+R05939,"Needles, cannulas & syringes",Lemon Bottle injection kit = syringes+needles only (not solution) - owner 2026-11-26
+R07931,"Needles, cannulas & syringes",Lemon Bottle starter pack = injection consumables - owner
+R10368,"Needles, cannulas & syringes",lemon bottle injection kit = consumables - owner
+R00381,Clinic consumables & PPE,"3M KN90 respirator (PPE, not skincare)"
+R01452,Clinic consumables & PPE,KN95/FFP2 particulate respirator (PPE)
+R07583,Clinic consumables & PPE,FFP3 respirator mask (PPE)
+R07595,Clinic consumables & PPE,FFP3 respirator mask x5 (PPE)
+A00575,Clinic consumables & PPE,KN95-FFP2 particulate respirator (PPE)

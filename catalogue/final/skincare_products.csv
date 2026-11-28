@@ -348,7 +348,7 @@ PCA-SKIN-FACIAL-WASH-OILYPROBLEM-29.6ML,Cleanser / wash,PCA Skin,facial wash oil
 PCA-SKIN-FACIAL-WASH-OILYPROBLEM-473.2ML,Cleanser / wash,PCA Skin,facial wash oilyproblem,473.2ml,1,1
 PAPAYA-ENZYME-CLEANSER,Cleanser / wash,Papaya,Enzyme Cleanser,,1,1
 PHA-FACIAL-CLEANSER,Cleanser / wash,Pha,Facial Cleanser,,1,1
-SKIN-PROFHILO-PURAMICELLARWATER,Cleanser / wash,Profhilo,Profhilo Pura Micellar Water,400ml,4,5
+PROFHILO-TOPICAL-PURA-MICELLAR-WATER-400ML,Cleanser / wash,Profhilo (topical),pura micellar water,400ml,2,2
 Q+SOD-ACTIVE-CLEANSER,Cleanser / wash,Q+Sod,Active Cleanser,,1,1
 QUINODERM-FACE-WASH-150ML,Cleanser / wash,Quinoderm,face wash,150ml,1,1
 RAIN-BALANCING-CLEANSER,Cleanser / wash,Rain,Balancing Cleanser,,1,1
@@ -634,7 +634,6 @@ THERADERM-ANTIAGEING-LIP-COMPLEX-0.25OZ,Lip care,Theraderm,antiageing lip comple
 TINTED-YOUTHFULL-LIP-REPLENISHER-9.4G,Lip care,Tinted,YouthFull Lip Replenisher,9.4g,1,2
 YOUTHFULL-LIP-REPLENISHER,Lip care,Youthfull,Lip Replenisher,,1,2
 +MASKOLOGY-HYALURONIC-ACID-HYDRATING-SHEET-MASK,Mask,+Maskology,Hyaluronic Acid Hydrating Sheet Mask,,1,1
-3M-KN90-FACE-MASK,Mask,3M,kn90 face mask,,1,1
 AMEELA-PDRN-FACE-MASK,Mask,Ameela,PDRN Face Mask,,1,1
 AMIKO-POST-MASK-200ML,Mask,Amiko,POST MASK,200ml,1,1
 AOP-KF-ANTIINFLUZENA-MASK-SINGLE,Mask,Aop,kf antiinfluzena mask single,,1,1
@@ -682,7 +681,6 @@ EXOCELL-EXOSOME-MASK-BY-PROMOITALIA,Mask,Exocell,exosome mask by promoitalia,,1,
 EXOCELL-EXOSOME-MASK-BY-PROMOITALIA-SINGLE,Mask,Exocell,exosome mask by promoitalia single,,1,1
 EXUVIANCE-PICK-ME-UP-PLUMPING-MASK,Mask,Exuviance,Pick Me Up Plumping Mask,,1,3
 FACE-MASK-BRUSH,Mask,Face,Mask Brush,,1,1
-FFP3-RESPIRATOR-MASK,Mask,Ffp3,Respirator Mask,,1,2
 FILLMED-GR-YOUTH-MASK-50ML,Mask,Fillmed,GR YOUTH MASK,50ml,1,1
 FILLMED-GRYOUTH-MASK-500ML,Mask,Fillmed,gryouth mask,500ml,1,1
 FILLMED-GRYOUTH-MASK-50ML,Mask,Fillmed,gryouth mask,50ml,1,1
@@ -703,8 +701,6 @@ IROHA-MOISTURISING-FACE-MASK-ALOE-VERA,Mask,Iroha,moisturising face mask aloe ve
 IROHA-NOURISHING-FOOT-MASK-SOCKS-ARGAN,Mask,Iroha,nourishing foot mask socks argan,,1,1
 JALUPRO-FACE-MASK,Mask,Jalupro,face mask,,1,1
 JALUPRO-FACE-MASK-11,Mask,Jalupro,face mask 11,,1,1
-KN95-FFP2-PARTICULATE-MASK,Mask,Kn95-Ffp2,Particulate Mask,,1,1
-KN95FFP2-PARTICULATE-MASK,Mask,Kn95Ffp2,particulate mask,,1,1
 LCA-PHARMACEUTICAL-HYDROFILL-MASQUE,Mask,LCA Pharmaceutical,Hydrofill Masque,,1,1
 LED-RED-LIGHT-THERAPY-MASK,Mask,Led,Red Light Therapy Mask,,1,1
 LHM-PROCEDURE-MASK-PINK-50,Mask,Lhm,Procedure Mask PINK 50,,1,1
@@ -1006,8 +1002,8 @@ PCA-SKIN-SILKCOAT-BALM-7.1G,Moisturiser / cream,PCA Skin,silkcoat balm,7.1g,1,1
 PCA-SKIN-SILKCOAT-BALM-OUTER-DAMAGED-BUT-48.2G,Moisturiser / cream,PCA Skin,silkcoat balm outer damaged but,48.2g,1,1
 PRIORI-MOISTURISING-FACIAL-CREAM-COMPLEX,Moisturiser / cream,Priori,Moisturising Facial Cream Complex,,1,1
 PRIORI-PERFECTION-FACIAL-GEL,Moisturiser / cream,Priori,Perfection Facial Gel,,1,1
-SKIN-PROFHILO-FIGURABODYCREAM,Moisturiser / cream,Profhilo,Profhilo Figura Body Cream,150ml,3,4
-SKIN-PROFHILO-HAENKENIUMCREAM,Moisturiser / cream,Profhilo,Profhilo Haenkenium Cream,50ml,6,7
+PROFHILO-TOPICAL-FIGURA-BODY-CREAM-150ML,Moisturiser / cream,Profhilo (topical),figura body cream,150ml,3,4
+PROFHILO-TOPICAL-HAENKENIUM-CREAM-50ML,Moisturiser / cream,Profhilo (topical),Haenkenium Cream,50ml,3,4
 PURASOMES-GF20-CREAM-50ML,Moisturiser / cream,Purasomes,GF20 Cream,50ml,1,1
 PURI-LIPS-BALM,Moisturiser / cream,Puri,lips balm,,1,1
 Q+SOD-AGE-RENEW-MOISTURIZING-CREAM,Moisturiser / cream,Q+Sod,Age Renew Moisturizing Cream,,1,1
@@ -1634,6 +1630,8 @@ POST-PROCEDURE-HYDROGEL-BELOTERO-HEATCOOL,Other skincare,Post,procedure hydrogel
 PRIORI-DAILY-REFRESH-DUO,Other skincare,Priori,Daily Refresh Duo,,1,1
 PROCEDURE-PREP-RECOVER-REGIMEN,Other skincare,Procedure,Prep Recover Regimen,,1,1
 PROFESSIONAL-WAKE-UP-TONIC-500ML,Other skincare,Professional,Wake Up Tonic,500ml,1,1
+PROFHILO-TOPICAL-HAENKENIUM-50ML,Other skincare,Profhilo (topical),haenkenium,50ml,3,3
+PROFHILO-TOPICAL-PURA-400ML,Other skincare,Profhilo (topical),pura,400ml,2,3
 PRX-PLUS-4ML,Other skincare,Prx,Plus,4ml,1,1
 PRX-POST-DRY-FACIAL,Other skincare,Prx,Post Dry facial,,1,1
 PRX-POST-DRY-NORMAL-FACIAL,Other skincare,Prx,Post Dry normal facial,,1,1
