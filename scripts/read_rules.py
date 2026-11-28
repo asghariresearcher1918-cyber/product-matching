@@ -83,6 +83,38 @@ def read_pack(title, pid):
     return "1" if single_pack(title) else ""
 
 
+_CODE_RX = re.compile(r"(?:quickfind\s*code|product\s*code|sku|item\s*code|\bcode)\s*[:#]?\s*([A-Za-z0-9][A-Za-z0-9\-]{2,})", re.I)
+
+
+def _page_codes(pid):
+    """The shop's own product/SKU/QuickFind code(s) shown on the page, lower-cased for comparison."""
+    if not pid:
+        return set()
+    txt = page_text(pid)
+    codes = {m.group(1).lower() for m in _CODE_RX.finditer(txt)}
+    lf = labelled_fields(txt)
+    for k in ("sku", "product code", "quickfind code"):
+        if lf.get(k):
+            codes.add(re.sub(r"[^a-z0-9\-]", "", lf[k].lower()))
+    return {c for c in codes if c}
+
+
+def strip_shop_code(title, pid):
+    """Remove a trailing number/code from the NAME only when it is the shop's own product code read from the page
+    (owner rule). A trailing number that is a size / length / volume, or a blade number like 'No. 15C', is kept —
+    it is not in the code field, so it stays. E.g. '… No. 15C (0221)' -> '… No. 15C' because the page says 'code: 0221'.
+    """
+    if not title:
+        return title
+    m = re.search(r"\s*[\(\[]?\s*([A-Za-z]{0,4}\d[A-Za-z0-9]*)\s*[\)\]]?\s*$", title)   # a trailing code-like token
+    if not m:
+        return title
+    tail = re.sub(r"[^a-z0-9\-]", "", m.group(1).lower())
+    if tail and tail in _page_codes(pid):
+        return title[:m.start()].rstrip(" -–—([")
+    return title
+
+
 def read_size(title, pid):
     """Volume / strength by the owner rule (name -> labelled Size/Strength/Volume field -> page text). '' when none."""
     s = size_of(title)                                     # 1. NAME

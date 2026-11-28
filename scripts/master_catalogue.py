@@ -145,15 +145,22 @@ def main():
     tp = ROOT / "data/title_overrides.csv"
     if tp.exists():
         tov = {r["id"]: r["title"] for r in csv.DictReader(open(tp, encoding="utf-8")) if r.get("title")}
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT / "scripts"))
+    from read_rules import strip_shop_code
+    _tail = re.compile(r"[\(\[]?\s*[A-Za-z]{0,4}\d[A-Za-z0-9]*\s*[\)\]]?\s*$")   # ends in a code-like token?
     idx = []
     for fn, cat, tag in MAPS:
         p = FINAL / fn
         if not p.exists(): continue
         for r in csv.DictReader(open(p, encoding="utf-8")):
             if not r.get("code"): continue
+            lid = r.get("id", "")
+            title = tov.get(lid, r.get("title", ""))
+            if _tail.search(title):                 # only read the page when a trailing shop-code is possible
+                title = strip_shop_code(title, lid)
             idx.append({"uid": f"{tag}:{r['code']}", "category": cat, "supplier": r.get("supplier", ""),
-                        "listing_title": tov.get(r.get("id", ""), r.get("title", "")),
-                        "url": r.get("url", ""), "confidence": r.get("confidence", "")})
+                        "listing_title": title, "url": r.get("url", ""), "confidence": r.get("confidence", "")})
     with open(FINAL / "master_listing_index.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["uid", "category", "supplier", "listing_title", "url", "confidence"]); w.writeheader(); w.writerows(idx)
 
