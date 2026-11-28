@@ -105,7 +105,14 @@ def read_packaging(title, pid):
                     nested = f"{mn.group(1).lower()} of {mn.group(2)} {mn.group(3).lower()}"
             return q, u, nested
     q = read_pack(title, pid)                    # falls through to labelled field / description / OCR (number only)
-    return q, "", ""
+    if q:
+        return q, "", ""
+    # 'Each' as the packaging slot = sold singly = a pack of 1 (owner rule), unless a number was stated (handled above)
+    for src in ([title] if title else []) + ([page_text(pid)] if pid else []):
+        if re.search(r"[\(\[]\s*each\s*[\)\]]|\bsold\s+(?:each|singly|individually)\b|\bpriced\s+each\b|"
+                     r"£\s*\d[\d.]*\s*each\b", src, re.I):
+            return "1", "", ""
+    return "", "", ""
 
 
 def read_pack(title, pid):
