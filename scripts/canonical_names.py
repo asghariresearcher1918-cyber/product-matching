@@ -33,8 +33,13 @@ def clean(t):
     t = re.sub(r"[®™©]", "", t)          # ® ™ ©
     t = NOISE.sub(" ", t)
     t = NOTE.sub(" ", t)
-    # drop parenthetical NOTES (no size/pack digit inside); keep "(1 x 2ml)" etc.
-    t = re.sub(r"\(([^)]*)\)", lambda m: m.group(0) if re.search(r"\d", m.group(1)) else " ", t)
+    # drop parenthetical marketing NOTES, but KEEP a parenthetical that carries identity: a size/pack digit, or an
+    # attribute that makes the product different — sterile / non-sterile / disposable / ply / material / colour / side
+    # / fit. (owner rule: sterile/non-sterile must never be dropped from the name.)
+    _KEEP_PAREN = re.compile(r"\d|sterile|disposable|\bply\b|latex|nitrile|vinyl|polyisoprene|powder|"
+                             r"black|blue|white|green|clear|pink|purple|\bleft\b|\bright\b|"
+                             r"\b(?:x-?)?small\b|\bmedium\b|\blarge\b|\bx-?large\b|\bxs\b|\bxl\b", re.I)
+    t = re.sub(r"\(([^)]*)\)", lambda m: m.group(0) if _KEEP_PAREN.search(m.group(1)) else " ", t)
     t = re.sub(r"^\s*single\s+", "", t, flags=re.I)     # leading "Single ..."
     t = re.sub(r"\(\s*\)", "", t)
     t = re.sub(r"\s+", " ", t)

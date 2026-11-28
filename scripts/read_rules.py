@@ -115,6 +115,32 @@ def strip_shop_code(title, pid):
     return title
 
 
+_NONSTERILE = re.compile(r"\bnon[\s-]*sterile\b", re.I)
+_STERILE = re.compile(r"(?<!non[\s-])\bsterile\b", re.I)
+
+
+def sterility(title, pid):
+    """'Sterile' or 'Non-sterile' when the NAME or the product's own page states it (critical for surgical items);
+    '' when neither does. Never guessed. Non-sterile is checked first so 'non-sterile' is not read as 'sterile'."""
+    for src in (title or "", page_text(pid) if pid else ""):
+        if not src:
+            continue
+        if _NONSTERILE.search(src):
+            return "Non-sterile"
+        if _STERILE.search(src):
+            return "Sterile"
+    return ""
+
+
+def ensure_sterility(title, pid):
+    """Keep sterile/non-sterile in the name, and ADD it from the page when the name omits it (owner rule: it must
+    stay in the title we show). Returns the name unchanged if its sterility is already stated or the page is silent."""
+    if not title or _NONSTERILE.search(title) or _STERILE.search(title):
+        return title
+    s = sterility("", pid)
+    return f"{title} — {s}" if s else title
+
+
 def read_size(title, pid):
     """Volume / strength by the owner rule (name -> labelled Size/Strength/Volume field -> page text). '' when none."""
     s = size_of(title)                                     # 1. NAME

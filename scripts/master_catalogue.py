@@ -147,7 +147,7 @@ def main():
         tov = {r["id"]: r["title"] for r in csv.DictReader(open(tp, encoding="utf-8")) if r.get("title")}
     import sys as _sys
     _sys.path.insert(0, str(ROOT / "scripts"))
-    from read_rules import strip_shop_code
+    from read_rules import strip_shop_code, ensure_sterility
     _tail = re.compile(r"[\(\[]?\s*[A-Za-z]{0,4}\d[A-Za-z0-9]*\s*[\)\]]?\s*$")   # ends in a code-like token?
     idx = []
     for fn, cat, tag in MAPS:
@@ -159,6 +159,7 @@ def main():
             title = tov.get(lid, r.get("title", ""))
             if _tail.search(title):                 # only read the page when a trailing shop-code is possible
                 title = strip_shop_code(title, lid)
+            title = ensure_sterility(title, lid)    # keep sterile/non-sterile in the name; add it when the page states it
             idx.append({"uid": f"{tag}:{r['code']}", "category": cat, "supplier": r.get("supplier", ""),
                         "listing_title": title, "url": r.get("url", ""), "confidence": r.get("confidence", "")})
     with open(FINAL / "master_listing_index.csv", "w", newline="", encoding="utf-8") as f:

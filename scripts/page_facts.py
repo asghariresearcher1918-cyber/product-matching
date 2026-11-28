@@ -6,6 +6,7 @@
 Related-product blocks ("You may also like", "Bestseller" ...) are cut off so other products' facts never leak in.
 Usage (module): from page_facts import page_text, labelled_fields, image_text"""
 import glob, re, subprocess
+from functools import lru_cache
 from pathlib import Path
 from bs4 import BeautifulSoup
 
@@ -30,6 +31,7 @@ def _file(pid):
     return None
 
 
+@lru_cache(maxsize=20000)
 def page_text(pid):
     """Whole page text (all tabs), header/nav/footer removed, cut before the first related-products block."""
     f = _file(pid)
