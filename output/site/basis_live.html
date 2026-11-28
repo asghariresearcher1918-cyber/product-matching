@@ -1323,10 +1323,12 @@
     var words = name.split(/[^a-z0-9+]+/).filter(Boolean);
     if(words.indexOf(q)>-1) return 820;                       // query is a whole word in the name
     for(var i=0;i<words.length;i++){ if(words[i].length>q.length && words[i].indexOf(q)===0) return 760; } // a word starts with it
-    var idx = name.indexOf(q);
-    if(idx>0) return 600 - Math.min(idx,180);                 // contained somewhere (earlier position ranks higher)
-    if(q.length>=3){                                          // close spelling to any word in the name
-      var best=9; for(var j=0;j<words.length;j++){ var d=_lev(words[j], q); if(d<best) best=d; }
+    var idx = name.indexOf(q);                                // contained, but only at a WORD BOUNDARY — so "ice"
+    if(idx>0 && /[^a-z0-9+]/.test(name.charAt(idx-1)))        // matches "Ice Pack"/"lip balm", never "Med(ice)utics"
+      return 600 - Math.min(idx,180);                         // (earlier position ranks higher)
+    if(q.length>=4){                                          // close spelling to a SIMILAR-LENGTH word (typo tier);
+      var best=9; for(var j=0;j<words.length;j++){            // length guard stops short tokens ("ce") matching "ice"
+        if(words[j].length>=q.length-1){ var d=_lev(words[j], q); if(d<best) best=d; } }
       var tol = q.length>=6?2:1;
       if(best<=tol) return 260 - best*30;
     }
@@ -1405,7 +1407,7 @@
     var q = this.value.trim().toLowerCase();
     var box = document.getElementById('heroAutocomplete');
     if(!q){ hideAutocomplete(); return; }
-    acMatches = matchProducts(q).slice(0, 8);      // show the 8 best-ranked suggestions
+    acMatches = matchProducts(q).slice(0, 20);     // show the 20 best-ranked suggestions
     acIndex = -1;
     if(acMatches.length===0){ hideAutocomplete(); return; }
     box.innerHTML = '';
