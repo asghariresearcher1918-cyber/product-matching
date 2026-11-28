@@ -74,7 +74,8 @@ def build_data():
     if ltj.exists():
         lthumbs = _json.loads(ltj.read_text())
     uid_images = {}
-    uid_supthumb = collections.defaultdict(dict)       # uid -> {supplier_slug: data-URI of that supplier's photo}
+    uid_supthumb = collections.defaultdict(dict)       # uid -> {supplier_slug: index into THUMBS pool}
+    thumb_pool = {}                                    # data-URI -> index (dedupe: identical photos stored once)
     for stem, tag in MAPS:
         p = ROOT / f"catalogue/final/{stem}_listing_map.csv"
         if not p.exists():
@@ -90,7 +91,10 @@ def build_data():
             th = lthumbs.get(m.get("id", ""))
             sk = sslug(m.get("supplier", ""))
             if th and sk and sk not in uid_supthumb[uid]:  # first thumb per supplier for this product
-                uid_supthumb[uid][sk] = th
+                idx = thumb_pool.get(th)
+                if idx is None:
+                    idx = thumb_pool[th] = len(thumb_pool)
+                uid_supthumb[uid][sk] = idx
 
     PRODUCTS = {}
     for uid, r in prods.items():
@@ -134,18 +138,23 @@ def build_data():
                                "pom": pom, "suppliers": nsup, "defaultQty": 1, "offers": offers,
                                "desc": desc, "details": details, "examples": examples.get(uid, []),
                                "images": uid_images.get(uid, []),
-                               "supThumbs": _sth}      # per-supplier photos; the product thumb is derived JS-side
-                                                       # (first value) so a big data-URI is never stored twice
-    return PRODUCTS, SUPPLIERS
+                               "supThumbs": _sth}      # per-supplier photos as indices into THUMBS; the product
+                                                       # thumb is derived JS-side (first value)
+    THUMBS = [None] * len(thumb_pool)
+    for uri, idx in thumb_pool.items():
+        THUMBS[idx] = uri
+    return PRODUCTS, SUPPLIERS, THUMBS
 
 
 def main():
-    PRODUCTS, SUPPLIERS = build_data()
+    PRODUCTS, SUPPLIERS, THUMBS = build_data()
     html = SRC.read_text(encoding="utf-8")
     js_sup = "var SUPPLIERS = " + json.dumps(SUPPLIERS, ensure_ascii=False) + ";"
     js_prd = "var PRODUCTS = " + json.dumps(PRODUCTS, ensure_ascii=False, separators=(",", ":")) + ";"
+    js_thm = "var THUMBS = " + json.dumps(THUMBS, ensure_ascii=False, separators=(",", ":")) + ";"
     html, n1 = re.subn(r"var SUPPLIERS = \{.*?\n  \};", lambda m: js_sup, html, count=1, flags=re.S)
     html, n2 = re.subn(r"var PRODUCTS = \{.*?\n  \};", lambda m: js_prd, html, count=1, flags=re.S)
+    html, nt = re.subn(r"var THUMBS = \[.*?\];", lambda m: js_thm, html, count=1, flags=re.S)
     assert n1 == 1 and n2 == 1, f"block replace failed: SUP={n1} PRD={n2}"
 
     order = [TOP[k][0] for k in ["C01", "C02", "C03", "C04", "C05", "C06", "C07", "C08", "C09", "C10", "C11", "C12", "C13", "C14", "WLM"]]
