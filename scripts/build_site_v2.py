@@ -122,9 +122,11 @@ def build_data():
         size = size or size_of(r["key_spec"]) or (r["key_spec"] or "")
         qty = ""
         for _lid in (_lids or [None]):
-            qty = read_pack(name, _lid)
+            qty = read_pack(name, _lid)                 # owner rule: name -> labelled field -> description -> OCR
             if qty:
                 break
+        if not qty:
+            qty, _ = resolve_pack(name, r["pack"])      # fall back to the matched catalogue pack (branded pen/vial/syringe)
         name = display_name(name, qty)                                 # distinguish pack variants of the same item
         nsup = int(r["suppliers"])
         offers = {sk: [] for sk in sorted(members.get(uid, []))}

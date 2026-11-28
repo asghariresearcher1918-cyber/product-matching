@@ -15,7 +15,8 @@ except Exception:
     def page_text(_i): return ""
     def labelled_fields(_t): return {}
 from build_site_v2 import TOP, POM_TOP, top_of
-from pack_size import display_name
+from pack_size import display_name, resolve_pack
+from read_rules import read_pack
 
 ROOT = Path(__file__).resolve().parent.parent
 FINAL = ROOT / "catalogue/final"
@@ -202,24 +203,22 @@ def main():
                 if pr:
                     price = pr; break
         crumb = f'{want} {label}' + (f' › {t["subcategory"]} ({t["subcategory_id"]})' if t["subcategory"] else "")
-        if p.get("pack"):
-            base = str(p["pack"])
-            nq = qty_of(t["product"])                        # owner rule: an explicit count in the NAME is primary
-            if nq:
-                qty = nq
-                if nq != base:
-                    qty_conflicts.append((t["product"], f"PACK — name says {nq}, catalogue had {base}; using name",
-                                          (idx.get(uid, [{}])[0] or {}).get("url", "")))
-            elif base == "1" and re.search(r"tablet|capsule|\bcaps?\b|\bclone\b|oral", t["product"], re.I):
-                qty = ""                                      # oral solid, pack not stated in name or page -> do not guess
-                qty_conflicts.append((t["product"], "QTY not stated in name/page — confirm pack size",
-                                      (idx.get(uid, [{}])[0] or {}).get("url", "")))
-            else:
-                qty = base                                   # branded pen/vial: matcher read name+page+image
-        else:
-            qty, qnote = qty_confirm(t["product"], [l["id"] for l in idx.get(uid, [])])
-            if qnote:
-                qty_conflicts.append((t["product"], qnote, (idx.get(uid, [{}])[0] or {}).get("url", "")))
+        # PACK by the ONE shared owner rule (read_rules), identical to the website: name -> labelled Size/Pack field
+        # -> description -> image OCR, read from the product's own listing page(s); then the matched catalogue pack.
+        qty = ""
+        for l in idx.get(uid, [])[:4]:
+            qty = read_pack(t["product"], l.get("id", ""))
+            if qty:
+                break
+        base = str(p.get("pack") or "")
+        if not qty:
+            qty, _ = resolve_pack(t["product"], base)        # fall back to the matched catalogue pack
+        if base and qty and base != qty:                     # tell the owner where name/page and catalogue disagree
+            qty_conflicts.append((t["product"], f"PACK — read {qty}, catalogue had {base}; using read value",
+                                  (idx.get(uid, [{}])[0] or {}).get("url", "")))
+        elif not qty and re.search(r"tablet|capsule|\bcaps?\b|oral", t["product"], re.I):
+            qty_conflicts.append((t["product"], "QTY not stated in name/page — confirm pack size",
+                                  (idx.get(uid, [{}])[0] or {}).get("url", "")))
         rx = "Yes (POM)" if pom else "No"
         if pom and re.search(r"\botc\b|pharmacy only|\bp[\s-]medicine|over[\s-]the[\s-]counter",
                              f'{p.get("verified","")} {p.get("market","")} {p.get("man","")}', re.I):
