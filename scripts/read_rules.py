@@ -91,26 +91,51 @@ def _unit_qty(text):
     return "", ""
 
 
+_SOLD = re.compile(r"\b\d[\d,]*\s*sold\b|\bsold\s*:?\s*\d[\d,]*\b", re.I)   # 'N sold' = units sold, NOT the pack
+
+
+def _clean_src(s):
+    return _SOLD.sub(" ", s or "")                     # owner rule: the number next to 'sold' is irrelevant
+
+
 def read_packaging(title, pid):
     """Owner rule: read the pack AND its real unit word from the product's own page. Returns (qty, unit, nested_note).
     The unit is the word the shop used (box/pack/case/roll/… or a content noun); '' when only a bare count is given.
-    nested_note is set when the page states two levels (e.g. 'box of 20 packs') so it is never flattened silently."""
-    for src in ([title] if title else []) + ([page_text(pid)] if pid else []):
-        q, u = _unit_qty(src)
-        if q:
-            nested = ""
-            if pid:
-                mn = _NESTED_RX.search(page_text(pid))
-                if mn:
-                    nested = f"{mn.group(1).lower()} of {mn.group(2)} {mn.group(3).lower()}"
-            return q, u, nested
-    q = read_pack(title, pid)                    # falls through to labelled field / description / OCR (number only)
+    nested_note is set when the page states two levels (e.g. 'box of 20 packs') so it is never flattened silently.
+    The number next to 'sold' (units already sold) is ignored everywhere."""
+    # 1. an explicit count in the NAME
+    q, u = _unit_qty(title)
     if q:
-        return q, "", ""
-    # 'Each' as the packaging slot = sold singly = a pack of 1 (owner rule), unless a number was stated (handled above)
-    for src in ([title] if title else []) + ([page_text(pid)] if pid else []):
+        return q, u, ""
+    txt = _clean_src(page_text(pid)) if pid else ""
+    nested = ""
+    if txt:
+        mn = _NESTED_RX.search(txt)
+        if mn:
+            nested = f"{mn.group(1).lower()} of {mn.group(2)} {mn.group(3).lower()}"
+    if txt:
+        # 2. the shop's packaging SLOT: '( Box 10 )' / '( Each )' — the actual unit field, high confidence
+        m = re.search(r"[\(\[]\s*(each)\s*[\)\]]|[\(\[]\s*(" + _CONT_RX + r")\s*(?:of\s+)?(\d{1,4})\s*[\)\]]", txt, re.I)
+        if m:
+            return ("1", "", nested) if m.group(1) else (m.group(3), _sing(m.group(2)), nested)
+        # 3. the authoritative 'this pack contains N' / 'box contains N' statement
+        m = re.search(r"\b(?:this\s+|each\s+)?(?:pack|box|case|carton|bag|kit|pouch)\s+contains?\s*:?\s*(\d{1,4})\b", txt, re.I)
+        if m and 1 <= int(m.group(1)) <= 100000:
+            return m.group(1), "", nested
+        # 4. a loose 'Box of N' / 'N wipes' in the body — but NOT inside an 'available in … or cases of N' options clause
+        for mm in re.finditer(r"(.{0,22})((?:" + _CONT_RX + r")\s*(?:of\s+)?\d{1,4}|\d{1,4}\s*(?:" + _NOUN_RX + r"))", txt, re.I):
+            if re.search(r"\bavailable\s+in\b|\balso\s+available\b|\bsingles?\s+or\b|\bor\s+(?:a\s+)?(?:box|case|pack|carton)\b", mm.group(1), re.I):
+                continue
+            qq, uu = _unit_qty(mm.group(2))
+            if qq:
+                return qq, uu, nested
+    q = read_pack(title, pid)                     # 5. labelled field / description / OCR (number only)
+    if q:
+        return q, "", nested
+    # 6. 'Each' / 'Single use' = a pack of 1 (owner rule), unless a number was stated above
+    for src in ([title] if title else []) + ([txt] if txt else []):
         if re.search(r"[\(\[]\s*each\s*[\)\]]|\bsold\s+(?:each|singly|individually)\b|\bpriced\s+each\b|"
-                     r"£\s*\d[\d.]*\s*each\b", src, re.I):
+                     r"£\s*\d[\d.]*\s*each\b|\bsingle[\s-]*use\b", src, re.I):
             return "1", "", ""
     return "", "", ""
 
@@ -198,9 +223,19 @@ def ensure_sterility(title, pid):
     return f"{title} — {s}" if s else title
 
 
+_DIM = re.compile(r"\b(\d{1,4}(?:\.\d+)?\s*(?:x|×|\*)\s*\d{1,4}(?:\.\d+)?(?:\s*(?:x|×)\s*\d{1,4}(?:\.\d+)?)?\s*"
+                  r"(?:mm|cm|m|inch|in|\"))", re.I)
+
+
+def _dim(text):
+    m = _DIM.search(text or "")
+    return re.sub(r"\s+", "", m.group(1)).replace("*", "x").replace("×", "x") if m else ""
+
+
 def read_size(title, pid):
-    """Volume / strength by the owner rule (name -> labelled Size/Strength/Volume field -> page text). '' when none."""
-    s = size_of(title)                                     # 1. NAME
+    """Volume / strength / dimensions by the owner rule (name -> labelled Size field -> page). '' when none.
+    A dimension like '13x13cm' or '457x725x975mm' is a size too."""
+    s = size_of(title) or _dim(title)                      # 1. NAME (volume/strength, or a dimension)
     if s:
         return s
     if pid:
@@ -208,10 +243,10 @@ def read_size(title, pid):
         lf = labelled_fields(txt)
         for key in ("size", "strength", "volume"):         # 2. labelled field
             if lf.get(key):
-                s = size_of(lf[key])
+                s = size_of(lf[key]) or _dim(lf[key])
                 if s:
                     return s
-        s = size_of(txt[:400])                             # 3. page text
+        s = size_of(txt[:400]) or _dim(txt[:400])          # 3. page text
         if s:
             return s
     return ""

@@ -7,7 +7,7 @@ import collections, csv, json, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pack_size import size_of, resolve_pack, pack_label, display_name
-from read_rules import read_pack, read_size, read_packaging
+from read_rules import read_pack, read_size, read_packaging, sterility
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = Path(sys.argv[1])
@@ -135,7 +135,15 @@ def build_data():
         made = f" Made by {r['manufacturer']}." if r["manufacturer"] else ""
         avail_txt = ("Compared across %d suppliers in our catalogue." % nsup if nsup > 1
                      else "Currently listed by a single supplier (price comparison turns on when a second supplier carries it).")
-        desc = f"{name} — {disp}" + (f" › {sub}" if sub else "") + f".{made} {avail_txt}"
+        # sterility belongs in the NAME only when the shop's title carries it; otherwise it is surfaced here, in the
+        # description — never forced into the name (owner rule).
+        _ster = ""
+        if not re.search(r"\bnon[\s-]*sterile\b|\bsterile\b", name, re.I):
+            for _lid in (_lids or [None]):
+                _ster = sterility("", _lid)
+                if _ster:
+                    break
+        desc = f"{name} — {disp}" + (f" › {sub}" if sub else "") + f".{made}" + (f" {_ster}." if _ster else "") + f" {avail_txt}"
         # fixed product-page layout (owner spec): these seven rows always shown, in this order; Size left blank when
         # the product has no volume/strength; Official reference appended when a licence/SmPC link exists.
         details = [

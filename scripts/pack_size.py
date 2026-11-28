@@ -85,18 +85,10 @@ def resolve_pack(name, catalogue_pack):
     return cp, ""
 
 
-def display_name(name, qty, unit=""):
-    """Append the pack to a product name when it is a real multipack and the name does not already carry the count,
-    so two pack variants of the same item are distinguishable — using the shop's real unit word ('(Box of 10)'),
-    never an invented 'pack' (owner rule)."""
-    name = name or ""
-    q = str(qty or "")
-    if q and q not in ("", "1") and q not in name \
-            and not re.search(r"\(\s*(?:box|pack|case|carton|roll|set|bag|tub|kit)\b", name, re.I):
-        pp = pack_phrase(q, unit)
-        tail = pp if (unit or "").lower() in _CONTAINER_WORDS else (f"x{q}" if not unit else pp)
-        return f"{name} ({tail})"
-    return name
+def display_name(name, qty="", unit=""):
+    """The product NAME is the shop's real title, unchanged. Pack/size is NEVER appended to the name (owner rule);
+    it is shown only in the small subtitle under the name. (qty/unit kept for signature compatibility.)"""
+    return name or ""
 
 
 _CONTAINER_WORDS = {"box", "pack", "case", "carton", "roll", "set", "bag", "pouch", "kit", "tub", "dispenser",
